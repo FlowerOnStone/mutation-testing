@@ -11,7 +11,7 @@ path_file_code = path_file_code + file_report[0]
 file_code = open(path_file_code, 'r')
 file_code = file_code.readlines()
 
-isCoverage = [0 for index in range(0, len(file_code) + 1)]
+isCoverage = [1 for index in range(0, len(file_code) + 1)]
 fields = 0
 line = 0
 while line < len(file_report):
@@ -37,7 +37,7 @@ while line < len(file_report):
         else:
             start_line = start_line * 10 + int(string[index])
     for index in range(start_line, end_line + 1):
-        isCoverage[index] = 1
+        isCoverage[index] = 0
     line = line + 1
 
 field_csv1 = ['line', 'coverage']
