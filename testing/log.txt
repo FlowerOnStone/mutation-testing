@@ -1,0 +1,38 @@
+[*] Start mutation process:
+   - targets: triangle.py
+   - tests: test_triangle.py
+[*] 8 tests passed:
+   - test_triangle [0.00034 s]
+[*] Start mutants generation and execution:
+   - [#  49] COD triangle: 
+
+--------------------------------------------------------------------------------
+  1: def check_triangle(a, b, c):
+  2:     s = [a, b, c]
+  3:     for x in s:
+- 4:         if (not (isinstance(x, int)) and not (isinstance(x, float))):
++ 4:         if (isinstance(x, int) and isinstance(x, float)):
+  5:             return False
+  6:         if x <= 0:
+  7:             return False
+  8:     return (a + b > c and b + c > a and a + c > b)
+--------------------------------------------------------------------------------
+   - [#  49] COD triangle: 
+--------------------------------------------------------------------------------
+  1: def check_triangle(a, b, c):
+  2:     s = [a, b, c]
+  3:     for x in s:
+- 4:         if (not (isinstance(x, int)) and not (isinstance(x, float))):
++ 4:         if (isinstance(x, int) and isinstance(x, float)):
+  5:             return False
+  6:         if x <= 0:
+  7:             return False
+  8:     return (a + b > c and b + c > a and a + c > b)
+--------------------------------------------------------------------------------
+[5.00451 s] timeout
+[*] Mutation score [5.10357 s]: 100.0%
+   - all: 143
+   - killed: 0 (0.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 142 (99.3%)
+   - timeout: 1 (0.7%)
