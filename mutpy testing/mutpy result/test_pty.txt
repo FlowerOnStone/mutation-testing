@@ -1,0 +1,84 @@
+[*] Start mutation process:
+   - targets: pty.py
+   - tests: test_pty.py
+[*] 4 tests passed:
+   - test_pty [0.00957 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR pty: [0.01620 s] survived
+   - [#   2] AOR pty: [0.01497 s] survived
+   - [#   3] AOR pty: [0.01483 s] survived
+   - [#   4] AOR pty: [0.01400 s] survived
+   - [#   5] BCR pty: [0.01430 s] survived
+   - [#   6] COD pty: [0.01518 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#   7] COD pty: [0.01522 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#   8] COI pty: [0.01474 s] survived
+   - [#   9] COI pty: [0.01452 s] survived
+   - [#  10] COI pty: [0.01407 s] survived
+   - [#  11] COI pty: [0.01533 s] killed by test__copy_to_each (test_pty.SmallPtyTests)
+   - [#  12] COI pty: [0.01512 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#  13] COI pty: [0.01499 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#  14] COI pty: [0.01459 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#  15] COI pty: [0.01458 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#  16] COI pty: [0.01502 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#  17] COI pty: [0.01454 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#  18] COI pty: [0.01435 s] killed by test__copy_eof_on_all (test_pty.SmallPtyTests)
+   - [#  19] COI pty: [0.01423 s] survived
+   - [#  20] COI pty: [0.01527 s] survived
+   - [#  21] COI pty: [0.01378 s] survived
+   - [#  22] CRP pty: [0.01303 s] survived
+   - [#  23] CRP pty: [0.01374 s] survived
+   - [#  24] CRP pty: [0.01335 s] survived
+   - [#  25] CRP pty: [0.01474 s] survived
+   - [#  26] CRP pty: [0.01410 s] survived
+   - [#  27] CRP pty: [0.01605 s] survived
+   - [#  28] CRP pty: [0.01404 s] survived
+   - [#  29] CRP pty: [0.01401 s] survived
+   - [#  30] CRP pty: [0.01466 s] survived
+   - [#  31] CRP pty: [0.01474 s] killed by test_fork (test_pty.PtyTest)
+   - [#  32] CRP pty: [0.01604 s] survived
+   - [#  33] CRP pty: [0.01528 s] survived
+   - [#  34] CRP pty: [0.01402 s] survived
+   - [#  35] CRP pty: [0.01438 s] survived
+   - [#  36] CRP pty: [0.01479 s] survived
+   - [#  37] CRP pty: [0.01519 s] survived
+   - [#  38] CRP pty: [0.01510 s] survived
+   - [#  39] CRP pty: [0.01500 s] survived
+   - [#  40] CRP pty: [0.01450 s] survived
+   - [#  41] CRP pty: [0.01436 s] survived
+   - [#  42] CRP pty: [0.01439 s] survived
+   - [#  43] CRP pty: [0.01447 s] survived
+   - [#  44] CRP pty: [0.01593 s] survived
+   - [#  45] CRP pty: [0.01400 s] survived
+   - [#  46] CRP pty: [0.01423 s] survived
+   - [#  47] CRP pty: [0.01450 s] survived
+   - [#  48] CRP pty: [0.01477 s] survived
+   - [#  49] CRP pty: [0.01485 s] survived
+   - [#  50] CRP pty: [0.01432 s] survived
+   - [#  51] CRP pty: [0.01498 s] survived
+   - [#  52] CRP pty: [0.01406 s] survived
+   - [#  53] EHD pty: [0.01396 s] survived
+   - [#  54] EHD pty: [0.01468 s] survived
+   - [#  55] EHD pty: [0.01486 s] survived
+   - [#  56] EHD pty: [0.00901 s] killed by test_basic (test_pty.PtyTest)
+   - [#  57] EHD pty: [0.01511 s] survived
+   - [#  58] EHD pty: [0.01417 s] survived
+   - [#  59] EHD pty: [0.01507 s] killed by test_fork (test_pty.PtyTest)
+   - [#  60] EHD pty: [0.01382 s] survived
+   - [#  61] EHD pty: [0.01460 s] survived
+   - [#  62] EXS pty: [0.01420 s] survived
+   - [#  63] EXS pty: [0.00939 s] killed by test_basic (test_pty.PtyTest)
+   - [#  64] EXS pty: [0.01406 s] survived
+   - [#  65] EXS pty: [0.01453 s] survived
+   - [#  66] ROR pty: [0.01404 s] survived
+   - [#  67] ROR pty: [0.01458 s] survived
+   - [#  68] ROR pty: [0.01406 s] survived
+   - [#  69] ROR pty: [0.01377 s] survived
+   - [#  70] ROR pty: [0.01428 s] survived
+   - [#  71] ROR pty: [0.01411 s] survived
+   - [#  72] SIR pty: [0.21676 s] timeout
+[*] Mutation score [1.75276 s]: 20.8%
+   - all: 72
+   - killed: 14 (19.4%)
+   - survived: 57 (79.2%)
+   - incompetent: 0 (0.0%)
+   - timeout: 1 (1.4%)

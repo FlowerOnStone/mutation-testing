@@ -1,0 +1,125 @@
+[*] Start mutation process:
+   - targets: getpass.py
+   - tests: test_getpass.py
+[*] 14 tests passed:
+   - test_getpass [0.01780 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD getpass: [0.03062 s] survived
+   - [#   2] AOD getpass: [0.01112 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#   3] AOD getpass: [0.01102 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#   4] AOR getpass: [0.02996 s] survived
+   - [#   5] AOR getpass: [0.03055 s] survived
+   - [#   6] AOR getpass: [0.01117 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#   7] AOR getpass: [0.01090 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#   8] BCR getpass: [0.03007 s] survived
+   - [#   9] COD getpass: [0.01427 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  10] COD getpass: [0.01701 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  11] COD getpass: [0.01638 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  12] COD getpass: [0.01210 s] killed by test_flushes_stream_after_prompt (test_getpass.GetpassRawinputTest)
+   - [#  13] COD getpass: [0.01064 s] killed by test_flushes_stream_after_prompt (test_getpass.GetpassRawinputTest)
+   - [#  14] COD getpass: [0.01113 s] killed by test_flushes_stream_after_prompt (test_getpass.GetpassRawinputTest)
+   - [#  15] COI getpass: [0.01635 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  16] COI getpass: [0.01781 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  17] COI getpass: [0.01485 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  18] COI getpass: [0.03074 s] survived
+   - [#  19] COI getpass: [0.01557 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  20] COI getpass: [0.03064 s] survived
+   - [#  21] COI getpass: [0.03064 s] survived
+   - [#  22] COI getpass: [0.03018 s] survived
+   - [#  23] COI getpass: [0.03047 s] survived
+   - [#  24] COI getpass: [0.03112 s] survived
+   - [#  25] COI getpass: [0.03048 s] survived
+   - [#  26] COI getpass: [0.01647 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  27] COI getpass: [0.01220 s] killed by test_flushes_stream_after_prompt (test_getpass.GetpassRawinputTest)
+   - [#  28] COI getpass: [0.01229 s] killed by test_flushes_stream_after_prompt (test_getpass.GetpassRawinputTest)
+   - [#  29] COI getpass: [0.01189 s] killed by test_flushes_stream_after_prompt (test_getpass.GetpassRawinputTest)
+   - [#  30] COI getpass: [0.01241 s] killed by test_flushes_stream_after_prompt (test_getpass.GetpassRawinputTest)
+   - [#  31] COI getpass: [0.01175 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#  32] COI getpass: [0.00987 s] killed by test_username_falls_back_to_pwd (test_getpass.GetpassGetuserTest)
+   - [#  33] CRP getpass: [0.03025 s] survived
+   - [#  34] CRP getpass: [0.03065 s] survived
+   - [#  35] CRP getpass: [0.02980 s] survived
+   - [#  36] CRP getpass: [0.03041 s] survived
+   - [#  37] CRP getpass: [0.03044 s] survived
+   - [#  38] CRP getpass: [0.03033 s] survived
+   - [#  39] CRP getpass: [0.01448 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  40] CRP getpass: [0.01477 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  41] CRP getpass: [0.02984 s] killed by test_uses_tty_directly (test_getpass.UnixGetpassTest)
+   - [#  42] CRP getpass: [0.03015 s] killed by test_uses_tty_directly (test_getpass.UnixGetpassTest)
+   - [#  43] CRP getpass: [0.03001 s] killed by test_uses_tty_directly (test_getpass.UnixGetpassTest)
+   - [#  44] CRP getpass: [0.03036 s] killed by test_uses_tty_directly (test_getpass.UnixGetpassTest)
+   - [#  45] CRP getpass: [0.02983 s] survived
+   - [#  46] CRP getpass: [0.02940 s] survived
+   - [#  47] CRP getpass: [0.02949 s] survived
+   - [#  48] CRP getpass: [0.02915 s] survived
+   - [#  49] CRP getpass: [0.02965 s] survived
+   - [#  50] CRP getpass: [0.02971 s] survived
+   - [#  51] CRP getpass: [0.02926 s] survived
+   - [#  52] CRP getpass: [0.02931 s] survived
+   - [#  53] CRP getpass: [0.02924 s] survived
+   - [#  54] CRP getpass: [0.02961 s] survived
+   - [#  55] CRP getpass: [0.02937 s] survived
+   - [#  56] CRP getpass: [0.02947 s] survived
+   - [#  57] CRP getpass: [0.02925 s] survived
+   - [#  58] CRP getpass: [0.02993 s] survived
+   - [#  59] CRP getpass: [0.02950 s] survived
+   - [#  60] CRP getpass: [0.02966 s] survived
+   - [#  61] CRP getpass: [0.02906 s] survived
+   - [#  62] CRP getpass: [0.02953 s] survived
+   - [#  63] CRP getpass: [0.02948 s] survived
+   - [#  64] CRP getpass: [0.02970 s] survived
+   - [#  65] CRP getpass: [0.02990 s] survived
+   - [#  66] CRP getpass: [0.02956 s] survived
+   - [#  67] CRP getpass: [0.02983 s] survived
+   - [#  68] CRP getpass: [0.02921 s] survived
+   - [#  69] CRP getpass: [0.02940 s] survived
+   - [#  70] CRP getpass: [0.02917 s] survived
+   - [#  71] CRP getpass: [0.02923 s] survived
+   - [#  72] CRP getpass: [0.01602 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  73] CRP getpass: [0.01582 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  74] CRP getpass: [0.02925 s] survived
+   - [#  75] CRP getpass: [0.01251 s] killed by test_uses_stdin_as_different_locale (test_getpass.GetpassRawinputTest)
+   - [#  76] CRP getpass: [0.01230 s] killed by test_uses_stdin_as_different_locale (test_getpass.GetpassRawinputTest)
+   - [#  77] CRP getpass: [0.01098 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#  78] CRP getpass: [0.01077 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#  79] CRP getpass: [0.01109 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#  80] CRP getpass: [0.01154 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [#  81] CRP getpass: [0.01011 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  82] CRP getpass: [0.01056 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  83] CRP getpass: [0.01016 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  84] CRP getpass: [0.01066 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  85] CRP getpass: [0.01035 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  86] CRP getpass: [0.01099 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  87] CRP getpass: [0.01031 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  88] CRP getpass: [0.01081 s] killed by test_username_priorities_of_env_values (test_getpass.GetpassGetuserTest)
+   - [#  89] CRP getpass: [0.00859 s] killed by test_username_falls_back_to_pwd (test_getpass.GetpassGetuserTest)
+   - [#  90] EHD getpass: [0.02367 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  91] EHD getpass: [0.02334 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  92] EHD getpass: [0.01501 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  93] EHD getpass: [0.01365 s] killed by test_uses_stdin_as_different_locale (test_getpass.GetpassRawinputTest)
+   - [#  94] EHD getpass: [0.02947 s] survived
+   - [#  95] EHD getpass: [0.02927 s] survived
+   - [#  96] EXS getpass: [0.02274 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  97] EXS getpass: [0.02278 s] killed by test_falls_back_to_stdin (test_getpass.UnixGetpassTest)
+   - [#  98] EXS getpass: [0.01495 s] killed by test_falls_back_to_fallback_if_termios_raises (test_getpass.UnixGetpassTest)
+   - [#  99] EXS getpass: [0.02977 s] survived
+   - [# 100] EXS getpass: [0.02972 s] survived
+   - [# 101] EXS getpass: [0.03023 s] survived
+   - [# 102] LCR getpass: [0.02936 s] survived
+   - [# 103] LOD getpass: [0.02945 s] survived
+   - [# 104] LOR getpass: [0.03001 s] killed by test_uses_tty_directly (test_getpass.UnixGetpassTest)
+   - [# 105] LOR getpass: [0.02943 s] survived
+   - [# 106] LOR getpass: [0.02955 s] survived
+   - [# 107] ROR getpass: [0.02925 s] survived
+   - [# 108] ROR getpass: [0.02912 s] survived
+   - [# 109] ROR getpass: [0.02952 s] survived
+   - [# 110] ROR getpass: [0.02934 s] survived
+   - [# 111] ROR getpass: [0.01097 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+   - [# 112] SIR getpass: [0.02309 s] survived
+   - [# 113] SIR getpass: [0.01144 s] killed by test_trims_trailing_newline (test_getpass.GetpassRawinputTest)
+[*] Mutation score [3.17573 s]: 47.8%
+   - all: 113
+   - killed: 54 (47.8%)
+   - survived: 59 (52.2%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)

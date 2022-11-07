@@ -1,0 +1,310 @@
+[*] Start mutation process:
+   - targets: quopri.py
+   - tests: test_quopri.py
+[*] 11 tests passed:
+   - test_quopri [0.09748 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD quopri: [0.00902 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#   2] AOD quopri: [0.00980 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#   3] AOD quopri: [0.00932 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#   4] AOD quopri: [0.00879 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#   5] AOD quopri: [0.00827 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#   6] AOR quopri: [0.30941 s] timeout
+   - [#   7] AOR quopri: [0.31373 s] timeout
+   - [#   8] AOR quopri: [0.00828 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#   9] AOR quopri: [0.00840 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  10] AOR quopri: [0.00819 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  11] AOR quopri: [0.00862 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  12] AOR quopri: [0.30970 s] timeout
+   - [#  13] AOR quopri: [0.01606 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  14] AOR quopri: [0.31080 s] timeout
+   - [#  15] AOR quopri: [0.11075 s] survived
+   - [#  16] AOR quopri: [0.30918 s] timeout
+   - [#  17] AOR quopri: [0.00911 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  18] AOR quopri: [0.00799 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  19] AOR quopri: [0.00836 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  20] AOR quopri: [0.00807 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  21] AOR quopri: [0.00702 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  22] AOR quopri: [0.00646 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  23] AOR quopri: [0.00731 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  24] AOR quopri: [0.10644 s] survived
+   - [#  25] AOR quopri: [0.00691 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  26] AOR quopri: [0.30926 s] timeout
+   - [#  27] AOR quopri: [0.30909 s] timeout
+   - [#  28] AOR quopri: [0.30906 s] timeout
+   - [#  29] AOR quopri: [0.31181 s] timeout
+   - [#  30] AOR quopri: [0.00703 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  31] AOR quopri: [0.11055 s] survived
+   - [#  32] AOR quopri: [0.00835 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [#  33] AOR quopri: [0.00792 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [#  34] AOR quopri: [0.30925 s] timeout
+   - [#  35] AOR quopri: [0.30950 s] timeout
+   - [#  36] AOR quopri: [0.11075 s] survived
+   - [#  37] AOR quopri: [0.00743 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  38] AOR quopri: [0.00688 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  39] AOR quopri: [0.00769 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  40] AOR quopri: [0.00701 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  41] AOR quopri: [0.30943 s] timeout
+   - [#  42] AOR quopri: [0.01014 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  43] AOR quopri: [0.00716 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  44] AOR quopri: [0.30904 s] timeout
+   - [#  45] AOR quopri: [0.10847 s] survived
+   - [#  46] AOR quopri: [0.10440 s] survived
+   - [#  47] AOR quopri: [0.30913 s] timeout
+   - [#  48] AOR quopri: [0.10502 s] survived
+   - [#  49] AOR quopri: [0.00679 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  50] AOR quopri: [0.10490 s] survived
+   - [#  51] AOR quopri: [0.30961 s] timeout
+   - [#  52] AOR quopri: [0.01773 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  53] AOR quopri: [0.01253 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  54] AOR quopri: [0.00967 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  55] AOR quopri: [0.00828 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  56] AOR quopri: [0.10288 s] survived
+   - [#  57] BCR quopri: [0.30871 s] timeout
+   - [#  58] BCR quopri: [0.30906 s] timeout
+   - [#  59] BCR quopri: [0.00711 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  60] BCR quopri: [0.10706 s] survived
+   - [#  61] COD quopri: [0.00806 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  62] COD quopri: [0.00814 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  63] COD quopri: [0.00774 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  64] COD quopri: [0.00712 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  65] COD quopri: [0.00705 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  66] COD quopri: [0.10646 s] survived
+   - [#  67] COI quopri: [0.00793 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  68] COI quopri: [0.00816 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  69] COI quopri: [0.00798 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [#  70] COI quopri: [0.30994 s] timeout
+   - [#  71] COI quopri: [0.00831 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  72] COI quopri: [0.00861 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  73] COI quopri: [0.00841 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  74] COI quopri: [0.00902 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  75] COI quopri: [0.00844 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  76] COI quopri: [0.00868 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  77] COI quopri: [0.00813 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  78] COI quopri: [0.00863 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  79] COI quopri: [0.30967 s] timeout
+   - [#  80] COI quopri: [0.30907 s] timeout
+   - [#  81] COI quopri: [0.00800 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [#  82] COI quopri: [0.30938 s] timeout
+   - [#  83] COI quopri: [0.30947 s] timeout
+   - [#  84] COI quopri: [0.01338 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  85] COI quopri: [0.00772 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  86] COI quopri: [0.00730 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  87] COI quopri: [0.30890 s] timeout
+   - [#  88] COI quopri: [0.00703 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  89] COI quopri: [0.00674 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  90] COI quopri: [0.00699 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  91] COI quopri: [0.00747 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  92] COI quopri: [0.00703 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  93] COI quopri: [0.00704 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  94] COI quopri: [0.00706 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  95] COI quopri: [0.00725 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  96] COI quopri: [0.00709 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  97] COI quopri: [0.30925 s] timeout
+   - [#  98] COI quopri: [0.00757 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [#  99] COI quopri: [0.00818 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 100] COI quopri: [0.00728 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 101] COI quopri: [0.11202 s] survived
+   - [# 102] COI quopri: [0.11057 s] survived
+   - [# 103] COI quopri: [0.11140 s] survived
+   - [# 104] COI quopri: [0.11222 s] survived
+   - [# 105] COI quopri: [0.11305 s] survived
+   - [# 106] COI quopri: [0.11483 s] survived
+   - [# 107] COI quopri: [0.11011 s] survived
+   - [# 108] COI quopri: [0.11197 s] survived
+   - [# 109] COI quopri: [0.00000 s] incompetent
+   - [# 110] CRP quopri: [0.11300 s] survived
+   - [# 111] CRP quopri: [0.11240 s] survived
+   - [# 112] CRP quopri: [0.11073 s] survived
+   - [# 113] CRP quopri: [0.10928 s] survived
+   - [# 114] CRP quopri: [0.10505 s] survived
+   - [# 115] CRP quopri: [0.10797 s] survived
+   - [# 116] CRP quopri: [0.10669 s] survived
+   - [# 117] CRP quopri: [0.10620 s] survived
+   - [# 118] CRP quopri: [0.00882 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 119] CRP quopri: [0.00822 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 120] CRP quopri: [0.00821 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 121] CRP quopri: [0.00805 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 122] CRP quopri: [0.00852 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 123] CRP quopri: [0.00849 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 124] CRP quopri: [0.00848 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 125] CRP quopri: [0.13516 s] survived
+   - [# 126] CRP quopri: [0.00938 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 127] CRP quopri: [0.00858 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 128] CRP quopri: [0.00901 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 129] CRP quopri: [0.00909 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 130] CRP quopri: [0.11388 s] survived
+   - [# 131] CRP quopri: [0.00700 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 132] CRP quopri: [0.11187 s] survived
+   - [# 133] CRP quopri: [0.00872 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 134] CRP quopri: [0.00792 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 135] CRP quopri: [0.00791 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 136] CRP quopri: [0.12688 s] survived
+   - [# 137] CRP quopri: [0.11390 s] survived
+   - [# 138] CRP quopri: [0.11861 s] survived
+   - [# 139] CRP quopri: [0.10894 s] survived
+   - [# 140] CRP quopri: [0.00709 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 141] CRP quopri: [0.00700 s] killed by test_decode_header (test_quopri.QuopriTestCase)
+   - [# 142] CRP quopri: [0.00642 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 143] CRP quopri: [0.00741 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 144] CRP quopri: [0.10604 s] survived
+   - [# 145] CRP quopri: [0.10627 s] survived
+   - [# 146] CRP quopri: [0.00808 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [# 147] CRP quopri: [0.00797 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [# 148] CRP quopri: [0.00781 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [# 149] CRP quopri: [0.00726 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 150] CRP quopri: [0.00696 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 151] CRP quopri: [0.00797 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 152] CRP quopri: [0.00697 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 153] CRP quopri: [0.00745 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 154] CRP quopri: [0.00706 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 155] CRP quopri: [0.00710 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 156] CRP quopri: [0.00714 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 157] CRP quopri: [0.10428 s] survived
+   - [# 158] CRP quopri: [0.00720 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 159] CRP quopri: [0.30896 s] timeout
+   - [# 160] CRP quopri: [0.31194 s] timeout
+   - [# 161] CRP quopri: [0.13784 s] survived
+   - [# 162] CRP quopri: [0.10404 s] survived
+   - [# 163] CRP quopri: [0.10633 s] survived
+   - [# 164] CRP quopri: [0.00710 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 165] CRP quopri: [0.10451 s] survived
+   - [# 166] CRP quopri: [0.10649 s] survived
+   - [# 167] CRP quopri: [0.00760 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 168] CRP quopri: [0.10620 s] survived
+   - [# 169] CRP quopri: [0.10330 s] survived
+   - [# 170] CRP quopri: [0.10412 s] survived
+   - [# 171] CRP quopri: [0.10709 s] survived
+   - [# 172] CRP quopri: [0.10418 s] survived
+   - [# 173] CRP quopri: [0.10606 s] survived
+   - [# 174] CRP quopri: [0.10248 s] survived
+   - [# 175] CRP quopri: [0.10190 s] survived
+   - [# 176] CRP quopri: [0.10500 s] survived
+   - [# 177] CRP quopri: [0.10479 s] survived
+   - [# 178] CRP quopri: [0.10368 s] survived
+   - [# 179] CRP quopri: [0.10549 s] survived
+   - [# 180] CRP quopri: [0.10580 s] survived
+   - [# 181] CRP quopri: [0.10429 s] survived
+   - [# 182] CRP quopri: [0.10608 s] survived
+   - [# 183] CRP quopri: [0.10208 s] survived
+   - [# 184] CRP quopri: [0.10499 s] survived
+   - [# 185] CRP quopri: [0.10567 s] survived
+   - [# 186] CRP quopri: [0.10406 s] survived
+   - [# 187] CRP quopri: [0.10489 s] survived
+   - [# 188] CRP quopri: [0.10453 s] survived
+   - [# 189] CRP quopri: [0.10299 s] survived
+   - [# 190] CRP quopri: [0.10187 s] survived
+   - [# 191] CRP quopri: [0.10418 s] survived
+   - [# 192] CRP quopri: [0.10371 s] survived
+   - [# 193] CRP quopri: [0.10411 s] survived
+   - [# 194] CRP quopri: [0.10410 s] survived
+   - [# 195] CRP quopri: [0.10407 s] survived
+   - [# 196] CRP quopri: [0.10614 s] survived
+   - [# 197] CRP quopri: [0.10494 s] survived
+   - [# 198] CRP quopri: [0.10380 s] survived
+   - [# 199] CRP quopri: [0.10485 s] survived
+   - [# 200] CRP quopri: [0.10320 s] survived
+   - [# 201] CRP quopri: [0.10310 s] survived
+   - [# 202] CRP quopri: [0.10249 s] survived
+   - [# 203] EHD quopri: [0.10477 s] survived
+   - [# 204] EHD quopri: [0.10617 s] survived
+   - [# 205] EHD quopri: [0.10582 s] survived
+   - [# 206] EXS quopri: [0.10607 s] survived
+   - [# 207] EXS quopri: [0.10897 s] survived
+   - [# 208] EXS quopri: [0.10548 s] survived
+   - [# 209] LCR quopri: [0.00855 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 210] LCR quopri: [0.10633 s] survived
+   - [# 211] LCR quopri: [0.00826 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 212] LCR quopri: [0.00794 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 213] LCR quopri: [0.00715 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 214] LCR quopri: [0.00671 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 215] LCR quopri: [0.00780 s] killed by test_decode_header (test_quopri.QuopriTestCase)
+   - [# 216] LCR quopri: [0.00687 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 217] LCR quopri: [0.00739 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 218] LCR quopri: [0.10351 s] survived
+   - [# 219] LCR quopri: [0.00709 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 220] LCR quopri: [0.10337 s] survived
+   - [# 221] ROR quopri: [0.00857 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 222] ROR quopri: [0.00806 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 223] ROR quopri: [0.00795 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 224] ROR quopri: [0.10160 s] survived
+   - [# 225] ROR quopri: [0.00820 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 226] ROR quopri: [0.10205 s] survived
+   - [# 227] ROR quopri: [0.00829 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 228] ROR quopri: [0.00795 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 229] ROR quopri: [0.00797 s] killed by test_embedded_ws (test_quopri.QuopriTestCase)
+   - [# 230] ROR quopri: [0.00872 s] killed by test_encode_header (test_quopri.QuopriTestCase)
+   - [# 231] ROR quopri: [0.30857 s] timeout
+   - [# 232] ROR quopri: [0.00886 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 233] ROR quopri: [0.00684 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 234] ROR quopri: [0.10319 s] survived
+   - [# 235] ROR quopri: [0.00685 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 236] ROR quopri: [0.10528 s] survived
+   - [# 237] ROR quopri: [0.10367 s] survived
+   - [# 238] ROR quopri: [0.00738 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 239] ROR quopri: [0.00689 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 240] ROR quopri: [0.00746 s] killed by test_decode_header (test_quopri.QuopriTestCase)
+   - [# 241] ROR quopri: [0.00706 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 242] ROR quopri: [0.00724 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 243] ROR quopri: [0.00876 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [# 244] ROR quopri: [0.10398 s] survived
+   - [# 245] ROR quopri: [0.00722 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 246] ROR quopri: [0.00670 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 247] ROR quopri: [0.10245 s] survived
+   - [# 248] ROR quopri: [0.00696 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 249] ROR quopri: [0.00645 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 250] ROR quopri: [0.00706 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 251] ROR quopri: [0.00661 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 252] ROR quopri: [0.10208 s] survived
+   - [# 253] ROR quopri: [0.10264 s] survived
+   - [# 254] ROR quopri: [0.10182 s] survived
+   - [# 255] ROR quopri: [0.10327 s] survived
+   - [# 256] ROR quopri: [0.00699 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 257] ROR quopri: [0.00648 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 258] ROR quopri: [0.00701 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 259] ROR quopri: [0.00692 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 260] ROR quopri: [0.00730 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 261] ROR quopri: [0.00697 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 262] ROR quopri: [0.00724 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 263] ROR quopri: [0.00706 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 264] ROR quopri: [0.00658 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 265] ROR quopri: [0.10229 s] survived
+   - [# 266] ROR quopri: [0.10419 s] survived
+   - [# 267] ROR quopri: [0.10489 s] survived
+   - [# 268] ROR quopri: [0.00694 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 269] ROR quopri: [0.00719 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 270] ROR quopri: [0.00668 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 271] ROR quopri: [0.00735 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 272] ROR quopri: [0.10260 s] survived
+   - [# 273] ROR quopri: [0.10429 s] survived
+   - [# 274] ROR quopri: [0.10253 s] survived
+   - [# 275] ROR quopri: [0.10280 s] survived
+   - [# 276] ROR quopri: [0.00000 s] incompetent
+   - [# 277] SIR quopri: [0.00826 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 278] SIR quopri: [0.00771 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 279] SIR quopri: [0.00822 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 280] SIR quopri: [0.00766 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 281] SIR quopri: [0.00805 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 282] SIR quopri: [0.00802 s] killed by test_encode (test_quopri.QuopriTestCase)
+   - [# 283] SIR quopri: [0.30875 s] timeout
+   - [# 284] SIR quopri: [0.00722 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 285] SIR quopri: [0.10194 s] survived
+   - [# 286] SIR quopri: [0.10472 s] survived
+   - [# 287] SIR quopri: [0.10276 s] survived
+   - [# 288] SIR quopri: [0.00683 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 289] SIR quopri: [0.00634 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 290] SIR quopri: [0.00799 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [# 291] SIR quopri: [0.00811 s] killed by test_decodestring_double_equals (test_quopri.QuopriTestCase)
+   - [# 292] SIR quopri: [0.00755 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 293] SIR quopri: [0.00724 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 294] SIR quopri: [0.00710 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 295] SIR quopri: [0.00685 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 296] SIR quopri: [0.00679 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 297] SIR quopri: [0.00722 s] killed by test_decode (test_quopri.QuopriTestCase)
+   - [# 298] SIR quopri: [0.10360 s] survived
+[*] Mutation score [23.02899 s]: 63.5%
+   - all: 298
+   - killed: 160 (53.7%)
+   - survived: 108 (36.2%)
+   - incompetent: 2 (0.7%)
+   - timeout: 28 (9.4%)

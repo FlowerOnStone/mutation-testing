@@ -1,0 +1,3060 @@
+[*] Start mutation process:
+   - targets: turtle.py
+   - tests: test_turtle.py
+[*] 31 tests passed:
+   - test_turtle [0.00288 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD turtle: [0.01076 s] killed by test_vector_negative (test_turtle.TestVec2D)
+   - [#   2] AOD turtle: [0.01126 s] killed by test_vector_negative (test_turtle.TestVec2D)
+   - [#   3] AOD turtle: [0.00947 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#   4] AOD turtle: [0.01173 s] survived
+   - [#   5] AOD turtle: [0.01117 s] survived
+   - [#   6] AOD turtle: [0.01269 s] survived
+   - [#   7] AOD turtle: [0.01166 s] survived
+   - [#   8] AOD turtle: [0.01132 s] survived
+   - [#   9] AOD turtle: [0.01185 s] survived
+   - [#  10] AOD turtle: [0.01153 s] survived
+   - [#  11] AOD turtle: [0.01093 s] survived
+   - [#  12] AOD turtle: [0.01090 s] survived
+   - [#  13] AOD turtle: [0.01156 s] survived
+   - [#  14] AOD turtle: [0.01105 s] survived
+   - [#  15] AOD turtle: [0.01154 s] survived
+   - [#  16] AOD turtle: [0.01120 s] survived
+   - [#  17] AOD turtle: [0.01075 s] survived
+   - [#  18] AOD turtle: [0.01125 s] survived
+   - [#  19] AOD turtle: [0.01116 s] survived
+   - [#  20] AOD turtle: [0.01156 s] survived
+   - [#  21] AOD turtle: [0.01122 s] survived
+   - [#  22] AOD turtle: [0.01169 s] survived
+   - [#  23] AOD turtle: [0.01135 s] survived
+   - [#  24] AOD turtle: [0.01122 s] survived
+   - [#  25] AOD turtle: [0.01217 s] survived
+   - [#  26] AOD turtle: [0.01132 s] survived
+   - [#  27] AOD turtle: [0.01161 s] survived
+   - [#  28] AOD turtle: [0.01163 s] survived
+   - [#  29] AOD turtle: [0.01100 s] survived
+   - [#  30] AOD turtle: [0.01084 s] survived
+   - [#  31] AOD turtle: [0.01130 s] survived
+   - [#  32] AOD turtle: [0.01153 s] survived
+   - [#  33] AOD turtle: [0.01159 s] survived
+   - [#  34] AOD turtle: [0.01149 s] survived
+   - [#  35] AOD turtle: [0.01104 s] survived
+   - [#  36] AOD turtle: [0.01186 s] survived
+   - [#  37] AOD turtle: [0.01106 s] survived
+   - [#  38] AOD turtle: [0.01107 s] survived
+   - [#  39] AOD turtle: [0.01197 s] survived
+   - [#  40] AOD turtle: [0.01114 s] survived
+   - [#  41] AOD turtle: [0.01190 s] survived
+   - [#  42] AOD turtle: [0.01124 s] survived
+   - [#  43] AOD turtle: [0.01115 s] survived
+   - [#  44] AOD turtle: [0.01352 s] survived
+   - [#  45] AOD turtle: [0.01628 s] survived
+   - [#  46] AOD turtle: [0.02473 s] survived
+   - [#  47] AOD turtle: [0.01548 s] survived
+   - [#  48] AOD turtle: [0.01391 s] survived
+   - [#  49] AOD turtle: [0.02505 s] survived
+   - [#  50] AOD turtle: [0.01293 s] survived
+   - [#  51] AOD turtle: [0.01377 s] survived
+   - [#  52] AOD turtle: [0.01365 s] survived
+   - [#  53] AOD turtle: [0.01257 s] survived
+   - [#  54] AOD turtle: [0.01211 s] survived
+   - [#  55] AOD turtle: [0.01242 s] survived
+   - [#  56] AOD turtle: [0.01143 s] survived
+   - [#  57] AOD turtle: [0.01215 s] survived
+   - [#  58] AOD turtle: [0.01142 s] survived
+   - [#  59] AOD turtle: [0.01127 s] survived
+   - [#  60] AOD turtle: [0.01169 s] survived
+   - [#  61] AOD turtle: [0.01143 s] survived
+   - [#  62] AOD turtle: [0.01168 s] survived
+   - [#  63] AOD turtle: [0.01152 s] survived
+   - [#  64] AOD turtle: [0.01192 s] survived
+   - [#  65] AOD turtle: [0.01152 s] survived
+   - [#  66] AOD turtle: [0.01131 s] survived
+   - [#  67] AOD turtle: [0.01160 s] survived
+   - [#  68] AOD turtle: [0.01137 s] survived
+   - [#  69] AOD turtle: [0.01181 s] survived
+   - [#  70] AOD turtle: [0.01140 s] survived
+   - [#  71] AOD turtle: [0.01149 s] survived
+   - [#  72] AOD turtle: [0.01154 s] survived
+   - [#  73] AOD turtle: [0.01170 s] survived
+   - [#  74] AOD turtle: [0.01182 s] survived
+   - [#  75] AOD turtle: [0.00934 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#  76] AOD turtle: [0.01000 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#  77] AOD turtle: [0.01168 s] survived
+   - [#  78] AOD turtle: [0.01173 s] survived
+   - [#  79] AOD turtle: [0.01135 s] survived
+   - [#  80] AOD turtle: [0.01142 s] survived
+   - [#  81] AOD turtle: [0.01117 s] survived
+   - [#  82] AOD turtle: [0.01123 s] survived
+   - [#  83] AOD turtle: [0.01150 s] survived
+   - [#  84] AOD turtle: [0.01196 s] survived
+   - [#  85] AOD turtle: [0.01133 s] survived
+   - [#  86] AOD turtle: [0.01234 s] survived
+   - [#  87] AOD turtle: [0.01179 s] survived
+   - [#  88] AOD turtle: [0.01151 s] survived
+   - [#  89] AOD turtle: [0.01206 s] survived
+   - [#  90] AOR turtle: [0.00000 s] incompetent
+   - [#  91] AOR turtle: [0.00000 s] incompetent
+   - [#  92] AOR turtle: [0.00000 s] incompetent
+   - [#  93] AOR turtle: [0.00000 s] incompetent
+   - [#  94] AOR turtle: [0.21038 s] timeout
+   - [#  95] AOR turtle: [0.01306 s] survived
+   - [#  96] AOR turtle: [0.01050 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#  97] AOR turtle: [0.01005 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#  98] AOR turtle: [0.01101 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [#  99] AOR turtle: [0.01224 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [# 100] AOR turtle: [0.01144 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [# 101] AOR turtle: [0.01216 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [# 102] AOR turtle: [0.01146 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [# 103] AOR turtle: [0.01205 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [# 104] AOR turtle: [0.01139 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [# 105] AOR turtle: [0.01010 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 106] AOR turtle: [0.00988 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 107] AOR turtle: [0.01026 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 108] AOR turtle: [0.01203 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 109] AOR turtle: [0.01002 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 110] AOR turtle: [0.01069 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 111] AOR turtle: [0.01241 s] survived
+   - [# 112] AOR turtle: [0.01134 s] survived
+   - [# 113] AOR turtle: [0.01193 s] survived
+   - [# 114] AOR turtle: [0.01183 s] survived
+   - [# 115] AOR turtle: [0.01176 s] survived
+   - [# 116] AOR turtle: [0.01190 s] survived
+   - [# 117] AOR turtle: [0.01127 s] survived
+   - [# 118] AOR turtle: [0.01086 s] survived
+   - [# 119] AOR turtle: [0.01176 s] killed by test_vector_negative (test_turtle.TestVec2D)
+   - [# 120] AOR turtle: [0.01134 s] killed by test_vector_negative (test_turtle.TestVec2D)
+   - [# 121] AOR turtle: [0.01000 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [# 122] AOR turtle: [0.01006 s] killed by test_distance_method (test_turtle.TestTNavigator)
+   - [# 123] AOR turtle: [0.00971 s] killed by test_distance_method (test_turtle.TestTNavigator)
+   - [# 124] AOR turtle: [0.00975 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [# 125] AOR turtle: [0.00994 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 126] AOR turtle: [0.00941 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 127] AOR turtle: [0.01053 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 128] AOR turtle: [0.21065 s] timeout
+   - [# 129] AOR turtle: [0.00999 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 130] AOR turtle: [0.00970 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 131] AOR turtle: [0.01018 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 132] AOR turtle: [0.00979 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 133] AOR turtle: [0.00962 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 134] AOR turtle: [0.01093 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 135] AOR turtle: [0.01048 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 136] AOR turtle: [0.00984 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 137] AOR turtle: [0.01047 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 138] AOR turtle: [0.00969 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 139] AOR turtle: [0.00981 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 140] AOR turtle: [0.00967 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 141] AOR turtle: [0.00957 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 142] AOR turtle: [0.00975 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 143] AOR turtle: [0.00977 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 144] AOR turtle: [0.00978 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 145] AOR turtle: [0.21025 s] timeout
+   - [# 146] AOR turtle: [0.00000 s] incompetent
+   - [# 147] AOR turtle: [0.01147 s] survived
+   - [# 148] AOR turtle: [0.00000 s] incompetent
+   - [# 149] AOR turtle: [0.01179 s] survived
+   - [# 150] AOR turtle: [0.01119 s] survived
+   - [# 151] AOR turtle: [0.01232 s] survived
+   - [# 152] AOR turtle: [0.01155 s] survived
+   - [# 153] AOR turtle: [0.01189 s] survived
+   - [# 154] AOR turtle: [0.01156 s] survived
+   - [# 155] AOR turtle: [0.01160 s] survived
+   - [# 156] AOR turtle: [0.01221 s] survived
+   - [# 157] AOR turtle: [0.01219 s] survived
+   - [# 158] AOR turtle: [0.01221 s] survived
+   - [# 159] AOR turtle: [0.01196 s] survived
+   - [# 160] AOR turtle: [0.01227 s] survived
+   - [# 161] AOR turtle: [0.01201 s] survived
+   - [# 162] AOR turtle: [0.01162 s] survived
+   - [# 163] AOR turtle: [0.01233 s] survived
+   - [# 164] AOR turtle: [0.01192 s] survived
+   - [# 165] AOR turtle: [0.01162 s] survived
+   - [# 166] AOR turtle: [0.01197 s] survived
+   - [# 167] AOR turtle: [0.01219 s] survived
+   - [# 168] AOR turtle: [0.01179 s] survived
+   - [# 169] AOR turtle: [0.01198 s] survived
+   - [# 170] AOR turtle: [0.01172 s] survived
+   - [# 171] AOR turtle: [0.01181 s] survived
+   - [# 172] AOR turtle: [0.01145 s] survived
+   - [# 173] AOR turtle: [0.01201 s] survived
+   - [# 174] AOR turtle: [0.01174 s] survived
+   - [# 175] AOR turtle: [0.01193 s] survived
+   - [# 176] AOR turtle: [0.01192 s] survived
+   - [# 177] AOR turtle: [0.01163 s] survived
+   - [# 178] AOR turtle: [0.01192 s] survived
+   - [# 179] AOR turtle: [0.01181 s] survived
+   - [# 180] AOR turtle: [0.01223 s] survived
+   - [# 181] AOR turtle: [0.01156 s] survived
+   - [# 182] AOR turtle: [0.01121 s] survived
+   - [# 183] AOR turtle: [0.01160 s] survived
+   - [# 184] AOR turtle: [0.01189 s] survived
+   - [# 185] AOR turtle: [0.01147 s] survived
+   - [# 186] AOR turtle: [0.01174 s] survived
+   - [# 187] AOR turtle: [0.01223 s] survived
+   - [# 188] AOR turtle: [0.01206 s] survived
+   - [# 189] AOR turtle: [0.01182 s] survived
+   - [# 190] AOR turtle: [0.01205 s] survived
+   - [# 191] AOR turtle: [0.01198 s] survived
+   - [# 192] AOR turtle: [0.01189 s] survived
+   - [# 193] AOR turtle: [0.01212 s] survived
+   - [# 194] AOR turtle: [0.01166 s] survived
+   - [# 195] AOR turtle: [0.01231 s] survived
+   - [# 196] AOR turtle: [0.01196 s] survived
+   - [# 197] AOR turtle: [0.01173 s] survived
+   - [# 198] AOR turtle: [0.01165 s] survived
+   - [# 199] AOR turtle: [0.01205 s] survived
+   - [# 200] AOR turtle: [0.01139 s] survived
+   - [# 201] AOR turtle: [0.01177 s] survived
+   - [# 202] AOR turtle: [0.01154 s] survived
+   - [# 203] AOR turtle: [0.01187 s] survived
+   - [# 204] AOR turtle: [0.01197 s] survived
+   - [# 205] AOR turtle: [0.01139 s] survived
+   - [# 206] AOR turtle: [0.01174 s] survived
+   - [# 207] AOR turtle: [0.01161 s] survived
+   - [# 208] AOR turtle: [0.01211 s] survived
+   - [# 209] AOR turtle: [0.01166 s] survived
+   - [# 210] AOR turtle: [0.01180 s] survived
+   - [# 211] AOR turtle: [0.01128 s] survived
+   - [# 212] AOR turtle: [0.01103 s] survived
+   - [# 213] AOR turtle: [0.01121 s] survived
+   - [# 214] AOR turtle: [0.01159 s] survived
+   - [# 215] AOR turtle: [0.01187 s] survived
+   - [# 216] AOR turtle: [0.01157 s] survived
+   - [# 217] AOR turtle: [0.01226 s] survived
+   - [# 218] AOR turtle: [0.01161 s] survived
+   - [# 219] AOR turtle: [0.01184 s] survived
+   - [# 220] AOR turtle: [0.01123 s] survived
+   - [# 221] AOR turtle: [0.01242 s] survived
+   - [# 222] AOR turtle: [0.01218 s] survived
+   - [# 223] AOR turtle: [0.01143 s] survived
+   - [# 224] AOR turtle: [0.01196 s] survived
+   - [# 225] AOR turtle: [0.01183 s] survived
+   - [# 226] AOR turtle: [0.01219 s] survived
+   - [# 227] AOR turtle: [0.01097 s] survived
+   - [# 228] AOR turtle: [0.01168 s] survived
+   - [# 229] AOR turtle: [0.01136 s] survived
+   - [# 230] AOR turtle: [0.01138 s] survived
+   - [# 231] AOR turtle: [0.01110 s] survived
+   - [# 232] AOR turtle: [0.01114 s] survived
+   - [# 233] AOR turtle: [0.01147 s] survived
+   - [# 234] AOR turtle: [0.01097 s] survived
+   - [# 235] AOR turtle: [0.01124 s] survived
+   - [# 236] AOR turtle: [0.01152 s] survived
+   - [# 237] AOR turtle: [0.01183 s] survived
+   - [# 238] AOR turtle: [0.01176 s] survived
+   - [# 239] AOR turtle: [0.01168 s] survived
+   - [# 240] AOR turtle: [0.01166 s] survived
+   - [# 241] AOR turtle: [0.01101 s] survived
+   - [# 242] AOR turtle: [0.01129 s] survived
+   - [# 243] AOR turtle: [0.01181 s] survived
+   - [# 244] AOR turtle: [0.01117 s] survived
+   - [# 245] AOR turtle: [0.01156 s] survived
+   - [# 246] AOR turtle: [0.01122 s] survived
+   - [# 247] AOR turtle: [0.01152 s] survived
+   - [# 248] AOR turtle: [0.01090 s] survived
+   - [# 249] AOR turtle: [0.01213 s] survived
+   - [# 250] AOR turtle: [0.01144 s] survived
+   - [# 251] AOR turtle: [0.01163 s] survived
+   - [# 252] AOR turtle: [0.01187 s] survived
+   - [# 253] AOR turtle: [0.01237 s] survived
+   - [# 254] AOR turtle: [0.01140 s] survived
+   - [# 255] AOR turtle: [0.01168 s] survived
+   - [# 256] AOR turtle: [0.01167 s] survived
+   - [# 257] AOR turtle: [0.01174 s] survived
+   - [# 258] AOR turtle: [0.01204 s] survived
+   - [# 259] AOR turtle: [0.01171 s] survived
+   - [# 260] AOR turtle: [0.01205 s] survived
+   - [# 261] AOR turtle: [0.01164 s] survived
+   - [# 262] AOR turtle: [0.01151 s] survived
+   - [# 263] AOR turtle: [0.01187 s] survived
+   - [# 264] AOR turtle: [0.01173 s] survived
+   - [# 265] AOR turtle: [0.01139 s] survived
+   - [# 266] AOR turtle: [0.01163 s] survived
+   - [# 267] AOR turtle: [0.01198 s] survived
+   - [# 268] AOR turtle: [0.01169 s] survived
+   - [# 269] AOR turtle: [0.01188 s] survived
+   - [# 270] AOR turtle: [0.01204 s] survived
+   - [# 271] AOR turtle: [0.01215 s] survived
+   - [# 272] AOR turtle: [0.01196 s] survived
+   - [# 273] AOR turtle: [0.01244 s] survived
+   - [# 274] AOR turtle: [0.01158 s] survived
+   - [# 275] AOR turtle: [0.01260 s] survived
+   - [# 276] AOR turtle: [0.01166 s] survived
+   - [# 277] AOR turtle: [0.01299 s] survived
+   - [# 278] AOR turtle: [0.01145 s] survived
+   - [# 279] AOR turtle: [0.01195 s] survived
+   - [# 280] AOR turtle: [0.01168 s] survived
+   - [# 281] AOR turtle: [0.01113 s] survived
+   - [# 282] AOR turtle: [0.01201 s] survived
+   - [# 283] AOR turtle: [0.01139 s] survived
+   - [# 284] AOR turtle: [0.01163 s] survived
+   - [# 285] AOR turtle: [0.01139 s] survived
+   - [# 286] AOR turtle: [0.01166 s] survived
+   - [# 287] AOR turtle: [0.01169 s] survived
+   - [# 288] AOR turtle: [0.01136 s] survived
+   - [# 289] AOR turtle: [0.01118 s] survived
+   - [# 290] AOR turtle: [0.01167 s] survived
+   - [# 291] AOR turtle: [0.01124 s] survived
+   - [# 292] AOR turtle: [0.01148 s] survived
+   - [# 293] AOR turtle: [0.01136 s] survived
+   - [# 294] AOR turtle: [0.01143 s] survived
+   - [# 295] AOR turtle: [0.01128 s] survived
+   - [# 296] AOR turtle: [0.01150 s] survived
+   - [# 297] AOR turtle: [0.01117 s] survived
+   - [# 298] AOR turtle: [0.01074 s] survived
+   - [# 299] AOR turtle: [0.01190 s] survived
+   - [# 300] AOR turtle: [0.01141 s] survived
+   - [# 301] AOR turtle: [0.01219 s] survived
+   - [# 302] AOR turtle: [0.01148 s] survived
+   - [# 303] AOR turtle: [0.01153 s] survived
+   - [# 304] AOR turtle: [0.01146 s] survived
+   - [# 305] AOR turtle: [0.01131 s] survived
+   - [# 306] AOR turtle: [0.01146 s] survived
+   - [# 307] AOR turtle: [0.01138 s] survived
+   - [# 308] AOR turtle: [0.01217 s] survived
+   - [# 309] AOR turtle: [0.01140 s] survived
+   - [# 310] AOR turtle: [0.01180 s] survived
+   - [# 311] AOR turtle: [0.01134 s] survived
+   - [# 312] AOR turtle: [0.01181 s] survived
+   - [# 313] AOR turtle: [0.01131 s] survived
+   - [# 314] AOR turtle: [0.01095 s] survived
+   - [# 315] AOR turtle: [0.01140 s] survived
+   - [# 316] AOR turtle: [0.01143 s] survived
+   - [# 317] AOR turtle: [0.01124 s] survived
+   - [# 318] AOR turtle: [0.01180 s] survived
+   - [# 319] AOR turtle: [0.01138 s] survived
+   - [# 320] AOR turtle: [0.01149 s] survived
+   - [# 321] AOR turtle: [0.01172 s] survived
+   - [# 322] AOR turtle: [0.01188 s] survived
+   - [# 323] AOR turtle: [0.01177 s] survived
+   - [# 324] AOR turtle: [0.01190 s] survived
+   - [# 325] AOR turtle: [0.01241 s] survived
+   - [# 326] AOR turtle: [0.01166 s] survived
+   - [# 327] AOR turtle: [0.01201 s] survived
+   - [# 328] AOR turtle: [0.01199 s] survived
+   - [# 329] AOR turtle: [0.01214 s] survived
+   - [# 330] AOR turtle: [0.01164 s] survived
+   - [# 331] AOR turtle: [0.01210 s] survived
+   - [# 332] AOR turtle: [0.01187 s] survived
+   - [# 333] AOR turtle: [0.01195 s] survived
+   - [# 334] AOR turtle: [0.01187 s] survived
+   - [# 335] AOR turtle: [0.01223 s] survived
+   - [# 336] AOR turtle: [0.01201 s] survived
+   - [# 337] AOR turtle: [0.01211 s] survived
+   - [# 338] AOR turtle: [0.01184 s] survived
+   - [# 339] AOR turtle: [0.01182 s] survived
+   - [# 340] AOR turtle: [0.01177 s] survived
+   - [# 341] AOR turtle: [0.01194 s] survived
+   - [# 342] AOR turtle: [0.01188 s] survived
+   - [# 343] AOR turtle: [0.01225 s] survived
+   - [# 344] AOR turtle: [0.01207 s] survived
+   - [# 345] AOR turtle: [0.01198 s] survived
+   - [# 346] AOR turtle: [0.01147 s] survived
+   - [# 347] AOR turtle: [0.01129 s] survived
+   - [# 348] AOR turtle: [0.01181 s] survived
+   - [# 349] AOR turtle: [0.01190 s] survived
+   - [# 350] AOR turtle: [0.01258 s] survived
+   - [# 351] AOR turtle: [0.01193 s] survived
+   - [# 352] AOR turtle: [0.01259 s] survived
+   - [# 353] AOR turtle: [0.01190 s] survived
+   - [# 354] AOR turtle: [0.01247 s] survived
+   - [# 355] AOR turtle: [0.01169 s] survived
+   - [# 356] AOR turtle: [0.01229 s] survived
+   - [# 357] AOR turtle: [0.01190 s] survived
+   - [# 358] AOR turtle: [0.01235 s] survived
+   - [# 359] AOR turtle: [0.01191 s] survived
+   - [# 360] AOR turtle: [0.01190 s] survived
+   - [# 361] AOR turtle: [0.01191 s] survived
+   - [# 362] AOR turtle: [0.01205 s] survived
+   - [# 363] AOR turtle: [0.01206 s] survived
+   - [# 364] AOR turtle: [0.01274 s] survived
+   - [# 365] AOR turtle: [0.01192 s] survived
+   - [# 366] AOR turtle: [0.01207 s] survived
+   - [# 367] AOR turtle: [0.01185 s] survived
+   - [# 368] AOR turtle: [0.01211 s] survived
+   - [# 369] AOR turtle: [0.01155 s] survived
+   - [# 370] AOR turtle: [0.01241 s] survived
+   - [# 371] AOR turtle: [0.01179 s] survived
+   - [# 372] AOR turtle: [0.01235 s] survived
+   - [# 373] AOR turtle: [0.01181 s] survived
+   - [# 374] AOR turtle: [0.01235 s] survived
+   - [# 375] AOR turtle: [0.01221 s] survived
+   - [# 376] AOR turtle: [0.01176 s] survived
+   - [# 377] AOR turtle: [0.01240 s] survived
+   - [# 378] AOR turtle: [0.01192 s] survived
+   - [# 379] AOR turtle: [0.01213 s] survived
+   - [# 380] AOR turtle: [0.01210 s] survived
+   - [# 381] AOR turtle: [0.01184 s] survived
+   - [# 382] AOR turtle: [0.01200 s] survived
+   - [# 383] AOR turtle: [0.01164 s] survived
+   - [# 384] AOR turtle: [0.01155 s] survived
+   - [# 385] AOR turtle: [0.01166 s] survived
+   - [# 386] AOR turtle: [0.01187 s] survived
+   - [# 387] AOR turtle: [0.01020 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [# 388] AOR turtle: [0.00926 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 389] AOR turtle: [0.01177 s] survived
+   - [# 390] AOR turtle: [0.01114 s] survived
+   - [# 391] AOR turtle: [0.01066 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [# 392] AOR turtle: [0.01052 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [# 393] AOR turtle: [0.00969 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [# 394] AOR turtle: [0.00965 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 395] AOR turtle: [0.21063 s] timeout
+   - [# 396] AOR turtle: [0.21030 s] timeout
+   - [# 397] AOR turtle: [0.21094 s] timeout
+   - [# 398] AOR turtle: [0.01270 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 399] AOR turtle: [0.00967 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 400] AOR turtle: [0.01205 s] survived
+   - [# 401] AOR turtle: [0.01237 s] survived
+   - [# 402] AOR turtle: [0.01001 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 403] AOR turtle: [0.01004 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 404] AOR turtle: [0.00984 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 405] AOR turtle: [0.00960 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 406] AOR turtle: [0.00940 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 407] AOR turtle: [0.00969 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 408] AOR turtle: [0.00981 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 409] AOR turtle: [0.01019 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 410] AOR turtle: [0.01013 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 411] AOR turtle: [0.00998 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 412] AOR turtle: [0.00966 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 413] AOR turtle: [0.00966 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 414] AOR turtle: [0.00961 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 415] AOR turtle: [0.01001 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 416] AOR turtle: [0.00989 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 417] AOR turtle: [0.00968 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 418] AOR turtle: [0.00949 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 419] AOR turtle: [0.00925 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 420] AOR turtle: [0.00990 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 421] AOR turtle: [0.00982 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 422] AOR turtle: [0.00944 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 423] AOR turtle: [0.01023 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 424] AOR turtle: [0.00965 s] killed by test_home (test_turtle.TestTNavigator)
+   - [# 425] AOR turtle: [0.01161 s] survived
+   - [# 426] AOR turtle: [0.01060 s] killed by test_setheading (test_turtle.TestTNavigator)
+   - [# 427] AOR turtle: [0.01141 s] survived
+   - [# 428] AOR turtle: [0.01192 s] survived
+   - [# 429] AOR turtle: [0.01153 s] survived
+   - [# 430] AOR turtle: [0.00963 s] killed by test_home (test_turtle.TestTNavigator)
+   - [# 431] AOR turtle: [0.00979 s] killed by test_home (test_turtle.TestTNavigator)
+   - [# 432] AOR turtle: [0.01197 s] survived
+   - [# 433] AOR turtle: [0.01145 s] survived
+   - [# 434] AOR turtle: [0.00998 s] killed by test_home (test_turtle.TestTNavigator)
+   - [# 435] AOR turtle: [0.01138 s] survived
+   - [# 436] AOR turtle: [0.01122 s] survived
+   - [# 437] AOR turtle: [0.01186 s] survived
+   - [# 438] AOR turtle: [0.01128 s] survived
+   - [# 439] AOR turtle: [0.01179 s] survived
+   - [# 440] AOR turtle: [0.01120 s] survived
+   - [# 441] AOR turtle: [0.01117 s] survived
+   - [# 442] AOR turtle: [0.01167 s] survived
+   - [# 443] AOR turtle: [0.01137 s] survived
+   - [# 444] AOR turtle: [0.01155 s] survived
+   - [# 445] AOR turtle: [0.01122 s] survived
+   - [# 446] AOR turtle: [0.01121 s] survived
+   - [# 447] AOR turtle: [0.01153 s] survived
+   - [# 448] AOR turtle: [0.01100 s] survived
+   - [# 449] AOR turtle: [0.01121 s] survived
+   - [# 450] AOR turtle: [0.01190 s] survived
+   - [# 451] AOR turtle: [0.01134 s] survived
+   - [# 452] AOR turtle: [0.01170 s] survived
+   - [# 453] AOR turtle: [0.01193 s] survived
+   - [# 454] AOR turtle: [0.01143 s] survived
+   - [# 455] AOR turtle: [0.01150 s] survived
+   - [# 456] AOR turtle: [0.01156 s] survived
+   - [# 457] AOR turtle: [0.01178 s] survived
+   - [# 458] AOR turtle: [0.01133 s] survived
+   - [# 459] AOR turtle: [0.01170 s] survived
+   - [# 460] AOR turtle: [0.01144 s] survived
+   - [# 461] AOR turtle: [0.01107 s] survived
+   - [# 462] AOR turtle: [0.01119 s] survived
+   - [# 463] AOR turtle: [0.01131 s] survived
+   - [# 464] AOR turtle: [0.01131 s] survived
+   - [# 465] AOR turtle: [0.01210 s] survived
+   - [# 466] AOR turtle: [0.01168 s] survived
+   - [# 467] AOR turtle: [0.01212 s] survived
+   - [# 468] AOR turtle: [0.01180 s] survived
+   - [# 469] AOR turtle: [0.01124 s] survived
+   - [# 470] AOR turtle: [0.01106 s] survived
+   - [# 471] AOR turtle: [0.01229 s] survived
+   - [# 472] AOR turtle: [0.01132 s] survived
+   - [# 473] AOR turtle: [0.01109 s] survived
+   - [# 474] AOR turtle: [0.01175 s] survived
+   - [# 475] AOR turtle: [0.01122 s] survived
+   - [# 476] AOR turtle: [0.01131 s] survived
+   - [# 477] AOR turtle: [0.01188 s] survived
+   - [# 478] AOR turtle: [0.01160 s] survived
+   - [# 479] AOR turtle: [0.01184 s] survived
+   - [# 480] AOR turtle: [0.01139 s] survived
+   - [# 481] AOR turtle: [0.01192 s] survived
+   - [# 482] AOR turtle: [0.01190 s] survived
+   - [# 483] AOR turtle: [0.01127 s] survived
+   - [# 484] AOR turtle: [0.01177 s] survived
+   - [# 485] AOR turtle: [0.01154 s] survived
+   - [# 486] AOR turtle: [0.01126 s] survived
+   - [# 487] AOR turtle: [0.01168 s] survived
+   - [# 488] AOR turtle: [0.01138 s] survived
+   - [# 489] AOR turtle: [0.01168 s] survived
+   - [# 490] AOR turtle: [0.01136 s] survived
+   - [# 491] AOR turtle: [0.01186 s] survived
+   - [# 492] AOR turtle: [0.01184 s] survived
+   - [# 493] AOR turtle: [0.01132 s] survived
+   - [# 494] AOR turtle: [0.01130 s] survived
+   - [# 495] AOR turtle: [0.01156 s] survived
+   - [# 496] AOR turtle: [0.01138 s] survived
+   - [# 497] AOR turtle: [0.01145 s] survived
+   - [# 498] AOR turtle: [0.01143 s] survived
+   - [# 499] AOR turtle: [0.01121 s] survived
+   - [# 500] AOR turtle: [0.01115 s] survived
+   - [# 501] AOR turtle: [0.01138 s] survived
+   - [# 502] AOR turtle: [0.01157 s] survived
+   - [# 503] AOR turtle: [0.01109 s] survived
+   - [# 504] AOR turtle: [0.01126 s] survived
+   - [# 505] AOR turtle: [0.01149 s] survived
+   - [# 506] AOR turtle: [0.01097 s] survived
+   - [# 507] AOR turtle: [0.01119 s] survived
+   - [# 508] AOR turtle: [0.01126 s] survived
+   - [# 509] AOR turtle: [0.01101 s] survived
+   - [# 510] AOR turtle: [0.01146 s] survived
+   - [# 511] AOR turtle: [0.01107 s] survived
+   - [# 512] AOR turtle: [0.01086 s] survived
+   - [# 513] AOR turtle: [0.01075 s] survived
+   - [# 514] AOR turtle: [0.01114 s] survived
+   - [# 515] AOR turtle: [0.01106 s] survived
+   - [# 516] AOR turtle: [0.01141 s] survived
+   - [# 517] AOR turtle: [0.01127 s] survived
+   - [# 518] AOR turtle: [0.01106 s] survived
+   - [# 519] AOR turtle: [0.01119 s] survived
+   - [# 520] AOR turtle: [0.01108 s] survived
+   - [# 521] AOR turtle: [0.01111 s] survived
+   - [# 522] AOR turtle: [0.01161 s] survived
+   - [# 523] AOR turtle: [0.01125 s] survived
+   - [# 524] AOR turtle: [0.01104 s] survived
+   - [# 525] AOR turtle: [0.01118 s] survived
+   - [# 526] AOR turtle: [0.01098 s] survived
+   - [# 527] AOR turtle: [0.01119 s] survived
+   - [# 528] AOR turtle: [0.01126 s] survived
+   - [# 529] AOR turtle: [0.01115 s] survived
+   - [# 530] AOR turtle: [0.01153 s] survived
+   - [# 531] AOR turtle: [0.01129 s] survived
+   - [# 532] AOR turtle: [0.01120 s] survived
+   - [# 533] AOR turtle: [0.01152 s] survived
+   - [# 534] AOR turtle: [0.01119 s] survived
+   - [# 535] AOR turtle: [0.01108 s] survived
+   - [# 536] AOR turtle: [0.01139 s] survived
+   - [# 537] AOR turtle: [0.01120 s] survived
+   - [# 538] AOR turtle: [0.01117 s] survived
+   - [# 539] AOR turtle: [0.01148 s] survived
+   - [# 540] AOR turtle: [0.01116 s] survived
+   - [# 541] AOR turtle: [0.01130 s] survived
+   - [# 542] AOR turtle: [0.01180 s] survived
+   - [# 543] AOR turtle: [0.01118 s] survived
+   - [# 544] AOR turtle: [0.01170 s] survived
+   - [# 545] AOR turtle: [0.01133 s] survived
+   - [# 546] AOR turtle: [0.01122 s] survived
+   - [# 547] AOR turtle: [0.01158 s] survived
+   - [# 548] AOR turtle: [0.01105 s] survived
+   - [# 549] AOR turtle: [0.01155 s] survived
+   - [# 550] AOR turtle: [0.01164 s] survived
+   - [# 551] AOR turtle: [0.01164 s] survived
+   - [# 552] AOR turtle: [0.01142 s] survived
+   - [# 553] AOR turtle: [0.01138 s] survived
+   - [# 554] AOR turtle: [0.01162 s] survived
+   - [# 555] AOR turtle: [0.01140 s] survived
+   - [# 556] AOR turtle: [0.01134 s] survived
+   - [# 557] AOR turtle: [0.01143 s] survived
+   - [# 558] AOR turtle: [0.01129 s] survived
+   - [# 559] AOR turtle: [0.01185 s] survived
+   - [# 560] AOR turtle: [0.01144 s] survived
+   - [# 561] AOR turtle: [0.01113 s] survived
+   - [# 562] AOR turtle: [0.01133 s] survived
+   - [# 563] AOR turtle: [0.01127 s] survived
+   - [# 564] AOR turtle: [0.01107 s] survived
+   - [# 565] AOR turtle: [0.01149 s] survived
+   - [# 566] AOR turtle: [0.01124 s] survived
+   - [# 567] AOR turtle: [0.01112 s] survived
+   - [# 568] AOR turtle: [0.01133 s] survived
+   - [# 569] AOR turtle: [0.01100 s] survived
+   - [# 570] AOR turtle: [0.01183 s] survived
+   - [# 571] AOR turtle: [0.01128 s] survived
+   - [# 572] AOR turtle: [0.01121 s] survived
+   - [# 573] AOR turtle: [0.01169 s] survived
+   - [# 574] AOR turtle: [0.01135 s] survived
+   - [# 575] AOR turtle: [0.01113 s] survived
+   - [# 576] AOR turtle: [0.01141 s] survived
+   - [# 577] AOR turtle: [0.01121 s] survived
+   - [# 578] AOR turtle: [0.01158 s] survived
+   - [# 579] AOR turtle: [0.01148 s] survived
+   - [# 580] AOR turtle: [0.01130 s] survived
+   - [# 581] AOR turtle: [0.01178 s] survived
+   - [# 582] AOR turtle: [0.01141 s] survived
+   - [# 583] AOR turtle: [0.01145 s] survived
+   - [# 584] AOR turtle: [0.01135 s] survived
+   - [# 585] AOR turtle: [0.01157 s] survived
+   - [# 586] AOR turtle: [0.01173 s] survived
+   - [# 587] AOR turtle: [0.01121 s] survived
+   - [# 588] AOR turtle: [0.01158 s] survived
+   - [# 589] AOR turtle: [0.01121 s] survived
+   - [# 590] AOR turtle: [0.01127 s] survived
+   - [# 591] AOR turtle: [0.01171 s] survived
+   - [# 592] AOR turtle: [0.01122 s] survived
+   - [# 593] AOR turtle: [0.01140 s] survived
+   - [# 594] AOR turtle: [0.01160 s] survived
+   - [# 595] AOR turtle: [0.01130 s] survived
+   - [# 596] AOR turtle: [0.01159 s] survived
+   - [# 597] AOR turtle: [0.01138 s] survived
+   - [# 598] AOR turtle: [0.01113 s] survived
+   - [# 599] AOR turtle: [0.01146 s] survived
+   - [# 600] AOR turtle: [0.01138 s] survived
+   - [# 601] AOR turtle: [0.01131 s] survived
+   - [# 602] AOR turtle: [0.01141 s] survived
+   - [# 603] AOR turtle: [0.01107 s] survived
+   - [# 604] AOR turtle: [0.01128 s] survived
+   - [# 605] AOR turtle: [0.01149 s] survived
+   - [# 606] AOR turtle: [0.01155 s] survived
+   - [# 607] AOR turtle: [0.01150 s] survived
+   - [# 608] AOR turtle: [0.01128 s] survived
+   - [# 609] AOR turtle: [0.01172 s] survived
+   - [# 610] AOR turtle: [0.01141 s] survived
+   - [# 611] AOR turtle: [0.01095 s] survived
+   - [# 612] AOR turtle: [0.01160 s] survived
+   - [# 613] AOR turtle: [0.01122 s] survived
+   - [# 614] AOR turtle: [0.01181 s] survived
+   - [# 615] AOR turtle: [0.01132 s] survived
+   - [# 616] AOR turtle: [0.01157 s] survived
+   - [# 617] AOR turtle: [0.01101 s] survived
+   - [# 618] AOR turtle: [0.01140 s] survived
+   - [# 619] AOR turtle: [0.01145 s] survived
+   - [# 620] AOR turtle: [0.01093 s] survived
+   - [# 621] AOR turtle: [0.01116 s] survived
+   - [# 622] AOR turtle: [0.01107 s] survived
+   - [# 623] AOR turtle: [0.01103 s] survived
+   - [# 624] AOR turtle: [0.01127 s] survived
+   - [# 625] AOR turtle: [0.01100 s] survived
+   - [# 626] AOR turtle: [0.01132 s] survived
+   - [# 627] AOR turtle: [0.01141 s] survived
+   - [# 628] AOR turtle: [0.01112 s] survived
+   - [# 629] AOR turtle: [0.01129 s] survived
+   - [# 630] AOR turtle: [0.01131 s] survived
+   - [# 631] AOR turtle: [0.01124 s] survived
+   - [# 632] AOR turtle: [0.01099 s] survived
+   - [# 633] AOR turtle: [0.01143 s] survived
+   - [# 634] AOR turtle: [0.01092 s] survived
+   - [# 635] AOR turtle: [0.01122 s] survived
+   - [# 636] AOR turtle: [0.01153 s] survived
+   - [# 637] AOR turtle: [0.01126 s] survived
+   - [# 638] AOR turtle: [0.01140 s] survived
+   - [# 639] AOR turtle: [0.01089 s] survived
+   - [# 640] AOR turtle: [0.01176 s] survived
+   - [# 641] AOR turtle: [0.01107 s] survived
+   - [# 642] AOR turtle: [0.01158 s] survived
+   - [# 643] AOR turtle: [0.01134 s] survived
+   - [# 644] AOR turtle: [0.01159 s] survived
+   - [# 645] AOR turtle: [0.01163 s] survived
+   - [# 646] AOR turtle: [0.01151 s] survived
+   - [# 647] AOR turtle: [0.01138 s] survived
+   - [# 648] AOR turtle: [0.01144 s] survived
+   - [# 649] AOR turtle: [0.01118 s] survived
+   - [# 650] AOR turtle: [0.01179 s] survived
+   - [# 651] AOR turtle: [0.01124 s] survived
+   - [# 652] AOR turtle: [0.01143 s] survived
+   - [# 653] AOR turtle: [0.01116 s] survived
+   - [# 654] AOR turtle: [0.01146 s] survived
+   - [# 655] AOR turtle: [0.01097 s] survived
+   - [# 656] AOR turtle: [0.01183 s] survived
+   - [# 657] AOR turtle: [0.01124 s] survived
+   - [# 658] AOR turtle: [0.01112 s] survived
+   - [# 659] AOR turtle: [0.01183 s] survived
+   - [# 660] AOR turtle: [0.01126 s] survived
+   - [# 661] AOR turtle: [0.01111 s] survived
+   - [# 662] AOR turtle: [0.01169 s] survived
+   - [# 663] AOR turtle: [0.01125 s] survived
+   - [# 664] AOR turtle: [0.01154 s] survived
+   - [# 665] AOR turtle: [0.01178 s] survived
+   - [# 666] AOR turtle: [0.01130 s] survived
+   - [# 667] AOR turtle: [0.01176 s] survived
+   - [# 668] AOR turtle: [0.01118 s] survived
+   - [# 669] AOR turtle: [0.01088 s] survived
+   - [# 670] AOR turtle: [0.01158 s] survived
+   - [# 671] AOR turtle: [0.01130 s] survived
+   - [# 672] AOR turtle: [0.01149 s] survived
+   - [# 673] AOR turtle: [0.01180 s] survived
+   - [# 674] AOR turtle: [0.01156 s] survived
+   - [# 675] AOR turtle: [0.01176 s] survived
+   - [# 676] AOR turtle: [0.01102 s] survived
+   - [# 677] AOR turtle: [0.01123 s] survived
+   - [# 678] AOR turtle: [0.01151 s] survived
+   - [# 679] AOR turtle: [0.01156 s] survived
+   - [# 680] AOR turtle: [0.01110 s] survived
+   - [# 681] AOR turtle: [0.01146 s] survived
+   - [# 682] AOR turtle: [0.01133 s] survived
+   - [# 683] AOR turtle: [0.01146 s] survived
+   - [# 684] AOR turtle: [0.01125 s] survived
+   - [# 685] AOR turtle: [0.01155 s] survived
+   - [# 686] AOR turtle: [0.01166 s] survived
+   - [# 687] AOR turtle: [0.01132 s] survived
+   - [# 688] AOR turtle: [0.01184 s] survived
+   - [# 689] AOR turtle: [0.01149 s] survived
+   - [# 690] AOR turtle: [0.01170 s] survived
+   - [# 691] AOR turtle: [0.01119 s] survived
+   - [# 692] AOR turtle: [0.01154 s] survived
+   - [# 693] AOR turtle: [0.01129 s] survived
+   - [# 694] AOR turtle: [0.01196 s] survived
+   - [# 695] AOR turtle: [0.01116 s] survived
+   - [# 696] AOR turtle: [0.01095 s] survived
+   - [# 697] AOR turtle: [0.01111 s] survived
+   - [# 698] AOR turtle: [0.01131 s] survived
+   - [# 699] AOR turtle: [0.01125 s] survived
+   - [# 700] AOR turtle: [0.01184 s] survived
+   - [# 701] AOR turtle: [0.01161 s] survived
+   - [# 702] AOR turtle: [0.01106 s] survived
+   - [# 703] AOR turtle: [0.01135 s] survived
+   - [# 704] AOR turtle: [0.01126 s] survived
+   - [# 705] AOR turtle: [0.01180 s] survived
+   - [# 706] AOR turtle: [0.01165 s] survived
+   - [# 707] AOR turtle: [0.01127 s] survived
+   - [# 708] AOR turtle: [0.01133 s] survived
+   - [# 709] AOR turtle: [0.01175 s] survived
+   - [# 710] AOR turtle: [0.01127 s] survived
+   - [# 711] AOR turtle: [0.01125 s] survived
+   - [# 712] AOR turtle: [0.01129 s] survived
+   - [# 713] AOR turtle: [0.01183 s] survived
+   - [# 714] AOR turtle: [0.01120 s] survived
+   - [# 715] AOR turtle: [0.01197 s] survived
+   - [# 716] AOR turtle: [0.01134 s] survived
+   - [# 717] AOR turtle: [0.01147 s] survived
+   - [# 718] AOR turtle: [0.01114 s] survived
+   - [# 719] AOR turtle: [0.01147 s] survived
+   - [# 720] AOR turtle: [0.01163 s] survived
+   - [# 721] AOR turtle: [0.01142 s] survived
+   - [# 722] AOR turtle: [0.01195 s] survived
+   - [# 723] AOR turtle: [0.01147 s] survived
+   - [# 724] AOR turtle: [0.01187 s] survived
+   - [# 725] AOR turtle: [0.01184 s] survived
+   - [# 726] AOR turtle: [0.00000 s] incompetent
+   - [# 727] AOR turtle: [0.00000 s] incompetent
+   - [# 728] AOR turtle: [0.00000 s] incompetent
+   - [# 729] AOR turtle: [0.00000 s] incompetent
+   - [# 730] AOR turtle: [0.01158 s] survived
+   - [# 731] AOR turtle: [0.00000 s] incompetent
+   - [# 732] AOR turtle: [0.00000 s] incompetent
+   - [# 733] AOR turtle: [0.00000 s] incompetent
+   - [# 734] AOR turtle: [0.00000 s] incompetent
+   - [# 735] AOR turtle: [0.00000 s] incompetent
+   - [# 736] AOR turtle: [0.00000 s] incompetent
+   - [# 737] AOR turtle: [0.00000 s] incompetent
+   - [# 738] AOR turtle: [0.00000 s] incompetent
+   - [# 739] AOR turtle: [0.00000 s] incompetent
+   - [# 740] AOR turtle: [0.00000 s] incompetent
+   - [# 741] AOR turtle: [0.00000 s] incompetent
+   - [# 742] AOR turtle: [0.00000 s] incompetent
+   - [# 743] AOR turtle: [0.01140 s] survived
+   - [# 744] AOR turtle: [0.01144 s] survived
+   - [# 745] AOR turtle: [0.01146 s] survived
+   - [# 746] AOR turtle: [0.01117 s] survived
+   - [# 747] AOR turtle: [0.01109 s] survived
+   - [# 748] AOR turtle: [0.01109 s] survived
+   - [# 749] AOR turtle: [0.01138 s] survived
+   - [# 750] AOR turtle: [0.01146 s] survived
+   - [# 751] AOR turtle: [0.01156 s] survived
+   - [# 752] AOR turtle: [0.01128 s] survived
+   - [# 753] AOR turtle: [0.01146 s] survived
+   - [# 754] AOR turtle: [0.01115 s] survived
+   - [# 755] AOR turtle: [0.01158 s] survived
+   - [# 756] ASR turtle: [0.01105 s] survived
+   - [# 757] ASR turtle: [0.01157 s] survived
+   - [# 758] ASR turtle: [0.01144 s] survived
+   - [# 759] ASR turtle: [0.00944 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 760] ASR turtle: [0.01106 s] survived
+   - [# 761] ASR turtle: [0.01122 s] survived
+   - [# 762] ASR turtle: [0.01130 s] survived
+   - [# 763] ASR turtle: [0.00981 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 764] ASR turtle: [0.00969 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [# 765] ASR turtle: [0.01108 s] survived
+   - [# 766] ASR turtle: [0.01094 s] survived
+   - [# 767] ASR turtle: [0.01152 s] survived
+   - [# 768] ASR turtle: [0.01172 s] survived
+   - [# 769] ASR turtle: [0.01106 s] survived
+   - [# 770] BCR turtle: [0.01156 s] killed by test_config_dict_invalid (test_turtle.TurtleConfigTest)
+   - [# 771] BCR turtle: [0.01155 s] killed by test_config_dict_invalid (test_turtle.TurtleConfigTest)
+   - [# 772] BCR turtle: [0.01087 s] survived
+   - [# 773] BCR turtle: [0.01155 s] survived
+   - [# 774] COD turtle: [0.01176 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [# 775] COD turtle: [0.01114 s] survived
+   - [# 776] COD turtle: [0.01159 s] survived
+   - [# 777] COD turtle: [0.01115 s] survived
+   - [# 778] COD turtle: [0.01162 s] survived
+   - [# 779] COD turtle: [0.01113 s] survived
+   - [# 780] COD turtle: [0.01150 s] survived
+   - [# 781] COD turtle: [0.01134 s] survived
+   - [# 782] COD turtle: [0.01143 s] survived
+   - [# 783] COD turtle: [0.01129 s] survived
+   - [# 784] COD turtle: [0.00908 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 785] COD turtle: [0.01021 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 786] COD turtle: [0.00982 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 787] COD turtle: [0.01107 s] survived
+   - [# 788] COD turtle: [0.01112 s] survived
+   - [# 789] COD turtle: [0.01188 s] survived
+   - [# 790] COD turtle: [0.01117 s] survived
+   - [# 791] COD turtle: [0.01109 s] survived
+   - [# 792] COD turtle: [0.01095 s] survived
+   - [# 793] COD turtle: [0.01118 s] survived
+   - [# 794] COD turtle: [0.01165 s] survived
+   - [# 795] COD turtle: [0.01098 s] survived
+   - [# 796] COD turtle: [0.01108 s] survived
+   - [# 797] COI turtle: [0.01188 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [# 798] COI turtle: [0.01111 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [# 799] COI turtle: [0.01140 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [# 800] COI turtle: [0.01264 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [# 801] COI turtle: [0.01306 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [# 802] COI turtle: [0.01115 s] survived
+   - [# 803] COI turtle: [0.01218 s] survived
+   - [# 804] COI turtle: [0.01147 s] survived
+   - [# 805] COI turtle: [0.01107 s] survived
+   - [# 806] COI turtle: [0.21175 s] timeout
+   - [# 807] COI turtle: [0.01597 s] survived
+   - [# 808] COI turtle: [0.01116 s] survived
+   - [# 809] COI turtle: [0.01121 s] survived
+   - [# 810] COI turtle: [0.01135 s] survived
+   - [# 811] COI turtle: [0.01193 s] survived
+   - [# 812] COI turtle: [0.00000 s] incompetent
+   - [# 813] COI turtle: [0.01193 s] survived
+   - [# 814] COI turtle: [0.01132 s] survived
+   - [# 815] COI turtle: [0.01166 s] survived
+   - [# 816] COI turtle: [0.01131 s] survived
+   - [# 817] COI turtle: [0.01177 s] survived
+   - [# 818] COI turtle: [0.01138 s] survived
+   - [# 819] COI turtle: [0.01165 s] survived
+   - [# 820] COI turtle: [0.01112 s] survived
+   - [# 821] COI turtle: [0.01166 s] survived
+   - [# 822] COI turtle: [0.01124 s] survived
+   - [# 823] COI turtle: [0.01154 s] survived
+   - [# 824] COI turtle: [0.01126 s] survived
+   - [# 825] COI turtle: [0.01156 s] survived
+   - [# 826] COI turtle: [0.01126 s] survived
+   - [# 827] COI turtle: [0.01170 s] survived
+   - [# 828] COI turtle: [0.01141 s] survived
+   - [# 829] COI turtle: [0.01201 s] survived
+   - [# 830] COI turtle: [0.01148 s] survived
+   - [# 831] COI turtle: [0.01185 s] survived
+   - [# 832] COI turtle: [0.01106 s] survived
+   - [# 833] COI turtle: [0.01148 s] survived
+   - [# 834] COI turtle: [0.01153 s] survived
+   - [# 835] COI turtle: [0.01125 s] survived
+   - [# 836] COI turtle: [0.01126 s] survived
+   - [# 837] COI turtle: [0.01149 s] survived
+   - [# 838] COI turtle: [0.01101 s] survived
+   - [# 839] COI turtle: [0.01166 s] survived
+   - [# 840] COI turtle: [0.01128 s] survived
+   - [# 841] COI turtle: [0.01099 s] survived
+   - [# 842] COI turtle: [0.01138 s] survived
+   - [# 843] COI turtle: [0.01142 s] survived
+   - [# 844] COI turtle: [0.01103 s] survived
+   - [# 845] COI turtle: [0.01146 s] survived
+   - [# 846] COI turtle: [0.01110 s] survived
+   - [# 847] COI turtle: [0.01087 s] survived
+   - [# 848] COI turtle: [0.01136 s] survived
+   - [# 849] COI turtle: [0.01103 s] survived
+   - [# 850] COI turtle: [0.01148 s] survived
+   - [# 851] COI turtle: [0.01110 s] survived
+   - [# 852] COI turtle: [0.01129 s] survived
+   - [# 853] COI turtle: [0.01148 s] survived
+   - [# 854] COI turtle: [0.01106 s] survived
+   - [# 855] COI turtle: [0.01175 s] survived
+   - [# 856] COI turtle: [0.01150 s] survived
+   - [# 857] COI turtle: [0.01148 s] survived
+   - [# 858] COI turtle: [0.01103 s] survived
+   - [# 859] COI turtle: [0.01143 s] survived
+   - [# 860] COI turtle: [0.01118 s] survived
+   - [# 861] COI turtle: [0.01148 s] survived
+   - [# 862] COI turtle: [0.01115 s] survived
+   - [# 863] COI turtle: [0.01104 s] survived
+   - [# 864] COI turtle: [0.01159 s] survived
+   - [# 865] COI turtle: [0.01111 s] survived
+   - [# 866] COI turtle: [0.01131 s] survived
+   - [# 867] COI turtle: [0.01123 s] survived
+   - [# 868] COI turtle: [0.01123 s] survived
+   - [# 869] COI turtle: [0.01154 s] survived
+   - [# 870] COI turtle: [0.01126 s] survived
+   - [# 871] COI turtle: [0.01149 s] survived
+   - [# 872] COI turtle: [0.01115 s] survived
+   - [# 873] COI turtle: [0.01135 s] survived
+   - [# 874] COI turtle: [0.01132 s] survived
+   - [# 875] COI turtle: [0.01127 s] survived
+   - [# 876] COI turtle: [0.01159 s] survived
+   - [# 877] COI turtle: [0.01129 s] survived
+   - [# 878] COI turtle: [0.01103 s] survived
+   - [# 879] COI turtle: [0.01152 s] survived
+   - [# 880] COI turtle: [0.01115 s] survived
+   - [# 881] COI turtle: [0.01199 s] survived
+   - [# 882] COI turtle: [0.01115 s] survived
+   - [# 883] COI turtle: [0.01121 s] survived
+   - [# 884] COI turtle: [0.01153 s] survived
+   - [# 885] COI turtle: [0.01104 s] survived
+   - [# 886] COI turtle: [0.01160 s] survived
+   - [# 887] COI turtle: [0.01186 s] survived
+   - [# 888] COI turtle: [0.01138 s] survived
+   - [# 889] COI turtle: [0.01386 s] survived
+   - [# 890] COI turtle: [0.01210 s] survived
+   - [# 891] COI turtle: [0.01162 s] survived
+   - [# 892] COI turtle: [0.01121 s] survived
+   - [# 893] COI turtle: [0.01188 s] survived
+   - [# 894] COI turtle: [0.00961 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 895] COI turtle: [0.00968 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [# 896] COI turtle: [0.00993 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 897] COI turtle: [0.01013 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [# 898] COI turtle: [0.00999 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [# 899] COI turtle: [0.21201 s] timeout
+   - [# 900] COI turtle: [0.01301 s] killed by test_distance_method (test_turtle.TestTNavigator)
+   - [# 901] COI turtle: [0.21218 s] timeout
+   - [# 902] COI turtle: [0.21505 s] timeout
+   - [# 903] COI turtle: [0.01458 s] killed by test_distance_method (test_turtle.TestTNavigator)
+   - [# 904] COI turtle: [0.01070 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 905] COI turtle: [0.21327 s] timeout
+   - [# 906] COI turtle: [0.21557 s] timeout
+   - [# 907] COI turtle: [0.01514 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [# 908] COI turtle: [0.01180 s] survived
+   - [# 909] COI turtle: [0.01190 s] survived
+   - [# 910] COI turtle: [0.01155 s] survived
+   - [# 911] COI turtle: [0.01163 s] survived
+   - [# 912] COI turtle: [0.01226 s] survived
+   - [# 913] COI turtle: [0.01200 s] survived
+   - [# 914] COI turtle: [0.01216 s] survived
+   - [# 915] COI turtle: [0.01169 s] survived
+   - [# 916] COI turtle: [0.01166 s] survived
+   - [# 917] COI turtle: [0.01154 s] survived
+   - [# 918] COI turtle: [0.01230 s] survived
+   - [# 919] COI turtle: [0.01057 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 920] COI turtle: [0.01066 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 921] COI turtle: [0.01154 s] survived
+   - [# 922] COI turtle: [0.01174 s] survived
+   - [# 923] COI turtle: [0.01209 s] survived
+   - [# 924] COI turtle: [0.01143 s] survived
+   - [# 925] COI turtle: [0.01205 s] survived
+   - [# 926] COI turtle: [0.01148 s] survived
+   - [# 927] COI turtle: [0.01218 s] survived
+   - [# 928] COI turtle: [0.01142 s] survived
+   - [# 929] COI turtle: [0.01220 s] survived
+   - [# 930] COI turtle: [0.01142 s] survived
+   - [# 931] COI turtle: [0.01125 s] survived
+   - [# 932] COI turtle: [0.01211 s] survived
+   - [# 933] COI turtle: [0.01010 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 934] COI turtle: [0.01099 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 935] COI turtle: [0.01058 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 936] COI turtle: [0.01049 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [# 937] COI turtle: [0.01036 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [# 938] COI turtle: [0.01202 s] survived
+   - [# 939] COI turtle: [0.01000 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 940] COI turtle: [0.01024 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 941] COI turtle: [0.01169 s] survived
+   - [# 942] COI turtle: [0.01134 s] survived
+   - [# 943] COI turtle: [0.01044 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 944] COI turtle: [0.01058 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 945] COI turtle: [0.01121 s] survived
+   - [# 946] COI turtle: [0.01168 s] survived
+   - [# 947] COI turtle: [0.00981 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 948] COI turtle: [0.01039 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 949] COI turtle: [0.01065 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 950] COI turtle: [0.01063 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 951] COI turtle: [0.01023 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 952] COI turtle: [0.01046 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 953] COI turtle: [0.01083 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 954] COI turtle: [0.01059 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 955] COI turtle: [0.01158 s] survived
+   - [# 956] COI turtle: [0.01084 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 957] COI turtle: [0.00989 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 958] COI turtle: [0.00995 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 959] COI turtle: [0.01092 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 960] COI turtle: [0.01004 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 961] COI turtle: [0.01033 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 962] COI turtle: [0.01186 s] survived
+   - [# 963] COI turtle: [0.01036 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 964] COI turtle: [0.01052 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 965] COI turtle: [0.01057 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 966] COI turtle: [0.01039 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 967] COI turtle: [0.01109 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 968] COI turtle: [0.01066 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 969] COI turtle: [0.01054 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 970] COI turtle: [0.01530 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [# 971] COI turtle: [0.01165 s] survived
+   - [# 972] COI turtle: [0.01163 s] survived
+   - [# 973] COI turtle: [0.01200 s] survived
+   - [# 974] COI turtle: [0.01174 s] survived
+   - [# 975] COI turtle: [0.01150 s] survived
+   - [# 976] COI turtle: [0.01180 s] survived
+   - [# 977] COI turtle: [0.01154 s] survived
+   - [# 978] COI turtle: [0.01221 s] survived
+   - [# 979] COI turtle: [0.01133 s] survived
+   - [# 980] COI turtle: [0.01220 s] survived
+   - [# 981] COI turtle: [0.01125 s] survived
+   - [# 982] COI turtle: [0.01243 s] survived
+   - [# 983] COI turtle: [0.01135 s] survived
+   - [# 984] COI turtle: [0.01182 s] survived
+   - [# 985] COI turtle: [0.01193 s] survived
+   - [# 986] COI turtle: [0.01142 s] survived
+   - [# 987] COI turtle: [0.01203 s] survived
+   - [# 988] COI turtle: [0.01168 s] survived
+   - [# 989] COI turtle: [0.01178 s] survived
+   - [# 990] COI turtle: [0.01140 s] survived
+   - [# 991] COI turtle: [0.01169 s] survived
+   - [# 992] COI turtle: [0.01176 s] survived
+   - [# 993] COI turtle: [0.01220 s] survived
+   - [# 994] COI turtle: [0.01138 s] survived
+   - [# 995] COI turtle: [0.01179 s] survived
+   - [# 996] COI turtle: [0.01174 s] survived
+   - [# 997] COI turtle: [0.01136 s] survived
+   - [# 998] COI turtle: [0.01194 s] survived
+   - [# 999] COI turtle: [0.01176 s] survived
+   - [#1000] COI turtle: [0.01167 s] survived
+   - [#1001] COI turtle: [0.01177 s] survived
+   - [#1002] COI turtle: [0.01191 s] survived
+   - [#1003] COI turtle: [0.01151 s] survived
+   - [#1004] COI turtle: [0.01217 s] survived
+   - [#1005] COI turtle: [0.01156 s] survived
+   - [#1006] COI turtle: [0.01193 s] survived
+   - [#1007] COI turtle: [0.01197 s] survived
+   - [#1008] COI turtle: [0.01145 s] survived
+   - [#1009] COI turtle: [0.01173 s] survived
+   - [#1010] COI turtle: [0.01162 s] survived
+   - [#1011] COI turtle: [0.01212 s] survived
+   - [#1012] COI turtle: [0.01179 s] survived
+   - [#1013] COI turtle: [0.01148 s] survived
+   - [#1014] COI turtle: [0.01124 s] survived
+   - [#1015] COI turtle: [0.01131 s] survived
+   - [#1016] COI turtle: [0.01143 s] survived
+   - [#1017] COI turtle: [0.01254 s] survived
+   - [#1018] COI turtle: [0.01183 s] survived
+   - [#1019] COI turtle: [0.01175 s] survived
+   - [#1020] COI turtle: [0.01095 s] survived
+   - [#1021] COI turtle: [0.01195 s] survived
+   - [#1022] COI turtle: [0.01132 s] survived
+   - [#1023] COI turtle: [0.01179 s] survived
+   - [#1024] COI turtle: [0.01234 s] survived
+   - [#1025] COI turtle: [0.01183 s] survived
+   - [#1026] COI turtle: [0.01146 s] survived
+   - [#1027] COI turtle: [0.01111 s] survived
+   - [#1028] COI turtle: [0.01097 s] survived
+   - [#1029] COI turtle: [0.01174 s] survived
+   - [#1030] COI turtle: [0.01149 s] survived
+   - [#1031] COI turtle: [0.01151 s] survived
+   - [#1032] COI turtle: [0.01112 s] survived
+   - [#1033] COI turtle: [0.01141 s] survived
+   - [#1034] COI turtle: [0.01128 s] survived
+   - [#1035] COI turtle: [0.01107 s] survived
+   - [#1036] COI turtle: [0.01121 s] survived
+   - [#1037] COI turtle: [0.01108 s] survived
+   - [#1038] COI turtle: [0.01113 s] survived
+   - [#1039] COI turtle: [0.01140 s] survived
+   - [#1040] COI turtle: [0.01179 s] survived
+   - [#1041] COI turtle: [0.01108 s] survived
+   - [#1042] COI turtle: [0.01151 s] survived
+   - [#1043] COI turtle: [0.01148 s] survived
+   - [#1044] COI turtle: [0.01135 s] survived
+   - [#1045] COI turtle: [0.01192 s] survived
+   - [#1046] COI turtle: [0.01160 s] survived
+   - [#1047] COI turtle: [0.01179 s] survived
+   - [#1048] COI turtle: [0.01137 s] survived
+   - [#1049] COI turtle: [0.01130 s] survived
+   - [#1050] COI turtle: [0.01148 s] survived
+   - [#1051] COI turtle: [0.01134 s] survived
+   - [#1052] COI turtle: [0.01186 s] survived
+   - [#1053] COI turtle: [0.01131 s] survived
+   - [#1054] COI turtle: [0.01187 s] survived
+   - [#1055] COI turtle: [0.01200 s] survived
+   - [#1056] COI turtle: [0.01154 s] survived
+   - [#1057] COI turtle: [0.01124 s] survived
+   - [#1058] COI turtle: [0.01170 s] survived
+   - [#1059] COI turtle: [0.01176 s] survived
+   - [#1060] COI turtle: [0.01143 s] survived
+   - [#1061] COI turtle: [0.01203 s] survived
+   - [#1062] COI turtle: [0.01115 s] survived
+   - [#1063] COI turtle: [0.01153 s] survived
+   - [#1064] COI turtle: [0.01141 s] survived
+   - [#1065] COI turtle: [0.01163 s] survived
+   - [#1066] COI turtle: [0.01137 s] survived
+   - [#1067] COI turtle: [0.01178 s] survived
+   - [#1068] COI turtle: [0.01173 s] survived
+   - [#1069] COI turtle: [0.01094 s] survived
+   - [#1070] COI turtle: [0.01152 s] survived
+   - [#1071] COI turtle: [0.01168 s] survived
+   - [#1072] COI turtle: [0.01171 s] survived
+   - [#1073] COI turtle: [0.01176 s] survived
+   - [#1074] COI turtle: [0.01130 s] survived
+   - [#1075] COI turtle: [0.01160 s] survived
+   - [#1076] COI turtle: [0.01162 s] survived
+   - [#1077] COI turtle: [0.01156 s] survived
+   - [#1078] COI turtle: [0.01140 s] survived
+   - [#1079] COI turtle: [0.01174 s] survived
+   - [#1080] COI turtle: [0.01225 s] survived
+   - [#1081] COI turtle: [0.01180 s] survived
+   - [#1082] COI turtle: [0.01153 s] survived
+   - [#1083] COI turtle: [0.01187 s] survived
+   - [#1084] COI turtle: [0.01158 s] survived
+   - [#1085] COI turtle: [0.01184 s] survived
+   - [#1086] COI turtle: [0.01176 s] survived
+   - [#1087] COI turtle: [0.01185 s] survived
+   - [#1088] COI turtle: [0.01156 s] survived
+   - [#1089] COI turtle: [0.01202 s] survived
+   - [#1090] COI turtle: [0.01143 s] survived
+   - [#1091] COI turtle: [0.01136 s] survived
+   - [#1092] COI turtle: [0.01159 s] survived
+   - [#1093] COI turtle: [0.01148 s] survived
+   - [#1094] COI turtle: [0.01161 s] survived
+   - [#1095] COI turtle: [0.01192 s] survived
+   - [#1096] COI turtle: [0.01147 s] survived
+   - [#1097] COI turtle: [0.01179 s] survived
+   - [#1098] COI turtle: [0.01161 s] survived
+   - [#1099] COI turtle: [0.01213 s] survived
+   - [#1100] COI turtle: [0.01171 s] survived
+   - [#1101] COI turtle: [0.01180 s] survived
+   - [#1102] COI turtle: [0.01148 s] survived
+   - [#1103] COI turtle: [0.01159 s] survived
+   - [#1104] COI turtle: [0.01172 s] survived
+   - [#1105] COI turtle: [0.01133 s] survived
+   - [#1106] COI turtle: [0.01149 s] survived
+   - [#1107] COI turtle: [0.01138 s] survived
+   - [#1108] COI turtle: [0.01145 s] survived
+   - [#1109] COI turtle: [0.01159 s] survived
+   - [#1110] COI turtle: [0.01186 s] survived
+   - [#1111] COI turtle: [0.01223 s] survived
+   - [#1112] COI turtle: [0.01152 s] survived
+   - [#1113] COI turtle: [0.01164 s] survived
+   - [#1114] COI turtle: [0.01211 s] survived
+   - [#1115] COI turtle: [0.01178 s] survived
+   - [#1116] COI turtle: [0.00000 s] incompetent
+   - [#1117] COI turtle: [0.00000 s] incompetent
+   - [#1118] COI turtle: [0.01152 s] survived
+   - [#1119] COI turtle: [0.01189 s] survived
+   - [#1120] COI turtle: [0.00000 s] incompetent
+   - [#1121] COI turtle: [0.00000 s] incompetent
+   - [#1122] COI turtle: [0.02104 s] survived
+   - [#1123] COI turtle: [0.01526 s] survived
+   - [#1124] COI turtle: [0.01491 s] survived
+   - [#1125] COI turtle: [0.01522 s] survived
+   - [#1126] COI turtle: [0.01593 s] survived
+   - [#1127] COI turtle: [0.01455 s] survived
+   - [#1128] COI turtle: [0.01502 s] survived
+   - [#1129] COI turtle: [0.01506 s] survived
+   - [#1130] CRP turtle: [0.01512 s] survived
+   - [#1131] CRP turtle: [0.01519 s] survived
+   - [#1132] CRP turtle: [0.01506 s] survived
+   - [#1133] CRP turtle: [0.01481 s] survived
+   - [#1134] CRP turtle: [0.01551 s] survived
+   - [#1135] CRP turtle: [0.01493 s] survived
+   - [#1136] CRP turtle: [0.01563 s] survived
+   - [#1137] CRP turtle: [0.01479 s] survived
+   - [#1138] CRP turtle: [0.01523 s] survived
+   - [#1139] CRP turtle: [0.01508 s] survived
+   - [#1140] CRP turtle: [0.01511 s] survived
+   - [#1141] CRP turtle: [0.01531 s] survived
+   - [#1142] CRP turtle: [0.01543 s] survived
+   - [#1143] CRP turtle: [0.01456 s] survived
+   - [#1144] CRP turtle: [0.01543 s] survived
+   - [#1145] CRP turtle: [0.01463 s] survived
+   - [#1146] CRP turtle: [0.01533 s] survived
+   - [#1147] CRP turtle: [0.01503 s] survived
+   - [#1148] CRP turtle: [0.01499 s] survived
+   - [#1149] CRP turtle: [0.01480 s] survived
+   - [#1150] CRP turtle: [0.00000 s] incompetent
+   - [#1151] CRP turtle: [0.00000 s] incompetent
+   - [#1152] CRP turtle: [0.00000 s] incompetent
+   - [#1153] CRP turtle: [0.00000 s] incompetent
+   - [#1154] CRP turtle: [0.00000 s] incompetent
+   - [#1155] CRP turtle: [0.00000 s] incompetent
+   - [#1156] CRP turtle: [0.00000 s] incompetent
+   - [#1157] CRP turtle: [0.00000 s] incompetent
+   - [#1158] CRP turtle: [0.00000 s] incompetent
+   - [#1159] CRP turtle: [0.00000 s] incompetent
+   - [#1160] CRP turtle: [0.00000 s] incompetent
+   - [#1161] CRP turtle: [0.00000 s] incompetent
+   - [#1162] CRP turtle: [0.00000 s] incompetent
+   - [#1163] CRP turtle: [0.00000 s] incompetent
+   - [#1164] CRP turtle: [0.00000 s] incompetent
+   - [#1165] CRP turtle: [0.00000 s] incompetent
+   - [#1166] CRP turtle: [0.00000 s] incompetent
+   - [#1167] CRP turtle: [0.00000 s] incompetent
+   - [#1168] CRP turtle: [0.00000 s] incompetent
+   - [#1169] CRP turtle: [0.00000 s] incompetent
+   - [#1170] CRP turtle: [0.00000 s] incompetent
+   - [#1171] CRP turtle: [0.00000 s] incompetent
+   - [#1172] CRP turtle: [0.00000 s] incompetent
+   - [#1173] CRP turtle: [0.00000 s] incompetent
+   - [#1174] CRP turtle: [0.00000 s] incompetent
+   - [#1175] CRP turtle: [0.00000 s] incompetent
+   - [#1176] CRP turtle: [0.00000 s] incompetent
+   - [#1177] CRP turtle: [0.00000 s] incompetent
+   - [#1178] CRP turtle: [0.00000 s] incompetent
+   - [#1179] CRP turtle: [0.00000 s] incompetent
+   - [#1180] CRP turtle: [0.00000 s] incompetent
+   - [#1181] CRP turtle: [0.00000 s] incompetent
+   - [#1182] CRP turtle: [0.00000 s] incompetent
+   - [#1183] CRP turtle: [0.00000 s] incompetent
+   - [#1184] CRP turtle: [0.00000 s] incompetent
+   - [#1185] CRP turtle: [0.00000 s] incompetent
+   - [#1186] CRP turtle: [0.00000 s] incompetent
+   - [#1187] CRP turtle: [0.00000 s] incompetent
+   - [#1188] CRP turtle: [0.00000 s] incompetent
+   - [#1189] CRP turtle: [0.00000 s] incompetent
+   - [#1190] CRP turtle: [0.00000 s] incompetent
+   - [#1191] CRP turtle: [0.00000 s] incompetent
+   - [#1192] CRP turtle: [0.00000 s] incompetent
+   - [#1193] CRP turtle: [0.00000 s] incompetent
+   - [#1194] CRP turtle: [0.00000 s] incompetent
+   - [#1195] CRP turtle: [0.00000 s] incompetent
+   - [#1196] CRP turtle: [0.00000 s] incompetent
+   - [#1197] CRP turtle: [0.00000 s] incompetent
+   - [#1198] CRP turtle: [0.00000 s] incompetent
+   - [#1199] CRP turtle: [0.00000 s] incompetent
+   - [#1200] CRP turtle: [0.00000 s] incompetent
+   - [#1201] CRP turtle: [0.00000 s] incompetent
+   - [#1202] CRP turtle: [0.00000 s] incompetent
+   - [#1203] CRP turtle: [0.00000 s] incompetent
+   - [#1204] CRP turtle: [0.00000 s] incompetent
+   - [#1205] CRP turtle: [0.00000 s] incompetent
+   - [#1206] CRP turtle: [0.00000 s] incompetent
+   - [#1207] CRP turtle: [0.00000 s] incompetent
+   - [#1208] CRP turtle: [0.00000 s] incompetent
+   - [#1209] CRP turtle: [0.00000 s] incompetent
+   - [#1210] CRP turtle: [0.00000 s] incompetent
+   - [#1211] CRP turtle: [0.00000 s] incompetent
+   - [#1212] CRP turtle: [0.00000 s] incompetent
+   - [#1213] CRP turtle: [0.00000 s] incompetent
+   - [#1214] CRP turtle: [0.00000 s] incompetent
+   - [#1215] CRP turtle: [0.00000 s] incompetent
+   - [#1216] CRP turtle: [0.00000 s] incompetent
+   - [#1217] CRP turtle: [0.00000 s] incompetent
+   - [#1218] CRP turtle: [0.00000 s] incompetent
+   - [#1219] CRP turtle: [0.00000 s] incompetent
+   - [#1220] CRP turtle: [0.00000 s] incompetent
+   - [#1221] CRP turtle: [0.00000 s] incompetent
+   - [#1222] CRP turtle: [0.00000 s] incompetent
+   - [#1223] CRP turtle: [0.00000 s] incompetent
+   - [#1224] CRP turtle: [0.00000 s] incompetent
+   - [#1225] CRP turtle: [0.00000 s] incompetent
+   - [#1226] CRP turtle: [0.00000 s] incompetent
+   - [#1227] CRP turtle: [0.00000 s] incompetent
+   - [#1228] CRP turtle: [0.00000 s] incompetent
+   - [#1229] CRP turtle: [0.00000 s] incompetent
+   - [#1230] CRP turtle: [0.00000 s] incompetent
+   - [#1231] CRP turtle: [0.00000 s] incompetent
+   - [#1232] CRP turtle: [0.00000 s] incompetent
+   - [#1233] CRP turtle: [0.00000 s] incompetent
+   - [#1234] CRP turtle: [0.00000 s] incompetent
+   - [#1235] CRP turtle: [0.00000 s] incompetent
+   - [#1236] CRP turtle: [0.00000 s] incompetent
+   - [#1237] CRP turtle: [0.00000 s] incompetent
+   - [#1238] CRP turtle: [0.00000 s] incompetent
+   - [#1239] CRP turtle: [0.00000 s] incompetent
+   - [#1240] CRP turtle: [0.00000 s] incompetent
+   - [#1241] CRP turtle: [0.00000 s] incompetent
+   - [#1242] CRP turtle: [0.00000 s] incompetent
+   - [#1243] CRP turtle: [0.00000 s] incompetent
+   - [#1244] CRP turtle: [0.00000 s] incompetent
+   - [#1245] CRP turtle: [0.00000 s] incompetent
+   - [#1246] CRP turtle: [0.00000 s] incompetent
+   - [#1247] CRP turtle: [0.00000 s] incompetent
+   - [#1248] CRP turtle: [0.00000 s] incompetent
+   - [#1249] CRP turtle: [0.00000 s] incompetent
+   - [#1250] CRP turtle: [0.00000 s] incompetent
+   - [#1251] CRP turtle: [0.00000 s] incompetent
+   - [#1252] CRP turtle: [0.00000 s] incompetent
+   - [#1253] CRP turtle: [0.00000 s] incompetent
+   - [#1254] CRP turtle: [0.00000 s] incompetent
+   - [#1255] CRP turtle: [0.00000 s] incompetent
+   - [#1256] CRP turtle: [0.00000 s] incompetent
+   - [#1257] CRP turtle: [0.00000 s] incompetent
+   - [#1258] CRP turtle: [0.00000 s] incompetent
+   - [#1259] CRP turtle: [0.00000 s] incompetent
+   - [#1260] CRP turtle: [0.00000 s] incompetent
+   - [#1261] CRP turtle: [0.00000 s] incompetent
+   - [#1262] CRP turtle: [0.00000 s] incompetent
+   - [#1263] CRP turtle: [0.00000 s] incompetent
+   - [#1264] CRP turtle: [0.00000 s] incompetent
+   - [#1265] CRP turtle: [0.00000 s] incompetent
+   - [#1266] CRP turtle: [0.00000 s] incompetent
+   - [#1267] CRP turtle: [0.00000 s] incompetent
+   - [#1268] CRP turtle: [0.00000 s] incompetent
+   - [#1269] CRP turtle: [0.00000 s] incompetent
+   - [#1270] CRP turtle: [0.00000 s] incompetent
+   - [#1271] CRP turtle: [0.00000 s] incompetent
+   - [#1272] CRP turtle: [0.00000 s] incompetent
+   - [#1273] CRP turtle: [0.00000 s] incompetent
+   - [#1274] CRP turtle: [0.00000 s] incompetent
+   - [#1275] CRP turtle: [0.00000 s] incompetent
+   - [#1276] CRP turtle: [0.00000 s] incompetent
+   - [#1277] CRP turtle: [0.00000 s] incompetent
+   - [#1278] CRP turtle: [0.00000 s] incompetent
+   - [#1279] CRP turtle: [0.00000 s] incompetent
+   - [#1280] CRP turtle: [0.00000 s] incompetent
+   - [#1281] CRP turtle: [0.00000 s] incompetent
+   - [#1282] CRP turtle: [0.00000 s] incompetent
+   - [#1283] CRP turtle: [0.00000 s] incompetent
+   - [#1284] CRP turtle: [0.00000 s] incompetent
+   - [#1285] CRP turtle: [0.00000 s] incompetent
+   - [#1286] CRP turtle: [0.00000 s] incompetent
+   - [#1287] CRP turtle: [0.00000 s] incompetent
+   - [#1288] CRP turtle: [0.00000 s] incompetent
+   - [#1289] CRP turtle: [0.00000 s] incompetent
+   - [#1290] CRP turtle: [0.00000 s] incompetent
+   - [#1291] CRP turtle: [0.00000 s] incompetent
+   - [#1292] CRP turtle: [0.00000 s] incompetent
+   - [#1293] CRP turtle: [0.00000 s] incompetent
+   - [#1294] CRP turtle: [0.00000 s] incompetent
+   - [#1295] CRP turtle: [0.00000 s] incompetent
+   - [#1296] CRP turtle: [0.00000 s] incompetent
+   - [#1297] CRP turtle: [0.00000 s] incompetent
+   - [#1298] CRP turtle: [0.00000 s] incompetent
+   - [#1299] CRP turtle: [0.00000 s] incompetent
+   - [#1300] CRP turtle: [0.00000 s] incompetent
+   - [#1301] CRP turtle: [0.00000 s] incompetent
+   - [#1302] CRP turtle: [0.00000 s] incompetent
+   - [#1303] CRP turtle: [0.00000 s] incompetent
+   - [#1304] CRP turtle: [0.00000 s] incompetent
+   - [#1305] CRP turtle: [0.00000 s] incompetent
+   - [#1306] CRP turtle: [0.00000 s] incompetent
+   - [#1307] CRP turtle: [0.00000 s] incompetent
+   - [#1308] CRP turtle: [0.00000 s] incompetent
+   - [#1309] CRP turtle: [0.00000 s] incompetent
+   - [#1310] CRP turtle: [0.00000 s] incompetent
+   - [#1311] CRP turtle: [0.00000 s] incompetent
+   - [#1312] CRP turtle: [0.00000 s] incompetent
+   - [#1313] CRP turtle: [0.00000 s] incompetent
+   - [#1314] CRP turtle: [0.00000 s] incompetent
+   - [#1315] CRP turtle: [0.00000 s] incompetent
+   - [#1316] CRP turtle: [0.00000 s] incompetent
+   - [#1317] CRP turtle: [0.00000 s] incompetent
+   - [#1318] CRP turtle: [0.00000 s] incompetent
+   - [#1319] CRP turtle: [0.00000 s] incompetent
+   - [#1320] CRP turtle: [0.00000 s] incompetent
+   - [#1321] CRP turtle: [0.00000 s] incompetent
+   - [#1322] CRP turtle: [0.00000 s] incompetent
+   - [#1323] CRP turtle: [0.00000 s] incompetent
+   - [#1324] CRP turtle: [0.00000 s] incompetent
+   - [#1325] CRP turtle: [0.00000 s] incompetent
+   - [#1326] CRP turtle: [0.00000 s] incompetent
+   - [#1327] CRP turtle: [0.00000 s] incompetent
+   - [#1328] CRP turtle: [0.00000 s] incompetent
+   - [#1329] CRP turtle: [0.00000 s] incompetent
+   - [#1330] CRP turtle: [0.00000 s] incompetent
+   - [#1331] CRP turtle: [0.00000 s] incompetent
+   - [#1332] CRP turtle: [0.00000 s] incompetent
+   - [#1333] CRP turtle: [0.00000 s] incompetent
+   - [#1334] CRP turtle: [0.00000 s] incompetent
+   - [#1335] CRP turtle: [0.00000 s] incompetent
+   - [#1336] CRP turtle: [0.00000 s] incompetent
+   - [#1337] CRP turtle: [0.00000 s] incompetent
+   - [#1338] CRP turtle: [0.00000 s] incompetent
+   - [#1339] CRP turtle: [0.00000 s] incompetent
+   - [#1340] CRP turtle: [0.00000 s] incompetent
+   - [#1341] CRP turtle: [0.00000 s] incompetent
+   - [#1342] CRP turtle: [0.00000 s] incompetent
+   - [#1343] CRP turtle: [0.00000 s] incompetent
+   - [#1344] CRP turtle: [0.00000 s] incompetent
+   - [#1345] CRP turtle: [0.00000 s] incompetent
+   - [#1346] CRP turtle: [0.00000 s] incompetent
+   - [#1347] CRP turtle: [0.00000 s] incompetent
+   - [#1348] CRP turtle: [0.00000 s] incompetent
+   - [#1349] CRP turtle: [0.00000 s] incompetent
+   - [#1350] CRP turtle: [0.00000 s] incompetent
+   - [#1351] CRP turtle: [0.00000 s] incompetent
+   - [#1352] CRP turtle: [0.00000 s] incompetent
+   - [#1353] CRP turtle: [0.00000 s] incompetent
+   - [#1354] CRP turtle: [0.00000 s] incompetent
+   - [#1355] CRP turtle: [0.00000 s] incompetent
+   - [#1356] CRP turtle: [0.00000 s] incompetent
+   - [#1357] CRP turtle: [0.00000 s] incompetent
+   - [#1358] CRP turtle: [0.00000 s] incompetent
+   - [#1359] CRP turtle: [0.00000 s] incompetent
+   - [#1360] CRP turtle: [0.00000 s] incompetent
+   - [#1361] CRP turtle: [0.00000 s] incompetent
+   - [#1362] CRP turtle: [0.00000 s] incompetent
+   - [#1363] CRP turtle: [0.00000 s] incompetent
+   - [#1364] CRP turtle: [0.00000 s] incompetent
+   - [#1365] CRP turtle: [0.00000 s] incompetent
+   - [#1366] CRP turtle: [0.00000 s] incompetent
+   - [#1367] CRP turtle: [0.00000 s] incompetent
+   - [#1368] CRP turtle: [0.00000 s] incompetent
+   - [#1369] CRP turtle: [0.00000 s] incompetent
+   - [#1370] CRP turtle: [0.01594 s] survived
+   - [#1371] CRP turtle: [0.01556 s] survived
+   - [#1372] CRP turtle: [0.01516 s] survived
+   - [#1373] CRP turtle: [0.01511 s] survived
+   - [#1374] CRP turtle: [0.01477 s] survived
+   - [#1375] CRP turtle: [0.01469 s] survived
+   - [#1376] CRP turtle: [0.01505 s] survived
+   - [#1377] CRP turtle: [0.01510 s] survived
+   - [#1378] CRP turtle: [0.01547 s] survived
+   - [#1379] CRP turtle: [0.01565 s] survived
+   - [#1380] CRP turtle: [0.01505 s] survived
+   - [#1381] CRP turtle: [0.01520 s] survived
+   - [#1382] CRP turtle: [0.01498 s] survived
+   - [#1383] CRP turtle: [0.01539 s] survived
+   - [#1384] CRP turtle: [0.01536 s] survived
+   - [#1385] CRP turtle: [0.01558 s] survived
+   - [#1386] CRP turtle: [0.01582 s] survived
+   - [#1387] CRP turtle: [0.01447 s] survived
+   - [#1388] CRP turtle: [0.01534 s] survived
+   - [#1389] CRP turtle: [0.01496 s] survived
+   - [#1390] CRP turtle: [0.01602 s] survived
+   - [#1391] CRP turtle: [0.01545 s] survived
+   - [#1392] CRP turtle: [0.01584 s] survived
+   - [#1393] CRP turtle: [0.01524 s] survived
+   - [#1394] CRP turtle: [0.01525 s] survived
+   - [#1395] CRP turtle: [0.01500 s] survived
+   - [#1396] CRP turtle: [0.01487 s] survived
+   - [#1397] CRP turtle: [0.01532 s] survived
+   - [#1398] CRP turtle: [0.01596 s] survived
+   - [#1399] CRP turtle: [0.01566 s] survived
+   - [#1400] CRP turtle: [0.01565 s] survived
+   - [#1401] CRP turtle: [0.01487 s] survived
+   - [#1402] CRP turtle: [0.01526 s] survived
+   - [#1403] CRP turtle: [0.01490 s] survived
+   - [#1404] CRP turtle: [0.01601 s] survived
+   - [#1405] CRP turtle: [0.01568 s] survived
+   - [#1406] CRP turtle: [0.01550 s] survived
+   - [#1407] CRP turtle: [0.01587 s] survived
+   - [#1408] CRP turtle: [0.01544 s] survived
+   - [#1409] CRP turtle: [0.01592 s] survived
+   - [#1410] CRP turtle: [0.00000 s] incompetent
+   - [#1411] CRP turtle: [0.00000 s] incompetent
+   - [#1412] CRP turtle: [0.00000 s] incompetent
+   - [#1413] CRP turtle: [0.00000 s] incompetent
+   - [#1414] CRP turtle: [0.01560 s] survived
+   - [#1415] CRP turtle: [0.01512 s] survived
+   - [#1416] CRP turtle: [0.01577 s] survived
+   - [#1417] CRP turtle: [0.01534 s] survived
+   - [#1418] CRP turtle: [0.00000 s] incompetent
+   - [#1419] CRP turtle: [0.00000 s] incompetent
+   - [#1420] CRP turtle: [0.00000 s] incompetent
+   - [#1421] CRP turtle: [0.00000 s] incompetent
+   - [#1422] CRP turtle: [0.00000 s] incompetent
+   - [#1423] CRP turtle: [0.00000 s] incompetent
+   - [#1424] CRP turtle: [0.00000 s] incompetent
+   - [#1425] CRP turtle: [0.00000 s] incompetent
+   - [#1426] CRP turtle: [0.00000 s] incompetent
+   - [#1427] CRP turtle: [0.00000 s] incompetent
+   - [#1428] CRP turtle: [0.00000 s] incompetent
+   - [#1429] CRP turtle: [0.00000 s] incompetent
+   - [#1430] CRP turtle: [0.00000 s] incompetent
+   - [#1431] CRP turtle: [0.00000 s] incompetent
+   - [#1432] CRP turtle: [0.00000 s] incompetent
+   - [#1433] CRP turtle: [0.00000 s] incompetent
+   - [#1434] CRP turtle: [0.00000 s] incompetent
+   - [#1435] CRP turtle: [0.00000 s] incompetent
+   - [#1436] CRP turtle: [0.00000 s] incompetent
+   - [#1437] CRP turtle: [0.00000 s] incompetent
+   - [#1438] CRP turtle: [0.00000 s] incompetent
+   - [#1439] CRP turtle: [0.00000 s] incompetent
+   - [#1440] CRP turtle: [0.00000 s] incompetent
+   - [#1441] CRP turtle: [0.00000 s] incompetent
+   - [#1442] CRP turtle: [0.00000 s] incompetent
+   - [#1443] CRP turtle: [0.00000 s] incompetent
+   - [#1444] CRP turtle: [0.00000 s] incompetent
+   - [#1445] CRP turtle: [0.00000 s] incompetent
+   - [#1446] CRP turtle: [0.00000 s] incompetent
+   - [#1447] CRP turtle: [0.00000 s] incompetent
+   - [#1448] CRP turtle: [0.01582 s] survived
+   - [#1449] CRP turtle: [0.01580 s] survived
+   - [#1450] CRP turtle: [0.01564 s] survived
+   - [#1451] CRP turtle: [0.01561 s] survived
+   - [#1452] CRP turtle: [0.01523 s] survived
+   - [#1453] CRP turtle: [0.01512 s] survived
+   - [#1454] CRP turtle: [0.01558 s] survived
+   - [#1455] CRP turtle: [0.01530 s] survived
+   - [#1456] CRP turtle: [0.01546 s] survived
+   - [#1457] CRP turtle: [0.01544 s] survived
+   - [#1458] CRP turtle: [0.01616 s] survived
+   - [#1459] CRP turtle: [0.01542 s] survived
+   - [#1460] CRP turtle: [0.01585 s] survived
+   - [#1461] CRP turtle: [0.01628 s] survived
+   - [#1462] CRP turtle: [0.01571 s] survived
+   - [#1463] CRP turtle: [0.01608 s] survived
+   - [#1464] CRP turtle: [0.01552 s] survived
+   - [#1465] CRP turtle: [0.01587 s] survived
+   - [#1466] CRP turtle: [0.01623 s] survived
+   - [#1467] CRP turtle: [0.01520 s] survived
+   - [#1468] CRP turtle: [0.01557 s] survived
+   - [#1469] CRP turtle: [0.01574 s] survived
+   - [#1470] CRP turtle: [0.01556 s] survived
+   - [#1471] CRP turtle: [0.01547 s] survived
+   - [#1472] CRP turtle: [0.01531 s] survived
+   - [#1473] CRP turtle: [0.01583 s] survived
+   - [#1474] CRP turtle: [0.01616 s] survived
+   - [#1475] CRP turtle: [0.01556 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1476] CRP turtle: [0.01568 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1477] CRP turtle: [0.01654 s] survived
+   - [#1478] CRP turtle: [0.01643 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1479] CRP turtle: [0.01598 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1480] CRP turtle: [0.01601 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1481] CRP turtle: [0.21453 s] timeout
+   - [#1482] CRP turtle: [0.21443 s] timeout
+   - [#1483] CRP turtle: [0.01516 s] survived
+   - [#1484] CRP turtle: [0.01503 s] survived
+   - [#1485] CRP turtle: [0.01556 s] killed by test_config_dict_invalid (test_turtle.TurtleConfigTest)
+   - [#1486] CRP turtle: [0.01575 s] killed by test_config_dict_invalid (test_turtle.TurtleConfigTest)
+   - [#1487] CRP turtle: [0.01607 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1488] CRP turtle: [0.01675 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1489] CRP turtle: [0.01614 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1490] CRP turtle: [0.01568 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1491] CRP turtle: [0.01524 s] survived
+   - [#1492] CRP turtle: [0.01498 s] survived
+   - [#1493] CRP turtle: [0.01658 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#1494] CRP turtle: [0.01665 s] survived
+   - [#1495] CRP turtle: [0.01553 s] survived
+   - [#1496] CRP turtle: [0.01567 s] survived
+   - [#1497] CRP turtle: [0.01629 s] survived
+   - [#1498] CRP turtle: [0.01523 s] survived
+   - [#1499] CRP turtle: [0.01557 s] survived
+   - [#1500] CRP turtle: [0.01503 s] survived
+   - [#1501] CRP turtle: [0.01546 s] survived
+   - [#1502] CRP turtle: [0.01618 s] survived
+   - [#1503] CRP turtle: [0.01473 s] survived
+   - [#1504] CRP turtle: [0.01517 s] survived
+   - [#1505] CRP turtle: [0.01489 s] survived
+   - [#1506] CRP turtle: [0.01298 s] killed by test_positions (test_turtle.TestTNavigator)
+   - [#1507] CRP turtle: [0.01300 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1508] CRP turtle: [0.01277 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1509] CRP turtle: [0.01324 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1510] CRP turtle: [0.01504 s] survived
+   - [#1511] CRP turtle: [0.01472 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [#1512] CRP turtle: [0.01449 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [#1513] CRP turtle: [0.01466 s] killed by test_vector_multiply (test_turtle.TestVec2D)
+   - [#1514] CRP turtle: [0.01268 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1515] CRP turtle: [0.01324 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1516] CRP turtle: [0.01592 s] survived
+   - [#1517] CRP turtle: [0.01462 s] survived
+   - [#1518] CRP turtle: [0.01364 s] killed by test_distance_method (test_turtle.TestTNavigator)
+   - [#1519] CRP turtle: [0.01307 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [#1520] CRP turtle: [0.01354 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [#1521] CRP turtle: [0.01265 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [#1522] CRP turtle: [0.01497 s] killed by test_vector_negative (test_turtle.TestVec2D)
+   - [#1523] CRP turtle: [0.01475 s] killed by test_vector_negative (test_turtle.TestVec2D)
+   - [#1524] CRP turtle: [0.01346 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [#1525] CRP turtle: [0.01295 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [#1526] CRP turtle: [0.01358 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [#1527] CRP turtle: [0.01256 s] killed by test_distance_method (test_turtle.TestTNavigator)
+   - [#1528] CRP turtle: [0.01268 s] killed by test_distance (test_turtle.TestTNavigator)
+   - [#1529] CRP turtle: [0.01304 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1530] CRP turtle: [0.01304 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1531] CRP turtle: [0.01282 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1532] CRP turtle: [0.01335 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#1533] CRP turtle: [0.01292 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1534] CRP turtle: [0.01307 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1535] CRP turtle: [0.01249 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#1536] CRP turtle: [0.01520 s] survived
+   - [#1537] CRP turtle: [0.01381 s] survived
+   - [#1538] CRP turtle: [0.21613 s] timeout
+   - [#1539] CRP turtle: [0.21868 s] timeout
+   - [#1540] CRP turtle: [0.00000 s] incompetent
+   - [#1541] CRP turtle: [0.00000 s] incompetent
+   - [#1542] CRP turtle: [0.01546 s] survived
+   - [#1543] CRP turtle: [0.01510 s] survived
+   - [#1544] CRP turtle: [0.01477 s] survived
+   - [#1545] CRP turtle: [0.01501 s] survived
+   - [#1546] CRP turtle: [0.01420 s] survived
+   - [#1547] CRP turtle: [0.01485 s] survived
+   - [#1548] CRP turtle: [0.01542 s] survived
+   - [#1549] CRP turtle: [0.01509 s] survived
+   - [#1550] CRP turtle: [0.01511 s] survived
+   - [#1551] CRP turtle: [0.01498 s] survived
+   - [#1552] CRP turtle: [0.01454 s] survived
+   - [#1553] CRP turtle: [0.01465 s] survived
+   - [#1554] CRP turtle: [0.00000 s] incompetent
+   - [#1555] CRP turtle: [0.00000 s] incompetent
+   - [#1556] CRP turtle: [0.00000 s] incompetent
+   - [#1557] CRP turtle: [0.00000 s] incompetent
+   - [#1558] CRP turtle: [0.01511 s] survived
+   - [#1559] CRP turtle: [0.01533 s] survived
+   - [#1560] CRP turtle: [0.01482 s] survived
+   - [#1561] CRP turtle: [0.01486 s] survived
+   - [#1562] CRP turtle: [0.01476 s] survived
+   - [#1563] CRP turtle: [0.01469 s] survived
+   - [#1564] CRP turtle: [0.01461 s] survived
+   - [#1565] CRP turtle: [0.01415 s] survived
+   - [#1566] CRP turtle: [0.01527 s] survived
+   - [#1567] CRP turtle: [0.01465 s] survived
+   - [#1568] CRP turtle: [0.01462 s] survived
+   - [#1569] CRP turtle: [0.01442 s] survived
+   - [#1570] CRP turtle: [0.01496 s] survived
+   - [#1571] CRP turtle: [0.01488 s] survived
+   - [#1572] CRP turtle: [0.01485 s] survived
+   - [#1573] CRP turtle: [0.01437 s] survived
+   - [#1574] CRP turtle: [0.01462 s] survived
+   - [#1575] CRP turtle: [0.01491 s] survived
+   - [#1576] CRP turtle: [0.01521 s] survived
+   - [#1577] CRP turtle: [0.01435 s] survived
+   - [#1578] CRP turtle: [0.01540 s] survived
+   - [#1579] CRP turtle: [0.01465 s] survived
+   - [#1580] CRP turtle: [0.01502 s] survived
+   - [#1581] CRP turtle: [0.01446 s] survived
+   - [#1582] CRP turtle: [0.01516 s] survived
+   - [#1583] CRP turtle: [0.01491 s] survived
+   - [#1584] CRP turtle: [0.01461 s] survived
+   - [#1585] CRP turtle: [0.01527 s] survived
+   - [#1586] CRP turtle: [0.01486 s] survived
+   - [#1587] CRP turtle: [0.01502 s] survived
+   - [#1588] CRP turtle: [0.01493 s] survived
+   - [#1589] CRP turtle: [0.01483 s] survived
+   - [#1590] CRP turtle: [0.01534 s] survived
+   - [#1591] CRP turtle: [0.01516 s] survived
+   - [#1592] CRP turtle: [0.01621 s] survived
+   - [#1593] CRP turtle: [0.01480 s] survived
+   - [#1594] CRP turtle: [0.01509 s] survived
+   - [#1595] CRP turtle: [0.01470 s] survived
+   - [#1596] CRP turtle: [0.01496 s] survived
+   - [#1597] CRP turtle: [0.01521 s] survived
+   - [#1598] CRP turtle: [0.01512 s] survived
+   - [#1599] CRP turtle: [0.01558 s] survived
+   - [#1600] CRP turtle: [0.01492 s] survived
+   - [#1601] CRP turtle: [0.01537 s] survived
+   - [#1602] CRP turtle: [0.01507 s] survived
+   - [#1603] CRP turtle: [0.01527 s] survived
+   - [#1604] CRP turtle: [0.01462 s] survived
+   - [#1605] CRP turtle: [0.01504 s] survived
+   - [#1606] CRP turtle: [0.01479 s] survived
+   - [#1607] CRP turtle: [0.01533 s] survived
+   - [#1608] CRP turtle: [0.01533 s] survived
+   - [#1609] CRP turtle: [0.01519 s] survived
+   - [#1610] CRP turtle: [0.01529 s] survived
+   - [#1611] CRP turtle: [0.01548 s] survived
+   - [#1612] CRP turtle: [0.01494 s] survived
+   - [#1613] CRP turtle: [0.01494 s] survived
+   - [#1614] CRP turtle: [0.01509 s] survived
+   - [#1615] CRP turtle: [0.01476 s] survived
+   - [#1616] CRP turtle: [0.01500 s] survived
+   - [#1617] CRP turtle: [0.01479 s] survived
+   - [#1618] CRP turtle: [0.01534 s] survived
+   - [#1619] CRP turtle: [0.01537 s] survived
+   - [#1620] CRP turtle: [0.01524 s] survived
+   - [#1621] CRP turtle: [0.01483 s] survived
+   - [#1622] CRP turtle: [0.01539 s] survived
+   - [#1623] CRP turtle: [0.01537 s] survived
+   - [#1624] CRP turtle: [0.00000 s] incompetent
+   - [#1625] CRP turtle: [0.01529 s] survived
+   - [#1626] CRP turtle: [0.01544 s] survived
+   - [#1627] CRP turtle: [0.01573 s] survived
+   - [#1628] CRP turtle: [0.01509 s] survived
+   - [#1629] CRP turtle: [0.01477 s] survived
+   - [#1630] CRP turtle: [0.01502 s] survived
+   - [#1631] CRP turtle: [0.01502 s] survived
+   - [#1632] CRP turtle: [0.01466 s] survived
+   - [#1633] CRP turtle: [0.01437 s] survived
+   - [#1634] CRP turtle: [0.01493 s] survived
+   - [#1635] CRP turtle: [0.01516 s] survived
+   - [#1636] CRP turtle: [0.01545 s] survived
+   - [#1637] CRP turtle: [0.01523 s] survived
+   - [#1638] CRP turtle: [0.01469 s] survived
+   - [#1639] CRP turtle: [0.01492 s] survived
+   - [#1640] CRP turtle: [0.01479 s] survived
+   - [#1641] CRP turtle: [0.01537 s] survived
+   - [#1642] CRP turtle: [0.01495 s] survived
+   - [#1643] CRP turtle: [0.01573 s] survived
+   - [#1644] CRP turtle: [0.01514 s] survived
+   - [#1645] CRP turtle: [0.01543 s] survived
+   - [#1646] CRP turtle: [0.01563 s] survived
+   - [#1647] CRP turtle: [0.01552 s] survived
+   - [#1648] CRP turtle: [0.01544 s] survived
+   - [#1649] CRP turtle: [0.01512 s] survived
+   - [#1650] CRP turtle: [0.01475 s] survived
+   - [#1651] CRP turtle: [0.01480 s] survived
+   - [#1652] CRP turtle: [0.01472 s] survived
+   - [#1653] CRP turtle: [0.01470 s] survived
+   - [#1654] CRP turtle: [0.01522 s] survived
+   - [#1655] CRP turtle: [0.01483 s] survived
+   - [#1656] CRP turtle: [0.01562 s] survived
+   - [#1657] CRP turtle: [0.01491 s] survived
+   - [#1658] CRP turtle: [0.01500 s] survived
+   - [#1659] CRP turtle: [0.01557 s] survived
+   - [#1660] CRP turtle: [0.01567 s] survived
+   - [#1661] CRP turtle: [0.01545 s] survived
+   - [#1662] CRP turtle: [0.01444 s] survived
+   - [#1663] CRP turtle: [0.01477 s] survived
+   - [#1664] CRP turtle: [0.01534 s] survived
+   - [#1665] CRP turtle: [0.01509 s] survived
+   - [#1666] CRP turtle: [0.01529 s] survived
+   - [#1667] CRP turtle: [0.01520 s] survived
+   - [#1668] CRP turtle: [0.01539 s] survived
+   - [#1669] CRP turtle: [0.01517 s] survived
+   - [#1670] CRP turtle: [0.01478 s] survived
+   - [#1671] CRP turtle: [0.01513 s] survived
+   - [#1672] CRP turtle: [0.01528 s] survived
+   - [#1673] CRP turtle: [0.01557 s] survived
+   - [#1674] CRP turtle: [0.01513 s] survived
+   - [#1675] CRP turtle: [0.01515 s] survived
+   - [#1676] CRP turtle: [0.01501 s] survived
+   - [#1677] CRP turtle: [0.01450 s] survived
+   - [#1678] CRP turtle: [0.01482 s] survived
+   - [#1679] CRP turtle: [0.01514 s] survived
+   - [#1680] CRP turtle: [0.01565 s] survived
+   - [#1681] CRP turtle: [0.01500 s] survived
+   - [#1682] CRP turtle: [0.01480 s] survived
+   - [#1683] CRP turtle: [0.01492 s] survived
+   - [#1684] CRP turtle: [0.01503 s] survived
+   - [#1685] CRP turtle: [0.01536 s] survived
+   - [#1686] CRP turtle: [0.01443 s] survived
+   - [#1687] CRP turtle: [0.01512 s] survived
+   - [#1688] CRP turtle: [0.01508 s] survived
+   - [#1689] CRP turtle: [0.01474 s] survived
+   - [#1690] CRP turtle: [0.01513 s] survived
+   - [#1691] CRP turtle: [0.01462 s] survived
+   - [#1692] CRP turtle: [0.01540 s] survived
+   - [#1693] CRP turtle: [0.01508 s] survived
+   - [#1694] CRP turtle: [0.01548 s] survived
+   - [#1695] CRP turtle: [0.01537 s] survived
+   - [#1696] CRP turtle: [0.01488 s] survived
+   - [#1697] CRP turtle: [0.01550 s] survived
+   - [#1698] CRP turtle: [0.01484 s] survived
+   - [#1699] CRP turtle: [0.01475 s] survived
+   - [#1700] CRP turtle: [0.01517 s] survived
+   - [#1701] CRP turtle: [0.01585 s] survived
+   - [#1702] CRP turtle: [0.01488 s] survived
+   - [#1703] CRP turtle: [0.01484 s] survived
+   - [#1704] CRP turtle: [0.01430 s] survived
+   - [#1705] CRP turtle: [0.01494 s] survived
+   - [#1706] CRP turtle: [0.01578 s] survived
+   - [#1707] CRP turtle: [0.01470 s] survived
+   - [#1708] CRP turtle: [0.01503 s] survived
+   - [#1709] CRP turtle: [0.01422 s] survived
+   - [#1710] CRP turtle: [0.01536 s] survived
+   - [#1711] CRP turtle: [0.01455 s] survived
+   - [#1712] CRP turtle: [0.01460 s] survived
+   - [#1713] CRP turtle: [0.01531 s] survived
+   - [#1714] CRP turtle: [0.01520 s] survived
+   - [#1715] CRP turtle: [0.01510 s] survived
+   - [#1716] CRP turtle: [0.01536 s] survived
+   - [#1717] CRP turtle: [0.01470 s] survived
+   - [#1718] CRP turtle: [0.01466 s] survived
+   - [#1719] CRP turtle: [0.01405 s] survived
+   - [#1720] CRP turtle: [0.01503 s] survived
+   - [#1721] CRP turtle: [0.01509 s] survived
+   - [#1722] CRP turtle: [0.01468 s] survived
+   - [#1723] CRP turtle: [0.01576 s] survived
+   - [#1724] CRP turtle: [0.01589 s] survived
+   - [#1725] CRP turtle: [0.01560 s] survived
+   - [#1726] CRP turtle: [0.01496 s] survived
+   - [#1727] CRP turtle: [0.01510 s] survived
+   - [#1728] CRP turtle: [0.01568 s] survived
+   - [#1729] CRP turtle: [0.01498 s] survived
+   - [#1730] CRP turtle: [0.01571 s] survived
+   - [#1731] CRP turtle: [0.01517 s] survived
+   - [#1732] CRP turtle: [0.01484 s] survived
+   - [#1733] CRP turtle: [0.01459 s] survived
+   - [#1734] CRP turtle: [0.01553 s] survived
+   - [#1735] CRP turtle: [0.01498 s] survived
+   - [#1736] CRP turtle: [0.01498 s] survived
+   - [#1737] CRP turtle: [0.01529 s] survived
+   - [#1738] CRP turtle: [0.01484 s] survived
+   - [#1739] CRP turtle: [0.01493 s] survived
+   - [#1740] CRP turtle: [0.01481 s] survived
+   - [#1741] CRP turtle: [0.01478 s] survived
+   - [#1742] CRP turtle: [0.00000 s] incompetent
+   - [#1743] CRP turtle: [0.00000 s] incompetent
+   - [#1744] CRP turtle: [0.00000 s] incompetent
+   - [#1745] CRP turtle: [0.00000 s] incompetent
+   - [#1746] CRP turtle: [0.00000 s] incompetent
+   - [#1747] CRP turtle: [0.00000 s] incompetent
+   - [#1748] CRP turtle: [0.01526 s] survived
+   - [#1749] CRP turtle: [0.01490 s] survived
+   - [#1750] CRP turtle: [0.01497 s] survived
+   - [#1751] CRP turtle: [0.01507 s] survived
+   - [#1752] CRP turtle: [0.01487 s] survived
+   - [#1753] CRP turtle: [0.01541 s] survived
+   - [#1754] CRP turtle: [0.01464 s] survived
+   - [#1755] CRP turtle: [0.01522 s] survived
+   - [#1756] CRP turtle: [0.01479 s] survived
+   - [#1757] CRP turtle: [0.01465 s] survived
+   - [#1758] CRP turtle: [0.01517 s] survived
+   - [#1759] CRP turtle: [0.01574 s] survived
+   - [#1760] CRP turtle: [0.01529 s] survived
+   - [#1761] CRP turtle: [0.01499 s] survived
+   - [#1762] CRP turtle: [0.01535 s] survived
+   - [#1763] CRP turtle: [0.01446 s] survived
+   - [#1764] CRP turtle: [0.01519 s] survived
+   - [#1765] CRP turtle: [0.01508 s] survived
+   - [#1766] CRP turtle: [0.01520 s] survived
+   - [#1767] CRP turtle: [0.01443 s] survived
+   - [#1768] CRP turtle: [0.01492 s] survived
+   - [#1769] CRP turtle: [0.01478 s] survived
+   - [#1770] CRP turtle: [0.01469 s] survived
+   - [#1771] CRP turtle: [0.01475 s] survived
+   - [#1772] CRP turtle: [0.01476 s] survived
+   - [#1773] CRP turtle: [0.01479 s] survived
+   - [#1774] CRP turtle: [0.01448 s] survived
+   - [#1775] CRP turtle: [0.01510 s] survived
+   - [#1776] CRP turtle: [0.01440 s] survived
+   - [#1777] CRP turtle: [0.01525 s] survived
+   - [#1778] CRP turtle: [0.01464 s] survived
+   - [#1779] CRP turtle: [0.01505 s] survived
+   - [#1780] CRP turtle: [0.01469 s] survived
+   - [#1781] CRP turtle: [0.01452 s] survived
+   - [#1782] CRP turtle: [0.01509 s] survived
+   - [#1783] CRP turtle: [0.01480 s] survived
+   - [#1784] CRP turtle: [0.01530 s] survived
+   - [#1785] CRP turtle: [0.01479 s] survived
+   - [#1786] CRP turtle: [0.01569 s] survived
+   - [#1787] CRP turtle: [0.01423 s] survived
+   - [#1788] CRP turtle: [0.01431 s] survived
+   - [#1789] CRP turtle: [0.01466 s] survived
+   - [#1790] CRP turtle: [0.01495 s] survived
+   - [#1791] CRP turtle: [0.01494 s] survived
+   - [#1792] CRP turtle: [0.01574 s] survived
+   - [#1793] CRP turtle: [0.01507 s] survived
+   - [#1794] CRP turtle: [0.01420 s] survived
+   - [#1795] CRP turtle: [0.01476 s] survived
+   - [#1796] CRP turtle: [0.01455 s] survived
+   - [#1797] CRP turtle: [0.01500 s] survived
+   - [#1798] CRP turtle: [0.01523 s] survived
+   - [#1799] CRP turtle: [0.01474 s] survived
+   - [#1800] CRP turtle: [0.01498 s] survived
+   - [#1801] CRP turtle: [0.01433 s] survived
+   - [#1802] CRP turtle: [0.01463 s] survived
+   - [#1803] CRP turtle: [0.01505 s] survived
+   - [#1804] CRP turtle: [0.01472 s] survived
+   - [#1805] CRP turtle: [0.01507 s] survived
+   - [#1806] CRP turtle: [0.01468 s] survived
+   - [#1807] CRP turtle: [0.01545 s] survived
+   - [#1808] CRP turtle: [0.01473 s] survived
+   - [#1809] CRP turtle: [0.01507 s] survived
+   - [#1810] CRP turtle: [0.01458 s] survived
+   - [#1811] CRP turtle: [0.01503 s] survived
+   - [#1812] CRP turtle: [0.01490 s] survived
+   - [#1813] CRP turtle: [0.01519 s] survived
+   - [#1814] CRP turtle: [0.01571 s] survived
+   - [#1815] CRP turtle: [0.01450 s] survived
+   - [#1816] CRP turtle: [0.01506 s] survived
+   - [#1817] CRP turtle: [0.01477 s] survived
+   - [#1818] CRP turtle: [0.01530 s] survived
+   - [#1819] CRP turtle: [0.01506 s] survived
+   - [#1820] CRP turtle: [0.01496 s] survived
+   - [#1821] CRP turtle: [0.01471 s] survived
+   - [#1822] CRP turtle: [0.01490 s] survived
+   - [#1823] CRP turtle: [0.01547 s] survived
+   - [#1824] CRP turtle: [0.01531 s] survived
+   - [#1825] CRP turtle: [0.01458 s] survived
+   - [#1826] CRP turtle: [0.01520 s] survived
+   - [#1827] CRP turtle: [0.01465 s] survived
+   - [#1828] CRP turtle: [0.01524 s] survived
+   - [#1829] CRP turtle: [0.01434 s] survived
+   - [#1830] CRP turtle: [0.01534 s] survived
+   - [#1831] CRP turtle: [0.01538 s] survived
+   - [#1832] CRP turtle: [0.01526 s] survived
+   - [#1833] CRP turtle: [0.01506 s] survived
+   - [#1834] CRP turtle: [0.01471 s] survived
+   - [#1835] CRP turtle: [0.01501 s] survived
+   - [#1836] CRP turtle: [0.01491 s] survived
+   - [#1837] CRP turtle: [0.01530 s] survived
+   - [#1838] CRP turtle: [0.01461 s] survived
+   - [#1839] CRP turtle: [0.01516 s] survived
+   - [#1840] CRP turtle: [0.01484 s] survived
+   - [#1841] CRP turtle: [0.01512 s] survived
+   - [#1842] CRP turtle: [0.01497 s] survived
+   - [#1843] CRP turtle: [0.01487 s] survived
+   - [#1844] CRP turtle: [0.01558 s] survived
+   - [#1845] CRP turtle: [0.01450 s] survived
+   - [#1846] CRP turtle: [0.01530 s] survived
+   - [#1847] CRP turtle: [0.01471 s] survived
+   - [#1848] CRP turtle: [0.01496 s] survived
+   - [#1849] CRP turtle: [0.01525 s] survived
+   - [#1850] CRP turtle: [0.01429 s] survived
+   - [#1851] CRP turtle: [0.01489 s] survived
+   - [#1852] CRP turtle: [0.01461 s] survived
+   - [#1853] CRP turtle: [0.01528 s] survived
+   - [#1854] CRP turtle: [0.01533 s] survived
+   - [#1855] CRP turtle: [0.01537 s] survived
+   - [#1856] CRP turtle: [0.01472 s] survived
+   - [#1857] CRP turtle: [0.01483 s] survived
+   - [#1858] CRP turtle: [0.01492 s] survived
+   - [#1859] CRP turtle: [0.01506 s] survived
+   - [#1860] CRP turtle: [0.01579 s] survived
+   - [#1861] CRP turtle: [0.01508 s] survived
+   - [#1862] CRP turtle: [0.01487 s] survived
+   - [#1863] CRP turtle: [0.01478 s] survived
+   - [#1864] CRP turtle: [0.01483 s] survived
+   - [#1865] CRP turtle: [0.01505 s] survived
+   - [#1866] CRP turtle: [0.01557 s] survived
+   - [#1867] CRP turtle: [0.01501 s] survived
+   - [#1868] CRP turtle: [0.01548 s] survived
+   - [#1869] CRP turtle: [0.01501 s] survived
+   - [#1870] CRP turtle: [0.01494 s] survived
+   - [#1871] CRP turtle: [0.01489 s] survived
+   - [#1872] CRP turtle: [0.01471 s] survived
+   - [#1873] CRP turtle: [0.01515 s] survived
+   - [#1874] CRP turtle: [0.01520 s] survived
+   - [#1875] CRP turtle: [0.01480 s] survived
+   - [#1876] CRP turtle: [0.01521 s] survived
+   - [#1877] CRP turtle: [0.01473 s] survived
+   - [#1878] CRP turtle: [0.01519 s] survived
+   - [#1879] CRP turtle: [0.01506 s] survived
+   - [#1880] CRP turtle: [0.01453 s] survived
+   - [#1881] CRP turtle: [0.01521 s] survived
+   - [#1882] CRP turtle: [0.01485 s] survived
+   - [#1883] CRP turtle: [0.01556 s] survived
+   - [#1884] CRP turtle: [0.01505 s] survived
+   - [#1885] CRP turtle: [0.01465 s] survived
+   - [#1886] CRP turtle: [0.01440 s] survived
+   - [#1887] CRP turtle: [0.01541 s] survived
+   - [#1888] CRP turtle: [0.01503 s] survived
+   - [#1889] CRP turtle: [0.01470 s] survived
+   - [#1890] CRP turtle: [0.01520 s] survived
+   - [#1891] CRP turtle: [0.01457 s] survived
+   - [#1892] CRP turtle: [0.01444 s] survived
+   - [#1893] CRP turtle: [0.01500 s] survived
+   - [#1894] CRP turtle: [0.01472 s] survived
+   - [#1895] CRP turtle: [0.01463 s] survived
+   - [#1896] CRP turtle: [0.01488 s] survived
+   - [#1897] CRP turtle: [0.01526 s] survived
+   - [#1898] CRP turtle: [0.01487 s] survived
+   - [#1899] CRP turtle: [0.01518 s] survived
+   - [#1900] CRP turtle: [0.01482 s] survived
+   - [#1901] CRP turtle: [0.01430 s] survived
+   - [#1902] CRP turtle: [0.01500 s] survived
+   - [#1903] CRP turtle: [0.01468 s] survived
+   - [#1904] CRP turtle: [0.01503 s] survived
+   - [#1905] CRP turtle: [0.01500 s] survived
+   - [#1906] CRP turtle: [0.01501 s] survived
+   - [#1907] CRP turtle: [0.01492 s] survived
+   - [#1908] CRP turtle: [0.01501 s] survived
+   - [#1909] CRP turtle: [0.01512 s] survived
+   - [#1910] CRP turtle: [0.01474 s] survived
+   - [#1911] CRP turtle: [0.01500 s] survived
+   - [#1912] CRP turtle: [0.01514 s] survived
+   - [#1913] CRP turtle: [0.01488 s] survived
+   - [#1914] CRP turtle: [0.01460 s] survived
+   - [#1915] CRP turtle: [0.01487 s] survived
+   - [#1916] CRP turtle: [0.01485 s] survived
+   - [#1917] CRP turtle: [0.01502 s] survived
+   - [#1918] CRP turtle: [0.01470 s] survived
+   - [#1919] CRP turtle: [0.01472 s] survived
+   - [#1920] CRP turtle: [0.01509 s] survived
+   - [#1921] CRP turtle: [0.01458 s] survived
+   - [#1922] CRP turtle: [0.01498 s] survived
+   - [#1923] CRP turtle: [0.01536 s] survived
+   - [#1924] CRP turtle: [0.01477 s] survived
+   - [#1925] CRP turtle: [0.01503 s] survived
+   - [#1926] CRP turtle: [0.01517 s] survived
+   - [#1927] CRP turtle: [0.01524 s] survived
+   - [#1928] CRP turtle: [0.01471 s] survived
+   - [#1929] CRP turtle: [0.01467 s] survived
+   - [#1930] CRP turtle: [0.01454 s] survived
+   - [#1931] CRP turtle: [0.01551 s] survived
+   - [#1932] CRP turtle: [0.01535 s] survived
+   - [#1933] CRP turtle: [0.01471 s] survived
+   - [#1934] CRP turtle: [0.01523 s] survived
+   - [#1935] CRP turtle: [0.01503 s] survived
+   - [#1936] CRP turtle: [0.01497 s] survived
+   - [#1937] CRP turtle: [0.01500 s] survived
+   - [#1938] CRP turtle: [0.01575 s] survived
+   - [#1939] CRP turtle: [0.01589 s] survived
+   - [#1940] CRP turtle: [0.01506 s] survived
+   - [#1941] CRP turtle: [0.01503 s] survived
+   - [#1942] CRP turtle: [0.01493 s] survived
+   - [#1943] CRP turtle: [0.01488 s] survived
+   - [#1944] CRP turtle: [0.01536 s] survived
+   - [#1945] CRP turtle: [0.01511 s] survived
+   - [#1946] CRP turtle: [0.01574 s] survived
+   - [#1947] CRP turtle: [0.01521 s] survived
+   - [#1948] CRP turtle: [0.01504 s] survived
+   - [#1949] CRP turtle: [0.01527 s] survived
+   - [#1950] CRP turtle: [0.01535 s] survived
+   - [#1951] CRP turtle: [0.01527 s] survived
+   - [#1952] CRP turtle: [0.01523 s] survived
+   - [#1953] CRP turtle: [0.01534 s] survived
+   - [#1954] CRP turtle: [0.01514 s] survived
+   - [#1955] CRP turtle: [0.01559 s] survived
+   - [#1956] CRP turtle: [0.01481 s] survived
+   - [#1957] CRP turtle: [0.01495 s] survived
+   - [#1958] CRP turtle: [0.01525 s] survived
+   - [#1959] CRP turtle: [0.01513 s] survived
+   - [#1960] CRP turtle: [0.01544 s] survived
+   - [#1961] CRP turtle: [0.01505 s] survived
+   - [#1962] CRP turtle: [0.01557 s] survived
+   - [#1963] CRP turtle: [0.01518 s] survived
+   - [#1964] CRP turtle: [0.01525 s] survived
+   - [#1965] CRP turtle: [0.01554 s] survived
+   - [#1966] CRP turtle: [0.01646 s] survived
+   - [#1967] CRP turtle: [0.01559 s] survived
+   - [#1968] CRP turtle: [0.01553 s] survived
+   - [#1969] CRP turtle: [0.01544 s] survived
+   - [#1970] CRP turtle: [0.01475 s] survived
+   - [#1971] CRP turtle: [0.01480 s] survived
+   - [#1972] CRP turtle: [0.01519 s] survived
+   - [#1973] CRP turtle: [0.01533 s] survived
+   - [#1974] CRP turtle: [0.01534 s] survived
+   - [#1975] CRP turtle: [0.01482 s] survived
+   - [#1976] CRP turtle: [0.01575 s] survived
+   - [#1977] CRP turtle: [0.01629 s] survived
+   - [#1978] CRP turtle: [0.01536 s] survived
+   - [#1979] CRP turtle: [0.01606 s] survived
+   - [#1980] CRP turtle: [0.01575 s] survived
+   - [#1981] CRP turtle: [0.01516 s] survived
+   - [#1982] CRP turtle: [0.01561 s] survived
+   - [#1983] CRP turtle: [0.01569 s] survived
+   - [#1984] CRP turtle: [0.01552 s] survived
+   - [#1985] CRP turtle: [0.01567 s] survived
+   - [#1986] CRP turtle: [0.01529 s] survived
+   - [#1987] CRP turtle: [0.01553 s] survived
+   - [#1988] CRP turtle: [0.01508 s] survived
+   - [#1989] CRP turtle: [0.01543 s] survived
+   - [#1990] CRP turtle: [0.01561 s] survived
+   - [#1991] CRP turtle: [0.01532 s] survived
+   - [#1992] CRP turtle: [0.01539 s] survived
+   - [#1993] CRP turtle: [0.01516 s] survived
+   - [#1994] CRP turtle: [0.01497 s] survived
+   - [#1995] CRP turtle: [0.01507 s] survived
+   - [#1996] CRP turtle: [0.01511 s] survived
+   - [#1997] CRP turtle: [0.01494 s] survived
+   - [#1998] CRP turtle: [0.01508 s] survived
+   - [#1999] CRP turtle: [0.01482 s] survived
+   - [#2000] CRP turtle: [0.01528 s] survived
+   - [#2001] CRP turtle: [0.01447 s] survived
+   - [#2002] CRP turtle: [0.01518 s] survived
+   - [#2003] CRP turtle: [0.01491 s] survived
+   - [#2004] CRP turtle: [0.01543 s] survived
+   - [#2005] CRP turtle: [0.01496 s] survived
+   - [#2006] CRP turtle: [0.01462 s] survived
+   - [#2007] CRP turtle: [0.01452 s] survived
+   - [#2008] CRP turtle: [0.01458 s] survived
+   - [#2009] CRP turtle: [0.01510 s] survived
+   - [#2010] CRP turtle: [0.01527 s] survived
+   - [#2011] CRP turtle: [0.01271 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2012] CRP turtle: [0.01311 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2013] CRP turtle: [0.01513 s] survived
+   - [#2014] CRP turtle: [0.01536 s] survived
+   - [#2015] CRP turtle: [0.01519 s] survived
+   - [#2016] CRP turtle: [0.01587 s] survived
+   - [#2017] CRP turtle: [0.01260 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2018] CRP turtle: [0.01290 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2019] CRP turtle: [0.01499 s] survived
+   - [#2020] CRP turtle: [0.01533 s] survived
+   - [#2021] CRP turtle: [0.01504 s] survived
+   - [#2022] CRP turtle: [0.01505 s] survived
+   - [#2023] CRP turtle: [0.01279 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2024] CRP turtle: [0.01286 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2025] CRP turtle: [0.01510 s] survived
+   - [#2026] CRP turtle: [0.01509 s] survived
+   - [#2027] CRP turtle: [0.01263 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2028] CRP turtle: [0.01305 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2029] CRP turtle: [0.01260 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2030] CRP turtle: [0.01316 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2031] CRP turtle: [0.01475 s] survived
+   - [#2032] CRP turtle: [0.01573 s] survived
+   - [#2033] CRP turtle: [0.01487 s] survived
+   - [#2034] CRP turtle: [0.01507 s] survived
+   - [#2035] CRP turtle: [0.01320 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#2036] CRP turtle: [0.01289 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#2037] CRP turtle: [0.01555 s] survived
+   - [#2038] CRP turtle: [0.01477 s] survived
+   - [#2039] CRP turtle: [0.01416 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#2040] CRP turtle: [0.01322 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#2041] CRP turtle: [0.01515 s] survived
+   - [#2042] CRP turtle: [0.01492 s] survived
+   - [#2043] CRP turtle: [0.01277 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2044] CRP turtle: [0.01352 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [#2045] CRP turtle: [0.01345 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [#2046] CRP turtle: [0.01324 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [#2047] CRP turtle: [0.01516 s] survived
+   - [#2048] CRP turtle: [0.01264 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2049] CRP turtle: [0.01344 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [#2050] CRP turtle: [0.01270 s] killed by test_goto (test_turtle.TestTNavigator)
+   - [#2051] CRP turtle: [0.01348 s] killed by test_goto (test_turtle.TestTNavigator)
+   - [#2052] CRP turtle: [0.01338 s] killed by test_home (test_turtle.TestTNavigator)
+   - [#2053] CRP turtle: [0.01337 s] killed by test_home (test_turtle.TestTNavigator)
+   - [#2054] CRP turtle: [0.01364 s] killed by test_home (test_turtle.TestTNavigator)
+   - [#2055] CRP turtle: [0.01383 s] killed by test_setx_and_sety (test_turtle.TestTNavigator)
+   - [#2056] CRP turtle: [0.01349 s] killed by test_setx_and_sety (test_turtle.TestTNavigator)
+   - [#2057] CRP turtle: [0.01369 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [#2058] CRP turtle: [0.01466 s] survived
+   - [#2059] CRP turtle: [0.01417 s] killed by test_towards (test_turtle.TestTNavigator)
+   - [#2060] CRP turtle: [0.01364 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#2061] CRP turtle: [0.01475 s] survived
+   - [#2062] CRP turtle: [0.01387 s] killed by test_heading (test_turtle.TestTNavigator)
+   - [#2063] CRP turtle: [0.01303 s] killed by test_home (test_turtle.TestTNavigator)
+   - [#2064] CRP turtle: [0.01348 s] killed by test_home (test_turtle.TestTNavigator)
+   - [#2065] CRP turtle: [0.01534 s] survived
+   - [#2066] CRP turtle: [0.01519 s] survived
+   - [#2067] CRP turtle: [0.01527 s] survived
+   - [#2068] CRP turtle: [0.01499 s] survived
+   - [#2069] CRP turtle: [0.01590 s] survived
+   - [#2070] CRP turtle: [0.01487 s] survived
+   - [#2071] CRP turtle: [0.01456 s] survived
+   - [#2072] CRP turtle: [0.01547 s] survived
+   - [#2073] CRP turtle: [0.01497 s] survived
+   - [#2074] CRP turtle: [0.01516 s] survived
+   - [#2075] CRP turtle: [0.01508 s] survived
+   - [#2076] CRP turtle: [0.01517 s] survived
+   - [#2077] CRP turtle: [0.01460 s] survived
+   - [#2078] CRP turtle: [0.01505 s] survived
+   - [#2079] CRP turtle: [0.01551 s] survived
+   - [#2080] CRP turtle: [0.01489 s] survived
+   - [#2081] CRP turtle: [0.01520 s] survived
+   - [#2082] CRP turtle: [0.01503 s] survived
+   - [#2083] CRP turtle: [0.00000 s] incompetent
+   - [#2084] CRP turtle: [0.00000 s] incompetent
+   - [#2085] CRP turtle: [0.00000 s] incompetent
+   - [#2086] CRP turtle: [0.00000 s] incompetent
+   - [#2087] CRP turtle: [0.00000 s] incompetent
+   - [#2088] CRP turtle: [0.00000 s] incompetent
+   - [#2089] CRP turtle: [0.01489 s] survived
+   - [#2090] CRP turtle: [0.01540 s] survived
+   - [#2091] CRP turtle: [0.01597 s] survived
+   - [#2092] CRP turtle: [0.01529 s] survived
+   - [#2093] CRP turtle: [0.01532 s] survived
+   - [#2094] CRP turtle: [0.01460 s] survived
+   - [#2095] CRP turtle: [0.01474 s] survived
+   - [#2096] CRP turtle: [0.01484 s] survived
+   - [#2097] CRP turtle: [0.01583 s] survived
+   - [#2098] CRP turtle: [0.01549 s] survived
+   - [#2099] CRP turtle: [0.01511 s] survived
+   - [#2100] CRP turtle: [0.01544 s] survived
+   - [#2101] CRP turtle: [0.01484 s] survived
+   - [#2102] CRP turtle: [0.01489 s] survived
+   - [#2103] CRP turtle: [0.01516 s] survived
+   - [#2104] CRP turtle: [0.01516 s] survived
+   - [#2105] CRP turtle: [0.01559 s] survived
+   - [#2106] CRP turtle: [0.01544 s] survived
+   - [#2107] CRP turtle: [0.01551 s] survived
+   - [#2108] CRP turtle: [0.01520 s] survived
+   - [#2109] CRP turtle: [0.01479 s] survived
+   - [#2110] CRP turtle: [0.01496 s] survived
+   - [#2111] CRP turtle: [0.01455 s] survived
+   - [#2112] CRP turtle: [0.01503 s] survived
+   - [#2113] CRP turtle: [0.01420 s] survived
+   - [#2114] CRP turtle: [0.01547 s] survived
+   - [#2115] CRP turtle: [0.01458 s] survived
+   - [#2116] CRP turtle: [0.01501 s] survived
+   - [#2117] CRP turtle: [0.01466 s] survived
+   - [#2118] CRP turtle: [0.01508 s] survived
+   - [#2119] CRP turtle: [0.01428 s] survived
+   - [#2120] CRP turtle: [0.01472 s] survived
+   - [#2121] CRP turtle: [0.01463 s] survived
+   - [#2122] CRP turtle: [0.01480 s] survived
+   - [#2123] CRP turtle: [0.01449 s] survived
+   - [#2124] CRP turtle: [0.01466 s] survived
+   - [#2125] CRP turtle: [0.01469 s] survived
+   - [#2126] CRP turtle: [0.01473 s] survived
+   - [#2127] CRP turtle: [0.01425 s] survived
+   - [#2128] CRP turtle: [0.01432 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [#2129] CRP turtle: [0.01367 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [#2130] CRP turtle: [0.01395 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2131] CRP turtle: [0.01337 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2132] CRP turtle: [0.01489 s] survived
+   - [#2133] CRP turtle: [0.01456 s] survived
+   - [#2134] CRP turtle: [0.01520 s] survived
+   - [#2135] CRP turtle: [0.01504 s] survived
+   - [#2136] CRP turtle: [0.01513 s] survived
+   - [#2137] CRP turtle: [0.01498 s] survived
+   - [#2138] CRP turtle: [0.01488 s] survived
+   - [#2139] CRP turtle: [0.01449 s] survived
+   - [#2140] CRP turtle: [0.01500 s] survived
+   - [#2141] CRP turtle: [0.01478 s] survived
+   - [#2142] CRP turtle: [0.01531 s] survived
+   - [#2143] CRP turtle: [0.01461 s] survived
+   - [#2144] CRP turtle: [0.01545 s] survived
+   - [#2145] CRP turtle: [0.01511 s] survived
+   - [#2146] CRP turtle: [0.01528 s] survived
+   - [#2147] CRP turtle: [0.01479 s] survived
+   - [#2148] CRP turtle: [0.01484 s] survived
+   - [#2149] CRP turtle: [0.01476 s] survived
+   - [#2150] CRP turtle: [0.01449 s] survived
+   - [#2151] CRP turtle: [0.01505 s] survived
+   - [#2152] CRP turtle: [0.01429 s] survived
+   - [#2153] CRP turtle: [0.01509 s] survived
+   - [#2154] CRP turtle: [0.01383 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2155] CRP turtle: [0.01394 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2156] CRP turtle: [0.01483 s] survived
+   - [#2157] CRP turtle: [0.01517 s] survived
+   - [#2158] CRP turtle: [0.01500 s] survived
+   - [#2159] CRP turtle: [0.01512 s] survived
+   - [#2160] CRP turtle: [0.01536 s] survived
+   - [#2161] CRP turtle: [0.01512 s] survived
+   - [#2162] CRP turtle: [0.01465 s] survived
+   - [#2163] CRP turtle: [0.01521 s] survived
+   - [#2164] CRP turtle: [0.01562 s] survived
+   - [#2165] CRP turtle: [0.01555 s] survived
+   - [#2166] CRP turtle: [0.01480 s] survived
+   - [#2167] CRP turtle: [0.01484 s] survived
+   - [#2168] CRP turtle: [0.01555 s] survived
+   - [#2169] CRP turtle: [0.01485 s] survived
+   - [#2170] CRP turtle: [0.01367 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2171] CRP turtle: [0.01384 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2172] CRP turtle: [0.01393 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2173] CRP turtle: [0.01411 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2174] CRP turtle: [0.01499 s] survived
+   - [#2175] CRP turtle: [0.01531 s] survived
+   - [#2176] CRP turtle: [0.01498 s] survived
+   - [#2177] CRP turtle: [0.01546 s] survived
+   - [#2178] CRP turtle: [0.01494 s] survived
+   - [#2179] CRP turtle: [0.01537 s] survived
+   - [#2180] CRP turtle: [0.01515 s] survived
+   - [#2181] CRP turtle: [0.01511 s] survived
+   - [#2182] CRP turtle: [0.01520 s] survived
+   - [#2183] CRP turtle: [0.01566 s] survived
+   - [#2184] CRP turtle: [0.01499 s] survived
+   - [#2185] CRP turtle: [0.01522 s] survived
+   - [#2186] CRP turtle: [0.01473 s] survived
+   - [#2187] CRP turtle: [0.01486 s] survived
+   - [#2188] CRP turtle: [0.01505 s] survived
+   - [#2189] CRP turtle: [0.01495 s] survived
+   - [#2190] CRP turtle: [0.01544 s] survived
+   - [#2191] CRP turtle: [0.01498 s] survived
+   - [#2192] CRP turtle: [0.01556 s] survived
+   - [#2193] CRP turtle: [0.01514 s] survived
+   - [#2194] CRP turtle: [0.01510 s] survived
+   - [#2195] CRP turtle: [0.01458 s] survived
+   - [#2196] CRP turtle: [0.01528 s] survived
+   - [#2197] CRP turtle: [0.01491 s] survived
+   - [#2198] CRP turtle: [0.01533 s] survived
+   - [#2199] CRP turtle: [0.01462 s] survived
+   - [#2200] CRP turtle: [0.01557 s] survived
+   - [#2201] CRP turtle: [0.01528 s] survived
+   - [#2202] CRP turtle: [0.01508 s] survived
+   - [#2203] CRP turtle: [0.01547 s] survived
+   - [#2204] CRP turtle: [0.01465 s] survived
+   - [#2205] CRP turtle: [0.01582 s] survived
+   - [#2206] CRP turtle: [0.01476 s] survived
+   - [#2207] CRP turtle: [0.01520 s] survived
+   - [#2208] CRP turtle: [0.01461 s] survived
+   - [#2209] CRP turtle: [0.01490 s] survived
+   - [#2210] CRP turtle: [0.01522 s] survived
+   - [#2211] CRP turtle: [0.01476 s] survived
+   - [#2212] CRP turtle: [0.01419 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [#2213] CRP turtle: [0.01337 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [#2214] CRP turtle: [0.01409 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [#2215] CRP turtle: [0.01399 s] killed by test_showturtle_hideturtle_and_isvisible (test_turtle.TestTPen)
+   - [#2216] CRP turtle: [0.01535 s] survived
+   - [#2217] CRP turtle: [0.01522 s] survived
+   - [#2218] CRP turtle: [0.01506 s] survived
+   - [#2219] CRP turtle: [0.01517 s] survived
+   - [#2220] CRP turtle: [0.01468 s] survived
+   - [#2221] CRP turtle: [0.01531 s] survived
+   - [#2222] CRP turtle: [0.01562 s] survived
+   - [#2223] CRP turtle: [0.01488 s] survived
+   - [#2224] CRP turtle: [0.01512 s] survived
+   - [#2225] CRP turtle: [0.01446 s] survived
+   - [#2226] CRP turtle: [0.01501 s] survived
+   - [#2227] CRP turtle: [0.01514 s] survived
+   - [#2228] CRP turtle: [0.01490 s] survived
+   - [#2229] CRP turtle: [0.01480 s] survived
+   - [#2230] CRP turtle: [0.01542 s] survived
+   - [#2231] CRP turtle: [0.01519 s] survived
+   - [#2232] CRP turtle: [0.01476 s] survived
+   - [#2233] CRP turtle: [0.01478 s] survived
+   - [#2234] CRP turtle: [0.01454 s] survived
+   - [#2235] CRP turtle: [0.01480 s] survived
+   - [#2236] CRP turtle: [0.01494 s] survived
+   - [#2237] CRP turtle: [0.01495 s] survived
+   - [#2238] CRP turtle: [0.01457 s] survived
+   - [#2239] CRP turtle: [0.01500 s] survived
+   - [#2240] CRP turtle: [0.01478 s] survived
+   - [#2241] CRP turtle: [0.01540 s] survived
+   - [#2242] CRP turtle: [0.01477 s] survived
+   - [#2243] CRP turtle: [0.01583 s] survived
+   - [#2244] CRP turtle: [0.00000 s] incompetent
+   - [#2245] CRP turtle: [0.00000 s] incompetent
+   - [#2246] CRP turtle: [0.00000 s] incompetent
+   - [#2247] CRP turtle: [0.00000 s] incompetent
+   - [#2248] CRP turtle: [0.00000 s] incompetent
+   - [#2249] CRP turtle: [0.00000 s] incompetent
+   - [#2250] CRP turtle: [0.01468 s] survived
+   - [#2251] CRP turtle: [0.01506 s] survived
+   - [#2252] CRP turtle: [0.01537 s] survived
+   - [#2253] CRP turtle: [0.01464 s] survived
+   - [#2254] CRP turtle: [0.01486 s] survived
+   - [#2255] CRP turtle: [0.01501 s] survived
+   - [#2256] CRP turtle: [0.01499 s] survived
+   - [#2257] CRP turtle: [0.01486 s] survived
+   - [#2258] CRP turtle: [0.01521 s] survived
+   - [#2259] CRP turtle: [0.01479 s] survived
+   - [#2260] CRP turtle: [0.01477 s] survived
+   - [#2261] CRP turtle: [0.01434 s] survived
+   - [#2262] CRP turtle: [0.01469 s] survived
+   - [#2263] CRP turtle: [0.01497 s] survived
+   - [#2264] CRP turtle: [0.01524 s] survived
+   - [#2265] CRP turtle: [0.01458 s] survived
+   - [#2266] CRP turtle: [0.01484 s] survived
+   - [#2267] CRP turtle: [0.01547 s] survived
+   - [#2268] CRP turtle: [0.01490 s] survived
+   - [#2269] CRP turtle: [0.01437 s] survived
+   - [#2270] CRP turtle: [0.01417 s] survived
+   - [#2271] CRP turtle: [0.01530 s] survived
+   - [#2272] CRP turtle: [0.01481 s] survived
+   - [#2273] CRP turtle: [0.01438 s] survived
+   - [#2274] CRP turtle: [0.01469 s] survived
+   - [#2275] CRP turtle: [0.01462 s] survived
+   - [#2276] CRP turtle: [0.01519 s] survived
+   - [#2277] CRP turtle: [0.01434 s] survived
+   - [#2278] CRP turtle: [0.01464 s] survived
+   - [#2279] CRP turtle: [0.01493 s] survived
+   - [#2280] CRP turtle: [0.01442 s] survived
+   - [#2281] CRP turtle: [0.01489 s] survived
+   - [#2282] CRP turtle: [0.01457 s] survived
+   - [#2283] CRP turtle: [0.01477 s] survived
+   - [#2284] CRP turtle: [0.01475 s] survived
+   - [#2285] CRP turtle: [0.01537 s] survived
+   - [#2286] CRP turtle: [0.01524 s] survived
+   - [#2287] CRP turtle: [0.01502 s] survived
+   - [#2288] CRP turtle: [0.01493 s] survived
+   - [#2289] CRP turtle: [0.01423 s] survived
+   - [#2290] CRP turtle: [0.01487 s] survived
+   - [#2291] CRP turtle: [0.01511 s] survived
+   - [#2292] CRP turtle: [0.01602 s] survived
+   - [#2293] CRP turtle: [0.01505 s] survived
+   - [#2294] CRP turtle: [0.01498 s] survived
+   - [#2295] CRP turtle: [0.01494 s] survived
+   - [#2296] CRP turtle: [0.01541 s] survived
+   - [#2297] CRP turtle: [0.01540 s] survived
+   - [#2298] CRP turtle: [0.01498 s] survived
+   - [#2299] CRP turtle: [0.01479 s] survived
+   - [#2300] CRP turtle: [0.01522 s] survived
+   - [#2301] CRP turtle: [0.01527 s] survived
+   - [#2302] CRP turtle: [0.01510 s] survived
+   - [#2303] CRP turtle: [0.01466 s] survived
+   - [#2304] CRP turtle: [0.01515 s] survived
+   - [#2305] CRP turtle: [0.01493 s] survived
+   - [#2306] CRP turtle: [0.01451 s] survived
+   - [#2307] CRP turtle: [0.01502 s] survived
+   - [#2308] CRP turtle: [0.01510 s] survived
+   - [#2309] CRP turtle: [0.01498 s] survived
+   - [#2310] CRP turtle: [0.01504 s] survived
+   - [#2311] CRP turtle: [0.01504 s] survived
+   - [#2312] CRP turtle: [0.01473 s] survived
+   - [#2313] CRP turtle: [0.01567 s] survived
+   - [#2314] CRP turtle: [0.01510 s] survived
+   - [#2315] CRP turtle: [0.01537 s] survived
+   - [#2316] CRP turtle: [0.01551 s] survived
+   - [#2317] CRP turtle: [0.01509 s] survived
+   - [#2318] CRP turtle: [0.01458 s] survived
+   - [#2319] CRP turtle: [0.01501 s] survived
+   - [#2320] CRP turtle: [0.01491 s] survived
+   - [#2321] CRP turtle: [0.01543 s] survived
+   - [#2322] CRP turtle: [0.01511 s] survived
+   - [#2323] CRP turtle: [0.01544 s] survived
+   - [#2324] CRP turtle: [0.01464 s] survived
+   - [#2325] CRP turtle: [0.01530 s] survived
+   - [#2326] CRP turtle: [0.01504 s] survived
+   - [#2327] CRP turtle: [0.01499 s] survived
+   - [#2328] CRP turtle: [0.01548 s] survived
+   - [#2329] CRP turtle: [0.01532 s] survived
+   - [#2330] CRP turtle: [0.01516 s] survived
+   - [#2331] CRP turtle: [0.01508 s] survived
+   - [#2332] CRP turtle: [0.01507 s] survived
+   - [#2333] CRP turtle: [0.01437 s] survived
+   - [#2334] CRP turtle: [0.01517 s] survived
+   - [#2335] CRP turtle: [0.01499 s] survived
+   - [#2336] CRP turtle: [0.01538 s] survived
+   - [#2337] CRP turtle: [0.01532 s] survived
+   - [#2338] CRP turtle: [0.01501 s] survived
+   - [#2339] CRP turtle: [0.01529 s] survived
+   - [#2340] CRP turtle: [0.01531 s] survived
+   - [#2341] CRP turtle: [0.01503 s] survived
+   - [#2342] CRP turtle: [0.01438 s] survived
+   - [#2343] CRP turtle: [0.01534 s] survived
+   - [#2344] CRP turtle: [0.01457 s] survived
+   - [#2345] CRP turtle: [0.01465 s] survived
+   - [#2346] CRP turtle: [0.01641 s] survived
+   - [#2347] CRP turtle: [0.01641 s] survived
+   - [#2348] CRP turtle: [0.01617 s] survived
+   - [#2349] CRP turtle: [0.01603 s] survived
+   - [#2350] CRP turtle: [0.01495 s] survived
+   - [#2351] CRP turtle: [0.01543 s] survived
+   - [#2352] CRP turtle: [0.01518 s] survived
+   - [#2353] CRP turtle: [0.01514 s] survived
+   - [#2354] CRP turtle: [0.01484 s] survived
+   - [#2355] CRP turtle: [0.01509 s] survived
+   - [#2356] CRP turtle: [0.01515 s] survived
+   - [#2357] CRP turtle: [0.01473 s] survived
+   - [#2358] CRP turtle: [0.01544 s] survived
+   - [#2359] CRP turtle: [0.01538 s] survived
+   - [#2360] CRP turtle: [0.01518 s] survived
+   - [#2361] CRP turtle: [0.01443 s] survived
+   - [#2362] CRP turtle: [0.01515 s] survived
+   - [#2363] CRP turtle: [0.01473 s] survived
+   - [#2364] CRP turtle: [0.01559 s] survived
+   - [#2365] CRP turtle: [0.01471 s] survived
+   - [#2366] CRP turtle: [0.01514 s] survived
+   - [#2367] CRP turtle: [0.01537 s] survived
+   - [#2368] CRP turtle: [0.01493 s] survived
+   - [#2369] CRP turtle: [0.01526 s] survived
+   - [#2370] CRP turtle: [0.01472 s] survived
+   - [#2371] CRP turtle: [0.01551 s] survived
+   - [#2372] CRP turtle: [0.01494 s] survived
+   - [#2373] CRP turtle: [0.01497 s] survived
+   - [#2374] CRP turtle: [0.01561 s] survived
+   - [#2375] CRP turtle: [0.01464 s] survived
+   - [#2376] CRP turtle: [0.01515 s] survived
+   - [#2377] CRP turtle: [0.01467 s] survived
+   - [#2378] CRP turtle: [0.01455 s] survived
+   - [#2379] CRP turtle: [0.01556 s] survived
+   - [#2380] CRP turtle: [0.01464 s] survived
+   - [#2381] CRP turtle: [0.01571 s] survived
+   - [#2382] CRP turtle: [0.01486 s] survived
+   - [#2383] CRP turtle: [0.01497 s] survived
+   - [#2384] CRP turtle: [0.01446 s] survived
+   - [#2385] CRP turtle: [0.01496 s] survived
+   - [#2386] CRP turtle: [0.01523 s] survived
+   - [#2387] CRP turtle: [0.01526 s] survived
+   - [#2388] CRP turtle: [0.01515 s] survived
+   - [#2389] CRP turtle: [0.01469 s] survived
+   - [#2390] CRP turtle: [0.01480 s] survived
+   - [#2391] CRP turtle: [0.01500 s] survived
+   - [#2392] CRP turtle: [0.01524 s] survived
+   - [#2393] CRP turtle: [0.01512 s] survived
+   - [#2394] CRP turtle: [0.01526 s] survived
+   - [#2395] CRP turtle: [0.01493 s] survived
+   - [#2396] CRP turtle: [0.01511 s] survived
+   - [#2397] CRP turtle: [0.01438 s] survived
+   - [#2398] CRP turtle: [0.01491 s] survived
+   - [#2399] CRP turtle: [0.01520 s] survived
+   - [#2400] CRP turtle: [0.01529 s] survived
+   - [#2401] CRP turtle: [0.01664 s] survived
+   - [#2402] CRP turtle: [0.01670 s] survived
+   - [#2403] CRP turtle: [0.01603 s] survived
+   - [#2404] CRP turtle: [0.01546 s] survived
+   - [#2405] CRP turtle: [0.01450 s] survived
+   - [#2406] CRP turtle: [0.01499 s] survived
+   - [#2407] CRP turtle: [0.01503 s] survived
+   - [#2408] CRP turtle: [0.01566 s] survived
+   - [#2409] CRP turtle: [0.01548 s] survived
+   - [#2410] CRP turtle: [0.01498 s] survived
+   - [#2411] CRP turtle: [0.01507 s] survived
+   - [#2412] CRP turtle: [0.01451 s] survived
+   - [#2413] CRP turtle: [0.01557 s] survived
+   - [#2414] CRP turtle: [0.01490 s] survived
+   - [#2415] CRP turtle: [0.01521 s] survived
+   - [#2416] CRP turtle: [0.01492 s] survived
+   - [#2417] CRP turtle: [0.01529 s] survived
+   - [#2418] CRP turtle: [0.01464 s] survived
+   - [#2419] CRP turtle: [0.01493 s] survived
+   - [#2420] CRP turtle: [0.01512 s] survived
+   - [#2421] CRP turtle: [0.01513 s] survived
+   - [#2422] CRP turtle: [0.01506 s] survived
+   - [#2423] CRP turtle: [0.01487 s] survived
+   - [#2424] CRP turtle: [0.01511 s] survived
+   - [#2425] CRP turtle: [0.01479 s] survived
+   - [#2426] CRP turtle: [0.01485 s] survived
+   - [#2427] CRP turtle: [0.01492 s] survived
+   - [#2428] CRP turtle: [0.01506 s] survived
+   - [#2429] CRP turtle: [0.01481 s] survived
+   - [#2430] CRP turtle: [0.01525 s] survived
+   - [#2431] CRP turtle: [0.01555 s] survived
+   - [#2432] CRP turtle: [0.01493 s] survived
+   - [#2433] CRP turtle: [0.01488 s] survived
+   - [#2434] CRP turtle: [0.01497 s] survived
+   - [#2435] CRP turtle: [0.01523 s] survived
+   - [#2436] CRP turtle: [0.01520 s] survived
+   - [#2437] CRP turtle: [0.01544 s] survived
+   - [#2438] CRP turtle: [0.01483 s] survived
+   - [#2439] CRP turtle: [0.01473 s] survived
+   - [#2440] CRP turtle: [0.01504 s] survived
+   - [#2441] CRP turtle: [0.01518 s] survived
+   - [#2442] CRP turtle: [0.01535 s] survived
+   - [#2443] CRP turtle: [0.01495 s] survived
+   - [#2444] CRP turtle: [0.01523 s] survived
+   - [#2445] CRP turtle: [0.01549 s] survived
+   - [#2446] CRP turtle: [0.01536 s] survived
+   - [#2447] CRP turtle: [0.01536 s] survived
+   - [#2448] CRP turtle: [0.01537 s] survived
+   - [#2449] CRP turtle: [0.01501 s] survived
+   - [#2450] CRP turtle: [0.01523 s] survived
+   - [#2451] CRP turtle: [0.01500 s] survived
+   - [#2452] CRP turtle: [0.01552 s] survived
+   - [#2453] CRP turtle: [0.01482 s] survived
+   - [#2454] CRP turtle: [0.01638 s] survived
+   - [#2455] CRP turtle: [0.01648 s] survived
+   - [#2456] CRP turtle: [0.01557 s] survived
+   - [#2457] CRP turtle: [0.01438 s] survived
+   - [#2458] CRP turtle: [0.01543 s] survived
+   - [#2459] CRP turtle: [0.01551 s] survived
+   - [#2460] CRP turtle: [0.01514 s] survived
+   - [#2461] CRP turtle: [0.01518 s] survived
+   - [#2462] CRP turtle: [0.01471 s] survived
+   - [#2463] CRP turtle: [0.01490 s] survived
+   - [#2464] CRP turtle: [0.01493 s] survived
+   - [#2465] CRP turtle: [0.01526 s] survived
+   - [#2466] CRP turtle: [0.01506 s] survived
+   - [#2467] CRP turtle: [0.01508 s] survived
+   - [#2468] CRP turtle: [0.01481 s] survived
+   - [#2469] CRP turtle: [0.01461 s] survived
+   - [#2470] CRP turtle: [0.01530 s] survived
+   - [#2471] CRP turtle: [0.01531 s] survived
+   - [#2472] CRP turtle: [0.01485 s] survived
+   - [#2473] CRP turtle: [0.01528 s] survived
+   - [#2474] CRP turtle: [0.01514 s] survived
+   - [#2475] CRP turtle: [0.01495 s] survived
+   - [#2476] CRP turtle: [0.01540 s] survived
+   - [#2477] CRP turtle: [0.01547 s] survived
+   - [#2478] CRP turtle: [0.01549 s] survived
+   - [#2479] CRP turtle: [0.01463 s] survived
+   - [#2480] CRP turtle: [0.01538 s] survived
+   - [#2481] CRP turtle: [0.01452 s] survived
+   - [#2482] CRP turtle: [0.01485 s] survived
+   - [#2483] CRP turtle: [0.01488 s] survived
+   - [#2484] CRP turtle: [0.01513 s] survived
+   - [#2485] CRP turtle: [0.01505 s] survived
+   - [#2486] CRP turtle: [0.01448 s] survived
+   - [#2487] CRP turtle: [0.01535 s] survived
+   - [#2488] CRP turtle: [0.01520 s] survived
+   - [#2489] CRP turtle: [0.01475 s] survived
+   - [#2490] CRP turtle: [0.01505 s] survived
+   - [#2491] CRP turtle: [0.01485 s] survived
+   - [#2492] CRP turtle: [0.01544 s] survived
+   - [#2493] CRP turtle: [0.01484 s] survived
+   - [#2494] CRP turtle: [0.01484 s] survived
+   - [#2495] CRP turtle: [0.01510 s] survived
+   - [#2496] CRP turtle: [0.01491 s] survived
+   - [#2497] CRP turtle: [0.01536 s] survived
+   - [#2498] CRP turtle: [0.00000 s] incompetent
+   - [#2499] CRP turtle: [0.00000 s] incompetent
+   - [#2500] CRP turtle: [0.01572 s] survived
+   - [#2501] CRP turtle: [0.01500 s] survived
+   - [#2502] CRP turtle: [0.01547 s] survived
+   - [#2503] CRP turtle: [0.01482 s] survived
+   - [#2504] CRP turtle: [0.01600 s] survived
+   - [#2505] CRP turtle: [0.01479 s] survived
+   - [#2506] CRP turtle: [0.01484 s] survived
+   - [#2507] CRP turtle: [0.01506 s] survived
+   - [#2508] CRP turtle: [0.01489 s] survived
+   - [#2509] CRP turtle: [0.01475 s] survived
+   - [#2510] CRP turtle: [0.01526 s] survived
+   - [#2511] CRP turtle: [0.01496 s] survived
+   - [#2512] CRP turtle: [0.00000 s] incompetent
+   - [#2513] CRP turtle: [0.00000 s] incompetent
+   - [#2514] CRP turtle: [0.00000 s] incompetent
+   - [#2515] CRP turtle: [0.00000 s] incompetent
+   - [#2516] CRP turtle: [0.00000 s] incompetent
+   - [#2517] CRP turtle: [0.00000 s] incompetent
+   - [#2518] CRP turtle: [0.00000 s] incompetent
+   - [#2519] CRP turtle: [0.00000 s] incompetent
+   - [#2520] CRP turtle: [0.01544 s] survived
+   - [#2521] CRP turtle: [0.01518 s] survived
+   - [#2522] CRP turtle: [0.01522 s] survived
+   - [#2523] CRP turtle: [0.01475 s] survived
+   - [#2524] CRP turtle: [0.01546 s] survived
+   - [#2525] CRP turtle: [0.01516 s] survived
+   - [#2526] CRP turtle: [0.01547 s] survived
+   - [#2527] CRP turtle: [0.01464 s] survived
+   - [#2528] CRP turtle: [0.01506 s] survived
+   - [#2529] CRP turtle: [0.01559 s] survived
+   - [#2530] CRP turtle: [0.01569 s] survived
+   - [#2531] CRP turtle: [0.00000 s] incompetent
+   - [#2532] CRP turtle: [0.00000 s] incompetent
+   - [#2533] CRP turtle: [0.00000 s] incompetent
+   - [#2534] CRP turtle: [0.00000 s] incompetent
+   - [#2535] CRP turtle: [0.00000 s] incompetent
+   - [#2536] CRP turtle: [0.00000 s] incompetent
+   - [#2537] CRP turtle: [0.01508 s] survived
+   - [#2538] CRP turtle: [0.01525 s] survived
+   - [#2539] CRP turtle: [0.01608 s] survived
+   - [#2540] CRP turtle: [0.01531 s] survived
+   - [#2541] CRP turtle: [0.01527 s] survived
+   - [#2542] CRP turtle: [0.01507 s] survived
+   - [#2543] CRP turtle: [0.01573 s] survived
+   - [#2544] CRP turtle: [0.01519 s] survived
+   - [#2545] CRP turtle: [0.01508 s] survived
+   - [#2546] CRP turtle: [0.01462 s] survived
+   - [#2547] CRP turtle: [0.01476 s] survived
+   - [#2548] CRP turtle: [0.01497 s] survived
+   - [#2549] CRP turtle: [0.01521 s] survived
+   - [#2550] CRP turtle: [0.01513 s] survived
+   - [#2551] CRP turtle: [0.01533 s] survived
+   - [#2552] CRP turtle: [0.01516 s] survived
+   - [#2553] CRP turtle: [0.01508 s] survived
+   - [#2554] CRP turtle: [0.01512 s] survived
+   - [#2555] CRP turtle: [0.01560 s] survived
+   - [#2556] CRP turtle: [0.01550 s] survived
+   - [#2557] CRP turtle: [0.01489 s] survived
+   - [#2558] CRP turtle: [0.01534 s] survived
+   - [#2559] CRP turtle: [0.01514 s] survived
+   - [#2560] CRP turtle: [0.01497 s] survived
+   - [#2561] CRP turtle: [0.01447 s] survived
+   - [#2562] CRP turtle: [0.01523 s] survived
+   - [#2563] CRP turtle: [0.01538 s] survived
+   - [#2564] CRP turtle: [0.01545 s] survived
+   - [#2565] CRP turtle: [0.01524 s] survived
+   - [#2566] CRP turtle: [0.01557 s] survived
+   - [#2567] CRP turtle: [0.01577 s] survived
+   - [#2568] CRP turtle: [0.01504 s] survived
+   - [#2569] CRP turtle: [0.01523 s] survived
+   - [#2570] CRP turtle: [0.00000 s] incompetent
+   - [#2571] CRP turtle: [0.00000 s] incompetent
+   - [#2572] CRP turtle: [0.01511 s] survived
+   - [#2573] CRP turtle: [0.01509 s] survived
+   - [#2574] CRP turtle: [0.01537 s] survived
+   - [#2575] CRP turtle: [0.01617 s] survived
+   - [#2576] CRP turtle: [0.01574 s] survived
+   - [#2577] CRP turtle: [0.01644 s] survived
+   - [#2578] CRP turtle: [0.01565 s] survived
+   - [#2579] CRP turtle: [0.01518 s] survived
+   - [#2580] CRP turtle: [0.01547 s] survived
+   - [#2581] CRP turtle: [0.00000 s] incompetent
+   - [#2582] CRP turtle: [0.00000 s] incompetent
+   - [#2583] CRP turtle: [0.01536 s] survived
+   - [#2584] CRP turtle: [0.00000 s] incompetent
+   - [#2585] CRP turtle: [0.00000 s] incompetent
+   - [#2586] CRP turtle: [0.01568 s] survived
+   - [#2587] CRP turtle: [0.01530 s] survived
+   - [#2588] CRP turtle: [0.00000 s] incompetent
+   - [#2589] CRP turtle: [0.00000 s] incompetent
+   - [#2590] CRP turtle: [0.01555 s] survived
+   - [#2591] CRP turtle: [0.01555 s] survived
+   - [#2592] CRP turtle: [0.00000 s] incompetent
+   - [#2593] CRP turtle: [0.00000 s] incompetent
+   - [#2594] CRP turtle: [0.00000 s] incompetent
+   - [#2595] CRP turtle: [0.00000 s] incompetent
+   - [#2596] CRP turtle: [0.01584 s] survived
+   - [#2597] CRP turtle: [0.01533 s] survived
+   - [#2598] CRP turtle: [0.00000 s] incompetent
+   - [#2599] CRP turtle: [0.00000 s] incompetent
+   - [#2600] CRP turtle: [0.00000 s] incompetent
+   - [#2601] CRP turtle: [0.00000 s] incompetent
+   - [#2602] CRP turtle: [0.00000 s] incompetent
+   - [#2603] CRP turtle: [0.00000 s] incompetent
+   - [#2604] CRP turtle: [0.01799 s] survived
+   - [#2605] CRP turtle: [0.00000 s] incompetent
+   - [#2606] CRP turtle: [0.00000 s] incompetent
+   - [#2607] CRP turtle: [0.01526 s] survived
+   - [#2608] CRP turtle: [0.01544 s] survived
+   - [#2609] CRP turtle: [0.00000 s] incompetent
+   - [#2610] CRP turtle: [0.00000 s] incompetent
+   - [#2611] CRP turtle: [0.00000 s] incompetent
+   - [#2612] CRP turtle: [0.00000 s] incompetent
+   - [#2613] CRP turtle: [0.01500 s] survived
+   - [#2614] CRP turtle: [0.00000 s] incompetent
+   - [#2615] CRP turtle: [0.00000 s] incompetent
+   - [#2616] CRP turtle: [0.01527 s] survived
+   - [#2617] CRP turtle: [0.01498 s] survived
+   - [#2618] CRP turtle: [0.00000 s] incompetent
+   - [#2619] CRP turtle: [0.00000 s] incompetent
+   - [#2620] CRP turtle: [0.01519 s] survived
+   - [#2621] CRP turtle: [0.01493 s] survived
+   - [#2622] CRP turtle: [0.01536 s] survived
+   - [#2623] CRP turtle: [0.01491 s] survived
+   - [#2624] CRP turtle: [0.00000 s] incompetent
+   - [#2625] CRP turtle: [0.01463 s] survived
+   - [#2626] CRP turtle: [0.00000 s] incompetent
+   - [#2627] CRP turtle: [0.01501 s] survived
+   - [#2628] CRP turtle: [0.00000 s] incompetent
+   - [#2629] CRP turtle: [0.01500 s] survived
+   - [#2630] CRP turtle: [0.00000 s] incompetent
+   - [#2631] CRP turtle: [0.01528 s] survived
+   - [#2632] CRP turtle: [0.01476 s] survived
+   - [#2633] CRP turtle: [0.01487 s] survived
+   - [#2634] CRP turtle: [0.01529 s] survived
+   - [#2635] CRP turtle: [0.01499 s] survived
+   - [#2636] CRP turtle: [0.01502 s] survived
+   - [#2637] CRP turtle: [0.01508 s] survived
+   - [#2638] CRP turtle: [0.01534 s] survived
+   - [#2639] CRP turtle: [0.01536 s] survived
+   - [#2640] CRP turtle: [0.01469 s] survived
+   - [#2641] CRP turtle: [0.01513 s] survived
+   - [#2642] CRP turtle: [0.01524 s] survived
+   - [#2643] CRP turtle: [0.01511 s] survived
+   - [#2644] CRP turtle: [0.01493 s] survived
+   - [#2645] CRP turtle: [0.01513 s] survived
+   - [#2646] CRP turtle: [0.01506 s] survived
+   - [#2647] CRP turtle: [0.01505 s] survived
+   - [#2648] CRP turtle: [0.01455 s] survived
+   - [#2649] CRP turtle: [0.01564 s] survived
+   - [#2650] CRP turtle: [0.01554 s] survived
+   - [#2651] CRP turtle: [0.01468 s] survived
+   - [#2652] CRP turtle: [0.01540 s] survived
+   - [#2653] CRP turtle: [0.01483 s] survived
+   - [#2654] CRP turtle: [0.01517 s] survived
+   - [#2655] CRP turtle: [0.01503 s] survived
+   - [#2656] CRP turtle: [0.01507 s] survived
+   - [#2657] CRP turtle: [0.01474 s] survived
+   - [#2658] CRP turtle: [0.01492 s] survived
+   - [#2659] CRP turtle: [0.01456 s] survived
+   - [#2660] CRP turtle: [0.01544 s] survived
+   - [#2661] CRP turtle: [0.01570 s] survived
+   - [#2662] CRP turtle: [0.01495 s] survived
+   - [#2663] CRP turtle: [0.01555 s] survived
+   - [#2664] CRP turtle: [0.01464 s] survived
+   - [#2665] CRP turtle: [0.01500 s] survived
+   - [#2666] CRP turtle: [0.01481 s] survived
+   - [#2667] CRP turtle: [0.01519 s] survived
+   - [#2668] CRP turtle: [0.01522 s] survived
+   - [#2669] CRP turtle: [0.01577 s] survived
+   - [#2670] CRP turtle: [0.01523 s] survived
+   - [#2671] CRP turtle: [0.01565 s] survived
+   - [#2672] CRP turtle: [0.01522 s] survived
+   - [#2673] CRP turtle: [0.01485 s] survived
+   - [#2674] CRP turtle: [0.01517 s] survived
+   - [#2675] CRP turtle: [0.01508 s] survived
+   - [#2676] CRP turtle: [0.01588 s] survived
+   - [#2677] CRP turtle: [0.01490 s] survived
+   - [#2678] CRP turtle: [0.01497 s] survived
+   - [#2679] CRP turtle: [0.01481 s] survived
+   - [#2680] CRP turtle: [0.01525 s] survived
+   - [#2681] CRP turtle: [0.01499 s] survived
+   - [#2682] CRP turtle: [0.01537 s] survived
+   - [#2683] CRP turtle: [0.01587 s] survived
+   - [#2684] CRP turtle: [0.01476 s] survived
+   - [#2685] CRP turtle: [0.01527 s] survived
+   - [#2686] CRP turtle: [0.01432 s] survived
+   - [#2687] CRP turtle: [0.01513 s] survived
+   - [#2688] CRP turtle: [0.01588 s] survived
+   - [#2689] CRP turtle: [0.01508 s] survived
+   - [#2690] CRP turtle: [0.01550 s] survived
+   - [#2691] CRP turtle: [0.01466 s] survived
+   - [#2692] CRP turtle: [0.01518 s] survived
+   - [#2693] CRP turtle: [0.01476 s] survived
+   - [#2694] CRP turtle: [0.01533 s] survived
+   - [#2695] CRP turtle: [0.01497 s] survived
+   - [#2696] CRP turtle: [0.01582 s] survived
+   - [#2697] CRP turtle: [0.01547 s] survived
+   - [#2698] CRP turtle: [0.01503 s] survived
+   - [#2699] CRP turtle: [0.01526 s] survived
+   - [#2700] CRP turtle: [0.01475 s] survived
+   - [#2701] CRP turtle: [0.01486 s] survived
+   - [#2702] CRP turtle: [0.01455 s] survived
+   - [#2703] CRP turtle: [0.01483 s] survived
+   - [#2704] CRP turtle: [0.01503 s] survived
+   - [#2705] CRP turtle: [0.01535 s] survived
+   - [#2706] CRP turtle: [0.01487 s] survived
+   - [#2707] CRP turtle: [0.01544 s] survived
+   - [#2708] CRP turtle: [0.01490 s] survived
+   - [#2709] CRP turtle: [0.01527 s] survived
+   - [#2710] CRP turtle: [0.01505 s] survived
+   - [#2711] CRP turtle: [0.01505 s] survived
+   - [#2712] CRP turtle: [0.01499 s] survived
+   - [#2713] CRP turtle: [0.01465 s] survived
+   - [#2714] CRP turtle: [0.01484 s] survived
+   - [#2715] CRP turtle: [0.01533 s] survived
+   - [#2716] CRP turtle: [0.01483 s] survived
+   - [#2717] CRP turtle: [0.01533 s] survived
+   - [#2718] CRP turtle: [0.01471 s] survived
+   - [#2719] CRP turtle: [0.01503 s] survived
+   - [#2720] CRP turtle: [0.01460 s] survived
+   - [#2721] CRP turtle: [0.01516 s] survived
+   - [#2722] CRP turtle: [0.01498 s] survived
+   - [#2723] CRP turtle: [0.01501 s] survived
+   - [#2724] CRP turtle: [0.01466 s] survived
+   - [#2725] CRP turtle: [0.01495 s] survived
+   - [#2726] CRP turtle: [0.01492 s] survived
+   - [#2727] CRP turtle: [0.01506 s] survived
+   - [#2728] CRP turtle: [0.01477 s] survived
+   - [#2729] CRP turtle: [0.01490 s] survived
+   - [#2730] CRP turtle: [0.01459 s] survived
+   - [#2731] CRP turtle: [0.01540 s] survived
+   - [#2732] CRP turtle: [0.01506 s] survived
+   - [#2733] CRP turtle: [0.01543 s] survived
+   - [#2734] CRP turtle: [0.01536 s] survived
+   - [#2735] CRP turtle: [0.01490 s] survived
+   - [#2736] CRP turtle: [0.01528 s] survived
+   - [#2737] CRP turtle: [0.01510 s] survived
+   - [#2738] CRP turtle: [0.01525 s] survived
+   - [#2739] CRP turtle: [0.01472 s] survived
+   - [#2740] CRP turtle: [0.01543 s] survived
+   - [#2741] CRP turtle: [0.01519 s] survived
+   - [#2742] CRP turtle: [0.01523 s] survived
+   - [#2743] CRP turtle: [0.01453 s] survived
+   - [#2744] CRP turtle: [0.01491 s] survived
+   - [#2745] CRP turtle: [0.01491 s] survived
+   - [#2746] CRP turtle: [0.01547 s] survived
+   - [#2747] CRP turtle: [0.01495 s] survived
+   - [#2748] CRP turtle: [0.01463 s] survived
+   - [#2749] CRP turtle: [0.01520 s] survived
+   - [#2750] CRP turtle: [0.01503 s] survived
+   - [#2751] CRP turtle: [0.01488 s] survived
+   - [#2752] CRP turtle: [0.01505 s] survived
+   - [#2753] CRP turtle: [0.01508 s] survived
+   - [#2754] CRP turtle: [0.01547 s] survived
+   - [#2755] CRP turtle: [0.01529 s] survived
+   - [#2756] CRP turtle: [0.01500 s] survived
+   - [#2757] CRP turtle: [0.01528 s] survived
+   - [#2758] CRP turtle: [0.01528 s] survived
+   - [#2759] CRP turtle: [0.01497 s] survived
+   - [#2760] CRP turtle: [0.01524 s] survived
+   - [#2761] CRP turtle: [0.01521 s] survived
+   - [#2762] CRP turtle: [0.01493 s] survived
+   - [#2763] CRP turtle: [0.01512 s] survived
+   - [#2764] CRP turtle: [0.01505 s] survived
+   - [#2765] CRP turtle: [0.01509 s] survived
+   - [#2766] CRP turtle: [0.01549 s] survived
+   - [#2767] CRP turtle: [0.01493 s] survived
+   - [#2768] CRP turtle: [0.01501 s] survived
+   - [#2769] DDL turtle: [0.01511 s] survived
+   - [#2770] DDL turtle: [0.01536 s] survived
+   - [#2771] EHD turtle: [0.01748 s] killed by test_config_dict_invalid (test_turtle.TurtleConfigTest)
+   - [#2772] EHD turtle: [0.01578 s] killed by test_config_dict (test_turtle.TurtleConfigTest)
+   - [#2773] EHD turtle: [0.01485 s] survived
+   - [#2774] EHD turtle: [0.01549 s] survived
+   - [#2775] EHD turtle: [0.01527 s] survived
+   - [#2776] EHD turtle: [0.01488 s] survived
+   - [#2777] EHD turtle: [0.01493 s] survived
+   - [#2778] EHD turtle: [0.01480 s] survived
+   - [#2779] EHD turtle: [0.01479 s] survived
+   - [#2780] EHD turtle: [0.01485 s] survived
+   - [#2781] EXS turtle: [0.01528 s] killed by test_config_dict_invalid (test_turtle.TurtleConfigTest)
+   - [#2782] EXS turtle: [0.01484 s] survived
+   - [#2783] EXS turtle: [0.01478 s] survived
+   - [#2784] EXS turtle: [0.01516 s] survived
+   - [#2785] EXS turtle: [0.01437 s] survived
+   - [#2786] EXS turtle: [0.01464 s] survived
+   - [#2787] EXS turtle: [0.01441 s] survived
+   - [#2788] EXS turtle: [0.01537 s] survived
+   - [#2789] EXS turtle: [0.01571 s] survived
+   - [#2790] EXS turtle: [0.01543 s] survived
+   - [#2791] IOD turtle: [0.00000 s] incompetent
+   - [#2792] IOD turtle: [0.01265 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2793] IOD turtle: [0.01307 s] killed by test_backwards (test_turtle.TestTNavigator)
+   - [#2794] IOD turtle: [0.01463 s] survived
+   - [#2795] IOD turtle: [0.01436 s] survived
+   - [#2796] IOD turtle: [0.01456 s] killed by test_repr (test_turtle.TestVec2D)
+   - [#2797] IOD turtle: [0.01456 s] survived
+   - [#2798] IOD turtle: [0.01529 s] survived
+   - [#2799] IOD turtle: [0.01509 s] survived
+   - [#2800] IOD turtle: [0.01460 s] survived
+   - [#2801] IOD turtle: [0.01510 s] survived
+   - [#2802] IOD turtle: [0.01491 s] survived
+   - [#2803] IOD turtle: [0.01531 s] survived
+   - [#2804] IOD turtle: [0.01450 s] survived
+   - [#2805] IOD turtle: [0.01471 s] survived
+   - [#2806] IOD turtle: [0.01449 s] survived
+   - [#2807] IOD turtle: [0.01472 s] survived
+   - [#2808] IOD turtle: [0.01492 s] survived
+   - [#2809] IOD turtle: [0.01459 s] survived
+   - [#2810] IOD turtle: [0.01488 s] survived
+   - [#2811] IOD turtle: [0.01497 s] survived
+   - [#2812] IOD turtle: [0.01481 s] survived
+   - [#2813] IOD turtle: [0.01520 s] survived
+   - [#2814] IOD turtle: [0.01544 s] survived
+   - [#2815] IOD turtle: [0.01519 s] survived
+   - [#2816] IOD turtle: [0.01525 s] survived
+   - [#2817] IOD turtle: [0.01481 s] survived
+   - [#2818] LCR turtle: [0.01480 s] survived
+   - [#2819] LCR turtle: [0.01455 s] survived
+   - [#2820] LCR turtle: [0.01495 s] survived
+   - [#2821] LCR turtle: [0.01507 s] survived
+   - [#2822] LCR turtle: [0.01556 s] survived
+   - [#2823] LCR turtle: [0.01446 s] survived
+   - [#2824] LCR turtle: [0.01527 s] survived
+   - [#2825] LCR turtle: [0.02139 s] survived
+   - [#2826] LCR turtle: [0.01409 s] killed by test_pendown_and_penup (test_turtle.TestTPen)
+   - [#2827] LCR turtle: [0.01503 s] survived
+   - [#2828] LCR turtle: [0.01556 s] survived
+   - [#2829] LCR turtle: [0.01441 s] survived
+   - [#2830] LCR turtle: [0.01558 s] survived
+   - [#2831] LCR turtle: [0.01465 s] survived
+   - [#2832] LCR turtle: [0.01531 s] survived
+   - [#2833] LCR turtle: [0.01468 s] survived
+   - [#2834] LCR turtle: [0.01461 s] survived
+   - [#2835] LCR turtle: [0.01500 s] survived
+   - [#2836] LCR turtle: [0.01499 s] survived
+   - [#2837] LCR turtle: [0.01486 s] survived
+   - [#2838] LCR turtle: [0.01526 s] survived
+   - [#2839] LCR turtle: [0.00000 s] incompetent
+   - [#2840] ROR turtle: [0.01535 s] survived
+   - [#2841] ROR turtle: [0.01518 s] survived
+   - [#2842] ROR turtle: [0.01511 s] survived
+   - [#2843] ROR turtle: [0.01527 s] survived
+   - [#2844] ROR turtle: [0.01439 s] survived
+   - [#2845] ROR turtle: [0.01520 s] survived
+   - [#2846] ROR turtle: [0.01546 s] survived
+   - [#2847] ROR turtle: [0.01460 s] survived
+   - [#2848] ROR turtle: [0.01429 s] survived
+   - [#2849] ROR turtle: [0.01491 s] survived
+   - [#2850] ROR turtle: [0.01547 s] survived
+   - [#2851] ROR turtle: [0.01493 s] survived
+   - [#2852] ROR turtle: [0.01525 s] survived
+   - [#2853] ROR turtle: [0.01528 s] survived
+   - [#2854] ROR turtle: [0.01484 s] survived
+   - [#2855] ROR turtle: [0.01478 s] survived
+   - [#2856] ROR turtle: [0.01497 s] survived
+   - [#2857] ROR turtle: [0.01496 s] survived
+   - [#2858] ROR turtle: [0.01475 s] survived
+   - [#2859] ROR turtle: [0.01482 s] survived
+   - [#2860] ROR turtle: [0.01509 s] survived
+   - [#2861] ROR turtle: [0.01472 s] survived
+   - [#2862] ROR turtle: [0.01466 s] survived
+   - [#2863] ROR turtle: [0.01498 s] survived
+   - [#2864] ROR turtle: [0.01479 s] survived
+   - [#2865] ROR turtle: [0.01507 s] survived
+   - [#2866] ROR turtle: [0.01430 s] survived
+   - [#2867] ROR turtle: [0.01471 s] survived
+   - [#2868] ROR turtle: [0.01497 s] survived
+   - [#2869] ROR turtle: [0.01479 s] survived
+   - [#2870] ROR turtle: [0.01598 s] survived
+   - [#2871] ROR turtle: [0.01492 s] survived
+   - [#2872] ROR turtle: [0.01529 s] survived
+   - [#2873] ROR turtle: [0.01424 s] survived
+   - [#2874] ROR turtle: [0.01487 s] survived
+   - [#2875] ROR turtle: [0.01477 s] survived
+   - [#2876] ROR turtle: [0.01518 s] survived
+   - [#2877] ROR turtle: [0.01476 s] survived
+   - [#2878] ROR turtle: [0.01487 s] survived
+   - [#2879] ROR turtle: [0.01520 s] survived
+   - [#2880] ROR turtle: [0.01503 s] survived
+   - [#2881] ROR turtle: [0.01451 s] survived
+   - [#2882] ROR turtle: [0.01526 s] survived
+   - [#2883] ROR turtle: [0.01732 s] killed by test_radians_and_degrees (test_turtle.TestTNavigator)
+   - [#2884] ROR turtle: [0.01464 s] survived
+   - [#2885] ROR turtle: [0.01508 s] survived
+   - [#2886] ROR turtle: [0.01617 s] survived
+   - [#2887] ROR turtle: [0.01472 s] survived
+   - [#2888] ROR turtle: [0.01466 s] survived
+   - [#2889] ROR turtle: [0.01496 s] survived
+   - [#2890] ROR turtle: [0.01508 s] survived
+   - [#2891] ROR turtle: [0.01499 s] survived
+   - [#2892] ROR turtle: [0.01497 s] survived
+   - [#2893] ROR turtle: [0.01504 s] survived
+   - [#2894] ROR turtle: [0.01498 s] survived
+   - [#2895] ROR turtle: [0.01484 s] survived
+   - [#2896] ROR turtle: [0.01505 s] survived
+   - [#2897] ROR turtle: [0.01503 s] survived
+   - [#2898] ROR turtle: [0.01570 s] survived
+   - [#2899] ROR turtle: [0.01534 s] survived
+   - [#2900] ROR turtle: [0.01459 s] survived
+   - [#2901] ROR turtle: [0.01550 s] survived
+   - [#2902] ROR turtle: [0.01481 s] survived
+   - [#2903] ROR turtle: [0.01521 s] survived
+   - [#2904] ROR turtle: [0.01523 s] survived
+   - [#2905] ROR turtle: [0.01475 s] survived
+   - [#2906] ROR turtle: [0.01493 s] survived
+   - [#2907] ROR turtle: [0.01481 s] survived
+   - [#2908] ROR turtle: [0.01544 s] survived
+   - [#2909] ROR turtle: [0.01504 s] survived
+   - [#2910] ROR turtle: [0.01470 s] survived
+   - [#2911] ROR turtle: [0.01516 s] survived
+   - [#2912] ROR turtle: [0.01516 s] survived
+   - [#2913] ROR turtle: [0.01536 s] survived
+   - [#2914] ROR turtle: [0.01519 s] survived
+   - [#2915] ROR turtle: [0.01618 s] survived
+   - [#2916] ROR turtle: [0.01502 s] survived
+   - [#2917] ROR turtle: [0.01513 s] survived
+   - [#2918] ROR turtle: [0.01582 s] survived
+   - [#2919] ROR turtle: [0.01518 s] survived
+   - [#2920] ROR turtle: [0.01503 s] survived
+   - [#2921] ROR turtle: [0.01525 s] survived
+   - [#2922] ROR turtle: [0.01576 s] survived
+   - [#2923] ROR turtle: [0.01530 s] survived
+   - [#2924] ROR turtle: [0.01549 s] survived
+   - [#2925] ROR turtle: [0.01514 s] survived
+   - [#2926] ROR turtle: [0.01497 s] survived
+   - [#2927] ROR turtle: [0.01519 s] survived
+   - [#2928] ROR turtle: [0.01626 s] survived
+   - [#2929] ROR turtle: [0.01485 s] survived
+   - [#2930] ROR turtle: [0.01513 s] survived
+   - [#2931] ROR turtle: [0.01533 s] survived
+   - [#2932] ROR turtle: [0.01518 s] survived
+   - [#2933] ROR turtle: [0.01586 s] survived
+   - [#2934] ROR turtle: [0.01485 s] survived
+   - [#2935] ROR turtle: [0.01509 s] survived
+   - [#2936] ROR turtle: [0.01499 s] survived
+   - [#2937] ROR turtle: [0.01483 s] survived
+   - [#2938] ROR turtle: [0.01536 s] survived
+   - [#2939] ROR turtle: [0.01533 s] survived
+   - [#2940] ROR turtle: [0.01469 s] survived
+   - [#2941] ROR turtle: [0.01505 s] survived
+   - [#2942] ROR turtle: [0.01500 s] survived
+   - [#2943] ROR turtle: [0.01496 s] survived
+   - [#2944] ROR turtle: [0.01515 s] survived
+   - [#2945] ROR turtle: [0.01576 s] survived
+   - [#2946] ROR turtle: [0.01480 s] survived
+   - [#2947] ROR turtle: [0.01447 s] survived
+   - [#2948] ROR turtle: [0.01553 s] survived
+   - [#2949] ROR turtle: [0.01503 s] survived
+   - [#2950] ROR turtle: [0.01518 s] survived
+   - [#2951] ROR turtle: [0.01491 s] survived
+   - [#2952] ROR turtle: [0.01474 s] survived
+   - [#2953] ROR turtle: [0.01522 s] survived
+   - [#2954] ROR turtle: [0.01529 s] survived
+   - [#2955] ROR turtle: [0.01534 s] survived
+   - [#2956] ROR turtle: [0.01532 s] survived
+   - [#2957] ROR turtle: [0.01570 s] survived
+   - [#2958] ROR turtle: [0.01556 s] survived
+   - [#2959] ROR turtle: [0.01591 s] survived
+   - [#2960] ROR turtle: [0.01590 s] survived
+   - [#2961] ROR turtle: [0.01496 s] survived
+   - [#2962] ROR turtle: [0.01466 s] survived
+   - [#2963] ROR turtle: [0.01562 s] survived
+   - [#2964] ROR turtle: [0.01492 s] survived
+   - [#2965] ROR turtle: [0.01580 s] survived
+   - [#2966] ROR turtle: [0.01516 s] survived
+   - [#2967] ROR turtle: [0.01513 s] survived
+   - [#2968] ROR turtle: [0.01507 s] survived
+   - [#2969] ROR turtle: [0.01515 s] survived
+   - [#2970] ROR turtle: [0.01461 s] survived
+   - [#2971] ROR turtle: [0.01457 s] survived
+   - [#2972] ROR turtle: [0.01503 s] survived
+   - [#2973] ROR turtle: [0.01488 s] survived
+   - [#2974] ROR turtle: [0.01483 s] survived
+   - [#2975] ROR turtle: [0.01499 s] survived
+   - [#2976] ROR turtle: [0.01528 s] survived
+   - [#2977] ROR turtle: [0.01505 s] survived
+   - [#2978] ROR turtle: [0.01518 s] survived
+   - [#2979] ROR turtle: [0.01444 s] survived
+   - [#2980] ROR turtle: [0.01556 s] survived
+   - [#2981] ROR turtle: [0.01511 s] survived
+   - [#2982] ROR turtle: [0.01466 s] survived
+   - [#2983] ROR turtle: [0.01459 s] survived
+   - [#2984] ROR turtle: [0.01481 s] survived
+   - [#2985] ROR turtle: [0.01514 s] survived
+   - [#2986] ROR turtle: [0.01496 s] survived
+   - [#2987] ROR turtle: [0.01470 s] survived
+   - [#2988] ROR turtle: [0.01482 s] survived
+   - [#2989] ROR turtle: [0.01460 s] survived
+   - [#2990] ROR turtle: [0.01501 s] survived
+   - [#2991] ROR turtle: [0.01561 s] survived
+   - [#2992] ROR turtle: [0.01501 s] survived
+   - [#2993] ROR turtle: [0.01497 s] survived
+   - [#2994] ROR turtle: [0.01496 s] survived
+   - [#2995] ROR turtle: [0.01545 s] survived
+   - [#2996] ROR turtle: [0.01504 s] survived
+   - [#2997] ROR turtle: [0.01514 s] survived
+   - [#2998] ROR turtle: [0.01511 s] survived
+   - [#2999] ROR turtle: [0.00000 s] incompetent
+   - [#3000] ROR turtle: [0.00000 s] incompetent
+   - [#3001] ROR turtle: [0.01707 s] survived
+   - [#3002] ROR turtle: [0.01572 s] survived
+   - [#3003] ROR turtle: [0.01553 s] survived
+   - [#3004] ROR turtle: [0.01651 s] survived
+   - [#3005] ROR turtle: [0.01589 s] survived
+   - [#3006] ROR turtle: [0.01691 s] survived
+   - [#3007] ROR turtle: [0.01621 s] survived
+   - [#3008] SCI turtle: [0.00000 s] incompetent
+   - [#3009] SCI turtle: [0.01568 s] survived
+   - [#3010] SCI turtle: [0.21488 s] timeout
+   - [#3011] SCI turtle: [0.01584 s] survived
+   - [#3012] SCI turtle: [0.01528 s] survived
+   - [#3013] SCI turtle: [0.01587 s] survived
+   - [#3014] SCI turtle: [0.01586 s] survived
+   - [#3015] SCI turtle: [0.01636 s] survived
+   - [#3016] SCI turtle: [0.01506 s] survived
+   - [#3017] SCI turtle: [0.01579 s] survived
+   - [#3018] SCI turtle: [0.01537 s] survived
+   - [#3019] SCI turtle: [0.01598 s] survived
+   - [#3020] SCI turtle: [0.01609 s] survived
+   - [#3021] SCI turtle: [0.01619 s] survived
+   - [#3022] SCI turtle: [0.01577 s] survived
+   - [#3023] SCI turtle: [0.01597 s] survived
+   - [#3024] SCI turtle: [0.01638 s] survived
+   - [#3025] SCI turtle: [0.01655 s] survived
+   - [#3026] SCI turtle: [0.01585 s] survived
+   - [#3027] SCI turtle: [0.01606 s] survived
+   - [#3028] SCI turtle: [0.01590 s] survived
+   - [#3029] SCI turtle: [0.01638 s] survived
+   - [#3030] SCI turtle: [0.01624 s] survived
+   - [#3031] SCI turtle: [0.01644 s] survived
+   - [#3032] SCI turtle: [0.01600 s] survived
+   - [#3033] SCI turtle: [0.01613 s] survived
+   - [#3034] SCI turtle: [0.01572 s] survived
+   - [#3035] SIR turtle: [0.01610 s] survived
+   - [#3036] SIR turtle: [0.01634 s] survived
+   - [#3037] SIR turtle: [0.01554 s] survived
+   - [#3038] SIR turtle: [0.01601 s] survived
+   - [#3039] SIR turtle: [0.01605 s] survived
+   - [#3040] SIR turtle: [0.01558 s] survived
+   - [#3041] SIR turtle: [0.01628 s] survived
+   - [#3042] SIR turtle: [0.01554 s] survived
+   - [#3043] SIR turtle: [0.01585 s] survived
+   - [#3044] SIR turtle: [0.01587 s] survived
+   - [#3045] SIR turtle: [0.01611 s] survived
+   - [#3046] SIR turtle: [0.01583 s] survived
+   - [#3047] SIR turtle: [0.01520 s] survived
+   - [#3048] SIR turtle: [0.01636 s] survived
+[*] Mutation score [125.30295 s]: 9.2%
+   - all: 3048
+   - killed: 230 (7.5%)
+   - survived: 2442 (80.1%)
+   - incompetent: 359 (11.8%)
+   - timeout: 17 (0.6%)

@@ -1,0 +1,71 @@
+[*] Start mutation process:
+   - targets: hmac.py
+   - tests: test_hmac.py
+[*] 21 tests passed:
+   - test_hmac [0.00382 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR hmac: [0.01119 s] survived
+   - [#   2] AOR hmac: [0.20764 s] timeout
+   - [#   3] AOR hmac: [0.01024 s] survived
+   - [#   4] AOR hmac: [0.20803 s] timeout
+   - [#   5] AOR hmac: [0.20816 s] timeout
+   - [#   6] AOR hmac: [0.21271 s] timeout
+   - [#   7] AOR hmac: [0.21178 s] timeout
+   - [#   8] AOR hmac: [0.21178 s] timeout
+   - [#   9] AOR hmac: [0.01853 s] killed by test_md5_vectors (test_hmac.TestVectorsTestCase)
+   - [#  10] COD hmac: [0.00984 s] killed by test_normal (test_hmac.ConstructorTestCase)
+   - [#  11] COI hmac: [0.00761 s] killed by test_normal (test_hmac.ConstructorTestCase)
+   - [#  12] COI hmac: [0.00721 s] killed by test_normal (test_hmac.ConstructorTestCase)
+   - [#  13] COI hmac: [0.00696 s] killed by test_normal (test_hmac.ConstructorTestCase)
+   - [#  14] COI hmac: [0.00879 s] killed by test_with_bytearray (test_hmac.ConstructorTestCase)
+   - [#  15] COI hmac: [0.00772 s] killed by test_legacy_block_size_warnings (test_hmac.TestVectorsTestCase)
+   - [#  16] COI hmac: [0.00838 s] killed by test_legacy_block_size_warnings (test_hmac.TestVectorsTestCase)
+   - [#  17] COI hmac: [0.00738 s] killed by test_with_bytearray (test_hmac.ConstructorTestCase)
+   - [#  18] COI hmac: [0.00769 s] killed by test_normal (test_hmac.ConstructorTestCase)
+   - [#  19] COI hmac: [0.20811 s] timeout
+   - [#  20] COI hmac: [0.01609 s] survived
+   - [#  21] COI hmac: [0.20813 s] timeout
+   - [#  22] COI hmac: [0.02115 s] killed by test_md5_vectors (test_hmac.TestVectorsTestCase)
+   - [#  23] COI hmac: [0.01106 s] killed by test_md5_vectors (test_hmac.TestVectorsTestCase)
+   - [#  24] CRP hmac: [0.00822 s] killed by test_with_bytearray (test_hmac.ConstructorTestCase)
+   - [#  25] CRP hmac: [0.00000 s] incompetent
+   - [#  26] CRP hmac: [0.00799 s] killed by test_with_bytearray (test_hmac.ConstructorTestCase)
+   - [#  27] CRP hmac: [0.00000 s] incompetent
+   - [#  28] CRP hmac: [0.01024 s] survived
+   - [#  29] CRP hmac: [0.01054 s] survived
+   - [#  30] CRP hmac: [0.01013 s] survived
+   - [#  31] CRP hmac: [0.01023 s] survived
+   - [#  32] CRP hmac: [0.01065 s] survived
+   - [#  33] CRP hmac: [0.00988 s] survived
+   - [#  34] CRP hmac: [0.01051 s] killed by test_sha384_rfc4231 (test_hmac.TestVectorsTestCase)
+   - [#  35] CRP hmac: [0.01019 s] killed by test_sha384_rfc4231 (test_hmac.TestVectorsTestCase)
+   - [#  36] CRP hmac: [0.01036 s] survived
+   - [#  37] CRP hmac: [0.20814 s] timeout
+   - [#  38] CRP hmac: [0.21165 s] timeout
+   - [#  39] CRP hmac: [0.02112 s] survived
+   - [#  40] CRP hmac: [0.20815 s] timeout
+   - [#  41] CRP hmac: [0.21113 s] timeout
+   - [#  42] CRP hmac: [0.02052 s] survived
+   - [#  43] CRP hmac: [0.00809 s] killed by test_md5_vectors (test_hmac.TestVectorsTestCase)
+   - [#  44] CRP hmac: [0.00786 s] killed by test_md5_vectors (test_hmac.TestVectorsTestCase)
+   - [#  45] CRP hmac: [0.00931 s] killed by test_sha384_rfc4231 (test_hmac.TestVectorsTestCase)
+   - [#  46] CRP hmac: [0.00946 s] killed by test_sha384_rfc4231 (test_hmac.TestVectorsTestCase)
+   - [#  47] CRP hmac: [0.01005 s] survived
+   - [#  48] DDL hmac: [0.00818 s] killed by test_md5_vectors (test_hmac.TestVectorsTestCase)
+   - [#  49] EHD hmac: [0.01034 s] survived
+   - [#  50] EXS hmac: [0.01033 s] survived
+   - [#  51] LCR hmac: [0.20838 s] timeout
+   - [#  52] LOR hmac: [0.00778 s] killed by test_with_bytearray (test_hmac.ConstructorTestCase)
+   - [#  53] LOR hmac: [0.00796 s] killed by test_with_bytearray (test_hmac.ConstructorTestCase)
+   - [#  54] ROR hmac: [0.00815 s] killed by test_legacy_block_size_warnings (test_hmac.TestVectorsTestCase)
+   - [#  55] ROR hmac: [0.01069 s] survived
+   - [#  56] ROR hmac: [0.00740 s] killed by test_with_bytearray (test_hmac.ConstructorTestCase)
+   - [#  57] ROR hmac: [0.00999 s] survived
+   - [#  58] ROR hmac: [0.00834 s] killed by test_md5_vectors (test_hmac.TestVectorsTestCase)
+   - [#  59] ROR hmac: [0.01086 s] survived
+[*] Mutation score [3.74257 s]: 68.4%
+   - all: 59
+   - killed: 26 (44.1%)
+   - survived: 18 (30.5%)
+   - incompetent: 2 (3.4%)
+   - timeout: 13 (22.0%)

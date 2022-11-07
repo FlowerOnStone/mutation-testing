@@ -1,0 +1,93 @@
+[*] Start mutation process:
+   - targets: bisect.py
+   - tests: test_bisect.py
+[*] 36 tests passed:
+   - test_bisect [0.01304 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR bisect: [0.02299 s] survived
+   - [#   2] AOR bisect: [0.02567 s] survived
+   - [#   3] AOR bisect: [0.02452 s] survived
+   - [#   4] AOR bisect: [0.02281 s] survived
+   - [#   5] AOR bisect: [0.02521 s] survived
+   - [#   6] AOR bisect: [0.02462 s] survived
+   - [#   7] AOR bisect: [0.02412 s] survived
+   - [#   8] AOR bisect: [0.02483 s] survived
+   - [#   9] AOR bisect: [0.02606 s] survived
+   - [#  10] AOR bisect: [0.02355 s] survived
+   - [#  11] AOR bisect: [0.02393 s] survived
+   - [#  12] AOR bisect: [0.02352 s] survived
+   - [#  13] AOR bisect: [0.02402 s] survived
+   - [#  14] AOR bisect: [0.02221 s] survived
+   - [#  15] AOR bisect: [0.02260 s] survived
+   - [#  16] AOR bisect: [0.02374 s] survived
+   - [#  17] COI bisect: [0.02422 s] survived
+   - [#  18] COI bisect: [0.02301 s] survived
+   - [#  19] COI bisect: [0.02317 s] survived
+   - [#  20] COI bisect: [0.02237 s] survived
+   - [#  21] COI bisect: [0.02206 s] survived
+   - [#  22] COI bisect: [0.02182 s] survived
+   - [#  23] COI bisect: [0.02135 s] survived
+   - [#  24] COI bisect: [0.02160 s] survived
+   - [#  25] COI bisect: [0.02298 s] survived
+   - [#  26] COI bisect: [0.02212 s] survived
+   - [#  27] COI bisect: [0.02212 s] survived
+   - [#  28] COI bisect: [0.02256 s] survived
+   - [#  29] COI bisect: [0.02454 s] survived
+   - [#  30] COI bisect: [0.03658 s] survived
+   - [#  31] COI bisect: [0.02757 s] survived
+   - [#  32] COI bisect: [0.02555 s] survived
+   - [#  33] CRP bisect: [0.02255 s] survived
+   - [#  34] CRP bisect: [0.02282 s] survived
+   - [#  35] CRP bisect: [0.02252 s] survived
+   - [#  36] CRP bisect: [0.02275 s] survived
+   - [#  37] CRP bisect: [0.02242 s] survived
+   - [#  38] CRP bisect: [0.02270 s] survived
+   - [#  39] CRP bisect: [0.02288 s] survived
+   - [#  40] CRP bisect: [0.02305 s] survived
+   - [#  41] CRP bisect: [0.02292 s] survived
+   - [#  42] CRP bisect: [0.02231 s] survived
+   - [#  43] CRP bisect: [0.02187 s] survived
+   - [#  44] CRP bisect: [0.02298 s] survived
+   - [#  45] CRP bisect: [0.02277 s] survived
+   - [#  46] CRP bisect: [0.02244 s] survived
+   - [#  47] CRP bisect: [0.02277 s] survived
+   - [#  48] CRP bisect: [0.02245 s] survived
+   - [#  49] CRP bisect: [0.02205 s] survived
+   - [#  50] CRP bisect: [0.02239 s] survived
+   - [#  51] CRP bisect: [0.02209 s] survived
+   - [#  52] CRP bisect: [0.02313 s] survived
+   - [#  53] CRP bisect: [0.02274 s] survived
+   - [#  54] CRP bisect: [0.02228 s] survived
+   - [#  55] CRP bisect: [0.02241 s] survived
+   - [#  56] CRP bisect: [0.02203 s] survived
+   - [#  57] EHD bisect: [0.02313 s] survived
+   - [#  58] ROR bisect: [0.02290 s] survived
+   - [#  59] ROR bisect: [0.02304 s] survived
+   - [#  60] ROR bisect: [0.02247 s] survived
+   - [#  61] ROR bisect: [0.02252 s] survived
+   - [#  62] ROR bisect: [0.02243 s] survived
+   - [#  63] ROR bisect: [0.02242 s] survived
+   - [#  64] ROR bisect: [0.02187 s] survived
+   - [#  65] ROR bisect: [0.02247 s] survived
+   - [#  66] ROR bisect: [0.02204 s] survived
+   - [#  67] ROR bisect: [0.02248 s] survived
+   - [#  68] ROR bisect: [0.02224 s] survived
+   - [#  69] ROR bisect: [0.02188 s] survived
+   - [#  70] ROR bisect: [0.02234 s] survived
+   - [#  71] ROR bisect: [0.02222 s] survived
+   - [#  72] ROR bisect: [0.02288 s] survived
+   - [#  73] ROR bisect: [0.02399 s] survived
+   - [#  74] ROR bisect: [0.02247 s] survived
+   - [#  75] ROR bisect: [0.02287 s] survived
+   - [#  76] ROR bisect: [0.02249 s] survived
+   - [#  77] ROR bisect: [0.02247 s] survived
+   - [#  78] ROR bisect: [0.02232 s] survived
+   - [#  79] ROR bisect: [0.02234 s] survived
+   - [#  80] ROR bisect: [0.02225 s] survived
+   - [#  81] ROR bisect: [0.02185 s] survived
+[*] Mutation score [2.27437 s]: 0.0%
+   - all: 81
+   - killed: 0 (0.0%)
+   - survived: 81 (100.0%)
+   - incompetent: 0 (0.0%)
+   - timeout: 0 (0.0%)

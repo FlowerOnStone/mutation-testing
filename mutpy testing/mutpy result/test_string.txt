@@ -1,0 +1,208 @@
+[*] Start mutation process:
+   - targets: string.py
+   - tests: test_string.py
+[*] 36 tests passed:
+   - test_string [0.00786 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD string: [0.01135 s] survived
+   - [#   2] AOR string: [0.00000 s] incompetent
+   - [#   3] AOR string: [0.00000 s] incompetent
+   - [#   4] AOR string: [0.00000 s] incompetent
+   - [#   5] AOR string: [0.00000 s] incompetent
+   - [#   6] AOR string: [0.00000 s] incompetent
+   - [#   7] AOR string: [0.00000 s] incompetent
+   - [#   8] AOR string: [0.00000 s] incompetent
+   - [#   9] AOR string: [0.00988 s] survived
+   - [#  10] AOR string: [0.01100 s] survived
+   - [#  11] AOR string: [0.21359 s] timeout
+   - [#  12] AOR string: [0.00993 s] survived
+   - [#  13] ASR string: [0.00937 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  14] COD string: [0.00988 s] killed by test_invalid_with_no_lines (test_string.TestTemplate)
+   - [#  15] COD string: [0.21342 s] timeout
+   - [#  16] COD string: [0.01704 s] killed by test_braced_override (test_string.TestTemplate)
+   - [#  17] COD string: [0.21371 s] timeout
+   - [#  18] COD string: [0.01915 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [#  19] COD string: [0.21340 s] timeout
+   - [#  20] COI string: [0.00946 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [#  21] COI string: [0.00981 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [#  22] COI string: [0.01013 s] killed by test_invalid_with_no_lines (test_string.TestTemplate)
+   - [#  23] COI string: [0.21344 s] timeout
+   - [#  24] COI string: [0.21769 s] timeout
+   - [#  25] COI string: [0.01795 s] killed by test_braced_override (test_string.TestTemplate)
+   - [#  26] COI string: [0.01029 s] killed by test_keyword_arguments (test_string.TestTemplate)
+   - [#  27] COI string: [0.01018 s] killed by test_braced_override (test_string.TestTemplate)
+   - [#  28] COI string: [0.00957 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [#  29] COI string: [0.01053 s] killed by test_invalid_with_no_lines (test_string.TestTemplate)
+   - [#  30] COI string: [0.21345 s] timeout
+   - [#  31] COI string: [0.21849 s] timeout
+   - [#  32] COI string: [0.01727 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [#  33] COI string: [0.01055 s] killed by test_keyword_arguments_safe (test_string.TestTemplate)
+   - [#  34] COI string: [0.00987 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [#  35] COI string: [0.00979 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [#  36] COI string: [0.00997 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [#  37] COI string: [0.21404 s] timeout
+   - [#  38] COI string: [0.01347 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  39] COI string: [0.00847 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  40] COI string: [0.00909 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  41] COI string: [0.00868 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  42] COI string: [0.00890 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  43] COI string: [0.00883 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  44] COI string: [0.00871 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  45] COI string: [0.00864 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  46] COI string: [0.00878 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [#  47] COI string: [0.00861 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [#  48] COI string: [0.00891 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [#  49] COI string: [0.00837 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [#  50] COI string: [0.21338 s] timeout
+   - [#  51] CRP string: [0.01514 s] survived
+   - [#  52] CRP string: [0.00968 s] survived
+   - [#  53] CRP string: [0.00965 s] survived
+   - [#  54] CRP string: [0.00955 s] survived
+   - [#  55] CRP string: [0.00974 s] survived
+   - [#  56] CRP string: [0.00960 s] survived
+   - [#  57] CRP string: [0.00984 s] survived
+   - [#  58] CRP string: [0.00994 s] survived
+   - [#  59] CRP string: [0.00983 s] survived
+   - [#  60] CRP string: [0.00948 s] survived
+   - [#  61] CRP string: [0.00986 s] survived
+   - [#  62] CRP string: [0.00941 s] survived
+   - [#  63] CRP string: [0.00983 s] survived
+   - [#  64] CRP string: [0.00913 s] survived
+   - [#  65] CRP string: [0.00939 s] survived
+   - [#  66] CRP string: [0.00952 s] survived
+   - [#  67] CRP string: [0.00981 s] survived
+   - [#  68] CRP string: [0.00929 s] survived
+   - [#  69] CRP string: [0.00962 s] survived
+   - [#  70] CRP string: [0.00948 s] survived
+   - [#  71] CRP string: [0.00988 s] survived
+   - [#  72] CRP string: [0.00986 s] survived
+   - [#  73] CRP string: [0.00953 s] survived
+   - [#  74] CRP string: [0.00927 s] survived
+   - [#  75] CRP string: [0.00839 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  76] CRP string: [0.00790 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  77] CRP string: [0.00846 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  78] CRP string: [0.00815 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  79] CRP string: [0.00855 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  80] CRP string: [0.00793 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  81] CRP string: [0.00904 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  82] CRP string: [0.00819 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  83] CRP string: [0.00856 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  84] CRP string: [0.00855 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  85] CRP string: [0.00863 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  86] CRP string: [0.00813 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  87] CRP string: [0.00819 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  88] CRP string: [0.00808 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  89] CRP string: [0.00825 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  90] CRP string: [0.00835 s] killed by test_attrs (test_string.ModuleTest)
+   - [#  91] CRP string: [0.00856 s] killed by test_capwords (test_string.ModuleTest)
+   - [#  92] CRP string: [0.00847 s] killed by test_capwords (test_string.ModuleTest)
+   - [#  93] CRP string: [0.00915 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [#  94] CRP string: [0.00904 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [#  95] CRP string: [0.00974 s] killed by test_braced_override (test_string.TestTemplate)
+   - [#  96] CRP string: [0.00979 s] killed by test_braced_override (test_string.TestTemplate)
+   - [#  97] CRP string: [0.00000 s] incompetent
+   - [#  98] CRP string: [0.00000 s] incompetent
+   - [#  99] CRP string: [0.00000 s] incompetent
+   - [# 100] CRP string: [0.00000 s] incompetent
+   - [# 101] CRP string: [0.00000 s] incompetent
+   - [# 102] CRP string: [0.00000 s] incompetent
+   - [# 103] CRP string: [0.00971 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 104] CRP string: [0.00943 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 105] CRP string: [0.00956 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 106] CRP string: [0.00891 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 107] CRP string: [0.00994 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 108] CRP string: [0.01006 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 109] CRP string: [0.00974 s] killed by test_invalid_with_no_lines (test_string.TestTemplate)
+   - [# 110] CRP string: [0.00968 s] killed by test_invalid_with_no_lines (test_string.TestTemplate)
+   - [# 111] CRP string: [0.01055 s] survived
+   - [# 112] CRP string: [0.01006 s] survived
+   - [# 113] CRP string: [0.21363 s] timeout
+   - [# 114] CRP string: [0.22060 s] timeout
+   - [# 115] CRP string: [0.02698 s] survived
+   - [# 116] CRP string: [0.01751 s] survived
+   - [# 117] CRP string: [0.01299 s] killed by test_keyword_arguments_safe (test_string.TestTemplate)
+   - [# 118] CRP string: [0.01063 s] survived
+   - [# 119] CRP string: [0.00926 s] survived
+   - [# 120] CRP string: [0.00969 s] killed by test_keyword_arguments (test_string.TestTemplate)
+   - [# 121] CRP string: [0.00868 s] killed by test_braced_override (test_string.TestTemplate)
+   - [# 122] CRP string: [0.00963 s] killed by test_braced_override (test_string.TestTemplate)
+   - [# 123] CRP string: [0.00911 s] killed by test_braced_override (test_string.TestTemplate)
+   - [# 124] CRP string: [0.00951 s] killed by test_braced_override (test_string.TestTemplate)
+   - [# 125] CRP string: [0.00927 s] killed by test_braced_override (test_string.TestTemplate)
+   - [# 126] CRP string: [0.00949 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 127] CRP string: [0.00891 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 128] CRP string: [0.00946 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 129] CRP string: [0.00928 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 130] CRP string: [0.01021 s] survived
+   - [# 131] CRP string: [0.00941 s] survived
+   - [# 132] CRP string: [0.00959 s] survived
+   - [# 133] CRP string: [0.00876 s] survived
+   - [# 134] CRP string: [0.01018 s] killed by test_keyword_arguments_safe (test_string.TestTemplate)
+   - [# 135] CRP string: [0.00931 s] survived
+   - [# 136] CRP string: [0.00965 s] survived
+   - [# 137] CRP string: [0.00948 s] killed by test_keyword_arguments_safe (test_string.TestTemplate)
+   - [# 138] CRP string: [0.00878 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 139] CRP string: [0.00924 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 140] CRP string: [0.00960 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 141] CRP string: [0.00879 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 142] CRP string: [0.00953 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 143] CRP string: [0.00988 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 144] CRP string: [0.00970 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 145] CRP string: [0.01006 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 146] CRP string: [0.00972 s] killed by test_delimiter_override (test_string.TestTemplate)
+   - [# 147] CRP string: [0.01045 s] survived
+   - [# 148] CRP string: [0.00948 s] survived
+   - [# 149] CRP string: [0.01026 s] survived
+   - [# 150] CRP string: [0.00931 s] survived
+   - [# 151] CRP string: [0.00896 s] killed by test_format_keyword_arguments (test_string.ModuleTest)
+   - [# 152] CRP string: [0.00940 s] killed by test_format_keyword_arguments (test_string.ModuleTest)
+   - [# 153] CRP string: [0.00971 s] survived
+   - [# 154] CRP string: [0.00911 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 155] CRP string: [0.00860 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 156] CRP string: [0.00941 s] killed by test_vformat_recursion_limit (test_string.ModuleTest)
+   - [# 157] CRP string: [0.00900 s] killed by test_vformat_recursion_limit (test_string.ModuleTest)
+   - [# 158] CRP string: [0.00898 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 159] CRP string: [0.00958 s] survived
+   - [# 160] CRP string: [0.00982 s] survived
+   - [# 161] CRP string: [0.00852 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 162] CRP string: [0.00989 s] survived
+   - [# 163] CRP string: [0.00973 s] survived
+   - [# 164] CRP string: [0.00927 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 165] CRP string: [0.00842 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 166] CRP string: [0.00938 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 167] CRP string: [0.00899 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 168] CRP string: [0.00918 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 169] CRP string: [0.00857 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 170] CRP string: [0.00933 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 171] CRP string: [0.00867 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 172] CRP string: [0.00995 s] survived
+   - [# 173] CRP string: [0.00942 s] survived
+   - [# 174] EHD string: [0.00994 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 175] EXS string: [0.00960 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 176] EXS string: [0.00909 s] killed by test_basic_formatter (test_string.ModuleTest)
+   - [# 177] IOD string: [0.00934 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 178] IOP string: [0.00989 s] survived
+   - [# 179] LCR string: [0.00871 s] killed by test_capwords (test_string.ModuleTest)
+   - [# 180] LCR string: [0.00920 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 181] LCR string: [0.00941 s] killed by test_braced_override (test_string.TestTemplate)
+   - [# 182] LCR string: [0.00926 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 183] LOR string: [0.00932 s] killed by test_SafeTemplate (test_string.TestTemplate)
+   - [# 184] ROR string: [0.21334 s] timeout
+   - [# 185] ROR string: [0.21843 s] timeout
+   - [# 186] ROR string: [0.21628 s] timeout
+   - [# 187] ROR string: [0.21864 s] timeout
+   - [# 188] ROR string: [0.01841 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 189] ROR string: [0.01150 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 190] ROR string: [0.01074 s] killed by test_auto_numbering (test_string.ModuleTest)
+   - [# 191] ROR string: [0.00930 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 192] ROR string: [0.00861 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 193] ROR string: [0.00884 s] killed by test_conversion_specifiers (test_string.ModuleTest)
+   - [# 194] SCD string: [0.00959 s] survived
+   - [# 195] SIR string: [0.00952 s] survived
+   - [# 196] SIR string: [0.00971 s] survived
+[*] Mutation score [6.26645 s]: 69.9%
+   - all: 196
+   - killed: 112 (57.1%)
+   - survived: 55 (28.1%)
+   - incompetent: 13 (6.6%)
+   - timeout: 16 (8.2%)

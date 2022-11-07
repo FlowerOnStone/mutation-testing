@@ -1,0 +1,164 @@
+[*] Start mutation process:
+   - targets: imghdr.py
+   - tests: test_imghdr.py
+[*] 11 tests passed:
+   - test_imghdr [0.00522 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR imghdr: [0.01111 s] survived
+   - [#   2] AOR imghdr: [0.01034 s] survived
+   - [#   3] COI imghdr: [0.21040 s] timeout
+   - [#   4] COI imghdr: [0.21375 s] timeout
+   - [#   5] COI imghdr: [0.01607 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#   6] COI imghdr: [0.00775 s] killed by test_bad_args (test_imghdr.TestImghdr)
+   - [#   7] COI imghdr: [0.00722 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#   8] COI imghdr: [0.00772 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#   9] COI imghdr: [0.00708 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  10] COI imghdr: [0.00742 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  11] COI imghdr: [0.00722 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  12] COI imghdr: [0.00771 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  13] COI imghdr: [0.00722 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  14] COI imghdr: [0.00726 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  15] COI imghdr: [0.00801 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  16] COI imghdr: [0.00781 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  17] COI imghdr: [0.00814 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  18] COI imghdr: [0.00768 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  19] COI imghdr: [0.00813 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  20] COI imghdr: [0.00746 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  21] COI imghdr: [0.00761 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  22] COI imghdr: [0.00713 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  23] COI imghdr: [0.00784 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  24] COI imghdr: [0.00778 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  25] COI imghdr: [0.00767 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  26] COI imghdr: [0.00753 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  27] COI imghdr: [0.00768 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  28] COI imghdr: [0.00809 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  29] COI imghdr: [0.00949 s] survived
+   - [#  30] COI imghdr: [0.00981 s] survived
+   - [#  31] COI imghdr: [0.01004 s] survived
+   - [#  32] COI imghdr: [0.00988 s] survived
+   - [#  33] COI imghdr: [0.01008 s] survived
+   - [#  34] CRP imghdr: [0.00981 s] survived
+   - [#  35] CRP imghdr: [0.01005 s] survived
+   - [#  36] CRP imghdr: [0.00703 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  37] CRP imghdr: [0.00725 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  38] CRP imghdr: [0.00962 s] survived
+   - [#  39] CRP imghdr: [0.00988 s] survived
+   - [#  40] CRP imghdr: [0.00767 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  41] CRP imghdr: [0.00832 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  42] CRP imghdr: [0.00804 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  43] CRP imghdr: [0.00738 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  44] CRP imghdr: [0.00730 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  45] CRP imghdr: [0.00686 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  46] CRP imghdr: [0.00759 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  47] CRP imghdr: [0.00732 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  48] CRP imghdr: [0.00712 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  49] CRP imghdr: [0.00797 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  50] CRP imghdr: [0.00767 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  51] CRP imghdr: [0.00804 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  52] CRP imghdr: [0.00789 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  53] CRP imghdr: [0.00788 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  54] CRP imghdr: [0.00977 s] survived
+   - [#  55] CRP imghdr: [0.00752 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  56] CRP imghdr: [0.00754 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  57] CRP imghdr: [0.00731 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  58] CRP imghdr: [0.00822 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  59] CRP imghdr: [0.00739 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  60] CRP imghdr: [0.00979 s] survived
+   - [#  61] CRP imghdr: [0.00759 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  62] CRP imghdr: [0.00784 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  63] CRP imghdr: [0.00750 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  64] CRP imghdr: [0.00821 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  65] CRP imghdr: [0.00829 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  66] CRP imghdr: [0.01007 s] survived
+   - [#  67] CRP imghdr: [0.00772 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  68] CRP imghdr: [0.00743 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  69] CRP imghdr: [0.00788 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  70] CRP imghdr: [0.00738 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  71] CRP imghdr: [0.00723 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  72] CRP imghdr: [0.00797 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  73] CRP imghdr: [0.00804 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  74] CRP imghdr: [0.00819 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  75] CRP imghdr: [0.00785 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  76] CRP imghdr: [0.00858 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  77] CRP imghdr: [0.00771 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  78] CRP imghdr: [0.00898 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  79] CRP imghdr: [0.00819 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  80] CRP imghdr: [0.00877 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  81] CRP imghdr: [0.00815 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  82] CRP imghdr: [0.00775 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  83] CRP imghdr: [0.00793 s] killed by test_data (test_imghdr.TestImghdr)
+   - [#  84] CRP imghdr: [0.00945 s] survived
+   - [#  85] CRP imghdr: [0.00986 s] survived
+   - [#  86] CRP imghdr: [0.00944 s] survived
+   - [#  87] CRP imghdr: [0.00927 s] survived
+   - [#  88] CRP imghdr: [0.00925 s] survived
+   - [#  89] CRP imghdr: [0.00953 s] survived
+   - [#  90] CRP imghdr: [0.00920 s] survived
+   - [#  91] CRP imghdr: [0.01003 s] survived
+   - [#  92] CRP imghdr: [0.01112 s] survived
+   - [#  93] CRP imghdr: [0.00973 s] survived
+   - [#  94] CRP imghdr: [0.01032 s] survived
+   - [#  95] CRP imghdr: [0.01017 s] survived
+   - [#  96] CRP imghdr: [0.01058 s] survived
+   - [#  97] CRP imghdr: [0.01101 s] survived
+   - [#  98] CRP imghdr: [0.01006 s] survived
+   - [#  99] CRP imghdr: [0.01032 s] survived
+   - [# 100] CRP imghdr: [0.01081 s] survived
+   - [# 101] CRP imghdr: [0.00965 s] survived
+   - [# 102] CRP imghdr: [0.00910 s] survived
+   - [# 103] CRP imghdr: [0.00968 s] survived
+   - [# 104] CRP imghdr: [0.00926 s] survived
+   - [# 105] CRP imghdr: [0.00959 s] survived
+   - [# 106] CRP imghdr: [0.00928 s] survived
+   - [# 107] CRP imghdr: [0.01002 s] survived
+   - [# 108] CRP imghdr: [0.00997 s] survived
+   - [# 109] CRP imghdr: [0.00990 s] survived
+   - [# 110] CRP imghdr: [0.00920 s] survived
+   - [# 111] CRP imghdr: [0.00975 s] survived
+   - [# 112] CRP imghdr: [0.00949 s] survived
+   - [# 113] CRP imghdr: [0.00968 s] survived
+   - [# 114] CRP imghdr: [0.00968 s] survived
+   - [# 115] CRP imghdr: [0.01013 s] survived
+   - [# 116] CRP imghdr: [0.00929 s] survived
+   - [# 117] CRP imghdr: [0.00963 s] survived
+   - [# 118] CRP imghdr: [0.00935 s] survived
+   - [# 119] CRP imghdr: [0.00972 s] survived
+   - [# 120] EHD imghdr: [0.00965 s] survived
+   - [# 121] EHD imghdr: [0.00932 s] survived
+   - [# 122] EXS imghdr: [0.00959 s] survived
+   - [# 123] EXS imghdr: [0.00994 s] survived
+   - [# 124] LCR imghdr: [0.00783 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 125] LCR imghdr: [0.00724 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 126] LCR imghdr: [0.00698 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 127] LCR imghdr: [0.00959 s] survived
+   - [# 128] LCR imghdr: [0.00965 s] survived
+   - [# 129] LCR imghdr: [0.00932 s] survived
+   - [# 130] ROR imghdr: [0.00777 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 131] ROR imghdr: [0.00998 s] survived
+   - [# 132] ROR imghdr: [0.00743 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 133] ROR imghdr: [0.00725 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 134] ROR imghdr: [0.00940 s] survived
+   - [# 135] ROR imghdr: [0.00729 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 136] ROR imghdr: [0.00714 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 137] ROR imghdr: [0.00913 s] survived
+   - [# 138] ROR imghdr: [0.00746 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 139] ROR imghdr: [0.00804 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 140] ROR imghdr: [0.01010 s] survived
+   - [# 141] ROR imghdr: [0.00971 s] survived
+   - [# 142] SIR imghdr: [0.00770 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 143] SIR imghdr: [0.00729 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 144] SIR imghdr: [0.00732 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 145] SIR imghdr: [0.00736 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 146] SIR imghdr: [0.00768 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 147] SIR imghdr: [0.00733 s] killed by test_data (test_imghdr.TestImghdr)
+   - [# 148] SIR imghdr: [0.00969 s] survived
+   - [# 149] SIR imghdr: [0.00984 s] survived
+   - [# 150] SIR imghdr: [0.00994 s] survived
+   - [# 151] SIR imghdr: [0.00929 s] survived
+   - [# 152] SIR imghdr: [0.00968 s] survived
+[*] Mutation score [2.41492 s]: 55.9%
+   - all: 152
+   - killed: 83 (54.6%)
+   - survived: 67 (44.1%)
+   - incompetent: 0 (0.0%)
+   - timeout: 2 (1.3%)

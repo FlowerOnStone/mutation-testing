@@ -1,0 +1,560 @@
+[*] Start mutation process:
+   - targets: pprint.py
+   - tests: test_pprint.py
+[*] 29 tests passed:
+   - test_pprint [0.03686 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD pprint: [0.02740 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [#   2] AOR pprint: [0.01426 s] killed by test_compact_width (test_pprint.QueryTestCase)
+   - [#   3] AOR pprint: [0.01364 s] killed by test_compact_width (test_pprint.QueryTestCase)
+   - [#   4] AOR pprint: [0.01088 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [#   5] AOR pprint: [0.04385 s] survived
+   - [#   6] AOR pprint: [0.02084 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [#   7] AOR pprint: [0.24510 s] timeout
+   - [#   8] AOR pprint: [0.24484 s] timeout
+   - [#   9] AOR pprint: [0.24541 s] timeout
+   - [#  10] AOR pprint: [0.06935 s] killed by test_width (test_pprint.QueryTestCase)
+   - [#  11] AOR pprint: [0.24558 s] timeout
+   - [#  12] AOR pprint: [0.02747 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [#  13] AOR pprint: [0.01939 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [#  14] AOR pprint: [0.04513 s] survived
+   - [#  15] AOR pprint: [0.01324 s] killed by test_compact_width (test_pprint.QueryTestCase)
+   - [#  16] AOR pprint: [0.04284 s] killed by test_width (test_pprint.QueryTestCase)
+   - [#  17] AOR pprint: [0.24520 s] timeout
+   - [#  18] AOR pprint: [0.04813 s] killed by test_set_reprs (test_pprint.QueryTestCase)
+   - [#  19] AOR pprint: [0.04747 s] survived
+   - [#  20] AOR pprint: [0.02673 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [#  21] AOR pprint: [0.04319 s] killed by test_width (test_pprint.QueryTestCase)
+   - [#  22] AOR pprint: [0.02659 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [#  23] AOR pprint: [0.24519 s] timeout
+   - [#  24] AOR pprint: [0.03171 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [#  25] AOR pprint: [0.02715 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [#  26] AOR pprint: [0.24491 s] timeout
+   - [#  27] AOR pprint: [0.24488 s] timeout
+   - [#  28] AOR pprint: [0.24519 s] timeout
+   - [#  29] AOR pprint: [0.24637 s] timeout
+   - [#  30] AOR pprint: [0.01517 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [#  31] AOR pprint: [0.24568 s] timeout
+   - [#  32] AOR pprint: [0.24534 s] timeout
+   - [#  33] AOR pprint: [0.24797 s] timeout
+   - [#  34] AOR pprint: [0.24513 s] timeout
+   - [#  35] AOR pprint: [0.01037 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [#  36] AOR pprint: [0.00953 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [#  37] AOR pprint: [0.01229 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [#  38] AOR pprint: [0.02591 s] killed by test_mapping_proxy (test_pprint.QueryTestCase)
+   - [#  39] AOR pprint: [0.04544 s] survived
+   - [#  40] AOR pprint: [0.24493 s] timeout
+   - [#  41] AOR pprint: [0.24496 s] timeout
+   - [#  42] AOR pprint: [0.24710 s] timeout
+   - [#  43] AOR pprint: [0.24525 s] timeout
+   - [#  44] AOR pprint: [0.00927 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [#  45] AOR pprint: [0.01058 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [#  46] AOR pprint: [0.01037 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [#  47] AOR pprint: [0.00994 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [#  48] AOR pprint: [0.24525 s] timeout
+   - [#  49] AOR pprint: [0.24523 s] timeout
+   - [#  50] AOR pprint: [0.24586 s] timeout
+   - [#  51] AOR pprint: [0.24539 s] timeout
+   - [#  52] AOR pprint: [0.24984 s] timeout
+   - [#  53] AOR pprint: [0.24486 s] timeout
+   - [#  54] AOR pprint: [0.24510 s] timeout
+   - [#  55] AOR pprint: [0.01395 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [#  56] AOR pprint: [0.01361 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [#  57] AOR pprint: [0.01496 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [#  58] AOR pprint: [0.02032 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [#  59] AOR pprint: [0.24500 s] timeout
+   - [#  60] AOR pprint: [0.24506 s] timeout
+   - [#  61] AOR pprint: [0.24522 s] timeout
+   - [#  62] AOR pprint: [0.24729 s] timeout
+   - [#  63] AOR pprint: [0.04549 s] survived
+   - [#  64] AOR pprint: [0.24543 s] timeout
+   - [#  65] AOR pprint: [0.05604 s] survived
+   - [#  66] AOR pprint: [0.04436 s] survived
+   - [#  67] AOR pprint: [0.04345 s] survived
+   - [#  68] AOR pprint: [0.04378 s] survived
+   - [#  69] AOR pprint: [0.01872 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [#  70] AOR pprint: [0.01916 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [#  71] AOR pprint: [0.04369 s] survived
+   - [#  72] AOR pprint: [0.24535 s] timeout
+   - [#  73] AOR pprint: [0.01472 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [#  74] AOR pprint: [0.01324 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [#  75] AOR pprint: [0.04544 s] survived
+   - [#  76] AOR pprint: [0.24508 s] timeout
+   - [#  77] AOR pprint: [0.24503 s] timeout
+   - [#  78] AOR pprint: [0.24598 s] timeout
+   - [#  79] AOR pprint: [0.24538 s] timeout
+   - [#  80] AOR pprint: [0.24524 s] timeout
+   - [#  81] AOR pprint: [0.02065 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [#  82] AOR pprint: [0.04562 s] survived
+   - [#  83] AOR pprint: [0.24495 s] timeout
+   - [#  84] AOR pprint: [0.24538 s] timeout
+   - [#  85] AOR pprint: [0.24559 s] timeout
+   - [#  86] AOR pprint: [0.24507 s] timeout
+   - [#  87] AOR pprint: [0.04540 s] survived
+   - [#  88] AOR pprint: [0.04366 s] survived
+   - [#  89] AOR pprint: [0.04318 s] killed by test_user_string (test_pprint.QueryTestCase)
+   - [#  90] AOR pprint: [0.24482 s] timeout
+   - [#  91] AOR pprint: [0.24550 s] timeout
+   - [#  92] AOR pprint: [0.24533 s] timeout
+   - [#  93] AOR pprint: [0.24566 s] timeout
+   - [#  94] AOR pprint: [0.25038 s] timeout
+   - [#  95] AOR pprint: [0.06757 s] survived
+   - [#  96] AOR pprint: [0.04310 s] survived
+   - [#  97] AOR pprint: [0.04292 s] survived
+   - [#  98] AOR pprint: [0.04322 s] survived
+   - [#  99] AOR pprint: [0.04285 s] survived
+   - [# 100] AOR pprint: [0.01010 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 101] AOR pprint: [0.01004 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 102] AOR pprint: [0.00984 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 103] AOR pprint: [0.00937 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 104] AOR pprint: [0.00957 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 105] AOR pprint: [0.00966 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 106] AOR pprint: [0.24482 s] timeout
+   - [# 107] ASR pprint: [0.03146 s] killed by test_set_reprs (test_pprint.QueryTestCase)
+   - [# 108] ASR pprint: [0.02894 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 109] ASR pprint: [0.04320 s] survived
+   - [# 110] ASR pprint: [0.04306 s] killed by test_width (test_pprint.QueryTestCase)
+   - [# 111] ASR pprint: [0.02583 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 112] ASR pprint: [0.00983 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 113] ASR pprint: [0.00959 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 114] ASR pprint: [0.00898 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 115] ASR pprint: [0.21059 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 116] ASR pprint: [0.01362 s] killed by test_compact_width (test_pprint.QueryTestCase)
+   - [# 117] ASR pprint: [0.01359 s] killed by test_compact_width (test_pprint.QueryTestCase)
+   - [# 118] ASR pprint: [0.01622 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 119] ASR pprint: [0.01865 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 120] ASR pprint: [0.01328 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 121] ASR pprint: [0.01936 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 122] ASR pprint: [0.01868 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 123] ASR pprint: [0.01882 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 124] ASR pprint: [0.00963 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 125] BCR pprint: [0.01310 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 126] COD pprint: [0.00781 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 127] COD pprint: [0.00723 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 128] COD pprint: [0.01277 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 129] COD pprint: [0.02018 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 130] COD pprint: [0.02005 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 131] COD pprint: [0.02095 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 132] COD pprint: [0.00969 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 133] COD pprint: [0.00851 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 134] COD pprint: [0.00889 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 135] COD pprint: [0.04293 s] survived
+   - [# 136] COD pprint: [0.01832 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 137] COD pprint: [0.01899 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 138] COD pprint: [0.01398 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 139] COD pprint: [0.01898 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 140] COD pprint: [0.00914 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 141] COD pprint: [0.00864 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 142] COD pprint: [0.00893 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 143] COD pprint: [0.00761 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 144] COD pprint: [0.00752 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 145] COI pprint: [0.00757 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 146] COI pprint: [0.00755 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 147] COI pprint: [0.00782 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 148] COI pprint: [0.04329 s] survived
+   - [# 149] COI pprint: [0.00839 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 150] COI pprint: [0.00855 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 151] COI pprint: [0.00914 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 152] COI pprint: [0.00882 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 153] COI pprint: [0.24619 s] timeout
+   - [# 154] COI pprint: [0.03857 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [# 155] COI pprint: [0.01062 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 156] COI pprint: [0.01435 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 157] COI pprint: [0.02102 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 158] COI pprint: [0.02119 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 159] COI pprint: [0.02009 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 160] COI pprint: [0.02584 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 161] COI pprint: [0.04376 s] killed by test_width (test_pprint.QueryTestCase)
+   - [# 162] COI pprint: [0.02568 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 163] COI pprint: [0.02635 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 164] COI pprint: [0.02595 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 165] COI pprint: [0.02064 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 166] COI pprint: [0.02047 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 167] COI pprint: [0.02049 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 168] COI pprint: [0.02585 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 169] COI pprint: [0.02572 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 170] COI pprint: [0.02637 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 171] COI pprint: [0.00998 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 172] COI pprint: [0.00950 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 173] COI pprint: [0.00999 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 174] COI pprint: [0.00973 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 175] COI pprint: [0.00837 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 176] COI pprint: [0.00953 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 177] COI pprint: [0.00895 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 178] COI pprint: [0.00935 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 179] COI pprint: [0.01402 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 180] COI pprint: [0.01404 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 181] COI pprint: [0.01389 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 182] COI pprint: [0.04356 s] survived
+   - [# 183] COI pprint: [0.04322 s] survived
+   - [# 184] COI pprint: [0.02016 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 185] COI pprint: [0.01849 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 186] COI pprint: [0.04276 s] survived
+   - [# 187] COI pprint: [0.01285 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 188] COI pprint: [0.01282 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 189] COI pprint: [0.01868 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 190] COI pprint: [0.01830 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 191] COI pprint: [0.01415 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 192] COI pprint: [0.01363 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 193] COI pprint: [0.00749 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 194] COI pprint: [0.00820 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 195] COI pprint: [0.00767 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 196] COI pprint: [0.04385 s] survived
+   - [# 197] COI pprint: [0.00768 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 198] COI pprint: [0.00732 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 199] COI pprint: [0.00738 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 200] COI pprint: [0.24540 s] timeout
+   - [# 201] COI pprint: [0.03047 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 202] COI pprint: [0.01090 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 203] COI pprint: [0.01667 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 204] COI pprint: [0.00917 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 205] COI pprint: [0.00830 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 206] COI pprint: [0.04431 s] survived
+   - [# 207] COI pprint: [0.00715 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 208] COI pprint: [0.00740 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 209] COI pprint: [0.00762 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 210] COI pprint: [0.00705 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 211] COI pprint: [0.04338 s] survived
+   - [# 212] COI pprint: [0.00987 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 213] COI pprint: [0.00968 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 214] COI pprint: [0.00951 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 215] COI pprint: [0.00987 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 216] COI pprint: [0.04335 s] survived
+   - [# 217] CRP pprint: [0.04276 s] survived
+   - [# 218] CRP pprint: [0.04263 s] survived
+   - [# 219] CRP pprint: [0.04273 s] survived
+   - [# 220] CRP pprint: [0.04257 s] survived
+   - [# 221] CRP pprint: [0.04276 s] survived
+   - [# 222] CRP pprint: [0.04241 s] survived
+   - [# 223] CRP pprint: [0.04319 s] survived
+   - [# 224] CRP pprint: [0.04285 s] survived
+   - [# 225] CRP pprint: [0.04284 s] survived
+   - [# 226] CRP pprint: [0.04309 s] survived
+   - [# 227] CRP pprint: [0.04250 s] survived
+   - [# 228] CRP pprint: [0.04230 s] survived
+   - [# 229] CRP pprint: [0.04238 s] survived
+   - [# 230] CRP pprint: [0.04376 s] survived
+   - [# 231] CRP pprint: [0.00903 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 232] CRP pprint: [0.04272 s] survived
+   - [# 233] CRP pprint: [0.04244 s] survived
+   - [# 234] CRP pprint: [0.01959 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 235] CRP pprint: [0.04229 s] survived
+   - [# 236] CRP pprint: [0.00663 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 237] CRP pprint: [0.04251 s] survived
+   - [# 238] CRP pprint: [0.00713 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 239] CRP pprint: [0.00714 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 240] CRP pprint: [0.00000 s] incompetent
+   - [# 241] CRP pprint: [0.00828 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 242] CRP pprint: [0.00694 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 243] CRP pprint: [0.04267 s] survived
+   - [# 244] CRP pprint: [0.04261 s] survived
+   - [# 245] CRP pprint: [0.01973 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 246] CRP pprint: [0.04288 s] survived
+   - [# 247] CRP pprint: [0.04284 s] survived
+   - [# 248] CRP pprint: [0.01803 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 249] CRP pprint: [0.04235 s] survived
+   - [# 250] CRP pprint: [0.04299 s] survived
+   - [# 251] CRP pprint: [0.04304 s] survived
+   - [# 252] CRP pprint: [0.04302 s] survived
+   - [# 253] CRP pprint: [0.04279 s] survived
+   - [# 254] CRP pprint: [0.04245 s] survived
+   - [# 255] CRP pprint: [0.04260 s] survived
+   - [# 256] CRP pprint: [0.04292 s] survived
+   - [# 257] CRP pprint: [0.04288 s] survived
+   - [# 258] CRP pprint: [0.00904 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 259] CRP pprint: [0.00927 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 260] CRP pprint: [0.01027 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 261] CRP pprint: [0.01863 s] killed by test_knotted (test_pprint.QueryTestCase)
+   - [# 262] CRP pprint: [0.04304 s] survived
+   - [# 263] CRP pprint: [0.00669 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 264] CRP pprint: [0.00790 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 265] CRP pprint: [0.04238 s] survived
+   - [# 266] CRP pprint: [0.04232 s] survived
+   - [# 267] CRP pprint: [0.00953 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 268] CRP pprint: [0.04224 s] survived
+   - [# 269] CRP pprint: [0.04253 s] survived
+   - [# 270] CRP pprint: [0.00783 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 271] CRP pprint: [0.00823 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 272] CRP pprint: [0.04236 s] survived
+   - [# 273] CRP pprint: [0.01999 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [# 274] CRP pprint: [0.02037 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [# 275] CRP pprint: [0.01942 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [# 276] CRP pprint: [0.04260 s] killed by test_width (test_pprint.QueryTestCase)
+   - [# 277] CRP pprint: [0.00794 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 278] CRP pprint: [0.00815 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 279] CRP pprint: [0.01246 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 280] CRP pprint: [0.01248 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 281] CRP pprint: [0.01342 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 282] CRP pprint: [0.04233 s] survived
+   - [# 283] CRP pprint: [0.01291 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 284] CRP pprint: [0.01268 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 285] CRP pprint: [0.00899 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 286] CRP pprint: [0.00930 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 287] CRP pprint: [0.00919 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 288] CRP pprint: [0.00861 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 289] CRP pprint: [0.00817 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 290] CRP pprint: [0.00863 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 291] CRP pprint: [0.00856 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 292] CRP pprint: [0.02022 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 293] CRP pprint: [0.02071 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 294] CRP pprint: [0.02017 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 295] CRP pprint: [0.00882 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 296] CRP pprint: [0.00962 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 297] CRP pprint: [0.02069 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 298] CRP pprint: [0.02035 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 299] CRP pprint: [0.02037 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 300] CRP pprint: [0.02067 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 301] CRP pprint: [0.02073 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 302] CRP pprint: [0.02023 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 303] CRP pprint: [0.02067 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 304] CRP pprint: [0.02044 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 305] CRP pprint: [0.02738 s] killed by test_set_reprs (test_pprint.QueryTestCase)
+   - [# 306] CRP pprint: [0.02610 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 307] CRP pprint: [0.02565 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 308] CRP pprint: [0.04247 s] survived
+   - [# 309] CRP pprint: [0.04299 s] killed by test_width (test_pprint.QueryTestCase)
+   - [# 310] CRP pprint: [0.02024 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 311] CRP pprint: [0.02020 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 312] CRP pprint: [0.02039 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 313] CRP pprint: [0.02011 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 314] CRP pprint: [0.04242 s] survived
+   - [# 315] CRP pprint: [0.02622 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 316] CRP pprint: [0.02012 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 317] CRP pprint: [0.02604 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 318] CRP pprint: [0.02544 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 319] CRP pprint: [0.02574 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 320] CRP pprint: [0.02548 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 321] CRP pprint: [0.02556 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 322] CRP pprint: [0.02556 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 323] CRP pprint: [0.02549 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 324] CRP pprint: [0.02657 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 325] CRP pprint: [0.02541 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 326] CRP pprint: [0.02537 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 327] CRP pprint: [0.02582 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 328] CRP pprint: [0.04240 s] survived
+   - [# 329] CRP pprint: [0.00927 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 330] CRP pprint: [0.00955 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 331] CRP pprint: [0.00916 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 332] CRP pprint: [0.00963 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 333] CRP pprint: [0.00914 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 334] CRP pprint: [0.00962 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 335] CRP pprint: [0.00957 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 336] CRP pprint: [0.00909 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 337] CRP pprint: [0.00939 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 338] CRP pprint: [0.00903 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 339] CRP pprint: [0.00977 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 340] CRP pprint: [0.00967 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 341] CRP pprint: [0.00965 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 342] CRP pprint: [0.00934 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 343] CRP pprint: [0.00941 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 344] CRP pprint: [0.00934 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 345] CRP pprint: [0.04266 s] survived
+   - [# 346] CRP pprint: [0.00955 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 347] CRP pprint: [0.00917 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 348] CRP pprint: [0.01954 s] killed by test_mapping_proxy (test_pprint.QueryTestCase)
+   - [# 349] CRP pprint: [0.01959 s] killed by test_mapping_proxy (test_pprint.QueryTestCase)
+   - [# 350] CRP pprint: [0.02046 s] killed by test_mapping_proxy (test_pprint.QueryTestCase)
+   - [# 351] CRP pprint: [0.04272 s] survived
+   - [# 352] CRP pprint: [0.01951 s] killed by test_mapping_proxy (test_pprint.QueryTestCase)
+   - [# 353] CRP pprint: [0.01963 s] killed by test_mapping_proxy (test_pprint.QueryTestCase)
+   - [# 354] CRP pprint: [0.00859 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 355] CRP pprint: [0.00885 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 356] CRP pprint: [0.00867 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 357] CRP pprint: [0.00912 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 358] CRP pprint: [0.00809 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 359] CRP pprint: [0.00943 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 360] CRP pprint: [0.00985 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 361] CRP pprint: [0.00970 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 362] CRP pprint: [0.01005 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 363] CRP pprint: [0.04308 s] survived
+   - [# 364] CRP pprint: [0.00933 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 365] CRP pprint: [0.00921 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 366] CRP pprint: [0.00919 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 367] CRP pprint: [0.00864 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 368] CRP pprint: [0.00916 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 369] CRP pprint: [0.01821 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 370] CRP pprint: [0.20979 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 371] CRP pprint: [0.00831 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 372] CRP pprint: [0.01450 s] killed by test_compact_width (test_pprint.QueryTestCase)
+   - [# 373] CRP pprint: [0.01351 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 374] CRP pprint: [0.01281 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 375] CRP pprint: [0.01328 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 376] CRP pprint: [0.04271 s] killed by test_width (test_pprint.QueryTestCase)
+   - [# 377] CRP pprint: [0.01912 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 378] CRP pprint: [0.24597 s] timeout
+   - [# 379] CRP pprint: [0.24837 s] timeout
+   - [# 380] CRP pprint: [0.03636 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 381] CRP pprint: [0.02393 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 382] CRP pprint: [0.04433 s] survived
+   - [# 383] CRP pprint: [0.01883 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 384] CRP pprint: [0.01936 s] killed by test_default_dict (test_pprint.QueryTestCase)
+   - [# 385] CRP pprint: [0.01826 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 386] CRP pprint: [0.01824 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 387] CRP pprint: [0.04289 s] survived
+   - [# 388] CRP pprint: [0.04260 s] survived
+   - [# 389] CRP pprint: [0.04261 s] survived
+   - [# 390] CRP pprint: [0.04300 s] survived
+   - [# 391] CRP pprint: [0.01797 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 392] CRP pprint: [0.04245 s] survived
+   - [# 393] CRP pprint: [0.01825 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 394] CRP pprint: [0.01811 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 395] CRP pprint: [0.01234 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 396] CRP pprint: [0.01309 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 397] CRP pprint: [0.01377 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 398] CRP pprint: [0.01253 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 399] CRP pprint: [0.04292 s] survived
+   - [# 400] CRP pprint: [0.01232 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 401] CRP pprint: [0.01241 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 402] CRP pprint: [0.04307 s] survived
+   - [# 403] CRP pprint: [0.01293 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 404] CRP pprint: [0.01294 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 405] CRP pprint: [0.01293 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 406] CRP pprint: [0.01273 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 407] CRP pprint: [0.01918 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 408] CRP pprint: [0.01822 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 409] CRP pprint: [0.01928 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 410] CRP pprint: [0.01851 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 411] CRP pprint: [0.01838 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 412] CRP pprint: [0.04288 s] survived
+   - [# 413] CRP pprint: [0.01900 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 414] CRP pprint: [0.01828 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 415] CRP pprint: [0.04339 s] survived
+   - [# 416] CRP pprint: [0.24575 s] timeout
+   - [# 417] CRP pprint: [0.25096 s] timeout
+   - [# 418] CRP pprint: [0.02347 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 419] CRP pprint: [0.01847 s] killed by test_deque (test_pprint.QueryTestCase)
+   - [# 420] CRP pprint: [0.04285 s] survived
+   - [# 421] CRP pprint: [0.04273 s] survived
+   - [# 422] CRP pprint: [0.04289 s] killed by test_user_string (test_pprint.QueryTestCase)
+   - [# 423] CRP pprint: [0.01362 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 424] CRP pprint: [0.01384 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 425] CRP pprint: [0.02017 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 426] CRP pprint: [0.02049 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 427] CRP pprint: [0.01829 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 428] CRP pprint: [0.01902 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 429] CRP pprint: [0.04382 s] survived
+   - [# 430] CRP pprint: [0.04356 s] survived
+   - [# 431] CRP pprint: [0.24660 s] timeout
+   - [# 432] CRP pprint: [0.25089 s] timeout
+   - [# 433] CRP pprint: [0.25041 s] timeout
+   - [# 434] CRP pprint: [0.25056 s] timeout
+   - [# 435] CRP pprint: [0.04007 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [# 436] CRP pprint: [0.02501 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [# 437] CRP pprint: [0.01369 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 438] CRP pprint: [0.01305 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 439] CRP pprint: [0.24605 s] timeout
+   - [# 440] CRP pprint: [0.24991 s] timeout
+   - [# 441] CRP pprint: [0.02915 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 442] CRP pprint: [0.24809 s] timeout
+   - [# 443] CRP pprint: [0.25092 s] timeout
+   - [# 444] CRP pprint: [0.03956 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 445] CRP pprint: [0.02448 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 446] CRP pprint: [0.24577 s] timeout
+   - [# 447] CRP pprint: [0.25108 s] timeout
+   - [# 448] CRP pprint: [0.03606 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 449] CRP pprint: [0.02310 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 450] CRP pprint: [0.04393 s] survived
+   - [# 451] CRP pprint: [0.04325 s] survived
+   - [# 452] CRP pprint: [0.01486 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 453] CRP pprint: [0.01438 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 454] CRP pprint: [0.04160 s] killed by test_unreadable (test_pprint.QueryTestCase)
+   - [# 455] CRP pprint: [0.00684 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 456] CRP pprint: [0.24624 s] timeout
+   - [# 457] CRP pprint: [0.24856 s] timeout
+   - [# 458] CRP pprint: [0.06902 s] survived
+   - [# 459] CRP pprint: [0.04341 s] survived
+   - [# 460] CRP pprint: [0.04346 s] survived
+   - [# 461] CRP pprint: [0.04353 s] survived
+   - [# 462] CRP pprint: [0.04248 s] survived
+   - [# 463] CRP pprint: [0.04264 s] survived
+   - [# 464] CRP pprint: [0.04336 s] survived
+   - [# 465] CRP pprint: [0.04247 s] survived
+   - [# 466] CRP pprint: [0.04273 s] survived
+   - [# 467] CRP pprint: [0.04227 s] survived
+   - [# 468] CRP pprint: [0.04245 s] survived
+   - [# 469] CRP pprint: [0.04228 s] survived
+   - [# 470] CRP pprint: [0.04292 s] survived
+   - [# 471] CRP pprint: [0.04250 s] survived
+   - [# 472] CRP pprint: [0.04231 s] survived
+   - [# 473] CRP pprint: [0.04212 s] survived
+   - [# 474] CRP pprint: [0.00934 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 475] CRP pprint: [0.00944 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 476] CRP pprint: [0.00914 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 477] CRP pprint: [0.00951 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 478] CRP pprint: [0.00956 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 479] CRP pprint: [0.04347 s] survived
+   - [# 480] CRP pprint: [0.04261 s] survived
+   - [# 481] EHD pprint: [0.24604 s] timeout
+   - [# 482] EHD pprint: [0.02218 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 483] EHD pprint: [0.00884 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 484] EXS pprint: [0.02511 s] killed by test_sort_unorderable_values (test_pprint.QueryTestCase)
+   - [# 485] EXS pprint: [0.01980 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 486] EXS pprint: [0.24397 s] timeout
+   - [# 487] LCR pprint: [0.24649 s] timeout
+   - [# 488] LCR pprint: [0.06481 s] killed by test_unreadable (test_pprint.QueryTestCase)
+   - [# 489] LCR pprint: [0.02587 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 490] LCR pprint: [0.01778 s] killed by test_counter (test_pprint.QueryTestCase)
+   - [# 491] LCR pprint: [0.24641 s] timeout
+   - [# 492] LCR pprint: [0.03530 s] killed by test_knotted (test_pprint.QueryTestCase)
+   - [# 493] LCR pprint: [0.02329 s] killed by test_knotted (test_pprint.QueryTestCase)
+   - [# 494] LCR pprint: [0.01404 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 495] LCR pprint: [0.04289 s] survived
+   - [# 496] LCR pprint: [0.04318 s] survived
+   - [# 497] LCR pprint: [0.24621 s] timeout
+   - [# 498] LCR pprint: [0.06555 s] killed by test_unreadable (test_pprint.QueryTestCase)
+   - [# 499] ROR pprint: [0.00838 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 500] ROR pprint: [0.04287 s] survived
+   - [# 501] ROR pprint: [0.02497 s] killed by test_sort_unorderable_values (test_pprint.QueryTestCase)
+   - [# 502] ROR pprint: [0.04234 s] survived
+   - [# 503] ROR pprint: [0.00687 s] killed by test_basic (test_pprint.QueryTestCase)
+   - [# 504] ROR pprint: [0.01956 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 505] ROR pprint: [0.01780 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 506] ROR pprint: [0.01861 s] killed by test_init (test_pprint.QueryTestCase)
+   - [# 507] ROR pprint: [0.00867 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 508] ROR pprint: [0.00983 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 509] ROR pprint: [0.01960 s] killed by test_nested_indentations (test_pprint.QueryTestCase)
+   - [# 510] ROR pprint: [0.04230 s] survived
+   - [# 511] ROR pprint: [0.00913 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 512] ROR pprint: [0.02521 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 513] ROR pprint: [0.04312 s] killed by test_width (test_pprint.QueryTestCase)
+   - [# 514] ROR pprint: [0.02541 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 515] ROR pprint: [0.04241 s] survived
+   - [# 516] ROR pprint: [0.02605 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 517] ROR pprint: [0.02607 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 518] ROR pprint: [0.02572 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 519] ROR pprint: [0.02624 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 520] ROR pprint: [0.01994 s] killed by test_same_as_repr (test_pprint.QueryTestCase)
+   - [# 521] ROR pprint: [0.02513 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 522] ROR pprint: [0.02563 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 523] ROR pprint: [0.02528 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 524] ROR pprint: [0.02536 s] killed by test_str_wrap (test_pprint.QueryTestCase)
+   - [# 525] ROR pprint: [0.00934 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 526] ROR pprint: [0.00934 s] killed by test_bytes_wrap (test_pprint.QueryTestCase)
+   - [# 527] ROR pprint: [0.00952 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 528] ROR pprint: [0.00874 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 529] ROR pprint: [0.01095 s] killed by test_basic_line_wrap (test_pprint.QueryTestCase)
+   - [# 530] ROR pprint: [0.04242 s] survived
+   - [# 531] ROR pprint: [0.01304 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 532] ROR pprint: [0.01319 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 533] ROR pprint: [0.01365 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 534] ROR pprint: [0.01280 s] killed by test_compact (test_pprint.QueryTestCase)
+   - [# 535] ROR pprint: [0.04245 s] survived
+   - [# 536] ROR pprint: [0.04237 s] survived
+   - [# 537] ROR pprint: [0.01267 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 538] ROR pprint: [0.01816 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 539] ROR pprint: [0.01825 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 540] ROR pprint: [0.01437 s] killed by test_chainmap (test_pprint.QueryTestCase)
+   - [# 541] ROR pprint: [0.01838 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 542] ROR pprint: [0.01829 s] killed by test_depth (test_pprint.QueryTestCase)
+   - [# 543] ROR pprint: [0.00921 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 544] ROR pprint: [0.00955 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 545] ROR pprint: [0.00906 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 546] ROR pprint: [0.04383 s] survived
+   - [# 547] SIR pprint: [0.01007 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+   - [# 548] SIR pprint: [0.00948 s] killed by test_bytearray_wrap (test_pprint.QueryTestCase)
+[*] Mutation score [38.89999 s]: 78.6%
+   - all: 548
+   - killed: 361 (65.9%)
+   - survived: 117 (21.4%)
+   - incompetent: 1 (0.2%)
+   - timeout: 69 (12.6%)

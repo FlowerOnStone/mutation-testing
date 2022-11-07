@@ -1,0 +1,6 @@
+[*] Start mutation process:
+   - targets: sysconfig.py
+   - tests: test_sysconfig.py
+[*] 20 tests passed:
+   - test_sysconfig [0.19153 s]
+[*] Start mutants generation and execution:

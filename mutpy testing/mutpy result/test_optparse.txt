@@ -1,0 +1,988 @@
+[*] Start mutation process:
+   - targets: optparse.py
+   - tests: test_optparse.py
+[*] 152 tests passed:
+   - test_optparse [0.01597 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD optparse: [0.22562 s] timeout
+   - [#   2] AOD optparse: [0.01151 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#   3] AOR optparse: [0.22536 s] timeout
+   - [#   4] AOR optparse: [0.22545 s] timeout
+   - [#   5] AOR optparse: [0.22607 s] timeout
+   - [#   6] AOR optparse: [0.22549 s] timeout
+   - [#   7] AOR optparse: [0.22618 s] timeout
+   - [#   8] AOR optparse: [0.22597 s] timeout
+   - [#   9] AOR optparse: [0.22687 s] timeout
+   - [#  10] AOR optparse: [0.22955 s] timeout
+   - [#  11] AOR optparse: [0.22788 s] timeout
+   - [#  12] AOR optparse: [0.22936 s] timeout
+   - [#  13] AOR optparse: [0.22983 s] timeout
+   - [#  14] AOR optparse: [0.23008 s] timeout
+   - [#  15] AOR optparse: [0.22952 s] timeout
+   - [#  16] AOR optparse: [0.22619 s] timeout
+   - [#  17] AOR optparse: [0.23083 s] timeout
+   - [#  18] AOR optparse: [0.23116 s] timeout
+   - [#  19] AOR optparse: [0.23101 s] timeout
+   - [#  20] AOR optparse: [0.23123 s] timeout
+   - [#  21] AOR optparse: [0.23118 s] timeout
+   - [#  22] AOR optparse: [0.23060 s] timeout
+   - [#  23] AOR optparse: [0.23000 s] timeout
+   - [#  24] AOR optparse: [0.01099 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#  25] AOR optparse: [0.01036 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#  26] AOR optparse: [0.22558 s] timeout
+   - [#  27] AOR optparse: [0.22584 s] timeout
+   - [#  28] AOR optparse: [0.22606 s] timeout
+   - [#  29] AOR optparse: [0.22615 s] timeout
+   - [#  30] AOR optparse: [0.22741 s] timeout
+   - [#  31] AOR optparse: [0.01056 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#  32] AOR optparse: [0.22563 s] timeout
+   - [#  33] AOR optparse: [0.02030 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#  34] AOR optparse: [0.22729 s] timeout
+   - [#  35] AOR optparse: [0.22594 s] timeout
+   - [#  36] AOR optparse: [0.22520 s] timeout
+   - [#  37] AOR optparse: [0.22609 s] timeout
+   - [#  38] AOR optparse: [0.22741 s] timeout
+   - [#  39] AOR optparse: [0.22561 s] timeout
+   - [#  40] AOR optparse: [0.22623 s] timeout
+   - [#  41] AOR optparse: [0.22613 s] timeout
+   - [#  42] AOR optparse: [0.22598 s] timeout
+   - [#  43] AOR optparse: [0.22588 s] timeout
+   - [#  44] AOR optparse: [0.22595 s] timeout
+   - [#  45] AOR optparse: [0.22629 s] timeout
+   - [#  46] AOR optparse: [0.22593 s] timeout
+   - [#  47] AOR optparse: [0.22616 s] timeout
+   - [#  48] AOR optparse: [0.22580 s] timeout
+   - [#  49] AOR optparse: [0.22606 s] timeout
+   - [#  50] AOR optparse: [0.23019 s] timeout
+   - [#  51] AOR optparse: [0.23002 s] timeout
+   - [#  52] AOR optparse: [0.22963 s] timeout
+   - [#  53] AOR optparse: [0.22735 s] timeout
+   - [#  54] AOR optparse: [0.23076 s] timeout
+   - [#  55] AOR optparse: [0.23139 s] timeout
+   - [#  56] AOR optparse: [0.23230 s] timeout
+   - [#  57] AOR optparse: [0.22995 s] timeout
+   - [#  58] AOR optparse: [0.23136 s] timeout
+   - [#  59] AOR optparse: [0.23066 s] timeout
+   - [#  60] AOR optparse: [0.23126 s] timeout
+   - [#  61] AOR optparse: [0.22987 s] timeout
+   - [#  62] AOR optparse: [0.22609 s] timeout
+   - [#  63] AOR optparse: [0.22575 s] timeout
+   - [#  64] AOR optparse: [0.22580 s] timeout
+   - [#  65] AOR optparse: [0.22651 s] timeout
+   - [#  66] AOR optparse: [0.00000 s] incompetent
+   - [#  67] AOR optparse: [0.00000 s] incompetent
+   - [#  68] AOR optparse: [0.22576 s] timeout
+   - [#  69] AOR optparse: [0.22864 s] timeout
+   - [#  70] AOR optparse: [0.22578 s] timeout
+   - [#  71] AOR optparse: [0.22582 s] timeout
+   - [#  72] AOR optparse: [0.22582 s] timeout
+   - [#  73] AOR optparse: [0.22578 s] timeout
+   - [#  74] AOR optparse: [0.22578 s] timeout
+   - [#  75] AOR optparse: [0.22625 s] timeout
+   - [#  76] AOR optparse: [0.22590 s] timeout
+   - [#  77] AOR optparse: [0.22619 s] timeout
+   - [#  78] AOR optparse: [0.22614 s] timeout
+   - [#  79] AOR optparse: [0.22651 s] timeout
+   - [#  80] AOR optparse: [0.01105 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#  81] AOR optparse: [0.22645 s] timeout
+   - [#  82] AOR optparse: [0.22592 s] timeout
+   - [#  83] ASR optparse: [0.22637 s] timeout
+   - [#  84] ASR optparse: [0.01136 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#  85] ASR optparse: [0.22579 s] timeout
+   - [#  86] ASR optparse: [0.01064 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [#  87] ASR optparse: [0.22603 s] timeout
+   - [#  88] ASR optparse: [0.22595 s] timeout
+   - [#  89] ASR optparse: [0.01167 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [#  90] BCR optparse: [0.01074 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [#  91] COD optparse: [0.22718 s] timeout
+   - [#  92] COD optparse: [0.23142 s] timeout
+   - [#  93] COD optparse: [0.23077 s] timeout
+   - [#  94] COD optparse: [0.22843 s] timeout
+   - [#  95] COD optparse: [0.01727 s] killed by test_bool_default (test_optparse.TestBool)
+   - [#  96] COD optparse: [0.01142 s] killed by test_bool_default (test_optparse.TestBool)
+   - [#  97] COD optparse: [0.00997 s] killed by test_bool_default (test_optparse.TestBool)
+   - [#  98] COD optparse: [0.01002 s] killed by test_callback (test_optparse.TestCallback)
+   - [#  99] COD optparse: [0.00963 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 100] COD optparse: [0.22652 s] timeout
+   - [# 101] COD optparse: [0.22974 s] timeout
+   - [# 102] COD optparse: [0.01058 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 103] COD optparse: [0.22877 s] timeout
+   - [# 104] COD optparse: [0.22611 s] timeout
+   - [# 105] COD optparse: [0.01538 s] killed by test_callback_meddle_args (test_optparse.TestCallbackMeddleArgs)
+   - [# 106] COD optparse: [0.00994 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 107] COD optparse: [0.22674 s] timeout
+   - [# 108] COD optparse: [0.23173 s] timeout
+   - [# 109] COD optparse: [0.23090 s] timeout
+   - [# 110] COD optparse: [0.01769 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 111] COD optparse: [0.01216 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 112] COD optparse: [0.01039 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 113] COD optparse: [0.22642 s] timeout
+   - [# 114] COD optparse: [0.23011 s] timeout
+   - [# 115] COD optparse: [0.23177 s] timeout
+   - [# 116] COD optparse: [0.01540 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 117] COD optparse: [0.22711 s] timeout
+   - [# 118] COI optparse: [0.23158 s] timeout
+   - [# 119] COI optparse: [0.23151 s] timeout
+   - [# 120] COI optparse: [0.23129 s] timeout
+   - [# 121] COI optparse: [0.23006 s] timeout
+   - [# 122] COI optparse: [0.23194 s] timeout
+   - [# 123] COI optparse: [0.23095 s] timeout
+   - [# 124] COI optparse: [0.02004 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 125] COI optparse: [0.22835 s] timeout
+   - [# 126] COI optparse: [0.23032 s] timeout
+   - [# 127] COI optparse: [0.01805 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 128] COI optparse: [0.01192 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 129] COI optparse: [0.22739 s] timeout
+   - [# 130] COI optparse: [0.01657 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 131] COI optparse: [0.01157 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 132] COI optparse: [0.01162 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 133] COI optparse: [0.01076 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 134] COI optparse: [0.01077 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 135] COI optparse: [0.22730 s] timeout
+   - [# 136] COI optparse: [0.23200 s] timeout
+   - [# 137] COI optparse: [0.23082 s] timeout
+   - [# 138] COI optparse: [0.01667 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 139] COI optparse: [0.01118 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 140] COI optparse: [0.00954 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 141] COI optparse: [0.00916 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 142] COI optparse: [0.00907 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 143] COI optparse: [0.00934 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 144] COI optparse: [0.22708 s] timeout
+   - [# 145] COI optparse: [0.01667 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 146] COI optparse: [0.01191 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 147] COI optparse: [0.00977 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 148] COI optparse: [0.00908 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 149] COI optparse: [0.00972 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 150] COI optparse: [0.00987 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 151] COI optparse: [0.22672 s] timeout
+   - [# 152] COI optparse: [0.01794 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 153] COI optparse: [0.01381 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 154] COI optparse: [0.01071 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 155] COI optparse: [0.01009 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 156] COI optparse: [0.00907 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 157] COI optparse: [0.22692 s] timeout
+   - [# 158] COI optparse: [0.23094 s] timeout
+   - [# 159] COI optparse: [0.01678 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 160] COI optparse: [0.01184 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 161] COI optparse: [0.01037 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 162] COI optparse: [0.01020 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 163] COI optparse: [0.00898 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 164] COI optparse: [0.22722 s] timeout
+   - [# 165] COI optparse: [0.23104 s] timeout
+   - [# 166] COI optparse: [0.23060 s] timeout
+   - [# 167] COI optparse: [0.01739 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 168] COI optparse: [0.01157 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 169] COI optparse: [0.01103 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 170] COI optparse: [0.01021 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 171] COI optparse: [0.00986 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 172] COI optparse: [0.00908 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 173] COI optparse: [0.00928 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 174] COI optparse: [0.00947 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 175] COI optparse: [0.22655 s] timeout
+   - [# 176] COI optparse: [0.23198 s] timeout
+   - [# 177] COI optparse: [0.23102 s] timeout
+   - [# 178] COI optparse: [0.01867 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 179] COI optparse: [0.01156 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 180] COI optparse: [0.01011 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 181] COI optparse: [0.01059 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 182] COI optparse: [0.00988 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 183] COI optparse: [0.22680 s] timeout
+   - [# 184] COI optparse: [0.23119 s] timeout
+   - [# 185] COI optparse: [0.23022 s] timeout
+   - [# 186] COI optparse: [0.01893 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 187] COI optparse: [0.22739 s] timeout
+   - [# 188] COI optparse: [0.23062 s] timeout
+   - [# 189] COI optparse: [0.01708 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 190] COI optparse: [0.22761 s] timeout
+   - [# 191] COI optparse: [0.23130 s] timeout
+   - [# 192] COI optparse: [0.23219 s] timeout
+   - [# 193] COI optparse: [0.23146 s] timeout
+   - [# 194] COI optparse: [0.23106 s] timeout
+   - [# 195] COI optparse: [0.23119 s] timeout
+   - [# 196] COI optparse: [0.23173 s] timeout
+   - [# 197] COI optparse: [0.01981 s] killed by test_callback_meddle_args (test_optparse.TestCallbackMeddleArgs)
+   - [# 198] COI optparse: [0.01097 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 199] COI optparse: [0.01052 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 200] COI optparse: [0.00977 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 201] COI optparse: [0.00996 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 202] COI optparse: [0.00948 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 203] COI optparse: [0.00989 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 204] COI optparse: [0.22696 s] timeout
+   - [# 205] COI optparse: [0.23200 s] timeout
+   - [# 206] COI optparse: [0.23123 s] timeout
+   - [# 207] COI optparse: [0.23147 s] timeout
+   - [# 208] COI optparse: [0.22986 s] timeout
+   - [# 209] COI optparse: [0.23208 s] timeout
+   - [# 210] COI optparse: [0.23134 s] timeout
+   - [# 211] COI optparse: [0.23061 s] timeout
+   - [# 212] COI optparse: [0.01803 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 213] COI optparse: [0.01199 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 214] COI optparse: [0.22713 s] timeout
+   - [# 215] COI optparse: [0.23126 s] timeout
+   - [# 216] COI optparse: [0.01772 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 217] COI optparse: [0.01237 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 218] COI optparse: [0.01058 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 219] COI optparse: [0.01026 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 220] COI optparse: [0.22646 s] timeout
+   - [# 221] COI optparse: [0.23197 s] timeout
+   - [# 222] COI optparse: [0.01612 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 223] COI optparse: [0.22827 s] timeout
+   - [# 224] COI optparse: [0.01732 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 225] COI optparse: [0.01313 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 226] COI optparse: [0.01070 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 227] COI optparse: [0.00926 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 228] COI optparse: [0.00984 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 229] COI optparse: [0.22713 s] timeout
+   - [# 230] COI optparse: [0.23159 s] timeout
+   - [# 231] COI optparse: [0.23271 s] timeout
+   - [# 232] COI optparse: [0.23354 s] timeout
+   - [# 233] COI optparse: [0.23175 s] timeout
+   - [# 234] COI optparse: [0.23194 s] timeout
+   - [# 235] COI optparse: [0.23157 s] timeout
+   - [# 236] COI optparse: [0.22800 s] timeout
+   - [# 237] COI optparse: [0.01897 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 238] COI optparse: [0.22832 s] timeout
+   - [# 239] COI optparse: [0.01726 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 240] COI optparse: [0.01206 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 241] COI optparse: [0.01030 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 242] COI optparse: [0.00985 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 243] COI optparse: [0.22793 s] timeout
+   - [# 244] COI optparse: [0.01854 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 245] COI optparse: [0.01288 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 246] COI optparse: [0.01126 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 247] COI optparse: [0.01079 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 248] COI optparse: [0.00990 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 249] COI optparse: [0.01088 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 250] COI optparse: [0.01001 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 251] COI optparse: [0.22738 s] timeout
+   - [# 252] COI optparse: [0.01989 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 253] COI optparse: [0.01361 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 254] COI optparse: [0.01156 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 255] COI optparse: [0.01078 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 256] COI optparse: [0.22739 s] timeout
+   - [# 257] COI optparse: [0.23260 s] timeout
+   - [# 258] COI optparse: [0.23145 s] timeout
+   - [# 259] COI optparse: [0.23118 s] timeout
+   - [# 260] COI optparse: [0.23210 s] timeout
+   - [# 261] COI optparse: [0.23165 s] timeout
+   - [# 262] COI optparse: [0.23283 s] timeout
+   - [# 263] COI optparse: [0.01821 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 264] COI optparse: [0.01309 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 265] COI optparse: [0.01079 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 266] COI optparse: [0.01053 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 267] COI optparse: [0.22749 s] timeout
+   - [# 268] COI optparse: [0.01841 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 269] COI optparse: [0.01322 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 270] COI optparse: [0.01148 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 271] COI optparse: [0.22684 s] timeout
+   - [# 272] CRP optparse: [0.23259 s] timeout
+   - [# 273] CRP optparse: [0.23281 s] timeout
+   - [# 274] CRP optparse: [0.01773 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 275] CRP optparse: [0.01200 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 276] CRP optparse: [0.01064 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 277] CRP optparse: [0.00955 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 278] CRP optparse: [0.00984 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 279] CRP optparse: [0.00976 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 280] CRP optparse: [0.00975 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 281] CRP optparse: [0.00992 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 282] CRP optparse: [0.00951 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 283] CRP optparse: [0.00985 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 284] CRP optparse: [0.00995 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 285] CRP optparse: [0.00983 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 286] CRP optparse: [0.00970 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 287] CRP optparse: [0.00954 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 288] CRP optparse: [0.00941 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 289] CRP optparse: [0.01015 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 290] CRP optparse: [0.00930 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 291] CRP optparse: [0.00947 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 292] CRP optparse: [0.00983 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 293] CRP optparse: [0.01002 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 294] CRP optparse: [0.00928 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 295] CRP optparse: [0.00952 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 296] CRP optparse: [0.00958 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 297] CRP optparse: [0.00998 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 298] CRP optparse: [0.00937 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 299] CRP optparse: [0.00944 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 300] CRP optparse: [0.01027 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 301] CRP optparse: [0.00958 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 302] CRP optparse: [0.00998 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 303] CRP optparse: [0.00998 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 304] CRP optparse: [0.00937 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 305] CRP optparse: [0.01006 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 306] CRP optparse: [0.00975 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 307] CRP optparse: [0.01001 s] killed by test__all__ (test_optparse.MiscTestCase)
+   - [# 308] CRP optparse: [0.22734 s] timeout
+   - [# 309] CRP optparse: [0.23236 s] timeout
+   - [# 310] CRP optparse: [0.23239 s] timeout
+   - [# 311] CRP optparse: [0.23241 s] timeout
+   - [# 312] CRP optparse: [0.23307 s] timeout
+   - [# 313] CRP optparse: [0.23174 s] timeout
+   - [# 314] CRP optparse: [0.23192 s] timeout
+   - [# 315] CRP optparse: [0.23204 s] timeout
+   - [# 316] CRP optparse: [0.23259 s] timeout
+   - [# 317] CRP optparse: [0.23226 s] timeout
+   - [# 318] CRP optparse: [0.23349 s] timeout
+   - [# 319] CRP optparse: [0.23231 s] timeout
+   - [# 320] CRP optparse: [0.23216 s] timeout
+   - [# 321] CRP optparse: [0.23240 s] timeout
+   - [# 322] CRP optparse: [0.23138 s] timeout
+   - [# 323] CRP optparse: [0.23319 s] timeout
+   - [# 324] CRP optparse: [0.23227 s] timeout
+   - [# 325] CRP optparse: [0.23187 s] timeout
+   - [# 326] CRP optparse: [0.23230 s] timeout
+   - [# 327] CRP optparse: [0.23197 s] timeout
+   - [# 328] CRP optparse: [0.23133 s] timeout
+   - [# 329] CRP optparse: [0.01930 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 330] CRP optparse: [0.22902 s] timeout
+   - [# 331] CRP optparse: [0.23232 s] timeout
+   - [# 332] CRP optparse: [0.23334 s] timeout
+   - [# 333] CRP optparse: [0.23167 s] timeout
+   - [# 334] CRP optparse: [0.23421 s] timeout
+   - [# 335] CRP optparse: [0.23156 s] timeout
+   - [# 336] CRP optparse: [0.23200 s] timeout
+   - [# 337] CRP optparse: [0.23203 s] timeout
+   - [# 338] CRP optparse: [0.23276 s] timeout
+   - [# 339] CRP optparse: [0.23226 s] timeout
+   - [# 340] CRP optparse: [0.23301 s] timeout
+   - [# 341] CRP optparse: [0.23182 s] timeout
+   - [# 342] CRP optparse: [0.23177 s] timeout
+   - [# 343] CRP optparse: [0.23327 s] timeout
+   - [# 344] CRP optparse: [0.23293 s] timeout
+   - [# 345] CRP optparse: [0.23134 s] timeout
+   - [# 346] CRP optparse: [0.23121 s] timeout
+   - [# 347] CRP optparse: [0.23095 s] timeout
+   - [# 348] CRP optparse: [0.23132 s] timeout
+   - [# 349] CRP optparse: [0.23221 s] timeout
+   - [# 350] CRP optparse: [0.23326 s] timeout
+   - [# 351] CRP optparse: [0.23154 s] timeout
+   - [# 352] CRP optparse: [0.23105 s] timeout
+   - [# 353] CRP optparse: [0.23333 s] timeout
+   - [# 354] CRP optparse: [0.23263 s] timeout
+   - [# 355] CRP optparse: [0.23236 s] timeout
+   - [# 356] CRP optparse: [0.23246 s] timeout
+   - [# 357] CRP optparse: [0.01927 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 358] CRP optparse: [0.22926 s] timeout
+   - [# 359] CRP optparse: [0.23237 s] timeout
+   - [# 360] CRP optparse: [0.23212 s] timeout
+   - [# 361] CRP optparse: [0.23184 s] timeout
+   - [# 362] CRP optparse: [0.23153 s] timeout
+   - [# 363] CRP optparse: [0.23197 s] timeout
+   - [# 364] CRP optparse: [0.23267 s] timeout
+   - [# 365] CRP optparse: [0.23066 s] timeout
+   - [# 366] CRP optparse: [0.23301 s] timeout
+   - [# 367] CRP optparse: [0.23021 s] timeout
+   - [# 368] CRP optparse: [0.23157 s] timeout
+   - [# 369] CRP optparse: [0.23112 s] timeout
+   - [# 370] CRP optparse: [0.22748 s] timeout
+   - [# 371] CRP optparse: [0.23122 s] timeout
+   - [# 372] CRP optparse: [0.23300 s] timeout
+   - [# 373] CRP optparse: [0.23229 s] timeout
+   - [# 374] CRP optparse: [0.23177 s] timeout
+   - [# 375] CRP optparse: [0.01877 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 376] CRP optparse: [0.01245 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 377] CRP optparse: [0.22765 s] timeout
+   - [# 378] CRP optparse: [0.23221 s] timeout
+   - [# 379] CRP optparse: [0.23172 s] timeout
+   - [# 380] CRP optparse: [0.23267 s] timeout
+   - [# 381] CRP optparse: [0.23233 s] timeout
+   - [# 382] CRP optparse: [0.01986 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 383] CRP optparse: [0.01308 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 384] CRP optparse: [0.22754 s] timeout
+   - [# 385] CRP optparse: [0.23283 s] timeout
+   - [# 386] CRP optparse: [0.01870 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 387] CRP optparse: [0.01309 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 388] CRP optparse: [0.22703 s] timeout
+   - [# 389] CRP optparse: [0.23174 s] timeout
+   - [# 390] CRP optparse: [0.23150 s] timeout
+   - [# 391] CRP optparse: [0.22787 s] timeout
+   - [# 392] CRP optparse: [0.23048 s] timeout
+   - [# 393] CRP optparse: [0.23337 s] timeout
+   - [# 394] CRP optparse: [0.23201 s] timeout
+   - [# 395] CRP optparse: [0.23151 s] timeout
+   - [# 396] CRP optparse: [0.23106 s] timeout
+   - [# 397] CRP optparse: [0.01557 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 398] CRP optparse: [0.22829 s] timeout
+   - [# 399] CRP optparse: [0.23138 s] timeout
+   - [# 400] CRP optparse: [0.23087 s] timeout
+   - [# 401] CRP optparse: [0.01814 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 402] CRP optparse: [0.01264 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 403] CRP optparse: [0.01110 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 404] CRP optparse: [0.22658 s] timeout
+   - [# 405] CRP optparse: [0.23150 s] timeout
+   - [# 406] CRP optparse: [0.23105 s] timeout
+   - [# 407] CRP optparse: [0.23220 s] timeout
+   - [# 408] CRP optparse: [0.23203 s] timeout
+   - [# 409] CRP optparse: [0.23258 s] timeout
+   - [# 410] CRP optparse: [0.01903 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 411] CRP optparse: [0.22907 s] timeout
+   - [# 412] CRP optparse: [0.23242 s] timeout
+   - [# 413] CRP optparse: [0.23262 s] timeout
+   - [# 414] CRP optparse: [0.23316 s] timeout
+   - [# 415] CRP optparse: [0.23301 s] timeout
+   - [# 416] CRP optparse: [0.23261 s] timeout
+   - [# 417] CRP optparse: [0.23305 s] timeout
+   - [# 418] CRP optparse: [0.23172 s] timeout
+   - [# 419] CRP optparse: [0.23265 s] timeout
+   - [# 420] CRP optparse: [0.23142 s] timeout
+   - [# 421] CRP optparse: [0.23182 s] timeout
+   - [# 422] CRP optparse: [0.23174 s] timeout
+   - [# 423] CRP optparse: [0.23311 s] timeout
+   - [# 424] CRP optparse: [0.23220 s] timeout
+   - [# 425] CRP optparse: [0.23181 s] timeout
+   - [# 426] CRP optparse: [0.23272 s] timeout
+   - [# 427] CRP optparse: [0.23134 s] timeout
+   - [# 428] CRP optparse: [0.23302 s] timeout
+   - [# 429] CRP optparse: [0.23199 s] timeout
+   - [# 430] CRP optparse: [0.23228 s] timeout
+   - [# 431] CRP optparse: [0.23194 s] timeout
+   - [# 432] CRP optparse: [0.23161 s] timeout
+   - [# 433] CRP optparse: [0.22652 s] timeout
+   - [# 434] CRP optparse: [0.22604 s] timeout
+   - [# 435] CRP optparse: [0.22617 s] timeout
+   - [# 436] CRP optparse: [0.22647 s] timeout
+   - [# 437] CRP optparse: [0.01383 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 438] CRP optparse: [0.01230 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 439] CRP optparse: [0.01200 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 440] CRP optparse: [0.22745 s] timeout
+   - [# 441] CRP optparse: [0.23315 s] timeout
+   - [# 442] CRP optparse: [0.23299 s] timeout
+   - [# 443] CRP optparse: [0.23236 s] timeout
+   - [# 444] CRP optparse: [0.23250 s] timeout
+   - [# 445] CRP optparse: [0.23347 s] timeout
+   - [# 446] CRP optparse: [0.23197 s] timeout
+   - [# 447] CRP optparse: [0.22762 s] timeout
+   - [# 448] CRP optparse: [0.22801 s] timeout
+   - [# 449] CRP optparse: [0.23365 s] timeout
+   - [# 450] CRP optparse: [0.23228 s] timeout
+   - [# 451] CRP optparse: [0.23210 s] timeout
+   - [# 452] CRP optparse: [0.22698 s] timeout
+   - [# 453] CRP optparse: [0.22765 s] timeout
+   - [# 454] CRP optparse: [0.22990 s] timeout
+   - [# 455] CRP optparse: [0.23383 s] timeout
+   - [# 456] CRP optparse: [0.23217 s] timeout
+   - [# 457] CRP optparse: [0.23294 s] timeout
+   - [# 458] CRP optparse: [0.23165 s] timeout
+   - [# 459] CRP optparse: [0.22771 s] timeout
+   - [# 460] CRP optparse: [0.23250 s] timeout
+   - [# 461] CRP optparse: [0.22689 s] timeout
+   - [# 462] CRP optparse: [0.22668 s] timeout
+   - [# 463] CRP optparse: [0.22691 s] timeout
+   - [# 464] CRP optparse: [0.01340 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 465] CRP optparse: [0.01108 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 466] CRP optparse: [0.00999 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 467] CRP optparse: [0.01049 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 468] CRP optparse: [0.01068 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 469] CRP optparse: [0.00970 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 470] CRP optparse: [0.00939 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 471] CRP optparse: [0.00968 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 472] CRP optparse: [0.00949 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 473] CRP optparse: [0.01160 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 474] CRP optparse: [0.01351 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 475] CRP optparse: [0.01321 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 476] CRP optparse: [0.01074 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 477] CRP optparse: [0.01138 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 478] CRP optparse: [0.01218 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 479] CRP optparse: [0.01271 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 480] CRP optparse: [0.01271 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 481] CRP optparse: [0.01184 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 482] CRP optparse: [0.01141 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 483] CRP optparse: [0.01368 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 484] CRP optparse: [0.01481 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 485] CRP optparse: [0.01354 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 486] CRP optparse: [0.01223 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 487] CRP optparse: [0.01260 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 488] CRP optparse: [0.22765 s] timeout
+   - [# 489] CRP optparse: [0.22725 s] timeout
+   - [# 490] CRP optparse: [0.22662 s] timeout
+   - [# 491] CRP optparse: [0.23139 s] timeout
+   - [# 492] CRP optparse: [0.01123 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 493] CRP optparse: [0.01039 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 494] CRP optparse: [0.01097 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 495] CRP optparse: [0.01115 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 496] CRP optparse: [0.22695 s] timeout
+   - [# 497] CRP optparse: [0.22709 s] timeout
+   - [# 498] CRP optparse: [0.22684 s] timeout
+   - [# 499] CRP optparse: [0.22775 s] timeout
+   - [# 500] CRP optparse: [0.22710 s] timeout
+   - [# 501] CRP optparse: [0.22676 s] timeout
+   - [# 502] CRP optparse: [0.01088 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 503] CRP optparse: [0.01055 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 504] CRP optparse: [0.01052 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 505] CRP optparse: [0.01104 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 506] CRP optparse: [0.22680 s] timeout
+   - [# 507] CRP optparse: [0.22678 s] timeout
+   - [# 508] CRP optparse: [0.22656 s] timeout
+   - [# 509] CRP optparse: [0.22667 s] timeout
+   - [# 510] CRP optparse: [0.22697 s] timeout
+   - [# 511] CRP optparse: [0.22742 s] timeout
+   - [# 512] CRP optparse: [0.22771 s] timeout
+   - [# 513] CRP optparse: [0.22679 s] timeout
+   - [# 514] CRP optparse: [0.22694 s] timeout
+   - [# 515] CRP optparse: [0.22700 s] timeout
+   - [# 516] CRP optparse: [0.22719 s] timeout
+   - [# 517] CRP optparse: [0.23227 s] timeout
+   - [# 518] CRP optparse: [0.22719 s] timeout
+   - [# 519] CRP optparse: [0.22556 s] timeout
+   - [# 520] CRP optparse: [0.22768 s] timeout
+   - [# 521] CRP optparse: [0.22644 s] timeout
+   - [# 522] CRP optparse: [0.01153 s] killed by test_consume_separator_stop_at_option (test_optparse.TestCallbackVarArgs)
+   - [# 523] CRP optparse: [0.01497 s] killed by test_consume_separator_stop_at_option (test_optparse.TestCallbackVarArgs)
+   - [# 524] CRP optparse: [0.22699 s] timeout
+   - [# 525] CRP optparse: [0.22696 s] timeout
+   - [# 526] CRP optparse: [0.01077 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 527] CRP optparse: [0.01060 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 528] CRP optparse: [0.22668 s] timeout
+   - [# 529] CRP optparse: [0.22718 s] timeout
+   - [# 530] CRP optparse: [0.22723 s] timeout
+   - [# 531] CRP optparse: [0.22842 s] timeout
+   - [# 532] CRP optparse: [0.22691 s] timeout
+   - [# 533] CRP optparse: [0.22765 s] timeout
+   - [# 534] CRP optparse: [0.22708 s] timeout
+   - [# 535] CRP optparse: [0.22679 s] timeout
+   - [# 536] CRP optparse: [0.02006 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 537] CRP optparse: [0.01208 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 538] CRP optparse: [0.01071 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 539] CRP optparse: [0.01091 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 540] CRP optparse: [0.22697 s] timeout
+   - [# 541] CRP optparse: [0.22891 s] timeout
+   - [# 542] CRP optparse: [0.23183 s] timeout
+   - [# 543] CRP optparse: [0.22712 s] timeout
+   - [# 544] CRP optparse: [0.22744 s] timeout
+   - [# 545] CRP optparse: [0.22891 s] timeout
+   - [# 546] CRP optparse: [0.23131 s] timeout
+   - [# 547] CRP optparse: [0.23252 s] timeout
+   - [# 548] CRP optparse: [0.02394 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 549] CRP optparse: [0.01497 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 550] CRP optparse: [0.22656 s] timeout
+   - [# 551] CRP optparse: [0.22681 s] timeout
+   - [# 552] CRP optparse: [0.23159 s] timeout
+   - [# 553] CRP optparse: [0.23487 s] timeout
+   - [# 554] CRP optparse: [0.23231 s] timeout
+   - [# 555] CRP optparse: [0.23353 s] timeout
+   - [# 556] CRP optparse: [0.23230 s] timeout
+   - [# 557] CRP optparse: [0.23005 s] timeout
+   - [# 558] CRP optparse: [0.23296 s] timeout
+   - [# 559] CRP optparse: [0.23334 s] timeout
+   - [# 560] CRP optparse: [0.01797 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 561] CRP optparse: [0.23053 s] timeout
+   - [# 562] CRP optparse: [0.23423 s] timeout
+   - [# 563] CRP optparse: [0.01872 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 564] CRP optparse: [0.01155 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 565] CRP optparse: [0.00961 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 566] CRP optparse: [0.00924 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 567] CRP optparse: [0.00928 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 568] CRP optparse: [0.22862 s] timeout
+   - [# 569] CRP optparse: [0.23154 s] timeout
+   - [# 570] CRP optparse: [0.23072 s] timeout
+   - [# 571] CRP optparse: [0.22779 s] timeout
+   - [# 572] CRP optparse: [0.01605 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 573] CRP optparse: [0.01344 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 574] CRP optparse: [0.01051 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 575] CRP optparse: [0.00956 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 576] CRP optparse: [0.22742 s] timeout
+   - [# 577] CRP optparse: [0.23218 s] timeout
+   - [# 578] CRP optparse: [0.22894 s] timeout
+   - [# 579] CRP optparse: [0.23122 s] timeout
+   - [# 580] CRP optparse: [0.22923 s] timeout
+   - [# 581] CRP optparse: [0.01723 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 582] CRP optparse: [0.01394 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 583] CRP optparse: [0.22796 s] timeout
+   - [# 584] CRP optparse: [0.23230 s] timeout
+   - [# 585] CRP optparse: [0.23228 s] timeout
+   - [# 586] CRP optparse: [0.23292 s] timeout
+   - [# 587] CRP optparse: [0.02170 s] killed by test_consume_separator_stop_at_option (test_optparse.TestCallbackVarArgs)
+   - [# 588] CRP optparse: [0.01427 s] killed by test_consume_separator_stop_at_option (test_optparse.TestCallbackVarArgs)
+   - [# 589] CRP optparse: [0.22709 s] timeout
+   - [# 590] CRP optparse: [0.22756 s] timeout
+   - [# 591] CRP optparse: [0.23281 s] timeout
+   - [# 592] CRP optparse: [0.23436 s] timeout
+   - [# 593] CRP optparse: [0.23445 s] timeout
+   - [# 594] CRP optparse: [0.23424 s] timeout
+   - [# 595] CRP optparse: [0.23283 s] timeout
+   - [# 596] CRP optparse: [0.23302 s] timeout
+   - [# 597] CRP optparse: [0.23315 s] timeout
+   - [# 598] CRP optparse: [0.23237 s] timeout
+   - [# 599] CRP optparse: [0.23440 s] timeout
+   - [# 600] CRP optparse: [0.23344 s] timeout
+   - [# 601] CRP optparse: [0.23221 s] timeout
+   - [# 602] CRP optparse: [0.23400 s] timeout
+   - [# 603] CRP optparse: [0.23119 s] timeout
+   - [# 604] CRP optparse: [0.23427 s] timeout
+   - [# 605] CRP optparse: [0.23336 s] timeout
+   - [# 606] CRP optparse: [0.23389 s] timeout
+   - [# 607] CRP optparse: [0.23273 s] timeout
+   - [# 608] CRP optparse: [0.22734 s] timeout
+   - [# 609] CRP optparse: [0.23158 s] timeout
+   - [# 610] CRP optparse: [0.22630 s] timeout
+   - [# 611] CRP optparse: [0.22806 s] timeout
+   - [# 612] CRP optparse: [0.22839 s] timeout
+   - [# 613] CRP optparse: [0.23065 s] timeout
+   - [# 614] CRP optparse: [0.02092 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 615] CRP optparse: [0.01255 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 616] CRP optparse: [0.22704 s] timeout
+   - [# 617] CRP optparse: [0.02100 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 618] CRP optparse: [0.22864 s] timeout
+   - [# 619] CRP optparse: [0.23439 s] timeout
+   - [# 620] CRP optparse: [0.23153 s] timeout
+   - [# 621] CRP optparse: [0.23337 s] timeout
+   - [# 622] CRP optparse: [0.23229 s] timeout
+   - [# 623] CRP optparse: [0.23338 s] timeout
+   - [# 624] CRP optparse: [0.02146 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 625] CRP optparse: [0.22866 s] timeout
+   - [# 626] CRP optparse: [0.23361 s] timeout
+   - [# 627] CRP optparse: [0.02027 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 628] CRP optparse: [0.01305 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 629] CRP optparse: [0.22680 s] timeout
+   - [# 630] CRP optparse: [0.23156 s] timeout
+   - [# 631] CRP optparse: [0.23359 s] timeout
+   - [# 632] CRP optparse: [0.23042 s] timeout
+   - [# 633] CRP optparse: [0.23218 s] timeout
+   - [# 634] CRP optparse: [0.22793 s] timeout
+   - [# 635] CRP optparse: [0.23355 s] timeout
+   - [# 636] CRP optparse: [0.23377 s] timeout
+   - [# 637] CRP optparse: [0.23266 s] timeout
+   - [# 638] CRP optparse: [0.23287 s] timeout
+   - [# 639] CRP optparse: [0.23265 s] timeout
+   - [# 640] CRP optparse: [0.23215 s] timeout
+   - [# 641] CRP optparse: [0.23190 s] timeout
+   - [# 642] CRP optparse: [0.23431 s] timeout
+   - [# 643] CRP optparse: [0.01977 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 644] CRP optparse: [0.22902 s] timeout
+   - [# 645] CRP optparse: [0.01894 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 646] CRP optparse: [0.22926 s] timeout
+   - [# 647] CRP optparse: [0.23318 s] timeout
+   - [# 648] CRP optparse: [0.23339 s] timeout
+   - [# 649] CRP optparse: [0.23493 s] timeout
+   - [# 650] CRP optparse: [0.01975 s] killed by test_bool_flicker_on_and_off (test_optparse.TestBool)
+   - [# 651] CRP optparse: [0.01231 s] killed by test_bool_flicker_on_and_off (test_optparse.TestBool)
+   - [# 652] CRP optparse: [0.01001 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 653] CRP optparse: [0.00980 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 654] CRP optparse: [0.22725 s] timeout
+   - [# 655] CRP optparse: [0.23343 s] timeout
+   - [# 656] CRP optparse: [0.23376 s] timeout
+   - [# 657] CRP optparse: [0.23379 s] timeout
+   - [# 658] CRP optparse: [0.23336 s] timeout
+   - [# 659] CRP optparse: [0.23415 s] timeout
+   - [# 660] CRP optparse: [0.23309 s] timeout
+   - [# 661] CRP optparse: [0.23238 s] timeout
+   - [# 662] CRP optparse: [0.01995 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 663] CRP optparse: [0.01214 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 664] CRP optparse: [0.22724 s] timeout
+   - [# 665] CRP optparse: [0.23309 s] timeout
+   - [# 666] CRP optparse: [0.23188 s] timeout
+   - [# 667] CRP optparse: [0.23202 s] timeout
+   - [# 668] CRP optparse: [0.23405 s] timeout
+   - [# 669] CRP optparse: [0.23286 s] timeout
+   - [# 670] CRP optparse: [0.23291 s] timeout
+   - [# 671] CRP optparse: [0.23420 s] timeout
+   - [# 672] CRP optparse: [0.23343 s] timeout
+   - [# 673] CRP optparse: [0.23238 s] timeout
+   - [# 674] CRP optparse: [0.23296 s] timeout
+   - [# 675] CRP optparse: [0.23229 s] timeout
+   - [# 676] CRP optparse: [0.23222 s] timeout
+   - [# 677] CRP optparse: [0.23273 s] timeout
+   - [# 678] CRP optparse: [0.23307 s] timeout
+   - [# 679] CRP optparse: [0.23106 s] timeout
+   - [# 680] CRP optparse: [0.23315 s] timeout
+   - [# 681] CRP optparse: [0.23288 s] timeout
+   - [# 682] CRP optparse: [0.23321 s] timeout
+   - [# 683] CRP optparse: [0.23370 s] timeout
+   - [# 684] CRP optparse: [0.23401 s] timeout
+   - [# 685] CRP optparse: [0.23398 s] timeout
+   - [# 686] CRP optparse: [0.23156 s] timeout
+   - [# 687] CRP optparse: [0.22713 s] timeout
+   - [# 688] CRP optparse: [0.22842 s] timeout
+   - [# 689] CRP optparse: [0.01627 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 690] CRP optparse: [0.01158 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 691] CRP optparse: [0.22785 s] timeout
+   - [# 692] CRP optparse: [0.23325 s] timeout
+   - [# 693] CRP optparse: [0.23162 s] timeout
+   - [# 694] CRP optparse: [0.22862 s] timeout
+   - [# 695] CRP optparse: [0.22693 s] timeout
+   - [# 696] CRP optparse: [0.22945 s] timeout
+   - [# 697] CRP optparse: [0.22958 s] timeout
+   - [# 698] CRP optparse: [0.23386 s] timeout
+   - [# 699] CRP optparse: [0.23339 s] timeout
+   - [# 700] CRP optparse: [0.23212 s] timeout
+   - [# 701] CRP optparse: [0.22904 s] timeout
+   - [# 702] CRP optparse: [0.23335 s] timeout
+   - [# 703] CRP optparse: [0.23087 s] timeout
+   - [# 704] CRP optparse: [0.23341 s] timeout
+   - [# 705] CRP optparse: [0.23221 s] timeout
+   - [# 706] CRP optparse: [0.01848 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 707] CRP optparse: [0.22975 s] timeout
+   - [# 708] CRP optparse: [0.01798 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 709] CRP optparse: [0.22877 s] timeout
+   - [# 710] CRP optparse: [0.23421 s] timeout
+   - [# 711] CRP optparse: [0.23311 s] timeout
+   - [# 712] CRP optparse: [0.23361 s] timeout
+   - [# 713] CRP optparse: [0.23146 s] timeout
+   - [# 714] CRP optparse: [0.23331 s] timeout
+   - [# 715] CRP optparse: [0.23247 s] timeout
+   - [# 716] CRP optparse: [0.23252 s] timeout
+   - [# 717] CRP optparse: [0.23386 s] timeout
+   - [# 718] CRP optparse: [0.23387 s] timeout
+   - [# 719] CRP optparse: [0.01639 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 720] CRP optparse: [0.01132 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 721] CRP optparse: [0.01054 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 722] CRP optparse: [0.01030 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 723] CRP optparse: [0.00992 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 724] CRP optparse: [0.22770 s] timeout
+   - [# 725] CRP optparse: [0.01990 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 726] CRP optparse: [0.01225 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 727] CRP optparse: [0.22731 s] timeout
+   - [# 728] CRP optparse: [0.23303 s] timeout
+   - [# 729] CRP optparse: [0.23422 s] timeout
+   - [# 730] CRP optparse: [0.23294 s] timeout
+   - [# 731] CRP optparse: [0.23434 s] timeout
+   - [# 732] CRP optparse: [0.23478 s] timeout
+   - [# 733] CRP optparse: [0.23474 s] timeout
+   - [# 734] CRP optparse: [0.23351 s] timeout
+   - [# 735] CRP optparse: [0.23268 s] timeout
+   - [# 736] CRP optparse: [0.23399 s] timeout
+   - [# 737] CRP optparse: [0.23275 s] timeout
+   - [# 738] CRP optparse: [0.23192 s] timeout
+   - [# 739] CRP optparse: [0.23419 s] timeout
+   - [# 740] CRP optparse: [0.23041 s] timeout
+   - [# 741] CRP optparse: [0.23230 s] timeout
+   - [# 742] CRP optparse: [0.23182 s] timeout
+   - [# 743] CRP optparse: [0.23195 s] timeout
+   - [# 744] CRP optparse: [0.23223 s] timeout
+   - [# 745] CRP optparse: [0.23280 s] timeout
+   - [# 746] CRP optparse: [0.23485 s] timeout
+   - [# 747] CRP optparse: [0.23397 s] timeout
+   - [# 748] CRP optparse: [0.23246 s] timeout
+   - [# 749] CRP optparse: [0.23199 s] timeout
+   - [# 750] CRP optparse: [0.01906 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 751] CRP optparse: [0.22791 s] timeout
+   - [# 752] CRP optparse: [0.23305 s] timeout
+   - [# 753] CRP optparse: [0.23377 s] timeout
+   - [# 754] CRP optparse: [0.02057 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 755] CRP optparse: [0.01284 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 756] CRP optparse: [0.01004 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 757] CRP optparse: [0.01037 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 758] CRP optparse: [0.00939 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 759] CRP optparse: [0.01004 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 760] CRP optparse: [0.00971 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 761] CRP optparse: [0.01008 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 762] CRP optparse: [0.22639 s] timeout
+   - [# 763] CRP optparse: [0.02115 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 764] CRP optparse: [0.01348 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 765] CRP optparse: [0.01117 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 766] CRP optparse: [0.01033 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 767] CRP optparse: [0.01003 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 768] CRP optparse: [0.22739 s] timeout
+   - [# 769] CRP optparse: [0.23305 s] timeout
+   - [# 770] CRP optparse: [0.23246 s] timeout
+   - [# 771] CRP optparse: [0.23319 s] timeout
+   - [# 772] CRP optparse: [0.23230 s] timeout
+   - [# 773] CRP optparse: [0.23390 s] timeout
+   - [# 774] CRP optparse: [0.23355 s] timeout
+   - [# 775] CRP optparse: [0.23324 s] timeout
+   - [# 776] CRP optparse: [0.23347 s] timeout
+   - [# 777] CRP optparse: [0.23301 s] timeout
+   - [# 778] CRP optparse: [0.02025 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 779] CRP optparse: [0.01219 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 780] CRP optparse: [0.01092 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 781] CRP optparse: [0.01098 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 782] CRP optparse: [0.22751 s] timeout
+   - [# 783] CRP optparse: [0.23294 s] timeout
+   - [# 784] CRP optparse: [0.01842 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 785] CRP optparse: [0.01348 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 786] CRP optparse: [0.00988 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 787] CRP optparse: [0.00989 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 788] CRP optparse: [0.01049 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 789] CRP optparse: [0.01047 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 790] CRP optparse: [0.01058 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 791] CRP optparse: [0.22700 s] timeout
+   - [# 792] CRP optparse: [0.23245 s] timeout
+   - [# 793] CRP optparse: [0.23316 s] timeout
+   - [# 794] CRP optparse: [0.23351 s] timeout
+   - [# 795] CRP optparse: [0.23295 s] timeout
+   - [# 796] CRP optparse: [0.23295 s] timeout
+   - [# 797] CRP optparse: [0.23362 s] timeout
+   - [# 798] CRP optparse: [0.23409 s] timeout
+   - [# 799] CRP optparse: [0.02387 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 800] CRP optparse: [0.01328 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 801] CRP optparse: [0.01120 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 802] CRP optparse: [0.01067 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 803] CRP optparse: [0.22577 s] timeout
+   - [# 804] CRP optparse: [0.23356 s] timeout
+   - [# 805] CRP optparse: [0.23256 s] timeout
+   - [# 806] CRP optparse: [0.23311 s] timeout
+   - [# 807] CRP optparse: [0.23286 s] timeout
+   - [# 808] CRP optparse: [0.23278 s] timeout
+   - [# 809] CRP optparse: [0.23187 s] timeout
+   - [# 810] CRP optparse: [0.23407 s] timeout
+   - [# 811] CRP optparse: [0.23214 s] timeout
+   - [# 812] CRP optparse: [0.01976 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 813] CRP optparse: [0.01236 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 814] CRP optparse: [0.22758 s] timeout
+   - [# 815] CRP optparse: [0.23344 s] timeout
+   - [# 816] CRP optparse: [0.23247 s] timeout
+   - [# 817] CRP optparse: [0.23371 s] timeout
+   - [# 818] CRP optparse: [0.01954 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 819] CRP optparse: [0.01211 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 820] CRP optparse: [0.22863 s] timeout
+   - [# 821] CRP optparse: [0.23349 s] timeout
+   - [# 822] CRP optparse: [0.23406 s] timeout
+   - [# 823] CRP optparse: [0.23304 s] timeout
+   - [# 824] CRP optparse: [0.02038 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 825] CRP optparse: [0.01318 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 826] CRP optparse: [0.01063 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 827] EHD optparse: [0.22801 s] timeout
+   - [# 828] EHD optparse: [0.01811 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 829] EHD optparse: [0.22803 s] timeout
+   - [# 830] EXS optparse: [0.22857 s] timeout
+   - [# 831] EXS optparse: [0.23207 s] timeout
+   - [# 832] EXS optparse: [0.22895 s] timeout
+   - [# 833] EXS optparse: [0.22671 s] timeout
+   - [# 834] IOD optparse: [0.22779 s] timeout
+   - [# 835] IOD optparse: [0.23252 s] timeout
+   - [# 836] IOD optparse: [0.23275 s] timeout
+   - [# 837] IOD optparse: [0.23389 s] timeout
+   - [# 838] IOD optparse: [0.23324 s] timeout
+   - [# 839] IOD optparse: [0.23354 s] timeout
+   - [# 840] IOD optparse: [0.23284 s] timeout
+   - [# 841] IOD optparse: [0.23435 s] timeout
+   - [# 842] IOD optparse: [0.22897 s] timeout
+   - [# 843] IOD optparse: [0.23281 s] timeout
+   - [# 844] IOD optparse: [0.02009 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 845] IOD optparse: [0.22828 s] timeout
+   - [# 846] IOD optparse: [0.23298 s] timeout
+   - [# 847] IOD optparse: [0.23334 s] timeout
+   - [# 848] IOD optparse: [0.22786 s] timeout
+   - [# 849] IOD optparse: [0.23238 s] timeout
+   - [# 850] IOD optparse: [0.23368 s] timeout
+   - [# 851] IOD optparse: [0.23365 s] timeout
+   - [# 852] IOD optparse: [0.23276 s] timeout
+   - [# 853] IOD optparse: [0.22774 s] timeout
+   - [# 854] IOD optparse: [0.01773 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 855] IOD optparse: [0.22836 s] timeout
+   - [# 856] LCR optparse: [0.22749 s] timeout
+   - [# 857] LCR optparse: [0.23321 s] timeout
+   - [# 858] LCR optparse: [0.01668 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 859] LCR optparse: [0.22780 s] timeout
+   - [# 860] LCR optparse: [0.23105 s] timeout
+   - [# 861] LCR optparse: [0.23236 s] timeout
+   - [# 862] LCR optparse: [0.01708 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 863] LCR optparse: [0.01169 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 864] LCR optparse: [0.00959 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 865] LCR optparse: [0.01053 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 866] LCR optparse: [0.00973 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 867] LCR optparse: [0.22674 s] timeout
+   - [# 868] LCR optparse: [0.23420 s] timeout
+   - [# 869] LCR optparse: [0.01835 s] killed by test_callback_meddle_args (test_optparse.TestCallbackMeddleArgs)
+   - [# 870] LCR optparse: [0.22768 s] timeout
+   - [# 871] LCR optparse: [0.23162 s] timeout
+   - [# 872] LCR optparse: [0.23180 s] timeout
+   - [# 873] LCR optparse: [0.23321 s] timeout
+   - [# 874] LCR optparse: [0.22887 s] timeout
+   - [# 875] LCR optparse: [0.23271 s] timeout
+   - [# 876] LCR optparse: [0.23287 s] timeout
+   - [# 877] LCR optparse: [0.23178 s] timeout
+   - [# 878] ROR optparse: [0.22766 s] timeout
+   - [# 879] ROR optparse: [0.01513 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 880] ROR optparse: [0.01147 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 881] ROR optparse: [0.22748 s] timeout
+   - [# 882] ROR optparse: [0.02108 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 883] ROR optparse: [0.22990 s] timeout
+   - [# 884] ROR optparse: [0.01773 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 885] ROR optparse: [0.01155 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 886] ROR optparse: [0.01100 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 887] ROR optparse: [0.00897 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 888] ROR optparse: [0.00949 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 889] ROR optparse: [0.00942 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 890] ROR optparse: [0.00896 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 891] ROR optparse: [0.00931 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 892] ROR optparse: [0.00960 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 893] ROR optparse: [0.00922 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 894] ROR optparse: [0.22745 s] timeout
+   - [# 895] ROR optparse: [0.02014 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 896] ROR optparse: [0.01069 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 897] ROR optparse: [0.00959 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 898] ROR optparse: [0.01059 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 899] ROR optparse: [0.00967 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 900] ROR optparse: [0.00986 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 901] ROR optparse: [0.01009 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 902] ROR optparse: [0.00949 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 903] ROR optparse: [0.22752 s] timeout
+   - [# 904] ROR optparse: [0.23323 s] timeout
+   - [# 905] ROR optparse: [0.23240 s] timeout
+   - [# 906] ROR optparse: [0.01655 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 907] ROR optparse: [0.22820 s] timeout
+   - [# 908] ROR optparse: [0.23347 s] timeout
+   - [# 909] ROR optparse: [0.23184 s] timeout
+   - [# 910] ROR optparse: [0.23341 s] timeout
+   - [# 911] ROR optparse: [0.23223 s] timeout
+   - [# 912] ROR optparse: [0.23276 s] timeout
+   - [# 913] ROR optparse: [0.23115 s] timeout
+   - [# 914] ROR optparse: [0.23223 s] timeout
+   - [# 915] ROR optparse: [0.23345 s] timeout
+   - [# 916] ROR optparse: [0.22908 s] timeout
+   - [# 917] ROR optparse: [0.01620 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 918] ROR optparse: [0.01147 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 919] ROR optparse: [0.00949 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 920] ROR optparse: [0.01009 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 921] ROR optparse: [0.22691 s] timeout
+   - [# 922] ROR optparse: [0.01881 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 923] ROR optparse: [0.01204 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 924] ROR optparse: [0.00979 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 925] ROR optparse: [0.01111 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 926] ROR optparse: [0.01112 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 927] ROR optparse: [0.01081 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 928] ROR optparse: [0.22646 s] timeout
+   - [# 929] ROR optparse: [0.02001 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 930] ROR optparse: [0.01116 s] killed by test_abbrev_callback_expansion (test_optparse.TestCallbackCheckAbbrev)
+   - [# 931] SCI optparse: [0.22746 s] timeout
+   - [# 932] SCI optparse: [0.23081 s] timeout
+   - [# 933] SCI optparse: [0.23292 s] timeout
+   - [# 934] SCI optparse: [0.23180 s] timeout
+   - [# 935] SCI optparse: [0.23330 s] timeout
+   - [# 936] SCI optparse: [0.23336 s] timeout
+   - [# 937] SCI optparse: [0.23260 s] timeout
+   - [# 938] SCI optparse: [0.23224 s] timeout
+   - [# 939] SCI optparse: [0.22786 s] timeout
+   - [# 940] SCI optparse: [0.23293 s] timeout
+   - [# 941] SCI optparse: [0.02038 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 942] SCI optparse: [0.22815 s] timeout
+   - [# 943] SCI optparse: [0.23229 s] timeout
+   - [# 944] SCI optparse: [0.23206 s] timeout
+   - [# 945] SCI optparse: [0.22691 s] timeout
+   - [# 946] SCI optparse: [0.23208 s] timeout
+   - [# 947] SCI optparse: [0.23204 s] timeout
+   - [# 948] SCI optparse: [0.23125 s] timeout
+   - [# 949] SCI optparse: [0.23287 s] timeout
+   - [# 950] SCI optparse: [0.22784 s] timeout
+   - [# 951] SCI optparse: [0.01590 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 952] SCI optparse: [0.22694 s] timeout
+   - [# 953] SIR optparse: [0.01177 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 954] SIR optparse: [0.22748 s] timeout
+   - [# 955] SIR optparse: [0.23341 s] timeout
+   - [# 956] SIR optparse: [0.23237 s] timeout
+   - [# 957] SIR optparse: [0.23378 s] timeout
+   - [# 958] SIR optparse: [0.23185 s] timeout
+   - [# 959] SIR optparse: [0.01881 s] killed by test_bool_default (test_optparse.TestBool)
+   - [# 960] SIR optparse: [0.01128 s] killed by test_callback_help (test_optparse.TestCallback)
+   - [# 961] SIR optparse: [0.22707 s] timeout
+   - [# 962] SIR optparse: [0.23156 s] timeout
+   - [# 963] SIR optparse: [0.22939 s] timeout
+   - [# 964] SIR optparse: [0.02076 s] killed by test_callback (test_optparse.TestCallback)
+   - [# 965] SIR optparse: [0.01214 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 966] SIR optparse: [0.22664 s] timeout
+   - [# 967] SIR optparse: [0.02177 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 968] SIR optparse: [0.22918 s] timeout
+   - [# 969] SIR optparse: [0.23311 s] timeout
+   - [# 970] SIR optparse: [0.01867 s] killed by test_bool_false (test_optparse.TestBool)
+   - [# 971] SIR optparse: [0.01292 s] killed by test_callback_extra_args (test_optparse.TestCallbackExtraArgs)
+   - [# 972] SIR optparse: [0.22781 s] timeout
+   - [# 973] SIR optparse: [0.02180 s] killed by test_many_args (test_optparse.TestCallbackManyArgs)
+   - [# 974] SIR optparse: [0.22814 s] timeout
+   - [# 975] SIR optparse: [0.23287 s] timeout
+   - [# 976] SIR optparse: [0.01703 s] killed by test_callback_help (test_optparse.TestCallback)
+[*] Mutation score [177.26123 s]: 100.0%
+   - all: 976
+   - killed: 332 (34.0%)
+   - survived: 0 (0.0%)
+   - incompetent: 2 (0.2%)
+   - timeout: 642 (65.8%)

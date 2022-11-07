@@ -1,0 +1,191 @@
+[*] Start mutation process:
+   - targets: netrc.py
+   - tests: test_netrc.py
+[*] 15 tests passed:
+   - test_netrc [0.00519 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR netrc: [0.01385 s] survived
+   - [#   2] AOR netrc: [0.01356 s] survived
+   - [#   3] AOR netrc: [0.01303 s] survived
+   - [#   4] AOR netrc: [0.01428 s] survived
+   - [#   5] AOR netrc: [0.01632 s] survived
+   - [#   6] AOR netrc: [0.01616 s] survived
+   - [#   7] AOR netrc: [0.01775 s] survived
+   - [#   8] ASR netrc: [0.21458 s] timeout
+   - [#   9] ASR netrc: [0.21854 s] timeout
+   - [#  10] ASR netrc: [0.22068 s] timeout
+   - [#  11] ASR netrc: [0.22116 s] timeout
+   - [#  12] ASR netrc: [0.03183 s] survived
+   - [#  13] ASR netrc: [0.02125 s] survived
+   - [#  14] ASR netrc: [0.01601 s] survived
+   - [#  15] BCR netrc: [0.21326 s] timeout
+   - [#  16] BCR netrc: [0.00861 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  17] BCR netrc: [0.21322 s] timeout
+   - [#  18] BCR netrc: [0.01323 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  19] BCR netrc: [0.21356 s] timeout
+   - [#  20] COD netrc: [0.00924 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  21] COD netrc: [0.01469 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  22] COI netrc: [0.00955 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  23] COI netrc: [0.00927 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  24] COI netrc: [0.00961 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  25] COI netrc: [0.00946 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  26] COI netrc: [0.00958 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  27] COI netrc: [0.00928 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  28] COI netrc: [0.01156 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  29] COI netrc: [0.01302 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  30] COI netrc: [0.01294 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  31] COI netrc: [0.01357 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  32] COI netrc: [0.01001 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  33] COI netrc: [0.00953 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  34] COI netrc: [0.00985 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  35] COI netrc: [0.00969 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  36] COI netrc: [0.00965 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  37] COI netrc: [0.01022 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  38] COI netrc: [0.00957 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  39] COI netrc: [0.01433 s] killed by test_security (test_netrc.NetrcTestCase)
+   - [#  40] COI netrc: [0.01509 s] killed by test_home_not_set (test_netrc.NetrcTestCase)
+   - [#  41] COI netrc: [0.01308 s] killed by test_home_not_set (test_netrc.NetrcTestCase)
+   - [#  42] COI netrc: [0.21430 s] timeout
+   - [#  43] COI netrc: [0.21938 s] timeout
+   - [#  44] COI netrc: [0.02484 s] survived
+   - [#  45] COI netrc: [0.01447 s] survived
+   - [#  46] COI netrc: [0.01337 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  47] COI netrc: [0.00000 s] incompetent
+   - [#  48] CRP netrc: [0.01364 s] survived
+   - [#  49] CRP netrc: [0.01515 s] survived
+   - [#  50] CRP netrc: [0.01534 s] survived
+   - [#  51] CRP netrc: [0.01408 s] survived
+   - [#  52] CRP netrc: [0.01415 s] survived
+   - [#  53] CRP netrc: [0.01363 s] survived
+   - [#  54] CRP netrc: [0.01428 s] killed by test_file_not_found_in_home (test_netrc.NetrcTestCase)
+   - [#  55] CRP netrc: [0.01309 s] killed by test_home_not_set (test_netrc.NetrcTestCase)
+   - [#  56] CRP netrc: [0.01190 s] killed by test_home_not_set (test_netrc.NetrcTestCase)
+   - [#  57] CRP netrc: [0.01217 s] killed by test_file_not_found_in_home (test_netrc.NetrcTestCase)
+   - [#  58] CRP netrc: [0.00878 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  59] CRP netrc: [0.00951 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  60] CRP netrc: [0.00987 s] killed by test_comment_at_end_of_machine_line_pass_has_hash (test_netrc.NetrcTestCase)
+   - [#  61] CRP netrc: [0.00981 s] killed by test_comment_at_end_of_machine_line_pass_has_hash (test_netrc.NetrcTestCase)
+   - [#  62] CRP netrc: [0.00843 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  63] CRP netrc: [0.01353 s] survived
+   - [#  64] CRP netrc: [0.00977 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  65] CRP netrc: [0.00945 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  66] CRP netrc: [0.00958 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  67] CRP netrc: [0.00919 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  68] CRP netrc: [0.00938 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  69] CRP netrc: [0.00926 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  70] CRP netrc: [0.01292 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  71] CRP netrc: [0.01198 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  72] CRP netrc: [0.01136 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  73] CRP netrc: [0.01196 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  74] CRP netrc: [0.01253 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  75] CRP netrc: [0.01258 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  76] CRP netrc: [0.01360 s] survived
+   - [#  77] CRP netrc: [0.01327 s] survived
+   - [#  78] CRP netrc: [0.01401 s] survived
+   - [#  79] CRP netrc: [0.01375 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  80] CRP netrc: [0.01316 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  81] CRP netrc: [0.01244 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  82] CRP netrc: [0.01329 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [#  83] CRP netrc: [0.01333 s] survived
+   - [#  84] CRP netrc: [0.01296 s] survived
+   - [#  85] CRP netrc: [0.01354 s] survived
+   - [#  86] CRP netrc: [0.01332 s] survived
+   - [#  87] CRP netrc: [0.00911 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  88] CRP netrc: [0.01006 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  89] CRP netrc: [0.00936 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  90] CRP netrc: [0.01054 s] killed by test_comment_before_machine_line (test_netrc.NetrcTestCase)
+   - [#  91] CRP netrc: [0.01025 s] killed by test_comment_before_machine_line (test_netrc.NetrcTestCase)
+   - [#  92] CRP netrc: [0.01139 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  93] CRP netrc: [0.01128 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [#  94] CRP netrc: [0.01341 s] survived
+   - [#  95] CRP netrc: [0.01347 s] survived
+   - [#  96] CRP netrc: [0.01339 s] survived
+   - [#  97] CRP netrc: [0.01293 s] survived
+   - [#  98] CRP netrc: [0.00947 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [#  99] CRP netrc: [0.00897 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 100] CRP netrc: [0.01355 s] survived
+   - [# 101] CRP netrc: [0.01378 s] survived
+   - [# 102] CRP netrc: [0.01096 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 103] CRP netrc: [0.01124 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 104] CRP netrc: [0.00910 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 105] CRP netrc: [0.00969 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 106] CRP netrc: [0.01353 s] killed by test_security (test_netrc.NetrcTestCase)
+   - [# 107] CRP netrc: [0.01372 s] killed by test_security (test_netrc.NetrcTestCase)
+   - [# 108] CRP netrc: [0.01361 s] survived
+   - [# 109] CRP netrc: [0.01327 s] survived
+   - [# 110] CRP netrc: [0.01362 s] survived
+   - [# 111] CRP netrc: [0.01378 s] survived
+   - [# 112] CRP netrc: [0.01356 s] survived
+   - [# 113] CRP netrc: [0.01436 s] survived
+   - [# 114] CRP netrc: [0.01331 s] survived
+   - [# 115] CRP netrc: [0.01367 s] survived
+   - [# 116] CRP netrc: [0.01329 s] survived
+   - [# 117] CRP netrc: [0.01531 s] survived
+   - [# 118] CRP netrc: [0.01519 s] survived
+   - [# 119] CRP netrc: [0.01377 s] survived
+   - [# 120] CRP netrc: [0.01421 s] survived
+   - [# 121] CRP netrc: [0.01434 s] survived
+   - [# 122] CRP netrc: [0.01343 s] survived
+   - [# 123] CRP netrc: [0.01304 s] survived
+   - [# 124] CRP netrc: [0.01187 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 125] CRP netrc: [0.01172 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 126] CRP netrc: [0.01146 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 127] CRP netrc: [0.01241 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 128] CRP netrc: [0.01216 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 129] CRP netrc: [0.01216 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 130] CRP netrc: [0.01248 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 131] CRP netrc: [0.01352 s] survived
+   - [# 132] CRP netrc: [0.01170 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 133] CRP netrc: [0.01140 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 134] CRP netrc: [0.01127 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 135] CRP netrc: [0.01230 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 136] CRP netrc: [0.01352 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 137] CRP netrc: [0.01636 s] survived
+   - [# 138] CRP netrc: [0.01193 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 139] CRP netrc: [0.01184 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 140] CRP netrc: [0.01122 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 141] CRP netrc: [0.01240 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 142] CRP netrc: [0.01180 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 143] CRP netrc: [0.01334 s] survived
+   - [# 144] CRP netrc: [0.01310 s] survived
+   - [# 145] CRP netrc: [0.01327 s] survived
+   - [# 146] CRP netrc: [0.01364 s] survived
+   - [# 147] CRP netrc: [0.01424 s] survived
+   - [# 148] CRP netrc: [0.01335 s] survived
+   - [# 149] CRP netrc: [0.01341 s] survived
+   - [# 150] CRP netrc: [0.01326 s] survived
+   - [# 151] EHD netrc: [0.01370 s] survived
+   - [# 152] EHD netrc: [0.01335 s] survived
+   - [# 153] EXS netrc: [0.01331 s] survived
+   - [# 154] EXS netrc: [0.01299 s] survived
+   - [# 155] IOD netrc: [0.01350 s] survived
+   - [# 156] IOD netrc: [0.01338 s] survived
+   - [# 157] LCR netrc: [0.00974 s] killed by test_comment_at_end_of_machine_line_no_space (test_netrc.NetrcTestCase)
+   - [# 158] LCR netrc: [0.21309 s] timeout
+   - [# 159] LCR netrc: [0.01019 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 160] LCR netrc: [0.00987 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 161] LCR netrc: [0.01460 s] survived
+   - [# 162] LOR netrc: [0.01260 s] killed by test_home_not_set (test_netrc.NetrcTestCase)
+   - [# 163] LOR netrc: [0.01419 s] killed by test_security (test_netrc.NetrcTestCase)
+   - [# 164] ROR netrc: [0.01050 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 165] ROR netrc: [0.00966 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 166] ROR netrc: [0.00978 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 167] ROR netrc: [0.00969 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 168] ROR netrc: [0.01153 s] killed by test_default (test_netrc.NetrcTestCase)
+   - [# 169] ROR netrc: [0.01431 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [# 170] ROR netrc: [0.01553 s] killed by test_macros (test_netrc.NetrcTestCase)
+   - [# 171] ROR netrc: [0.01026 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 172] ROR netrc: [0.00940 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 173] ROR netrc: [0.00987 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 174] ROR netrc: [0.00955 s] killed by test_comment_at_end_of_machine_line (test_netrc.NetrcTestCase)
+   - [# 175] ROR netrc: [0.01395 s] killed by test_security (test_netrc.NetrcTestCase)
+   - [# 176] ROR netrc: [0.01441 s] killed by test_home_not_set (test_netrc.NetrcTestCase)
+   - [# 177] ROR netrc: [0.00000 s] incompetent
+   - [# 178] SCI netrc: [0.21535 s] timeout
+   - [# 179] SCI netrc: [0.02805 s] survived
+[*] Mutation score [5.39341 s]: 62.7%
+   - all: 179
+   - killed: 100 (55.9%)
+   - survived: 66 (36.9%)
+   - incompetent: 2 (1.1%)
+   - timeout: 11 (6.1%)

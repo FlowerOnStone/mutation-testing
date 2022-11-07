@@ -1,0 +1,6 @@
+[*] Start mutation process:
+   - targets: gettext.py
+   - tests: test_gettext.py
+[*] 51 tests passed:
+   - test_gettext [0.04965 s]
+[*] Start mutants generation and execution:

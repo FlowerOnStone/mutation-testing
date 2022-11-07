@@ -1,0 +1,6 @@
+[*] Start mutation process:
+   - targets: linecache.py
+   - tests: test_linecache.py
+[*] 19 tests passed:
+   - test_linecache [0.00560 s]
+[*] Start mutants generation and execution:

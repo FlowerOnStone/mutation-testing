@@ -1,0 +1,6 @@
+[*] Start mutation process:
+   - targets: smtpd.py
+   - tests: test_smtpd.py
+[*] 153 tests passed:
+   - test_smtpd [0.03712 s]
+[*] Start mutants generation and execution:

@@ -1,0 +1,336 @@
+[*] Start mutation process:
+   - targets: sndhdr.py
+   - tests: test_sndhdr.py
+[*] 2 tests passed:
+   - test_sndhdr [0.00525 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD sndhdr: [0.00946 s] survived
+   - [#   2] AOD sndhdr: [0.00918 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#   3] AOD sndhdr: [0.00964 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#   4] AOD sndhdr: [0.00855 s] survived
+   - [#   5] AOR sndhdr: [0.00932 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#   6] AOR sndhdr: [0.00875 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#   7] AOR sndhdr: [0.00915 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#   8] AOR sndhdr: [0.00943 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#   9] AOR sndhdr: [0.00941 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  10] AOR sndhdr: [0.00921 s] survived
+   - [#  11] AOR sndhdr: [0.00949 s] survived
+   - [#  12] AOR sndhdr: [0.00890 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  13] AOR sndhdr: [0.00883 s] survived
+   - [#  14] AOR sndhdr: [0.00908 s] survived
+   - [#  15] AOR sndhdr: [0.00928 s] survived
+   - [#  16] AOR sndhdr: [0.00947 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  17] AOR sndhdr: [0.00870 s] survived
+   - [#  18] AOR sndhdr: [0.00889 s] survived
+   - [#  19] AOR sndhdr: [0.00876 s] survived
+   - [#  20] AOR sndhdr: [0.00886 s] survived
+   - [#  21] AOR sndhdr: [0.00930 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  22] AOR sndhdr: [0.01026 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  23] AOR sndhdr: [0.00849 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  24] AOR sndhdr: [0.00898 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  25] AOR sndhdr: [0.00876 s] survived
+   - [#  26] AOR sndhdr: [0.00886 s] survived
+   - [#  27] AOR sndhdr: [0.00914 s] survived
+   - [#  28] COD sndhdr: [0.00866 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  29] COD sndhdr: [0.00874 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  30] COD sndhdr: [0.00867 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  31] COD sndhdr: [0.00820 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  32] COI sndhdr: [0.21155 s] timeout
+   - [#  33] COI sndhdr: [0.00863 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  34] COI sndhdr: [0.00882 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  35] COI sndhdr: [0.00845 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  36] COI sndhdr: [0.00872 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  37] COI sndhdr: [0.00858 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  38] COI sndhdr: [0.00933 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  39] COI sndhdr: [0.00906 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  40] COI sndhdr: [0.00946 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  41] COI sndhdr: [0.01049 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  42] COI sndhdr: [0.01010 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  43] COI sndhdr: [0.00939 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  44] COI sndhdr: [0.01003 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  45] COI sndhdr: [0.00909 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  46] COI sndhdr: [0.00993 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  47] COI sndhdr: [0.00911 s] survived
+   - [#  48] COI sndhdr: [0.00826 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  49] COI sndhdr: [0.00869 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  50] COI sndhdr: [0.00825 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  51] COI sndhdr: [0.00933 s] survived
+   - [#  52] COI sndhdr: [0.00826 s] survived
+   - [#  53] COI sndhdr: [0.00853 s] survived
+   - [#  54] COI sndhdr: [0.00846 s] survived
+   - [#  55] COI sndhdr: [0.00827 s] survived
+   - [#  56] COI sndhdr: [0.00886 s] survived
+   - [#  57] COI sndhdr: [0.00825 s] survived
+   - [#  58] CRP sndhdr: [0.00837 s] survived
+   - [#  59] CRP sndhdr: [0.00792 s] survived
+   - [#  60] CRP sndhdr: [0.00880 s] survived
+   - [#  61] CRP sndhdr: [0.00819 s] survived
+   - [#  62] CRP sndhdr: [0.00909 s] killed by test_pickleable (test_sndhdr.TestFormats)
+   - [#  63] CRP sndhdr: [0.00000 s] incompetent
+   - [#  64] CRP sndhdr: [0.00000 s] incompetent
+   - [#  65] CRP sndhdr: [0.00000 s] incompetent
+   - [#  66] CRP sndhdr: [0.00825 s] survived
+   - [#  67] CRP sndhdr: [0.00901 s] survived
+   - [#  68] CRP sndhdr: [0.00866 s] survived
+   - [#  69] CRP sndhdr: [0.00828 s] survived
+   - [#  70] CRP sndhdr: [0.00851 s] survived
+   - [#  71] CRP sndhdr: [0.00853 s] survived
+   - [#  72] CRP sndhdr: [0.00842 s] survived
+   - [#  73] CRP sndhdr: [0.00780 s] survived
+   - [#  74] CRP sndhdr: [0.00847 s] survived
+   - [#  75] CRP sndhdr: [0.00785 s] survived
+   - [#  76] CRP sndhdr: [0.00869 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  77] CRP sndhdr: [0.00784 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  78] CRP sndhdr: [0.00855 s] survived
+   - [#  79] CRP sndhdr: [0.00818 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  80] CRP sndhdr: [0.00866 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  81] CRP sndhdr: [0.00894 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  82] CRP sndhdr: [0.00856 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  83] CRP sndhdr: [0.00827 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  84] CRP sndhdr: [0.00791 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  85] CRP sndhdr: [0.00882 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  86] CRP sndhdr: [0.00822 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  87] CRP sndhdr: [0.00873 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  88] CRP sndhdr: [0.00776 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  89] CRP sndhdr: [0.00831 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  90] CRP sndhdr: [0.00850 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  91] CRP sndhdr: [0.00872 s] survived
+   - [#  92] CRP sndhdr: [0.00877 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  93] CRP sndhdr: [0.00881 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  94] CRP sndhdr: [0.00911 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  95] CRP sndhdr: [0.00856 s] survived
+   - [#  96] CRP sndhdr: [0.00859 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  97] CRP sndhdr: [0.00856 s] survived
+   - [#  98] CRP sndhdr: [0.00881 s] killed by test_data (test_sndhdr.TestFormats)
+   - [#  99] CRP sndhdr: [0.00842 s] survived
+   - [# 100] CRP sndhdr: [0.00885 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 101] CRP sndhdr: [0.00808 s] survived
+   - [# 102] CRP sndhdr: [0.00907 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 103] CRP sndhdr: [0.00884 s] survived
+   - [# 104] CRP sndhdr: [0.00928 s] survived
+   - [# 105] CRP sndhdr: [0.00871 s] survived
+   - [# 106] CRP sndhdr: [0.00904 s] survived
+   - [# 107] CRP sndhdr: [0.00846 s] survived
+   - [# 108] CRP sndhdr: [0.00920 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 109] CRP sndhdr: [0.00855 s] survived
+   - [# 110] CRP sndhdr: [0.00889 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 111] CRP sndhdr: [0.00950 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 112] CRP sndhdr: [0.00912 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 113] CRP sndhdr: [0.00853 s] survived
+   - [# 114] CRP sndhdr: [0.00834 s] survived
+   - [# 115] CRP sndhdr: [0.00867 s] survived
+   - [# 116] CRP sndhdr: [0.00879 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 117] CRP sndhdr: [0.00858 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 118] CRP sndhdr: [0.00798 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 119] CRP sndhdr: [0.00885 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 120] CRP sndhdr: [0.00825 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 121] CRP sndhdr: [0.00936 s] survived
+   - [# 122] CRP sndhdr: [0.01064 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 123] CRP sndhdr: [0.00905 s] survived
+   - [# 124] CRP sndhdr: [0.00952 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 125] CRP sndhdr: [0.00961 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 126] CRP sndhdr: [0.00938 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 127] CRP sndhdr: [0.00970 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 128] CRP sndhdr: [0.00944 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 129] CRP sndhdr: [0.00924 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 130] CRP sndhdr: [0.00844 s] survived
+   - [# 131] CRP sndhdr: [0.00960 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 132] CRP sndhdr: [0.00882 s] survived
+   - [# 133] CRP sndhdr: [0.00912 s] survived
+   - [# 134] CRP sndhdr: [0.00897 s] survived
+   - [# 135] CRP sndhdr: [0.00971 s] survived
+   - [# 136] CRP sndhdr: [0.00907 s] survived
+   - [# 137] CRP sndhdr: [0.00926 s] survived
+   - [# 138] CRP sndhdr: [0.00934 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 139] CRP sndhdr: [0.00981 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 140] CRP sndhdr: [0.01006 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 141] CRP sndhdr: [0.00926 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 142] CRP sndhdr: [0.00960 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 143] CRP sndhdr: [0.01000 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 144] CRP sndhdr: [0.00947 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 145] CRP sndhdr: [0.00895 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 146] CRP sndhdr: [0.00900 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 147] CRP sndhdr: [0.00843 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 148] CRP sndhdr: [0.00912 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 149] CRP sndhdr: [0.00869 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 150] CRP sndhdr: [0.00929 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 151] CRP sndhdr: [0.00890 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 152] CRP sndhdr: [0.00903 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 153] CRP sndhdr: [0.00821 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 154] CRP sndhdr: [0.00826 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 155] CRP sndhdr: [0.00833 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 156] CRP sndhdr: [0.00832 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 157] CRP sndhdr: [0.00918 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 158] CRP sndhdr: [0.00941 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 159] CRP sndhdr: [0.00915 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 160] CRP sndhdr: [0.00949 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 161] CRP sndhdr: [0.00947 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 162] CRP sndhdr: [0.01004 s] survived
+   - [# 163] CRP sndhdr: [0.00967 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 164] CRP sndhdr: [0.00959 s] survived
+   - [# 165] CRP sndhdr: [0.00968 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 166] CRP sndhdr: [0.00937 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 167] CRP sndhdr: [0.00905 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 168] CRP sndhdr: [0.00919 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 169] CRP sndhdr: [0.00895 s] survived
+   - [# 170] CRP sndhdr: [0.00913 s] survived
+   - [# 171] CRP sndhdr: [0.00884 s] survived
+   - [# 172] CRP sndhdr: [0.00929 s] survived
+   - [# 173] CRP sndhdr: [0.00873 s] survived
+   - [# 174] CRP sndhdr: [0.00920 s] survived
+   - [# 175] CRP sndhdr: [0.00835 s] survived
+   - [# 176] CRP sndhdr: [0.00935 s] survived
+   - [# 177] CRP sndhdr: [0.00880 s] survived
+   - [# 178] CRP sndhdr: [0.00916 s] survived
+   - [# 179] CRP sndhdr: [0.00888 s] survived
+   - [# 180] CRP sndhdr: [0.00977 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 181] CRP sndhdr: [0.00898 s] survived
+   - [# 182] CRP sndhdr: [0.00994 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 183] CRP sndhdr: [0.00937 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 184] CRP sndhdr: [0.00939 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 185] CRP sndhdr: [0.00897 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 186] CRP sndhdr: [0.00946 s] survived
+   - [# 187] CRP sndhdr: [0.00884 s] survived
+   - [# 188] CRP sndhdr: [0.00912 s] survived
+   - [# 189] CRP sndhdr: [0.01009 s] survived
+   - [# 190] CRP sndhdr: [0.00934 s] survived
+   - [# 191] CRP sndhdr: [0.00940 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 192] CRP sndhdr: [0.00953 s] survived
+   - [# 193] CRP sndhdr: [0.00868 s] survived
+   - [# 194] CRP sndhdr: [0.00902 s] survived
+   - [# 195] CRP sndhdr: [0.00922 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 196] CRP sndhdr: [0.00960 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 197] CRP sndhdr: [0.00931 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 198] CRP sndhdr: [0.00928 s] survived
+   - [# 199] CRP sndhdr: [0.00874 s] survived
+   - [# 200] CRP sndhdr: [0.00884 s] survived
+   - [# 201] CRP sndhdr: [0.00843 s] survived
+   - [# 202] CRP sndhdr: [0.00901 s] survived
+   - [# 203] CRP sndhdr: [0.00885 s] survived
+   - [# 204] CRP sndhdr: [0.00968 s] survived
+   - [# 205] CRP sndhdr: [0.01007 s] survived
+   - [# 206] CRP sndhdr: [0.00945 s] survived
+   - [# 207] CRP sndhdr: [0.00901 s] survived
+   - [# 208] CRP sndhdr: [0.00934 s] survived
+   - [# 209] CRP sndhdr: [0.00920 s] survived
+   - [# 210] CRP sndhdr: [0.00949 s] survived
+   - [# 211] CRP sndhdr: [0.00950 s] survived
+   - [# 212] CRP sndhdr: [0.00978 s] survived
+   - [# 213] CRP sndhdr: [0.00945 s] survived
+   - [# 214] CRP sndhdr: [0.00939 s] survived
+   - [# 215] CRP sndhdr: [0.00967 s] survived
+   - [# 216] CRP sndhdr: [0.00940 s] survived
+   - [# 217] CRP sndhdr: [0.00970 s] survived
+   - [# 218] CRP sndhdr: [0.00943 s] survived
+   - [# 219] CRP sndhdr: [0.01005 s] survived
+   - [# 220] CRP sndhdr: [0.01008 s] survived
+   - [# 221] CRP sndhdr: [0.00955 s] survived
+   - [# 222] CRP sndhdr: [0.00948 s] survived
+   - [# 223] CRP sndhdr: [0.00929 s] survived
+   - [# 224] CRP sndhdr: [0.00891 s] survived
+   - [# 225] CRP sndhdr: [0.00941 s] survived
+   - [# 226] CRP sndhdr: [0.00915 s] survived
+   - [# 227] CRP sndhdr: [0.00912 s] survived
+   - [# 228] CRP sndhdr: [0.00902 s] survived
+   - [# 229] CRP sndhdr: [0.00912 s] survived
+   - [# 230] CRP sndhdr: [0.00907 s] survived
+   - [# 231] CRP sndhdr: [0.00934 s] survived
+   - [# 232] CRP sndhdr: [0.00917 s] survived
+   - [# 233] CRP sndhdr: [0.00951 s] survived
+   - [# 234] EHD sndhdr: [0.00951 s] survived
+   - [# 235] EHD sndhdr: [0.00958 s] survived
+   - [# 236] EHD sndhdr: [0.00950 s] survived
+   - [# 237] EHD sndhdr: [0.00887 s] survived
+   - [# 238] EXS sndhdr: [0.00948 s] survived
+   - [# 239] EXS sndhdr: [0.00937 s] survived
+   - [# 240] EXS sndhdr: [0.00887 s] survived
+   - [# 241] EXS sndhdr: [0.00901 s] survived
+   - [# 242] LCR sndhdr: [0.00909 s] survived
+   - [# 243] LCR sndhdr: [0.00933 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 244] LCR sndhdr: [0.00889 s] survived
+   - [# 245] LCR sndhdr: [0.00883 s] survived
+   - [# 246] LCR sndhdr: [0.00916 s] survived
+   - [# 247] LCR sndhdr: [0.00885 s] survived
+   - [# 248] LOR sndhdr: [0.00942 s] survived
+   - [# 249] LOR sndhdr: [0.00887 s] survived
+   - [# 250] LOR sndhdr: [0.00917 s] survived
+   - [# 251] LOR sndhdr: [0.00894 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 252] LOR sndhdr: [0.00941 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 253] LOR sndhdr: [0.00912 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 254] LOR sndhdr: [0.00975 s] survived
+   - [# 255] LOR sndhdr: [0.00927 s] survived
+   - [# 256] LOR sndhdr: [0.00911 s] survived
+   - [# 257] LOR sndhdr: [0.00873 s] survived
+   - [# 258] LOR sndhdr: [0.00884 s] survived
+   - [# 259] LOR sndhdr: [0.00920 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 260] LOR sndhdr: [0.00908 s] survived
+   - [# 261] LOR sndhdr: [0.00852 s] survived
+   - [# 262] LOR sndhdr: [0.00943 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 263] LOR sndhdr: [0.00908 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 264] ROR sndhdr: [0.00893 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 265] ROR sndhdr: [0.00942 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 266] ROR sndhdr: [0.00907 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 267] ROR sndhdr: [0.00938 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 268] ROR sndhdr: [0.00893 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 269] ROR sndhdr: [0.00868 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 270] ROR sndhdr: [0.00950 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 271] ROR sndhdr: [0.00871 s] survived
+   - [# 272] ROR sndhdr: [0.00826 s] survived
+   - [# 273] ROR sndhdr: [0.00913 s] survived
+   - [# 274] ROR sndhdr: [0.00812 s] survived
+   - [# 275] ROR sndhdr: [0.00954 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 276] ROR sndhdr: [0.00871 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 277] ROR sndhdr: [0.00959 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 278] ROR sndhdr: [0.00847 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 279] ROR sndhdr: [0.00910 s] survived
+   - [# 280] ROR sndhdr: [0.00962 s] survived
+   - [# 281] ROR sndhdr: [0.00913 s] survived
+   - [# 282] ROR sndhdr: [0.00899 s] survived
+   - [# 283] ROR sndhdr: [0.00912 s] survived
+   - [# 284] ROR sndhdr: [0.00916 s] survived
+   - [# 285] SIR sndhdr: [0.01020 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 286] SIR sndhdr: [0.00860 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 287] SIR sndhdr: [0.00875 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 288] SIR sndhdr: [0.00879 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 289] SIR sndhdr: [0.00930 s] survived
+   - [# 290] SIR sndhdr: [0.00871 s] survived
+   - [# 291] SIR sndhdr: [0.00911 s] survived
+   - [# 292] SIR sndhdr: [0.00894 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 293] SIR sndhdr: [0.00967 s] survived
+   - [# 294] SIR sndhdr: [0.00948 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 295] SIR sndhdr: [0.00952 s] survived
+   - [# 296] SIR sndhdr: [0.00977 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 297] SIR sndhdr: [0.00924 s] survived
+   - [# 298] SIR sndhdr: [0.00997 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 299] SIR sndhdr: [0.00952 s] survived
+   - [# 300] SIR sndhdr: [0.01936 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 301] SIR sndhdr: [0.01799 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 302] SIR sndhdr: [0.00959 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 303] SIR sndhdr: [0.00917 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 304] SIR sndhdr: [0.00937 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 305] SIR sndhdr: [0.00929 s] survived
+   - [# 306] SIR sndhdr: [0.00937 s] survived
+   - [# 307] SIR sndhdr: [0.00856 s] survived
+   - [# 308] SIR sndhdr: [0.00873 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 309] SIR sndhdr: [0.00910 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 310] SIR sndhdr: [0.00933 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 311] SIR sndhdr: [0.00883 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 312] SIR sndhdr: [0.00854 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 313] SIR sndhdr: [0.00828 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 314] SIR sndhdr: [0.00961 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 315] SIR sndhdr: [0.00911 s] survived
+   - [# 316] SIR sndhdr: [0.00915 s] killed by test_data (test_sndhdr.TestFormats)
+   - [# 317] SIR sndhdr: [0.00870 s] survived
+   - [# 318] SIR sndhdr: [0.00922 s] survived
+   - [# 319] SIR sndhdr: [0.00858 s] survived
+   - [# 320] SIR sndhdr: [0.00899 s] survived
+   - [# 321] SIR sndhdr: [0.00925 s] survived
+   - [# 322] SIR sndhdr: [0.00885 s] survived
+   - [# 323] SIR sndhdr: [0.00926 s] survived
+   - [# 324] SIR sndhdr: [0.00884 s] survived
+[*] Mutation score [4.49459 s]: 47.0%
+   - all: 324
+   - killed: 150 (46.3%)
+   - survived: 170 (52.5%)
+   - incompetent: 3 (0.9%)
+   - timeout: 1 (0.3%)

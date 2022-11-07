@@ -1,0 +1,164 @@
+[*] Start mutation process:
+   - targets: fnmatch.py
+   - tests: test_fnmatch.py
+[*] 12 tests passed:
+   - test_fnmatch [0.00248 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR fnmatch: [0.00921 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#   2] AOR fnmatch: [0.20953 s] timeout
+   - [#   3] AOR fnmatch: [0.20969 s] timeout
+   - [#   4] AOR fnmatch: [0.00877 s] survived
+   - [#   5] AOR fnmatch: [0.00854 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#   6] AOR fnmatch: [0.20890 s] timeout
+   - [#   7] AOR fnmatch: [0.20941 s] timeout
+   - [#   8] AOR fnmatch: [0.00995 s] survived
+   - [#   9] AOR fnmatch: [0.00819 s] survived
+   - [#  10] AOR fnmatch: [0.00862 s] survived
+   - [#  11] AOR fnmatch: [0.00800 s] survived
+   - [#  12] AOR fnmatch: [0.00920 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  13] AOR fnmatch: [0.20922 s] timeout
+   - [#  14] AOR fnmatch: [0.21180 s] timeout
+   - [#  15] AOR fnmatch: [0.21293 s] timeout
+   - [#  16] AOR fnmatch: [0.21341 s] timeout
+   - [#  17] AOR fnmatch: [0.21363 s] timeout
+   - [#  18] BCR fnmatch: [0.00848 s] survived
+   - [#  19] COD fnmatch: [0.00861 s] survived
+   - [#  20] COI fnmatch: [0.20952 s] timeout
+   - [#  21] COI fnmatch: [0.00891 s] survived
+   - [#  22] COI fnmatch: [0.00844 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  23] COI fnmatch: [0.00863 s] survived
+   - [#  24] COI fnmatch: [0.00911 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  25] COI fnmatch: [0.00904 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  26] COI fnmatch: [0.00902 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  27] COI fnmatch: [0.00926 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  28] COI fnmatch: [0.00899 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  29] COI fnmatch: [0.00929 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  30] COI fnmatch: [0.00924 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  31] COI fnmatch: [0.00921 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  32] COI fnmatch: [0.00883 s] survived
+   - [#  33] COI fnmatch: [0.00862 s] survived
+   - [#  34] COI fnmatch: [0.00899 s] survived
+   - [#  35] COI fnmatch: [0.00951 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  36] COI fnmatch: [0.00967 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  37] COI fnmatch: [0.00924 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  38] CRP fnmatch: [0.00862 s] survived
+   - [#  39] CRP fnmatch: [0.00899 s] survived
+   - [#  40] CRP fnmatch: [0.00856 s] survived
+   - [#  41] CRP fnmatch: [0.00880 s] survived
+   - [#  42] CRP fnmatch: [0.00893 s] survived
+   - [#  43] CRP fnmatch: [0.00899 s] survived
+   - [#  44] CRP fnmatch: [0.00859 s] survived
+   - [#  45] CRP fnmatch: [0.00882 s] survived
+   - [#  46] CRP fnmatch: [0.00887 s] killed by test_filter (test_fnmatch.FilterTestCase)
+   - [#  47] CRP fnmatch: [0.00915 s] killed by test_filter (test_fnmatch.FilterTestCase)
+   - [#  48] CRP fnmatch: [0.00897 s] killed by test_filter (test_fnmatch.FilterTestCase)
+   - [#  49] CRP fnmatch: [0.00891 s] killed by test_filter (test_fnmatch.FilterTestCase)
+   - [#  50] CRP fnmatch: [0.00844 s] survived
+   - [#  51] CRP fnmatch: [0.00910 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  52] CRP fnmatch: [0.00888 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  53] CRP fnmatch: [0.00967 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  54] CRP fnmatch: [0.00896 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  55] CRP fnmatch: [0.00926 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  56] CRP fnmatch: [0.00900 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  57] CRP fnmatch: [0.00908 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [#  58] CRP fnmatch: [0.00922 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  59] CRP fnmatch: [0.00978 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  60] CRP fnmatch: [0.00903 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  61] CRP fnmatch: [0.00992 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  62] CRP fnmatch: [0.00911 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  63] CRP fnmatch: [0.00949 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  64] CRP fnmatch: [0.00863 s] survived
+   - [#  65] CRP fnmatch: [0.00916 s] survived
+   - [#  66] CRP fnmatch: [0.00905 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  67] CRP fnmatch: [0.00933 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  68] CRP fnmatch: [0.00981 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  69] CRP fnmatch: [0.00925 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  70] CRP fnmatch: [0.00907 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  71] CRP fnmatch: [0.00897 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  72] CRP fnmatch: [0.00888 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  73] CRP fnmatch: [0.00921 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  74] CRP fnmatch: [0.00866 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  75] CRP fnmatch: [0.00865 s] survived
+   - [#  76] CRP fnmatch: [0.00810 s] survived
+   - [#  77] CRP fnmatch: [0.00813 s] survived
+   - [#  78] CRP fnmatch: [0.00850 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [#  79] CRP fnmatch: [0.00827 s] survived
+   - [#  80] CRP fnmatch: [0.00797 s] survived
+   - [#  81] CRP fnmatch: [0.00810 s] survived
+   - [#  82] CRP fnmatch: [0.00855 s] survived
+   - [#  83] CRP fnmatch: [0.00865 s] survived
+   - [#  84] CRP fnmatch: [0.00838 s] survived
+   - [#  85] CRP fnmatch: [0.00839 s] survived
+   - [#  86] CRP fnmatch: [0.00823 s] survived
+   - [#  87] CRP fnmatch: [0.00836 s] survived
+   - [#  88] CRP fnmatch: [0.00818 s] survived
+   - [#  89] CRP fnmatch: [0.00831 s] survived
+   - [#  90] CRP fnmatch: [0.00828 s] survived
+   - [#  91] CRP fnmatch: [0.00816 s] survived
+   - [#  92] CRP fnmatch: [0.00829 s] survived
+   - [#  93] CRP fnmatch: [0.00793 s] survived
+   - [#  94] CRP fnmatch: [0.00850 s] survived
+   - [#  95] CRP fnmatch: [0.00820 s] survived
+   - [#  96] CRP fnmatch: [0.00874 s] survived
+   - [#  97] CRP fnmatch: [0.00821 s] survived
+   - [#  98] CRP fnmatch: [0.00829 s] survived
+   - [#  99] CRP fnmatch: [0.00824 s] survived
+   - [# 100] CRP fnmatch: [0.01097 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 101] CRP fnmatch: [0.00977 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 102] CRP fnmatch: [0.00830 s] survived
+   - [# 103] CRP fnmatch: [0.00857 s] survived
+   - [# 104] CRP fnmatch: [0.00823 s] survived
+   - [# 105] CRP fnmatch: [0.00886 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 106] CRP fnmatch: [0.00864 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 107] CRP fnmatch: [0.00929 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 108] CRP fnmatch: [0.00905 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 109] CRP fnmatch: [0.00917 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 110] CRP fnmatch: [0.00907 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 111] CRP fnmatch: [0.00914 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 112] CRP fnmatch: [0.00865 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 113] CRP fnmatch: [0.00912 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 114] CRP fnmatch: [0.00821 s] survived
+   - [# 115] CRP fnmatch: [0.00838 s] survived
+   - [# 116] CRP fnmatch: [0.00894 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 117] CRP fnmatch: [0.00929 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 118] CRP fnmatch: [0.20937 s] timeout
+   - [# 119] CRP fnmatch: [0.21174 s] timeout
+   - [# 120] CRP fnmatch: [0.21276 s] timeout
+   - [# 121] CRP fnmatch: [0.21695 s] timeout
+   - [# 122] DDL fnmatch: [0.01762 s] survived
+   - [# 123] LCR fnmatch: [0.00967 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 124] LCR fnmatch: [0.00815 s] survived
+   - [# 125] LCR fnmatch: [0.00864 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 126] ROR fnmatch: [0.00854 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [# 127] ROR fnmatch: [0.00833 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [# 128] ROR fnmatch: [0.00810 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [# 129] ROR fnmatch: [0.00884 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [# 130] ROR fnmatch: [0.00824 s] killed by test_case (test_fnmatch.FilterTestCase)
+   - [# 131] ROR fnmatch: [0.00840 s] survived
+   - [# 132] ROR fnmatch: [0.00863 s] survived
+   - [# 133] ROR fnmatch: [0.00914 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 134] ROR fnmatch: [0.00862 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 135] ROR fnmatch: [0.00825 s] survived
+   - [# 136] ROR fnmatch: [0.00860 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 137] ROR fnmatch: [0.00882 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 138] ROR fnmatch: [0.00855 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 139] ROR fnmatch: [0.00870 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 140] ROR fnmatch: [0.00864 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 141] ROR fnmatch: [0.00894 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 142] ROR fnmatch: [0.00806 s] survived
+   - [# 143] ROR fnmatch: [0.00826 s] survived
+   - [# 144] ROR fnmatch: [0.00816 s] survived
+   - [# 145] ROR fnmatch: [0.00931 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 146] SIR fnmatch: [0.00915 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 147] SIR fnmatch: [0.00870 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+   - [# 148] SIR fnmatch: [0.00809 s] survived
+   - [# 149] SIR fnmatch: [0.00832 s] survived
+   - [# 150] SIR fnmatch: [0.00807 s] survived
+   - [# 151] SIR fnmatch: [0.00849 s] survived
+   - [# 152] SIR fnmatch: [0.00840 s] killed by test_translate (test_fnmatch.TranslateTestCase)
+[*] Mutation score [4.89506 s]: 57.9%
+   - all: 152
+   - killed: 74 (48.7%)
+   - survived: 64 (42.1%)
+   - incompetent: 0 (0.0%)
+   - timeout: 14 (9.2%)

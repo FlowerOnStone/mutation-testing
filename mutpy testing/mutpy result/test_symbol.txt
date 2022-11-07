@@ -1,0 +1,113 @@
+[*] Start mutation process:
+   - targets: symbol.py
+   - tests: test_symbol.py
+[*] 0 tests passed:
+   - test_symbol [0.00006 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR symbol: [0.00762 s] survived
+   - [#   2] COI symbol: [0.00000 s] incompetent
+   - [#   3] COI symbol: [0.00695 s] survived
+   - [#   4] COI symbol: [0.00000 s] incompetent
+   - [#   5] CRP symbol: [0.00726 s] survived
+   - [#   6] CRP symbol: [0.00678 s] survived
+   - [#   7] CRP symbol: [0.00676 s] survived
+   - [#   8] CRP symbol: [0.00689 s] survived
+   - [#   9] CRP symbol: [0.00634 s] survived
+   - [#  10] CRP symbol: [0.00622 s] survived
+   - [#  11] CRP symbol: [0.00672 s] survived
+   - [#  12] CRP symbol: [0.00616 s] survived
+   - [#  13] CRP symbol: [0.00611 s] survived
+   - [#  14] CRP symbol: [0.00657 s] survived
+   - [#  15] CRP symbol: [0.00626 s] survived
+   - [#  16] CRP symbol: [0.00673 s] survived
+   - [#  17] CRP symbol: [0.00662 s] survived
+   - [#  18] CRP symbol: [0.00635 s] survived
+   - [#  19] CRP symbol: [0.00671 s] survived
+   - [#  20] CRP symbol: [0.00671 s] survived
+   - [#  21] CRP symbol: [0.00625 s] survived
+   - [#  22] CRP symbol: [0.00679 s] survived
+   - [#  23] CRP symbol: [0.00636 s] survived
+   - [#  24] CRP symbol: [0.00598 s] survived
+   - [#  25] CRP symbol: [0.00659 s] survived
+   - [#  26] CRP symbol: [0.00629 s] survived
+   - [#  27] CRP symbol: [0.00606 s] survived
+   - [#  28] CRP symbol: [0.00671 s] survived
+   - [#  29] CRP symbol: [0.00657 s] survived
+   - [#  30] CRP symbol: [0.00619 s] survived
+   - [#  31] CRP symbol: [0.00654 s] survived
+   - [#  32] CRP symbol: [0.00642 s] survived
+   - [#  33] CRP symbol: [0.00632 s] survived
+   - [#  34] CRP symbol: [0.00696 s] survived
+   - [#  35] CRP symbol: [0.00630 s] survived
+   - [#  36] CRP symbol: [0.00654 s] survived
+   - [#  37] CRP symbol: [0.00660 s] survived
+   - [#  38] CRP symbol: [0.00599 s] survived
+   - [#  39] CRP symbol: [0.00682 s] survived
+   - [#  40] CRP symbol: [0.00642 s] survived
+   - [#  41] CRP symbol: [0.00611 s] survived
+   - [#  42] CRP symbol: [0.00688 s] survived
+   - [#  43] CRP symbol: [0.00627 s] survived
+   - [#  44] CRP symbol: [0.00608 s] survived
+   - [#  45] CRP symbol: [0.00657 s] survived
+   - [#  46] CRP symbol: [0.00631 s] survived
+   - [#  47] CRP symbol: [0.00593 s] survived
+   - [#  48] CRP symbol: [0.00665 s] survived
+   - [#  49] CRP symbol: [0.00660 s] survived
+   - [#  50] CRP symbol: [0.00612 s] survived
+   - [#  51] CRP symbol: [0.00687 s] survived
+   - [#  52] CRP symbol: [0.00610 s] survived
+   - [#  53] CRP symbol: [0.00663 s] survived
+   - [#  54] CRP symbol: [0.00650 s] survived
+   - [#  55] CRP symbol: [0.00605 s] survived
+   - [#  56] CRP symbol: [0.00643 s] survived
+   - [#  57] CRP symbol: [0.00661 s] survived
+   - [#  58] CRP symbol: [0.00684 s] survived
+   - [#  59] CRP symbol: [0.00668 s] survived
+   - [#  60] CRP symbol: [0.00632 s] survived
+   - [#  61] CRP symbol: [0.00605 s] survived
+   - [#  62] CRP symbol: [0.00674 s] survived
+   - [#  63] CRP symbol: [0.00639 s] survived
+   - [#  64] CRP symbol: [0.00615 s] survived
+   - [#  65] CRP symbol: [0.00661 s] survived
+   - [#  66] CRP symbol: [0.00632 s] survived
+   - [#  67] CRP symbol: [0.00659 s] survived
+   - [#  68] CRP symbol: [0.00702 s] survived
+   - [#  69] CRP symbol: [0.00613 s] survived
+   - [#  70] CRP symbol: [0.00651 s] survived
+   - [#  71] CRP symbol: [0.00652 s] survived
+   - [#  72] CRP symbol: [0.00611 s] survived
+   - [#  73] CRP symbol: [0.00648 s] survived
+   - [#  74] CRP symbol: [0.00647 s] survived
+   - [#  75] CRP symbol: [0.00616 s] survived
+   - [#  76] CRP symbol: [0.00672 s] survived
+   - [#  77] CRP symbol: [0.00662 s] survived
+   - [#  78] CRP symbol: [0.00615 s] survived
+   - [#  79] CRP symbol: [0.00657 s] survived
+   - [#  80] CRP symbol: [0.00647 s] survived
+   - [#  81] CRP symbol: [0.00601 s] survived
+   - [#  82] CRP symbol: [0.00720 s] survived
+   - [#  83] CRP symbol: [0.00712 s] survived
+   - [#  84] CRP symbol: [0.00714 s] survived
+   - [#  85] CRP symbol: [0.00704 s] survived
+   - [#  86] CRP symbol: [0.00735 s] survived
+   - [#  87] CRP symbol: [0.00760 s] survived
+   - [#  88] CRP symbol: [0.00697 s] survived
+   - [#  89] CRP symbol: [0.00616 s] survived
+   - [#  90] CRP symbol: [0.00669 s] survived
+   - [#  91] CRP symbol: [0.00644 s] survived
+   - [#  92] CRP symbol: [0.00660 s] survived
+   - [#  93] CRP symbol: [0.00694 s] survived
+   - [#  94] CRP symbol: [0.00641 s] survived
+   - [#  95] CRP symbol: [0.00612 s] survived
+   - [#  96] CRP symbol: [0.00701 s] survived
+   - [#  97] CRP symbol: [0.00636 s] survived
+   - [#  98] CRP symbol: [0.00608 s] survived
+   - [#  99] CRP symbol: [0.00694 s] survived
+   - [# 100] ROR symbol: [0.00692 s] survived
+   - [# 101] ROR symbol: [0.00000 s] incompetent
+[*] Mutation score [0.98908 s]: 0.0%
+   - all: 101
+   - killed: 0 (0.0%)
+   - survived: 98 (97.0%)
+   - incompetent: 3 (3.0%)
+   - timeout: 0 (0.0%)

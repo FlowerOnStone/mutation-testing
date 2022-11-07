@@ -1,0 +1,2183 @@
+[*] Start mutation process:
+   - targets: datetime.py
+   - tests: test_datetime.py
+[*] 3 tests passed:
+   - test_datetime [0.00128 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD datetime: [0.00919 s] survived
+   - [#   2] AOD datetime: [0.00840 s] survived
+   - [#   3] AOD datetime: [0.00864 s] survived
+   - [#   4] AOD datetime: [0.00861 s] survived
+   - [#   5] AOD datetime: [0.00910 s] survived
+   - [#   6] AOD datetime: [0.00874 s] survived
+   - [#   7] AOD datetime: [0.01274 s] survived
+   - [#   8] AOD datetime: [0.01152 s] survived
+   - [#   9] AOD datetime: [0.00923 s] survived
+   - [#  10] AOD datetime: [0.00935 s] survived
+   - [#  11] AOD datetime: [0.00949 s] survived
+   - [#  12] AOD datetime: [0.00947 s] survived
+   - [#  13] AOD datetime: [0.00960 s] survived
+   - [#  14] AOD datetime: [0.00888 s] survived
+   - [#  15] AOD datetime: [0.01014 s] survived
+   - [#  16] AOD datetime: [0.00907 s] survived
+   - [#  17] AOD datetime: [0.00878 s] survived
+   - [#  18] AOD datetime: [0.00852 s] survived
+   - [#  19] AOD datetime: [0.00870 s] survived
+   - [#  20] AOD datetime: [0.00860 s] survived
+   - [#  21] AOD datetime: [0.00836 s] survived
+   - [#  22] AOD datetime: [0.00890 s] survived
+   - [#  23] AOD datetime: [0.00837 s] survived
+   - [#  24] AOD datetime: [0.00866 s] survived
+   - [#  25] AOD datetime: [0.00926 s] survived
+   - [#  26] AOD datetime: [0.00910 s] survived
+   - [#  27] AOD datetime: [0.00870 s] survived
+   - [#  28] AOD datetime: [0.00914 s] survived
+   - [#  29] AOD datetime: [0.00881 s] survived
+   - [#  30] AOD datetime: [0.00947 s] survived
+   - [#  31] AOD datetime: [0.00881 s] survived
+   - [#  32] AOD datetime: [0.00852 s] survived
+   - [#  33] AOD datetime: [0.00845 s] survived
+   - [#  34] AOD datetime: [0.00838 s] survived
+   - [#  35] AOD datetime: [0.00895 s] survived
+   - [#  36] AOD datetime: [0.00901 s] survived
+   - [#  37] AOD datetime: [0.00892 s] survived
+   - [#  38] AOD datetime: [0.00829 s] survived
+   - [#  39] AOD datetime: [0.00838 s] survived
+   - [#  40] AOD datetime: [0.00850 s] survived
+   - [#  41] AOD datetime: [0.00855 s] survived
+   - [#  42] AOD datetime: [0.00842 s] survived
+   - [#  43] AOD datetime: [0.00841 s] survived
+   - [#  44] AOD datetime: [0.00835 s] survived
+   - [#  45] AOD datetime: [0.00833 s] survived
+   - [#  46] AOD datetime: [0.00858 s] survived
+   - [#  47] AOD datetime: [0.00911 s] survived
+   - [#  48] AOR datetime: [0.00874 s] survived
+   - [#  49] AOR datetime: [0.00823 s] survived
+   - [#  50] AOR datetime: [0.00825 s] survived
+   - [#  51] AOR datetime: [0.00834 s] survived
+   - [#  52] AOR datetime: [0.00863 s] survived
+   - [#  53] AOR datetime: [0.00851 s] survived
+   - [#  54] AOR datetime: [0.00000 s] incompetent
+   - [#  55] AOR datetime: [0.00000 s] incompetent
+   - [#  56] AOR datetime: [0.00000 s] incompetent
+   - [#  57] AOR datetime: [0.00000 s] incompetent
+   - [#  58] AOR datetime: [0.00000 s] incompetent
+   - [#  59] AOR datetime: [0.01171 s] survived
+   - [#  60] AOR datetime: [0.00000 s] incompetent
+   - [#  61] AOR datetime: [0.00000 s] incompetent
+   - [#  62] AOR datetime: [0.00000 s] incompetent
+   - [#  63] AOR datetime: [0.00000 s] incompetent
+   - [#  64] AOR datetime: [0.00000 s] incompetent
+   - [#  65] AOR datetime: [0.00000 s] incompetent
+   - [#  66] AOR datetime: [0.00000 s] incompetent
+   - [#  67] AOR datetime: [0.00912 s] survived
+   - [#  68] AOR datetime: [0.00877 s] survived
+   - [#  69] AOR datetime: [0.00851 s] survived
+   - [#  70] AOR datetime: [0.00856 s] survived
+   - [#  71] AOR datetime: [0.00000 s] incompetent
+   - [#  72] AOR datetime: [0.00000 s] incompetent
+   - [#  73] AOR datetime: [0.00000 s] incompetent
+   - [#  74] AOR datetime: [0.00000 s] incompetent
+   - [#  75] AOR datetime: [0.00000 s] incompetent
+   - [#  76] AOR datetime: [0.00000 s] incompetent
+   - [#  77] AOR datetime: [0.00000 s] incompetent
+   - [#  78] AOR datetime: [0.00000 s] incompetent
+   - [#  79] AOR datetime: [0.00000 s] incompetent
+   - [#  80] AOR datetime: [0.00000 s] incompetent
+   - [#  81] AOR datetime: [0.00000 s] incompetent
+   - [#  82] AOR datetime: [0.00000 s] incompetent
+   - [#  83] AOR datetime: [0.00926 s] survived
+   - [#  84] AOR datetime: [0.00861 s] survived
+   - [#  85] AOR datetime: [0.00873 s] survived
+   - [#  86] AOR datetime: [0.00963 s] survived
+   - [#  87] AOR datetime: [0.00879 s] survived
+   - [#  88] AOR datetime: [0.00890 s] survived
+   - [#  89] AOR datetime: [0.00842 s] survived
+   - [#  90] AOR datetime: [0.00863 s] survived
+   - [#  91] AOR datetime: [0.00853 s] survived
+   - [#  92] AOR datetime: [0.00858 s] survived
+   - [#  93] AOR datetime: [0.00901 s] survived
+   - [#  94] AOR datetime: [0.00959 s] survived
+   - [#  95] AOR datetime: [0.00902 s] survived
+   - [#  96] AOR datetime: [0.00933 s] survived
+   - [#  97] AOR datetime: [0.00899 s] survived
+   - [#  98] AOR datetime: [0.00899 s] survived
+   - [#  99] AOR datetime: [0.00898 s] survived
+   - [# 100] AOR datetime: [0.00912 s] survived
+   - [# 101] AOR datetime: [0.00851 s] survived
+   - [# 102] AOR datetime: [0.00854 s] survived
+   - [# 103] AOR datetime: [0.00871 s] survived
+   - [# 104] AOR datetime: [0.00890 s] survived
+   - [# 105] AOR datetime: [0.00915 s] survived
+   - [# 106] AOR datetime: [0.00861 s] survived
+   - [# 107] AOR datetime: [0.00852 s] survived
+   - [# 108] AOR datetime: [0.00861 s] survived
+   - [# 109] AOR datetime: [0.00849 s] survived
+   - [# 110] AOR datetime: [0.00900 s] survived
+   - [# 111] AOR datetime: [0.00899 s] survived
+   - [# 112] AOR datetime: [0.00877 s] survived
+   - [# 113] AOR datetime: [0.00833 s] survived
+   - [# 114] AOR datetime: [0.00834 s] survived
+   - [# 115] AOR datetime: [0.00838 s] survived
+   - [# 116] AOR datetime: [0.00873 s] survived
+   - [# 117] AOR datetime: [0.00849 s] survived
+   - [# 118] AOR datetime: [0.00834 s] survived
+   - [# 119] AOR datetime: [0.01025 s] survived
+   - [# 120] AOR datetime: [0.00933 s] survived
+   - [# 121] AOR datetime: [0.00919 s] survived
+   - [# 122] AOR datetime: [0.00924 s] survived
+   - [# 123] AOR datetime: [0.00987 s] survived
+   - [# 124] AOR datetime: [0.00869 s] survived
+   - [# 125] AOR datetime: [0.00890 s] survived
+   - [# 126] AOR datetime: [0.00871 s] survived
+   - [# 127] AOR datetime: [0.00908 s] survived
+   - [# 128] AOR datetime: [0.00842 s] survived
+   - [# 129] AOR datetime: [0.00845 s] survived
+   - [# 130] AOR datetime: [0.00894 s] survived
+   - [# 131] AOR datetime: [0.01003 s] survived
+   - [# 132] AOR datetime: [0.00965 s] survived
+   - [# 133] AOR datetime: [0.00931 s] survived
+   - [# 134] AOR datetime: [0.00901 s] survived
+   - [# 135] AOR datetime: [0.00912 s] survived
+   - [# 136] AOR datetime: [0.00876 s] survived
+   - [# 137] AOR datetime: [0.00890 s] survived
+   - [# 138] AOR datetime: [0.00890 s] survived
+   - [# 139] AOR datetime: [0.00906 s] survived
+   - [# 140] AOR datetime: [0.00904 s] survived
+   - [# 141] AOR datetime: [0.00000 s] incompetent
+   - [# 142] AOR datetime: [0.00888 s] survived
+   - [# 143] AOR datetime: [0.00905 s] survived
+   - [# 144] AOR datetime: [0.00881 s] survived
+   - [# 145] AOR datetime: [0.00000 s] incompetent
+   - [# 146] AOR datetime: [0.00884 s] survived
+   - [# 147] AOR datetime: [0.00888 s] survived
+   - [# 148] AOR datetime: [0.00889 s] survived
+   - [# 149] AOR datetime: [0.00887 s] survived
+   - [# 150] AOR datetime: [0.00914 s] survived
+   - [# 151] AOR datetime: [0.00862 s] survived
+   - [# 152] AOR datetime: [0.00852 s] survived
+   - [# 153] AOR datetime: [0.00869 s] survived
+   - [# 154] AOR datetime: [0.00916 s] survived
+   - [# 155] AOR datetime: [0.00905 s] survived
+   - [# 156] AOR datetime: [0.00874 s] survived
+   - [# 157] AOR datetime: [0.00886 s] survived
+   - [# 158] AOR datetime: [0.00000 s] incompetent
+   - [# 159] AOR datetime: [0.00000 s] incompetent
+   - [# 160] AOR datetime: [0.00000 s] incompetent
+   - [# 161] AOR datetime: [0.00000 s] incompetent
+   - [# 162] AOR datetime: [0.00000 s] incompetent
+   - [# 163] AOR datetime: [0.00878 s] survived
+   - [# 164] AOR datetime: [0.00000 s] incompetent
+   - [# 165] AOR datetime: [0.00000 s] incompetent
+   - [# 166] AOR datetime: [0.00853 s] survived
+   - [# 167] AOR datetime: [0.00856 s] survived
+   - [# 168] AOR datetime: [0.00897 s] survived
+   - [# 169] AOR datetime: [0.00926 s] survived
+   - [# 170] AOR datetime: [0.00851 s] survived
+   - [# 171] AOR datetime: [0.00897 s] survived
+   - [# 172] AOR datetime: [0.00860 s] survived
+   - [# 173] AOR datetime: [0.00936 s] survived
+   - [# 174] AOR datetime: [0.00000 s] incompetent
+   - [# 175] AOR datetime: [0.00000 s] incompetent
+   - [# 176] AOR datetime: [0.00000 s] incompetent
+   - [# 177] AOR datetime: [0.00933 s] survived
+   - [# 178] AOR datetime: [0.00000 s] incompetent
+   - [# 179] AOR datetime: [0.00000 s] incompetent
+   - [# 180] AOR datetime: [0.00909 s] survived
+   - [# 181] AOR datetime: [0.00000 s] incompetent
+   - [# 182] AOR datetime: [0.00000 s] incompetent
+   - [# 183] AOR datetime: [0.01073 s] survived
+   - [# 184] AOR datetime: [0.00000 s] incompetent
+   - [# 185] AOR datetime: [0.00000 s] incompetent
+   - [# 186] AOR datetime: [0.00000 s] incompetent
+   - [# 187] AOR datetime: [0.00000 s] incompetent
+   - [# 188] AOR datetime: [0.00000 s] incompetent
+   - [# 189] AOR datetime: [0.01003 s] survived
+   - [# 190] AOR datetime: [0.00875 s] survived
+   - [# 191] AOR datetime: [0.00970 s] survived
+   - [# 192] AOR datetime: [0.00944 s] survived
+   - [# 193] AOR datetime: [0.00950 s] survived
+   - [# 194] AOR datetime: [0.00906 s] survived
+   - [# 195] AOR datetime: [0.00974 s] survived
+   - [# 196] AOR datetime: [0.00899 s] survived
+   - [# 197] AOR datetime: [0.00894 s] survived
+   - [# 198] AOR datetime: [0.00894 s] survived
+   - [# 199] AOR datetime: [0.01575 s] survived
+   - [# 200] AOR datetime: [0.01051 s] survived
+   - [# 201] AOR datetime: [0.00937 s] survived
+   - [# 202] AOR datetime: [0.00971 s] survived
+   - [# 203] AOR datetime: [0.01006 s] survived
+   - [# 204] AOR datetime: [0.01004 s] survived
+   - [# 205] AOR datetime: [0.00949 s] survived
+   - [# 206] AOR datetime: [0.00979 s] survived
+   - [# 207] AOR datetime: [0.00903 s] survived
+   - [# 208] AOR datetime: [0.00955 s] survived
+   - [# 209] AOR datetime: [0.01190 s] survived
+   - [# 210] AOR datetime: [0.01072 s] survived
+   - [# 211] AOR datetime: [0.00926 s] survived
+   - [# 212] AOR datetime: [0.00879 s] survived
+   - [# 213] AOR datetime: [0.00932 s] survived
+   - [# 214] AOR datetime: [0.00868 s] survived
+   - [# 215] AOR datetime: [0.00903 s] survived
+   - [# 216] AOR datetime: [0.00921 s] survived
+   - [# 217] AOR datetime: [0.00891 s] survived
+   - [# 218] AOR datetime: [0.00880 s] survived
+   - [# 219] AOR datetime: [0.00875 s] survived
+   - [# 220] AOR datetime: [0.00877 s] survived
+   - [# 221] AOR datetime: [0.00918 s] survived
+   - [# 222] AOR datetime: [0.00918 s] survived
+   - [# 223] AOR datetime: [0.00858 s] survived
+   - [# 224] AOR datetime: [0.00955 s] survived
+   - [# 225] AOR datetime: [0.01034 s] survived
+   - [# 226] AOR datetime: [0.00970 s] survived
+   - [# 227] AOR datetime: [0.00961 s] survived
+   - [# 228] AOR datetime: [0.00887 s] survived
+   - [# 229] AOR datetime: [0.00896 s] survived
+   - [# 230] AOR datetime: [0.00856 s] survived
+   - [# 231] AOR datetime: [0.00859 s] survived
+   - [# 232] AOR datetime: [0.00858 s] survived
+   - [# 233] AOR datetime: [0.00890 s] survived
+   - [# 234] AOR datetime: [0.00882 s] survived
+   - [# 235] AOR datetime: [0.00844 s] survived
+   - [# 236] AOR datetime: [0.00902 s] survived
+   - [# 237] AOR datetime: [0.00882 s] survived
+   - [# 238] AOR datetime: [0.00918 s] survived
+   - [# 239] AOR datetime: [0.00935 s] survived
+   - [# 240] AOR datetime: [0.00909 s] survived
+   - [# 241] AOR datetime: [0.00889 s] survived
+   - [# 242] AOR datetime: [0.00918 s] survived
+   - [# 243] AOR datetime: [0.00909 s] survived
+   - [# 244] AOR datetime: [0.00946 s] survived
+   - [# 245] AOR datetime: [0.00890 s] survived
+   - [# 246] AOR datetime: [0.00941 s] survived
+   - [# 247] AOR datetime: [0.00933 s] survived
+   - [# 248] AOR datetime: [0.00892 s] survived
+   - [# 249] AOR datetime: [0.00928 s] survived
+   - [# 250] AOR datetime: [0.00906 s] survived
+   - [# 251] AOR datetime: [0.00848 s] survived
+   - [# 252] AOR datetime: [0.00887 s] survived
+   - [# 253] AOR datetime: [0.00874 s] survived
+   - [# 254] AOR datetime: [0.00884 s] survived
+   - [# 255] AOR datetime: [0.00912 s] survived
+   - [# 256] AOR datetime: [0.00850 s] survived
+   - [# 257] AOR datetime: [0.00858 s] survived
+   - [# 258] AOR datetime: [0.00875 s] survived
+   - [# 259] AOR datetime: [0.00862 s] survived
+   - [# 260] AOR datetime: [0.00897 s] survived
+   - [# 261] AOR datetime: [0.00935 s] survived
+   - [# 262] AOR datetime: [0.00933 s] survived
+   - [# 263] AOR datetime: [0.00901 s] survived
+   - [# 264] AOR datetime: [0.00890 s] survived
+   - [# 265] AOR datetime: [0.00894 s] survived
+   - [# 266] AOR datetime: [0.00898 s] survived
+   - [# 267] AOR datetime: [0.00895 s] survived
+   - [# 268] AOR datetime: [0.00874 s] survived
+   - [# 269] AOR datetime: [0.00879 s] survived
+   - [# 270] AOR datetime: [0.00902 s] survived
+   - [# 271] AOR datetime: [0.00929 s] survived
+   - [# 272] AOR datetime: [0.00937 s] survived
+   - [# 273] AOR datetime: [0.00948 s] survived
+   - [# 274] AOR datetime: [0.00869 s] survived
+   - [# 275] AOR datetime: [0.00868 s] survived
+   - [# 276] AOR datetime: [0.00854 s] survived
+   - [# 277] AOR datetime: [0.00851 s] survived
+   - [# 278] AOR datetime: [0.00897 s] survived
+   - [# 279] AOR datetime: [0.00828 s] survived
+   - [# 280] AOR datetime: [0.00857 s] survived
+   - [# 281] AOR datetime: [0.00866 s] survived
+   - [# 282] AOR datetime: [0.00892 s] survived
+   - [# 283] AOR datetime: [0.00924 s] survived
+   - [# 284] AOR datetime: [0.01016 s] survived
+   - [# 285] AOR datetime: [0.00959 s] survived
+   - [# 286] AOR datetime: [0.00962 s] survived
+   - [# 287] AOR datetime: [0.00933 s] survived
+   - [# 288] AOR datetime: [0.00934 s] survived
+   - [# 289] AOR datetime: [0.00925 s] survived
+   - [# 290] AOR datetime: [0.00914 s] survived
+   - [# 291] AOR datetime: [0.00917 s] survived
+   - [# 292] AOR datetime: [0.00876 s] survived
+   - [# 293] AOR datetime: [0.00909 s] survived
+   - [# 294] AOR datetime: [0.00901 s] survived
+   - [# 295] AOR datetime: [0.00918 s] survived
+   - [# 296] AOR datetime: [0.00962 s] survived
+   - [# 297] AOR datetime: [0.00937 s] survived
+   - [# 298] AOR datetime: [0.00904 s] survived
+   - [# 299] AOR datetime: [0.00889 s] survived
+   - [# 300] AOR datetime: [0.00900 s] survived
+   - [# 301] AOR datetime: [0.00920 s] survived
+   - [# 302] AOR datetime: [0.00921 s] survived
+   - [# 303] AOR datetime: [0.00885 s] survived
+   - [# 304] AOR datetime: [0.00930 s] survived
+   - [# 305] AOR datetime: [0.00872 s] survived
+   - [# 306] AOR datetime: [0.00914 s] survived
+   - [# 307] AOR datetime: [0.00945 s] survived
+   - [# 308] AOR datetime: [0.00897 s] survived
+   - [# 309] AOR datetime: [0.00887 s] survived
+   - [# 310] AOR datetime: [0.00886 s] survived
+   - [# 311] AOR datetime: [0.00876 s] survived
+   - [# 312] AOR datetime: [0.00973 s] survived
+   - [# 313] AOR datetime: [0.00927 s] survived
+   - [# 314] AOR datetime: [0.00893 s] survived
+   - [# 315] AOR datetime: [0.00919 s] survived
+   - [# 316] AOR datetime: [0.00895 s] survived
+   - [# 317] AOR datetime: [0.00894 s] survived
+   - [# 318] AOR datetime: [0.00938 s] survived
+   - [# 319] AOR datetime: [0.00891 s] survived
+   - [# 320] AOR datetime: [0.00000 s] incompetent
+   - [# 321] AOR datetime: [0.00896 s] survived
+   - [# 322] AOR datetime: [0.00916 s] survived
+   - [# 323] AOR datetime: [0.00900 s] survived
+   - [# 324] AOR datetime: [0.00952 s] survived
+   - [# 325] AOR datetime: [0.01013 s] survived
+   - [# 326] AOR datetime: [0.00899 s] survived
+   - [# 327] AOR datetime: [0.00931 s] survived
+   - [# 328] AOR datetime: [0.00950 s] survived
+   - [# 329] AOR datetime: [0.00937 s] survived
+   - [# 330] AOR datetime: [0.00887 s] survived
+   - [# 331] AOR datetime: [0.00892 s] survived
+   - [# 332] AOR datetime: [0.00932 s] survived
+   - [# 333] AOR datetime: [0.00910 s] survived
+   - [# 334] AOR datetime: [0.00930 s] survived
+   - [# 335] AOR datetime: [0.00906 s] survived
+   - [# 336] AOR datetime: [0.01107 s] survived
+   - [# 337] AOR datetime: [0.01287 s] survived
+   - [# 338] AOR datetime: [0.01240 s] survived
+   - [# 339] AOR datetime: [0.01199 s] survived
+   - [# 340] AOR datetime: [0.01171 s] survived
+   - [# 341] AOR datetime: [0.01716 s] survived
+   - [# 342] AOR datetime: [0.01740 s] survived
+   - [# 343] AOR datetime: [0.01315 s] survived
+   - [# 344] AOR datetime: [0.01523 s] survived
+   - [# 345] AOR datetime: [0.01523 s] survived
+   - [# 346] AOR datetime: [0.01399 s] survived
+   - [# 347] AOR datetime: [0.11728 s] survived
+   - [# 348] AOR datetime: [0.01288 s] survived
+   - [# 349] AOR datetime: [0.01271 s] survived
+   - [# 350] AOR datetime: [0.01390 s] survived
+   - [# 351] AOR datetime: [0.01075 s] survived
+   - [# 352] AOR datetime: [0.01378 s] survived
+   - [# 353] AOR datetime: [0.01190 s] survived
+   - [# 354] AOR datetime: [0.01178 s] survived
+   - [# 355] AOR datetime: [0.01341 s] survived
+   - [# 356] AOR datetime: [0.01305 s] survived
+   - [# 357] AOR datetime: [0.01441 s] survived
+   - [# 358] AOR datetime: [0.01085 s] survived
+   - [# 359] AOR datetime: [0.01038 s] survived
+   - [# 360] AOR datetime: [0.01208 s] survived
+   - [# 361] AOR datetime: [0.01317 s] survived
+   - [# 362] AOR datetime: [0.01631 s] survived
+   - [# 363] AOR datetime: [0.01346 s] survived
+   - [# 364] AOR datetime: [0.01119 s] survived
+   - [# 365] AOR datetime: [0.01469 s] survived
+   - [# 366] AOR datetime: [0.01161 s] survived
+   - [# 367] AOR datetime: [0.01174 s] survived
+   - [# 368] AOR datetime: [0.01097 s] survived
+   - [# 369] AOR datetime: [0.01009 s] survived
+   - [# 370] AOR datetime: [0.01194 s] survived
+   - [# 371] AOR datetime: [0.01098 s] survived
+   - [# 372] AOR datetime: [0.01189 s] survived
+   - [# 373] AOR datetime: [0.01171 s] survived
+   - [# 374] AOR datetime: [0.01366 s] survived
+   - [# 375] AOR datetime: [0.00980 s] survived
+   - [# 376] AOR datetime: [0.00963 s] survived
+   - [# 377] AOR datetime: [0.00933 s] survived
+   - [# 378] AOR datetime: [0.01005 s] survived
+   - [# 379] AOR datetime: [0.01133 s] survived
+   - [# 380] AOR datetime: [0.00988 s] survived
+   - [# 381] AOR datetime: [0.00950 s] survived
+   - [# 382] AOR datetime: [0.00997 s] survived
+   - [# 383] AOR datetime: [0.00981 s] survived
+   - [# 384] AOR datetime: [0.00941 s] survived
+   - [# 385] AOR datetime: [0.00993 s] survived
+   - [# 386] AOR datetime: [0.01059 s] survived
+   - [# 387] AOR datetime: [0.01158 s] survived
+   - [# 388] AOR datetime: [0.01365 s] survived
+   - [# 389] AOR datetime: [0.01184 s] survived
+   - [# 390] AOR datetime: [0.01074 s] survived
+   - [# 391] AOR datetime: [0.01091 s] survived
+   - [# 392] AOR datetime: [0.00964 s] survived
+   - [# 393] AOR datetime: [0.00982 s] survived
+   - [# 394] AOR datetime: [0.00978 s] survived
+   - [# 395] AOR datetime: [0.00974 s] survived
+   - [# 396] AOR datetime: [0.00975 s] survived
+   - [# 397] AOR datetime: [0.00983 s] survived
+   - [# 398] AOR datetime: [0.01047 s] survived
+   - [# 399] AOR datetime: [0.01007 s] survived
+   - [# 400] AOR datetime: [0.01023 s] survived
+   - [# 401] AOR datetime: [0.00977 s] survived
+   - [# 402] AOR datetime: [0.00980 s] survived
+   - [# 403] AOR datetime: [0.00960 s] survived
+   - [# 404] AOR datetime: [0.00997 s] survived
+   - [# 405] AOR datetime: [0.00930 s] survived
+   - [# 406] AOR datetime: [0.00865 s] survived
+   - [# 407] AOR datetime: [0.00923 s] survived
+   - [# 408] AOR datetime: [0.00932 s] survived
+   - [# 409] AOR datetime: [0.00998 s] survived
+   - [# 410] AOR datetime: [0.00902 s] survived
+   - [# 411] AOR datetime: [0.00905 s] survived
+   - [# 412] AOR datetime: [0.00959 s] survived
+   - [# 413] AOR datetime: [0.00896 s] survived
+   - [# 414] AOR datetime: [0.00902 s] survived
+   - [# 415] AOR datetime: [0.00906 s] survived
+   - [# 416] AOR datetime: [0.00896 s] survived
+   - [# 417] AOR datetime: [0.01037 s] survived
+   - [# 418] AOR datetime: [0.01131 s] survived
+   - [# 419] AOR datetime: [0.01114 s] survived
+   - [# 420] AOR datetime: [0.01101 s] survived
+   - [# 421] AOR datetime: [0.01181 s] survived
+   - [# 422] AOR datetime: [0.01052 s] survived
+   - [# 423] AOR datetime: [0.01053 s] survived
+   - [# 424] AOR datetime: [0.01385 s] survived
+   - [# 425] AOR datetime: [0.01674 s] survived
+   - [# 426] AOR datetime: [0.01038 s] survived
+   - [# 427] AOR datetime: [0.00985 s] survived
+   - [# 428] AOR datetime: [0.01050 s] survived
+   - [# 429] ASR datetime: [0.01036 s] survived
+   - [# 430] ASR datetime: [0.01026 s] survived
+   - [# 431] ASR datetime: [0.01023 s] survived
+   - [# 432] ASR datetime: [0.01100 s] survived
+   - [# 433] ASR datetime: [0.01071 s] survived
+   - [# 434] ASR datetime: [0.01210 s] survived
+   - [# 435] ASR datetime: [0.01037 s] survived
+   - [# 436] ASR datetime: [0.01026 s] survived
+   - [# 437] ASR datetime: [0.01126 s] survived
+   - [# 438] ASR datetime: [0.01026 s] survived
+   - [# 439] ASR datetime: [0.01001 s] survived
+   - [# 440] ASR datetime: [0.01081 s] survived
+   - [# 441] ASR datetime: [0.01014 s] survived
+   - [# 442] ASR datetime: [0.01075 s] survived
+   - [# 443] ASR datetime: [0.01026 s] survived
+   - [# 444] ASR datetime: [0.01002 s] survived
+   - [# 445] ASR datetime: [0.01016 s] survived
+   - [# 446] ASR datetime: [0.01039 s] survived
+   - [# 447] ASR datetime: [0.01062 s] survived
+   - [# 448] ASR datetime: [0.01074 s] survived
+   - [# 449] ASR datetime: [0.01123 s] survived
+   - [# 450] ASR datetime: [0.00964 s] survived
+   - [# 451] ASR datetime: [0.00974 s] survived
+   - [# 452] ASR datetime: [0.00965 s] survived
+   - [# 453] ASR datetime: [0.01028 s] survived
+   - [# 454] ASR datetime: [0.00985 s] survived
+   - [# 455] ASR datetime: [0.01064 s] survived
+   - [# 456] ASR datetime: [0.01021 s] survived
+   - [# 457] ASR datetime: [0.01040 s] survived
+   - [# 458] ASR datetime: [0.01130 s] survived
+   - [# 459] ASR datetime: [0.01025 s] survived
+   - [# 460] ASR datetime: [0.01043 s] survived
+   - [# 461] ASR datetime: [0.01010 s] survived
+   - [# 462] ASR datetime: [0.01003 s] survived
+   - [# 463] ASR datetime: [0.00994 s] survived
+   - [# 464] ASR datetime: [0.01156 s] survived
+   - [# 465] ASR datetime: [0.01114 s] survived
+   - [# 466] ASR datetime: [0.01051 s] survived
+   - [# 467] ASR datetime: [0.01105 s] survived
+   - [# 468] ASR datetime: [0.00932 s] survived
+   - [# 469] ASR datetime: [0.00909 s] survived
+   - [# 470] ASR datetime: [0.00941 s] survived
+   - [# 471] ASR datetime: [0.00919 s] survived
+   - [# 472] ASR datetime: [0.00929 s] survived
+   - [# 473] ASR datetime: [0.00889 s] survived
+   - [# 474] ASR datetime: [0.00881 s] survived
+   - [# 475] ASR datetime: [0.00891 s] survived
+   - [# 476] ASR datetime: [0.00924 s] survived
+   - [# 477] ASR datetime: [0.00876 s] survived
+   - [# 478] ASR datetime: [0.00911 s] survived
+   - [# 479] ASR datetime: [0.00857 s] survived
+   - [# 480] BCR datetime: [0.00859 s] survived
+   - [# 481] COD datetime: [0.01105 s] survived
+   - [# 482] COD datetime: [0.01055 s] survived
+   - [# 483] COD datetime: [0.01283 s] survived
+   - [# 484] COD datetime: [0.01340 s] survived
+   - [# 485] COD datetime: [0.01010 s] survived
+   - [# 486] COD datetime: [0.00969 s] survived
+   - [# 487] COD datetime: [0.00985 s] survived
+   - [# 488] COD datetime: [0.00928 s] survived
+   - [# 489] COD datetime: [0.00000 s] incompetent
+   - [# 490] COD datetime: [0.00000 s] incompetent
+   - [# 491] COD datetime: [0.00000 s] incompetent
+   - [# 492] COD datetime: [0.00000 s] incompetent
+   - [# 493] COD datetime: [0.00000 s] incompetent
+   - [# 494] COD datetime: [0.00000 s] incompetent
+   - [# 495] COD datetime: [0.00000 s] incompetent
+   - [# 496] COD datetime: [0.00000 s] incompetent
+   - [# 497] COD datetime: [0.00000 s] incompetent
+   - [# 498] COD datetime: [0.01021 s] survived
+   - [# 499] COD datetime: [0.01086 s] survived
+   - [# 500] COD datetime: [0.01094 s] survived
+   - [# 501] COD datetime: [0.01080 s] survived
+   - [# 502] COD datetime: [0.01915 s] survived
+   - [# 503] COD datetime: [0.01488 s] survived
+   - [# 504] COD datetime: [0.01040 s] survived
+   - [# 505] COD datetime: [0.01025 s] survived
+   - [# 506] COD datetime: [0.00966 s] survived
+   - [# 507] COD datetime: [0.01060 s] survived
+   - [# 508] COD datetime: [0.01048 s] survived
+   - [# 509] COD datetime: [0.01030 s] survived
+   - [# 510] COD datetime: [0.00891 s] survived
+   - [# 511] COD datetime: [0.00952 s] survived
+   - [# 512] COD datetime: [0.00905 s] survived
+   - [# 513] COD datetime: [0.00906 s] survived
+   - [# 514] COD datetime: [0.00879 s] survived
+   - [# 515] COD datetime: [0.00905 s] survived
+   - [# 516] COD datetime: [0.00936 s] survived
+   - [# 517] COD datetime: [0.00962 s] survived
+   - [# 518] COD datetime: [0.00875 s] survived
+   - [# 519] COD datetime: [0.00929 s] survived
+   - [# 520] COD datetime: [0.01024 s] survived
+   - [# 521] COD datetime: [0.00910 s] survived
+   - [# 522] COD datetime: [0.00961 s] survived
+   - [# 523] COD datetime: [0.00945 s] survived
+   - [# 524] COD datetime: [0.01038 s] survived
+   - [# 525] COD datetime: [0.00916 s] survived
+   - [# 526] COD datetime: [0.00887 s] survived
+   - [# 527] COD datetime: [0.00881 s] survived
+   - [# 528] COI datetime: [0.00000 s] incompetent
+   - [# 529] COI datetime: [0.00887 s] survived
+   - [# 530] COI datetime: [0.00871 s] survived
+   - [# 531] COI datetime: [0.00926 s] survived
+   - [# 532] COI datetime: [0.00961 s] survived
+   - [# 533] COI datetime: [0.00917 s] survived
+   - [# 534] COI datetime: [0.00880 s] survived
+   - [# 535] COI datetime: [0.00897 s] survived
+   - [# 536] COI datetime: [0.00897 s] survived
+   - [# 537] COI datetime: [0.00905 s] survived
+   - [# 538] COI datetime: [0.00886 s] survived
+   - [# 539] COI datetime: [0.00876 s] survived
+   - [# 540] COI datetime: [0.00945 s] survived
+   - [# 541] COI datetime: [0.00838 s] survived
+   - [# 542] COI datetime: [0.00857 s] survived
+   - [# 543] COI datetime: [0.00888 s] survived
+   - [# 544] COI datetime: [0.01291 s] survived
+   - [# 545] COI datetime: [0.01240 s] survived
+   - [# 546] COI datetime: [0.01000 s] survived
+   - [# 547] COI datetime: [0.00906 s] survived
+   - [# 548] COI datetime: [0.00934 s] survived
+   - [# 549] COI datetime: [0.00855 s] survived
+   - [# 550] COI datetime: [0.00990 s] survived
+   - [# 551] COI datetime: [0.00886 s] survived
+   - [# 552] COI datetime: [0.00894 s] survived
+   - [# 553] COI datetime: [0.00925 s] survived
+   - [# 554] COI datetime: [0.01047 s] survived
+   - [# 555] COI datetime: [0.01001 s] survived
+   - [# 556] COI datetime: [0.00933 s] survived
+   - [# 557] COI datetime: [0.00906 s] survived
+   - [# 558] COI datetime: [0.00903 s] survived
+   - [# 559] COI datetime: [0.00908 s] survived
+   - [# 560] COI datetime: [0.00902 s] survived
+   - [# 561] COI datetime: [0.00927 s] survived
+   - [# 562] COI datetime: [0.00953 s] survived
+   - [# 563] COI datetime: [0.00918 s] survived
+   - [# 564] COI datetime: [0.00933 s] survived
+   - [# 565] COI datetime: [0.00888 s] survived
+   - [# 566] COI datetime: [0.00885 s] survived
+   - [# 567] COI datetime: [0.00869 s] survived
+   - [# 568] COI datetime: [0.00913 s] survived
+   - [# 569] COI datetime: [0.00923 s] survived
+   - [# 570] COI datetime: [0.00870 s] survived
+   - [# 571] COI datetime: [0.00890 s] survived
+   - [# 572] COI datetime: [0.00967 s] survived
+   - [# 573] COI datetime: [0.00932 s] survived
+   - [# 574] COI datetime: [0.00000 s] incompetent
+   - [# 575] COI datetime: [0.00000 s] incompetent
+   - [# 576] COI datetime: [0.00000 s] incompetent
+   - [# 577] COI datetime: [0.00000 s] incompetent
+   - [# 578] COI datetime: [0.00000 s] incompetent
+   - [# 579] COI datetime: [0.00000 s] incompetent
+   - [# 580] COI datetime: [0.00000 s] incompetent
+   - [# 581] COI datetime: [0.00000 s] incompetent
+   - [# 582] COI datetime: [0.00000 s] incompetent
+   - [# 583] COI datetime: [0.00961 s] survived
+   - [# 584] COI datetime: [0.00949 s] survived
+   - [# 585] COI datetime: [0.00971 s] survived
+   - [# 586] COI datetime: [0.00961 s] survived
+   - [# 587] COI datetime: [0.00000 s] incompetent
+   - [# 588] COI datetime: [0.00914 s] survived
+   - [# 589] COI datetime: [0.00911 s] survived
+   - [# 590] COI datetime: [0.00931 s] survived
+   - [# 591] COI datetime: [0.00947 s] survived
+   - [# 592] COI datetime: [0.00932 s] survived
+   - [# 593] COI datetime: [0.00900 s] survived
+   - [# 594] COI datetime: [0.00885 s] survived
+   - [# 595] COI datetime: [0.00903 s] survived
+   - [# 596] COI datetime: [0.00903 s] survived
+   - [# 597] COI datetime: [0.00919 s] survived
+   - [# 598] COI datetime: [0.00953 s] survived
+   - [# 599] COI datetime: [0.00947 s] survived
+   - [# 600] COI datetime: [0.00982 s] survived
+   - [# 601] COI datetime: [0.00972 s] survived
+   - [# 602] COI datetime: [0.00993 s] survived
+   - [# 603] COI datetime: [0.00896 s] survived
+   - [# 604] COI datetime: [0.00886 s] survived
+   - [# 605] COI datetime: [0.00908 s] survived
+   - [# 606] COI datetime: [0.00887 s] survived
+   - [# 607] COI datetime: [0.00929 s] survived
+   - [# 608] COI datetime: [0.00962 s] survived
+   - [# 609] COI datetime: [0.02022 s] survived
+   - [# 610] COI datetime: [0.00966 s] survived
+   - [# 611] COI datetime: [0.00938 s] survived
+   - [# 612] COI datetime: [0.00896 s] survived
+   - [# 613] COI datetime: [0.00926 s] survived
+   - [# 614] COI datetime: [0.00927 s] survived
+   - [# 615] COI datetime: [0.00000 s] incompetent
+   - [# 616] COI datetime: [0.00930 s] survived
+   - [# 617] COI datetime: [0.00892 s] survived
+   - [# 618] COI datetime: [0.00910 s] survived
+   - [# 619] COI datetime: [0.01253 s] survived
+   - [# 620] COI datetime: [0.00963 s] survived
+   - [# 621] COI datetime: [0.00999 s] survived
+   - [# 622] COI datetime: [0.00945 s] survived
+   - [# 623] COI datetime: [0.00913 s] survived
+   - [# 624] COI datetime: [0.00884 s] survived
+   - [# 625] COI datetime: [0.00895 s] survived
+   - [# 626] COI datetime: [0.00905 s] survived
+   - [# 627] COI datetime: [0.00932 s] survived
+   - [# 628] COI datetime: [0.00967 s] survived
+   - [# 629] COI datetime: [0.00917 s] survived
+   - [# 630] COI datetime: [0.00867 s] survived
+   - [# 631] COI datetime: [0.00896 s] survived
+   - [# 632] COI datetime: [0.00897 s] survived
+   - [# 633] COI datetime: [0.00937 s] survived
+   - [# 634] COI datetime: [0.00946 s] survived
+   - [# 635] COI datetime: [0.01129 s] survived
+   - [# 636] COI datetime: [0.00908 s] survived
+   - [# 637] COI datetime: [0.00939 s] survived
+   - [# 638] COI datetime: [0.00962 s] survived
+   - [# 639] COI datetime: [0.00963 s] survived
+   - [# 640] COI datetime: [0.00931 s] survived
+   - [# 641] COI datetime: [0.00905 s] survived
+   - [# 642] COI datetime: [0.00947 s] survived
+   - [# 643] COI datetime: [0.00921 s] survived
+   - [# 644] COI datetime: [0.00957 s] survived
+   - [# 645] COI datetime: [0.00000 s] incompetent
+   - [# 646] COI datetime: [0.00925 s] survived
+   - [# 647] COI datetime: [0.00943 s] survived
+   - [# 648] COI datetime: [0.00922 s] survived
+   - [# 649] COI datetime: [0.00941 s] survived
+   - [# 650] COI datetime: [0.00957 s] survived
+   - [# 651] COI datetime: [0.00921 s] survived
+   - [# 652] COI datetime: [0.00918 s] survived
+   - [# 653] COI datetime: [0.00958 s] survived
+   - [# 654] COI datetime: [0.00954 s] survived
+   - [# 655] COI datetime: [0.00920 s] survived
+   - [# 656] COI datetime: [0.00906 s] survived
+   - [# 657] COI datetime: [0.01004 s] survived
+   - [# 658] COI datetime: [0.00983 s] survived
+   - [# 659] COI datetime: [0.00975 s] survived
+   - [# 660] COI datetime: [0.00951 s] survived
+   - [# 661] COI datetime: [0.00900 s] survived
+   - [# 662] COI datetime: [0.00905 s] survived
+   - [# 663] COI datetime: [0.00870 s] survived
+   - [# 664] COI datetime: [0.00905 s] survived
+   - [# 665] COI datetime: [0.00885 s] survived
+   - [# 666] COI datetime: [0.00929 s] survived
+   - [# 667] COI datetime: [0.00918 s] survived
+   - [# 668] COI datetime: [0.00924 s] survived
+   - [# 669] COI datetime: [0.00862 s] survived
+   - [# 670] COI datetime: [0.00895 s] survived
+   - [# 671] COI datetime: [0.00870 s] survived
+   - [# 672] COI datetime: [0.00875 s] survived
+   - [# 673] COI datetime: [0.00909 s] survived
+   - [# 674] COI datetime: [0.00913 s] survived
+   - [# 675] COI datetime: [0.00877 s] survived
+   - [# 676] COI datetime: [0.00863 s] survived
+   - [# 677] COI datetime: [0.00890 s] survived
+   - [# 678] COI datetime: [0.00887 s] survived
+   - [# 679] COI datetime: [0.00904 s] survived
+   - [# 680] COI datetime: [0.00906 s] survived
+   - [# 681] COI datetime: [0.00000 s] incompetent
+   - [# 682] COI datetime: [0.00947 s] survived
+   - [# 683] COI datetime: [0.00917 s] survived
+   - [# 684] COI datetime: [0.00905 s] survived
+   - [# 685] COI datetime: [0.00897 s] survived
+   - [# 686] COI datetime: [0.00897 s] survived
+   - [# 687] COI datetime: [0.00871 s] survived
+   - [# 688] COI datetime: [0.00884 s] survived
+   - [# 689] COI datetime: [0.00878 s] survived
+   - [# 690] COI datetime: [0.01204 s] survived
+   - [# 691] COI datetime: [0.01032 s] survived
+   - [# 692] COI datetime: [0.00910 s] survived
+   - [# 693] COI datetime: [0.00951 s] survived
+   - [# 694] COI datetime: [0.00904 s] survived
+   - [# 695] COI datetime: [0.00933 s] survived
+   - [# 696] COI datetime: [0.00917 s] survived
+   - [# 697] COI datetime: [0.00907 s] survived
+   - [# 698] COI datetime: [0.00874 s] survived
+   - [# 699] COI datetime: [0.00876 s] survived
+   - [# 700] COI datetime: [0.00896 s] survived
+   - [# 701] COI datetime: [0.00930 s] survived
+   - [# 702] COI datetime: [0.00934 s] survived
+   - [# 703] COI datetime: [0.00883 s] survived
+   - [# 704] COI datetime: [0.00920 s] survived
+   - [# 705] COI datetime: [0.00912 s] survived
+   - [# 706] COI datetime: [0.00898 s] survived
+   - [# 707] COI datetime: [0.00884 s] survived
+   - [# 708] COI datetime: [0.00928 s] survived
+   - [# 709] COI datetime: [0.00906 s] survived
+   - [# 710] COI datetime: [0.00897 s] survived
+   - [# 711] COI datetime: [0.00897 s] survived
+   - [# 712] COI datetime: [0.00890 s] survived
+   - [# 713] COI datetime: [0.00864 s] survived
+   - [# 714] COI datetime: [0.00876 s] survived
+   - [# 715] COI datetime: [0.00901 s] survived
+   - [# 716] COI datetime: [0.00954 s] survived
+   - [# 717] COI datetime: [0.00892 s] survived
+   - [# 718] COI datetime: [0.01080 s] survived
+   - [# 719] COI datetime: [0.00944 s] survived
+   - [# 720] COI datetime: [0.00920 s] survived
+   - [# 721] COI datetime: [0.00883 s] survived
+   - [# 722] COI datetime: [0.00978 s] survived
+   - [# 723] COI datetime: [0.01355 s] survived
+   - [# 724] COI datetime: [0.01449 s] survived
+   - [# 725] COI datetime: [0.01286 s] survived
+   - [# 726] COI datetime: [0.01037 s] survived
+   - [# 727] COI datetime: [0.01027 s] survived
+   - [# 728] COI datetime: [0.01013 s] survived
+   - [# 729] COI datetime: [0.01006 s] survived
+   - [# 730] COI datetime: [0.01032 s] survived
+   - [# 731] COI datetime: [0.00979 s] survived
+   - [# 732] COI datetime: [0.01004 s] survived
+   - [# 733] COI datetime: [0.01048 s] survived
+   - [# 734] COI datetime: [0.00974 s] survived
+   - [# 735] COI datetime: [0.00955 s] survived
+   - [# 736] COI datetime: [0.01031 s] survived
+   - [# 737] COI datetime: [0.01028 s] survived
+   - [# 738] COI datetime: [0.01032 s] survived
+   - [# 739] COI datetime: [0.00906 s] survived
+   - [# 740] COI datetime: [0.00877 s] survived
+   - [# 741] COI datetime: [0.00865 s] survived
+   - [# 742] COI datetime: [0.00890 s] survived
+   - [# 743] COI datetime: [0.00909 s] survived
+   - [# 744] COI datetime: [0.00901 s] survived
+   - [# 745] COI datetime: [0.00845 s] survived
+   - [# 746] COI datetime: [0.00869 s] survived
+   - [# 747] COI datetime: [0.00855 s] survived
+   - [# 748] COI datetime: [0.00872 s] survived
+   - [# 749] COI datetime: [0.00873 s] survived
+   - [# 750] COI datetime: [0.00886 s] survived
+   - [# 751] COI datetime: [0.00870 s] survived
+   - [# 752] COI datetime: [0.00831 s] survived
+   - [# 753] COI datetime: [0.00843 s] survived
+   - [# 754] COI datetime: [0.00851 s] survived
+   - [# 755] COI datetime: [0.00861 s] survived
+   - [# 756] COI datetime: [0.00871 s] survived
+   - [# 757] COI datetime: [0.00877 s] survived
+   - [# 758] COI datetime: [0.00871 s] survived
+   - [# 759] COI datetime: [0.00844 s] survived
+   - [# 760] COI datetime: [0.00860 s] survived
+   - [# 761] COI datetime: [0.00856 s] survived
+   - [# 762] COI datetime: [0.00867 s] survived
+   - [# 763] COI datetime: [0.00906 s] survived
+   - [# 764] COI datetime: [0.00852 s] survived
+   - [# 765] COI datetime: [0.00852 s] survived
+   - [# 766] COI datetime: [0.00936 s] survived
+   - [# 767] COI datetime: [0.00886 s] survived
+   - [# 768] COI datetime: [0.00886 s] survived
+   - [# 769] COI datetime: [0.00836 s] survived
+   - [# 770] COI datetime: [0.00874 s] survived
+   - [# 771] COI datetime: [0.00859 s] survived
+   - [# 772] COI datetime: [0.00859 s] survived
+   - [# 773] COI datetime: [0.00900 s] survived
+   - [# 774] COI datetime: [0.00845 s] survived
+   - [# 775] COI datetime: [0.00892 s] survived
+   - [# 776] COI datetime: [0.00838 s] survived
+   - [# 777] CRP datetime: [0.00864 s] survived
+   - [# 778] CRP datetime: [0.00848 s] survived
+   - [# 779] CRP datetime: [0.00888 s] survived
+   - [# 780] CRP datetime: [0.00000 s] incompetent
+   - [# 781] CRP datetime: [0.00916 s] survived
+   - [# 782] CRP datetime: [0.00920 s] survived
+   - [# 783] CRP datetime: [0.00913 s] survived
+   - [# 784] CRP datetime: [0.00874 s] survived
+   - [# 785] CRP datetime: [0.00855 s] survived
+   - [# 786] CRP datetime: [0.00875 s] survived
+   - [# 787] CRP datetime: [0.00910 s] survived
+   - [# 788] CRP datetime: [0.00897 s] survived
+   - [# 789] CRP datetime: [0.00865 s] survived
+   - [# 790] CRP datetime: [0.00881 s] survived
+   - [# 791] CRP datetime: [0.00920 s] survived
+   - [# 792] CRP datetime: [0.00939 s] survived
+   - [# 793] CRP datetime: [0.00883 s] survived
+   - [# 794] CRP datetime: [0.00873 s] survived
+   - [# 795] CRP datetime: [0.00886 s] survived
+   - [# 796] CRP datetime: [0.00874 s] survived
+   - [# 797] CRP datetime: [0.00912 s] survived
+   - [# 798] CRP datetime: [0.00911 s] survived
+   - [# 799] CRP datetime: [0.00879 s] survived
+   - [# 800] CRP datetime: [0.00865 s] survived
+   - [# 801] CRP datetime: [0.00910 s] survived
+   - [# 802] CRP datetime: [0.00941 s] survived
+   - [# 803] CRP datetime: [0.00925 s] survived
+   - [# 804] CRP datetime: [0.00971 s] survived
+   - [# 805] CRP datetime: [0.00000 s] incompetent
+   - [# 806] CRP datetime: [0.00000 s] incompetent
+   - [# 807] CRP datetime: [0.00000 s] incompetent
+   - [# 808] CRP datetime: [0.00000 s] incompetent
+   - [# 809] CRP datetime: [0.00000 s] incompetent
+   - [# 810] CRP datetime: [0.00000 s] incompetent
+   - [# 811] CRP datetime: [0.00955 s] survived
+   - [# 812] CRP datetime: [0.00957 s] survived
+   - [# 813] CRP datetime: [0.00904 s] survived
+   - [# 814] CRP datetime: [0.00898 s] survived
+   - [# 815] CRP datetime: [0.00953 s] survived
+   - [# 816] CRP datetime: [0.00923 s] survived
+   - [# 817] CRP datetime: [0.00884 s] survived
+   - [# 818] CRP datetime: [0.00978 s] survived
+   - [# 819] CRP datetime: [0.00870 s] survived
+   - [# 820] CRP datetime: [0.00893 s] survived
+   - [# 821] CRP datetime: [0.00875 s] survived
+   - [# 822] CRP datetime: [0.00926 s] survived
+   - [# 823] CRP datetime: [0.00921 s] survived
+   - [# 824] CRP datetime: [0.00919 s] survived
+   - [# 825] CRP datetime: [0.00888 s] survived
+   - [# 826] CRP datetime: [0.00000 s] incompetent
+   - [# 827] CRP datetime: [0.00000 s] incompetent
+   - [# 828] CRP datetime: [0.00000 s] incompetent
+   - [# 829] CRP datetime: [0.00000 s] incompetent
+   - [# 830] CRP datetime: [0.00000 s] incompetent
+   - [# 831] CRP datetime: [0.00000 s] incompetent
+   - [# 832] CRP datetime: [0.00000 s] incompetent
+   - [# 833] CRP datetime: [0.00000 s] incompetent
+   - [# 834] CRP datetime: [0.00000 s] incompetent
+   - [# 835] CRP datetime: [0.00000 s] incompetent
+   - [# 836] CRP datetime: [0.00957 s] survived
+   - [# 837] CRP datetime: [0.00975 s] survived
+   - [# 838] CRP datetime: [0.00909 s] survived
+   - [# 839] CRP datetime: [0.00952 s] survived
+   - [# 840] CRP datetime: [0.00976 s] survived
+   - [# 841] CRP datetime: [0.00964 s] survived
+   - [# 842] CRP datetime: [0.00923 s] survived
+   - [# 843] CRP datetime: [0.00927 s] survived
+   - [# 844] CRP datetime: [0.00930 s] survived
+   - [# 845] CRP datetime: [0.00923 s] survived
+   - [# 846] CRP datetime: [0.01000 s] survived
+   - [# 847] CRP datetime: [0.00929 s] survived
+   - [# 848] CRP datetime: [0.00954 s] survived
+   - [# 849] CRP datetime: [0.00939 s] survived
+   - [# 850] CRP datetime: [0.00894 s] survived
+   - [# 851] CRP datetime: [0.00936 s] survived
+   - [# 852] CRP datetime: [0.00913 s] survived
+   - [# 853] CRP datetime: [0.00911 s] survived
+   - [# 854] CRP datetime: [0.00918 s] survived
+   - [# 855] CRP datetime: [0.00962 s] survived
+   - [# 856] CRP datetime: [0.00902 s] survived
+   - [# 857] CRP datetime: [0.00912 s] survived
+   - [# 858] CRP datetime: [0.00898 s] survived
+   - [# 859] CRP datetime: [0.00949 s] survived
+   - [# 860] CRP datetime: [0.00922 s] survived
+   - [# 861] CRP datetime: [0.00878 s] survived
+   - [# 862] CRP datetime: [0.00858 s] survived
+   - [# 863] CRP datetime: [0.00879 s] survived
+   - [# 864] CRP datetime: [0.00897 s] survived
+   - [# 865] CRP datetime: [0.00905 s] survived
+   - [# 866] CRP datetime: [0.00873 s] survived
+   - [# 867] CRP datetime: [0.00882 s] survived
+   - [# 868] CRP datetime: [0.00895 s] survived
+   - [# 869] CRP datetime: [0.00911 s] survived
+   - [# 870] CRP datetime: [0.00876 s] survived
+   - [# 871] CRP datetime: [0.00896 s] survived
+   - [# 872] CRP datetime: [0.00861 s] survived
+   - [# 873] CRP datetime: [0.00897 s] survived
+   - [# 874] CRP datetime: [0.00866 s] survived
+   - [# 875] CRP datetime: [0.00884 s] survived
+   - [# 876] CRP datetime: [0.00866 s] survived
+   - [# 877] CRP datetime: [0.00891 s] survived
+   - [# 878] CRP datetime: [0.00893 s] survived
+   - [# 879] CRP datetime: [0.00859 s] survived
+   - [# 880] CRP datetime: [0.00855 s] survived
+   - [# 881] CRP datetime: [0.00877 s] survived
+   - [# 882] CRP datetime: [0.00897 s] survived
+   - [# 883] CRP datetime: [0.00884 s] survived
+   - [# 884] CRP datetime: [0.00866 s] survived
+   - [# 885] CRP datetime: [0.00889 s] survived
+   - [# 886] CRP datetime: [0.00933 s] survived
+   - [# 887] CRP datetime: [0.00965 s] survived
+   - [# 888] CRP datetime: [0.00881 s] survived
+   - [# 889] CRP datetime: [0.00878 s] survived
+   - [# 890] CRP datetime: [0.00886 s] survived
+   - [# 891] CRP datetime: [0.00929 s] survived
+   - [# 892] CRP datetime: [0.00911 s] survived
+   - [# 893] CRP datetime: [0.00890 s] survived
+   - [# 894] CRP datetime: [0.00880 s] survived
+   - [# 895] CRP datetime: [0.00886 s] survived
+   - [# 896] CRP datetime: [0.00915 s] survived
+   - [# 897] CRP datetime: [0.00875 s] survived
+   - [# 898] CRP datetime: [0.00896 s] survived
+   - [# 899] CRP datetime: [0.00903 s] survived
+   - [# 900] CRP datetime: [0.00880 s] survived
+   - [# 901] CRP datetime: [0.00898 s] survived
+   - [# 902] CRP datetime: [0.00910 s] survived
+   - [# 903] CRP datetime: [0.00865 s] survived
+   - [# 904] CRP datetime: [0.00866 s] survived
+   - [# 905] CRP datetime: [0.00873 s] survived
+   - [# 906] CRP datetime: [0.00894 s] survived
+   - [# 907] CRP datetime: [0.00915 s] survived
+   - [# 908] CRP datetime: [0.00848 s] survived
+   - [# 909] CRP datetime: [0.00904 s] survived
+   - [# 910] CRP datetime: [0.00966 s] survived
+   - [# 911] CRP datetime: [0.00942 s] survived
+   - [# 912] CRP datetime: [0.01017 s] survived
+   - [# 913] CRP datetime: [0.00923 s] survived
+   - [# 914] CRP datetime: [0.00968 s] survived
+   - [# 915] CRP datetime: [0.00864 s] survived
+   - [# 916] CRP datetime: [0.01010 s] survived
+   - [# 917] CRP datetime: [0.00874 s] survived
+   - [# 918] CRP datetime: [0.00855 s] survived
+   - [# 919] CRP datetime: [0.00875 s] survived
+   - [# 920] CRP datetime: [0.00882 s] survived
+   - [# 921] CRP datetime: [0.00931 s] survived
+   - [# 922] CRP datetime: [0.00943 s] survived
+   - [# 923] CRP datetime: [0.00896 s] survived
+   - [# 924] CRP datetime: [0.00888 s] survived
+   - [# 925] CRP datetime: [0.00872 s] survived
+   - [# 926] CRP datetime: [0.00915 s] survived
+   - [# 927] CRP datetime: [0.00929 s] survived
+   - [# 928] CRP datetime: [0.00917 s] survived
+   - [# 929] CRP datetime: [0.00903 s] survived
+   - [# 930] CRP datetime: [0.00896 s] survived
+   - [# 931] CRP datetime: [0.00931 s] survived
+   - [# 932] CRP datetime: [0.00926 s] survived
+   - [# 933] CRP datetime: [0.00898 s] survived
+   - [# 934] CRP datetime: [0.00923 s] survived
+   - [# 935] CRP datetime: [0.00863 s] survived
+   - [# 936] CRP datetime: [0.00951 s] survived
+   - [# 937] CRP datetime: [0.00947 s] survived
+   - [# 938] CRP datetime: [0.00906 s] survived
+   - [# 939] CRP datetime: [0.00861 s] survived
+   - [# 940] CRP datetime: [0.00885 s] survived
+   - [# 941] CRP datetime: [0.00921 s] survived
+   - [# 942] CRP datetime: [0.00934 s] survived
+   - [# 943] CRP datetime: [0.00923 s] survived
+   - [# 944] CRP datetime: [0.00878 s] survived
+   - [# 945] CRP datetime: [0.00900 s] survived
+   - [# 946] CRP datetime: [0.01003 s] survived
+   - [# 947] CRP datetime: [0.00938 s] survived
+   - [# 948] CRP datetime: [0.00965 s] survived
+   - [# 949] CRP datetime: [0.01015 s] survived
+   - [# 950] CRP datetime: [0.01090 s] survived
+   - [# 951] CRP datetime: [0.00972 s] survived
+   - [# 952] CRP datetime: [0.00949 s] survived
+   - [# 953] CRP datetime: [0.01131 s] survived
+   - [# 954] CRP datetime: [0.00974 s] survived
+   - [# 955] CRP datetime: [0.00923 s] survived
+   - [# 956] CRP datetime: [0.00945 s] survived
+   - [# 957] CRP datetime: [0.00971 s] survived
+   - [# 958] CRP datetime: [0.00938 s] survived
+   - [# 959] CRP datetime: [0.00893 s] survived
+   - [# 960] CRP datetime: [0.00941 s] survived
+   - [# 961] CRP datetime: [0.00906 s] survived
+   - [# 962] CRP datetime: [0.00913 s] survived
+   - [# 963] CRP datetime: [0.00931 s] survived
+   - [# 964] CRP datetime: [0.00918 s] survived
+   - [# 965] CRP datetime: [0.00914 s] survived
+   - [# 966] CRP datetime: [0.00946 s] survived
+   - [# 967] CRP datetime: [0.00971 s] survived
+   - [# 968] CRP datetime: [0.00958 s] survived
+   - [# 969] CRP datetime: [0.00942 s] survived
+   - [# 970] CRP datetime: [0.00962 s] survived
+   - [# 971] CRP datetime: [0.00921 s] survived
+   - [# 972] CRP datetime: [0.00893 s] survived
+   - [# 973] CRP datetime: [0.00932 s] survived
+   - [# 974] CRP datetime: [0.00894 s] survived
+   - [# 975] CRP datetime: [0.00955 s] survived
+   - [# 976] CRP datetime: [0.00940 s] survived
+   - [# 977] CRP datetime: [0.00929 s] survived
+   - [# 978] CRP datetime: [0.00900 s] survived
+   - [# 979] CRP datetime: [0.00904 s] survived
+   - [# 980] CRP datetime: [0.00903 s] survived
+   - [# 981] CRP datetime: [0.00943 s] survived
+   - [# 982] CRP datetime: [0.00903 s] survived
+   - [# 983] CRP datetime: [0.00908 s] survived
+   - [# 984] CRP datetime: [0.00899 s] survived
+   - [# 985] CRP datetime: [0.00878 s] survived
+   - [# 986] CRP datetime: [0.00919 s] survived
+   - [# 987] CRP datetime: [0.00926 s] survived
+   - [# 988] CRP datetime: [0.00859 s] survived
+   - [# 989] CRP datetime: [0.00869 s] survived
+   - [# 990] CRP datetime: [0.00892 s] survived
+   - [# 991] CRP datetime: [0.00916 s] survived
+   - [# 992] CRP datetime: [0.00919 s] survived
+   - [# 993] CRP datetime: [0.00956 s] survived
+   - [# 994] CRP datetime: [0.00970 s] survived
+   - [# 995] CRP datetime: [0.00909 s] survived
+   - [# 996] CRP datetime: [0.00887 s] survived
+   - [# 997] CRP datetime: [0.00895 s] survived
+   - [# 998] CRP datetime: [0.00907 s] survived
+   - [# 999] CRP datetime: [0.00922 s] survived
+   - [#1000] CRP datetime: [0.00882 s] survived
+   - [#1001] CRP datetime: [0.00900 s] survived
+   - [#1002] CRP datetime: [0.00892 s] survived
+   - [#1003] CRP datetime: [0.00895 s] survived
+   - [#1004] CRP datetime: [0.00942 s] survived
+   - [#1005] CRP datetime: [0.00902 s] survived
+   - [#1006] CRP datetime: [0.00895 s] survived
+   - [#1007] CRP datetime: [0.00910 s] survived
+   - [#1008] CRP datetime: [0.00891 s] survived
+   - [#1009] CRP datetime: [0.00925 s] survived
+   - [#1010] CRP datetime: [0.00886 s] survived
+   - [#1011] CRP datetime: [0.00898 s] survived
+   - [#1012] CRP datetime: [0.00877 s] survived
+   - [#1013] CRP datetime: [0.00906 s] survived
+   - [#1014] CRP datetime: [0.00913 s] survived
+   - [#1015] CRP datetime: [0.00923 s] survived
+   - [#1016] CRP datetime: [0.00898 s] survived
+   - [#1017] CRP datetime: [0.00868 s] survived
+   - [#1018] CRP datetime: [0.00893 s] survived
+   - [#1019] CRP datetime: [0.00866 s] survived
+   - [#1020] CRP datetime: [0.00917 s] survived
+   - [#1021] CRP datetime: [0.00870 s] survived
+   - [#1022] CRP datetime: [0.00921 s] survived
+   - [#1023] CRP datetime: [0.00884 s] survived
+   - [#1024] CRP datetime: [0.00876 s] survived
+   - [#1025] CRP datetime: [0.00871 s] survived
+   - [#1026] CRP datetime: [0.00874 s] survived
+   - [#1027] CRP datetime: [0.00932 s] survived
+   - [#1028] CRP datetime: [0.00937 s] survived
+   - [#1029] CRP datetime: [0.00899 s] survived
+   - [#1030] CRP datetime: [0.00895 s] survived
+   - [#1031] CRP datetime: [0.00862 s] survived
+   - [#1032] CRP datetime: [0.00867 s] survived
+   - [#1033] CRP datetime: [0.00909 s] survived
+   - [#1034] CRP datetime: [0.00868 s] survived
+   - [#1035] CRP datetime: [0.00867 s] survived
+   - [#1036] CRP datetime: [0.00854 s] survived
+   - [#1037] CRP datetime: [0.00888 s] survived
+   - [#1038] CRP datetime: [0.00837 s] survived
+   - [#1039] CRP datetime: [0.00850 s] survived
+   - [#1040] CRP datetime: [0.00866 s] survived
+   - [#1041] CRP datetime: [0.00982 s] survived
+   - [#1042] CRP datetime: [0.00987 s] survived
+   - [#1043] CRP datetime: [0.00971 s] survived
+   - [#1044] CRP datetime: [0.00974 s] survived
+   - [#1045] CRP datetime: [0.00876 s] survived
+   - [#1046] CRP datetime: [0.00950 s] survived
+   - [#1047] CRP datetime: [0.00884 s] survived
+   - [#1048] CRP datetime: [0.00971 s] survived
+   - [#1049] CRP datetime: [0.00868 s] survived
+   - [#1050] CRP datetime: [0.00861 s] survived
+   - [#1051] CRP datetime: [0.00937 s] survived
+   - [#1052] CRP datetime: [0.00879 s] survived
+   - [#1053] CRP datetime: [0.00916 s] survived
+   - [#1054] CRP datetime: [0.00951 s] survived
+   - [#1055] CRP datetime: [0.00894 s] survived
+   - [#1056] CRP datetime: [0.00871 s] survived
+   - [#1057] CRP datetime: [0.00873 s] survived
+   - [#1058] CRP datetime: [0.00882 s] survived
+   - [#1059] CRP datetime: [0.00906 s] survived
+   - [#1060] CRP datetime: [0.00870 s] survived
+   - [#1061] CRP datetime: [0.00877 s] survived
+   - [#1062] CRP datetime: [0.00902 s] survived
+   - [#1063] CRP datetime: [0.00882 s] survived
+   - [#1064] CRP datetime: [0.00890 s] survived
+   - [#1065] CRP datetime: [0.00920 s] survived
+   - [#1066] CRP datetime: [0.00934 s] survived
+   - [#1067] CRP datetime: [0.00939 s] survived
+   - [#1068] CRP datetime: [0.00904 s] survived
+   - [#1069] CRP datetime: [0.00879 s] survived
+   - [#1070] CRP datetime: [0.00867 s] survived
+   - [#1071] CRP datetime: [0.00991 s] survived
+   - [#1072] CRP datetime: [0.00951 s] survived
+   - [#1073] CRP datetime: [0.00938 s] survived
+   - [#1074] CRP datetime: [0.00883 s] survived
+   - [#1075] CRP datetime: [0.00871 s] survived
+   - [#1076] CRP datetime: [0.00947 s] survived
+   - [#1077] CRP datetime: [0.00922 s] survived
+   - [#1078] CRP datetime: [0.00900 s] survived
+   - [#1079] CRP datetime: [0.00878 s] survived
+   - [#1080] CRP datetime: [0.00901 s] survived
+   - [#1081] CRP datetime: [0.00934 s] survived
+   - [#1082] CRP datetime: [0.00934 s] survived
+   - [#1083] CRP datetime: [0.00902 s] survived
+   - [#1084] CRP datetime: [0.00839 s] survived
+   - [#1085] CRP datetime: [0.00858 s] survived
+   - [#1086] CRP datetime: [0.00850 s] survived
+   - [#1087] CRP datetime: [0.00000 s] incompetent
+   - [#1088] CRP datetime: [0.00888 s] survived
+   - [#1089] CRP datetime: [0.00935 s] survived
+   - [#1090] CRP datetime: [0.00884 s] survived
+   - [#1091] CRP datetime: [0.00000 s] incompetent
+   - [#1092] CRP datetime: [0.00941 s] survived
+   - [#1093] CRP datetime: [0.00897 s] survived
+   - [#1094] CRP datetime: [0.00000 s] incompetent
+   - [#1095] CRP datetime: [0.00953 s] survived
+   - [#1096] CRP datetime: [0.00903 s] survived
+   - [#1097] CRP datetime: [0.00915 s] survived
+   - [#1098] CRP datetime: [0.00000 s] incompetent
+   - [#1099] CRP datetime: [0.00921 s] survived
+   - [#1100] CRP datetime: [0.00896 s] survived
+   - [#1101] CRP datetime: [0.00899 s] survived
+   - [#1102] CRP datetime: [0.00000 s] incompetent
+   - [#1103] CRP datetime: [0.00930 s] survived
+   - [#1104] CRP datetime: [0.00901 s] survived
+   - [#1105] CRP datetime: [0.00945 s] survived
+   - [#1106] CRP datetime: [0.00000 s] incompetent
+   - [#1107] CRP datetime: [0.00896 s] survived
+   - [#1108] CRP datetime: [0.00962 s] survived
+   - [#1109] CRP datetime: [0.00862 s] survived
+   - [#1110] CRP datetime: [0.00000 s] incompetent
+   - [#1111] CRP datetime: [0.00899 s] survived
+   - [#1112] CRP datetime: [0.00863 s] survived
+   - [#1113] CRP datetime: [0.00881 s] survived
+   - [#1114] CRP datetime: [0.00880 s] survived
+   - [#1115] CRP datetime: [0.00887 s] survived
+   - [#1116] CRP datetime: [0.00900 s] survived
+   - [#1117] CRP datetime: [0.00904 s] survived
+   - [#1118] CRP datetime: [0.00890 s] survived
+   - [#1119] CRP datetime: [0.00947 s] survived
+   - [#1120] CRP datetime: [0.00873 s] survived
+   - [#1121] CRP datetime: [0.00829 s] survived
+   - [#1122] CRP datetime: [0.00833 s] survived
+   - [#1123] CRP datetime: [0.00000 s] incompetent
+   - [#1124] CRP datetime: [0.00000 s] incompetent
+   - [#1125] CRP datetime: [0.00000 s] incompetent
+   - [#1126] CRP datetime: [0.00000 s] incompetent
+   - [#1127] CRP datetime: [0.00000 s] incompetent
+   - [#1128] CRP datetime: [0.00000 s] incompetent
+   - [#1129] CRP datetime: [0.00000 s] incompetent
+   - [#1130] CRP datetime: [0.00000 s] incompetent
+   - [#1131] CRP datetime: [0.00870 s] survived
+   - [#1132] CRP datetime: [0.00843 s] survived
+   - [#1133] CRP datetime: [0.00851 s] survived
+   - [#1134] CRP datetime: [0.00000 s] incompetent
+   - [#1135] CRP datetime: [0.00911 s] survived
+   - [#1136] CRP datetime: [0.00877 s] survived
+   - [#1137] CRP datetime: [0.00000 s] incompetent
+   - [#1138] CRP datetime: [0.00000 s] incompetent
+   - [#1139] CRP datetime: [0.00881 s] survived
+   - [#1140] CRP datetime: [0.00000 s] incompetent
+   - [#1141] CRP datetime: [0.00000 s] incompetent
+   - [#1142] CRP datetime: [0.00855 s] survived
+   - [#1143] CRP datetime: [0.00856 s] survived
+   - [#1144] CRP datetime: [0.00858 s] survived
+   - [#1145] CRP datetime: [0.00000 s] incompetent
+   - [#1146] CRP datetime: [0.00859 s] survived
+   - [#1147] CRP datetime: [0.00874 s] survived
+   - [#1148] CRP datetime: [0.00873 s] survived
+   - [#1149] CRP datetime: [0.00855 s] survived
+   - [#1150] CRP datetime: [0.00860 s] survived
+   - [#1151] CRP datetime: [0.00858 s] survived
+   - [#1152] CRP datetime: [0.01090 s] survived
+   - [#1153] CRP datetime: [0.01269 s] survived
+   - [#1154] CRP datetime: [0.00917 s] survived
+   - [#1155] CRP datetime: [0.00919 s] survived
+   - [#1156] CRP datetime: [0.00859 s] survived
+   - [#1157] CRP datetime: [0.00876 s] survived
+   - [#1158] CRP datetime: [0.00880 s] survived
+   - [#1159] CRP datetime: [0.00935 s] survived
+   - [#1160] CRP datetime: [0.00924 s] survived
+   - [#1161] CRP datetime: [0.00969 s] survived
+   - [#1162] CRP datetime: [0.00856 s] survived
+   - [#1163] CRP datetime: [0.00866 s] survived
+   - [#1164] CRP datetime: [0.00837 s] survived
+   - [#1165] CRP datetime: [0.00948 s] survived
+   - [#1166] CRP datetime: [0.00925 s] survived
+   - [#1167] CRP datetime: [0.00889 s] survived
+   - [#1168] CRP datetime: [0.00857 s] survived
+   - [#1169] CRP datetime: [0.00000 s] incompetent
+   - [#1170] CRP datetime: [0.00000 s] incompetent
+   - [#1171] CRP datetime: [0.00000 s] incompetent
+   - [#1172] CRP datetime: [0.00865 s] survived
+   - [#1173] CRP datetime: [0.00845 s] survived
+   - [#1174] CRP datetime: [0.00000 s] incompetent
+   - [#1175] CRP datetime: [0.00855 s] survived
+   - [#1176] CRP datetime: [0.00934 s] survived
+   - [#1177] CRP datetime: [0.00894 s] survived
+   - [#1178] CRP datetime: [0.00857 s] survived
+   - [#1179] CRP datetime: [0.00857 s] survived
+   - [#1180] CRP datetime: [0.00869 s] survived
+   - [#1181] CRP datetime: [0.00943 s] survived
+   - [#1182] CRP datetime: [0.00904 s] survived
+   - [#1183] CRP datetime: [0.00892 s] survived
+   - [#1184] CRP datetime: [0.00896 s] survived
+   - [#1185] CRP datetime: [0.00884 s] survived
+   - [#1186] CRP datetime: [0.00987 s] survived
+   - [#1187] CRP datetime: [0.00963 s] survived
+   - [#1188] CRP datetime: [0.00996 s] survived
+   - [#1189] CRP datetime: [0.00899 s] survived
+   - [#1190] CRP datetime: [0.00869 s] survived
+   - [#1191] CRP datetime: [0.00868 s] survived
+   - [#1192] CRP datetime: [0.00877 s] survived
+   - [#1193] CRP datetime: [0.00899 s] survived
+   - [#1194] CRP datetime: [0.00899 s] survived
+   - [#1195] CRP datetime: [0.00959 s] survived
+   - [#1196] CRP datetime: [0.00921 s] survived
+   - [#1197] CRP datetime: [0.00905 s] survived
+   - [#1198] CRP datetime: [0.00920 s] survived
+   - [#1199] CRP datetime: [0.00928 s] survived
+   - [#1200] CRP datetime: [0.00870 s] survived
+   - [#1201] CRP datetime: [0.00900 s] survived
+   - [#1202] CRP datetime: [0.00915 s] survived
+   - [#1203] CRP datetime: [0.00867 s] survived
+   - [#1204] CRP datetime: [0.00863 s] survived
+   - [#1205] CRP datetime: [0.00866 s] survived
+   - [#1206] CRP datetime: [0.00871 s] survived
+   - [#1207] CRP datetime: [0.00865 s] survived
+   - [#1208] CRP datetime: [0.00903 s] survived
+   - [#1209] CRP datetime: [0.00890 s] survived
+   - [#1210] CRP datetime: [0.00884 s] survived
+   - [#1211] CRP datetime: [0.00843 s] survived
+   - [#1212] CRP datetime: [0.00874 s] survived
+   - [#1213] CRP datetime: [0.00882 s] survived
+   - [#1214] CRP datetime: [0.00874 s] survived
+   - [#1215] CRP datetime: [0.00907 s] survived
+   - [#1216] CRP datetime: [0.00882 s] survived
+   - [#1217] CRP datetime: [0.00832 s] survived
+   - [#1218] CRP datetime: [0.00849 s] survived
+   - [#1219] CRP datetime: [0.00871 s] survived
+   - [#1220] CRP datetime: [0.00856 s] survived
+   - [#1221] CRP datetime: [0.00865 s] survived
+   - [#1222] CRP datetime: [0.00873 s] survived
+   - [#1223] CRP datetime: [0.00900 s] survived
+   - [#1224] CRP datetime: [0.00903 s] survived
+   - [#1225] CRP datetime: [0.00853 s] survived
+   - [#1226] CRP datetime: [0.00868 s] survived
+   - [#1227] CRP datetime: [0.00886 s] survived
+   - [#1228] CRP datetime: [0.00871 s] survived
+   - [#1229] CRP datetime: [0.00877 s] survived
+   - [#1230] CRP datetime: [0.00848 s] survived
+   - [#1231] CRP datetime: [0.00899 s] survived
+   - [#1232] CRP datetime: [0.00910 s] survived
+   - [#1233] CRP datetime: [0.00907 s] survived
+   - [#1234] CRP datetime: [0.00000 s] incompetent
+   - [#1235] CRP datetime: [0.00000 s] incompetent
+   - [#1236] CRP datetime: [0.00000 s] incompetent
+   - [#1237] CRP datetime: [0.00000 s] incompetent
+   - [#1238] CRP datetime: [0.00000 s] incompetent
+   - [#1239] CRP datetime: [0.00000 s] incompetent
+   - [#1240] CRP datetime: [0.00922 s] survived
+   - [#1241] CRP datetime: [0.00000 s] incompetent
+   - [#1242] CRP datetime: [0.00000 s] incompetent
+   - [#1243] CRP datetime: [0.00000 s] incompetent
+   - [#1244] CRP datetime: [0.00000 s] incompetent
+   - [#1245] CRP datetime: [0.00000 s] incompetent
+   - [#1246] CRP datetime: [0.00000 s] incompetent
+   - [#1247] CRP datetime: [0.00000 s] incompetent
+   - [#1248] CRP datetime: [0.00000 s] incompetent
+   - [#1249] CRP datetime: [0.00905 s] survived
+   - [#1250] CRP datetime: [0.00850 s] survived
+   - [#1251] CRP datetime: [0.00867 s] survived
+   - [#1252] CRP datetime: [0.00873 s] survived
+   - [#1253] CRP datetime: [0.00884 s] survived
+   - [#1254] CRP datetime: [0.00854 s] survived
+   - [#1255] CRP datetime: [0.00911 s] survived
+   - [#1256] CRP datetime: [0.00891 s] survived
+   - [#1257] CRP datetime: [0.00909 s] survived
+   - [#1258] CRP datetime: [0.00846 s] survived
+   - [#1259] CRP datetime: [0.00870 s] survived
+   - [#1260] CRP datetime: [0.00944 s] survived
+   - [#1261] CRP datetime: [0.00947 s] survived
+   - [#1262] CRP datetime: [0.00867 s] survived
+   - [#1263] CRP datetime: [0.00889 s] survived
+   - [#1264] CRP datetime: [0.00875 s] survived
+   - [#1265] CRP datetime: [0.00862 s] survived
+   - [#1266] CRP datetime: [0.00896 s] survived
+   - [#1267] CRP datetime: [0.00863 s] survived
+   - [#1268] CRP datetime: [0.00887 s] survived
+   - [#1269] CRP datetime: [0.00916 s] survived
+   - [#1270] CRP datetime: [0.00861 s] survived
+   - [#1271] CRP datetime: [0.00851 s] survived
+   - [#1272] CRP datetime: [0.00864 s] survived
+   - [#1273] CRP datetime: [0.00924 s] survived
+   - [#1274] CRP datetime: [0.01110 s] survived
+   - [#1275] CRP datetime: [0.00917 s] survived
+   - [#1276] CRP datetime: [0.00882 s] survived
+   - [#1277] CRP datetime: [0.00851 s] survived
+   - [#1278] CRP datetime: [0.00841 s] survived
+   - [#1279] CRP datetime: [0.00855 s] survived
+   - [#1280] CRP datetime: [0.00896 s] survived
+   - [#1281] CRP datetime: [0.00892 s] survived
+   - [#1282] CRP datetime: [0.00853 s] survived
+   - [#1283] CRP datetime: [0.00847 s] survived
+   - [#1284] CRP datetime: [0.00865 s] survived
+   - [#1285] CRP datetime: [0.00852 s] survived
+   - [#1286] CRP datetime: [0.00874 s] survived
+   - [#1287] CRP datetime: [0.01333 s] survived
+   - [#1288] CRP datetime: [0.01186 s] survived
+   - [#1289] CRP datetime: [0.01122 s] survived
+   - [#1290] CRP datetime: [0.01053 s] survived
+   - [#1291] CRP datetime: [0.00988 s] survived
+   - [#1292] CRP datetime: [0.00915 s] survived
+   - [#1293] CRP datetime: [0.00890 s] survived
+   - [#1294] CRP datetime: [0.00827 s] survived
+   - [#1295] CRP datetime: [0.00866 s] survived
+   - [#1296] CRP datetime: [0.00885 s] survived
+   - [#1297] CRP datetime: [0.00909 s] survived
+   - [#1298] CRP datetime: [0.00902 s] survived
+   - [#1299] CRP datetime: [0.00920 s] survived
+   - [#1300] CRP datetime: [0.00862 s] survived
+   - [#1301] CRP datetime: [0.00913 s] survived
+   - [#1302] CRP datetime: [0.00919 s] survived
+   - [#1303] CRP datetime: [0.01014 s] survived
+   - [#1304] CRP datetime: [0.01015 s] survived
+   - [#1305] CRP datetime: [0.01102 s] survived
+   - [#1306] CRP datetime: [0.01073 s] survived
+   - [#1307] CRP datetime: [0.01049 s] survived
+   - [#1308] CRP datetime: [0.00000 s] incompetent
+   - [#1309] CRP datetime: [0.00000 s] incompetent
+   - [#1310] CRP datetime: [0.00000 s] incompetent
+   - [#1311] CRP datetime: [0.01175 s] survived
+   - [#1312] CRP datetime: [0.01025 s] survived
+   - [#1313] CRP datetime: [0.01073 s] survived
+   - [#1314] CRP datetime: [0.01018 s] survived
+   - [#1315] CRP datetime: [0.00973 s] survived
+   - [#1316] CRP datetime: [0.00988 s] survived
+   - [#1317] CRP datetime: [0.01038 s] survived
+   - [#1318] CRP datetime: [0.00990 s] survived
+   - [#1319] CRP datetime: [0.01005 s] survived
+   - [#1320] CRP datetime: [0.00982 s] survived
+   - [#1321] CRP datetime: [0.01017 s] survived
+   - [#1322] CRP datetime: [0.00883 s] survived
+   - [#1323] CRP datetime: [0.00867 s] survived
+   - [#1324] CRP datetime: [0.00859 s] survived
+   - [#1325] CRP datetime: [0.00903 s] survived
+   - [#1326] CRP datetime: [0.00891 s] survived
+   - [#1327] CRP datetime: [0.00894 s] survived
+   - [#1328] CRP datetime: [0.00837 s] survived
+   - [#1329] CRP datetime: [0.00852 s] survived
+   - [#1330] CRP datetime: [0.00865 s] survived
+   - [#1331] CRP datetime: [0.00886 s] survived
+   - [#1332] CRP datetime: [0.00862 s] survived
+   - [#1333] CRP datetime: [0.00874 s] survived
+   - [#1334] CRP datetime: [0.00000 s] incompetent
+   - [#1335] CRP datetime: [0.00000 s] incompetent
+   - [#1336] CRP datetime: [0.00000 s] incompetent
+   - [#1337] CRP datetime: [0.00000 s] incompetent
+   - [#1338] CRP datetime: [0.00000 s] incompetent
+   - [#1339] CRP datetime: [0.00000 s] incompetent
+   - [#1340] CRP datetime: [0.00000 s] incompetent
+   - [#1341] CRP datetime: [0.00000 s] incompetent
+   - [#1342] CRP datetime: [0.00000 s] incompetent
+   - [#1343] CRP datetime: [0.00000 s] incompetent
+   - [#1344] CRP datetime: [0.00000 s] incompetent
+   - [#1345] CRP datetime: [0.00000 s] incompetent
+   - [#1346] CRP datetime: [0.00000 s] incompetent
+   - [#1347] CRP datetime: [0.00000 s] incompetent
+   - [#1348] CRP datetime: [0.00882 s] survived
+   - [#1349] CRP datetime: [0.00925 s] survived
+   - [#1350] CRP datetime: [0.00881 s] survived
+   - [#1351] CRP datetime: [0.00840 s] survived
+   - [#1352] CRP datetime: [0.00858 s] survived
+   - [#1353] CRP datetime: [0.00872 s] survived
+   - [#1354] CRP datetime: [0.00885 s] survived
+   - [#1355] CRP datetime: [0.00847 s] survived
+   - [#1356] CRP datetime: [0.00850 s] survived
+   - [#1357] CRP datetime: [0.00850 s] survived
+   - [#1358] CRP datetime: [0.00913 s] survived
+   - [#1359] CRP datetime: [0.00865 s] survived
+   - [#1360] CRP datetime: [0.00852 s] survived
+   - [#1361] CRP datetime: [0.00840 s] survived
+   - [#1362] CRP datetime: [0.00899 s] survived
+   - [#1363] CRP datetime: [0.00861 s] survived
+   - [#1364] CRP datetime: [0.00823 s] survived
+   - [#1365] CRP datetime: [0.00854 s] survived
+   - [#1366] CRP datetime: [0.00855 s] survived
+   - [#1367] CRP datetime: [0.00906 s] survived
+   - [#1368] CRP datetime: [0.00849 s] survived
+   - [#1369] CRP datetime: [0.00845 s] survived
+   - [#1370] CRP datetime: [0.00859 s] survived
+   - [#1371] CRP datetime: [0.00871 s] survived
+   - [#1372] CRP datetime: [0.00905 s] survived
+   - [#1373] CRP datetime: [0.00866 s] survived
+   - [#1374] CRP datetime: [0.00848 s] survived
+   - [#1375] CRP datetime: [0.00891 s] survived
+   - [#1376] CRP datetime: [0.00915 s] survived
+   - [#1377] CRP datetime: [0.00851 s] survived
+   - [#1378] CRP datetime: [0.00835 s] survived
+   - [#1379] CRP datetime: [0.00854 s] survived
+   - [#1380] CRP datetime: [0.00898 s] survived
+   - [#1381] CRP datetime: [0.00887 s] survived
+   - [#1382] CRP datetime: [0.00840 s] survived
+   - [#1383] CRP datetime: [0.00852 s] survived
+   - [#1384] CRP datetime: [0.00869 s] survived
+   - [#1385] CRP datetime: [0.00909 s] survived
+   - [#1386] CRP datetime: [0.00833 s] survived
+   - [#1387] CRP datetime: [0.00869 s] survived
+   - [#1388] CRP datetime: [0.00854 s] survived
+   - [#1389] CRP datetime: [0.00872 s] survived
+   - [#1390] CRP datetime: [0.00841 s] survived
+   - [#1391] CRP datetime: [0.00848 s] survived
+   - [#1392] CRP datetime: [0.00843 s] survived
+   - [#1393] CRP datetime: [0.00874 s] survived
+   - [#1394] CRP datetime: [0.00855 s] survived
+   - [#1395] CRP datetime: [0.00848 s] survived
+   - [#1396] CRP datetime: [0.00852 s] survived
+   - [#1397] CRP datetime: [0.00887 s] survived
+   - [#1398] CRP datetime: [0.00834 s] survived
+   - [#1399] CRP datetime: [0.00835 s] survived
+   - [#1400] CRP datetime: [0.00833 s] survived
+   - [#1401] CRP datetime: [0.00883 s] survived
+   - [#1402] CRP datetime: [0.00869 s] survived
+   - [#1403] CRP datetime: [0.00882 s] survived
+   - [#1404] CRP datetime: [0.00834 s] survived
+   - [#1405] CRP datetime: [0.00859 s] survived
+   - [#1406] CRP datetime: [0.00884 s] survived
+   - [#1407] CRP datetime: [0.00854 s] survived
+   - [#1408] CRP datetime: [0.00888 s] survived
+   - [#1409] CRP datetime: [0.00838 s] survived
+   - [#1410] CRP datetime: [0.00836 s] survived
+   - [#1411] CRP datetime: [0.00844 s] survived
+   - [#1412] CRP datetime: [0.00884 s] survived
+   - [#1413] CRP datetime: [0.00890 s] survived
+   - [#1414] CRP datetime: [0.00825 s] survived
+   - [#1415] CRP datetime: [0.00856 s] survived
+   - [#1416] CRP datetime: [0.00854 s] survived
+   - [#1417] CRP datetime: [0.00894 s] survived
+   - [#1418] CRP datetime: [0.00859 s] survived
+   - [#1419] CRP datetime: [0.00832 s] survived
+   - [#1420] CRP datetime: [0.00845 s] survived
+   - [#1421] CRP datetime: [0.00837 s] survived
+   - [#1422] CRP datetime: [0.00889 s] survived
+   - [#1423] CRP datetime: [0.00875 s] survived
+   - [#1424] CRP datetime: [0.00834 s] survived
+   - [#1425] CRP datetime: [0.00842 s] survived
+   - [#1426] CRP datetime: [0.00884 s] survived
+   - [#1427] CRP datetime: [0.00884 s] survived
+   - [#1428] CRP datetime: [0.00821 s] survived
+   - [#1429] CRP datetime: [0.00862 s] survived
+   - [#1430] CRP datetime: [0.00897 s] survived
+   - [#1431] CRP datetime: [0.00872 s] survived
+   - [#1432] CRP datetime: [0.00847 s] survived
+   - [#1433] CRP datetime: [0.00850 s] survived
+   - [#1434] CRP datetime: [0.00843 s] survived
+   - [#1435] CRP datetime: [0.00886 s] survived
+   - [#1436] CRP datetime: [0.00870 s] survived
+   - [#1437] CRP datetime: [0.00824 s] survived
+   - [#1438] CRP datetime: [0.00848 s] survived
+   - [#1439] CRP datetime: [0.00883 s] survived
+   - [#1440] CRP datetime: [0.00859 s] survived
+   - [#1441] CRP datetime: [0.00831 s] survived
+   - [#1442] CRP datetime: [0.00853 s] survived
+   - [#1443] CRP datetime: [0.00865 s] survived
+   - [#1444] CRP datetime: [0.00885 s] survived
+   - [#1445] CRP datetime: [0.00000 s] incompetent
+   - [#1446] CRP datetime: [0.00000 s] incompetent
+   - [#1447] CRP datetime: [0.00000 s] incompetent
+   - [#1448] CRP datetime: [0.00000 s] incompetent
+   - [#1449] CRP datetime: [0.00915 s] survived
+   - [#1450] CRP datetime: [0.00856 s] survived
+   - [#1451] CRP datetime: [0.00848 s] survived
+   - [#1452] CRP datetime: [0.00843 s] survived
+   - [#1453] CRP datetime: [0.00879 s] survived
+   - [#1454] CRP datetime: [0.00882 s] survived
+   - [#1455] CRP datetime: [0.00840 s] survived
+   - [#1456] CRP datetime: [0.00857 s] survived
+   - [#1457] CRP datetime: [0.00842 s] survived
+   - [#1458] CRP datetime: [0.00876 s] survived
+   - [#1459] CRP datetime: [0.00837 s] survived
+   - [#1460] CRP datetime: [0.00850 s] survived
+   - [#1461] CRP datetime: [0.00847 s] survived
+   - [#1462] CRP datetime: [0.00868 s] survived
+   - [#1463] CRP datetime: [0.00903 s] survived
+   - [#1464] CRP datetime: [0.00874 s] survived
+   - [#1465] CRP datetime: [0.00852 s] survived
+   - [#1466] CRP datetime: [0.01147 s] survived
+   - [#1467] CRP datetime: [0.00933 s] survived
+   - [#1468] CRP datetime: [0.00873 s] survived
+   - [#1469] CRP datetime: [0.00883 s] survived
+   - [#1470] CRP datetime: [0.00911 s] survived
+   - [#1471] CRP datetime: [0.00867 s] survived
+   - [#1472] CRP datetime: [0.00849 s] survived
+   - [#1473] CRP datetime: [0.00854 s] survived
+   - [#1474] CRP datetime: [0.00886 s] survived
+   - [#1475] CRP datetime: [0.00858 s] survived
+   - [#1476] CRP datetime: [0.00851 s] survived
+   - [#1477] CRP datetime: [0.01054 s] survived
+   - [#1478] CRP datetime: [0.00871 s] survived
+   - [#1479] CRP datetime: [0.01004 s] survived
+   - [#1480] CRP datetime: [0.00867 s] survived
+   - [#1481] CRP datetime: [0.00888 s] survived
+   - [#1482] CRP datetime: [0.00821 s] survived
+   - [#1483] CRP datetime: [0.00858 s] survived
+   - [#1484] CRP datetime: [0.00850 s] survived
+   - [#1485] CRP datetime: [0.00852 s] survived
+   - [#1486] CRP datetime: [0.00860 s] survived
+   - [#1487] CRP datetime: [0.00837 s] survived
+   - [#1488] CRP datetime: [0.00831 s] survived
+   - [#1489] CRP datetime: [0.00832 s] survived
+   - [#1490] CRP datetime: [0.00849 s] survived
+   - [#1491] CRP datetime: [0.00852 s] survived
+   - [#1492] CRP datetime: [0.00868 s] survived
+   - [#1493] CRP datetime: [0.00971 s] survived
+   - [#1494] CRP datetime: [0.00858 s] survived
+   - [#1495] CRP datetime: [0.00838 s] survived
+   - [#1496] CRP datetime: [0.00870 s] survived
+   - [#1497] CRP datetime: [0.00844 s] survived
+   - [#1498] CRP datetime: [0.00826 s] survived
+   - [#1499] CRP datetime: [0.00833 s] survived
+   - [#1500] CRP datetime: [0.00907 s] survived
+   - [#1501] CRP datetime: [0.00882 s] survived
+   - [#1502] CRP datetime: [0.00835 s] survived
+   - [#1503] CRP datetime: [0.00904 s] survived
+   - [#1504] CRP datetime: [0.00938 s] survived
+   - [#1505] CRP datetime: [0.00981 s] survived
+   - [#1506] CRP datetime: [0.00999 s] survived
+   - [#1507] CRP datetime: [0.01052 s] survived
+   - [#1508] CRP datetime: [0.01062 s] survived
+   - [#1509] CRP datetime: [0.01025 s] survived
+   - [#1510] CRP datetime: [0.01003 s] survived
+   - [#1511] CRP datetime: [0.00974 s] survived
+   - [#1512] CRP datetime: [0.00965 s] survived
+   - [#1513] CRP datetime: [0.00958 s] survived
+   - [#1514] CRP datetime: [0.00973 s] survived
+   - [#1515] CRP datetime: [0.00973 s] survived
+   - [#1516] CRP datetime: [0.00942 s] survived
+   - [#1517] CRP datetime: [0.00907 s] survived
+   - [#1518] CRP datetime: [0.00962 s] survived
+   - [#1519] CRP datetime: [0.00942 s] survived
+   - [#1520] CRP datetime: [0.00901 s] survived
+   - [#1521] CRP datetime: [0.00886 s] survived
+   - [#1522] CRP datetime: [0.00839 s] survived
+   - [#1523] CRP datetime: [0.00875 s] survived
+   - [#1524] CRP datetime: [0.00868 s] survived
+   - [#1525] CRP datetime: [0.00830 s] survived
+   - [#1526] CRP datetime: [0.01007 s] survived
+   - [#1527] CRP datetime: [0.00823 s] survived
+   - [#1528] CRP datetime: [0.00864 s] survived
+   - [#1529] CRP datetime: [0.00844 s] survived
+   - [#1530] CRP datetime: [0.00832 s] survived
+   - [#1531] CRP datetime: [0.00859 s] survived
+   - [#1532] CRP datetime: [0.00841 s] survived
+   - [#1533] CRP datetime: [0.00863 s] survived
+   - [#1534] CRP datetime: [0.00856 s] survived
+   - [#1535] CRP datetime: [0.00931 s] survived
+   - [#1536] CRP datetime: [0.00860 s] survived
+   - [#1537] CRP datetime: [0.00827 s] survived
+   - [#1538] CRP datetime: [0.00870 s] survived
+   - [#1539] CRP datetime: [0.00858 s] survived
+   - [#1540] CRP datetime: [0.00821 s] survived
+   - [#1541] CRP datetime: [0.00847 s] survived
+   - [#1542] CRP datetime: [0.00878 s] survived
+   - [#1543] CRP datetime: [0.00872 s] survived
+   - [#1544] CRP datetime: [0.00833 s] survived
+   - [#1545] CRP datetime: [0.00832 s] survived
+   - [#1546] CRP datetime: [0.00837 s] survived
+   - [#1547] CRP datetime: [0.00870 s] survived
+   - [#1548] CRP datetime: [0.00982 s] survived
+   - [#1549] CRP datetime: [0.00854 s] survived
+   - [#1550] CRP datetime: [0.00833 s] survived
+   - [#1551] CRP datetime: [0.00828 s] survived
+   - [#1552] CRP datetime: [0.00873 s] survived
+   - [#1553] CRP datetime: [0.00834 s] survived
+   - [#1554] CRP datetime: [0.00841 s] survived
+   - [#1555] CRP datetime: [0.00853 s] survived
+   - [#1556] CRP datetime: [0.00874 s] survived
+   - [#1557] CRP datetime: [0.00839 s] survived
+   - [#1558] CRP datetime: [0.00829 s] survived
+   - [#1559] CRP datetime: [0.00846 s] survived
+   - [#1560] CRP datetime: [0.00885 s] survived
+   - [#1561] CRP datetime: [0.00917 s] survived
+   - [#1562] CRP datetime: [0.00884 s] survived
+   - [#1563] CRP datetime: [0.00854 s] survived
+   - [#1564] CRP datetime: [0.00896 s] survived
+   - [#1565] CRP datetime: [0.00860 s] survived
+   - [#1566] CRP datetime: [0.00874 s] survived
+   - [#1567] CRP datetime: [0.00828 s] survived
+   - [#1568] CRP datetime: [0.00875 s] survived
+   - [#1569] CRP datetime: [0.00836 s] survived
+   - [#1570] CRP datetime: [0.00851 s] survived
+   - [#1571] CRP datetime: [0.00853 s] survived
+   - [#1572] CRP datetime: [0.00869 s] survived
+   - [#1573] CRP datetime: [0.00850 s] survived
+   - [#1574] CRP datetime: [0.00835 s] survived
+   - [#1575] CRP datetime: [0.00854 s] survived
+   - [#1576] CRP datetime: [0.00851 s] survived
+   - [#1577] CRP datetime: [0.00868 s] survived
+   - [#1578] CRP datetime: [0.00845 s] survived
+   - [#1579] CRP datetime: [0.00842 s] survived
+   - [#1580] CRP datetime: [0.00850 s] survived
+   - [#1581] CRP datetime: [0.00840 s] survived
+   - [#1582] CRP datetime: [0.00893 s] survived
+   - [#1583] CRP datetime: [0.00914 s] survived
+   - [#1584] CRP datetime: [0.00827 s] survived
+   - [#1585] CRP datetime: [0.00843 s] survived
+   - [#1586] CRP datetime: [0.00843 s] survived
+   - [#1587] CRP datetime: [0.00907 s] survived
+   - [#1588] CRP datetime: [0.00846 s] survived
+   - [#1589] CRP datetime: [0.00846 s] survived
+   - [#1590] CRP datetime: [0.00851 s] survived
+   - [#1591] CRP datetime: [0.00842 s] survived
+   - [#1592] CRP datetime: [0.00877 s] survived
+   - [#1593] CRP datetime: [0.00863 s] survived
+   - [#1594] CRP datetime: [0.00830 s] survived
+   - [#1595] CRP datetime: [0.00860 s] survived
+   - [#1596] CRP datetime: [0.00836 s] survived
+   - [#1597] CRP datetime: [0.00856 s] survived
+   - [#1598] CRP datetime: [0.00868 s] survived
+   - [#1599] CRP datetime: [0.00843 s] survived
+   - [#1600] CRP datetime: [0.00845 s] survived
+   - [#1601] CRP datetime: [0.00835 s] survived
+   - [#1602] CRP datetime: [0.00859 s] survived
+   - [#1603] CRP datetime: [0.00878 s] survived
+   - [#1604] CRP datetime: [0.00844 s] survived
+   - [#1605] CRP datetime: [0.00858 s] survived
+   - [#1606] CRP datetime: [0.00860 s] survived
+   - [#1607] CRP datetime: [0.00870 s] survived
+   - [#1608] CRP datetime: [0.00897 s] survived
+   - [#1609] CRP datetime: [0.00864 s] survived
+   - [#1610] CRP datetime: [0.00847 s] survived
+   - [#1611] CRP datetime: [0.00854 s] survived
+   - [#1612] CRP datetime: [0.00847 s] survived
+   - [#1613] CRP datetime: [0.00868 s] survived
+   - [#1614] CRP datetime: [0.00000 s] incompetent
+   - [#1615] CRP datetime: [0.00000 s] incompetent
+   - [#1616] CRP datetime: [0.00000 s] incompetent
+   - [#1617] CRP datetime: [0.00000 s] incompetent
+   - [#1618] CRP datetime: [0.00000 s] incompetent
+   - [#1619] CRP datetime: [0.00000 s] incompetent
+   - [#1620] CRP datetime: [0.00000 s] incompetent
+   - [#1621] CRP datetime: [0.00887 s] survived
+   - [#1622] CRP datetime: [0.00866 s] survived
+   - [#1623] CRP datetime: [0.00846 s] survived
+   - [#1624] CRP datetime: [0.00872 s] survived
+   - [#1625] CRP datetime: [0.00858 s] survived
+   - [#1626] CRP datetime: [0.00830 s] survived
+   - [#1627] CRP datetime: [0.00863 s] survived
+   - [#1628] CRP datetime: [0.00000 s] incompetent
+   - [#1629] CRP datetime: [0.00000 s] incompetent
+   - [#1630] CRP datetime: [0.00000 s] incompetent
+   - [#1631] CRP datetime: [0.00000 s] incompetent
+   - [#1632] CRP datetime: [0.00857 s] survived
+   - [#1633] CRP datetime: [0.00868 s] survived
+   - [#1634] CRP datetime: [0.00891 s] survived
+   - [#1635] CRP datetime: [0.00830 s] survived
+   - [#1636] CRP datetime: [0.00845 s] survived
+   - [#1637] CRP datetime: [0.00851 s] survived
+   - [#1638] CRP datetime: [0.00878 s] survived
+   - [#1639] CRP datetime: [0.00868 s] survived
+   - [#1640] CRP datetime: [0.00831 s] survived
+   - [#1641] CRP datetime: [0.00840 s] survived
+   - [#1642] CRP datetime: [0.00851 s] survived
+   - [#1643] CRP datetime: [0.00876 s] survived
+   - [#1644] CRP datetime: [0.00879 s] survived
+   - [#1645] CRP datetime: [0.00831 s] survived
+   - [#1646] CRP datetime: [0.00866 s] survived
+   - [#1647] CRP datetime: [0.00844 s] survived
+   - [#1648] CRP datetime: [0.00877 s] survived
+   - [#1649] CRP datetime: [0.00891 s] survived
+   - [#1650] CRP datetime: [0.01005 s] survived
+   - [#1651] CRP datetime: [0.00878 s] survived
+   - [#1652] CRP datetime: [0.00857 s] survived
+   - [#1653] CRP datetime: [0.00880 s] survived
+   - [#1654] CRP datetime: [0.00883 s] survived
+   - [#1655] CRP datetime: [0.00828 s] survived
+   - [#1656] CRP datetime: [0.00854 s] survived
+   - [#1657] CRP datetime: [0.00848 s] survived
+   - [#1658] CRP datetime: [0.00843 s] survived
+   - [#1659] CRP datetime: [0.00852 s] survived
+   - [#1660] CRP datetime: [0.00835 s] survived
+   - [#1661] CRP datetime: [0.00839 s] survived
+   - [#1662] CRP datetime: [0.00867 s] survived
+   - [#1663] CRP datetime: [0.00952 s] survived
+   - [#1664] CRP datetime: [0.01092 s] survived
+   - [#1665] CRP datetime: [0.00892 s] survived
+   - [#1666] CRP datetime: [0.00843 s] survived
+   - [#1667] CRP datetime: [0.00901 s] survived
+   - [#1668] CRP datetime: [0.00840 s] survived
+   - [#1669] CRP datetime: [0.00888 s] survived
+   - [#1670] CRP datetime: [0.00865 s] survived
+   - [#1671] CRP datetime: [0.00829 s] survived
+   - [#1672] CRP datetime: [0.00851 s] survived
+   - [#1673] CRP datetime: [0.00858 s] survived
+   - [#1674] CRP datetime: [0.00872 s] survived
+   - [#1675] CRP datetime: [0.00828 s] survived
+   - [#1676] CRP datetime: [0.00851 s] survived
+   - [#1677] CRP datetime: [0.00865 s] survived
+   - [#1678] CRP datetime: [0.00877 s] survived
+   - [#1679] CRP datetime: [0.00826 s] survived
+   - [#1680] CRP datetime: [0.00858 s] survived
+   - [#1681] CRP datetime: [0.00843 s] survived
+   - [#1682] CRP datetime: [0.00877 s] survived
+   - [#1683] CRP datetime: [0.00861 s] survived
+   - [#1684] CRP datetime: [0.00850 s] survived
+   - [#1685] CRP datetime: [0.00846 s] survived
+   - [#1686] CRP datetime: [0.01059 s] survived
+   - [#1687] CRP datetime: [0.00907 s] survived
+   - [#1688] CRP datetime: [0.00838 s] survived
+   - [#1689] CRP datetime: [0.00840 s] survived
+   - [#1690] CRP datetime: [0.00859 s] survived
+   - [#1691] CRP datetime: [0.00892 s] survived
+   - [#1692] CRP datetime: [0.00863 s] survived
+   - [#1693] CRP datetime: [0.00827 s] survived
+   - [#1694] CRP datetime: [0.00879 s] survived
+   - [#1695] CRP datetime: [0.00881 s] survived
+   - [#1696] CRP datetime: [0.00851 s] survived
+   - [#1697] CRP datetime: [0.00827 s] survived
+   - [#1698] CRP datetime: [0.00870 s] survived
+   - [#1699] CRP datetime: [0.00840 s] survived
+   - [#1700] CRP datetime: [0.00844 s] survived
+   - [#1701] CRP datetime: [0.00826 s] survived
+   - [#1702] CRP datetime: [0.00871 s] survived
+   - [#1703] CRP datetime: [0.00860 s] survived
+   - [#1704] CRP datetime: [0.00870 s] survived
+   - [#1705] CRP datetime: [0.00844 s] survived
+   - [#1706] CRP datetime: [0.00841 s] survived
+   - [#1707] CRP datetime: [0.00846 s] survived
+   - [#1708] CRP datetime: [0.00860 s] survived
+   - [#1709] DDL datetime: [0.00851 s] survived
+   - [#1710] DDL datetime: [0.00878 s] survived
+   - [#1711] DDL datetime: [0.00860 s] survived
+   - [#1712] DDL datetime: [0.00894 s] survived
+   - [#1713] DDL datetime: [0.00950 s] survived
+   - [#1714] DDL datetime: [0.00846 s] survived
+   - [#1715] DDL datetime: [0.00851 s] survived
+   - [#1716] DDL datetime: [0.00864 s] survived
+   - [#1717] DDL datetime: [0.00855 s] survived
+   - [#1718] DDL datetime: [0.00850 s] survived
+   - [#1719] DDL datetime: [0.00953 s] survived
+   - [#1720] DDL datetime: [0.00856 s] survived
+   - [#1721] DDL datetime: [0.00856 s] survived
+   - [#1722] DDL datetime: [0.00898 s] survived
+   - [#1723] DDL datetime: [0.00887 s] survived
+   - [#1724] DDL datetime: [0.00860 s] survived
+   - [#1725] DDL datetime: [0.00857 s] survived
+   - [#1726] DDL datetime: [0.00890 s] survived
+   - [#1727] DDL datetime: [0.00832 s] survived
+   - [#1728] DDL datetime: [0.00857 s] survived
+   - [#1729] DDL datetime: [0.00841 s] survived
+   - [#1730] DDL datetime: [0.00874 s] survived
+   - [#1731] DDL datetime: [0.00839 s] survived
+   - [#1732] DDL datetime: [0.00880 s] survived
+   - [#1733] DDL datetime: [0.01195 s] survived
+   - [#1734] DDL datetime: [0.00917 s] survived
+   - [#1735] DDL datetime: [0.00896 s] survived
+   - [#1736] DDL datetime: [0.00867 s] survived
+   - [#1737] DDL datetime: [0.00874 s] survived
+   - [#1738] DDL datetime: [0.00848 s] survived
+   - [#1739] DDL datetime: [0.00905 s] survived
+   - [#1740] DDL datetime: [0.00000 s] incompetent
+   - [#1741] DDL datetime: [0.00888 s] survived
+   - [#1742] EHD datetime: [0.00839 s] survived
+   - [#1743] EHD datetime: [0.00834 s] survived
+   - [#1744] EHD datetime: [0.00831 s] survived
+   - [#1745] EXS datetime: [0.00889 s] survived
+   - [#1746] EXS datetime: [0.00854 s] survived
+   - [#1747] EXS datetime: [0.00866 s] survived
+   - [#1748] EXS datetime: [0.00843 s] survived
+   - [#1749] EXS datetime: [0.00851 s] survived
+   - [#1750] EXS datetime: [0.00844 s] survived
+   - [#1751] EXS datetime: [0.00897 s] survived
+   - [#1752] EXS datetime: [0.00850 s] survived
+   - [#1753] EXS datetime: [0.00892 s] survived
+   - [#1754] IHD datetime: [0.00922 s] survived
+   - [#1755] IOD datetime: [0.00000 s] incompetent
+   - [#1756] IOD datetime: [0.00873 s] survived
+   - [#1757] IOD datetime: [0.00857 s] survived
+   - [#1758] IOD datetime: [0.00859 s] survived
+   - [#1759] IOD datetime: [0.00845 s] survived
+   - [#1760] IOD datetime: [0.00862 s] survived
+   - [#1761] IOD datetime: [0.00849 s] survived
+   - [#1762] IOD datetime: [0.00859 s] survived
+   - [#1763] IOD datetime: [0.00854 s] survived
+   - [#1764] IOD datetime: [0.00858 s] survived
+   - [#1765] IOD datetime: [0.00886 s] survived
+   - [#1766] IOD datetime: [0.00875 s] survived
+   - [#1767] IOD datetime: [0.00877 s] survived
+   - [#1768] IOD datetime: [0.00831 s] survived
+   - [#1769] IOD datetime: [0.00000 s] incompetent
+   - [#1770] IOD datetime: [0.00918 s] survived
+   - [#1771] IOD datetime: [0.00917 s] survived
+   - [#1772] IOD datetime: [0.00852 s] survived
+   - [#1773] IOD datetime: [0.00898 s] survived
+   - [#1774] IOD datetime: [0.00884 s] survived
+   - [#1775] IOD datetime: [0.00882 s] survived
+   - [#1776] IOD datetime: [0.00857 s] survived
+   - [#1777] IOD datetime: [0.00850 s] survived
+   - [#1778] IOD datetime: [0.00849 s] survived
+   - [#1779] IOD datetime: [0.00872 s] survived
+   - [#1780] IOD datetime: [0.00838 s] survived
+   - [#1781] IOD datetime: [0.00864 s] survived
+   - [#1782] IOD datetime: [0.00860 s] survived
+   - [#1783] LCR datetime: [0.00873 s] survived
+   - [#1784] LCR datetime: [0.00866 s] survived
+   - [#1785] LCR datetime: [0.00835 s] survived
+   - [#1786] LCR datetime: [0.00858 s] survived
+   - [#1787] LCR datetime: [0.00836 s] survived
+   - [#1788] LCR datetime: [0.00850 s] survived
+   - [#1789] LCR datetime: [0.00860 s] survived
+   - [#1790] LCR datetime: [0.00897 s] survived
+   - [#1791] LCR datetime: [0.00828 s] survived
+   - [#1792] LCR datetime: [0.00863 s] survived
+   - [#1793] LCR datetime: [0.00883 s] survived
+   - [#1794] LCR datetime: [0.00844 s] survived
+   - [#1795] LCR datetime: [0.00841 s] survived
+   - [#1796] LCR datetime: [0.00000 s] incompetent
+   - [#1797] LCR datetime: [0.00902 s] survived
+   - [#1798] LCR datetime: [0.00879 s] survived
+   - [#1799] LCR datetime: [0.00867 s] survived
+   - [#1800] LCR datetime: [0.00839 s] survived
+   - [#1801] LCR datetime: [0.00858 s] survived
+   - [#1802] LCR datetime: [0.00842 s] survived
+   - [#1803] LCR datetime: [0.00891 s] survived
+   - [#1804] LCR datetime: [0.00000 s] incompetent
+   - [#1805] LCR datetime: [0.00878 s] survived
+   - [#1806] LCR datetime: [0.00844 s] survived
+   - [#1807] LCR datetime: [0.00841 s] survived
+   - [#1808] LCR datetime: [0.00000 s] incompetent
+   - [#1809] LCR datetime: [0.00865 s] survived
+   - [#1810] LCR datetime: [0.00858 s] survived
+   - [#1811] LCR datetime: [0.00888 s] survived
+   - [#1812] LCR datetime: [0.00877 s] survived
+   - [#1813] LCR datetime: [0.00000 s] incompetent
+   - [#1814] LCR datetime: [0.00863 s] survived
+   - [#1815] LCR datetime: [0.00847 s] survived
+   - [#1816] LCR datetime: [0.00996 s] survived
+   - [#1817] LCR datetime: [0.00913 s] survived
+   - [#1818] LCR datetime: [0.00874 s] survived
+   - [#1819] LCR datetime: [0.00886 s] survived
+   - [#1820] LCR datetime: [0.00833 s] survived
+   - [#1821] LCR datetime: [0.00853 s] survived
+   - [#1822] LCR datetime: [0.00847 s] survived
+   - [#1823] LCR datetime: [0.00881 s] survived
+   - [#1824] LCR datetime: [0.00855 s] survived
+   - [#1825] LOR datetime: [0.00846 s] survived
+   - [#1826] LOR datetime: [0.00859 s] survived
+   - [#1827] LOR datetime: [0.00883 s] survived
+   - [#1828] LOR datetime: [0.00892 s] survived
+   - [#1829] LOR datetime: [0.00847 s] survived
+   - [#1830] LOR datetime: [0.00841 s] survived
+   - [#1831] LOR datetime: [0.00854 s] survived
+   - [#1832] LOR datetime: [0.00839 s] survived
+   - [#1833] LOR datetime: [0.00847 s] survived
+   - [#1834] LOR datetime: [0.00894 s] survived
+   - [#1835] LOR datetime: [0.00828 s] survived
+   - [#1836] ROR datetime: [0.00820 s] survived
+   - [#1837] ROR datetime: [0.00856 s] survived
+   - [#1838] ROR datetime: [0.00829 s] survived
+   - [#1839] ROR datetime: [0.00840 s] survived
+   - [#1840] ROR datetime: [0.00848 s] survived
+   - [#1841] ROR datetime: [0.00890 s] survived
+   - [#1842] ROR datetime: [0.00000 s] incompetent
+   - [#1843] ROR datetime: [0.00000 s] incompetent
+   - [#1844] ROR datetime: [0.00000 s] incompetent
+   - [#1845] ROR datetime: [0.00000 s] incompetent
+   - [#1846] ROR datetime: [0.00923 s] survived
+   - [#1847] ROR datetime: [0.01100 s] survived
+   - [#1848] ROR datetime: [0.00892 s] survived
+   - [#1849] ROR datetime: [0.00854 s] survived
+   - [#1850] ROR datetime: [0.00849 s] survived
+   - [#1851] ROR datetime: [0.00864 s] survived
+   - [#1852] ROR datetime: [0.00875 s] survived
+   - [#1853] ROR datetime: [0.00886 s] survived
+   - [#1854] ROR datetime: [0.00836 s] survived
+   - [#1855] ROR datetime: [0.00857 s] survived
+   - [#1856] ROR datetime: [0.00874 s] survived
+   - [#1857] ROR datetime: [0.00909 s] survived
+   - [#1858] ROR datetime: [0.00840 s] survived
+   - [#1859] ROR datetime: [0.00857 s] survived
+   - [#1860] ROR datetime: [0.00868 s] survived
+   - [#1861] ROR datetime: [0.00000 s] incompetent
+   - [#1862] ROR datetime: [0.00000 s] incompetent
+   - [#1863] ROR datetime: [0.00000 s] incompetent
+   - [#1864] ROR datetime: [0.01160 s] survived
+   - [#1865] ROR datetime: [0.00895 s] survived
+   - [#1866] ROR datetime: [0.00856 s] survived
+   - [#1867] ROR datetime: [0.00864 s] survived
+   - [#1868] ROR datetime: [0.00855 s] survived
+   - [#1869] ROR datetime: [0.00868 s] survived
+   - [#1870] ROR datetime: [0.00893 s] survived
+   - [#1871] ROR datetime: [0.00874 s] survived
+   - [#1872] ROR datetime: [0.00835 s] survived
+   - [#1873] ROR datetime: [0.00853 s] survived
+   - [#1874] ROR datetime: [0.00867 s] survived
+   - [#1875] ROR datetime: [0.00900 s] survived
+   - [#1876] ROR datetime: [0.00836 s] survived
+   - [#1877] ROR datetime: [0.00836 s] survived
+   - [#1878] ROR datetime: [0.00875 s] survived
+   - [#1879] ROR datetime: [0.00877 s] survived
+   - [#1880] ROR datetime: [0.00845 s] survived
+   - [#1881] ROR datetime: [0.00826 s] survived
+   - [#1882] ROR datetime: [0.00853 s] survived
+   - [#1883] ROR datetime: [0.00871 s] survived
+   - [#1884] ROR datetime: [0.00862 s] survived
+   - [#1885] ROR datetime: [0.00822 s] survived
+   - [#1886] ROR datetime: [0.00849 s] survived
+   - [#1887] ROR datetime: [0.00837 s] survived
+   - [#1888] ROR datetime: [0.00885 s] survived
+   - [#1889] ROR datetime: [0.00836 s] survived
+   - [#1890] ROR datetime: [0.00864 s] survived
+   - [#1891] ROR datetime: [0.00934 s] survived
+   - [#1892] ROR datetime: [0.00860 s] survived
+   - [#1893] ROR datetime: [0.00884 s] survived
+   - [#1894] ROR datetime: [0.00895 s] survived
+   - [#1895] ROR datetime: [0.00854 s] survived
+   - [#1896] ROR datetime: [0.00844 s] survived
+   - [#1897] ROR datetime: [0.00867 s] survived
+   - [#1898] ROR datetime: [0.00867 s] survived
+   - [#1899] ROR datetime: [0.00866 s] survived
+   - [#1900] ROR datetime: [0.00835 s] survived
+   - [#1901] ROR datetime: [0.00846 s] survived
+   - [#1902] ROR datetime: [0.00858 s] survived
+   - [#1903] ROR datetime: [0.00866 s] survived
+   - [#1904] ROR datetime: [0.00886 s] survived
+   - [#1905] ROR datetime: [0.00876 s] survived
+   - [#1906] ROR datetime: [0.00833 s] survived
+   - [#1907] ROR datetime: [0.00861 s] survived
+   - [#1908] ROR datetime: [0.00848 s] survived
+   - [#1909] ROR datetime: [0.00891 s] survived
+   - [#1910] ROR datetime: [0.00831 s] survived
+   - [#1911] ROR datetime: [0.00842 s] survived
+   - [#1912] ROR datetime: [0.00849 s] survived
+   - [#1913] ROR datetime: [0.00868 s] survived
+   - [#1914] ROR datetime: [0.00849 s] survived
+   - [#1915] ROR datetime: [0.00842 s] survived
+   - [#1916] ROR datetime: [0.00844 s] survived
+   - [#1917] ROR datetime: [0.00000 s] incompetent
+   - [#1918] ROR datetime: [0.00000 s] incompetent
+   - [#1919] ROR datetime: [0.00000 s] incompetent
+   - [#1920] ROR datetime: [0.00000 s] incompetent
+   - [#1921] ROR datetime: [0.00000 s] incompetent
+   - [#1922] ROR datetime: [0.00000 s] incompetent
+   - [#1923] ROR datetime: [0.00000 s] incompetent
+   - [#1924] ROR datetime: [0.00000 s] incompetent
+   - [#1925] ROR datetime: [0.00000 s] incompetent
+   - [#1926] ROR datetime: [0.00000 s] incompetent
+   - [#1927] ROR datetime: [0.00000 s] incompetent
+   - [#1928] ROR datetime: [0.00000 s] incompetent
+   - [#1929] ROR datetime: [0.00000 s] incompetent
+   - [#1930] ROR datetime: [0.00000 s] incompetent
+   - [#1931] ROR datetime: [0.00000 s] incompetent
+   - [#1932] ROR datetime: [0.00000 s] incompetent
+   - [#1933] ROR datetime: [0.00000 s] incompetent
+   - [#1934] ROR datetime: [0.00000 s] incompetent
+   - [#1935] ROR datetime: [0.00000 s] incompetent
+   - [#1936] ROR datetime: [0.00000 s] incompetent
+   - [#1937] ROR datetime: [0.00000 s] incompetent
+   - [#1938] ROR datetime: [0.00000 s] incompetent
+   - [#1939] ROR datetime: [0.00000 s] incompetent
+   - [#1940] ROR datetime: [0.00000 s] incompetent
+   - [#1941] ROR datetime: [0.00000 s] incompetent
+   - [#1942] ROR datetime: [0.00000 s] incompetent
+   - [#1943] ROR datetime: [0.00000 s] incompetent
+   - [#1944] ROR datetime: [0.00000 s] incompetent
+   - [#1945] ROR datetime: [0.00865 s] survived
+   - [#1946] ROR datetime: [0.00870 s] survived
+   - [#1947] ROR datetime: [0.00826 s] survived
+   - [#1948] ROR datetime: [0.00864 s] survived
+   - [#1949] ROR datetime: [0.00849 s] survived
+   - [#1950] ROR datetime: [0.00875 s] survived
+   - [#1951] ROR datetime: [0.00823 s] survived
+   - [#1952] ROR datetime: [0.00858 s] survived
+   - [#1953] ROR datetime: [0.00852 s] survived
+   - [#1954] ROR datetime: [0.00869 s] survived
+   - [#1955] ROR datetime: [0.00000 s] incompetent
+   - [#1956] ROR datetime: [0.00885 s] survived
+   - [#1957] ROR datetime: [0.00000 s] incompetent
+   - [#1958] ROR datetime: [0.00851 s] survived
+   - [#1959] ROR datetime: [0.00890 s] survived
+   - [#1960] ROR datetime: [0.01021 s] survived
+   - [#1961] ROR datetime: [0.00928 s] survived
+   - [#1962] ROR datetime: [0.00000 s] incompetent
+   - [#1963] ROR datetime: [0.00894 s] survived
+   - [#1964] ROR datetime: [0.00000 s] incompetent
+   - [#1965] ROR datetime: [0.00854 s] survived
+   - [#1966] ROR datetime: [0.00000 s] incompetent
+   - [#1967] ROR datetime: [0.00861 s] survived
+   - [#1968] ROR datetime: [0.00000 s] incompetent
+   - [#1969] ROR datetime: [0.00868 s] survived
+   - [#1970] ROR datetime: [0.00000 s] incompetent
+   - [#1971] ROR datetime: [0.00889 s] survived
+   - [#1972] ROR datetime: [0.00000 s] incompetent
+   - [#1973] ROR datetime: [0.00000 s] incompetent
+   - [#1974] ROR datetime: [0.00000 s] incompetent
+   - [#1975] ROR datetime: [0.00864 s] survived
+   - [#1976] ROR datetime: [0.00000 s] incompetent
+   - [#1977] ROR datetime: [0.00000 s] incompetent
+   - [#1978] ROR datetime: [0.00000 s] incompetent
+   - [#1979] ROR datetime: [0.00902 s] survived
+   - [#1980] ROR datetime: [0.00000 s] incompetent
+   - [#1981] ROR datetime: [0.00000 s] incompetent
+   - [#1982] ROR datetime: [0.00895 s] survived
+   - [#1983] ROR datetime: [0.00902 s] survived
+   - [#1984] ROR datetime: [0.00877 s] survived
+   - [#1985] ROR datetime: [0.00909 s] survived
+   - [#1986] ROR datetime: [0.00826 s] survived
+   - [#1987] ROR datetime: [0.00844 s] survived
+   - [#1988] ROR datetime: [0.00900 s] survived
+   - [#1989] ROR datetime: [0.00889 s] survived
+   - [#1990] ROR datetime: [0.00851 s] survived
+   - [#1991] ROR datetime: [0.00869 s] survived
+   - [#1992] ROR datetime: [0.00841 s] survived
+   - [#1993] ROR datetime: [0.00865 s] survived
+   - [#1994] ROR datetime: [0.00890 s] survived
+   - [#1995] ROR datetime: [0.00821 s] survived
+   - [#1996] ROR datetime: [0.01052 s] survived
+   - [#1997] ROR datetime: [0.01116 s] survived
+   - [#1998] ROR datetime: [0.00852 s] survived
+   - [#1999] ROR datetime: [0.00848 s] survived
+   - [#2000] ROR datetime: [0.00866 s] survived
+   - [#2001] ROR datetime: [0.00862 s] survived
+   - [#2002] ROR datetime: [0.00883 s] survived
+   - [#2003] ROR datetime: [0.00936 s] survived
+   - [#2004] ROR datetime: [0.00866 s] survived
+   - [#2005] ROR datetime: [0.00862 s] survived
+   - [#2006] ROR datetime: [0.00853 s] survived
+   - [#2007] ROR datetime: [0.00846 s] survived
+   - [#2008] ROR datetime: [0.00850 s] survived
+   - [#2009] ROR datetime: [0.00877 s] survived
+   - [#2010] ROR datetime: [0.00839 s] survived
+   - [#2011] ROR datetime: [0.00841 s] survived
+   - [#2012] ROR datetime: [0.00856 s] survived
+   - [#2013] ROR datetime: [0.00893 s] survived
+   - [#2014] ROR datetime: [0.00867 s] survived
+   - [#2015] ROR datetime: [0.00825 s] survived
+   - [#2016] ROR datetime: [0.00855 s] survived
+   - [#2017] ROR datetime: [0.00841 s] survived
+   - [#2018] ROR datetime: [0.00862 s] survived
+   - [#2019] ROR datetime: [0.00818 s] survived
+   - [#2020] ROR datetime: [0.00846 s] survived
+   - [#2021] ROR datetime: [0.00849 s] survived
+   - [#2022] ROR datetime: [0.00851 s] survived
+   - [#2023] ROR datetime: [0.00883 s] survived
+   - [#2024] ROR datetime: [0.00829 s] survived
+   - [#2025] ROR datetime: [0.00854 s] survived
+   - [#2026] ROR datetime: [0.00821 s] survived
+   - [#2027] ROR datetime: [0.00857 s] survived
+   - [#2028] ROR datetime: [0.00834 s] survived
+   - [#2029] ROR datetime: [0.00858 s] survived
+   - [#2030] ROR datetime: [0.00878 s] survived
+   - [#2031] ROR datetime: [0.00880 s] survived
+   - [#2032] ROR datetime: [0.00819 s] survived
+   - [#2033] ROR datetime: [0.00840 s] survived
+   - [#2034] ROR datetime: [0.00846 s] survived
+   - [#2035] ROR datetime: [0.00864 s] survived
+   - [#2036] ROR datetime: [0.00821 s] survived
+   - [#2037] ROR datetime: [0.00847 s] survived
+   - [#2038] ROR datetime: [0.00844 s] survived
+   - [#2039] ROR datetime: [0.00839 s] survived
+   - [#2040] ROR datetime: [0.00840 s] survived
+   - [#2041] ROR datetime: [0.00924 s] survived
+   - [#2042] ROR datetime: [0.00894 s] survived
+   - [#2043] ROR datetime: [0.00870 s] survived
+   - [#2044] ROR datetime: [0.00837 s] survived
+   - [#2045] ROR datetime: [0.00836 s] survived
+   - [#2046] ROR datetime: [0.00852 s] survived
+   - [#2047] ROR datetime: [0.00847 s] survived
+   - [#2048] ROR datetime: [0.00856 s] survived
+   - [#2049] ROR datetime: [0.00894 s] survived
+   - [#2050] ROR datetime: [0.00867 s] survived
+   - [#2051] ROR datetime: [0.00828 s] survived
+   - [#2052] ROR datetime: [0.00834 s] survived
+   - [#2053] ROR datetime: [0.00843 s] survived
+   - [#2054] ROR datetime: [0.00864 s] survived
+   - [#2055] ROR datetime: [0.00865 s] survived
+   - [#2056] ROR datetime: [0.00848 s] survived
+   - [#2057] ROR datetime: [0.00850 s] survived
+   - [#2058] ROR datetime: [0.00857 s] survived
+   - [#2059] ROR datetime: [0.00843 s] survived
+   - [#2060] ROR datetime: [0.00880 s] survived
+   - [#2061] ROR datetime: [0.00916 s] survived
+   - [#2062] ROR datetime: [0.00862 s] survived
+   - [#2063] ROR datetime: [0.01033 s] survived
+   - [#2064] ROR datetime: [0.00852 s] survived
+   - [#2065] ROR datetime: [0.00903 s] survived
+   - [#2066] ROR datetime: [0.00839 s] survived
+   - [#2067] ROR datetime: [0.00891 s] survived
+   - [#2068] ROR datetime: [0.00875 s] survived
+   - [#2069] ROR datetime: [0.00844 s] survived
+   - [#2070] ROR datetime: [0.00853 s] survived
+   - [#2071] ROR datetime: [0.00885 s] survived
+   - [#2072] ROR datetime: [0.00837 s] survived
+   - [#2073] ROR datetime: [0.00870 s] survived
+   - [#2074] ROR datetime: [0.00842 s] survived
+   - [#2075] ROR datetime: [0.00858 s] survived
+   - [#2076] ROR datetime: [0.00883 s] survived
+   - [#2077] ROR datetime: [0.00879 s] survived
+   - [#2078] ROR datetime: [0.00836 s] survived
+   - [#2079] ROR datetime: [0.00839 s] survived
+   - [#2080] ROR datetime: [0.00847 s] survived
+   - [#2081] ROR datetime: [0.00862 s] survived
+   - [#2082] ROR datetime: [0.00873 s] survived
+   - [#2083] ROR datetime: [0.00844 s] survived
+   - [#2084] ROR datetime: [0.00848 s] survived
+   - [#2085] ROR datetime: [0.00863 s] survived
+   - [#2086] ROR datetime: [0.00891 s] survived
+   - [#2087] ROR datetime: [0.00859 s] survived
+   - [#2088] ROR datetime: [0.00843 s] survived
+   - [#2089] ROR datetime: [0.00852 s] survived
+   - [#2090] ROR datetime: [0.00867 s] survived
+   - [#2091] ROR datetime: [0.00900 s] survived
+   - [#2092] ROR datetime: [0.00916 s] survived
+   - [#2093] ROR datetime: [0.00892 s] survived
+   - [#2094] ROR datetime: [0.00846 s] survived
+   - [#2095] ROR datetime: [0.00889 s] survived
+   - [#2096] ROR datetime: [0.00838 s] survived
+   - [#2097] ROR datetime: [0.00831 s] survived
+   - [#2098] ROR datetime: [0.00861 s] survived
+   - [#2099] ROR datetime: [0.00870 s] survived
+   - [#2100] ROR datetime: [0.00876 s] survived
+   - [#2101] ROR datetime: [0.00841 s] survived
+   - [#2102] ROR datetime: [0.00868 s] survived
+   - [#2103] ROR datetime: [0.00839 s] survived
+   - [#2104] ROR datetime: [0.00865 s] survived
+   - [#2105] ROR datetime: [0.00878 s] survived
+   - [#2106] ROR datetime: [0.00875 s] survived
+   - [#2107] ROR datetime: [0.00819 s] survived
+   - [#2108] SCI datetime: [0.00000 s] incompetent
+   - [#2109] SCI datetime: [0.01068 s] survived
+   - [#2110] SCI datetime: [0.00917 s] survived
+   - [#2111] SCI datetime: [0.00898 s] survived
+   - [#2112] SCI datetime: [0.00901 s] survived
+   - [#2113] SCI datetime: [0.00898 s] survived
+   - [#2114] SCI datetime: [0.00897 s] survived
+   - [#2115] SCI datetime: [0.00928 s] survived
+   - [#2116] SCI datetime: [0.00895 s] survived
+   - [#2117] SCI datetime: [0.00884 s] survived
+   - [#2118] SCI datetime: [0.00855 s] survived
+   - [#2119] SCI datetime: [0.00859 s] survived
+   - [#2120] SCI datetime: [0.00855 s] survived
+   - [#2121] SCI datetime: [0.00857 s] survived
+   - [#2122] SCI datetime: [0.00904 s] survived
+   - [#2123] SCI datetime: [0.00856 s] survived
+   - [#2124] SCI datetime: [0.00919 s] survived
+   - [#2125] SCI datetime: [0.00911 s] survived
+   - [#2126] SCI datetime: [0.00927 s] survived
+   - [#2127] SCI datetime: [0.00932 s] survived
+   - [#2128] SCI datetime: [0.00895 s] survived
+   - [#2129] SCI datetime: [0.00900 s] survived
+   - [#2130] SCI datetime: [0.00865 s] survived
+   - [#2131] SCI datetime: [0.00858 s] survived
+   - [#2132] SCI datetime: [0.00866 s] survived
+   - [#2133] SCI datetime: [0.00869 s] survived
+   - [#2134] SCI datetime: [0.00890 s] survived
+   - [#2135] SCI datetime: [0.00903 s] survived
+   - [#2136] SIR datetime: [0.00882 s] survived
+   - [#2137] SIR datetime: [0.00934 s] survived
+   - [#2138] SIR datetime: [0.00857 s] survived
+   - [#2139] SIR datetime: [0.00849 s] survived
+   - [#2140] SIR datetime: [0.00872 s] survived
+   - [#2141] SIR datetime: [0.00850 s] survived
+   - [#2142] SIR datetime: [0.00874 s] survived
+   - [#2143] SIR datetime: [0.00838 s] survived
+   - [#2144] SIR datetime: [0.00853 s] survived
+   - [#2145] SIR datetime: [0.00852 s] survived
+   - [#2146] SIR datetime: [0.00850 s] survived
+   - [#2147] SIR datetime: [0.00894 s] survived
+   - [#2148] SIR datetime: [0.00887 s] survived
+   - [#2149] SIR datetime: [0.00848 s] survived
+   - [#2150] SIR datetime: [0.00847 s] survived
+   - [#2151] SIR datetime: [0.00883 s] survived
+   - [#2152] SIR datetime: [0.00980 s] survived
+   - [#2153] SIR datetime: [0.00910 s] survived
+   - [#2154] SIR datetime: [0.00867 s] survived
+   - [#2155] SIR datetime: [0.00907 s] survived
+   - [#2156] SIR datetime: [0.00875 s] survived
+   - [#2157] SIR datetime: [0.00848 s] survived
+   - [#2158] SIR datetime: [0.00913 s] survived
+   - [#2159] SIR datetime: [0.00848 s] survived
+   - [#2160] SIR datetime: [0.00851 s] survived
+   - [#2161] SIR datetime: [0.00861 s] survived
+   - [#2162] SIR datetime: [0.00875 s] survived
+   - [#2163] SIR datetime: [0.01010 s] survived
+   - [#2164] SIR datetime: [0.00880 s] survived
+   - [#2165] SIR datetime: [0.00871 s] survived
+   - [#2166] SIR datetime: [0.00850 s] survived
+   - [#2167] SIR datetime: [0.00877 s] survived
+   - [#2168] SIR datetime: [0.00853 s] survived
+   - [#2169] SIR datetime: [0.00847 s] survived
+   - [#2170] SIR datetime: [0.00891 s] survived
+   - [#2171] SIR datetime: [0.00867 s] survived
+[*] Mutation score [44.29523 s]: 0.0%
+   - all: 2171
+   - killed: 0 (0.0%)
+   - survived: 1956 (90.1%)
+   - incompetent: 215 (9.9%)
+   - timeout: 0 (0.0%)

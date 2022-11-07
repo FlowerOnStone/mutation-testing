@@ -1,0 +1,219 @@
+[*] Start mutation process:
+   - targets: reprlib.py
+   - tests: test_reprlib.py
+[*] 21 tests passed:
+   - test_reprlib [0.00937 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR reprlib: [0.21752 s] timeout
+   - [#   2] AOR reprlib: [0.21930 s] timeout
+   - [#   3] AOR reprlib: [0.01747 s] survived
+   - [#   4] AOR reprlib: [0.01217 s] survived
+   - [#   5] AOR reprlib: [0.21542 s] timeout
+   - [#   6] AOR reprlib: [0.01837 s] survived
+   - [#   7] AOR reprlib: [0.01112 s] survived
+   - [#   8] AOR reprlib: [0.01092 s] survived
+   - [#   9] AOR reprlib: [0.01138 s] survived
+   - [#  10] AOR reprlib: [0.01164 s] survived
+   - [#  11] AOR reprlib: [0.01096 s] survived
+   - [#  12] AOR reprlib: [0.01217 s] survived
+   - [#  13] AOR reprlib: [0.01075 s] survived
+   - [#  14] AOR reprlib: [0.01096 s] survived
+   - [#  15] AOR reprlib: [0.01140 s] survived
+   - [#  16] AOR reprlib: [0.01129 s] survived
+   - [#  17] AOR reprlib: [0.01155 s] survived
+   - [#  18] AOR reprlib: [0.01117 s] survived
+   - [#  19] AOR reprlib: [0.01172 s] survived
+   - [#  20] AOR reprlib: [0.01071 s] survived
+   - [#  21] AOR reprlib: [0.01187 s] survived
+   - [#  22] AOR reprlib: [0.01534 s] survived
+   - [#  23] AOR reprlib: [0.01238 s] survived
+   - [#  24] AOR reprlib: [0.01242 s] survived
+   - [#  25] AOR reprlib: [0.01377 s] survived
+   - [#  26] AOR reprlib: [0.01332 s] survived
+   - [#  27] AOR reprlib: [0.01255 s] survived
+   - [#  28] AOR reprlib: [0.01281 s] survived
+   - [#  29] AOR reprlib: [0.01586 s] survived
+   - [#  30] AOR reprlib: [0.02282 s] survived
+   - [#  31] AOR reprlib: [0.02227 s] survived
+   - [#  32] AOR reprlib: [0.01268 s] survived
+   - [#  33] AOR reprlib: [0.01257 s] survived
+   - [#  34] AOR reprlib: [0.01289 s] survived
+   - [#  35] AOR reprlib: [0.01309 s] survived
+   - [#  36] AOR reprlib: [0.01244 s] survived
+   - [#  37] AOR reprlib: [0.01249 s] survived
+   - [#  38] COD reprlib: [0.01126 s] survived
+   - [#  39] COD reprlib: [0.01111 s] survived
+   - [#  40] COD reprlib: [0.01143 s] survived
+   - [#  41] COI reprlib: [0.01110 s] survived
+   - [#  42] COI reprlib: [0.01155 s] survived
+   - [#  43] COI reprlib: [0.01174 s] survived
+   - [#  44] COI reprlib: [0.01133 s] survived
+   - [#  45] COI reprlib: [0.01214 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  46] COI reprlib: [0.01327 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  47] COI reprlib: [0.01220 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  48] COI reprlib: [0.01235 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  49] COI reprlib: [0.01178 s] survived
+   - [#  50] COI reprlib: [0.01107 s] survived
+   - [#  51] COI reprlib: [0.01136 s] survived
+   - [#  52] COI reprlib: [0.01183 s] survived
+   - [#  53] COI reprlib: [0.01169 s] survived
+   - [#  54] COI reprlib: [0.01197 s] survived
+   - [#  55] COI reprlib: [0.01181 s] survived
+   - [#  56] COI reprlib: [0.01202 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  57] COI reprlib: [0.01296 s] survived
+   - [#  58] CRP reprlib: [0.01210 s] survived
+   - [#  59] CRP reprlib: [0.01141 s] survived
+   - [#  60] CRP reprlib: [0.01157 s] survived
+   - [#  61] CRP reprlib: [0.01164 s] survived
+   - [#  62] CRP reprlib: [0.01191 s] survived
+   - [#  63] CRP reprlib: [0.01223 s] survived
+   - [#  64] CRP reprlib: [0.01193 s] survived
+   - [#  65] CRP reprlib: [0.01265 s] survived
+   - [#  66] CRP reprlib: [0.01287 s] survived
+   - [#  67] CRP reprlib: [0.01214 s] survived
+   - [#  68] CRP reprlib: [0.01123 s] survived
+   - [#  69] CRP reprlib: [0.01194 s] survived
+   - [#  70] CRP reprlib: [0.01154 s] survived
+   - [#  71] CRP reprlib: [0.01228 s] survived
+   - [#  72] CRP reprlib: [0.01254 s] survived
+   - [#  73] CRP reprlib: [0.01130 s] survived
+   - [#  74] CRP reprlib: [0.01172 s] survived
+   - [#  75] CRP reprlib: [0.01170 s] survived
+   - [#  76] CRP reprlib: [0.01200 s] survived
+   - [#  77] CRP reprlib: [0.01245 s] survived
+   - [#  78] CRP reprlib: [0.01105 s] survived
+   - [#  79] CRP reprlib: [0.01196 s] survived
+   - [#  80] CRP reprlib: [0.01216 s] survived
+   - [#  81] CRP reprlib: [0.01151 s] survived
+   - [#  82] CRP reprlib: [0.01214 s] survived
+   - [#  83] CRP reprlib: [0.01208 s] survived
+   - [#  84] CRP reprlib: [0.01471 s] survived
+   - [#  85] CRP reprlib: [0.01229 s] survived
+   - [#  86] CRP reprlib: [0.01210 s] survived
+   - [#  87] CRP reprlib: [0.01082 s] survived
+   - [#  88] CRP reprlib: [0.01132 s] survived
+   - [#  89] CRP reprlib: [0.01250 s] survived
+   - [#  90] CRP reprlib: [0.01251 s] survived
+   - [#  91] CRP reprlib: [0.01249 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  92] CRP reprlib: [0.01283 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  93] CRP reprlib: [0.01247 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  94] CRP reprlib: [0.01254 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [#  95] CRP reprlib: [0.01261 s] survived
+   - [#  96] CRP reprlib: [0.01180 s] survived
+   - [#  97] CRP reprlib: [0.01071 s] survived
+   - [#  98] CRP reprlib: [0.01232 s] survived
+   - [#  99] CRP reprlib: [0.01195 s] survived
+   - [# 100] CRP reprlib: [0.01294 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 101] CRP reprlib: [0.01291 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 102] CRP reprlib: [0.01202 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 103] CRP reprlib: [0.01243 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 104] CRP reprlib: [0.01205 s] survived
+   - [# 105] CRP reprlib: [0.21537 s] timeout
+   - [# 106] CRP reprlib: [0.21928 s] timeout
+   - [# 107] CRP reprlib: [0.02354 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 108] CRP reprlib: [0.01485 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 109] CRP reprlib: [0.01372 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 110] CRP reprlib: [0.01240 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 111] CRP reprlib: [0.01174 s] survived
+   - [# 112] CRP reprlib: [0.01214 s] survived
+   - [# 113] CRP reprlib: [0.01216 s] survived
+   - [# 114] CRP reprlib: [0.01189 s] survived
+   - [# 115] CRP reprlib: [0.01207 s] survived
+   - [# 116] CRP reprlib: [0.01264 s] survived
+   - [# 117] CRP reprlib: [0.01203 s] survived
+   - [# 118] CRP reprlib: [0.01242 s] survived
+   - [# 119] CRP reprlib: [0.01244 s] survived
+   - [# 120] CRP reprlib: [0.01228 s] survived
+   - [# 121] CRP reprlib: [0.01270 s] survived
+   - [# 122] CRP reprlib: [0.01142 s] survived
+   - [# 123] CRP reprlib: [0.01206 s] survived
+   - [# 124] CRP reprlib: [0.01412 s] survived
+   - [# 125] CRP reprlib: [0.01212 s] survived
+   - [# 126] CRP reprlib: [0.01267 s] survived
+   - [# 127] CRP reprlib: [0.01270 s] survived
+   - [# 128] CRP reprlib: [0.01155 s] survived
+   - [# 129] CRP reprlib: [0.01208 s] survived
+   - [# 130] CRP reprlib: [0.01393 s] survived
+   - [# 131] CRP reprlib: [0.01257 s] survived
+   - [# 132] CRP reprlib: [0.01339 s] survived
+   - [# 133] CRP reprlib: [0.01250 s] survived
+   - [# 134] CRP reprlib: [0.01192 s] survived
+   - [# 135] CRP reprlib: [0.01202 s] survived
+   - [# 136] CRP reprlib: [0.01283 s] survived
+   - [# 137] CRP reprlib: [0.01296 s] survived
+   - [# 138] CRP reprlib: [0.01247 s] survived
+   - [# 139] CRP reprlib: [0.01264 s] survived
+   - [# 140] CRP reprlib: [0.01089 s] survived
+   - [# 141] CRP reprlib: [0.01128 s] survived
+   - [# 142] CRP reprlib: [0.01174 s] survived
+   - [# 143] CRP reprlib: [0.01195 s] survived
+   - [# 144] CRP reprlib: [0.01178 s] survived
+   - [# 145] CRP reprlib: [0.01156 s] survived
+   - [# 146] CRP reprlib: [0.01221 s] survived
+   - [# 147] CRP reprlib: [0.01242 s] survived
+   - [# 148] CRP reprlib: [0.01123 s] survived
+   - [# 149] CRP reprlib: [0.01161 s] survived
+   - [# 150] CRP reprlib: [0.01134 s] survived
+   - [# 151] CRP reprlib: [0.01180 s] survived
+   - [# 152] CRP reprlib: [0.01258 s] survived
+   - [# 153] CRP reprlib: [0.01130 s] survived
+   - [# 154] CRP reprlib: [0.01157 s] survived
+   - [# 155] CRP reprlib: [0.01198 s] survived
+   - [# 156] CRP reprlib: [0.01238 s] survived
+   - [# 157] CRP reprlib: [0.01171 s] survived
+   - [# 158] CRP reprlib: [0.01122 s] survived
+   - [# 159] CRP reprlib: [0.01194 s] survived
+   - [# 160] CRP reprlib: [0.01183 s] survived
+   - [# 161] CRP reprlib: [0.01136 s] survived
+   - [# 162] CRP reprlib: [0.01195 s] survived
+   - [# 163] CRP reprlib: [0.01116 s] survived
+   - [# 164] CRP reprlib: [0.01200 s] survived
+   - [# 165] CRP reprlib: [0.01177 s] survived
+   - [# 166] CRP reprlib: [0.01161 s] survived
+   - [# 167] CRP reprlib: [0.01201 s] survived
+   - [# 168] CRP reprlib: [0.01120 s] survived
+   - [# 169] CRP reprlib: [0.01234 s] survived
+   - [# 170] CRP reprlib: [0.01190 s] survived
+   - [# 171] CRP reprlib: [0.01320 s] survived
+   - [# 172] CRP reprlib: [0.01176 s] survived
+   - [# 173] CRP reprlib: [0.01239 s] survived
+   - [# 174] CRP reprlib: [0.01258 s] survived
+   - [# 175] CRP reprlib: [0.01112 s] survived
+   - [# 176] CRP reprlib: [0.01208 s] survived
+   - [# 177] EHD reprlib: [0.01191 s] survived
+   - [# 178] EHD reprlib: [0.01158 s] survived
+   - [# 179] EXS reprlib: [0.01197 s] survived
+   - [# 180] EXS reprlib: [0.01223 s] survived
+   - [# 181] LCR reprlib: [0.01226 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 182] LCR reprlib: [0.01237 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 183] ROR reprlib: [0.01231 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 184] ROR reprlib: [0.01216 s] survived
+   - [# 185] ROR reprlib: [0.01226 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 186] ROR reprlib: [0.01272 s] survived
+   - [# 187] ROR reprlib: [0.01270 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 188] ROR reprlib: [0.01197 s] survived
+   - [# 189] ROR reprlib: [0.01225 s] survived
+   - [# 190] ROR reprlib: [0.01238 s] survived
+   - [# 191] ROR reprlib: [0.01177 s] survived
+   - [# 192] ROR reprlib: [0.01283 s] survived
+   - [# 193] ROR reprlib: [0.01231 s] survived
+   - [# 194] ROR reprlib: [0.01145 s] survived
+   - [# 195] ROR reprlib: [0.01225 s] killed by test_tuple (test_reprlib.ReprTests)
+   - [# 196] ROR reprlib: [0.01201 s] survived
+   - [# 197] ROR reprlib: [0.01166 s] survived
+   - [# 198] ROR reprlib: [0.01199 s] survived
+   - [# 199] SIR reprlib: [0.01199 s] survived
+   - [# 200] SIR reprlib: [0.01171 s] survived
+   - [# 201] SIR reprlib: [0.01160 s] survived
+   - [# 202] SIR reprlib: [0.01256 s] survived
+   - [# 203] SIR reprlib: [0.01181 s] survived
+   - [# 204] SIR reprlib: [0.01194 s] survived
+   - [# 205] SIR reprlib: [0.01177 s] survived
+   - [# 206] SIR reprlib: [0.01215 s] survived
+   - [# 207] SIR reprlib: [0.01212 s] survived
+[*] Mutation score [4.68782 s]: 13.5%
+   - all: 207
+   - killed: 23 (11.1%)
+   - survived: 179 (86.5%)
+   - incompetent: 0 (0.0%)
+   - timeout: 5 (2.4%)

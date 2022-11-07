@@ -1,0 +1,139 @@
+[*] Start mutation process:
+   - targets: filecmp.py
+   - tests: test_filecmp.py
+[*] 8 tests passed:
+   - test_filecmp [0.00814 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR filecmp: [0.21373 s] timeout
+   - [#   2] AOR filecmp: [0.01646 s] survived
+   - [#   3] AOR filecmp: [0.00997 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#   4] AOR filecmp: [0.21305 s] timeout
+   - [#   5] AOR filecmp: [0.21306 s] timeout
+   - [#   6] COD filecmp: [0.01577 s] survived
+   - [#   7] COD filecmp: [0.01140 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#   8] COD filecmp: [0.00958 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#   9] COI filecmp: [0.00897 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  10] COI filecmp: [0.01255 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  11] COI filecmp: [0.00954 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  12] COI filecmp: [0.21312 s] timeout
+   - [#  13] COI filecmp: [0.01643 s] survived
+   - [#  14] COI filecmp: [0.21317 s] timeout
+   - [#  15] COI filecmp: [0.01062 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  16] COI filecmp: [0.01595 s] survived
+   - [#  17] COI filecmp: [0.21315 s] timeout
+   - [#  18] COI filecmp: [0.21394 s] timeout
+   - [#  19] COI filecmp: [0.01280 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  20] COI filecmp: [0.01211 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  21] COI filecmp: [0.01150 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  22] COI filecmp: [0.01231 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  23] COI filecmp: [0.01229 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  24] COI filecmp: [0.01251 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  25] COI filecmp: [0.01246 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  26] COI filecmp: [0.01273 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  27] COI filecmp: [0.01235 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  28] COI filecmp: [0.01270 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  29] COI filecmp: [0.01225 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  30] COI filecmp: [0.01146 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  31] COI filecmp: [0.01578 s] survived
+   - [#  32] COI filecmp: [0.01523 s] survived
+   - [#  33] COI filecmp: [0.01480 s] survived
+   - [#  34] COI filecmp: [0.00000 s] incompetent
+   - [#  35] CRP filecmp: [0.01564 s] survived
+   - [#  36] CRP filecmp: [0.01622 s] survived
+   - [#  37] CRP filecmp: [0.01520 s] survived
+   - [#  38] CRP filecmp: [0.01531 s] survived
+   - [#  39] CRP filecmp: [0.01586 s] survived
+   - [#  40] CRP filecmp: [0.01641 s] survived
+   - [#  41] CRP filecmp: [0.01867 s] survived
+   - [#  42] CRP filecmp: [0.01702 s] survived
+   - [#  43] CRP filecmp: [0.01647 s] survived
+   - [#  44] CRP filecmp: [0.01778 s] survived
+   - [#  45] CRP filecmp: [0.01708 s] survived
+   - [#  46] CRP filecmp: [0.01583 s] survived
+   - [#  47] CRP filecmp: [0.01588 s] survived
+   - [#  48] CRP filecmp: [0.01713 s] survived
+   - [#  49] CRP filecmp: [0.01769 s] survived
+   - [#  50] CRP filecmp: [0.01574 s] survived
+   - [#  51] CRP filecmp: [0.01558 s] survived
+   - [#  52] CRP filecmp: [0.01727 s] survived
+   - [#  53] CRP filecmp: [0.01709 s] survived
+   - [#  54] CRP filecmp: [0.01547 s] survived
+   - [#  55] CRP filecmp: [0.01082 s] killed by test_default_ignores (test_filecmp.DirCompareTestCase)
+   - [#  56] CRP filecmp: [0.01034 s] killed by test_default_ignores (test_filecmp.DirCompareTestCase)
+   - [#  57] CRP filecmp: [0.01560 s] survived
+   - [#  58] CRP filecmp: [0.01644 s] survived
+   - [#  59] CRP filecmp: [0.01624 s] survived
+   - [#  60] CRP filecmp: [0.01606 s] survived
+   - [#  61] CRP filecmp: [0.01628 s] survived
+   - [#  62] CRP filecmp: [0.01718 s] survived
+   - [#  63] CRP filecmp: [0.00940 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  64] CRP filecmp: [0.00951 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  65] CRP filecmp: [0.00930 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  66] CRP filecmp: [0.00979 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  67] CRP filecmp: [0.01589 s] survived
+   - [#  68] CRP filecmp: [0.00997 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  69] CRP filecmp: [0.00946 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  70] CRP filecmp: [0.01026 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  71] CRP filecmp: [0.01014 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  72] CRP filecmp: [0.01631 s] survived
+   - [#  73] CRP filecmp: [0.01782 s] survived
+   - [#  74] CRP filecmp: [0.01622 s] survived
+   - [#  75] CRP filecmp: [0.01375 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  76] CRP filecmp: [0.01277 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  77] CRP filecmp: [0.01309 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  78] CRP filecmp: [0.01383 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  79] CRP filecmp: [0.01333 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  80] CRP filecmp: [0.01322 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  81] CRP filecmp: [0.01319 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  82] CRP filecmp: [0.01333 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  83] CRP filecmp: [0.01290 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  84] CRP filecmp: [0.01362 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  85] CRP filecmp: [0.01272 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  86] CRP filecmp: [0.01313 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  87] CRP filecmp: [0.01441 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  88] CRP filecmp: [0.01442 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [#  89] CRP filecmp: [0.01580 s] survived
+   - [#  90] CRP filecmp: [0.01587 s] survived
+   - [#  91] CRP filecmp: [0.01575 s] survived
+   - [#  92] CRP filecmp: [0.01805 s] survived
+   - [#  93] CRP filecmp: [0.01594 s] survived
+   - [#  94] CRP filecmp: [0.01602 s] survived
+   - [#  95] CRP filecmp: [0.00999 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [#  96] CRP filecmp: [0.01535 s] survived
+   - [#  97] CRP filecmp: [0.01779 s] survived
+   - [#  98] CRP filecmp: [0.01591 s] survived
+   - [#  99] CRP filecmp: [0.01606 s] survived
+   - [# 100] CRP filecmp: [0.01626 s] survived
+   - [# 101] CRP filecmp: [0.01688 s] survived
+   - [# 102] CRP filecmp: [0.01590 s] survived
+   - [# 103] CRP filecmp: [0.01568 s] survived
+   - [# 104] CRP filecmp: [0.01605 s] survived
+   - [# 105] CRP filecmp: [0.01686 s] survived
+   - [# 106] CRP filecmp: [0.01596 s] survived
+   - [# 107] CRP filecmp: [0.01551 s] survived
+   - [# 108] CRP filecmp: [0.01590 s] survived
+   - [# 109] EHD filecmp: [0.01623 s] survived
+   - [# 110] EHD filecmp: [0.01584 s] survived
+   - [# 111] EHD filecmp: [0.00994 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [# 112] EXS filecmp: [0.01637 s] survived
+   - [# 113] EXS filecmp: [0.01585 s] survived
+   - [# 114] EXS filecmp: [0.21334 s] timeout
+   - [# 115] LCR filecmp: [0.01564 s] survived
+   - [# 116] LCR filecmp: [0.01336 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [# 117] ROR filecmp: [0.00998 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [# 118] ROR filecmp: [0.00930 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [# 119] ROR filecmp: [0.01306 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [# 120] ROR filecmp: [0.00980 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [# 121] ROR filecmp: [0.01682 s] survived
+   - [# 122] ROR filecmp: [0.01710 s] survived
+   - [# 123] ROR filecmp: [0.01100 s] killed by test_cmpfiles (test_filecmp.DirCompareTestCase)
+   - [# 124] ROR filecmp: [0.01320 s] killed by test_dircmp (test_filecmp.DirCompareTestCase)
+   - [# 125] ROR filecmp: [0.01564 s] survived
+   - [# 126] ROR filecmp: [0.00000 s] incompetent
+   - [# 127] SIR filecmp: [0.01565 s] survived
+[*] Mutation score [4.40304 s]: 48.0%
+   - all: 127
+   - killed: 52 (40.9%)
+   - survived: 65 (51.2%)
+   - incompetent: 2 (1.6%)
+   - timeout: 8 (6.3%)

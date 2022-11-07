@@ -1,0 +1,633 @@
+[*] Start mutation process:
+   - targets: ntpath.py
+   - tests: test_ntpath.py
+[*] 62 tests passed:
+   - test_ntpath [0.09396 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD ntpath: [0.05234 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [#   2] AOD ntpath: [0.06037 s] survived
+   - [#   3] AOD ntpath: [0.05986 s] survived
+   - [#   4] AOD ntpath: [0.05415 s] killed by test_join (test_ntpath.TestNtpath)
+   - [#   5] AOR ntpath: [0.06249 s] survived
+   - [#   6] AOR ntpath: [0.30246 s] timeout
+   - [#   7] AOR ntpath: [0.05394 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [#   8] AOR ntpath: [0.30272 s] timeout
+   - [#   9] AOR ntpath: [0.30327 s] timeout
+   - [#  10] AOR ntpath: [0.06341 s] survived
+   - [#  11] AOR ntpath: [0.30275 s] timeout
+   - [#  12] AOR ntpath: [0.30282 s] timeout
+   - [#  13] AOR ntpath: [0.30271 s] timeout
+   - [#  14] AOR ntpath: [0.30250 s] timeout
+   - [#  15] AOR ntpath: [0.30252 s] timeout
+   - [#  16] AOR ntpath: [0.30284 s] timeout
+   - [#  17] AOR ntpath: [0.06460 s] survived
+   - [#  18] AOR ntpath: [0.05643 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [#  19] AOR ntpath: [0.06420 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [#  20] AOR ntpath: [0.05902 s] killed by test_join (test_ntpath.TestNtpath)
+   - [#  21] AOR ntpath: [0.05609 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [#  22] AOR ntpath: [0.30273 s] timeout
+   - [#  23] AOR ntpath: [0.30267 s] timeout
+   - [#  24] AOR ntpath: [0.30279 s] timeout
+   - [#  25] AOR ntpath: [0.30345 s] timeout
+   - [#  26] AOR ntpath: [0.30279 s] timeout
+   - [#  27] AOR ntpath: [0.30296 s] timeout
+   - [#  28] AOR ntpath: [0.06083 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  29] AOR ntpath: [0.05291 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  30] AOR ntpath: [0.30224 s] timeout
+   - [#  31] AOR ntpath: [0.05317 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  32] AOR ntpath: [0.30240 s] timeout
+   - [#  33] AOR ntpath: [0.06332 s] survived
+   - [#  34] AOR ntpath: [0.05383 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  35] AOR ntpath: [0.05405 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  36] AOR ntpath: [0.05478 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  37] AOR ntpath: [0.30257 s] timeout
+   - [#  38] AOR ntpath: [0.06194 s] survived
+   - [#  39] AOR ntpath: [0.30287 s] timeout
+   - [#  40] AOR ntpath: [0.30269 s] timeout
+   - [#  41] AOR ntpath: [0.06184 s] survived
+   - [#  42] AOR ntpath: [0.06153 s] survived
+   - [#  43] AOR ntpath: [0.05342 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  44] AOR ntpath: [0.05357 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  45] AOR ntpath: [0.05271 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  46] AOR ntpath: [0.30235 s] timeout
+   - [#  47] AOR ntpath: [0.30273 s] timeout
+   - [#  48] AOR ntpath: [0.07336 s] survived
+   - [#  49] AOR ntpath: [0.06267 s] survived
+   - [#  50] AOR ntpath: [0.06255 s] survived
+   - [#  51] AOR ntpath: [0.06348 s] survived
+   - [#  52] AOR ntpath: [0.05573 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  53] AOR ntpath: [0.05610 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  54] AOR ntpath: [0.30239 s] timeout
+   - [#  55] AOR ntpath: [0.06263 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [#  56] AOR ntpath: [0.30237 s] timeout
+   - [#  57] AOR ntpath: [0.30216 s] timeout
+   - [#  58] AOR ntpath: [0.30258 s] timeout
+   - [#  59] AOR ntpath: [0.06530 s] survived
+   - [#  60] AOR ntpath: [0.30257 s] timeout
+   - [#  61] AOR ntpath: [0.30278 s] timeout
+   - [#  62] AOR ntpath: [0.30299 s] timeout
+   - [#  63] AOR ntpath: [0.07703 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [#  64] AOR ntpath: [0.30238 s] timeout
+   - [#  65] AOR ntpath: [0.30294 s] timeout
+   - [#  66] AOR ntpath: [0.30271 s] timeout
+   - [#  67] ASR ntpath: [0.06076 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [#  68] ASR ntpath: [0.05171 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [#  69] ASR ntpath: [0.30381 s] timeout
+   - [#  70] ASR ntpath: [0.30831 s] timeout
+   - [#  71] ASR ntpath: [0.30764 s] timeout
+   - [#  72] ASR ntpath: [0.30202 s] timeout
+   - [#  73] ASR ntpath: [0.30238 s] timeout
+   - [#  74] ASR ntpath: [0.30316 s] timeout
+   - [#  75] ASR ntpath: [0.08957 s] survived
+   - [#  76] ASR ntpath: [0.06189 s] survived
+   - [#  77] ASR ntpath: [0.30240 s] timeout
+   - [#  78] ASR ntpath: [0.30268 s] timeout
+   - [#  79] ASR ntpath: [0.30206 s] timeout
+   - [#  80] ASR ntpath: [0.30261 s] timeout
+   - [#  81] ASR ntpath: [0.30223 s] timeout
+   - [#  82] ASR ntpath: [0.30258 s] timeout
+   - [#  83] ASR ntpath: [0.05609 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [#  84] ASR ntpath: [0.30257 s] timeout
+   - [#  85] ASR ntpath: [0.30235 s] timeout
+   - [#  86] ASR ntpath: [0.30264 s] timeout
+   - [#  87] ASR ntpath: [0.06326 s] survived
+   - [#  88] ASR ntpath: [0.06044 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [#  89] ASR ntpath: [0.05741 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [#  90] ASR ntpath: [0.06143 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [#  91] BCR ntpath: [0.06388 s] survived
+   - [#  92] BCR ntpath: [0.05995 s] survived
+   - [#  93] BCR ntpath: [0.06253 s] survived
+   - [#  94] BCR ntpath: [0.06327 s] survived
+   - [#  95] COD ntpath: [0.07709 s] survived
+   - [#  96] COD ntpath: [0.06929 s] survived
+   - [#  97] COD ntpath: [0.06077 s] killed by test_join (test_ntpath.TestNtpath)
+   - [#  98] COD ntpath: [0.06825 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [#  99] COD ntpath: [0.05875 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 100] COD ntpath: [0.05454 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 101] COD ntpath: [0.06931 s] survived
+   - [# 102] COD ntpath: [0.05470 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 103] COD ntpath: [0.05598 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 104] COD ntpath: [0.05421 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 105] COD ntpath: [0.05392 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 106] COD ntpath: [0.05404 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 107] COD ntpath: [0.05469 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 108] COD ntpath: [0.05204 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 109] COD ntpath: [0.05729 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 110] COD ntpath: [0.05834 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 111] COD ntpath: [0.06075 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 112] COD ntpath: [0.05984 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 113] COD ntpath: [0.05892 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 114] COD ntpath: [0.05919 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 115] COD ntpath: [0.05075 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 116] COI ntpath: [0.30302 s] timeout
+   - [# 117] COI ntpath: [0.30780 s] timeout
+   - [# 118] COI ntpath: [0.08766 s] survived
+   - [# 119] COI ntpath: [0.05241 s] killed by test_isabs (test_ntpath.TestNtpath)
+   - [# 120] COI ntpath: [0.30310 s] timeout
+   - [# 121] COI ntpath: [0.07262 s] survived
+   - [# 122] COI ntpath: [0.05629 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 123] COI ntpath: [0.05160 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 124] COI ntpath: [0.05446 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 125] COI ntpath: [0.05384 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 126] COI ntpath: [0.05644 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 127] COI ntpath: [0.05470 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 128] COI ntpath: [0.05326 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 129] COI ntpath: [0.05089 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 130] COI ntpath: [0.30353 s] timeout
+   - [# 131] COI ntpath: [0.07341 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 132] COI ntpath: [0.05461 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 133] COI ntpath: [0.05238 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 134] COI ntpath: [0.05210 s] killed by test_isabs (test_ntpath.TestNtpath)
+   - [# 135] COI ntpath: [0.04815 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 136] COI ntpath: [0.05121 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 137] COI ntpath: [0.30289 s] timeout
+   - [# 138] COI ntpath: [0.08592 s] survived
+   - [# 139] COI ntpath: [0.07090 s] survived
+   - [# 140] COI ntpath: [0.05423 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 141] COI ntpath: [0.05291 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 142] COI ntpath: [0.05196 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 143] COI ntpath: [0.30242 s] timeout
+   - [# 144] COI ntpath: [0.30482 s] timeout
+   - [# 145] COI ntpath: [0.07757 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 146] COI ntpath: [0.05090 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 147] COI ntpath: [0.05219 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 148] COI ntpath: [0.05172 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 149] COI ntpath: [0.05398 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 150] COI ntpath: [0.05126 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 151] COI ntpath: [0.05056 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 152] COI ntpath: [0.05000 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 153] COI ntpath: [0.30338 s] timeout
+   - [# 154] COI ntpath: [0.07645 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 155] COI ntpath: [0.30292 s] timeout
+   - [# 156] COI ntpath: [0.07810 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 157] COI ntpath: [0.07378 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 158] COI ntpath: [0.05344 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 159] COI ntpath: [0.05345 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 160] COI ntpath: [0.05273 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 161] COI ntpath: [0.06184 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 162] COI ntpath: [0.30360 s] timeout
+   - [# 163] COI ntpath: [0.07135 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 164] COI ntpath: [0.05132 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 165] COI ntpath: [0.05106 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 166] COI ntpath: [0.30328 s] timeout
+   - [# 167] COI ntpath: [0.07598 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 168] COI ntpath: [0.05105 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 169] COI ntpath: [0.30313 s] timeout
+   - [# 170] COI ntpath: [0.07626 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 171] COI ntpath: [0.30299 s] timeout
+   - [# 172] COI ntpath: [0.08246 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 173] COI ntpath: [0.05753 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 174] COI ntpath: [0.05706 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 175] COI ntpath: [0.05342 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 176] COI ntpath: [0.05294 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 177] COI ntpath: [0.05577 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 178] COI ntpath: [0.05950 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 179] COI ntpath: [0.05222 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 180] COI ntpath: [0.05732 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 181] COI ntpath: [0.30266 s] timeout
+   - [# 182] COI ntpath: [0.08697 s] survived
+   - [# 183] COI ntpath: [0.05883 s] survived
+   - [# 184] COI ntpath: [0.30241 s] timeout
+   - [# 185] COI ntpath: [0.30723 s] timeout
+   - [# 186] COI ntpath: [0.08748 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 187] COI ntpath: [0.05737 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 188] COI ntpath: [0.05773 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 189] COI ntpath: [0.05623 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 190] COI ntpath: [0.04946 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 191] COI ntpath: [0.30291 s] timeout
+   - [# 192] COI ntpath: [0.07236 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 193] COI ntpath: [0.04924 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 194] COI ntpath: [0.06099 s] survived
+   - [# 195] CRP ntpath: [0.06253 s] survived
+   - [# 196] CRP ntpath: [0.05970 s] survived
+   - [# 197] CRP ntpath: [0.05919 s] survived
+   - [# 198] CRP ntpath: [0.06068 s] survived
+   - [# 199] CRP ntpath: [0.05993 s] survived
+   - [# 200] CRP ntpath: [0.05984 s] survived
+   - [# 201] CRP ntpath: [0.06077 s] survived
+   - [# 202] CRP ntpath: [0.05888 s] survived
+   - [# 203] CRP ntpath: [0.05838 s] survived
+   - [# 204] CRP ntpath: [0.06080 s] survived
+   - [# 205] CRP ntpath: [0.05951 s] survived
+   - [# 206] CRP ntpath: [0.05936 s] survived
+   - [# 207] CRP ntpath: [0.05993 s] survived
+   - [# 208] CRP ntpath: [0.05925 s] survived
+   - [# 209] CRP ntpath: [0.05864 s] survived
+   - [# 210] CRP ntpath: [0.06063 s] survived
+   - [# 211] CRP ntpath: [0.06050 s] survived
+   - [# 212] CRP ntpath: [0.05819 s] survived
+   - [# 213] CRP ntpath: [0.06034 s] survived
+   - [# 214] CRP ntpath: [0.06129 s] survived
+   - [# 215] CRP ntpath: [0.06072 s] survived
+   - [# 216] CRP ntpath: [0.06012 s] survived
+   - [# 217] CRP ntpath: [0.05894 s] survived
+   - [# 218] CRP ntpath: [0.06011 s] survived
+   - [# 219] CRP ntpath: [0.06002 s] survived
+   - [# 220] CRP ntpath: [0.05922 s] survived
+   - [# 221] CRP ntpath: [0.05953 s] survived
+   - [# 222] CRP ntpath: [0.05953 s] survived
+   - [# 223] CRP ntpath: [0.06054 s] survived
+   - [# 224] CRP ntpath: [0.05917 s] survived
+   - [# 225] CRP ntpath: [0.05999 s] survived
+   - [# 226] CRP ntpath: [0.06097 s] survived
+   - [# 227] CRP ntpath: [0.05863 s] survived
+   - [# 228] CRP ntpath: [0.05855 s] survived
+   - [# 229] CRP ntpath: [0.06087 s] survived
+   - [# 230] CRP ntpath: [0.06005 s] survived
+   - [# 231] CRP ntpath: [0.05901 s] survived
+   - [# 232] CRP ntpath: [0.06104 s] survived
+   - [# 233] CRP ntpath: [0.05883 s] survived
+   - [# 234] CRP ntpath: [0.05893 s] survived
+   - [# 235] CRP ntpath: [0.06080 s] survived
+   - [# 236] CRP ntpath: [0.06080 s] survived
+   - [# 237] CRP ntpath: [0.05846 s] survived
+   - [# 238] CRP ntpath: [0.06167 s] survived
+   - [# 239] CRP ntpath: [0.06040 s] survived
+   - [# 240] CRP ntpath: [0.05987 s] survived
+   - [# 241] CRP ntpath: [0.05936 s] survived
+   - [# 242] CRP ntpath: [0.05958 s] survived
+   - [# 243] CRP ntpath: [0.05861 s] survived
+   - [# 244] CRP ntpath: [0.06000 s] survived
+   - [# 245] CRP ntpath: [0.06221 s] survived
+   - [# 246] CRP ntpath: [0.05931 s] survived
+   - [# 247] CRP ntpath: [0.05895 s] survived
+   - [# 248] CRP ntpath: [0.05911 s] survived
+   - [# 249] CRP ntpath: [0.05893 s] survived
+   - [# 250] CRP ntpath: [0.06171 s] survived
+   - [# 251] CRP ntpath: [0.05941 s] survived
+   - [# 252] CRP ntpath: [0.05962 s] survived
+   - [# 253] CRP ntpath: [0.05855 s] survived
+   - [# 254] CRP ntpath: [0.06105 s] survived
+   - [# 255] CRP ntpath: [0.05992 s] survived
+   - [# 256] CRP ntpath: [0.05931 s] survived
+   - [# 257] CRP ntpath: [0.06060 s] survived
+   - [# 258] CRP ntpath: [0.05981 s] survived
+   - [# 259] CRP ntpath: [0.05965 s] survived
+   - [# 260] CRP ntpath: [0.06143 s] survived
+   - [# 261] CRP ntpath: [0.05924 s] survived
+   - [# 262] CRP ntpath: [0.05902 s] survived
+   - [# 263] CRP ntpath: [0.06243 s] survived
+   - [# 264] CRP ntpath: [0.05897 s] survived
+   - [# 265] CRP ntpath: [0.06058 s] survived
+   - [# 266] CRP ntpath: [0.06101 s] survived
+   - [# 267] CRP ntpath: [0.06035 s] survived
+   - [# 268] CRP ntpath: [0.05910 s] survived
+   - [# 269] CRP ntpath: [0.06002 s] survived
+   - [# 270] CRP ntpath: [0.05954 s] survived
+   - [# 271] CRP ntpath: [0.05931 s] survived
+   - [# 272] CRP ntpath: [0.05947 s] survived
+   - [# 273] CRP ntpath: [0.05934 s] survived
+   - [# 274] CRP ntpath: [0.06089 s] survived
+   - [# 275] CRP ntpath: [0.05898 s] survived
+   - [# 276] CRP ntpath: [0.06197 s] survived
+   - [# 277] CRP ntpath: [0.05868 s] survived
+   - [# 278] CRP ntpath: [0.06040 s] survived
+   - [# 279] CRP ntpath: [0.06025 s] survived
+   - [# 280] CRP ntpath: [0.05895 s] survived
+   - [# 281] CRP ntpath: [0.05964 s] survived
+   - [# 282] CRP ntpath: [0.06029 s] survived
+   - [# 283] CRP ntpath: [0.05948 s] survived
+   - [# 284] CRP ntpath: [0.05888 s] survived
+   - [# 285] CRP ntpath: [0.06927 s] survived
+   - [# 286] CRP ntpath: [0.06714 s] survived
+   - [# 287] CRP ntpath: [0.05135 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 288] CRP ntpath: [0.05477 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 289] CRP ntpath: [0.05935 s] survived
+   - [# 290] CRP ntpath: [0.05957 s] survived
+   - [# 291] CRP ntpath: [0.05972 s] survived
+   - [# 292] CRP ntpath: [0.05939 s] survived
+   - [# 293] CRP ntpath: [0.05991 s] survived
+   - [# 294] CRP ntpath: [0.06021 s] survived
+   - [# 295] CRP ntpath: [0.05102 s] killed by test_isabs (test_ntpath.TestNtpath)
+   - [# 296] CRP ntpath: [0.05204 s] killed by test_isabs (test_ntpath.TestNtpath)
+   - [# 297] CRP ntpath: [0.05235 s] killed by test_isabs (test_ntpath.TestNtpath)
+   - [# 298] CRP ntpath: [0.05160 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 299] CRP ntpath: [0.05153 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 300] CRP ntpath: [0.05003 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 301] CRP ntpath: [0.05092 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 302] CRP ntpath: [0.05362 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 303] CRP ntpath: [0.05337 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 304] CRP ntpath: [0.07373 s] survived
+   - [# 305] CRP ntpath: [0.05336 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 306] CRP ntpath: [0.05255 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 307] CRP ntpath: [0.05442 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 308] CRP ntpath: [0.05506 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 309] CRP ntpath: [0.06059 s] survived
+   - [# 310] CRP ntpath: [0.05954 s] survived
+   - [# 311] CRP ntpath: [0.05309 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 312] CRP ntpath: [0.05286 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 313] CRP ntpath: [0.05193 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 314] CRP ntpath: [0.05521 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 315] CRP ntpath: [0.04851 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 316] CRP ntpath: [0.04885 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 317] CRP ntpath: [0.04824 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 318] CRP ntpath: [0.05323 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 319] CRP ntpath: [0.05302 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 320] CRP ntpath: [0.05140 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 321] CRP ntpath: [0.06018 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 322] CRP ntpath: [0.05945 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 323] CRP ntpath: [0.05979 s] survived
+   - [# 324] CRP ntpath: [0.06142 s] survived
+   - [# 325] CRP ntpath: [0.06015 s] survived
+   - [# 326] CRP ntpath: [0.05905 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 327] CRP ntpath: [0.06060 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 328] CRP ntpath: [0.06030 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 329] CRP ntpath: [0.05413 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 330] CRP ntpath: [0.04768 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 331] CRP ntpath: [0.04840 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 332] CRP ntpath: [0.04752 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 333] CRP ntpath: [0.04839 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 334] CRP ntpath: [0.04852 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 335] CRP ntpath: [0.05101 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 336] CRP ntpath: [0.05932 s] killed by test_split (test_ntpath.TestNtpath)
+   - [# 337] CRP ntpath: [0.05939 s] killed by test_splitext (test_ntpath.TestNtpath)
+   - [# 338] CRP ntpath: [0.06229 s] killed by test_splitext (test_ntpath.TestNtpath)
+   - [# 339] CRP ntpath: [0.05903 s] survived
+   - [# 340] CRP ntpath: [0.06001 s] survived
+   - [# 341] CRP ntpath: [0.06056 s] killed by test_splitext (test_ntpath.TestNtpath)
+   - [# 342] CRP ntpath: [0.05963 s] killed by test_splitext (test_ntpath.TestNtpath)
+   - [# 343] CRP ntpath: [0.05858 s] survived
+   - [# 344] CRP ntpath: [0.05122 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 345] CRP ntpath: [0.05934 s] survived
+   - [# 346] CRP ntpath: [0.05033 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 347] CRP ntpath: [0.04974 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 348] CRP ntpath: [0.05152 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 349] CRP ntpath: [0.05941 s] survived
+   - [# 350] CRP ntpath: [0.05000 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 351] CRP ntpath: [0.05183 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 352] CRP ntpath: [0.05104 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 353] CRP ntpath: [0.05232 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 354] CRP ntpath: [0.05296 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 355] CRP ntpath: [0.05107 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 356] CRP ntpath: [0.05109 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 357] CRP ntpath: [0.05032 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 358] CRP ntpath: [0.05214 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 359] CRP ntpath: [0.05240 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 360] CRP ntpath: [0.05086 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 361] CRP ntpath: [0.05081 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 362] CRP ntpath: [0.05183 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 363] CRP ntpath: [0.05143 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 364] CRP ntpath: [0.05166 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 365] CRP ntpath: [0.05219 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 366] CRP ntpath: [0.05194 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 367] CRP ntpath: [0.06015 s] survived
+   - [# 368] CRP ntpath: [0.06031 s] survived
+   - [# 369] CRP ntpath: [0.05250 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 370] CRP ntpath: [0.05084 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 371] CRP ntpath: [0.05911 s] survived
+   - [# 372] CRP ntpath: [0.06039 s] survived
+   - [# 373] CRP ntpath: [0.05167 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 374] CRP ntpath: [0.06066 s] survived
+   - [# 375] CRP ntpath: [0.05368 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 376] CRP ntpath: [0.06058 s] survived
+   - [# 377] CRP ntpath: [0.06136 s] survived
+   - [# 378] CRP ntpath: [0.06140 s] survived
+   - [# 379] CRP ntpath: [0.05231 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 380] CRP ntpath: [0.05273 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 381] CRP ntpath: [0.05065 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 382] CRP ntpath: [0.05190 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 383] CRP ntpath: [0.05139 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 384] CRP ntpath: [0.05139 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 385] CRP ntpath: [0.05204 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 386] CRP ntpath: [0.05176 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 387] CRP ntpath: [0.05094 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 388] CRP ntpath: [0.05080 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 389] CRP ntpath: [0.05288 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 390] CRP ntpath: [0.05116 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 391] CRP ntpath: [0.05149 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 392] CRP ntpath: [0.05260 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 393] CRP ntpath: [0.05270 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 394] CRP ntpath: [0.05127 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 395] CRP ntpath: [0.05258 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 396] CRP ntpath: [0.05235 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 397] CRP ntpath: [0.05126 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 398] CRP ntpath: [0.05205 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 399] CRP ntpath: [0.05196 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 400] CRP ntpath: [0.06089 s] survived
+   - [# 401] CRP ntpath: [0.05939 s] survived
+   - [# 402] CRP ntpath: [0.06160 s] survived
+   - [# 403] CRP ntpath: [0.05224 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 404] CRP ntpath: [0.05099 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 405] CRP ntpath: [0.05157 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 406] CRP ntpath: [0.05198 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 407] CRP ntpath: [0.05003 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 408] CRP ntpath: [0.05153 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 409] CRP ntpath: [0.05353 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 410] CRP ntpath: [0.05259 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 411] CRP ntpath: [0.05258 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 412] CRP ntpath: [0.05120 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 413] CRP ntpath: [0.05381 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 414] CRP ntpath: [0.05195 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 415] CRP ntpath: [0.05437 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 416] CRP ntpath: [0.05706 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 417] CRP ntpath: [0.05405 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 418] CRP ntpath: [0.05641 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 419] CRP ntpath: [0.05668 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 420] CRP ntpath: [0.05623 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 421] CRP ntpath: [0.05610 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 422] CRP ntpath: [0.05890 s] survived
+   - [# 423] CRP ntpath: [0.05672 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 424] CRP ntpath: [0.06151 s] survived
+   - [# 425] CRP ntpath: [0.05648 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 426] CRP ntpath: [0.05809 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 427] CRP ntpath: [0.06122 s] survived
+   - [# 428] CRP ntpath: [0.05846 s] survived
+   - [# 429] CRP ntpath: [0.05669 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 430] CRP ntpath: [0.05667 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 431] CRP ntpath: [0.05980 s] survived
+   - [# 432] CRP ntpath: [0.05750 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 433] CRP ntpath: [0.05993 s] survived
+   - [# 434] CRP ntpath: [0.05654 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 435] CRP ntpath: [0.06009 s] survived
+   - [# 436] CRP ntpath: [0.05934 s] survived
+   - [# 437] CRP ntpath: [0.05997 s] survived
+   - [# 438] CRP ntpath: [0.05979 s] survived
+   - [# 439] CRP ntpath: [0.05933 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 440] CRP ntpath: [0.05736 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 441] CRP ntpath: [0.05675 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 442] CRP ntpath: [0.06016 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 443] CRP ntpath: [0.05845 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 444] CRP ntpath: [0.05770 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 445] CRP ntpath: [0.06090 s] survived
+   - [# 446] CRP ntpath: [0.06077 s] survived
+   - [# 447] CRP ntpath: [0.05986 s] survived
+   - [# 448] CRP ntpath: [0.05989 s] survived
+   - [# 449] CRP ntpath: [0.05560 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 450] CRP ntpath: [0.05715 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 451] CRP ntpath: [0.06058 s] survived
+   - [# 452] CRP ntpath: [0.06026 s] survived
+   - [# 453] CRP ntpath: [0.05933 s] survived
+   - [# 454] CRP ntpath: [0.06167 s] survived
+   - [# 455] CRP ntpath: [0.04927 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 456] CRP ntpath: [0.04974 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 457] CRP ntpath: [0.04973 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 458] CRP ntpath: [0.05000 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 459] CRP ntpath: [0.04849 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 460] CRP ntpath: [0.04963 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 461] CRP ntpath: [0.04928 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 462] CRP ntpath: [0.04973 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 463] CRP ntpath: [0.05967 s] survived
+   - [# 464] CRP ntpath: [0.05895 s] survived
+   - [# 465] CRP ntpath: [0.04989 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 466] CRP ntpath: [0.05939 s] survived
+   - [# 467] CRP ntpath: [0.05978 s] survived
+   - [# 468] CRP ntpath: [0.04897 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 469] CRP ntpath: [0.05958 s] survived
+   - [# 470] CRP ntpath: [0.06002 s] survived
+   - [# 471] CRP ntpath: [0.06055 s] survived
+   - [# 472] CRP ntpath: [0.06018 s] survived
+   - [# 473] CRP ntpath: [0.06026 s] survived
+   - [# 474] EHD ntpath: [0.05909 s] survived
+   - [# 475] EHD ntpath: [0.05922 s] survived
+   - [# 476] EHD ntpath: [0.06052 s] survived
+   - [# 477] EHD ntpath: [0.05889 s] survived
+   - [# 478] EHD ntpath: [0.00000 s] incompetent
+   - [# 479] EHD ntpath: [0.05107 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 480] EHD ntpath: [0.05401 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 481] EHD ntpath: [0.05217 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 482] EHD ntpath: [0.05137 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 483] EHD ntpath: [0.05140 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 484] EHD ntpath: [0.05991 s] survived
+   - [# 485] EHD ntpath: [0.05092 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 486] EHD ntpath: [0.00000 s] incompetent
+   - [# 487] EHD ntpath: [0.06049 s] survived
+   - [# 488] EHD ntpath: [0.05971 s] survived
+   - [# 489] EHD ntpath: [0.06119 s] survived
+   - [# 490] EHD ntpath: [0.00000 s] incompetent
+   - [# 491] EHD ntpath: [0.00000 s] incompetent
+   - [# 492] EXS ntpath: [0.06159 s] survived
+   - [# 493] EXS ntpath: [0.06023 s] survived
+   - [# 494] EXS ntpath: [0.05903 s] survived
+   - [# 495] EXS ntpath: [0.06038 s] survived
+   - [# 496] EXS ntpath: [0.05243 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 497] EXS ntpath: [0.05054 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 498] EXS ntpath: [0.05253 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 499] EXS ntpath: [0.05236 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 500] EXS ntpath: [0.05176 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 501] EXS ntpath: [0.05147 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 502] EXS ntpath: [0.06060 s] survived
+   - [# 503] EXS ntpath: [0.05104 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 504] EXS ntpath: [0.00000 s] incompetent
+   - [# 505] EXS ntpath: [0.06076 s] survived
+   - [# 506] EXS ntpath: [0.05285 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 507] EXS ntpath: [0.05199 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 508] EXS ntpath: [0.06142 s] survived
+   - [# 509] LCR ntpath: [0.05746 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 510] LCR ntpath: [0.05173 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 511] LCR ntpath: [0.05423 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 512] LCR ntpath: [0.05153 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 513] LCR ntpath: [0.05142 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 514] LCR ntpath: [0.05245 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 515] LCR ntpath: [0.05153 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 516] LCR ntpath: [0.30163 s] timeout
+   - [# 517] LCR ntpath: [0.05932 s] killed by test_split (test_ntpath.TestNtpath)
+   - [# 518] LCR ntpath: [0.05330 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 519] LCR ntpath: [0.05237 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 520] LCR ntpath: [0.05111 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 521] LCR ntpath: [0.05307 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 522] LCR ntpath: [0.05158 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 523] LCR ntpath: [0.30172 s] timeout
+   - [# 524] LCR ntpath: [0.05752 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 525] LCR ntpath: [0.05787 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 526] LCR ntpath: [0.05637 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 527] LCR ntpath: [0.05355 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 528] LCR ntpath: [0.00000 s] incompetent
+   - [# 529] LCR ntpath: [0.04915 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 530] LCR ntpath: [0.04951 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 531] ROR ntpath: [0.05208 s] killed by test_isabs (test_ntpath.TestNtpath)
+   - [# 532] ROR ntpath: [0.05907 s] survived
+   - [# 533] ROR ntpath: [0.05445 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 534] ROR ntpath: [0.05399 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 535] ROR ntpath: [0.05341 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 536] ROR ntpath: [0.04923 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 537] ROR ntpath: [0.05257 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 538] ROR ntpath: [0.05089 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 539] ROR ntpath: [0.05224 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 540] ROR ntpath: [0.05511 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 541] ROR ntpath: [0.05228 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 542] ROR ntpath: [0.05380 s] killed by test_isabs (test_ntpath.TestNtpath)
+   - [# 543] ROR ntpath: [0.05119 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 544] ROR ntpath: [0.05994 s] survived
+   - [# 545] ROR ntpath: [0.05153 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 546] ROR ntpath: [0.05183 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 547] ROR ntpath: [0.05143 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 548] ROR ntpath: [0.05197 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 549] ROR ntpath: [0.05999 s] survived
+   - [# 550] ROR ntpath: [0.05264 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 551] ROR ntpath: [0.05223 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 552] ROR ntpath: [0.05158 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 553] ROR ntpath: [0.05269 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 554] ROR ntpath: [0.05192 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 555] ROR ntpath: [0.05159 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 556] ROR ntpath: [0.05958 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 557] ROR ntpath: [0.05294 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 558] ROR ntpath: [0.05419 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 559] ROR ntpath: [0.05243 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 560] ROR ntpath: [0.05751 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 561] ROR ntpath: [0.30145 s] timeout
+   - [# 562] ROR ntpath: [0.05700 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 563] ROR ntpath: [0.05663 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 564] ROR ntpath: [0.05897 s] survived
+   - [# 565] ROR ntpath: [0.06244 s] survived
+   - [# 566] ROR ntpath: [0.05854 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 567] ROR ntpath: [0.05724 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 568] ROR ntpath: [0.05037 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 569] ROR ntpath: [0.04939 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 570] ROR ntpath: [0.04824 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 571] ROR ntpath: [0.04808 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 572] ROR ntpath: [0.05151 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 573] ROR ntpath: [0.06014 s] survived
+   - [# 574] ROR ntpath: [0.06165 s] survived
+   - [# 575] SIR ntpath: [0.05978 s] survived
+   - [# 576] SIR ntpath: [0.05389 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 577] SIR ntpath: [0.05977 s] survived
+   - [# 578] SIR ntpath: [0.05278 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 579] SIR ntpath: [0.06372 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 580] SIR ntpath: [0.06083 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 581] SIR ntpath: [0.05982 s] survived
+   - [# 582] SIR ntpath: [0.05936 s] killed by test_splitdrive (test_ntpath.TestNtpath)
+   - [# 583] SIR ntpath: [0.05333 s] killed by test_join (test_ntpath.TestNtpath)
+   - [# 584] SIR ntpath: [0.05383 s] killed by test_ismount (test_ntpath.TestNtpath)
+   - [# 585] SIR ntpath: [0.05139 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 586] SIR ntpath: [0.05134 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 587] SIR ntpath: [0.05077 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 588] SIR ntpath: [0.04955 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 589] SIR ntpath: [0.05031 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 590] SIR ntpath: [0.05242 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 591] SIR ntpath: [0.06003 s] killed by test_split (test_ntpath.TestNtpath)
+   - [# 592] SIR ntpath: [0.05161 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 593] SIR ntpath: [0.05150 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 594] SIR ntpath: [0.05626 s] killed by test_expanduser (test_ntpath.TestNtpath)
+   - [# 595] SIR ntpath: [0.05847 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 596] SIR ntpath: [0.05196 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 597] SIR ntpath: [0.05467 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 598] SIR ntpath: [0.05494 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 599] SIR ntpath: [0.05800 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 600] SIR ntpath: [0.05631 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 601] SIR ntpath: [0.05519 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 602] SIR ntpath: [0.30176 s] timeout
+   - [# 603] SIR ntpath: [0.05606 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 604] SIR ntpath: [0.06581 s] survived
+   - [# 605] SIR ntpath: [0.06334 s] survived
+   - [# 606] SIR ntpath: [0.05507 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 607] SIR ntpath: [0.05705 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 608] SIR ntpath: [0.05512 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 609] SIR ntpath: [0.05398 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 610] SIR ntpath: [0.05703 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 611] SIR ntpath: [0.05524 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 612] SIR ntpath: [0.05578 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 613] SIR ntpath: [0.05475 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 614] SIR ntpath: [0.05527 s] killed by test_expandvars (test_ntpath.TestNtpath)
+   - [# 615] SIR ntpath: [0.06055 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 616] SIR ntpath: [0.06030 s] killed by test_normpath (test_ntpath.TestNtpath)
+   - [# 617] SIR ntpath: [0.06261 s] killed by test_relpath (test_ntpath.TestNtpath)
+   - [# 618] SIR ntpath: [0.05250 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 619] SIR ntpath: [0.05386 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 620] SIR ntpath: [0.05445 s] killed by test_commonpath (test_ntpath.TestNtpath)
+   - [# 621] SIR ntpath: [0.06288 s] survived
+[*] Mutation score [56.84681 s]: 66.5%
+   - all: 621
+   - killed: 341 (54.9%)
+   - survived: 206 (33.2%)
+   - incompetent: 6 (1.0%)
+   - timeout: 68 (11.0%)

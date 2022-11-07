@@ -1,0 +1,147 @@
+[*] Start mutation process:
+   - targets: crypt.py
+   - tests: test_crypt.py
+[*] 5 tests passed:
+   - test_crypt [0.00046 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR crypt: [0.00000 s] incompetent
+   - [#   2] AOR crypt: [0.00000 s] incompetent
+   - [#   3] AOR crypt: [0.00000 s] incompetent
+   - [#   4] AOR crypt: [0.00000 s] incompetent
+   - [#   5] AOR crypt: [0.00000 s] incompetent
+   - [#   6] AOR crypt: [0.00868 s] survived
+   - [#   7] ASR crypt: [0.00000 s] incompetent
+   - [#   8] ASR crypt: [0.00840 s] survived
+   - [#   9] ASR crypt: [0.00000 s] incompetent
+   - [#  10] BCR crypt: [0.00826 s] survived
+   - [#  11] COD crypt: [0.00000 s] incompetent
+   - [#  12] COD crypt: [0.00842 s] survived
+   - [#  13] COD crypt: [0.00000 s] incompetent
+   - [#  14] COD crypt: [0.00791 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  15] COI crypt: [0.00000 s] incompetent
+   - [#  16] COI crypt: [0.00000 s] incompetent
+   - [#  17] COI crypt: [0.00789 s] survived
+   - [#  18] COI crypt: [0.00000 s] incompetent
+   - [#  19] COI crypt: [0.00854 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  20] COI crypt: [0.00000 s] incompetent
+   - [#  21] COI crypt: [0.00000 s] incompetent
+   - [#  22] COI crypt: [0.00814 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  23] COI crypt: [0.00818 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  24] COI crypt: [0.00000 s] incompetent
+   - [#  25] COI crypt: [0.00810 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  26] COI crypt: [0.00000 s] incompetent
+   - [#  27] COI crypt: [0.00000 s] incompetent
+   - [#  28] COI crypt: [0.00946 s] killed by test_methods (test_crypt.CryptTestCase)
+   - [#  29] COI crypt: [0.00852 s] survived
+   - [#  30] CRP crypt: [0.00812 s] killed by test_salt (test_crypt.CryptTestCase)
+   - [#  31] CRP crypt: [0.00836 s] killed by test_salt (test_crypt.CryptTestCase)
+   - [#  32] CRP crypt: [0.00757 s] survived
+   - [#  33] CRP crypt: [0.00000 s] incompetent
+   - [#  34] CRP crypt: [0.00000 s] incompetent
+   - [#  35] CRP crypt: [0.00000 s] incompetent
+   - [#  36] CRP crypt: [0.00834 s] survived
+   - [#  37] CRP crypt: [0.00777 s] survived
+   - [#  38] CRP crypt: [0.00843 s] killed by test_crypt (test_crypt.CryptTestCase)
+   - [#  39] CRP crypt: [0.00819 s] survived
+   - [#  40] CRP crypt: [0.00820 s] survived
+   - [#  41] CRP crypt: [0.00822 s] killed by test_salt (test_crypt.CryptTestCase)
+   - [#  42] CRP crypt: [0.00814 s] survived
+   - [#  43] CRP crypt: [0.00765 s] survived
+   - [#  44] CRP crypt: [0.00818 s] survived
+   - [#  45] CRP crypt: [0.00781 s] survived
+   - [#  46] CRP crypt: [0.00000 s] incompetent
+   - [#  47] CRP crypt: [0.00000 s] incompetent
+   - [#  48] CRP crypt: [0.00000 s] incompetent
+   - [#  49] CRP crypt: [0.00826 s] survived
+   - [#  50] CRP crypt: [0.00779 s] survived
+   - [#  51] CRP crypt: [0.00000 s] incompetent
+   - [#  52] CRP crypt: [0.00846 s] survived
+   - [#  53] CRP crypt: [0.00777 s] survived
+   - [#  54] CRP crypt: [0.00000 s] incompetent
+   - [#  55] CRP crypt: [0.00811 s] survived
+   - [#  56] CRP crypt: [0.00770 s] survived
+   - [#  57] CRP crypt: [0.00816 s] survived
+   - [#  58] CRP crypt: [0.00000 s] incompetent
+   - [#  59] CRP crypt: [0.00796 s] survived
+   - [#  60] CRP crypt: [0.00822 s] survived
+   - [#  61] CRP crypt: [0.00779 s] survived
+   - [#  62] CRP crypt: [0.00787 s] survived
+   - [#  63] CRP crypt: [0.00772 s] survived
+   - [#  64] CRP crypt: [0.00804 s] survived
+   - [#  65] CRP crypt: [0.00772 s] survived
+   - [#  66] CRP crypt: [0.00844 s] survived
+   - [#  67] CRP crypt: [0.00779 s] survived
+   - [#  68] CRP crypt: [0.00816 s] survived
+   - [#  69] CRP crypt: [0.00775 s] survived
+   - [#  70] CRP crypt: [0.00804 s] survived
+   - [#  71] CRP crypt: [0.00779 s] survived
+   - [#  72] CRP crypt: [0.00829 s] survived
+   - [#  73] CRP crypt: [0.00788 s] survived
+   - [#  74] CRP crypt: [0.00866 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  75] CRP crypt: [0.00818 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  76] CRP crypt: [0.00849 s] killed by test_salt (test_crypt.CryptTestCase)
+   - [#  77] CRP crypt: [0.00774 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  78] CRP crypt: [0.00831 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  79] CRP crypt: [0.00741 s] survived
+   - [#  80] CRP crypt: [0.00876 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  81] CRP crypt: [0.00822 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  82] CRP crypt: [0.00838 s] survived
+   - [#  83] CRP crypt: [0.00787 s] survived
+   - [#  84] CRP crypt: [0.00858 s] survived
+   - [#  85] CRP crypt: [0.00762 s] survived
+   - [#  86] CRP crypt: [0.00831 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  87] CRP crypt: [0.00805 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [#  88] CRP crypt: [0.00811 s] survived
+   - [#  89] CRP crypt: [0.00793 s] survived
+   - [#  90] CRP crypt: [0.00846 s] survived
+   - [#  91] CRP crypt: [0.00773 s] survived
+   - [#  92] CRP crypt: [0.00792 s] survived
+   - [#  93] CRP crypt: [0.00782 s] survived
+   - [#  94] CRP crypt: [0.00816 s] survived
+   - [#  95] CRP crypt: [0.00829 s] survived
+   - [#  96] CRP crypt: [0.00868 s] survived
+   - [#  97] CRP crypt: [0.00783 s] survived
+   - [#  98] CRP crypt: [0.00798 s] survived
+   - [#  99] CRP crypt: [0.00787 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 100] CRP crypt: [0.00820 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 101] CRP crypt: [0.00000 s] incompetent
+   - [# 102] CRP crypt: [0.00000 s] incompetent
+   - [# 103] CRP crypt: [0.00827 s] survived
+   - [# 104] CRP crypt: [0.00858 s] survived
+   - [# 105] CRP crypt: [0.00779 s] survived
+   - [# 106] CRP crypt: [0.00810 s] survived
+   - [# 107] CRP crypt: [0.00797 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 108] CRP crypt: [0.00833 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 109] CRP crypt: [0.00879 s] survived
+   - [# 110] CRP crypt: [0.00847 s] survived
+   - [# 111] CRP crypt: [0.00770 s] survived
+   - [# 112] CRP crypt: [0.00808 s] survived
+   - [# 113] CRP crypt: [0.00767 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 114] CRP crypt: [0.00841 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 115] CRP crypt: [0.00788 s] survived
+   - [# 116] CRP crypt: [0.00822 s] killed by test_crypt (test_crypt.CryptTestCase)
+   - [# 117] IOD crypt: [0.00777 s] survived
+   - [# 118] LCR crypt: [0.00000 s] incompetent
+   - [# 119] LCR crypt: [0.00000 s] incompetent
+   - [# 120] LCR crypt: [0.20719 s] timeout
+   - [# 121] LCR crypt: [0.00962 s] killed by test_saltedcrypt (test_crypt.CryptTestCase)
+   - [# 122] LOR crypt: [0.00000 s] incompetent
+   - [# 123] LOR crypt: [0.00000 s] incompetent
+   - [# 124] ROR crypt: [0.00000 s] incompetent
+   - [# 125] ROR crypt: [0.00000 s] incompetent
+   - [# 126] ROR crypt: [0.00835 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 127] ROR crypt: [0.00000 s] incompetent
+   - [# 128] ROR crypt: [0.00000 s] incompetent
+   - [# 129] ROR crypt: [0.00789 s] survived
+   - [# 130] ROR crypt: [0.00783 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 131] ROR crypt: [0.00849 s] survived
+   - [# 132] ROR crypt: [0.00839 s] killed by test_invalid_rounds (test_crypt.CryptTestCase)
+   - [# 133] ROR crypt: [0.00807 s] survived
+   - [# 134] ROR crypt: [0.00829 s] killed by test_methods (test_crypt.CryptTestCase)
+   - [# 135] SCI crypt: [0.00870 s] survived
+[*] Mutation score [1.57237 s]: 32.3%
+   - all: 135
+   - killed: 31 (23.0%)
+   - survived: 67 (49.6%)
+   - incompetent: 36 (26.7%)
+   - timeout: 1 (0.7%)

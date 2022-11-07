@@ -1,0 +1,1207 @@
+[*] Start mutation process:
+   - targets: difflib.py
+   - tests: test_difflib.py
+[*] 28 tests passed:
+   - test_difflib [0.41114 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD difflib: [0.01706 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [#   2] AOD difflib: [0.01593 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [#   3] AOD difflib: [0.01644 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [#   4] AOD difflib: [0.00886 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#   5] AOD difflib: [0.01665 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#   6] AOD difflib: [0.01653 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#   7] AOR difflib: [0.00926 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#   8] AOR difflib: [0.00999 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#   9] AOR difflib: [0.00956 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  10] AOR difflib: [0.01593 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  11] AOR difflib: [0.01775 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  12] AOR difflib: [0.42395 s] survived
+   - [#  13] AOR difflib: [0.01628 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  14] AOR difflib: [0.42442 s] survived
+   - [#  15] AOR difflib: [0.07191 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  16] AOR difflib: [0.01650 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  17] AOR difflib: [0.01606 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  18] AOR difflib: [0.07268 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  19] AOR difflib: [0.07187 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  20] AOR difflib: [0.07165 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  21] AOR difflib: [0.09470 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  22] AOR difflib: [0.09260 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  23] AOR difflib: [0.09132 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  24] AOR difflib: [0.40561 s] survived
+   - [#  25] AOR difflib: [0.40255 s] survived
+   - [#  26] AOR difflib: [0.40630 s] survived
+   - [#  27] AOR difflib: [0.39763 s] survived
+   - [#  28] AOR difflib: [0.06847 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [#  29] AOR difflib: [0.39652 s] survived
+   - [#  30] AOR difflib: [0.06873 s] killed by test_matching_blocks_cache (test_difflib.TestSFbugs)
+   - [#  31] AOR difflib: [0.10009 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  32] AOR difflib: [0.08586 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  33] AOR difflib: [0.09644 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  34] AOR difflib: [0.09867 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  35] AOR difflib: [0.10538 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  36] AOR difflib: [0.10591 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  37] AOR difflib: [0.62050 s] timeout
+   - [#  38] AOR difflib: [0.09326 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  39] AOR difflib: [0.07012 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [#  40] AOR difflib: [0.40933 s] survived
+   - [#  41] AOR difflib: [0.10093 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  42] AOR difflib: [0.40498 s] survived
+   - [#  43] AOR difflib: [0.10157 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  44] AOR difflib: [0.41200 s] survived
+   - [#  45] AOR difflib: [0.41393 s] survived
+   - [#  46] AOR difflib: [0.09998 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  47] AOR difflib: [0.09268 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  48] AOR difflib: [0.41402 s] survived
+   - [#  49] AOR difflib: [0.41434 s] survived
+   - [#  50] AOR difflib: [0.07225 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  51] AOR difflib: [0.07244 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  52] AOR difflib: [0.40402 s] survived
+   - [#  53] AOR difflib: [0.40140 s] survived
+   - [#  54] AOR difflib: [0.01554 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [#  55] AOR difflib: [0.01648 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [#  56] AOR difflib: [0.01722 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [#  57] AOR difflib: [0.39816 s] survived
+   - [#  58] AOR difflib: [0.40027 s] survived
+   - [#  59] AOR difflib: [0.06944 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [#  60] AOR difflib: [0.40451 s] survived
+   - [#  61] AOR difflib: [0.41207 s] survived
+   - [#  62] AOR difflib: [0.41154 s] survived
+   - [#  63] AOR difflib: [0.40486 s] survived
+   - [#  64] AOR difflib: [0.41048 s] survived
+   - [#  65] AOR difflib: [0.00947 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  66] AOR difflib: [0.01568 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#  67] AOR difflib: [0.06928 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  68] AOR difflib: [0.41552 s] survived
+   - [#  69] AOR difflib: [0.07109 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  70] AOR difflib: [0.10621 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  71] AOR difflib: [0.09715 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  72] AOR difflib: [0.41739 s] survived
+   - [#  73] AOR difflib: [0.41763 s] survived
+   - [#  74] AOR difflib: [0.42058 s] survived
+   - [#  75] AOR difflib: [0.62199 s] timeout
+   - [#  76] AOR difflib: [0.40787 s] survived
+   - [#  77] AOR difflib: [0.09503 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  78] AOR difflib: [0.07000 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#  79] AOR difflib: [0.09505 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#  80] AOR difflib: [0.62052 s] timeout
+   - [#  81] AOR difflib: [0.62107 s] timeout
+   - [#  82] AOR difflib: [0.62113 s] timeout
+   - [#  83] AOR difflib: [0.62514 s] timeout
+   - [#  84] AOR difflib: [0.62546 s] timeout
+   - [#  85] AOR difflib: [0.62295 s] timeout
+   - [#  86] AOR difflib: [0.62530 s] timeout
+   - [#  87] AOR difflib: [0.62550 s] timeout
+   - [#  88] AOR difflib: [0.62598 s] timeout
+   - [#  89] AOR difflib: [0.62993 s] timeout
+   - [#  90] AOR difflib: [0.62661 s] timeout
+   - [#  91] AOR difflib: [0.62132 s] timeout
+   - [#  92] AOR difflib: [0.62378 s] timeout
+   - [#  93] AOR difflib: [0.62298 s] timeout
+   - [#  94] AOR difflib: [0.62275 s] timeout
+   - [#  95] AOR difflib: [0.62818 s] timeout
+   - [#  96] AOR difflib: [0.62938 s] timeout
+   - [#  97] AOR difflib: [0.62550 s] timeout
+   - [#  98] AOR difflib: [0.42472 s] survived
+   - [#  99] AOR difflib: [0.40080 s] survived
+   - [# 100] AOR difflib: [0.10057 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 101] AOR difflib: [0.09758 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 102] AOR difflib: [0.62128 s] timeout
+   - [# 103] AOR difflib: [0.62433 s] timeout
+   - [# 104] AOR difflib: [0.62737 s] timeout
+   - [# 105] AOR difflib: [0.63045 s] timeout
+   - [# 106] AOR difflib: [0.62385 s] timeout
+   - [# 107] AOR difflib: [0.62820 s] timeout
+   - [# 108] AOR difflib: [0.62775 s] timeout
+   - [# 109] AOR difflib: [0.62943 s] timeout
+   - [# 110] AOR difflib: [0.62953 s] timeout
+   - [# 111] AOR difflib: [0.62196 s] timeout
+   - [# 112] AOR difflib: [0.01666 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 113] AOR difflib: [0.06844 s] killed by test_range_format_unified (test_difflib.TestOutputFormat)
+   - [# 114] AOR difflib: [0.01599 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 115] AOR difflib: [0.62167 s] timeout
+   - [# 116] AOR difflib: [0.62637 s] timeout
+   - [# 117] AOR difflib: [0.62268 s] timeout
+   - [# 118] AOR difflib: [0.08383 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 119] AOR difflib: [0.07643 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 120] AOR difflib: [0.06953 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 121] AOR difflib: [0.07330 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 122] AOR difflib: [0.01683 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 123] AOR difflib: [0.62275 s] timeout
+   - [# 124] AOR difflib: [0.62316 s] timeout
+   - [# 125] AOR difflib: [0.62675 s] timeout
+   - [# 126] AOR difflib: [0.03153 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 127] AOR difflib: [0.01965 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 128] AOR difflib: [0.01629 s] killed by test_mixed_types_filenames (test_difflib.TestBytes)
+   - [# 129] AOR difflib: [0.01719 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 130] AOR difflib: [0.62168 s] timeout
+   - [# 131] AOR difflib: [0.62602 s] timeout
+   - [# 132] AOR difflib: [0.62983 s] timeout
+   - [# 133] AOR difflib: [0.63224 s] timeout
+   - [# 134] AOR difflib: [0.62615 s] timeout
+   - [# 135] AOR difflib: [0.62747 s] timeout
+   - [# 136] AOR difflib: [0.62903 s] timeout
+   - [# 137] AOR difflib: [0.62281 s] timeout
+   - [# 138] AOR difflib: [0.11112 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 139] AOR difflib: [0.09337 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 140] AOR difflib: [0.62255 s] timeout
+   - [# 141] AOR difflib: [0.62220 s] timeout
+   - [# 142] AOR difflib: [0.62334 s] timeout
+   - [# 143] AOR difflib: [0.09849 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 144] AOR difflib: [0.07312 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 145] AOR difflib: [0.09734 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 146] AOR difflib: [0.09498 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 147] AOR difflib: [0.62237 s] timeout
+   - [# 148] AOR difflib: [0.12215 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 149] AOR difflib: [0.09976 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 150] AOR difflib: [0.09983 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 151] AOR difflib: [0.09923 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 152] AOR difflib: [0.62220 s] timeout
+   - [# 153] AOR difflib: [0.62121 s] timeout
+   - [# 154] AOR difflib: [0.62309 s] timeout
+   - [# 155] AOR difflib: [0.11354 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 156] AOR difflib: [0.09401 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 157] AOR difflib: [0.09210 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 158] AOR difflib: [0.09364 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 159] AOR difflib: [0.09365 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 160] AOR difflib: [0.62176 s] timeout
+   - [# 161] AOR difflib: [0.62290 s] timeout
+   - [# 162] AOR difflib: [0.62964 s] timeout
+   - [# 163] AOR difflib: [0.63003 s] timeout
+   - [# 164] AOR difflib: [0.62473 s] timeout
+   - [# 165] AOR difflib: [0.62493 s] timeout
+   - [# 166] AOR difflib: [0.09576 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 167] AOR difflib: [0.62342 s] timeout
+   - [# 168] AOR difflib: [0.62319 s] timeout
+   - [# 169] AOR difflib: [0.62712 s] timeout
+   - [# 170] AOR difflib: [0.62673 s] timeout
+   - [# 171] AOR difflib: [0.62727 s] timeout
+   - [# 172] AOR difflib: [0.62562 s] timeout
+   - [# 173] AOR difflib: [0.62296 s] timeout
+   - [# 174] AOR difflib: [0.62348 s] timeout
+   - [# 175] AOR difflib: [0.62516 s] timeout
+   - [# 176] AOR difflib: [0.62928 s] timeout
+   - [# 177] AOR difflib: [0.42125 s] survived
+   - [# 178] ASR difflib: [0.39991 s] survived
+   - [# 179] ASR difflib: [0.06934 s] killed by test_matching_blocks_cache (test_difflib.TestSFbugs)
+   - [# 180] ASR difflib: [0.06942 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 181] ASR difflib: [0.62159 s] timeout
+   - [# 182] ASR difflib: [0.62431 s] timeout
+   - [# 183] ASR difflib: [0.62854 s] timeout
+   - [# 184] ASR difflib: [0.62413 s] timeout
+   - [# 185] ASR difflib: [0.62971 s] timeout
+   - [# 186] ASR difflib: [0.63206 s] timeout
+   - [# 187] ASR difflib: [0.08780 s] killed by test_range_format_unified (test_difflib.TestOutputFormat)
+   - [# 188] ASR difflib: [0.06829 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 189] ASR difflib: [0.06902 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 190] ASR difflib: [0.10063 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 191] ASR difflib: [0.09510 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 192] ASR difflib: [0.40002 s] survived
+   - [# 193] ASR difflib: [0.09474 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 194] ASR difflib: [0.62044 s] timeout
+   - [# 195] ASR difflib: [0.62104 s] timeout
+   - [# 196] ASR difflib: [0.06893 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 197] ASR difflib: [0.62048 s] timeout
+   - [# 198] ASR difflib: [0.62422 s] timeout
+   - [# 199] ASR difflib: [0.62871 s] timeout
+   - [# 200] ASR difflib: [0.09543 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 201] ASR difflib: [0.62034 s] timeout
+   - [# 202] ASR difflib: [0.62121 s] timeout
+   - [# 203] ASR difflib: [0.09921 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 204] ASR difflib: [0.13266 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 205] ASR difflib: [0.09947 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 206] ASR difflib: [0.09475 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 207] ASR difflib: [0.09342 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 208] BCR difflib: [0.40960 s] killed by test_one_insert (test_difflib.TestWithAscii)
+   - [# 209] BCR difflib: [0.40040 s] survived
+   - [# 210] BCR difflib: [0.39922 s] survived
+   - [# 211] BCR difflib: [0.39756 s] survived
+   - [# 212] BCR difflib: [0.08057 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 213] BCR difflib: [0.09902 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 214] BCR difflib: [0.08491 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 215] BCR difflib: [0.39832 s] survived
+   - [# 216] BCR difflib: [0.06925 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 217] BCR difflib: [0.40268 s] survived
+   - [# 218] BCR difflib: [0.08517 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 219] BCR difflib: [0.07753 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 220] BCR difflib: [0.09842 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 221] COD difflib: [0.39866 s] survived
+   - [# 222] COD difflib: [0.40205 s] survived
+   - [# 223] COD difflib: [0.01591 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 224] COD difflib: [0.01581 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 225] COD difflib: [0.39620 s] survived
+   - [# 226] COD difflib: [0.39716 s] survived
+   - [# 227] COD difflib: [0.06866 s] killed by test_range_format_unified (test_difflib.TestOutputFormat)
+   - [# 228] COD difflib: [0.01657 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 229] COD difflib: [0.06899 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 230] COD difflib: [0.06880 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 231] COD difflib: [0.62298 s] timeout
+   - [# 232] COD difflib: [0.62833 s] timeout
+   - [# 233] COD difflib: [0.62864 s] timeout
+   - [# 234] COD difflib: [0.08268 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 235] COD difflib: [0.09847 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 236] COD difflib: [0.09439 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 237] COD difflib: [0.08417 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 238] COD difflib: [0.09406 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 239] COI difflib: [0.00922 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 240] COI difflib: [0.62285 s] timeout
+   - [# 241] COI difflib: [0.63053 s] timeout
+   - [# 242] COI difflib: [0.62916 s] timeout
+   - [# 243] COI difflib: [0.12912 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 244] COI difflib: [0.01534 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 245] COI difflib: [0.01567 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 246] COI difflib: [0.01102 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 247] COI difflib: [0.00967 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 248] COI difflib: [0.01598 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 249] COI difflib: [0.62035 s] timeout
+   - [# 250] COI difflib: [0.00973 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 251] COI difflib: [0.62047 s] timeout
+   - [# 252] COI difflib: [0.62065 s] timeout
+   - [# 253] COI difflib: [0.62332 s] timeout
+   - [# 254] COI difflib: [0.01782 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 255] COI difflib: [0.62186 s] timeout
+   - [# 256] COI difflib: [0.09121 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 257] COI difflib: [0.06897 s] killed by test_matching_blocks_cache (test_difflib.TestSFbugs)
+   - [# 258] COI difflib: [0.06851 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 259] COI difflib: [0.06861 s] killed by test_matching_blocks_cache (test_difflib.TestSFbugs)
+   - [# 260] COI difflib: [0.01560 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 261] COI difflib: [0.01573 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 262] COI difflib: [0.01589 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 263] COI difflib: [0.06854 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 264] COI difflib: [0.06864 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 265] COI difflib: [0.01597 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 266] COI difflib: [0.06872 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 267] COI difflib: [0.01636 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 268] COI difflib: [0.40324 s] survived
+   - [# 269] COI difflib: [0.40240 s] survived
+   - [# 270] COI difflib: [0.01613 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 271] COI difflib: [0.01663 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 272] COI difflib: [0.06865 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 273] COI difflib: [0.06863 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 274] COI difflib: [0.06861 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 275] COI difflib: [0.39953 s] survived
+   - [# 276] COI difflib: [0.40270 s] survived
+   - [# 277] COI difflib: [0.39967 s] survived
+   - [# 278] COI difflib: [0.62085 s] timeout
+   - [# 279] COI difflib: [0.06940 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 280] COI difflib: [0.09423 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 281] COI difflib: [0.09483 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 282] COI difflib: [0.06970 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 283] COI difflib: [0.06896 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 284] COI difflib: [0.06845 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 285] COI difflib: [0.40076 s] survived
+   - [# 286] COI difflib: [0.06892 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 287] COI difflib: [0.06899 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 288] COI difflib: [0.62269 s] timeout
+   - [# 289] COI difflib: [0.08417 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 290] COI difflib: [0.06863 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 291] COI difflib: [0.06880 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 292] COI difflib: [0.06911 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 293] COI difflib: [0.06882 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 294] COI difflib: [0.08502 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 295] COI difflib: [0.08448 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 296] COI difflib: [0.40203 s] survived
+   - [# 297] COI difflib: [0.06873 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 298] COI difflib: [0.06887 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 299] COI difflib: [0.01635 s] killed by test_is_character_junk_false (test_difflib.TestJunkAPIs)
+   - [# 300] COI difflib: [0.01626 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 301] COI difflib: [0.06948 s] killed by test_range_format_unified (test_difflib.TestOutputFormat)
+   - [# 302] COI difflib: [0.01661 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 303] COI difflib: [0.01616 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 304] COI difflib: [0.01657 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 305] COI difflib: [0.01611 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 306] COI difflib: [0.01595 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 307] COI difflib: [0.01649 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 308] COI difflib: [0.06857 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 309] COI difflib: [0.06889 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 310] COI difflib: [0.06837 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 311] COI difflib: [0.40047 s] survived
+   - [# 312] COI difflib: [0.40095 s] survived
+   - [# 313] COI difflib: [0.39841 s] survived
+   - [# 314] COI difflib: [0.40066 s] survived
+   - [# 315] COI difflib: [0.39925 s] survived
+   - [# 316] COI difflib: [0.39808 s] survived
+   - [# 317] COI difflib: [0.62274 s] timeout
+   - [# 318] COI difflib: [0.62854 s] timeout
+   - [# 319] COI difflib: [0.62981 s] timeout
+   - [# 320] COI difflib: [0.08499 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 321] COI difflib: [0.06929 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 322] COI difflib: [0.06951 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 323] COI difflib: [0.06941 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 324] COI difflib: [0.06999 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 325] COI difflib: [0.06876 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 326] COI difflib: [0.06899 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 327] COI difflib: [0.06898 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 328] COI difflib: [0.06941 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 329] COI difflib: [0.06989 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 330] COI difflib: [0.06910 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 331] COI difflib: [0.06923 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 332] COI difflib: [0.09431 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 333] COI difflib: [0.09449 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 334] COI difflib: [0.06982 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 335] COI difflib: [0.07031 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 336] COI difflib: [0.62046 s] timeout
+   - [# 337] COI difflib: [0.62057 s] timeout
+   - [# 338] COI difflib: [0.06940 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 339] COI difflib: [0.06962 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 340] COI difflib: [0.06892 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 341] COI difflib: [0.06939 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 342] COI difflib: [0.06956 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 343] COI difflib: [0.62293 s] timeout
+   - [# 344] COI difflib: [0.08845 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 345] COI difflib: [0.62117 s] timeout
+   - [# 346] COI difflib: [0.07024 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 347] COI difflib: [0.06898 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 348] COI difflib: [0.09549 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 349] COI difflib: [0.09644 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 350] COI difflib: [0.09962 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 351] COI difflib: [0.12823 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 352] COI difflib: [0.12807 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 353] COI difflib: [0.08998 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 354] COI difflib: [0.10063 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 355] COI difflib: [0.10085 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 356] COI difflib: [0.62296 s] timeout
+   - [# 357] COI difflib: [0.11959 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 358] COI difflib: [0.61950 s] timeout
+   - [# 359] COI difflib: [0.62055 s] timeout
+   - [# 360] COI difflib: [0.09484 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 361] COI difflib: [0.09504 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 362] COI difflib: [0.08476 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 363] COI difflib: [0.09863 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 364] COI difflib: [0.09410 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 365] COI difflib: [0.09519 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 366] COI difflib: [0.62340 s] timeout
+   - [# 367] COI difflib: [0.11715 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 368] COI difflib: [0.09537 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 369] COI difflib: [0.09471 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 370] COI difflib: [0.40307 s] survived
+   - [# 371] COI difflib: [0.40162 s] survived
+   - [# 372] COI difflib: [0.40161 s] survived
+   - [# 373] CRP difflib: [0.39903 s] survived
+   - [# 374] CRP difflib: [0.40096 s] survived
+   - [# 375] CRP difflib: [0.39810 s] survived
+   - [# 376] CRP difflib: [0.39811 s] survived
+   - [# 377] CRP difflib: [0.39858 s] survived
+   - [# 378] CRP difflib: [0.39743 s] survived
+   - [# 379] CRP difflib: [0.39687 s] survived
+   - [# 380] CRP difflib: [0.39787 s] survived
+   - [# 381] CRP difflib: [0.40396 s] survived
+   - [# 382] CRP difflib: [0.39997 s] survived
+   - [# 383] CRP difflib: [0.40035 s] survived
+   - [# 384] CRP difflib: [0.39987 s] survived
+   - [# 385] CRP difflib: [0.40120 s] survived
+   - [# 386] CRP difflib: [0.40250 s] survived
+   - [# 387] CRP difflib: [0.40441 s] survived
+   - [# 388] CRP difflib: [0.39965 s] survived
+   - [# 389] CRP difflib: [0.40154 s] survived
+   - [# 390] CRP difflib: [0.39892 s] survived
+   - [# 391] CRP difflib: [0.40607 s] survived
+   - [# 392] CRP difflib: [0.40649 s] survived
+   - [# 393] CRP difflib: [0.40197 s] survived
+   - [# 394] CRP difflib: [0.40203 s] survived
+   - [# 395] CRP difflib: [0.41786 s] survived
+   - [# 396] CRP difflib: [0.44940 s] survived
+   - [# 397] CRP difflib: [0.46007 s] survived
+   - [# 398] CRP difflib: [0.00000 s] incompetent
+   - [# 399] CRP difflib: [0.62404 s] timeout
+   - [# 400] CRP difflib: [0.62695 s] timeout
+   - [# 401] CRP difflib: [0.03320 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 402] CRP difflib: [0.07516 s] killed by test_ratio_for_null_seqn (test_difflib.TestSFbugs)
+   - [# 403] CRP difflib: [0.41558 s] survived
+   - [# 404] CRP difflib: [0.41430 s] survived
+   - [# 405] CRP difflib: [0.40937 s] survived
+   - [# 406] CRP difflib: [0.41145 s] survived
+   - [# 407] CRP difflib: [0.40696 s] survived
+   - [# 408] CRP difflib: [0.01008 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 409] CRP difflib: [0.01620 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 410] CRP difflib: [0.01628 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 411] CRP difflib: [0.01751 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 412] CRP difflib: [0.08487 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 413] CRP difflib: [0.08220 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 414] CRP difflib: [0.46987 s] survived
+   - [# 415] CRP difflib: [0.40850 s] survived
+   - [# 416] CRP difflib: [0.47120 s] survived
+   - [# 417] CRP difflib: [0.45671 s] survived
+   - [# 418] CRP difflib: [0.42567 s] survived
+   - [# 419] CRP difflib: [0.42784 s] survived
+   - [# 420] CRP difflib: [0.43046 s] survived
+   - [# 421] CRP difflib: [0.10590 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 422] CRP difflib: [0.11207 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 423] CRP difflib: [0.10100 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 424] CRP difflib: [0.10048 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 425] CRP difflib: [0.09854 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 426] CRP difflib: [0.09315 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 427] CRP difflib: [0.09566 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 428] CRP difflib: [0.01565 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 429] CRP difflib: [0.00984 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 430] CRP difflib: [0.00978 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 431] CRP difflib: [0.00968 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 432] CRP difflib: [0.01672 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 433] CRP difflib: [0.06928 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [# 434] CRP difflib: [0.01946 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 435] CRP difflib: [0.01965 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 436] CRP difflib: [0.07417 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 437] CRP difflib: [0.06999 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 438] CRP difflib: [0.06989 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 439] CRP difflib: [0.06900 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 440] CRP difflib: [0.01666 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 441] CRP difflib: [0.01649 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 442] CRP difflib: [0.40899 s] survived
+   - [# 443] CRP difflib: [0.07128 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [# 444] CRP difflib: [0.07190 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [# 445] CRP difflib: [0.40544 s] survived
+   - [# 446] CRP difflib: [0.40457 s] survived
+   - [# 447] CRP difflib: [0.40074 s] survived
+   - [# 448] CRP difflib: [0.40598 s] survived
+   - [# 449] CRP difflib: [0.01637 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 450] CRP difflib: [0.40024 s] survived
+   - [# 451] CRP difflib: [0.40027 s] survived
+   - [# 452] CRP difflib: [0.39841 s] survived
+   - [# 453] CRP difflib: [0.01637 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 454] CRP difflib: [0.01611 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 455] CRP difflib: [0.01643 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 456] CRP difflib: [0.40073 s] survived
+   - [# 457] CRP difflib: [0.40532 s] survived
+   - [# 458] CRP difflib: [0.41006 s] survived
+   - [# 459] CRP difflib: [0.01762 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 460] CRP difflib: [0.01687 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 461] CRP difflib: [0.41818 s] survived
+   - [# 462] CRP difflib: [0.40059 s] survived
+   - [# 463] CRP difflib: [0.07303 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [# 464] CRP difflib: [0.01647 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 465] CRP difflib: [0.06924 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [# 466] CRP difflib: [0.06873 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [# 467] CRP difflib: [0.06926 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [# 468] CRP difflib: [0.00974 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [# 469] CRP difflib: [0.40448 s] survived
+   - [# 470] CRP difflib: [0.40704 s] survived
+   - [# 471] CRP difflib: [0.40511 s] survived
+   - [# 472] CRP difflib: [0.40297 s] survived
+   - [# 473] CRP difflib: [0.07204 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 474] CRP difflib: [0.07257 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 475] CRP difflib: [0.41784 s] survived
+   - [# 476] CRP difflib: [0.40477 s] survived
+   - [# 477] CRP difflib: [0.41651 s] survived
+   - [# 478] CRP difflib: [0.40941 s] survived
+   - [# 479] CRP difflib: [0.41051 s] survived
+   - [# 480] CRP difflib: [0.40492 s] survived
+   - [# 481] CRP difflib: [0.40790 s] survived
+   - [# 482] CRP difflib: [0.40635 s] survived
+   - [# 483] CRP difflib: [0.40936 s] survived
+   - [# 484] CRP difflib: [0.41038 s] survived
+   - [# 485] CRP difflib: [0.06902 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 486] CRP difflib: [0.40295 s] survived
+   - [# 487] CRP difflib: [0.06881 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 488] CRP difflib: [0.06926 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 489] CRP difflib: [0.40402 s] survived
+   - [# 490] CRP difflib: [0.39928 s] survived
+   - [# 491] CRP difflib: [0.41063 s] survived
+   - [# 492] CRP difflib: [0.40787 s] survived
+   - [# 493] CRP difflib: [0.41390 s] survived
+   - [# 494] CRP difflib: [0.40680 s] survived
+   - [# 495] CRP difflib: [0.40248 s] survived
+   - [# 496] CRP difflib: [0.40932 s] survived
+   - [# 497] CRP difflib: [0.07256 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 498] CRP difflib: [0.07018 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 499] CRP difflib: [0.07280 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 500] CRP difflib: [0.10360 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 501] CRP difflib: [0.45875 s] survived
+   - [# 502] CRP difflib: [0.40807 s] survived
+   - [# 503] CRP difflib: [0.62279 s] timeout
+   - [# 504] CRP difflib: [0.62678 s] timeout
+   - [# 505] CRP difflib: [0.42660 s] survived
+   - [# 506] CRP difflib: [0.40218 s] survived
+   - [# 507] CRP difflib: [0.40288 s] survived
+   - [# 508] CRP difflib: [0.40043 s] survived
+   - [# 509] CRP difflib: [0.06941 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 510] CRP difflib: [0.06915 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 511] CRP difflib: [0.06941 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 512] CRP difflib: [0.06921 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 513] CRP difflib: [0.06904 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 514] CRP difflib: [0.06901 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 515] CRP difflib: [0.39863 s] survived
+   - [# 516] CRP difflib: [0.06957 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 517] CRP difflib: [0.07072 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 518] CRP difflib: [0.07073 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 519] CRP difflib: [0.09486 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 520] CRP difflib: [0.09501 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 521] CRP difflib: [0.09463 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 522] CRP difflib: [0.09668 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 523] CRP difflib: [0.06889 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 524] CRP difflib: [0.06874 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 525] CRP difflib: [0.06927 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 526] CRP difflib: [0.06917 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 527] CRP difflib: [0.06996 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 528] CRP difflib: [0.06922 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 529] CRP difflib: [0.06887 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 530] CRP difflib: [0.06867 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 531] CRP difflib: [0.06942 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 532] CRP difflib: [0.06945 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 533] CRP difflib: [0.06988 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 534] CRP difflib: [0.06884 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 535] CRP difflib: [0.06884 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 536] CRP difflib: [0.09397 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 537] CRP difflib: [0.40197 s] survived
+   - [# 538] CRP difflib: [0.40907 s] survived
+   - [# 539] CRP difflib: [0.42685 s] survived
+   - [# 540] CRP difflib: [0.40868 s] survived
+   - [# 541] CRP difflib: [0.09507 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 542] CRP difflib: [0.09599 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 543] CRP difflib: [0.07068 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 544] CRP difflib: [0.09487 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 545] CRP difflib: [0.40318 s] survived
+   - [# 546] CRP difflib: [0.41770 s] survived
+   - [# 547] CRP difflib: [0.42361 s] survived
+   - [# 548] CRP difflib: [0.42123 s] survived
+   - [# 549] CRP difflib: [0.41296 s] survived
+   - [# 550] CRP difflib: [0.42523 s] survived
+   - [# 551] CRP difflib: [0.40367 s] survived
+   - [# 552] CRP difflib: [0.39909 s] survived
+   - [# 553] CRP difflib: [0.40277 s] survived
+   - [# 554] CRP difflib: [0.41316 s] survived
+   - [# 555] CRP difflib: [0.07339 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 556] CRP difflib: [0.07166 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 557] CRP difflib: [0.62385 s] timeout
+   - [# 558] CRP difflib: [0.62573 s] timeout
+   - [# 559] CRP difflib: [0.42969 s] survived
+   - [# 560] CRP difflib: [0.40420 s] survived
+   - [# 561] CRP difflib: [0.06966 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 562] CRP difflib: [0.06904 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [# 563] CRP difflib: [0.62154 s] timeout
+   - [# 564] CRP difflib: [0.62361 s] timeout
+   - [# 565] CRP difflib: [0.40188 s] survived
+   - [# 566] CRP difflib: [0.40149 s] survived
+   - [# 567] CRP difflib: [0.01808 s] killed by test_is_line_junk_true (test_difflib.TestJunkAPIs)
+   - [# 568] CRP difflib: [0.01885 s] killed by test_is_line_junk_REDOS (test_difflib.TestJunkAPIs)
+   - [# 569] CRP difflib: [0.01779 s] killed by test_is_character_junk_true (test_difflib.TestJunkAPIs)
+   - [# 570] CRP difflib: [0.01759 s] killed by test_is_character_junk_true (test_difflib.TestJunkAPIs)
+   - [# 571] CRP difflib: [0.01869 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 572] CRP difflib: [0.01872 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 573] CRP difflib: [0.01781 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 574] CRP difflib: [0.01933 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 575] CRP difflib: [0.07339 s] killed by test_range_format_unified (test_difflib.TestOutputFormat)
+   - [# 576] CRP difflib: [0.07500 s] killed by test_range_format_unified (test_difflib.TestOutputFormat)
+   - [# 577] CRP difflib: [0.07309 s] killed by test_range_format_unified (test_difflib.TestOutputFormat)
+   - [# 578] CRP difflib: [0.41374 s] survived
+   - [# 579] CRP difflib: [0.41132 s] survived
+   - [# 580] CRP difflib: [0.06929 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 581] CRP difflib: [0.06958 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 582] CRP difflib: [0.40294 s] survived
+   - [# 583] CRP difflib: [0.40866 s] survived
+   - [# 584] CRP difflib: [0.40100 s] survived
+   - [# 585] CRP difflib: [0.01682 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 586] CRP difflib: [0.01641 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 587] CRP difflib: [0.01643 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 588] CRP difflib: [0.01641 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 589] CRP difflib: [0.01632 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 590] CRP difflib: [0.01612 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 591] CRP difflib: [0.01623 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 592] CRP difflib: [0.01771 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 593] CRP difflib: [0.01738 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 594] CRP difflib: [0.01635 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 595] CRP difflib: [0.01752 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 596] CRP difflib: [0.01766 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 597] CRP difflib: [0.01706 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 598] CRP difflib: [0.01824 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 599] CRP difflib: [0.01657 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 600] CRP difflib: [0.01688 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 601] CRP difflib: [0.01691 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 602] CRP difflib: [0.01655 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 603] CRP difflib: [0.40015 s] survived
+   - [# 604] CRP difflib: [0.39969 s] survived
+   - [# 605] CRP difflib: [0.40362 s] survived
+   - [# 606] CRP difflib: [0.39797 s] survived
+   - [# 607] CRP difflib: [0.01635 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 608] CRP difflib: [0.01684 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 609] CRP difflib: [0.39740 s] survived
+   - [# 610] CRP difflib: [0.40010 s] survived
+   - [# 611] CRP difflib: [0.01673 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 612] CRP difflib: [0.01682 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 613] CRP difflib: [0.01707 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 614] CRP difflib: [0.01690 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 615] CRP difflib: [0.40595 s] survived
+   - [# 616] CRP difflib: [0.40919 s] survived
+   - [# 617] CRP difflib: [0.01810 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 618] CRP difflib: [0.01860 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 619] CRP difflib: [0.07036 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 620] CRP difflib: [0.07085 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 621] CRP difflib: [0.07309 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 622] CRP difflib: [0.06937 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 623] CRP difflib: [0.06911 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 624] CRP difflib: [0.06847 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 625] CRP difflib: [0.06859 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 626] CRP difflib: [0.06957 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [# 627] CRP difflib: [0.41858 s] survived
+   - [# 628] CRP difflib: [0.40279 s] survived
+   - [# 629] CRP difflib: [0.06909 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 630] CRP difflib: [0.06910 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 631] CRP difflib: [0.40900 s] survived
+   - [# 632] CRP difflib: [0.40571 s] survived
+   - [# 633] CRP difflib: [0.40149 s] survived
+   - [# 634] CRP difflib: [0.40239 s] survived
+   - [# 635] CRP difflib: [0.40099 s] survived
+   - [# 636] CRP difflib: [0.40129 s] survived
+   - [# 637] CRP difflib: [0.39906 s] survived
+   - [# 638] CRP difflib: [0.40294 s] survived
+   - [# 639] CRP difflib: [0.39930 s] survived
+   - [# 640] CRP difflib: [0.40740 s] survived
+   - [# 641] CRP difflib: [0.39993 s] survived
+   - [# 642] CRP difflib: [0.06935 s] killed by test_tab_delimiter (test_difflib.TestOutputFormat)
+   - [# 643] CRP difflib: [0.06903 s] killed by test_tab_delimiter (test_difflib.TestOutputFormat)
+   - [# 644] CRP difflib: [0.06971 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 645] CRP difflib: [0.06958 s] killed by test_tab_delimiter (test_difflib.TestOutputFormat)
+   - [# 646] CRP difflib: [0.06928 s] killed by test_tab_delimiter (test_difflib.TestOutputFormat)
+   - [# 647] CRP difflib: [0.06937 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 648] CRP difflib: [0.06908 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 649] CRP difflib: [0.06996 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 650] CRP difflib: [0.06893 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 651] CRP difflib: [0.06867 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [# 652] CRP difflib: [0.01755 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 653] CRP difflib: [0.01651 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 654] CRP difflib: [0.40098 s] survived
+   - [# 655] CRP difflib: [0.40039 s] survived
+   - [# 656] CRP difflib: [0.39996 s] survived
+   - [# 657] CRP difflib: [0.40137 s] survived
+   - [# 658] CRP difflib: [0.42017 s] survived
+   - [# 659] CRP difflib: [0.40742 s] survived
+   - [# 660] CRP difflib: [0.40035 s] survived
+   - [# 661] CRP difflib: [0.40011 s] survived
+   - [# 662] CRP difflib: [0.40244 s] survived
+   - [# 663] CRP difflib: [0.40384 s] survived
+   - [# 664] CRP difflib: [0.42887 s] survived
+   - [# 665] CRP difflib: [0.42416 s] survived
+   - [# 666] CRP difflib: [0.40064 s] survived
+   - [# 667] CRP difflib: [0.01621 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 668] CRP difflib: [0.40225 s] survived
+   - [# 669] CRP difflib: [0.39860 s] survived
+   - [# 670] CRP difflib: [0.40408 s] survived
+   - [# 671] CRP difflib: [0.40975 s] survived
+   - [# 672] CRP difflib: [0.40023 s] survived
+   - [# 673] CRP difflib: [0.40356 s] survived
+   - [# 674] CRP difflib: [0.41943 s] survived
+   - [# 675] CRP difflib: [0.42614 s] survived
+   - [# 676] CRP difflib: [0.01725 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 677] CRP difflib: [0.01710 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 678] CRP difflib: [0.01701 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 679] CRP difflib: [0.01647 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 680] CRP difflib: [0.01726 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 681] CRP difflib: [0.01701 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [# 682] CRP difflib: [0.01925 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 683] CRP difflib: [0.01688 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 684] CRP difflib: [0.01685 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 685] CRP difflib: [0.01698 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 686] CRP difflib: [0.01699 s] killed by test_mixed_types_filenames (test_difflib.TestBytes)
+   - [# 687] CRP difflib: [0.01710 s] killed by test_mixed_types_filenames (test_difflib.TestBytes)
+   - [# 688] CRP difflib: [0.40345 s] survived
+   - [# 689] CRP difflib: [0.01675 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 690] CRP difflib: [0.01675 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 691] CRP difflib: [0.01655 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 692] CRP difflib: [0.01681 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 693] CRP difflib: [0.01668 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 694] CRP difflib: [0.01901 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [# 695] CRP difflib: [0.01678 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 696] CRP difflib: [0.01627 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 697] CRP difflib: [0.01615 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 698] CRP difflib: [0.01710 s] killed by test_byte_content (test_difflib.TestBytes)
+   - [# 699] CRP difflib: [0.09415 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 700] CRP difflib: [0.07094 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 701] CRP difflib: [0.07099 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 702] CRP difflib: [0.07071 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 703] CRP difflib: [0.06959 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 704] CRP difflib: [0.62110 s] timeout
+   - [# 705] CRP difflib: [0.09642 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 706] CRP difflib: [0.07108 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 707] CRP difflib: [0.07049 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 708] CRP difflib: [0.09461 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 709] CRP difflib: [0.07090 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 710] CRP difflib: [0.07512 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 711] CRP difflib: [0.08792 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 712] CRP difflib: [0.07193 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 713] CRP difflib: [0.09986 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 714] CRP difflib: [0.09534 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 715] CRP difflib: [0.09511 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 716] CRP difflib: [0.09502 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 717] CRP difflib: [0.09531 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 718] CRP difflib: [0.10125 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 719] CRP difflib: [0.62095 s] timeout
+   - [# 720] CRP difflib: [0.07044 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 721] CRP difflib: [0.39962 s] survived
+   - [# 722] CRP difflib: [0.40291 s] survived
+   - [# 723] CRP difflib: [0.06977 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 724] CRP difflib: [0.06992 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 725] CRP difflib: [0.06939 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 726] CRP difflib: [0.07007 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 727] CRP difflib: [0.09380 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 728] CRP difflib: [0.39867 s] survived
+   - [# 729] CRP difflib: [0.40999 s] survived
+   - [# 730] CRP difflib: [0.07267 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 731] CRP difflib: [0.07245 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 732] CRP difflib: [0.07133 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 733] CRP difflib: [0.07286 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 734] CRP difflib: [0.40998 s] survived
+   - [# 735] CRP difflib: [0.07073 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 736] CRP difflib: [0.07116 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 737] CRP difflib: [0.07057 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 738] CRP difflib: [0.07058 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 739] CRP difflib: [0.07049 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 740] CRP difflib: [0.09468 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 741] CRP difflib: [0.07100 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 742] CRP difflib: [0.07055 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 743] CRP difflib: [0.07057 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 744] CRP difflib: [0.10013 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 745] CRP difflib: [0.07069 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 746] CRP difflib: [0.10587 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 747] CRP difflib: [0.10212 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 748] CRP difflib: [0.10022 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 749] CRP difflib: [0.10155 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 750] CRP difflib: [0.40144 s] survived
+   - [# 751] CRP difflib: [0.07026 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 752] CRP difflib: [0.09725 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 753] CRP difflib: [0.07102 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 754] CRP difflib: [0.40579 s] survived
+   - [# 755] CRP difflib: [0.06977 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 756] CRP difflib: [0.09468 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 757] CRP difflib: [0.09625 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 758] CRP difflib: [0.09868 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 759] CRP difflib: [0.09757 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 760] CRP difflib: [0.09569 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 761] CRP difflib: [0.62071 s] timeout
+   - [# 762] CRP difflib: [0.07008 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 763] CRP difflib: [0.09698 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 764] CRP difflib: [0.62144 s] timeout
+   - [# 765] CRP difflib: [0.62219 s] timeout
+   - [# 766] CRP difflib: [0.07187 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 767] CRP difflib: [0.08845 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 768] CRP difflib: [0.07003 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 769] CRP difflib: [0.09924 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 770] CRP difflib: [0.10068 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 771] CRP difflib: [0.10379 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 772] CRP difflib: [0.09275 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 773] CRP difflib: [0.07498 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 774] CRP difflib: [0.07229 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 775] CRP difflib: [0.09911 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 776] CRP difflib: [0.07463 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 777] CRP difflib: [0.07404 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 778] CRP difflib: [0.07677 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 779] CRP difflib: [0.41830 s] survived
+   - [# 780] CRP difflib: [0.09571 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 781] CRP difflib: [0.41958 s] survived
+   - [# 782] CRP difflib: [0.42730 s] survived
+   - [# 783] CRP difflib: [0.41617 s] survived
+   - [# 784] CRP difflib: [0.41403 s] survived
+   - [# 785] CRP difflib: [0.09512 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 786] CRP difflib: [0.09498 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 787] CRP difflib: [0.41565 s] survived
+   - [# 788] CRP difflib: [0.09635 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 789] CRP difflib: [0.09425 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 790] CRP difflib: [0.09661 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 791] CRP difflib: [0.07150 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 792] CRP difflib: [0.09573 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 793] CRP difflib: [0.09465 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 794] CRP difflib: [0.07016 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 795] CRP difflib: [0.09639 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 796] CRP difflib: [0.09447 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 797] CRP difflib: [0.06993 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 798] CRP difflib: [0.06996 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 799] CRP difflib: [0.07357 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 800] CRP difflib: [0.07089 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 801] CRP difflib: [0.41214 s] survived
+   - [# 802] CRP difflib: [0.09818 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 803] CRP difflib: [0.07096 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 804] CRP difflib: [0.06993 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 805] CRP difflib: [0.09464 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 806] CRP difflib: [0.09874 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 807] CRP difflib: [0.09665 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 808] CRP difflib: [0.40928 s] survived
+   - [# 809] CRP difflib: [0.09568 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 810] CRP difflib: [0.40327 s] survived
+   - [# 811] CRP difflib: [0.09782 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 812] CRP difflib: [0.09448 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 813] CRP difflib: [0.40884 s] survived
+   - [# 814] CRP difflib: [0.07072 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 815] CRP difflib: [0.08156 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 816] CRP difflib: [0.07330 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 817] CRP difflib: [0.07538 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 818] CRP difflib: [0.07083 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 819] CRP difflib: [0.06992 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 820] CRP difflib: [0.09537 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 821] CRP difflib: [0.40005 s] survived
+   - [# 822] CRP difflib: [0.07133 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 823] CRP difflib: [0.06978 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 824] CRP difflib: [0.06967 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [# 825] CRP difflib: [0.62285 s] timeout
+   - [# 826] CRP difflib: [0.62493 s] timeout
+   - [# 827] CRP difflib: [0.09890 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 828] CRP difflib: [0.09795 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 829] CRP difflib: [0.09607 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 830] CRP difflib: [0.09450 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 831] CRP difflib: [0.09622 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 832] CRP difflib: [0.09498 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 833] CRP difflib: [0.09564 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 834] CRP difflib: [0.09360 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 835] CRP difflib: [0.09644 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 836] CRP difflib: [0.09626 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 837] CRP difflib: [0.09608 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 838] CRP difflib: [0.09409 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 839] CRP difflib: [0.10021 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 840] CRP difflib: [0.07498 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 841] CRP difflib: [0.07451 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 842] CRP difflib: [0.40174 s] survived
+   - [# 843] CRP difflib: [0.41026 s] survived
+   - [# 844] CRP difflib: [0.40448 s] survived
+   - [# 845] CRP difflib: [0.09609 s] killed by test_make_file_usascii_charset_with_nonascii_input (test_difflib.TestSFpatches)
+   - [# 846] CRP difflib: [0.09830 s] killed by test_make_file_usascii_charset_with_nonascii_input (test_difflib.TestSFpatches)
+   - [# 847] CRP difflib: [0.09897 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 848] CRP difflib: [0.14232 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 849] CRP difflib: [0.12029 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 850] CRP difflib: [0.08527 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 851] CRP difflib: [0.09847 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 852] CRP difflib: [0.13480 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 853] CRP difflib: [0.10113 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 854] CRP difflib: [0.09804 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 855] CRP difflib: [0.09355 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 856] CRP difflib: [0.18613 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 857] CRP difflib: [0.12265 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 858] CRP difflib: [0.08622 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 859] CRP difflib: [0.10208 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 860] CRP difflib: [0.10579 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 861] CRP difflib: [0.10114 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 862] CRP difflib: [0.09983 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 863] CRP difflib: [0.10346 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 864] CRP difflib: [0.10130 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 865] CRP difflib: [0.10197 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 866] CRP difflib: [0.10127 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 867] CRP difflib: [0.10696 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 868] CRP difflib: [0.10152 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 869] CRP difflib: [0.10647 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 870] CRP difflib: [0.10248 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 871] CRP difflib: [0.10100 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 872] CRP difflib: [0.10145 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 873] CRP difflib: [0.10262 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 874] CRP difflib: [0.10059 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 875] CRP difflib: [0.10057 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 876] CRP difflib: [0.10289 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 877] CRP difflib: [0.10134 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 878] CRP difflib: [0.10447 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 879] CRP difflib: [0.10005 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 880] CRP difflib: [0.10111 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 881] CRP difflib: [0.10444 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 882] CRP difflib: [0.10733 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 883] CRP difflib: [0.09424 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 884] CRP difflib: [0.10060 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 885] CRP difflib: [0.10054 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 886] CRP difflib: [0.09964 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 887] CRP difflib: [0.09310 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 888] CRP difflib: [0.10115 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 889] CRP difflib: [0.10139 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 890] CRP difflib: [0.09957 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 891] CRP difflib: [0.09491 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 892] CRP difflib: [0.07053 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 893] CRP difflib: [0.09663 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 894] CRP difflib: [0.09668 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 895] CRP difflib: [0.09454 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 896] CRP difflib: [0.09450 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 897] CRP difflib: [0.09435 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 898] CRP difflib: [0.40107 s] survived
+   - [# 899] CRP difflib: [0.09484 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 900] CRP difflib: [0.40782 s] survived
+   - [# 901] CRP difflib: [0.40206 s] survived
+   - [# 902] CRP difflib: [0.40353 s] survived
+   - [# 903] CRP difflib: [0.09541 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 904] CRP difflib: [0.40245 s] survived
+   - [# 905] CRP difflib: [0.40676 s] survived
+   - [# 906] CRP difflib: [0.40405 s] survived
+   - [# 907] CRP difflib: [0.09660 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 908] CRP difflib: [0.41465 s] survived
+   - [# 909] CRP difflib: [0.42091 s] survived
+   - [# 910] CRP difflib: [0.09586 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 911] CRP difflib: [0.09528 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 912] CRP difflib: [0.09442 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 913] CRP difflib: [0.09604 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 914] CRP difflib: [0.09395 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 915] CRP difflib: [0.09418 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 916] CRP difflib: [0.62163 s] timeout
+   - [# 917] CRP difflib: [0.62581 s] timeout
+   - [# 918] CRP difflib: [0.62642 s] timeout
+   - [# 919] CRP difflib: [0.62769 s] timeout
+   - [# 920] CRP difflib: [0.09764 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 921] CRP difflib: [0.07427 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 922] CRP difflib: [0.09487 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 923] CRP difflib: [0.09412 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 924] CRP difflib: [0.09475 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 925] CRP difflib: [0.09877 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 926] CRP difflib: [0.09493 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 927] CRP difflib: [0.62240 s] timeout
+   - [# 928] CRP difflib: [0.62454 s] timeout
+   - [# 929] CRP difflib: [0.12455 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 930] CRP difflib: [0.62331 s] timeout
+   - [# 931] CRP difflib: [0.62748 s] timeout
+   - [# 932] CRP difflib: [0.12268 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 933] CRP difflib: [0.40185 s] survived
+   - [# 934] CRP difflib: [0.08627 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 935] CRP difflib: [0.10060 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 936] CRP difflib: [0.09876 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 937] CRP difflib: [0.10032 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 938] CRP difflib: [0.09962 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 939] CRP difflib: [0.08557 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 940] CRP difflib: [0.08681 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 941] CRP difflib: [0.62350 s] timeout
+   - [# 942] CRP difflib: [0.62441 s] timeout
+   - [# 943] CRP difflib: [0.62515 s] timeout
+   - [# 944] CRP difflib: [0.62826 s] timeout
+   - [# 945] CRP difflib: [0.12392 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 946] CRP difflib: [0.09998 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 947] CRP difflib: [0.09679 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 948] CRP difflib: [0.62131 s] timeout
+   - [# 949] CRP difflib: [0.62286 s] timeout
+   - [# 950] CRP difflib: [0.62176 s] timeout
+   - [# 951] CRP difflib: [0.62220 s] timeout
+   - [# 952] CRP difflib: [0.41928 s] survived
+   - [# 953] CRP difflib: [0.09900 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 954] CRP difflib: [0.10148 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 955] CRP difflib: [0.62292 s] timeout
+   - [# 956] CRP difflib: [0.62575 s] timeout
+   - [# 957] CRP difflib: [0.10488 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 958] CRP difflib: [0.09763 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 959] CRP difflib: [0.62413 s] timeout
+   - [# 960] CRP difflib: [0.62172 s] timeout
+   - [# 961] CRP difflib: [0.11774 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 962] CRP difflib: [0.09836 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 963] CRP difflib: [0.62296 s] timeout
+   - [# 964] CRP difflib: [0.62597 s] timeout
+   - [# 965] CRP difflib: [0.10855 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 966] CRP difflib: [0.10027 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 967] CRP difflib: [0.08305 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 968] CRP difflib: [0.10542 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 969] CRP difflib: [0.12250 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 970] CRP difflib: [0.09776 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 971] CRP difflib: [0.09549 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 972] CRP difflib: [0.09843 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 973] CRP difflib: [0.12758 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 974] CRP difflib: [0.09767 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 975] CRP difflib: [0.09618 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 976] CRP difflib: [0.09663 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 977] CRP difflib: [0.11578 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 978] CRP difflib: [0.09432 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 979] CRP difflib: [0.09723 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 980] CRP difflib: [0.09797 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 981] CRP difflib: [0.12292 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 982] CRP difflib: [0.11266 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 983] CRP difflib: [0.17066 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 984] CRP difflib: [0.11585 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 985] CRP difflib: [0.10160 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 986] CRP difflib: [0.10760 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 987] CRP difflib: [0.10356 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [# 988] CRP difflib: [0.41230 s] survived
+   - [# 989] CRP difflib: [0.40393 s] survived
+   - [# 990] CRP difflib: [0.40039 s] survived
+   - [# 991] CRP difflib: [0.40026 s] survived
+   - [# 992] CRP difflib: [0.40269 s] survived
+   - [# 993] CRP difflib: [0.40387 s] survived
+   - [# 994] CRP difflib: [0.39882 s] survived
+   - [# 995] CRP difflib: [0.40652 s] survived
+   - [# 996] CRP difflib: [0.40063 s] survived
+   - [# 997] CRP difflib: [0.40451 s] survived
+   - [# 998] CRP difflib: [0.40315 s] survived
+   - [# 999] CRP difflib: [0.40037 s] survived
+   - [#1000] CRP difflib: [0.40222 s] survived
+   - [#1001] CRP difflib: [0.39879 s] survived
+   - [#1002] EHD difflib: [0.01690 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [#1003] EHD difflib: [0.07020 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1004] EHD difflib: [0.07576 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1005] EHD difflib: [0.06936 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1006] EHD difflib: [0.62295 s] timeout
+   - [#1007] EHD difflib: [0.11517 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1008] EXS difflib: [0.01670 s] killed by test_mixed_types_content (test_difflib.TestBytes)
+   - [#1009] EXS difflib: [0.62157 s] timeout
+   - [#1010] EXS difflib: [0.62109 s] timeout
+   - [#1011] EXS difflib: [0.41924 s] survived
+   - [#1012] EXS difflib: [0.07692 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1013] EXS difflib: [0.07200 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1014] EXS difflib: [0.40055 s] survived
+   - [#1015] LCR difflib: [0.01028 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1016] LCR difflib: [0.00974 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1017] LCR difflib: [0.00985 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1018] LCR difflib: [0.00986 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1019] LCR difflib: [0.00964 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1020] LCR difflib: [0.40420 s] survived
+   - [#1021] LCR difflib: [0.40279 s] survived
+   - [#1022] LCR difflib: [0.06903 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1023] LCR difflib: [0.06992 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1024] LCR difflib: [0.06897 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [#1025] LCR difflib: [0.06886 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [#1026] LCR difflib: [0.01623 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#1027] LCR difflib: [0.40132 s] survived
+   - [#1028] LCR difflib: [0.06984 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1029] LCR difflib: [0.40462 s] survived
+   - [#1030] LCR difflib: [0.10904 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1031] LCR difflib: [0.62136 s] timeout
+   - [#1032] LCR difflib: [0.62200 s] timeout
+   - [#1033] LCR difflib: [0.07074 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1034] LCR difflib: [0.40271 s] survived
+   - [#1035] LCR difflib: [0.10012 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1036] LCR difflib: [0.09999 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1037] LCR difflib: [0.09923 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1038] LCR difflib: [0.41342 s] survived
+   - [#1039] ROR difflib: [0.01606 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1040] ROR difflib: [0.40333 s] survived
+   - [#1041] ROR difflib: [0.01627 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1042] ROR difflib: [0.40038 s] survived
+   - [#1043] ROR difflib: [0.01202 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1044] ROR difflib: [0.39905 s] killed by test_one_delete (test_difflib.TestWithAscii)
+   - [#1045] ROR difflib: [0.01028 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1046] ROR difflib: [0.47651 s] survived
+   - [#1047] ROR difflib: [0.02007 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1048] ROR difflib: [0.50612 s] survived
+   - [#1049] ROR difflib: [0.41700 s] survived
+   - [#1050] ROR difflib: [0.40997 s] survived
+   - [#1051] ROR difflib: [0.41547 s] survived
+   - [#1052] ROR difflib: [0.42141 s] survived
+   - [#1053] ROR difflib: [0.08178 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1054] ROR difflib: [0.41759 s] survived
+   - [#1055] ROR difflib: [0.41821 s] survived
+   - [#1056] ROR difflib: [0.42509 s] survived
+   - [#1057] ROR difflib: [0.07349 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [#1058] ROR difflib: [0.01077 s] killed by test_one_insert_homogenous_sequence (test_difflib.TestAutojunk)
+   - [#1059] ROR difflib: [0.09987 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1060] ROR difflib: [0.41076 s] survived
+   - [#1061] ROR difflib: [0.09947 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1062] ROR difflib: [0.40877 s] survived
+   - [#1063] ROR difflib: [0.09900 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1064] ROR difflib: [0.10309 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1065] ROR difflib: [0.09744 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1066] ROR difflib: [0.10900 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1067] ROR difflib: [0.07483 s] killed by test_no_trailing_tab_on_empty_filedate (test_difflib.TestOutputFormat)
+   - [#1068] ROR difflib: [0.10900 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1069] ROR difflib: [0.09590 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1070] ROR difflib: [0.42115 s] survived
+   - [#1071] ROR difflib: [0.09454 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1072] ROR difflib: [0.42207 s] survived
+   - [#1073] ROR difflib: [0.07397 s] killed by test_matching_blocks_cache (test_difflib.TestSFbugs)
+   - [#1074] ROR difflib: [0.45444 s] survived
+   - [#1075] ROR difflib: [0.07763 s] killed by test_matching_blocks_cache (test_difflib.TestSFbugs)
+   - [#1076] ROR difflib: [0.43627 s] survived
+   - [#1077] ROR difflib: [0.07264 s] killed by test_matching_blocks_cache (test_difflib.TestSFbugs)
+   - [#1078] ROR difflib: [0.07272 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1079] ROR difflib: [0.01885 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#1080] ROR difflib: [0.07053 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1081] ROR difflib: [0.01792 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#1082] ROR difflib: [0.07246 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1083] ROR difflib: [0.07077 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1084] ROR difflib: [0.07285 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1085] ROR difflib: [0.07283 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1086] ROR difflib: [0.07260 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [#1087] ROR difflib: [0.41575 s] survived
+   - [#1088] ROR difflib: [0.43934 s] survived
+   - [#1089] ROR difflib: [0.42044 s] survived
+   - [#1090] ROR difflib: [0.07294 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [#1091] ROR difflib: [0.43465 s] survived
+   - [#1092] ROR difflib: [0.07043 s] killed by test_comparing_empty_lists (test_difflib.TestSFbugs)
+   - [#1093] ROR difflib: [0.01724 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#1094] ROR difflib: [0.07293 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1095] ROR difflib: [0.42123 s] survived
+   - [#1096] ROR difflib: [0.40721 s] survived
+   - [#1097] ROR difflib: [0.40766 s] survived
+   - [#1098] ROR difflib: [0.41456 s] survived
+   - [#1099] ROR difflib: [0.40847 s] survived
+   - [#1100] ROR difflib: [0.41939 s] survived
+   - [#1101] ROR difflib: [0.40652 s] survived
+   - [#1102] ROR difflib: [0.41534 s] survived
+   - [#1103] ROR difflib: [0.41635 s] survived
+   - [#1104] ROR difflib: [0.42564 s] survived
+   - [#1105] ROR difflib: [0.41623 s] survived
+   - [#1106] ROR difflib: [0.42026 s] survived
+   - [#1107] ROR difflib: [0.42023 s] survived
+   - [#1108] ROR difflib: [0.41345 s] survived
+   - [#1109] ROR difflib: [0.07150 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1110] ROR difflib: [0.40816 s] survived
+   - [#1111] ROR difflib: [0.07188 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1112] ROR difflib: [0.09755 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1113] ROR difflib: [0.09827 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1114] ROR difflib: [0.07117 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1115] ROR difflib: [0.06994 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1116] ROR difflib: [0.40202 s] survived
+   - [#1117] ROR difflib: [0.07125 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1118] ROR difflib: [0.40250 s] survived
+   - [#1119] ROR difflib: [0.09563 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1120] ROR difflib: [0.06958 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1121] ROR difflib: [0.06877 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1122] ROR difflib: [0.07015 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1123] ROR difflib: [0.40175 s] survived
+   - [#1124] ROR difflib: [0.06931 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1125] ROR difflib: [0.40373 s] survived
+   - [#1126] ROR difflib: [0.06985 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1127] ROR difflib: [0.40180 s] survived
+   - [#1128] ROR difflib: [0.06938 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1129] ROR difflib: [0.40367 s] survived
+   - [#1130] ROR difflib: [0.06971 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1131] ROR difflib: [0.06991 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1132] ROR difflib: [0.06967 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1133] ROR difflib: [0.06958 s] killed by test_added_tab_hint (test_difflib.TestSFbugs)
+   - [#1134] ROR difflib: [0.08610 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1135] ROR difflib: [0.41849 s] survived
+   - [#1136] ROR difflib: [0.08598 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1137] ROR difflib: [0.07240 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1138] ROR difflib: [0.42747 s] survived
+   - [#1139] ROR difflib: [0.49312 s] survived
+   - [#1140] ROR difflib: [0.02394 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#1141] ROR difflib: [0.02081 s] killed by test_byte_filenames (test_difflib.TestBytes)
+   - [#1142] ROR difflib: [0.07292 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [#1143] ROR difflib: [0.07181 s] killed by test_range_format_context (test_difflib.TestOutputFormat)
+   - [#1144] ROR difflib: [0.40619 s] survived
+   - [#1145] ROR difflib: [0.41667 s] survived
+   - [#1146] ROR difflib: [0.07323 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1147] ROR difflib: [0.07367 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1148] ROR difflib: [0.42051 s] survived
+   - [#1149] ROR difflib: [0.62133 s] timeout
+   - [#1150] ROR difflib: [0.06996 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1151] ROR difflib: [0.10410 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1152] ROR difflib: [0.09622 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1153] ROR difflib: [0.07238 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1154] ROR difflib: [0.08388 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1155] ROR difflib: [0.07226 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1156] ROR difflib: [0.11042 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1157] ROR difflib: [0.11339 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1158] ROR difflib: [0.41841 s] survived
+   - [#1159] ROR difflib: [0.10231 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1160] ROR difflib: [0.10311 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1161] ROR difflib: [0.12853 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1162] ROR difflib: [0.10003 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1163] ROR difflib: [0.12891 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1164] ROR difflib: [0.40343 s] survived
+   - [#1165] ROR difflib: [0.09000 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1166] ROR difflib: [0.09942 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1167] ROR difflib: [0.09539 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1168] ROR difflib: [0.09673 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1169] ROR difflib: [0.40248 s] survived
+   - [#1170] SIR difflib: [0.42073 s] survived
+   - [#1171] SIR difflib: [0.41166 s] survived
+   - [#1172] SIR difflib: [0.40599 s] survived
+   - [#1173] SIR difflib: [0.40575 s] survived
+   - [#1174] SIR difflib: [0.40499 s] survived
+   - [#1175] SIR difflib: [0.41125 s] survived
+   - [#1176] SIR difflib: [0.41224 s] survived
+   - [#1177] SIR difflib: [0.42364 s] survived
+   - [#1178] SIR difflib: [0.40193 s] survived
+   - [#1179] SIR difflib: [0.39989 s] survived
+   - [#1180] SIR difflib: [0.40415 s] survived
+   - [#1181] SIR difflib: [0.40735 s] survived
+   - [#1182] SIR difflib: [0.40781 s] survived
+   - [#1183] SIR difflib: [0.40513 s] survived
+   - [#1184] SIR difflib: [0.10398 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1185] SIR difflib: [0.49577 s] survived
+   - [#1186] SIR difflib: [0.09654 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1187] SIR difflib: [0.09447 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1188] SIR difflib: [0.09968 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1189] SIR difflib: [0.09854 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1190] SIR difflib: [0.09426 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1191] SIR difflib: [0.07001 s] killed by test_mdiff_catch_stop_iteration (test_difflib.TestSFbugs)
+   - [#1192] SIR difflib: [0.10048 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1193] SIR difflib: [0.13361 s] killed by test_html_diff (test_difflib.TestSFpatches)
+   - [#1194] SIR difflib: [0.39942 s] survived
+   - [#1195] SIR difflib: [0.40891 s] survived
+[*] Mutation score [291.19951 s]: 72.8%
+   - all: 1195
+   - killed: 722 (60.4%)
+   - survived: 325 (27.2%)
+   - incompetent: 1 (0.1%)
+   - timeout: 147 (12.3%)

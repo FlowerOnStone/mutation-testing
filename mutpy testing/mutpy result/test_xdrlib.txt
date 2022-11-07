@@ -1,0 +1,172 @@
+[*] Start mutation process:
+   - targets: xdrlib.py
+   - tests: test_xdrlib.py
+[*] 6 tests passed:
+   - test_xdrlib [0.00066 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR xdrlib: [0.00813 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#   2] AOR xdrlib: [0.20721 s] timeout
+   - [#   3] AOR xdrlib: [0.02001 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#   4] AOR xdrlib: [0.21099 s] timeout
+   - [#   5] AOR xdrlib: [0.02157 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#   6] AOR xdrlib: [0.01527 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#   7] AOR xdrlib: [0.20959 s] timeout
+   - [#   8] AOR xdrlib: [0.02124 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#   9] AOR xdrlib: [0.21155 s] timeout
+   - [#  10] AOR xdrlib: [0.21450 s] timeout
+   - [#  11] AOR xdrlib: [0.21559 s] timeout
+   - [#  12] AOR xdrlib: [0.01678 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  13] AOR xdrlib: [0.01238 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  14] AOR xdrlib: [0.00860 s] survived
+   - [#  15] AOR xdrlib: [0.00848 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  16] AOR xdrlib: [0.00724 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  17] AOR xdrlib: [0.00734 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  18] AOR xdrlib: [0.00725 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  19] AOR xdrlib: [0.20729 s] timeout
+   - [#  20] AOR xdrlib: [0.01949 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  21] AOR xdrlib: [0.20986 s] timeout
+   - [#  22] AOR xdrlib: [0.02001 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  23] AOR xdrlib: [0.01611 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  24] AOR xdrlib: [0.01215 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  25] AOR xdrlib: [0.00922 s] survived
+   - [#  26] BCR xdrlib: [0.00762 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  27] COI xdrlib: [0.00812 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  28] COI xdrlib: [0.00752 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  29] COI xdrlib: [0.00784 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  30] COI xdrlib: [0.00770 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  31] COI xdrlib: [0.00800 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  32] COI xdrlib: [0.00783 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  33] COI xdrlib: [0.00767 s] survived
+   - [#  34] COI xdrlib: [0.00745 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  35] COI xdrlib: [0.00786 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  36] COI xdrlib: [0.00781 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  37] COI xdrlib: [0.00829 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  38] COI xdrlib: [0.00779 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  39] COI xdrlib: [0.00832 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  40] COI xdrlib: [0.00768 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  41] CRP xdrlib: [0.00763 s] survived
+   - [#  42] CRP xdrlib: [0.00734 s] survived
+   - [#  43] CRP xdrlib: [0.00753 s] survived
+   - [#  44] CRP xdrlib: [0.00723 s] survived
+   - [#  45] CRP xdrlib: [0.00743 s] survived
+   - [#  46] CRP xdrlib: [0.00746 s] survived
+   - [#  47] CRP xdrlib: [0.00734 s] survived
+   - [#  48] CRP xdrlib: [0.00755 s] survived
+   - [#  49] CRP xdrlib: [0.00773 s] killed by test_double (test_xdrlib.ConversionErrorTest)
+   - [#  50] CRP xdrlib: [0.00822 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  51] CRP xdrlib: [0.00770 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  52] CRP xdrlib: [0.00804 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  53] CRP xdrlib: [0.00861 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  54] CRP xdrlib: [0.00819 s] survived
+   - [#  55] CRP xdrlib: [0.00723 s] survived
+   - [#  56] CRP xdrlib: [0.00820 s] killed by test_uhyper (test_xdrlib.ConversionErrorTest)
+   - [#  57] CRP xdrlib: [0.00738 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  58] CRP xdrlib: [0.00753 s] survived
+   - [#  59] CRP xdrlib: [0.00770 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  60] CRP xdrlib: [0.00805 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  61] CRP xdrlib: [0.00805 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  62] CRP xdrlib: [0.00812 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  63] CRP xdrlib: [0.00679 s] survived
+   - [#  64] CRP xdrlib: [0.00751 s] survived
+   - [#  65] CRP xdrlib: [0.00719 s] survived
+   - [#  66] CRP xdrlib: [0.00848 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  67] CRP xdrlib: [0.00724 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  68] CRP xdrlib: [0.00752 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  69] CRP xdrlib: [0.00780 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  70] CRP xdrlib: [0.00731 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  71] CRP xdrlib: [0.00711 s] survived
+   - [#  72] CRP xdrlib: [0.00682 s] survived
+   - [#  73] CRP xdrlib: [0.00777 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  74] CRP xdrlib: [0.00695 s] survived
+   - [#  75] CRP xdrlib: [0.00731 s] survived
+   - [#  76] CRP xdrlib: [0.00750 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  77] CRP xdrlib: [0.00782 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  78] CRP xdrlib: [0.00767 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  79] CRP xdrlib: [0.00778 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  80] CRP xdrlib: [0.00741 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  81] CRP xdrlib: [0.00781 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  82] CRP xdrlib: [0.00772 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  83] CRP xdrlib: [0.00750 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  84] CRP xdrlib: [0.00826 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  85] CRP xdrlib: [0.00749 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  86] CRP xdrlib: [0.00738 s] survived
+   - [#  87] CRP xdrlib: [0.00688 s] survived
+   - [#  88] CRP xdrlib: [0.00766 s] survived
+   - [#  89] CRP xdrlib: [0.00761 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  90] CRP xdrlib: [0.00841 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  91] CRP xdrlib: [0.00781 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  92] CRP xdrlib: [0.00770 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  93] CRP xdrlib: [0.00748 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  94] CRP xdrlib: [0.00797 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  95] CRP xdrlib: [0.00752 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  96] CRP xdrlib: [0.00781 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  97] CRP xdrlib: [0.00759 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  98] CRP xdrlib: [0.00745 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [#  99] CRP xdrlib: [0.00739 s] survived
+   - [# 100] CRP xdrlib: [0.00689 s] survived
+   - [# 101] CRP xdrlib: [0.00736 s] survived
+   - [# 102] CRP xdrlib: [0.00775 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 103] CRP xdrlib: [0.00811 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 104] CRP xdrlib: [0.00756 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 105] CRP xdrlib: [0.00686 s] survived
+   - [# 106] CRP xdrlib: [0.00793 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 107] CRP xdrlib: [0.00740 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 108] CRP xdrlib: [0.00778 s] survived
+   - [# 109] CRP xdrlib: [0.00693 s] survived
+   - [# 110] DDL xdrlib: [0.00707 s] survived
+   - [# 111] DDL xdrlib: [0.00745 s] killed by test_pack_uint (test_xdrlib.ConversionErrorTest)
+   - [# 112] DDL xdrlib: [0.00770 s] killed by test_pack_int (test_xdrlib.ConversionErrorTest)
+   - [# 113] DDL xdrlib: [0.00775 s] killed by test_float (test_xdrlib.ConversionErrorTest)
+   - [# 114] DDL xdrlib: [0.00784 s] killed by test_double (test_xdrlib.ConversionErrorTest)
+   - [# 115] EXS xdrlib: [0.00740 s] killed by test_double (test_xdrlib.ConversionErrorTest)
+   - [# 116] EXS xdrlib: [0.00788 s] survived
+   - [# 117] EXS xdrlib: [0.00721 s] survived
+   - [# 118] IOD xdrlib: [0.00690 s] survived
+   - [# 119] IOD xdrlib: [0.00741 s] survived
+   - [# 120] IOD xdrlib: [0.00806 s] survived
+   - [# 121] LOR xdrlib: [0.00703 s] survived
+   - [# 122] LOR xdrlib: [0.00696 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 123] LOR xdrlib: [0.00739 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 124] LOR xdrlib: [0.00848 s] survived
+   - [# 125] LOR xdrlib: [0.00808 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 126] ROR xdrlib: [0.00769 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 127] ROR xdrlib: [0.00725 s] survived
+   - [# 128] ROR xdrlib: [0.00733 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 129] ROR xdrlib: [0.00695 s] survived
+   - [# 130] ROR xdrlib: [0.00722 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 131] ROR xdrlib: [0.00815 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 132] ROR xdrlib: [0.00693 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 133] ROR xdrlib: [0.00778 s] survived
+   - [# 134] ROR xdrlib: [0.00723 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 135] ROR xdrlib: [0.00701 s] survived
+   - [# 136] ROR xdrlib: [0.00660 s] survived
+   - [# 137] ROR xdrlib: [0.00724 s] survived
+   - [# 138] ROR xdrlib: [0.00741 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 139] ROR xdrlib: [0.00668 s] survived
+   - [# 140] ROR xdrlib: [0.00741 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 141] ROR xdrlib: [0.00719 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 142] ROR xdrlib: [0.00760 s] survived
+   - [# 143] ROR xdrlib: [0.00747 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 144] ROR xdrlib: [0.00783 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 145] ROR xdrlib: [0.00748 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 146] ROR xdrlib: [0.00757 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 147] SCI xdrlib: [0.00715 s] survived
+   - [# 148] SCI xdrlib: [0.00664 s] survived
+   - [# 149] SCI xdrlib: [0.00712 s] survived
+   - [# 150] SIR xdrlib: [0.00718 s] survived
+   - [# 151] SIR xdrlib: [0.00759 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 152] SIR xdrlib: [0.00739 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 153] SIR xdrlib: [0.00744 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 154] SIR xdrlib: [0.00764 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 155] SIR xdrlib: [0.00786 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 156] SIR xdrlib: [0.00787 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 157] SIR xdrlib: [0.00732 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 158] SIR xdrlib: [0.00761 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 159] SIR xdrlib: [0.00804 s] killed by test_xdr (test_xdrlib.XDRTest)
+   - [# 160] SIR xdrlib: [0.00824 s] killed by test_xdr (test_xdrlib.XDRTest)
+[*] Mutation score [3.94779 s]: 68.8%
+   - all: 160
+   - killed: 102 (63.8%)
+   - survived: 50 (31.2%)
+   - incompetent: 0 (0.0%)
+   - timeout: 8 (5.0%)

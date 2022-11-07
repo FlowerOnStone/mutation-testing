@@ -1,0 +1,412 @@
+[*] Start mutation process:
+   - targets: cgitb.py
+   - tests: test_cgitb.py
+[*] 6 tests passed:
+   - test_cgitb [0.20604 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD cgitb: [0.16175 s] survived
+   - [#   2] AOD cgitb: [0.15905 s] killed by test_text (test_cgitb.TestCgitb)
+   - [#   3] AOR cgitb: [0.41173 s] timeout
+   - [#   4] AOR cgitb: [0.41521 s] timeout
+   - [#   5] AOR cgitb: [0.41593 s] timeout
+   - [#   6] AOR cgitb: [0.41549 s] timeout
+   - [#   7] AOR cgitb: [0.41139 s] timeout
+   - [#   8] AOR cgitb: [0.41499 s] timeout
+   - [#   9] AOR cgitb: [0.16707 s] survived
+   - [#  10] AOR cgitb: [0.16720 s] survived
+   - [#  11] AOR cgitb: [0.41127 s] timeout
+   - [#  12] AOR cgitb: [0.41499 s] timeout
+   - [#  13] AOR cgitb: [0.41548 s] timeout
+   - [#  14] AOR cgitb: [0.41686 s] timeout
+   - [#  15] AOR cgitb: [0.41506 s] timeout
+   - [#  16] AOR cgitb: [0.41604 s] timeout
+   - [#  17] AOR cgitb: [0.41694 s] timeout
+   - [#  18] AOR cgitb: [0.41831 s] timeout
+   - [#  19] AOR cgitb: [0.41995 s] timeout
+   - [#  20] AOR cgitb: [0.41878 s] timeout
+   - [#  21] AOR cgitb: [0.41725 s] timeout
+   - [#  22] AOR cgitb: [0.41791 s] timeout
+   - [#  23] AOR cgitb: [0.41646 s] timeout
+   - [#  24] AOR cgitb: [0.41897 s] timeout
+   - [#  25] AOR cgitb: [0.41881 s] timeout
+   - [#  26] AOR cgitb: [0.41653 s] timeout
+   - [#  27] AOR cgitb: [0.41499 s] timeout
+   - [#  28] AOR cgitb: [0.41536 s] timeout
+   - [#  29] AOR cgitb: [0.16856 s] survived
+   - [#  30] AOR cgitb: [0.41139 s] timeout
+   - [#  31] AOR cgitb: [0.41533 s] timeout
+   - [#  32] AOR cgitb: [0.41466 s] timeout
+   - [#  33] AOR cgitb: [0.17659 s] survived
+   - [#  34] AOR cgitb: [0.41150 s] timeout
+   - [#  35] AOR cgitb: [0.41622 s] timeout
+   - [#  36] AOR cgitb: [0.41530 s] timeout
+   - [#  37] AOR cgitb: [0.41500 s] timeout
+   - [#  38] AOR cgitb: [0.41537 s] timeout
+   - [#  39] AOR cgitb: [0.41603 s] timeout
+   - [#  40] AOR cgitb: [0.41749 s] timeout
+   - [#  41] AOR cgitb: [0.41608 s] timeout
+   - [#  42] AOR cgitb: [0.20209 s] survived
+   - [#  43] AOR cgitb: [0.15606 s] survived
+   - [#  44] AOR cgitb: [0.41172 s] timeout
+   - [#  45] AOR cgitb: [0.16597 s] survived
+   - [#  46] AOR cgitb: [0.41170 s] timeout
+   - [#  47] AOR cgitb: [0.41978 s] timeout
+   - [#  48] AOR cgitb: [0.41894 s] timeout
+   - [#  49] AOR cgitb: [0.41504 s] timeout
+   - [#  50] AOR cgitb: [0.41465 s] timeout
+   - [#  51] AOR cgitb: [0.41673 s] timeout
+   - [#  52] AOR cgitb: [0.41481 s] timeout
+   - [#  53] AOR cgitb: [0.41961 s] timeout
+   - [#  54] AOR cgitb: [0.41881 s] timeout
+   - [#  55] AOR cgitb: [0.41653 s] timeout
+   - [#  56] AOR cgitb: [0.41719 s] timeout
+   - [#  57] AOR cgitb: [0.41598 s] timeout
+   - [#  58] AOR cgitb: [0.41978 s] timeout
+   - [#  59] AOR cgitb: [0.41780 s] timeout
+   - [#  60] AOR cgitb: [0.41885 s] timeout
+   - [#  61] AOR cgitb: [0.41833 s] timeout
+   - [#  62] AOR cgitb: [0.41920 s] timeout
+   - [#  63] AOR cgitb: [0.19719 s] survived
+   - [#  64] AOR cgitb: [0.15383 s] survived
+   - [#  65] AOR cgitb: [0.41268 s] timeout
+   - [#  66] AOR cgitb: [0.19144 s] survived
+   - [#  67] AOR cgitb: [0.41213 s] timeout
+   - [#  68] AOR cgitb: [0.19636 s] killed by test_text (test_cgitb.TestCgitb)
+   - [#  69] AOR cgitb: [0.41107 s] timeout
+   - [#  70] AOR cgitb: [0.20615 s] survived
+   - [#  71] AOR cgitb: [0.41186 s] timeout
+   - [#  72] AOR cgitb: [0.41754 s] timeout
+   - [#  73] AOR cgitb: [0.42043 s] timeout
+   - [#  74] AOR cgitb: [0.41453 s] timeout
+   - [#  75] AOR cgitb: [0.41499 s] timeout
+   - [#  76] AOR cgitb: [0.41840 s] timeout
+   - [#  77] AOR cgitb: [0.42002 s] timeout
+   - [#  78] AOR cgitb: [0.41696 s] timeout
+   - [#  79] AOR cgitb: [0.41997 s] timeout
+   - [#  80] AOR cgitb: [0.41915 s] timeout
+   - [#  81] AOR cgitb: [0.17921 s] survived
+   - [#  82] AOR cgitb: [0.15534 s] survived
+   - [#  83] AOR cgitb: [0.15213 s] survived
+   - [#  84] AOR cgitb: [0.15268 s] survived
+   - [#  85] AOR cgitb: [0.15104 s] survived
+   - [#  86] AOR cgitb: [0.15528 s] survived
+   - [#  87] AOR cgitb: [0.15142 s] survived
+   - [#  88] ASR cgitb: [0.15490 s] survived
+   - [#  89] ASR cgitb: [0.15296 s] survived
+   - [#  90] ASR cgitb: [0.15585 s] survived
+   - [#  91] ASR cgitb: [0.15106 s] survived
+   - [#  92] ASR cgitb: [0.15303 s] survived
+   - [#  93] BCR cgitb: [0.00840 s] killed by test_html (test_cgitb.TestCgitb)
+   - [#  94] BCR cgitb: [0.15353 s] survived
+   - [#  95] BCR cgitb: [0.15169 s] survived
+   - [#  96] BCR cgitb: [0.15318 s] survived
+   - [#  97] COD cgitb: [0.15377 s] survived
+   - [#  98] COI cgitb: [0.00660 s] killed by test_blanks (test_cgitb.TestCgitb)
+   - [#  99] COI cgitb: [0.00611 s] killed by test_blanks (test_cgitb.TestCgitb)
+   - [# 100] COI cgitb: [0.00669 s] killed by test_blanks (test_cgitb.TestCgitb)
+   - [# 101] COI cgitb: [0.00770 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 102] COI cgitb: [0.00736 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 103] COI cgitb: [0.00708 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 104] COI cgitb: [0.00682 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 105] COI cgitb: [0.15273 s] survived
+   - [# 106] COI cgitb: [0.15145 s] survived
+   - [# 107] COI cgitb: [0.15422 s] survived
+   - [# 108] COI cgitb: [0.15263 s] survived
+   - [# 109] COI cgitb: [0.15303 s] survived
+   - [# 110] COI cgitb: [0.15215 s] survived
+   - [# 111] COI cgitb: [0.15158 s] survived
+   - [# 112] COI cgitb: [0.15188 s] survived
+   - [# 113] COI cgitb: [0.15360 s] survived
+   - [# 114] COI cgitb: [0.15306 s] survived
+   - [# 115] COI cgitb: [0.41208 s] timeout
+   - [# 116] COI cgitb: [0.19448 s] survived
+   - [# 117] COI cgitb: [0.15394 s] survived
+   - [# 118] COI cgitb: [0.15450 s] survived
+   - [# 119] COI cgitb: [0.15236 s] survived
+   - [# 120] COI cgitb: [0.15353 s] survived
+   - [# 121] COI cgitb: [0.15313 s] survived
+   - [# 122] COI cgitb: [0.15298 s] survived
+   - [# 123] COI cgitb: [0.15358 s] survived
+   - [# 124] COI cgitb: [0.15274 s] survived
+   - [# 125] COI cgitb: [0.15405 s] survived
+   - [# 126] COI cgitb: [0.15336 s] survived
+   - [# 127] COI cgitb: [0.15323 s] survived
+   - [# 128] COI cgitb: [0.15197 s] survived
+   - [# 129] COI cgitb: [0.15762 s] survived
+   - [# 130] COI cgitb: [0.15176 s] survived
+   - [# 131] COI cgitb: [0.15115 s] survived
+   - [# 132] COI cgitb: [0.15242 s] survived
+   - [# 133] COI cgitb: [0.15305 s] survived
+   - [# 134] COI cgitb: [0.15214 s] survived
+   - [# 135] COI cgitb: [0.15164 s] survived
+   - [# 136] COI cgitb: [0.15259 s] survived
+   - [# 137] COI cgitb: [0.15332 s] survived
+   - [# 138] COI cgitb: [0.15517 s] survived
+   - [# 139] COI cgitb: [0.15416 s] survived
+   - [# 140] COI cgitb: [0.15293 s] survived
+   - [# 141] COI cgitb: [0.15255 s] survived
+   - [# 142] CRP cgitb: [0.15340 s] survived
+   - [# 143] CRP cgitb: [0.15231 s] survived
+   - [# 144] CRP cgitb: [0.00664 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 145] CRP cgitb: [0.00633 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 146] CRP cgitb: [0.00683 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 147] CRP cgitb: [0.00612 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 148] CRP cgitb: [0.00669 s] killed by test_blanks (test_cgitb.TestCgitb)
+   - [# 149] CRP cgitb: [0.00660 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 150] CRP cgitb: [0.00633 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 151] CRP cgitb: [0.00702 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 152] CRP cgitb: [0.00689 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 153] CRP cgitb: [0.00667 s] killed by test_blanks (test_cgitb.TestCgitb)
+   - [# 154] CRP cgitb: [0.00640 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 155] CRP cgitb: [0.00743 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 156] CRP cgitb: [0.00735 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 157] CRP cgitb: [0.00712 s] killed by test_fonts (test_cgitb.TestCgitb)
+   - [# 158] CRP cgitb: [0.00717 s] killed by test_blanks (test_cgitb.TestCgitb)
+   - [# 159] CRP cgitb: [0.15314 s] survived
+   - [# 160] CRP cgitb: [0.15232 s] survived
+   - [# 161] CRP cgitb: [0.15476 s] survived
+   - [# 162] CRP cgitb: [0.15332 s] survived
+   - [# 163] CRP cgitb: [0.15116 s] survived
+   - [# 164] CRP cgitb: [0.15247 s] survived
+   - [# 165] CRP cgitb: [0.00757 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 166] CRP cgitb: [0.00728 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 167] CRP cgitb: [0.15213 s] survived
+   - [# 168] CRP cgitb: [0.15291 s] survived
+   - [# 169] CRP cgitb: [0.15122 s] survived
+   - [# 170] CRP cgitb: [0.15283 s] survived
+   - [# 171] CRP cgitb: [0.15458 s] survived
+   - [# 172] CRP cgitb: [0.15198 s] survived
+   - [# 173] CRP cgitb: [0.15341 s] survived
+   - [# 174] CRP cgitb: [0.15187 s] survived
+   - [# 175] CRP cgitb: [0.15511 s] survived
+   - [# 176] CRP cgitb: [0.15204 s] survived
+   - [# 177] CRP cgitb: [0.15422 s] survived
+   - [# 178] CRP cgitb: [0.15329 s] survived
+   - [# 179] CRP cgitb: [0.15232 s] survived
+   - [# 180] CRP cgitb: [0.15207 s] survived
+   - [# 181] CRP cgitb: [0.15382 s] survived
+   - [# 182] CRP cgitb: [0.15217 s] survived
+   - [# 183] CRP cgitb: [0.15133 s] survived
+   - [# 184] CRP cgitb: [0.15224 s] survived
+   - [# 185] CRP cgitb: [0.15137 s] survived
+   - [# 186] CRP cgitb: [0.15246 s] survived
+   - [# 187] CRP cgitb: [0.41191 s] timeout
+   - [# 188] CRP cgitb: [0.41837 s] timeout
+   - [# 189] CRP cgitb: [0.19599 s] survived
+   - [# 190] CRP cgitb: [0.15363 s] survived
+   - [# 191] CRP cgitb: [0.15474 s] survived
+   - [# 192] CRP cgitb: [0.15166 s] survived
+   - [# 193] CRP cgitb: [0.15244 s] survived
+   - [# 194] CRP cgitb: [0.15140 s] survived
+   - [# 195] CRP cgitb: [0.15314 s] survived
+   - [# 196] CRP cgitb: [0.15236 s] survived
+   - [# 197] CRP cgitb: [0.15315 s] survived
+   - [# 198] CRP cgitb: [0.15209 s] survived
+   - [# 199] CRP cgitb: [0.15293 s] survived
+   - [# 200] CRP cgitb: [0.15321 s] survived
+   - [# 201] CRP cgitb: [0.15437 s] survived
+   - [# 202] CRP cgitb: [0.15222 s] survived
+   - [# 203] CRP cgitb: [0.15236 s] survived
+   - [# 204] CRP cgitb: [0.41258 s] timeout
+   - [# 205] CRP cgitb: [0.41762 s] timeout
+   - [# 206] CRP cgitb: [0.19727 s] survived
+   - [# 207] CRP cgitb: [0.15170 s] survived
+   - [# 208] CRP cgitb: [0.15291 s] survived
+   - [# 209] CRP cgitb: [0.15271 s] survived
+   - [# 210] CRP cgitb: [0.15219 s] survived
+   - [# 211] CRP cgitb: [0.15264 s] survived
+   - [# 212] CRP cgitb: [0.15399 s] survived
+   - [# 213] CRP cgitb: [0.15120 s] survived
+   - [# 214] CRP cgitb: [0.15289 s] survived
+   - [# 215] CRP cgitb: [0.00735 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 216] CRP cgitb: [0.15178 s] survived
+   - [# 217] CRP cgitb: [0.00755 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 218] CRP cgitb: [0.00760 s] killed by test_html (test_cgitb.TestCgitb)
+   - [# 219] CRP cgitb: [0.15149 s] survived
+   - [# 220] CRP cgitb: [0.41145 s] timeout
+   - [# 221] CRP cgitb: [0.42009 s] timeout
+   - [# 222] CRP cgitb: [0.17773 s] survived
+   - [# 223] CRP cgitb: [0.16000 s] survived
+   - [# 224] CRP cgitb: [0.15364 s] survived
+   - [# 225] CRP cgitb: [0.15087 s] survived
+   - [# 226] CRP cgitb: [0.15350 s] survived
+   - [# 227] CRP cgitb: [0.15164 s] survived
+   - [# 228] CRP cgitb: [0.15300 s] survived
+   - [# 229] CRP cgitb: [0.41112 s] timeout
+   - [# 230] CRP cgitb: [0.41355 s] timeout
+   - [# 231] CRP cgitb: [0.41704 s] timeout
+   - [# 232] CRP cgitb: [0.41768 s] timeout
+   - [# 233] CRP cgitb: [0.42017 s] timeout
+   - [# 234] CRP cgitb: [0.41851 s] timeout
+   - [# 235] CRP cgitb: [0.41800 s] timeout
+   - [# 236] CRP cgitb: [0.41725 s] timeout
+   - [# 237] CRP cgitb: [0.18243 s] survived
+   - [# 238] CRP cgitb: [0.16196 s] survived
+   - [# 239] CRP cgitb: [0.16172 s] survived
+   - [# 240] CRP cgitb: [0.16127 s] survived
+   - [# 241] CRP cgitb: [0.16208 s] survived
+   - [# 242] CRP cgitb: [0.16372 s] survived
+   - [# 243] CRP cgitb: [0.41085 s] timeout
+   - [# 244] CRP cgitb: [0.42233 s] timeout
+   - [# 245] CRP cgitb: [0.20209 s] survived
+   - [# 246] CRP cgitb: [0.16560 s] survived
+   - [# 247] CRP cgitb: [0.16103 s] survived
+   - [# 248] CRP cgitb: [0.16251 s] survived
+   - [# 249] CRP cgitb: [0.16226 s] survived
+   - [# 250] CRP cgitb: [0.41327 s] timeout
+   - [# 251] CRP cgitb: [0.41980 s] timeout
+   - [# 252] CRP cgitb: [0.20998 s] survived
+   - [# 253] CRP cgitb: [0.16154 s] survived
+   - [# 254] CRP cgitb: [0.41214 s] timeout
+   - [# 255] CRP cgitb: [0.41657 s] timeout
+   - [# 256] CRP cgitb: [0.18615 s] survived
+   - [# 257] CRP cgitb: [0.16196 s] survived
+   - [# 258] CRP cgitb: [0.41301 s] timeout
+   - [# 259] CRP cgitb: [0.41612 s] timeout
+   - [# 260] CRP cgitb: [0.21068 s] survived
+   - [# 261] CRP cgitb: [0.16308 s] survived
+   - [# 262] CRP cgitb: [0.41337 s] timeout
+   - [# 263] CRP cgitb: [0.42124 s] timeout
+   - [# 264] CRP cgitb: [0.20804 s] survived
+   - [# 265] CRP cgitb: [0.16324 s] survived
+   - [# 266] CRP cgitb: [0.16269 s] survived
+   - [# 267] CRP cgitb: [0.41171 s] timeout
+   - [# 268] CRP cgitb: [0.41890 s] timeout
+   - [# 269] CRP cgitb: [0.20652 s] survived
+   - [# 270] CRP cgitb: [0.16510 s] survived
+   - [# 271] CRP cgitb: [0.41291 s] timeout
+   - [# 272] CRP cgitb: [0.42108 s] timeout
+   - [# 273] CRP cgitb: [0.21160 s] survived
+   - [# 274] CRP cgitb: [0.16139 s] survived
+   - [# 275] CRP cgitb: [0.16472 s] survived
+   - [# 276] CRP cgitb: [0.16212 s] survived
+   - [# 277] CRP cgitb: [0.16172 s] survived
+   - [# 278] CRP cgitb: [0.16500 s] survived
+   - [# 279] CRP cgitb: [0.16233 s] survived
+   - [# 280] CRP cgitb: [0.41265 s] timeout
+   - [# 281] CRP cgitb: [0.42044 s] timeout
+   - [# 282] CRP cgitb: [0.21359 s] survived
+   - [# 283] CRP cgitb: [0.16444 s] survived
+   - [# 284] CRP cgitb: [0.16151 s] survived
+   - [# 285] CRP cgitb: [0.16018 s] survived
+   - [# 286] CRP cgitb: [0.16325 s] survived
+   - [# 287] CRP cgitb: [0.16216 s] survived
+   - [# 288] CRP cgitb: [0.16571 s] survived
+   - [# 289] CRP cgitb: [0.16472 s] survived
+   - [# 290] CRP cgitb: [0.16315 s] survived
+   - [# 291] CRP cgitb: [0.16355 s] survived
+   - [# 292] CRP cgitb: [0.16154 s] survived
+   - [# 293] CRP cgitb: [0.16461 s] killed by test_text (test_cgitb.TestCgitb)
+   - [# 294] CRP cgitb: [0.16160 s] survived
+   - [# 295] CRP cgitb: [0.16382 s] killed by test_text (test_cgitb.TestCgitb)
+   - [# 296] CRP cgitb: [0.16383 s] killed by test_text (test_cgitb.TestCgitb)
+   - [# 297] CRP cgitb: [0.16256 s] survived
+   - [# 298] CRP cgitb: [0.41240 s] timeout
+   - [# 299] CRP cgitb: [0.42010 s] timeout
+   - [# 300] CRP cgitb: [0.41962 s] timeout
+   - [# 301] CRP cgitb: [0.41924 s] timeout
+   - [# 302] CRP cgitb: [0.19852 s] survived
+   - [# 303] CRP cgitb: [0.16345 s] survived
+   - [# 304] CRP cgitb: [0.16160 s] survived
+   - [# 305] CRP cgitb: [0.16544 s] survived
+   - [# 306] CRP cgitb: [0.16290 s] survived
+   - [# 307] CRP cgitb: [0.16285 s] survived
+   - [# 308] CRP cgitb: [0.16311 s] survived
+   - [# 309] CRP cgitb: [0.16260 s] survived
+   - [# 310] CRP cgitb: [0.16370 s] survived
+   - [# 311] CRP cgitb: [0.16351 s] killed by test_text (test_cgitb.TestCgitb)
+   - [# 312] CRP cgitb: [0.16264 s] killed by test_text (test_cgitb.TestCgitb)
+   - [# 313] CRP cgitb: [0.41274 s] timeout
+   - [# 314] CRP cgitb: [0.41982 s] timeout
+   - [# 315] CRP cgitb: [0.21163 s] survived
+   - [# 316] CRP cgitb: [0.16292 s] survived
+   - [# 317] CRP cgitb: [0.16258 s] survived
+   - [# 318] CRP cgitb: [0.16352 s] survived
+   - [# 319] CRP cgitb: [0.41223 s] timeout
+   - [# 320] CRP cgitb: [0.42020 s] timeout
+   - [# 321] CRP cgitb: [0.21243 s] survived
+   - [# 322] CRP cgitb: [0.16338 s] survived
+   - [# 323] CRP cgitb: [0.41279 s] timeout
+   - [# 324] CRP cgitb: [0.41928 s] timeout
+   - [# 325] CRP cgitb: [0.41635 s] timeout
+   - [# 326] CRP cgitb: [0.42079 s] timeout
+   - [# 327] CRP cgitb: [0.21008 s] survived
+   - [# 328] CRP cgitb: [0.16307 s] survived
+   - [# 329] CRP cgitb: [0.16182 s] survived
+   - [# 330] CRP cgitb: [0.16411 s] survived
+   - [# 331] CRP cgitb: [0.16529 s] survived
+   - [# 332] CRP cgitb: [0.41253 s] timeout
+   - [# 333] CRP cgitb: [0.42063 s] timeout
+   - [# 334] CRP cgitb: [0.20745 s] survived
+   - [# 335] CRP cgitb: [0.16386 s] survived
+   - [# 336] CRP cgitb: [0.16385 s] survived
+   - [# 337] CRP cgitb: [0.16145 s] survived
+   - [# 338] CRP cgitb: [0.16325 s] survived
+   - [# 339] CRP cgitb: [0.16194 s] survived
+   - [# 340] CRP cgitb: [0.16551 s] survived
+   - [# 341] CRP cgitb: [0.16207 s] survived
+   - [# 342] CRP cgitb: [0.16528 s] survived
+   - [# 343] CRP cgitb: [0.16266 s] survived
+   - [# 344] CRP cgitb: [0.16302 s] survived
+   - [# 345] CRP cgitb: [0.16277 s] survived
+   - [# 346] CRP cgitb: [0.16289 s] survived
+   - [# 347] CRP cgitb: [0.16250 s] survived
+   - [# 348] CRP cgitb: [0.16359 s] survived
+   - [# 349] CRP cgitb: [0.16219 s] survived
+   - [# 350] CRP cgitb: [0.16225 s] survived
+   - [# 351] CRP cgitb: [0.16229 s] survived
+   - [# 352] CRP cgitb: [0.16199 s] survived
+   - [# 353] CRP cgitb: [0.16383 s] survived
+   - [# 354] CRP cgitb: [0.16208 s] survived
+   - [# 355] CRP cgitb: [0.16347 s] survived
+   - [# 356] CRP cgitb: [0.16568 s] survived
+   - [# 357] CRP cgitb: [0.16391 s] survived
+   - [# 358] CRP cgitb: [0.16177 s] survived
+   - [# 359] CRP cgitb: [0.16389 s] survived
+   - [# 360] CRP cgitb: [0.16522 s] survived
+   - [# 361] CRP cgitb: [0.16389 s] survived
+   - [# 362] CRP cgitb: [0.16269 s] survived
+   - [# 363] CRP cgitb: [0.16249 s] survived
+   - [# 364] CRP cgitb: [0.16405 s] survived
+   - [# 365] CRP cgitb: [0.16328 s] survived
+   - [# 366] CRP cgitb: [0.16382 s] survived
+   - [# 367] CRP cgitb: [0.16801 s] survived
+   - [# 368] CRP cgitb: [0.16044 s] survived
+   - [# 369] CRP cgitb: [0.16312 s] survived
+   - [# 370] CRP cgitb: [0.16381 s] survived
+   - [# 371] CRP cgitb: [0.16164 s] survived
+   - [# 372] CRP cgitb: [0.16305 s] survived
+   - [# 373] CRP cgitb: [0.16353 s] survived
+   - [# 374] EHD cgitb: [0.16143 s] survived
+   - [# 375] EHD cgitb: [0.16006 s] survived
+   - [# 376] EHD cgitb: [0.16407 s] survived
+   - [# 377] EXS cgitb: [0.16256 s] survived
+   - [# 378] EXS cgitb: [0.16396 s] survived
+   - [# 379] LCR cgitb: [0.16280 s] survived
+   - [# 380] LCR cgitb: [0.16159 s] survived
+   - [# 381] LCR cgitb: [0.16159 s] survived
+   - [# 382] LCR cgitb: [0.16307 s] survived
+   - [# 383] LCR cgitb: [0.16159 s] survived
+   - [# 384] LCR cgitb: [0.16250 s] survived
+   - [# 385] LCR cgitb: [0.16128 s] survived
+   - [# 386] ROR cgitb: [0.16325 s] survived
+   - [# 387] ROR cgitb: [0.16320 s] survived
+   - [# 388] ROR cgitb: [0.16361 s] survived
+   - [# 389] ROR cgitb: [0.41327 s] timeout
+   - [# 390] ROR cgitb: [0.20294 s] survived
+   - [# 391] ROR cgitb: [0.16848 s] survived
+   - [# 392] ROR cgitb: [0.17550 s] survived
+   - [# 393] ROR cgitb: [0.17943 s] survived
+   - [# 394] ROR cgitb: [0.17001 s] survived
+   - [# 395] ROR cgitb: [0.16683 s] survived
+   - [# 396] ROR cgitb: [0.16553 s] survived
+   - [# 397] ROR cgitb: [0.16248 s] survived
+   - [# 398] ROR cgitb: [0.16474 s] survived
+   - [# 399] ROR cgitb: [0.16418 s] survived
+   - [# 400] SIR cgitb: [0.18015 s] survived
+[*] Mutation score [92.39672 s]: 36.8%
+   - all: 400
+   - killed: 35 (8.8%)
+   - survived: 253 (63.2%)
+   - incompetent: 0 (0.0%)
+   - timeout: 112 (28.0%)
