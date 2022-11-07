@@ -3,7 +3,21 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/mutpy testing/report result/report_mutation_level1_test___future__.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/mutpy testing/report result/report_mutation_level1_test_aifc.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/mutpy testing/report result/report_mutation_level1_test_bdb.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -18,6 +32,41 @@
           </value>
         </entry>
         <entry key="/mutpy testing/report result/report_mutation_level1_test_colorsys.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/mutpy testing/report result/report_mutation_level1_test_dis.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/mutpy testing/report result/report_mutation_level1_test_genericpath.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/mutpy testing/report result/report_mutation_level1_test_hmac.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/mutpy testing/report result/report_mutation_level1_test_sysconfig.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/mutpy testing/report result/report_mutation_level1_test_zipapp.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
