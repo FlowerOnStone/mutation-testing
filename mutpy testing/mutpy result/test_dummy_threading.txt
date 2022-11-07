@@ -1,0 +1,61 @@
+[*] Start mutation process:
+   - targets: dummy_threading.py
+   - tests: test_dummy_threading.py
+[*] 1 tests passed:
+   - test_dummy_threading [0.00056 s]
+[*] Start mutants generation and execution:
+   - [#   1] COI dummy_threading: [0.00826 s] survived
+   - [#   2] COI dummy_threading: [0.00000 s] incompetent
+   - [#   3] COI dummy_threading: [0.00000 s] incompetent
+   - [#   4] COI dummy_threading: [0.00000 s] incompetent
+   - [#   5] COI dummy_threading: [0.00000 s] incompetent
+   - [#   6] COI dummy_threading: [0.00000 s] incompetent
+   - [#   7] COI dummy_threading: [0.00000 s] incompetent
+   - [#   8] COI dummy_threading: [0.00000 s] incompetent
+   - [#   9] COI dummy_threading: [0.00779 s] survived
+   - [#  10] CRP dummy_threading: [0.00000 s] incompetent
+   - [#  11] CRP dummy_threading: [0.00731 s] survived
+   - [#  12] CRP dummy_threading: [0.00779 s] survived
+   - [#  13] CRP dummy_threading: [0.00750 s] survived
+   - [#  14] CRP dummy_threading: [0.00000 s] incompetent
+   - [#  15] CRP dummy_threading: [0.00000 s] incompetent
+   - [#  16] CRP dummy_threading: [0.00778 s] survived
+   - [#  17] CRP dummy_threading: [0.00764 s] survived
+   - [#  18] CRP dummy_threading: [0.00000 s] incompetent
+   - [#  19] CRP dummy_threading: [0.00000 s] incompetent
+   - [#  20] CRP dummy_threading: [0.01127 s] survived
+   - [#  21] CRP dummy_threading: [0.00855 s] survived
+   - [#  22] CRP dummy_threading: [0.00832 s] survived
+   - [#  23] CRP dummy_threading: [0.00810 s] survived
+   - [#  24] CRP dummy_threading: [0.00000 s] incompetent
+   - [#  25] CRP dummy_threading: [0.00000 s] incompetent
+   - [#  26] CRP dummy_threading: [0.00842 s] survived
+   - [#  27] CRP dummy_threading: [0.00837 s] survived
+   - [#  28] CRP dummy_threading: [0.00863 s] survived
+   - [#  29] CRP dummy_threading: [0.00842 s] survived
+   - [#  30] CRP dummy_threading: [0.01047 s] survived
+   - [#  31] CRP dummy_threading: [0.01278 s] survived
+   - [#  32] CRP dummy_threading: [0.01013 s] survived
+   - [#  33] CRP dummy_threading: [0.01079 s] survived
+   - [#  34] CRP dummy_threading: [0.01003 s] survived
+   - [#  35] CRP dummy_threading: [0.01023 s] survived
+   - [#  36] CRP dummy_threading: [0.00971 s] survived
+   - [#  37] CRP dummy_threading: [0.00980 s] survived
+   - [#  38] CRP dummy_threading: [0.01021 s] survived
+   - [#  39] CRP dummy_threading: [0.00947 s] survived
+   - [#  40] CRP dummy_threading: [0.00969 s] survived
+   - [#  41] CRP dummy_threading: [0.00948 s] survived
+   - [#  42] CRP dummy_threading: [0.00916 s] survived
+   - [#  43] CRP dummy_threading: [0.01040 s] survived
+   - [#  44] CRP dummy_threading: [0.00951 s] survived
+   - [#  45] CRP dummy_threading: [0.00979 s] survived
+   - [#  46] CRP dummy_threading: [0.00943 s] survived
+   - [#  47] CRP dummy_threading: [0.01100 s] survived
+   - [#  48] CRP dummy_threading: [0.01052 s] survived
+   - [#  49] CRP dummy_threading: [0.01059 s] survived
+[*] Mutation score [0.53695 s]: 0.0%
+   - all: 49
+   - killed: 0 (0.0%)
+   - survived: 35 (71.4%)
+   - incompetent: 14 (28.6%)
+   - timeout: 0 (0.0%)

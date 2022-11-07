@@ -1,0 +1,114 @@
+[*] Start mutation process:
+   - targets: code.py
+   - tests: test_code.py
+[*] 13 tests passed:
+   - test_code [0.00346 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR code: [0.01000 s] survived
+   - [#   2] AOR code: [0.00912 s] survived
+   - [#   3] AOR code: [0.00932 s] survived
+   - [#   4] AOR code: [0.00928 s] survived
+   - [#   5] BCR code: [0.01093 s] survived
+   - [#   6] COD code: [0.00953 s] survived
+   - [#   7] COI code: [0.00874 s] survived
+   - [#   8] COI code: [0.01033 s] survived
+   - [#   9] COI code: [0.01132 s] survived
+   - [#  10] COI code: [0.01025 s] survived
+   - [#  11] COI code: [0.01250 s] survived
+   - [#  12] COI code: [0.00890 s] survived
+   - [#  13] COI code: [0.00951 s] survived
+   - [#  14] COI code: [0.00977 s] survived
+   - [#  15] COI code: [0.00913 s] survived
+   - [#  16] COI code: [0.00925 s] survived
+   - [#  17] COI code: [0.00872 s] survived
+   - [#  18] COI code: [0.00913 s] survived
+   - [#  19] COI code: [0.00884 s] survived
+   - [#  20] COI code: [0.00000 s] incompetent
+   - [#  21] COI code: [0.00912 s] survived
+   - [#  22] CRP code: [0.00910 s] survived
+   - [#  23] CRP code: [0.00898 s] survived
+   - [#  24] CRP code: [0.00899 s] survived
+   - [#  25] CRP code: [0.00877 s] survived
+   - [#  26] CRP code: [0.00906 s] survived
+   - [#  27] CRP code: [0.00891 s] survived
+   - [#  28] CRP code: [0.00871 s] survived
+   - [#  29] CRP code: [0.00911 s] survived
+   - [#  30] CRP code: [0.00885 s] survived
+   - [#  31] CRP code: [0.00884 s] survived
+   - [#  32] CRP code: [0.00882 s] survived
+   - [#  33] CRP code: [0.00906 s] survived
+   - [#  34] CRP code: [0.00805 s] survived
+   - [#  35] CRP code: [0.00865 s] survived
+   - [#  36] CRP code: [0.00808 s] survived
+   - [#  37] CRP code: [0.00826 s] survived
+   - [#  38] CRP code: [0.00804 s] survived
+   - [#  39] CRP code: [0.00867 s] survived
+   - [#  40] CRP code: [0.00811 s] survived
+   - [#  41] CRP code: [0.00865 s] survived
+   - [#  42] CRP code: [0.00828 s] survived
+   - [#  43] CRP code: [0.00865 s] survived
+   - [#  44] CRP code: [0.00841 s] survived
+   - [#  45] CRP code: [0.00845 s] survived
+   - [#  46] CRP code: [0.00834 s] survived
+   - [#  47] CRP code: [0.00856 s] survived
+   - [#  48] CRP code: [0.00845 s] survived
+   - [#  49] CRP code: [0.00890 s] survived
+   - [#  50] CRP code: [0.00864 s] survived
+   - [#  51] CRP code: [0.00855 s] survived
+   - [#  52] CRP code: [0.00835 s] survived
+   - [#  53] CRP code: [0.00857 s] survived
+   - [#  54] CRP code: [0.00937 s] survived
+   - [#  55] CRP code: [0.01119 s] survived
+   - [#  56] CRP code: [0.01233 s] survived
+   - [#  57] CRP code: [0.01074 s] survived
+   - [#  58] CRP code: [0.01066 s] survived
+   - [#  59] CRP code: [0.00894 s] survived
+   - [#  60] CRP code: [0.00911 s] survived
+   - [#  61] CRP code: [0.00883 s] survived
+   - [#  62] CRP code: [0.00907 s] survived
+   - [#  63] CRP code: [0.00922 s] survived
+   - [#  64] CRP code: [0.00876 s] survived
+   - [#  65] CRP code: [0.00924 s] survived
+   - [#  66] CRP code: [0.00882 s] survived
+   - [#  67] CRP code: [0.00880 s] survived
+   - [#  68] CRP code: [0.00851 s] survived
+   - [#  69] CRP code: [0.00872 s] survived
+   - [#  70] CRP code: [0.00812 s] survived
+   - [#  71] CRP code: [0.00898 s] survived
+   - [#  72] CRP code: [0.00849 s] survived
+   - [#  73] CRP code: [0.00875 s] survived
+   - [#  74] CRP code: [0.00867 s] survived
+   - [#  75] CRP code: [0.00914 s] survived
+   - [#  76] CRP code: [0.00835 s] survived
+   - [#  77] CRP code: [0.00901 s] survived
+   - [#  78] CRP code: [0.00825 s] survived
+   - [#  79] CRP code: [0.00917 s] survived
+   - [#  80] CRP code: [0.00868 s] survived
+   - [#  81] CRP code: [0.01168 s] survived
+   - [#  82] EHD code: [0.01086 s] survived
+   - [#  83] EHD code: [0.01374 s] survived
+   - [#  84] EHD code: [0.01377 s] survived
+   - [#  85] EHD code: [0.01271 s] survived
+   - [#  86] EHD code: [0.00851 s] survived
+   - [#  87] EHD code: [0.00949 s] survived
+   - [#  88] EHD code: [0.01130 s] survived
+   - [#  89] EHD code: [0.00982 s] survived
+   - [#  90] EXS code: [0.01213 s] survived
+   - [#  91] EXS code: [0.00956 s] survived
+   - [#  92] EXS code: [0.00919 s] survived
+   - [#  93] EXS code: [0.00855 s] survived
+   - [#  94] EXS code: [0.00851 s] survived
+   - [#  95] EXS code: [0.00878 s] survived
+   - [#  96] EXS code: [0.00880 s] survived
+   - [#  97] IOD code: [0.00864 s] survived
+   - [#  98] LCR code: [0.00972 s] survived
+   - [#  99] LCR code: [0.00924 s] survived
+   - [# 100] ROR code: [0.00896 s] survived
+   - [# 101] ROR code: [0.00000 s] incompetent
+   - [# 102] SCI code: [0.00865 s] survived
+[*] Mutation score [1.63035 s]: 0.0%
+   - all: 102
+   - killed: 0 (0.0%)
+   - survived: 100 (98.0%)
+   - incompetent: 2 (2.0%)
+   - timeout: 0 (0.0%)

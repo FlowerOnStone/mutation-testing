@@ -1,0 +1,282 @@
+[*] Start mutation process:
+   - targets: timeit.py
+   - tests: test_timeit.py
+[*] 40 tests passed:
+   - test_timeit [0.02648 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR timeit: [0.23301 s] timeout
+   - [#   2] AOR timeit: [0.23652 s] timeout
+   - [#   3] AOR timeit: [0.23652 s] timeout
+   - [#   4] AOR timeit: [0.23598 s] timeout
+   - [#   5] AOR timeit: [0.23543 s] timeout
+   - [#   6] AOR timeit: [0.23586 s] timeout
+   - [#   7] AOR timeit: [0.23230 s] timeout
+   - [#   8] AOR timeit: [0.02037 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#   9] AOR timeit: [0.05328 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  10] AOR timeit: [0.23199 s] timeout
+   - [#  11] AOR timeit: [0.01470 s] killed by test_main_microseconds (test_timeit.TestTimeit)
+   - [#  12] AOR timeit: [0.01118 s] killed by test_main_microseconds (test_timeit.TestTimeit)
+   - [#  13] AOR timeit: [0.23186 s] timeout
+   - [#  14] AOR timeit: [0.01774 s] killed by test_main_microseconds (test_timeit.TestTimeit)
+   - [#  15] AOR timeit: [0.01070 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  16] AOR timeit: [0.23169 s] timeout
+   - [#  17] AOR timeit: [0.05280 s] survived
+   - [#  18] AOR timeit: [0.04510 s] survived
+   - [#  19] AOR timeit: [0.04491 s] survived
+   - [#  20] AOR timeit: [0.04560 s] survived
+   - [#  21] ASR timeit: [0.23211 s] timeout
+   - [#  22] ASR timeit: [0.23793 s] timeout
+   - [#  23] ASR timeit: [0.23201 s] timeout
+   - [#  24] ASR timeit: [0.23433 s] timeout
+   - [#  25] ASR timeit: [0.23116 s] timeout
+   - [#  26] ASR timeit: [0.04609 s] killed by test_main_very_verbose (test_timeit.TestTimeit)
+   - [#  27] ASR timeit: [0.04495 s] survived
+   - [#  28] BCR timeit: [0.01129 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  29] COI timeit: [0.00810 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  30] COI timeit: [0.04236 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [#  31] COI timeit: [0.00764 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  32] COI timeit: [0.04300 s] killed by test_repeat_callable_stmt (test_timeit.TestTimeit)
+   - [#  33] COI timeit: [0.04298 s] survived
+   - [#  34] COI timeit: [0.04214 s] survived
+   - [#  35] COI timeit: [0.23220 s] timeout
+   - [#  36] COI timeit: [0.23741 s] timeout
+   - [#  37] COI timeit: [0.01664 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  38] COI timeit: [0.01092 s] killed by test_main_bad_switch (test_timeit.TestTimeit)
+   - [#  39] COI timeit: [0.01040 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  40] COI timeit: [0.01355 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  41] COI timeit: [0.01226 s] killed by test_main_multiple_setups (test_timeit.TestTimeit)
+   - [#  42] COI timeit: [0.01186 s] killed by test_main_multiple_setups (test_timeit.TestTimeit)
+   - [#  43] COI timeit: [0.00941 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [#  44] COI timeit: [0.00971 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [#  45] COI timeit: [0.04135 s] killed by test_main_with_time_unit (test_timeit.TestTimeit)
+   - [#  46] COI timeit: [0.04026 s] killed by test_main_with_time_unit (test_timeit.TestTimeit)
+   - [#  47] COI timeit: [0.01045 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  48] COI timeit: [0.01068 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  49] COI timeit: [0.01034 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [#  50] COI timeit: [0.04392 s] survived
+   - [#  51] COI timeit: [0.05822 s] survived
+   - [#  52] COI timeit: [0.01442 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  53] COI timeit: [0.01261 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  54] COI timeit: [0.04525 s] survived
+   - [#  55] COI timeit: [0.00948 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [#  56] COI timeit: [0.00981 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [#  57] COI timeit: [0.01095 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  58] COI timeit: [0.00919 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [#  59] COI timeit: [0.01310 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [#  60] COI timeit: [0.01274 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [#  61] COI timeit: [0.01106 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  62] COI timeit: [0.01309 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  63] COI timeit: [0.01136 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  64] COI timeit: [0.05568 s] survived
+   - [#  65] COI timeit: [0.00000 s] incompetent
+   - [#  66] CRP timeit: [0.05950 s] survived
+   - [#  67] CRP timeit: [0.04556 s] survived
+   - [#  68] CRP timeit: [0.04520 s] survived
+   - [#  69] CRP timeit: [0.04687 s] survived
+   - [#  70] CRP timeit: [0.04361 s] survived
+   - [#  71] CRP timeit: [0.04873 s] survived
+   - [#  72] CRP timeit: [0.04518 s] survived
+   - [#  73] CRP timeit: [0.04432 s] survived
+   - [#  74] CRP timeit: [0.04557 s] survived
+   - [#  75] CRP timeit: [0.04371 s] survived
+   - [#  76] CRP timeit: [0.04507 s] survived
+   - [#  77] CRP timeit: [0.01095 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [#  78] CRP timeit: [0.00799 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  79] CRP timeit: [0.00784 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  80] CRP timeit: [0.00782 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  81] CRP timeit: [0.00846 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  82] CRP timeit: [0.00802 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  83] CRP timeit: [0.00835 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  84] CRP timeit: [0.00812 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  85] CRP timeit: [0.00814 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  86] CRP timeit: [0.04453 s] survived
+   - [#  87] CRP timeit: [0.04430 s] survived
+   - [#  88] CRP timeit: [0.04197 s] killed by test_print_exc (test_timeit.TestTimeit)
+   - [#  89] CRP timeit: [0.04291 s] survived
+   - [#  90] CRP timeit: [0.00798 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  91] CRP timeit: [0.00721 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  92] CRP timeit: [0.00756 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  93] CRP timeit: [0.00739 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  94] CRP timeit: [0.00735 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  95] CRP timeit: [0.00764 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [#  96] CRP timeit: [0.04188 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [#  97] CRP timeit: [0.04126 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [#  98] CRP timeit: [0.04073 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [#  99] CRP timeit: [0.04129 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [# 100] CRP timeit: [0.04187 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [# 101] CRP timeit: [0.04398 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [# 102] CRP timeit: [0.04389 s] killed by test_repeat_callable_setup (test_timeit.TestTimeit)
+   - [# 103] CRP timeit: [0.04556 s] survived
+   - [# 104] CRP timeit: [0.04377 s] survived
+   - [# 105] CRP timeit: [0.00797 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 106] CRP timeit: [0.00782 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 107] CRP timeit: [0.00836 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 108] CRP timeit: [0.04208 s] killed by test_repeat_callable_stmt (test_timeit.TestTimeit)
+   - [# 109] CRP timeit: [0.04383 s] killed by test_repeat_callable_stmt (test_timeit.TestTimeit)
+   - [# 110] CRP timeit: [0.04346 s] killed by test_repeat_callable_stmt (test_timeit.TestTimeit)
+   - [# 111] CRP timeit: [0.04265 s] killed by test_repeat_callable_stmt (test_timeit.TestTimeit)
+   - [# 112] CRP timeit: [0.04173 s] killed by test_repeat_callable_stmt (test_timeit.TestTimeit)
+   - [# 113] CRP timeit: [0.04209 s] killed by test_repeat_callable_stmt (test_timeit.TestTimeit)
+   - [# 114] CRP timeit: [0.04450 s] survived
+   - [# 115] CRP timeit: [0.04502 s] survived
+   - [# 116] CRP timeit: [0.00738 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 117] CRP timeit: [0.00726 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 118] CRP timeit: [0.00839 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 119] CRP timeit: [0.00776 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 120] CRP timeit: [0.04498 s] survived
+   - [# 121] CRP timeit: [0.00996 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 122] CRP timeit: [0.00825 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 123] CRP timeit: [0.00842 s] killed by test_autorange_second (test_timeit.TestTimeit)
+   - [# 124] CRP timeit: [0.00807 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 125] CRP timeit: [0.00831 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 126] CRP timeit: [0.00964 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 127] CRP timeit: [0.00804 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 128] CRP timeit: [0.04497 s] survived
+   - [# 129] CRP timeit: [0.04464 s] survived
+   - [# 130] CRP timeit: [0.04429 s] killed by test_timeit_globals_args (test_timeit.TestTimeit)
+   - [# 131] CRP timeit: [0.04396 s] survived
+   - [# 132] CRP timeit: [0.04300 s] survived
+   - [# 133] CRP timeit: [0.04296 s] survived
+   - [# 134] CRP timeit: [0.04326 s] survived
+   - [# 135] CRP timeit: [0.04308 s] survived
+   - [# 136] CRP timeit: [0.04322 s] survived
+   - [# 137] CRP timeit: [0.00956 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [# 138] CRP timeit: [0.00983 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [# 139] CRP timeit: [0.04348 s] survived
+   - [# 140] CRP timeit: [0.04406 s] survived
+   - [# 141] CRP timeit: [0.04313 s] survived
+   - [# 142] CRP timeit: [0.04362 s] survived
+   - [# 143] CRP timeit: [0.04341 s] survived
+   - [# 144] CRP timeit: [0.04459 s] survived
+   - [# 145] CRP timeit: [0.04507 s] survived
+   - [# 146] CRP timeit: [0.04890 s] survived
+   - [# 147] CRP timeit: [0.04816 s] survived
+   - [# 148] CRP timeit: [0.04632 s] survived
+   - [# 149] CRP timeit: [0.04495 s] survived
+   - [# 150] CRP timeit: [0.04500 s] survived
+   - [# 151] CRP timeit: [0.04546 s] survived
+   - [# 152] CRP timeit: [0.04516 s] survived
+   - [# 153] CRP timeit: [0.04472 s] survived
+   - [# 154] CRP timeit: [0.04588 s] survived
+   - [# 155] CRP timeit: [0.04446 s] survived
+   - [# 156] CRP timeit: [0.04492 s] survived
+   - [# 157] CRP timeit: [0.00922 s] killed by test_main_bad_switch (test_timeit.TestTimeit)
+   - [# 158] CRP timeit: [0.00905 s] killed by test_main_bad_switch (test_timeit.TestTimeit)
+   - [# 159] CRP timeit: [0.04496 s] survived
+   - [# 160] CRP timeit: [0.00962 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 161] CRP timeit: [0.00930 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 162] CRP timeit: [0.04466 s] survived
+   - [# 163] CRP timeit: [0.04444 s] survived
+   - [# 164] CRP timeit: [0.01068 s] killed by test_main_milliseconds (test_timeit.TestTimeit)
+   - [# 165] CRP timeit: [0.01060 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 166] CRP timeit: [0.04403 s] survived
+   - [# 167] CRP timeit: [0.04406 s] survived
+   - [# 168] CRP timeit: [0.01114 s] killed by test_main_microseconds (test_timeit.TestTimeit)
+   - [# 169] CRP timeit: [0.01127 s] killed by test_main_microseconds (test_timeit.TestTimeit)
+   - [# 170] CRP timeit: [0.01097 s] killed by test_main_milliseconds (test_timeit.TestTimeit)
+   - [# 171] CRP timeit: [0.01162 s] killed by test_main_milliseconds (test_timeit.TestTimeit)
+   - [# 172] CRP timeit: [0.01038 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 173] CRP timeit: [0.01067 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 174] CRP timeit: [0.01071 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 175] CRP timeit: [0.01009 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 176] CRP timeit: [0.01102 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 177] CRP timeit: [0.01039 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 178] CRP timeit: [0.04522 s] killed by test_main_with_time_unit (test_timeit.TestTimeit)
+   - [# 179] CRP timeit: [0.01072 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 180] CRP timeit: [0.01024 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 181] CRP timeit: [0.04438 s] survived
+   - [# 182] CRP timeit: [0.04410 s] survived
+   - [# 183] CRP timeit: [0.01130 s] killed by test_main_multiple_setups (test_timeit.TestTimeit)
+   - [# 184] CRP timeit: [0.01164 s] killed by test_main_multiple_setups (test_timeit.TestTimeit)
+   - [# 185] CRP timeit: [0.04460 s] survived
+   - [# 186] CRP timeit: [0.04482 s] survived
+   - [# 187] CRP timeit: [0.04239 s] killed by test_main_with_time_unit (test_timeit.TestTimeit)
+   - [# 188] CRP timeit: [0.04202 s] killed by test_main_with_time_unit (test_timeit.TestTimeit)
+   - [# 189] CRP timeit: [0.04506 s] survived
+   - [# 190] CRP timeit: [0.04511 s] survived
+   - [# 191] CRP timeit: [0.04272 s] killed by test_main_with_time_unit (test_timeit.TestTimeit)
+   - [# 192] CRP timeit: [0.04293 s] killed by test_main_with_time_unit (test_timeit.TestTimeit)
+   - [# 193] CRP timeit: [0.04357 s] survived
+   - [# 194] CRP timeit: [0.01054 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [# 195] CRP timeit: [0.01052 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [# 196] CRP timeit: [0.04308 s] survived
+   - [# 197] CRP timeit: [0.04398 s] survived
+   - [# 198] CRP timeit: [0.04286 s] survived
+   - [# 199] CRP timeit: [0.01096 s] killed by test_main_negative_reps (test_timeit.TestTimeit)
+   - [# 200] CRP timeit: [0.04575 s] survived
+   - [# 201] CRP timeit: [0.04429 s] survived
+   - [# 202] CRP timeit: [0.04311 s] survived
+   - [# 203] CRP timeit: [0.04370 s] survived
+   - [# 204] CRP timeit: [0.01157 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 205] CRP timeit: [0.01127 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 206] CRP timeit: [0.04305 s] survived
+   - [# 207] CRP timeit: [0.04348 s] survived
+   - [# 208] CRP timeit: [0.04330 s] survived
+   - [# 209] CRP timeit: [0.04224 s] survived
+   - [# 210] CRP timeit: [0.01106 s] killed by test_main_help (test_timeit.TestTimeit)
+   - [# 211] CRP timeit: [0.01094 s] killed by test_main_help (test_timeit.TestTimeit)
+   - [# 212] CRP timeit: [0.04306 s] survived
+   - [# 213] CRP timeit: [0.04365 s] survived
+   - [# 214] CRP timeit: [0.01057 s] killed by test_main_help (test_timeit.TestTimeit)
+   - [# 215] CRP timeit: [0.01022 s] killed by test_main_help (test_timeit.TestTimeit)
+   - [# 216] CRP timeit: [0.04424 s] survived
+   - [# 217] CRP timeit: [0.01171 s] killed by test_main_multiple_setups (test_timeit.TestTimeit)
+   - [# 218] CRP timeit: [0.01140 s] killed by test_main_multiple_setups (test_timeit.TestTimeit)
+   - [# 219] CRP timeit: [0.00922 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 220] CRP timeit: [0.04297 s] survived
+   - [# 221] CRP timeit: [0.04303 s] survived
+   - [# 222] CRP timeit: [0.00977 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 223] CRP timeit: [0.01233 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 224] CRP timeit: [0.01294 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 225] CRP timeit: [0.01385 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 226] CRP timeit: [0.04806 s] killed by test_main_very_verbose (test_timeit.TestTimeit)
+   - [# 227] CRP timeit: [0.04329 s] killed by test_main_very_verbose (test_timeit.TestTimeit)
+   - [# 228] CRP timeit: [0.01262 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 229] CRP timeit: [0.04597 s] survived
+   - [# 230] CRP timeit: [0.04639 s] survived
+   - [# 231] CRP timeit: [0.23237 s] timeout
+   - [# 232] CRP timeit: [0.23542 s] timeout
+   - [# 233] CRP timeit: [0.23578 s] timeout
+   - [# 234] CRP timeit: [0.23510 s] timeout
+   - [# 235] CRP timeit: [0.02957 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 236] CRP timeit: [0.02002 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 237] CRP timeit: [0.23299 s] timeout
+   - [# 238] CRP timeit: [0.23586 s] timeout
+   - [# 239] CRP timeit: [0.01999 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [# 240] CRP timeit: [0.01616 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 241] CRP timeit: [0.01109 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 242] CRP timeit: [0.01084 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [# 243] CRP timeit: [0.04469 s] survived
+   - [# 244] CRP timeit: [0.04466 s] survived
+   - [# 245] CRP timeit: [0.04460 s] survived
+   - [# 246] CRP timeit: [0.04341 s] survived
+   - [# 247] CRP timeit: [0.04505 s] survived
+   - [# 248] CRP timeit: [0.04424 s] survived
+   - [# 249] CRP timeit: [0.04407 s] survived
+   - [# 250] EHD timeit: [0.00972 s] killed by test_main_bad_switch (test_timeit.TestTimeit)
+   - [# 251] EHD timeit: [0.00958 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 252] EHD timeit: [0.00935 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [# 253] EXS timeit: [0.00890 s] killed by test_main_bad_switch (test_timeit.TestTimeit)
+   - [# 254] EXS timeit: [0.00979 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 255] EXS timeit: [0.01004 s] killed by test_main_exception_fixed_reps (test_timeit.TestTimeit)
+   - [# 256] LCR timeit: [0.23121 s] timeout
+   - [# 257] LCR timeit: [0.01135 s] killed by test_main_multiple_setups (test_timeit.TestTimeit)
+   - [# 258] ROR timeit: [0.01041 s] killed by test_autorange (test_timeit.TestTimeit)
+   - [# 259] ROR timeit: [0.04836 s] survived
+   - [# 260] ROR timeit: [0.01815 s] killed by test_main_fixed_reps (test_timeit.TestTimeit)
+   - [# 261] ROR timeit: [0.04901 s] survived
+   - [# 262] ROR timeit: [0.01069 s] killed by test_main_exception (test_timeit.TestTimeit)
+   - [# 263] ROR timeit: [0.01282 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 264] ROR timeit: [0.01068 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 265] ROR timeit: [0.01301 s] killed by test_main_verbose (test_timeit.TestTimeit)
+   - [# 266] ROR timeit: [0.01140 s] killed by test_main_fixed_iters (test_timeit.TestTimeit)
+   - [# 267] ROR timeit: [0.04510 s] survived
+   - [# 268] ROR timeit: [0.04476 s] survived
+   - [# 269] ROR timeit: [0.00000 s] incompetent
+   - [# 270] SIR timeit: [0.04443 s] survived
+[*] Mutation score [14.08114 s]: 63.4%
+   - all: 270
+   - killed: 146 (54.1%)
+   - survived: 98 (36.3%)
+   - incompetent: 2 (0.7%)
+   - timeout: 24 (8.9%)

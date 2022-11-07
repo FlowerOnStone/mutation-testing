@@ -1,0 +1,297 @@
+[*] Start mutation process:
+   - targets: mailcap.py
+   - tests: test_mailcap.py
+[*] 8 tests passed:
+   - test_mailcap [0.01594 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD mailcap: [0.02921 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#   2] AOD mailcap: [0.02870 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#   3] AOR mailcap: [0.02311 s] survived
+   - [#   4] AOR mailcap: [0.22404 s] timeout
+   - [#   5] AOR mailcap: [0.05237 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#   6] AOR mailcap: [0.03266 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#   7] AOR mailcap: [0.22371 s] timeout
+   - [#   8] AOR mailcap: [0.22803 s] timeout
+   - [#   9] AOR mailcap: [0.02680 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  10] AOR mailcap: [0.22283 s] timeout
+   - [#  11] AOR mailcap: [0.22324 s] timeout
+   - [#  12] AOR mailcap: [0.22440 s] timeout
+   - [#  13] AOR mailcap: [0.23133 s] timeout
+   - [#  14] AOR mailcap: [0.23239 s] timeout
+   - [#  15] AOR mailcap: [0.22933 s] timeout
+   - [#  16] AOR mailcap: [0.02393 s] killed by test_subst (test_mailcap.HelperFunctionTest)
+   - [#  17] AOR mailcap: [0.22284 s] timeout
+   - [#  18] AOR mailcap: [0.22437 s] timeout
+   - [#  19] AOR mailcap: [0.22961 s] timeout
+   - [#  20] AOR mailcap: [0.02351 s] survived
+   - [#  21] AOR mailcap: [0.22396 s] timeout
+   - [#  22] AOR mailcap: [0.23181 s] timeout
+   - [#  23] AOR mailcap: [0.23161 s] timeout
+   - [#  24] AOR mailcap: [0.00872 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  25] AOR mailcap: [0.22310 s] timeout
+   - [#  26] AOR mailcap: [0.02802 s] survived
+   - [#  27] AOR mailcap: [0.02342 s] survived
+   - [#  28] AOR mailcap: [0.22331 s] timeout
+   - [#  29] AOR mailcap: [0.02905 s] survived
+   - [#  30] AOR mailcap: [0.02386 s] survived
+   - [#  31] AOR mailcap: [0.02310 s] survived
+   - [#  32] ASR mailcap: [0.02604 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  33] BCR mailcap: [0.02282 s] survived
+   - [#  34] BCR mailcap: [0.22310 s] timeout
+   - [#  35] BCR mailcap: [0.02510 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  36] BCR mailcap: [0.02488 s] survived
+   - [#  37] BCR mailcap: [0.22292 s] timeout
+   - [#  38] BCR mailcap: [0.02372 s] survived
+   - [#  39] COD mailcap: [0.02278 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  40] COD mailcap: [0.02465 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  41] COD mailcap: [0.02669 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  42] COD mailcap: [0.02460 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  43] COD mailcap: [0.02358 s] survived
+   - [#  44] COD mailcap: [0.02346 s] survived
+   - [#  45] COD mailcap: [0.02367 s] survived
+   - [#  46] COI mailcap: [0.00748 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  47] COI mailcap: [0.00757 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  48] COI mailcap: [0.02230 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  49] COI mailcap: [0.02266 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  50] COI mailcap: [0.02466 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  51] COI mailcap: [0.02414 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  52] COI mailcap: [0.02333 s] survived
+   - [#  53] COI mailcap: [0.02370 s] survived
+   - [#  54] COI mailcap: [0.02476 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  55] COI mailcap: [0.02496 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  56] COI mailcap: [0.02743 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  57] COI mailcap: [0.22279 s] timeout
+   - [#  58] COI mailcap: [0.02637 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  59] COI mailcap: [0.02364 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  60] COI mailcap: [0.02487 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  61] COI mailcap: [0.02292 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  62] COI mailcap: [0.02273 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  63] COI mailcap: [0.02496 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  64] COI mailcap: [0.02495 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  65] COI mailcap: [0.02703 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  66] COI mailcap: [0.02572 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  67] COI mailcap: [0.02771 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  68] COI mailcap: [0.02473 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  69] COI mailcap: [0.02360 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  70] COI mailcap: [0.03581 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [#  71] COI mailcap: [0.00760 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  72] COI mailcap: [0.00720 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  73] COI mailcap: [0.01577 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [#  74] COI mailcap: [0.00724 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  75] COI mailcap: [0.00758 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  76] COI mailcap: [0.00713 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  77] COI mailcap: [0.00760 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  78] COI mailcap: [0.00726 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  79] COI mailcap: [0.00777 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  80] COI mailcap: [0.00755 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  81] COI mailcap: [0.00730 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  82] COI mailcap: [0.00734 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  83] COI mailcap: [0.00800 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  84] COI mailcap: [0.00777 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  85] COI mailcap: [0.00805 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  86] COI mailcap: [0.00835 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  87] COI mailcap: [0.00837 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  88] COI mailcap: [0.00795 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [#  89] COI mailcap: [0.02376 s] survived
+   - [#  90] COI mailcap: [0.02412 s] survived
+   - [#  91] COI mailcap: [0.02425 s] survived
+   - [#  92] COI mailcap: [0.02365 s] survived
+   - [#  93] COI mailcap: [0.02340 s] survived
+   - [#  94] COI mailcap: [0.02365 s] survived
+   - [#  95] CRP mailcap: [0.02342 s] survived
+   - [#  96] CRP mailcap: [0.02299 s] survived
+   - [#  97] CRP mailcap: [0.02437 s] survived
+   - [#  98] CRP mailcap: [0.02491 s] survived
+   - [#  99] CRP mailcap: [0.00824 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 100] CRP mailcap: [0.00780 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 101] CRP mailcap: [0.02407 s] survived
+   - [# 102] CRP mailcap: [0.00791 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 103] CRP mailcap: [0.00758 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 104] CRP mailcap: [0.02599 s] survived
+   - [# 105] CRP mailcap: [0.02532 s] survived
+   - [# 106] CRP mailcap: [0.02871 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 107] CRP mailcap: [0.02469 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 108] CRP mailcap: [0.02402 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 109] CRP mailcap: [0.02608 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 110] CRP mailcap: [0.02570 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 111] CRP mailcap: [0.02560 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 112] CRP mailcap: [0.02416 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 113] CRP mailcap: [0.02512 s] survived
+   - [# 114] CRP mailcap: [0.02589 s] survived
+   - [# 115] CRP mailcap: [0.02463 s] killed by test_system_mailcap (test_mailcap.GetcapsTest)
+   - [# 116] CRP mailcap: [0.02534 s] killed by test_system_mailcap (test_mailcap.GetcapsTest)
+   - [# 117] CRP mailcap: [0.02572 s] survived
+   - [# 118] CRP mailcap: [0.02611 s] survived
+   - [# 119] CRP mailcap: [0.02495 s] survived
+   - [# 120] CRP mailcap: [0.02590 s] survived
+   - [# 121] CRP mailcap: [0.02516 s] survived
+   - [# 122] CRP mailcap: [0.02587 s] survived
+   - [# 123] CRP mailcap: [0.02533 s] survived
+   - [# 124] CRP mailcap: [0.02474 s] survived
+   - [# 125] CRP mailcap: [0.02499 s] survived
+   - [# 126] CRP mailcap: [0.02526 s] survived
+   - [# 127] CRP mailcap: [0.02601 s] survived
+   - [# 128] CRP mailcap: [0.02525 s] survived
+   - [# 129] CRP mailcap: [0.02550 s] survived
+   - [# 130] CRP mailcap: [0.02547 s] survived
+   - [# 131] CRP mailcap: [0.02588 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 132] CRP mailcap: [0.02848 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 133] CRP mailcap: [0.02822 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 134] CRP mailcap: [0.02515 s] survived
+   - [# 135] CRP mailcap: [0.03041 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 136] CRP mailcap: [0.03036 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 137] CRP mailcap: [0.02996 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 138] CRP mailcap: [0.02486 s] survived
+   - [# 139] CRP mailcap: [0.02504 s] survived
+   - [# 140] CRP mailcap: [0.02654 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 141] CRP mailcap: [0.02808 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 142] CRP mailcap: [0.02848 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 143] CRP mailcap: [0.02720 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 144] CRP mailcap: [0.02623 s] survived
+   - [# 145] CRP mailcap: [0.02449 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 146] CRP mailcap: [0.04911 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 147] CRP mailcap: [0.03223 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 148] CRP mailcap: [0.03326 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 149] CRP mailcap: [0.02632 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 150] CRP mailcap: [0.02627 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 151] CRP mailcap: [0.04645 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 152] CRP mailcap: [0.02435 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 153] CRP mailcap: [0.02778 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 154] CRP mailcap: [0.03117 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 155] CRP mailcap: [0.03310 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 156] CRP mailcap: [0.02939 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 157] CRP mailcap: [0.02738 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 158] CRP mailcap: [0.02568 s] survived
+   - [# 159] CRP mailcap: [0.02687 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 160] CRP mailcap: [0.02776 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 161] CRP mailcap: [0.02600 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 162] CRP mailcap: [0.02568 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 163] CRP mailcap: [0.02744 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 164] CRP mailcap: [0.02730 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 165] CRP mailcap: [0.02611 s] survived
+   - [# 166] CRP mailcap: [0.03768 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 167] CRP mailcap: [0.00832 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 168] CRP mailcap: [0.00753 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 169] CRP mailcap: [0.00795 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 170] CRP mailcap: [0.00776 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 171] CRP mailcap: [0.00766 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [# 172] CRP mailcap: [0.00792 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [# 173] CRP mailcap: [0.00732 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [# 174] CRP mailcap: [0.00790 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [# 175] CRP mailcap: [0.01552 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [# 176] CRP mailcap: [0.00748 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 177] CRP mailcap: [0.00682 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 178] CRP mailcap: [0.00815 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 179] CRP mailcap: [0.00765 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 180] CRP mailcap: [0.00850 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 181] CRP mailcap: [0.00810 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 182] CRP mailcap: [0.00844 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 183] CRP mailcap: [0.00730 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 184] CRP mailcap: [0.00812 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 185] CRP mailcap: [0.00768 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 186] CRP mailcap: [0.02417 s] killed by test_subst (test_mailcap.HelperFunctionTest)
+   - [# 187] CRP mailcap: [0.02418 s] killed by test_subst (test_mailcap.HelperFunctionTest)
+   - [# 188] CRP mailcap: [0.02543 s] killed by test_subst (test_mailcap.HelperFunctionTest)
+   - [# 189] CRP mailcap: [0.02423 s] killed by test_subst (test_mailcap.HelperFunctionTest)
+   - [# 190] CRP mailcap: [0.00815 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 191] CRP mailcap: [0.02422 s] survived
+   - [# 192] CRP mailcap: [0.02395 s] survived
+   - [# 193] CRP mailcap: [0.00819 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 194] CRP mailcap: [0.00766 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 195] CRP mailcap: [0.00824 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 196] CRP mailcap: [0.00802 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 197] CRP mailcap: [0.00909 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 198] CRP mailcap: [0.00884 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 199] CRP mailcap: [0.00917 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 200] CRP mailcap: [0.00890 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 201] CRP mailcap: [0.00910 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 202] CRP mailcap: [0.00840 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 203] CRP mailcap: [0.02400 s] survived
+   - [# 204] CRP mailcap: [0.02365 s] survived
+   - [# 205] CRP mailcap: [0.00827 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 206] CRP mailcap: [0.00834 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 207] CRP mailcap: [0.02591 s] survived
+   - [# 208] CRP mailcap: [0.02532 s] survived
+   - [# 209] CRP mailcap: [0.02555 s] survived
+   - [# 210] CRP mailcap: [0.02587 s] survived
+   - [# 211] CRP mailcap: [0.02420 s] survived
+   - [# 212] CRP mailcap: [0.02377 s] survived
+   - [# 213] CRP mailcap: [0.02340 s] survived
+   - [# 214] CRP mailcap: [0.02446 s] survived
+   - [# 215] CRP mailcap: [0.02443 s] survived
+   - [# 216] CRP mailcap: [0.02372 s] survived
+   - [# 217] CRP mailcap: [0.02508 s] survived
+   - [# 218] CRP mailcap: [0.02418 s] survived
+   - [# 219] CRP mailcap: [0.02300 s] survived
+   - [# 220] CRP mailcap: [0.02241 s] survived
+   - [# 221] CRP mailcap: [0.02541 s] survived
+   - [# 222] CRP mailcap: [0.02572 s] survived
+   - [# 223] CRP mailcap: [0.02677 s] survived
+   - [# 224] CRP mailcap: [0.02510 s] survived
+   - [# 225] CRP mailcap: [0.02334 s] survived
+   - [# 226] CRP mailcap: [0.02275 s] survived
+   - [# 227] CRP mailcap: [0.02336 s] survived
+   - [# 228] CRP mailcap: [0.02348 s] survived
+   - [# 229] CRP mailcap: [0.02266 s] survived
+   - [# 230] CRP mailcap: [0.02267 s] survived
+   - [# 231] CRP mailcap: [0.02323 s] survived
+   - [# 232] CRP mailcap: [0.02210 s] survived
+   - [# 233] CRP mailcap: [0.02329 s] survived
+   - [# 234] CRP mailcap: [0.02423 s] survived
+   - [# 235] EHD mailcap: [0.02169 s] killed by test_system_mailcap (test_mailcap.GetcapsTest)
+   - [# 236] EXS mailcap: [0.02150 s] killed by test_system_mailcap (test_mailcap.GetcapsTest)
+   - [# 237] LCR mailcap: [0.02550 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 238] LCR mailcap: [0.02316 s] survived
+   - [# 239] LCR mailcap: [0.00781 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [# 240] LCR mailcap: [0.00718 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 241] ROR mailcap: [0.02669 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 242] ROR mailcap: [0.02330 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 243] ROR mailcap: [0.22311 s] timeout
+   - [# 244] ROR mailcap: [0.02333 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 245] ROR mailcap: [0.02277 s] survived
+   - [# 246] ROR mailcap: [0.02885 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 247] ROR mailcap: [0.02481 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 248] ROR mailcap: [0.02721 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 249] ROR mailcap: [0.02281 s] survived
+   - [# 250] ROR mailcap: [0.02363 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 251] ROR mailcap: [0.02276 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 252] ROR mailcap: [0.02439 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 253] ROR mailcap: [0.03899 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 254] ROR mailcap: [0.01542 s] killed by test_test (test_mailcap.FindmatchTest)
+   - [# 255] ROR mailcap: [0.00762 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 256] ROR mailcap: [0.00686 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 257] ROR mailcap: [0.00721 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 258] ROR mailcap: [0.00727 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 259] ROR mailcap: [0.00784 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 260] ROR mailcap: [0.00728 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 261] ROR mailcap: [0.00831 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 262] ROR mailcap: [0.00786 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 263] ROR mailcap: [0.00836 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 264] ROR mailcap: [0.02395 s] survived
+   - [# 265] ROR mailcap: [0.00811 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 266] ROR mailcap: [0.00831 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 267] ROR mailcap: [0.02316 s] survived
+   - [# 268] ROR mailcap: [0.02332 s] survived
+   - [# 269] ROR mailcap: [0.02363 s] survived
+   - [# 270] SIR mailcap: [0.02847 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 271] SIR mailcap: [0.02732 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 272] SIR mailcap: [0.02643 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 273] SIR mailcap: [0.03321 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 274] SIR mailcap: [0.03600 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 275] SIR mailcap: [0.03870 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 276] SIR mailcap: [0.04836 s] killed by test_mock_getcaps (test_mailcap.GetcapsTest)
+   - [# 277] SIR mailcap: [0.02548 s] killed by test_subst (test_mailcap.HelperFunctionTest)
+   - [# 278] SIR mailcap: [0.02421 s] killed by test_subst (test_mailcap.HelperFunctionTest)
+   - [# 279] SIR mailcap: [0.00944 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 280] SIR mailcap: [0.00919 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 281] SIR mailcap: [0.01179 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 282] SIR mailcap: [0.01087 s] killed by test_findmatch (test_mailcap.FindmatchTest)
+   - [# 283] SIR mailcap: [0.02652 s] survived
+   - [# 284] SIR mailcap: [0.02425 s] survived
+   - [# 285] SIR mailcap: [0.02526 s] survived
+[*] Mutation score [11.87751 s]: 67.7%
+   - all: 285
+   - killed: 172 (60.4%)
+   - survived: 92 (32.3%)
+   - incompetent: 0 (0.0%)
+   - timeout: 21 (7.4%)

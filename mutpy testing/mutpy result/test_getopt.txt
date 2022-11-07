@@ -1,0 +1,220 @@
+[*] Start mutation process:
+   - targets: getopt.py
+   - tests: test_getopt.py
+[*] 8 tests passed:
+   - test_getopt [0.00940 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD getopt: [0.01080 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#   2] AOR getopt: [0.00971 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#   3] AOR getopt: [0.22234 s] timeout
+   - [#   4] AOR getopt: [0.22448 s] timeout
+   - [#   5] AOR getopt: [0.22897 s] timeout
+   - [#   6] AOR getopt: [0.22929 s] timeout
+   - [#   7] AOR getopt: [0.22812 s] timeout
+   - [#   8] AOR getopt: [0.22820 s] timeout
+   - [#   9] AOR getopt: [0.01745 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  10] AOR getopt: [0.22293 s] timeout
+   - [#  11] AOR getopt: [0.22717 s] timeout
+   - [#  12] AOR getopt: [0.01974 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  13] AOR getopt: [0.22328 s] timeout
+   - [#  14] ASR getopt: [0.02001 s] survived
+   - [#  15] ASR getopt: [0.22512 s] timeout
+   - [#  16] BCR getopt: [0.01094 s] survived
+   - [#  17] BCR getopt: [0.01091 s] survived
+   - [#  18] BCR getopt: [0.22255 s] timeout
+   - [#  19] COD getopt: [0.01061 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  20] COD getopt: [0.00888 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  21] COD getopt: [0.00934 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [#  22] COI getopt: [0.00969 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  23] COI getopt: [0.00972 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  24] COI getopt: [0.00999 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  25] COI getopt: [0.00996 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  26] COI getopt: [0.01091 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  27] COI getopt: [0.01142 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  28] COI getopt: [0.01197 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  29] COI getopt: [0.01067 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  30] COI getopt: [0.00997 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  31] COI getopt: [0.01012 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  32] COI getopt: [0.01004 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  33] COI getopt: [0.00977 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  34] COI getopt: [0.00968 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  35] COI getopt: [0.00912 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  36] COI getopt: [0.01081 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  37] COI getopt: [0.00949 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  38] COI getopt: [0.00952 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  39] COI getopt: [0.00923 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  40] COI getopt: [0.00943 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  41] COI getopt: [0.00930 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  42] COI getopt: [0.00980 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  43] COI getopt: [0.01019 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  44] COI getopt: [0.00946 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [#  45] COI getopt: [0.00976 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [#  46] COI getopt: [0.00969 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [#  47] COI getopt: [0.01002 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [#  48] COI getopt: [0.00974 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [#  49] COI getopt: [0.00981 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [#  50] COI getopt: [0.00000 s] incompetent
+   - [#  51] CRP getopt: [0.01113 s] survived
+   - [#  52] CRP getopt: [0.01081 s] survived
+   - [#  53] CRP getopt: [0.01097 s] survived
+   - [#  54] CRP getopt: [0.01073 s] survived
+   - [#  55] CRP getopt: [0.01098 s] survived
+   - [#  56] CRP getopt: [0.01066 s] survived
+   - [#  57] CRP getopt: [0.01063 s] survived
+   - [#  58] CRP getopt: [0.01127 s] survived
+   - [#  59] CRP getopt: [0.01026 s] survived
+   - [#  60] CRP getopt: [0.01122 s] survived
+   - [#  61] CRP getopt: [0.01117 s] survived
+   - [#  62] CRP getopt: [0.01059 s] survived
+   - [#  63] CRP getopt: [0.01019 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  64] CRP getopt: [0.00964 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  65] CRP getopt: [0.00994 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  66] CRP getopt: [0.00981 s] killed by test_issue4629 (test_getopt.GetoptTests)
+   - [#  67] CRP getopt: [0.01063 s] survived
+   - [#  68] CRP getopt: [0.01083 s] survived
+   - [#  69] CRP getopt: [0.00956 s] killed by test_issue4629 (test_getopt.GetoptTests)
+   - [#  70] CRP getopt: [0.01089 s] survived
+   - [#  71] CRP getopt: [0.01038 s] survived
+   - [#  72] CRP getopt: [0.01100 s] survived
+   - [#  73] CRP getopt: [0.00975 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  74] CRP getopt: [0.00988 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  75] CRP getopt: [0.00956 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  76] CRP getopt: [0.01022 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  77] CRP getopt: [0.00937 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  78] CRP getopt: [0.01037 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  79] CRP getopt: [0.00958 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  80] CRP getopt: [0.01034 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  81] CRP getopt: [0.01021 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [#  82] CRP getopt: [0.01016 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  83] CRP getopt: [0.01026 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  84] CRP getopt: [0.00954 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  85] CRP getopt: [0.00988 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  86] CRP getopt: [0.00994 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  87] CRP getopt: [0.00964 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  88] CRP getopt: [0.01105 s] survived
+   - [#  89] CRP getopt: [0.01073 s] survived
+   - [#  90] CRP getopt: [0.01119 s] survived
+   - [#  91] CRP getopt: [0.00961 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  92] CRP getopt: [0.01007 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  93] CRP getopt: [0.00973 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  94] CRP getopt: [0.01015 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  95] CRP getopt: [0.00937 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  96] CRP getopt: [0.00976 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  97] CRP getopt: [0.00971 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  98] CRP getopt: [0.01025 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [#  99] CRP getopt: [0.00976 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 100] CRP getopt: [0.01005 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 101] CRP getopt: [0.00971 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 102] CRP getopt: [0.00975 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 103] CRP getopt: [0.00953 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 104] CRP getopt: [0.01006 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 105] CRP getopt: [0.00932 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 106] CRP getopt: [0.00986 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 107] CRP getopt: [0.00972 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 108] CRP getopt: [0.01038 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 109] CRP getopt: [0.00978 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 110] CRP getopt: [0.00947 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 111] CRP getopt: [0.00909 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 112] CRP getopt: [0.00983 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 113] CRP getopt: [0.22309 s] timeout
+   - [# 114] CRP getopt: [0.22793 s] timeout
+   - [# 115] CRP getopt: [0.02047 s] killed by test_libref_examples (test_getopt.GetoptTests)
+   - [# 116] CRP getopt: [0.01211 s] killed by test_libref_examples (test_getopt.GetoptTests)
+   - [# 117] CRP getopt: [0.22296 s] timeout
+   - [# 118] CRP getopt: [0.22742 s] timeout
+   - [# 119] CRP getopt: [0.01829 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 120] CRP getopt: [0.01581 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 121] CRP getopt: [0.01417 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 122] CRP getopt: [0.22444 s] timeout
+   - [# 123] CRP getopt: [0.22791 s] timeout
+   - [# 124] CRP getopt: [0.02237 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 125] CRP getopt: [0.01720 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 126] CRP getopt: [0.01582 s] killed by test_long_has_args (test_getopt.GetoptTests)
+   - [# 127] CRP getopt: [0.22444 s] timeout
+   - [# 128] CRP getopt: [0.23256 s] timeout
+   - [# 129] CRP getopt: [0.02240 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 130] CRP getopt: [0.01733 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 131] CRP getopt: [0.01332 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 132] CRP getopt: [0.01238 s] killed by test_long_has_args (test_getopt.GetoptTests)
+   - [# 133] CRP getopt: [0.00942 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 134] CRP getopt: [0.00886 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 135] CRP getopt: [0.00872 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 136] CRP getopt: [0.00891 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 137] CRP getopt: [0.00899 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 138] CRP getopt: [0.22374 s] timeout
+   - [# 139] CRP getopt: [0.23482 s] timeout
+   - [# 140] CRP getopt: [0.02666 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 141] CRP getopt: [0.01751 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 142] CRP getopt: [0.01343 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 143] CRP getopt: [0.01019 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 144] CRP getopt: [0.00946 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 145] CRP getopt: [0.00904 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 146] CRP getopt: [0.01008 s] survived
+   - [# 147] CRP getopt: [0.01046 s] survived
+   - [# 148] CRP getopt: [0.00930 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 149] CRP getopt: [0.00875 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 150] CRP getopt: [0.00921 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 151] CRP getopt: [0.22345 s] timeout
+   - [# 152] CRP getopt: [0.23224 s] timeout
+   - [# 153] CRP getopt: [0.01935 s] survived
+   - [# 154] CRP getopt: [0.01056 s] survived
+   - [# 155] CRP getopt: [0.01061 s] survived
+   - [# 156] CRP getopt: [0.01016 s] survived
+   - [# 157] CRP getopt: [0.01106 s] survived
+   - [# 158] CRP getopt: [0.01081 s] survived
+   - [# 159] CRP getopt: [0.01031 s] survived
+   - [# 160] CRP getopt: [0.00970 s] survived
+   - [# 161] CRP getopt: [0.01022 s] survived
+   - [# 162] EHD getopt: [0.01110 s] survived
+   - [# 163] EHD getopt: [0.00914 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 164] EXS getopt: [0.01048 s] survived
+   - [# 165] EXS getopt: [0.00909 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 166] IOD getopt: [0.01061 s] survived
+   - [# 167] IOD getopt: [0.00987 s] survived
+   - [# 168] LCR getopt: [0.00986 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [# 169] LCR getopt: [0.00921 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 170] LCR getopt: [0.00916 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 171] ROR getopt: [0.00972 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [# 172] ROR getopt: [0.00992 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [# 173] ROR getopt: [0.00993 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [# 174] ROR getopt: [0.00966 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 175] ROR getopt: [0.00938 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 176] ROR getopt: [0.00968 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 177] ROR getopt: [0.00983 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 178] ROR getopt: [0.01148 s] killed by test_long_has_args (test_getopt.GetoptTests)
+   - [# 179] ROR getopt: [0.00943 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 180] ROR getopt: [0.00963 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 181] ROR getopt: [0.00915 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 182] ROR getopt: [0.00920 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 183] ROR getopt: [0.00905 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 184] ROR getopt: [0.00942 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 185] ROR getopt: [0.00000 s] incompetent
+   - [# 186] SCI getopt: [0.22426 s] timeout
+   - [# 187] SCI getopt: [0.02794 s] survived
+   - [# 188] SIR getopt: [0.01049 s] survived
+   - [# 189] SIR getopt: [0.00928 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [# 190] SIR getopt: [0.22246 s] timeout
+   - [# 191] SIR getopt: [0.00920 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [# 192] SIR getopt: [0.00985 s] killed by test_getopt (test_getopt.GetoptTests)
+   - [# 193] SIR getopt: [0.00983 s] survived
+   - [# 194] SIR getopt: [0.01046 s] survived
+   - [# 195] SIR getopt: [0.00973 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 196] SIR getopt: [0.00919 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 197] SIR getopt: [0.22203 s] timeout
+   - [# 198] SIR getopt: [0.00915 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 199] SIR getopt: [0.00881 s] killed by test_gnu_getopt (test_getopt.GetoptTests)
+   - [# 200] SIR getopt: [0.22242 s] timeout
+   - [# 201] SIR getopt: [0.22253 s] timeout
+   - [# 202] SIR getopt: [0.00922 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 203] SIR getopt: [0.00804 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 204] SIR getopt: [0.01158 s] killed by test_libref_examples (test_getopt.GetoptTests)
+   - [# 205] SIR getopt: [0.00954 s] killed by test_do_longs (test_getopt.GetoptTests)
+   - [# 206] SIR getopt: [0.22262 s] timeout
+   - [# 207] SIR getopt: [0.01185 s] killed by test_do_shorts (test_getopt.GetoptTests)
+   - [# 208] SIR getopt: [0.01062 s] survived
+[*] Mutation score [9.60463 s]: 79.1%
+   - all: 208
+   - killed: 134 (64.4%)
+   - survived: 43 (20.7%)
+   - incompetent: 2 (1.0%)
+   - timeout: 29 (13.9%)

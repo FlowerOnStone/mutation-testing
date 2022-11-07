@@ -1,0 +1,131 @@
+[*] Start mutation process:
+   - targets: copyreg.py
+   - tests: test_copyreg.py
+[*] 6 tests passed:
+   - test_copyreg [0.00033 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR copyreg: [0.01000 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#   2] AOR copyreg: [0.01053 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#   3] AOR copyreg: [0.20784 s] timeout
+   - [#   4] AOR copyreg: [0.20872 s] timeout
+   - [#   5] AOR copyreg: [0.20823 s] timeout
+   - [#   6] BCR copyreg: [0.00986 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#   7] BCR copyreg: [0.00922 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#   8] COD copyreg: [0.00000 s] incompetent
+   - [#   9] COD copyreg: [0.00000 s] incompetent
+   - [#  10] COD copyreg: [0.01007 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  11] COD copyreg: [0.00951 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  12] COD copyreg: [0.00897 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  13] COD copyreg: [0.00935 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  14] COI copyreg: [0.00000 s] incompetent
+   - [#  15] COI copyreg: [0.00959 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  16] COI copyreg: [0.00000 s] incompetent
+   - [#  17] COI copyreg: [0.00920 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  18] COI copyreg: [0.00935 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  19] COI copyreg: [0.00975 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  20] COI copyreg: [0.00930 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  21] COI copyreg: [0.00960 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  22] COI copyreg: [0.00908 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  23] COI copyreg: [0.00960 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  24] COI copyreg: [0.00979 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  25] COI copyreg: [0.00829 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  26] COI copyreg: [0.20688 s] timeout
+   - [#  27] COI copyreg: [0.20829 s] timeout
+   - [#  28] COI copyreg: [0.20957 s] timeout
+   - [#  29] COI copyreg: [0.00854 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  30] COI copyreg: [0.00877 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  31] COI copyreg: [0.00864 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  32] COI copyreg: [0.00890 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  33] COI copyreg: [0.00970 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  34] COI copyreg: [0.00962 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  35] COI copyreg: [0.00923 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  36] COI copyreg: [0.00819 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  37] COI copyreg: [0.00863 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  38] COI copyreg: [0.00802 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  39] COI copyreg: [0.00935 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  40] COI copyreg: [0.00941 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  41] COI copyreg: [0.00879 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  42] CRP copyreg: [0.00819 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  43] CRP copyreg: [0.00862 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  44] CRP copyreg: [0.00854 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  45] CRP copyreg: [0.00863 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  46] CRP copyreg: [0.00880 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  47] CRP copyreg: [0.00854 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  48] CRP copyreg: [0.00852 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  49] CRP copyreg: [0.00886 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  50] CRP copyreg: [0.00905 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  51] CRP copyreg: [0.00866 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  52] CRP copyreg: [0.00925 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  53] CRP copyreg: [0.00884 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  54] CRP copyreg: [0.00916 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  55] CRP copyreg: [0.00837 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  56] CRP copyreg: [0.00889 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  57] CRP copyreg: [0.00932 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  58] CRP copyreg: [0.00913 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  59] CRP copyreg: [0.00911 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  60] CRP copyreg: [0.00938 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  61] CRP copyreg: [0.00848 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  62] CRP copyreg: [0.00942 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  63] CRP copyreg: [0.00830 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  64] CRP copyreg: [0.00891 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  65] CRP copyreg: [0.00882 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  66] CRP copyreg: [0.00918 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  67] CRP copyreg: [0.00862 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  68] CRP copyreg: [0.00923 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  69] CRP copyreg: [0.00880 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  70] CRP copyreg: [0.00916 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  71] CRP copyreg: [0.00928 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  72] CRP copyreg: [0.00907 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  73] CRP copyreg: [0.20763 s] timeout
+   - [#  74] CRP copyreg: [0.20800 s] timeout
+   - [#  75] CRP copyreg: [0.01122 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  76] CRP copyreg: [0.00870 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  77] CRP copyreg: [0.00839 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  78] CRP copyreg: [0.00807 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  79] CRP copyreg: [0.00772 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  80] CRP copyreg: [0.00833 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  81] CRP copyreg: [0.00863 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  82] CRP copyreg: [0.00876 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  83] CRP copyreg: [0.00813 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  84] CRP copyreg: [0.00859 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  85] CRP copyreg: [0.00824 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  86] CRP copyreg: [0.00875 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  87] CRP copyreg: [0.00807 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  88] CRP copyreg: [0.00827 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  89] CRP copyreg: [0.00791 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  90] CRP copyreg: [0.00861 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  91] CRP copyreg: [0.20754 s] timeout
+   - [#  92] CRP copyreg: [0.21037 s] timeout
+   - [#  93] CRP copyreg: [0.21076 s] timeout
+   - [#  94] CRP copyreg: [0.21087 s] timeout
+   - [#  95] CRP copyreg: [0.20790 s] timeout
+   - [#  96] CRP copyreg: [0.21081 s] timeout
+   - [#  97] EHD copyreg: [0.00869 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  98] EHD copyreg: [0.00879 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [#  99] EHD copyreg: [0.00858 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 100] EHD copyreg: [0.00893 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 101] EXS copyreg: [0.00892 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 102] EXS copyreg: [0.00835 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 103] LCR copyreg: [0.00872 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 104] LCR copyreg: [0.00872 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 105] LCR copyreg: [0.00937 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 106] LCR copyreg: [0.00861 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 107] LOR copyreg: [0.00882 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 108] LOR copyreg: [0.00870 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 109] ROR copyreg: [0.00915 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 110] ROR copyreg: [0.00952 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 111] ROR copyreg: [0.00868 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 112] ROR copyreg: [0.00895 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 113] ROR copyreg: [0.00859 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 114] ROR copyreg: [0.00900 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 115] ROR copyreg: [0.00911 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 116] ROR copyreg: [0.00884 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 117] ROR copyreg: [0.00914 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 118] ROR copyreg: [0.00866 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+   - [# 119] ROR copyreg: [0.00876 s] killed by test_extension_registry (test_copyreg.CopyRegTestCase)
+[*] Mutation score [4.51098 s]: 100.0%
+   - all: 119
+   - killed: 101 (84.9%)
+   - survived: 0 (0.0%)
+   - incompetent: 4 (3.4%)
+   - timeout: 14 (11.8%)

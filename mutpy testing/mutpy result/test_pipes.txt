@@ -1,0 +1,337 @@
+[*] Start mutation process:
+   - targets: pipes.py
+   - tests: test_pipes.py
+[*] 14 tests passed:
+   - test_pipes [0.06349 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD pipes: [0.00982 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#   2] AOD pipes: [0.02334 s] killed by testReadOpenSink (test_pipes.SimplePipeTests)
+   - [#   3] AOD pipes: [0.00896 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#   4] AOD pipes: [0.00831 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#   5] AOD pipes: [0.01986 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#   6] AOD pipes: [0.06899 s] survived
+   - [#   7] AOR pipes: [0.27306 s] timeout
+   - [#   8] AOR pipes: [0.27945 s] timeout
+   - [#   9] AOR pipes: [0.01738 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  10] AOR pipes: [0.27575 s] timeout
+   - [#  11] AOR pipes: [0.27972 s] timeout
+   - [#  12] AOR pipes: [0.03543 s] killed by testReadOpenSink (test_pipes.SimplePipeTests)
+   - [#  13] AOR pipes: [0.06777 s] survived
+   - [#  14] AOR pipes: [0.00867 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#  15] AOR pipes: [0.00784 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#  16] AOR pipes: [0.01799 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#  17] AOR pipes: [0.06862 s] survived
+   - [#  18] AOR pipes: [0.06746 s] survived
+   - [#  19] AOR pipes: [0.06881 s] survived
+   - [#  20] AOR pipes: [0.27364 s] timeout
+   - [#  21] AOR pipes: [0.27960 s] timeout
+   - [#  22] AOR pipes: [0.27917 s] timeout
+   - [#  23] AOR pipes: [0.27874 s] timeout
+   - [#  24] AOR pipes: [0.28025 s] timeout
+   - [#  25] AOR pipes: [0.28039 s] timeout
+   - [#  26] AOR pipes: [0.27448 s] timeout
+   - [#  27] AOR pipes: [0.27553 s] timeout
+   - [#  28] AOR pipes: [0.27333 s] timeout
+   - [#  29] AOR pipes: [0.27652 s] timeout
+   - [#  30] AOR pipes: [0.07130 s] survived
+   - [#  31] AOR pipes: [0.06764 s] survived
+   - [#  32] AOR pipes: [0.07273 s] survived
+   - [#  33] AOR pipes: [0.07003 s] survived
+   - [#  34] AOR pipes: [0.07158 s] survived
+   - [#  35] AOR pipes: [0.07206 s] survived
+   - [#  36] AOR pipes: [0.06961 s] survived
+   - [#  37] AOR pipes: [0.07018 s] survived
+   - [#  38] AOR pipes: [0.06870 s] survived
+   - [#  39] AOR pipes: [0.07010 s] survived
+   - [#  40] AOR pipes: [0.07002 s] survived
+   - [#  41] AOR pipes: [0.07111 s] survived
+   - [#  42] AOR pipes: [0.07406 s] survived
+   - [#  43] AOR pipes: [0.07279 s] survived
+   - [#  44] AOR pipes: [0.07179 s] survived
+   - [#  45] COD pipes: [0.00847 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  46] COD pipes: [0.00796 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  47] COD pipes: [0.00831 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  48] COD pipes: [0.00828 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  49] COD pipes: [0.00818 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  50] COD pipes: [0.00752 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  51] COD pipes: [0.02249 s] killed by testEmptyPipeline2 (test_pipes.SimplePipeTests)
+   - [#  52] COD pipes: [0.02286 s] killed by testEmptyPipeline3 (test_pipes.SimplePipeTests)
+   - [#  53] COD pipes: [0.00870 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#  54] COD pipes: [0.10482 s] survived
+   - [#  55] COD pipes: [0.08043 s] survived
+   - [#  56] COI pipes: [0.00789 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  57] COI pipes: [0.00814 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  58] COI pipes: [0.00795 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  59] COI pipes: [0.00833 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  60] COI pipes: [0.00821 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  61] COI pipes: [0.00879 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  62] COI pipes: [0.00802 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  63] COI pipes: [0.00863 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  64] COI pipes: [0.00843 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  65] COI pipes: [0.00858 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  66] COI pipes: [0.00846 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  67] COI pipes: [0.00887 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  68] COI pipes: [0.00827 s] killed by testBadOpenMode (test_pipes.SimplePipeTests)
+   - [#  69] COI pipes: [0.00879 s] killed by testBadOpenMode (test_pipes.SimplePipeTests)
+   - [#  70] COI pipes: [0.02357 s] killed by testEmptyPipeline2 (test_pipes.SimplePipeTests)
+   - [#  71] COI pipes: [0.02882 s] killed by testReadOpenSink (test_pipes.SimplePipeTests)
+   - [#  72] COI pipes: [0.02324 s] killed by testEmptyPipeline3 (test_pipes.SimplePipeTests)
+   - [#  73] COI pipes: [0.02271 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [#  74] COI pipes: [0.07646 s] survived
+   - [#  75] COI pipes: [0.00897 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#  76] COI pipes: [0.09873 s] survived
+   - [#  77] COI pipes: [0.08749 s] survived
+   - [#  78] COI pipes: [0.07727 s] survived
+   - [#  79] COI pipes: [0.05365 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [#  80] COI pipes: [0.05356 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [#  81] COI pipes: [0.27292 s] timeout
+   - [#  82] COI pipes: [0.02349 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [#  83] COI pipes: [0.07371 s] survived
+   - [#  84] COI pipes: [0.07462 s] survived
+   - [#  85] COI pipes: [0.07373 s] survived
+   - [#  86] COI pipes: [0.08757 s] survived
+   - [#  87] CRP pipes: [0.07392 s] survived
+   - [#  88] CRP pipes: [0.07375 s] survived
+   - [#  89] CRP pipes: [0.00796 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  90] CRP pipes: [0.00849 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  91] CRP pipes: [0.00827 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  92] CRP pipes: [0.00921 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  93] CRP pipes: [0.00822 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  94] CRP pipes: [0.00916 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [#  95] CRP pipes: [0.02427 s] killed by testRepr (test_pipes.SimplePipeTests)
+   - [#  96] CRP pipes: [0.00834 s] killed by testClone (test_pipes.SimplePipeTests)
+   - [#  97] CRP pipes: [0.07518 s] survived
+   - [#  98] CRP pipes: [0.00803 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [#  99] CRP pipes: [0.07509 s] survived
+   - [# 100] CRP pipes: [0.00850 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 101] CRP pipes: [0.07465 s] survived
+   - [# 102] CRP pipes: [0.27329 s] timeout
+   - [# 103] CRP pipes: [0.27667 s] timeout
+   - [# 104] CRP pipes: [0.06961 s] survived
+   - [# 105] CRP pipes: [0.06908 s] survived
+   - [# 106] CRP pipes: [0.06982 s] survived
+   - [# 107] CRP pipes: [0.27323 s] timeout
+   - [# 108] CRP pipes: [0.27780 s] timeout
+   - [# 109] CRP pipes: [0.09810 s] survived
+   - [# 110] CRP pipes: [0.06787 s] survived
+   - [# 111] CRP pipes: [0.00787 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 112] CRP pipes: [0.00794 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 113] CRP pipes: [0.06636 s] survived
+   - [# 114] CRP pipes: [0.06681 s] survived
+   - [# 115] CRP pipes: [0.00753 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 116] CRP pipes: [0.00726 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 117] CRP pipes: [0.00753 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 118] CRP pipes: [0.03832 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 119] CRP pipes: [0.00762 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 120] CRP pipes: [0.06589 s] survived
+   - [# 121] CRP pipes: [0.06654 s] survived
+   - [# 122] CRP pipes: [0.00780 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 123] CRP pipes: [0.00845 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 124] CRP pipes: [0.00758 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 125] CRP pipes: [0.03883 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 126] CRP pipes: [0.00766 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 127] CRP pipes: [0.06754 s] survived
+   - [# 128] CRP pipes: [0.06798 s] survived
+   - [# 129] CRP pipes: [0.06699 s] survived
+   - [# 130] CRP pipes: [0.06683 s] survived
+   - [# 131] CRP pipes: [0.06658 s] survived
+   - [# 132] CRP pipes: [0.27306 s] timeout
+   - [# 133] CRP pipes: [0.27554 s] timeout
+   - [# 134] CRP pipes: [0.07193 s] survived
+   - [# 135] CRP pipes: [0.07651 s] survived
+   - [# 136] CRP pipes: [0.00911 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 137] CRP pipes: [0.00869 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 138] CRP pipes: [0.07694 s] survived
+   - [# 139] CRP pipes: [0.07369 s] survived
+   - [# 140] CRP pipes: [0.00842 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 141] CRP pipes: [0.00822 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 142] CRP pipes: [0.00882 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 143] CRP pipes: [0.07359 s] survived
+   - [# 144] CRP pipes: [0.00806 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 145] CRP pipes: [0.06754 s] survived
+   - [# 146] CRP pipes: [0.06974 s] survived
+   - [# 147] CRP pipes: [0.00850 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 148] CRP pipes: [0.00813 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 149] CRP pipes: [0.00825 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 150] CRP pipes: [0.07191 s] survived
+   - [# 151] CRP pipes: [0.00808 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 152] CRP pipes: [0.07070 s] survived
+   - [# 153] CRP pipes: [0.06918 s] survived
+   - [# 154] CRP pipes: [0.07068 s] survived
+   - [# 155] CRP pipes: [0.02257 s] killed by testEmptyPipeline2 (test_pipes.SimplePipeTests)
+   - [# 156] CRP pipes: [0.02294 s] killed by testEmptyPipeline2 (test_pipes.SimplePipeTests)
+   - [# 157] CRP pipes: [0.02189 s] killed by testEmptyPipeline3 (test_pipes.SimplePipeTests)
+   - [# 158] CRP pipes: [0.02240 s] killed by testEmptyPipeline3 (test_pipes.SimplePipeTests)
+   - [# 159] CRP pipes: [0.27340 s] timeout
+   - [# 160] CRP pipes: [0.27579 s] timeout
+   - [# 161] CRP pipes: [0.02401 s] killed by testEmptyPipeline2 (test_pipes.SimplePipeTests)
+   - [# 162] CRP pipes: [0.02891 s] killed by testEmptyPipeline2 (test_pipes.SimplePipeTests)
+   - [# 163] CRP pipes: [0.02456 s] killed by testReadOpenSink (test_pipes.SimplePipeTests)
+   - [# 164] CRP pipes: [0.02425 s] killed by testReadOpenSink (test_pipes.SimplePipeTests)
+   - [# 165] CRP pipes: [0.07184 s] survived
+   - [# 166] CRP pipes: [0.07178 s] survived
+   - [# 167] CRP pipes: [0.07919 s] killed by testSimplePipe3 (test_pipes.SimplePipeTests)
+   - [# 168] CRP pipes: [0.05715 s] killed by testSimplePipe3 (test_pipes.SimplePipeTests)
+   - [# 169] CRP pipes: [0.05842 s] killed by testSimplePipe3 (test_pipes.SimplePipeTests)
+   - [# 170] CRP pipes: [0.02264 s] killed by testEmptyPipeline3 (test_pipes.SimplePipeTests)
+   - [# 171] CRP pipes: [0.02284 s] killed by testEmptyPipeline3 (test_pipes.SimplePipeTests)
+   - [# 172] CRP pipes: [0.02391 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [# 173] CRP pipes: [0.02400 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [# 174] CRP pipes: [0.07342 s] survived
+   - [# 175] CRP pipes: [0.07430 s] survived
+   - [# 176] CRP pipes: [0.04362 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [# 177] CRP pipes: [0.02354 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [# 178] CRP pipes: [0.02483 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [# 179] CRP pipes: [0.07415 s] survived
+   - [# 180] CRP pipes: [0.07486 s] survived
+   - [# 181] CRP pipes: [0.07531 s] survived
+   - [# 182] CRP pipes: [0.07323 s] survived
+   - [# 183] CRP pipes: [0.07362 s] survived
+   - [# 184] CRP pipes: [0.02055 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 185] CRP pipes: [0.01754 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 186] CRP pipes: [0.27290 s] timeout
+   - [# 187] CRP pipes: [0.01074 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 188] CRP pipes: [0.07606 s] survived
+   - [# 189] CRP pipes: [0.00908 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 190] CRP pipes: [0.00886 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 191] CRP pipes: [0.00879 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 192] CRP pipes: [0.07153 s] survived
+   - [# 193] CRP pipes: [0.07438 s] survived
+   - [# 194] CRP pipes: [0.07451 s] survived
+   - [# 195] CRP pipes: [0.07354 s] survived
+   - [# 196] CRP pipes: [0.07344 s] survived
+   - [# 197] CRP pipes: [0.07313 s] survived
+   - [# 198] CRP pipes: [0.07397 s] survived
+   - [# 199] CRP pipes: [0.06821 s] survived
+   - [# 200] CRP pipes: [0.06872 s] survived
+   - [# 201] CRP pipes: [0.06912 s] survived
+   - [# 202] CRP pipes: [0.00847 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 203] CRP pipes: [0.01940 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 204] CRP pipes: [0.00942 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 205] CRP pipes: [0.00909 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 206] CRP pipes: [0.00886 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 207] CRP pipes: [0.00869 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 208] CRP pipes: [0.07020 s] survived
+   - [# 209] CRP pipes: [0.07109 s] survived
+   - [# 210] CRP pipes: [0.07098 s] survived
+   - [# 211] CRP pipes: [0.06897 s] survived
+   - [# 212] CRP pipes: [0.06722 s] survived
+   - [# 213] CRP pipes: [0.06982 s] survived
+   - [# 214] CRP pipes: [0.07013 s] survived
+   - [# 215] CRP pipes: [0.06917 s] survived
+   - [# 216] CRP pipes: [0.00847 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 217] CRP pipes: [0.27245 s] timeout
+   - [# 218] CRP pipes: [0.07329 s] survived
+   - [# 219] CRP pipes: [0.07005 s] survived
+   - [# 220] CRP pipes: [0.07129 s] survived
+   - [# 221] CRP pipes: [0.07103 s] survived
+   - [# 222] CRP pipes: [0.06739 s] survived
+   - [# 223] CRP pipes: [0.06530 s] survived
+   - [# 224] CRP pipes: [0.06441 s] survived
+   - [# 225] CRP pipes: [0.06766 s] survived
+   - [# 226] CRP pipes: [0.06758 s] survived
+   - [# 227] CRP pipes: [0.06746 s] survived
+   - [# 228] CRP pipes: [0.06567 s] survived
+   - [# 229] CRP pipes: [0.06519 s] survived
+   - [# 230] CRP pipes: [0.06702 s] survived
+   - [# 231] CRP pipes: [0.00869 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 232] CRP pipes: [0.04833 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 233] CRP pipes: [0.04772 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 234] CRP pipes: [0.04986 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 235] CRP pipes: [0.05003 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 236] CRP pipes: [0.04776 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 237] CRP pipes: [0.04776 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 238] CRP pipes: [0.06420 s] killed by testSimplePipe3 (test_pipes.SimplePipeTests)
+   - [# 239] CRP pipes: [0.04764 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 240] CRP pipes: [0.04981 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 241] CRP pipes: [0.05019 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 242] CRP pipes: [0.05132 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 243] CRP pipes: [0.04915 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 244] CRP pipes: [0.05402 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 245] CRP pipes: [0.07339 s] survived
+   - [# 246] CRP pipes: [0.27262 s] timeout
+   - [# 247] CRP pipes: [0.27485 s] timeout
+   - [# 248] CRP pipes: [0.03867 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 249] CRP pipes: [0.02466 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 250] CRP pipes: [0.01049 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 251] CRP pipes: [0.02246 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 252] CRP pipes: [0.02183 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 253] CRP pipes: [0.01843 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 254] CRP pipes: [0.01865 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 255] CRP pipes: [0.27296 s] timeout
+   - [# 256] CRP pipes: [0.01939 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 257] CRP pipes: [0.02558 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 258] CRP pipes: [0.07085 s] survived
+   - [# 259] CRP pipes: [0.06577 s] survived
+   - [# 260] CRP pipes: [0.06833 s] survived
+   - [# 261] CRP pipes: [0.06878 s] survived
+   - [# 262] CRP pipes: [0.06811 s] survived
+   - [# 263] CRP pipes: [0.06547 s] survived
+   - [# 264] CRP pipes: [0.06782 s] survived
+   - [# 265] CRP pipes: [0.06778 s] survived
+   - [# 266] CRP pipes: [0.06893 s] survived
+   - [# 267] CRP pipes: [0.06641 s] survived
+   - [# 268] CRP pipes: [0.06799 s] survived
+   - [# 269] CRP pipes: [0.06611 s] survived
+   - [# 270] CRP pipes: [0.07018 s] survived
+   - [# 271] CRP pipes: [0.06762 s] survived
+   - [# 272] CRP pipes: [0.06642 s] survived
+   - [# 273] CRP pipes: [0.06901 s] survived
+   - [# 274] CRP pipes: [0.07154 s] survived
+   - [# 275] CRP pipes: [0.06729 s] survived
+   - [# 276] CRP pipes: [0.06589 s] survived
+   - [# 277] CRP pipes: [0.06588 s] survived
+   - [# 278] CRP pipes: [0.06571 s] survived
+   - [# 279] CRP pipes: [0.06625 s] survived
+   - [# 280] CRP pipes: [0.06708 s] survived
+   - [# 281] CRP pipes: [0.06609 s] survived
+   - [# 282] CRP pipes: [0.06532 s] survived
+   - [# 283] CRP pipes: [0.06493 s] survived
+   - [# 284] CRP pipes: [0.06553 s] survived
+   - [# 285] CRP pipes: [0.06552 s] survived
+   - [# 286] CRP pipes: [0.06504 s] survived
+   - [# 287] LCR pipes: [0.00801 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 288] LCR pipes: [0.00734 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 289] LCR pipes: [0.00781 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 290] LCR pipes: [0.00821 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 291] LCR pipes: [0.00844 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 292] LCR pipes: [0.00794 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 293] LCR pipes: [0.08661 s] survived
+   - [# 294] LCR pipes: [0.07627 s] survived
+   - [# 295] LCR pipes: [0.06669 s] survived
+   - [# 296] LCR pipes: [0.03575 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [# 297] LCR pipes: [0.06365 s] killed by testSimplePipe3 (test_pipes.SimplePipeTests)
+   - [# 298] ROR pipes: [0.00780 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 299] ROR pipes: [0.00773 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 300] ROR pipes: [0.00727 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 301] ROR pipes: [0.00797 s] killed by testBadAppendOptions (test_pipes.SimplePipeTests)
+   - [# 302] ROR pipes: [0.00783 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 303] ROR pipes: [0.00816 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 304] ROR pipes: [0.00764 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 305] ROR pipes: [0.00788 s] killed by testBadPrependOptions (test_pipes.SimplePipeTests)
+   - [# 306] ROR pipes: [0.00827 s] killed by testBadOpenMode (test_pipes.SimplePipeTests)
+   - [# 307] ROR pipes: [0.00746 s] killed by testBadOpenMode (test_pipes.SimplePipeTests)
+   - [# 308] ROR pipes: [0.02739 s] killed by testReadOpenSink (test_pipes.SimplePipeTests)
+   - [# 309] ROR pipes: [0.02362 s] killed by testSimplePipe1 (test_pipes.SimplePipeTests)
+   - [# 310] ROR pipes: [0.06970 s] survived
+   - [# 311] ROR pipes: [0.07009 s] survived
+   - [# 312] ROR pipes: [0.06679 s] survived
+   - [# 313] ROR pipes: [0.06667 s] survived
+   - [# 314] ROR pipes: [0.04718 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 315] ROR pipes: [0.04811 s] killed by testSimplePipe2 (test_pipes.SimplePipeTests)
+   - [# 316] ROR pipes: [0.27252 s] timeout
+   - [# 317] ROR pipes: [0.02640 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 318] ROR pipes: [0.12186 s] survived
+   - [# 319] SIR pipes: [0.00934 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 320] SIR pipes: [0.00849 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 321] SIR pipes: [0.00892 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 322] SIR pipes: [0.00851 s] killed by testEmptyPipeline1 (test_pipes.SimplePipeTests)
+   - [# 323] SIR pipes: [0.08479 s] killed by testSimplePipe3 (test_pipes.SimplePipeTests)
+   - [# 324] SIR pipes: [0.06629 s] survived
+   - [# 325] SIR pipes: [0.06617 s] survived
+[*] Mutation score [22.67998 s]: 56.6%
+   - all: 325
+   - killed: 155 (47.7%)
+   - survived: 141 (43.4%)
+   - incompetent: 0 (0.0%)
+   - timeout: 29 (8.9%)

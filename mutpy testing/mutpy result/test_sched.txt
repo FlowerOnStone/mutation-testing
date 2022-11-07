@@ -1,0 +1,69 @@
+[*] Start mutation process:
+   - targets: sched.py
+   - tests: test_sched.py
+[*] 10 tests passed:
+   - test_sched [0.54969 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR sched: [0.05315 s] killed by test_enter (test_sched.TestCase)
+   - [#   2] AOR sched: [0.55564 s] survived
+   - [#   3] AOR sched: [0.01681 s] killed by test_cancel (test_sched.TestCase)
+   - [#   4] AOR sched: [0.75504 s] timeout
+   - [#   5] AOR sched: [0.75807 s] timeout
+   - [#   6] AOR sched: [0.75810 s] timeout
+   - [#   7] BCR sched: [0.75314 s] timeout
+   - [#   8] COD sched: [0.04973 s] killed by test_empty (test_sched.TestCase)
+   - [#   9] COD sched: [0.00818 s] killed by test_args_kwargs (test_sched.TestCase)
+   - [#  10] COD sched: [0.00813 s] killed by test_cancel (test_sched.TestCase)
+   - [#  11] COI sched: [0.75146 s] timeout
+   - [#  12] COI sched: [0.01498 s] killed by test_args_kwargs (test_sched.TestCase)
+   - [#  13] COI sched: [0.01143 s] killed by test_args_kwargs (test_sched.TestCase)
+   - [#  14] COI sched: [0.00982 s] killed by test_args_kwargs (test_sched.TestCase)
+   - [#  15] COI sched: [0.00820 s] killed by test_args_kwargs (test_sched.TestCase)
+   - [#  16] COI sched: [0.00801 s] killed by test_cancel (test_sched.TestCase)
+   - [#  17] CRP sched: [0.55331 s] survived
+   - [#  18] CRP sched: [0.56325 s] survived
+   - [#  19] CRP sched: [0.55962 s] survived
+   - [#  20] CRP sched: [0.00000 s] incompetent
+   - [#  21] CRP sched: [0.00000 s] incompetent
+   - [#  22] CRP sched: [0.00000 s] incompetent
+   - [#  23] CRP sched: [0.55452 s] survived
+   - [#  24] CRP sched: [0.55973 s] survived
+   - [#  25] CRP sched: [0.56085 s] survived
+   - [#  26] CRP sched: [0.56134 s] survived
+   - [#  27] CRP sched: [0.55964 s] survived
+   - [#  28] CRP sched: [0.55225 s] survived
+   - [#  29] CRP sched: [0.55307 s] survived
+   - [#  30] CRP sched: [0.55452 s] survived
+   - [#  31] CRP sched: [0.55988 s] survived
+   - [#  32] CRP sched: [0.55750 s] survived
+   - [#  33] CRP sched: [0.00779 s] killed by test_args_kwargs (test_sched.TestCase)
+   - [#  34] CRP sched: [0.75138 s] timeout
+   - [#  35] DDL sched: [0.55366 s] killed by test_queue (test_sched.TestCase)
+   - [#  36] IHD sched: [0.55226 s] survived
+   - [#  37] IOD sched: [0.55127 s] survived
+   - [#  38] IOD sched: [0.75179 s] timeout
+   - [#  39] IOD sched: [0.55489 s] survived
+   - [#  40] IOD sched: [0.55376 s] survived
+   - [#  41] IOD sched: [0.55322 s] survived
+   - [#  42] ROR sched: [0.05929 s] killed by test_cancel (test_sched.TestCase)
+   - [#  43] ROR sched: [0.04931 s] killed by test_cancel (test_sched.TestCase)
+   - [#  44] ROR sched: [0.55223 s] survived
+   - [#  45] ROR sched: [0.55420 s] survived
+   - [#  46] ROR sched: [0.56247 s] survived
+   - [#  47] ROR sched: [0.56116 s] survived
+   - [#  48] ROR sched: [0.55980 s] survived
+   - [#  49] ROR sched: [0.55594 s] survived
+   - [#  50] ROR sched: [0.56419 s] survived
+   - [#  51] ROR sched: [0.01286 s] killed by test_args_kwargs (test_sched.TestCase)
+   - [#  52] ROR sched: [0.75316 s] timeout
+   - [#  53] SCI sched: [0.55349 s] survived
+   - [#  54] SCI sched: [0.75668 s] timeout
+   - [#  55] SCI sched: [0.56161 s] survived
+   - [#  56] SCI sched: [0.55856 s] survived
+   - [#  57] SCI sched: [0.55864 s] survived
+[*] Mutation score [25.59603 s]: 44.4%
+   - all: 57
+   - killed: 15 (26.3%)
+   - survived: 30 (52.6%)
+   - incompetent: 3 (5.3%)
+   - timeout: 9 (15.8%)

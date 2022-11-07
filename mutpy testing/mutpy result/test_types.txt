@@ -1,0 +1,118 @@
+[*] Start mutation process:
+   - targets: types.py
+   - tests: test_types.py
+[*] 76 tests passed:
+   - test_types [0.01297 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR types: [0.01030 s] killed by test_new_class_with_mro_entry_multiple (test_types.ClassCreationTests)
+   - [#   2] AOR types: [0.22108 s] timeout
+   - [#   3] AOR types: [0.22504 s] timeout
+   - [#   4] AOR types: [0.22532 s] timeout
+   - [#   5] ASR types: [0.22095 s] timeout
+   - [#   6] BCR types: [0.22141 s] timeout
+   - [#   7] BCR types: [0.02509 s] survived
+   - [#   8] BCR types: [0.00886 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#   9] BCR types: [0.01789 s] survived
+   - [#  10] COD types: [0.00906 s] killed by test_metaclass_override_callable (test_types.ClassCreationTests)
+   - [#  11] COD types: [0.22107 s] timeout
+   - [#  12] COD types: [0.01558 s] killed by test_new_class_metaclass_keywords (test_types.ClassCreationTests)
+   - [#  13] COD types: [0.22139 s] timeout
+   - [#  14] COD types: [0.01382 s] killed by test_duck_corogen (test_types.CoroutineTests)
+   - [#  15] COI types: [0.22116 s] timeout
+   - [#  16] COI types: [0.01653 s] killed by test_new_class_metaclass_keywords (test_types.ClassCreationTests)
+   - [#  17] COI types: [0.22104 s] timeout
+   - [#  18] COI types: [0.01606 s] killed by test_metaclass_override_callable (test_types.ClassCreationTests)
+   - [#  19] COI types: [0.22135 s] timeout
+   - [#  20] COI types: [0.01718 s] killed by test_new_class_metaclass_keywords (test_types.ClassCreationTests)
+   - [#  21] COI types: [0.00899 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  22] COI types: [0.22117 s] timeout
+   - [#  23] COI types: [0.22634 s] timeout
+   - [#  24] COI types: [0.22569 s] timeout
+   - [#  25] COI types: [0.02022 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  26] COI types: [0.01594 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  27] COI types: [0.01241 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  28] COI types: [0.22254 s] timeout
+   - [#  29] COI types: [0.03917 s] survived
+   - [#  30] COI types: [0.02213 s] survived
+   - [#  31] COI types: [0.01738 s] survived
+   - [#  32] COI types: [0.01729 s] survived
+   - [#  33] COI types: [0.01704 s] survived
+   - [#  34] COI types: [0.01087 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  35] COI types: [0.22154 s] timeout
+   - [#  36] COI types: [0.02131 s] killed by test_async_def (test_types.CoroutineTests)
+   - [#  37] COI types: [0.01397 s] killed by test_async_def (test_types.CoroutineTests)
+   - [#  38] COI types: [0.01157 s] killed by test_duck_functional_gen (test_types.CoroutineTests)
+   - [#  39] COI types: [0.00990 s] killed by test_duck_functional_gen (test_types.CoroutineTests)
+   - [#  40] COI types: [0.00912 s] killed by test_duck_coro (test_types.CoroutineTests)
+   - [#  41] CRP types: [0.01771 s] survived
+   - [#  42] CRP types: [0.00000 s] incompetent
+   - [#  43] CRP types: [0.00000 s] incompetent
+   - [#  44] CRP types: [0.00000 s] incompetent
+   - [#  45] CRP types: [0.00868 s] killed by test_new_class_with_mro_entry (test_types.ClassCreationTests)
+   - [#  46] CRP types: [0.00887 s] killed by test_new_class_with_mro_entry (test_types.ClassCreationTests)
+   - [#  47] CRP types: [0.22183 s] timeout
+   - [#  48] CRP types: [0.23114 s] timeout
+   - [#  49] CRP types: [0.22888 s] timeout
+   - [#  50] CRP types: [0.04352 s] survived
+   - [#  51] CRP types: [0.02382 s] survived
+   - [#  52] CRP types: [0.22184 s] timeout
+   - [#  53] CRP types: [0.22560 s] timeout
+   - [#  54] CRP types: [0.22779 s] timeout
+   - [#  55] CRP types: [0.23059 s] timeout
+   - [#  56] CRP types: [0.02104 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  57] CRP types: [0.01512 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  58] CRP types: [0.01215 s] killed by test_new_class_subclass (test_types.ClassCreationTests)
+   - [#  59] CRP types: [0.00929 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  60] CRP types: [0.00803 s] killed by test_metaclass_derivation (test_types.ClassCreationTests)
+   - [#  61] CRP types: [0.01685 s] survived
+   - [#  62] CRP types: [0.01710 s] survived
+   - [#  63] CRP types: [0.01702 s] survived
+   - [#  64] CRP types: [0.01723 s] survived
+   - [#  65] CRP types: [0.01678 s] survived
+   - [#  66] CRP types: [0.01702 s] survived
+   - [#  67] CRP types: [0.01698 s] survived
+   - [#  68] CRP types: [0.01716 s] survived
+   - [#  69] CRP types: [0.01713 s] survived
+   - [#  70] CRP types: [0.01694 s] survived
+   - [#  71] CRP types: [0.01079 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  72] CRP types: [0.00980 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  73] CRP types: [0.01033 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  74] CRP types: [0.01006 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  75] CRP types: [0.01169 s] killed by test_wrong_args (test_types.CoroutineTests)
+   - [#  76] CRP types: [0.01228 s] killed by test_wrong_args (test_types.CoroutineTests)
+   - [#  77] CRP types: [0.00884 s] killed by test_async_def (test_types.CoroutineTests)
+   - [#  78] CRP types: [0.00912 s] killed by test_async_def (test_types.CoroutineTests)
+   - [#  79] CRP types: [0.00916 s] killed by test_duck_functional_gen (test_types.CoroutineTests)
+   - [#  80] CRP types: [0.00954 s] killed by test_duck_functional_gen (test_types.CoroutineTests)
+   - [#  81] CRP types: [0.01707 s] survived
+   - [#  82] CRP types: [0.01188 s] killed by test_gen (test_types.CoroutineTests)
+   - [#  83] CRP types: [0.01693 s] survived
+   - [#  84] CRP types: [0.01662 s] survived
+   - [#  85] CRP types: [0.01702 s] survived
+   - [#  86] DDL types: [0.01036 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  87] DDL types: [0.01049 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  88] DDL types: [0.01047 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  89] DDL types: [0.01050 s] killed by test_duck_gen (test_types.CoroutineTests)
+   - [#  90] DDL types: [0.01697 s] survived
+   - [#  91] EHD types: [0.00000 s] incompetent
+   - [#  92] EXS types: [0.01726 s] survived
+   - [#  93] LCR types: [0.01740 s] survived
+   - [#  94] LCR types: [0.01722 s] survived
+   - [#  95] LCR types: [0.01684 s] survived
+   - [#  96] LCR types: [0.01204 s] killed by test_returning_itercoro (test_types.CoroutineTests)
+   - [#  97] LCR types: [0.00980 s] killed by test_duck_coro (test_types.CoroutineTests)
+   - [#  98] LCR types: [0.00962 s] killed by test_duck_corogen (test_types.CoroutineTests)
+   - [#  99] LOR types: [0.00994 s] killed by test_duck_functional_gen (test_types.CoroutineTests)
+   - [# 100] LOR types: [0.00907 s] killed by test_duck_functional_gen (test_types.CoroutineTests)
+   - [# 101] LOR types: [0.01188 s] killed by test_genfunc (test_types.CoroutineTests)
+   - [# 102] LOR types: [0.01166 s] killed by test_gen (test_types.CoroutineTests)
+   - [# 103] ROR types: [0.01726 s] survived
+   - [# 104] SIR types: [0.01000 s] killed by test_new_class_with_mro_entry_multiple (test_types.ClassCreationTests)
+   - [# 105] SIR types: [0.00935 s] killed by test_new_class_with_mro_entry_multiple_2 (test_types.ClassCreationTests)
+   - [# 106] SIR types: [0.01766 s] survived
+[*] Mutation score [7.27727 s]: 69.6%
+   - all: 106
+   - killed: 49 (46.2%)
+   - survived: 31 (29.2%)
+   - incompetent: 4 (3.8%)
+   - timeout: 22 (20.8%)

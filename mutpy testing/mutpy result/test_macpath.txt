@@ -1,0 +1,237 @@
+[*] Start mutation process:
+   - targets: macpath.py
+   - tests: test_macpath.py
+[*] 33 tests passed:
+   - test_macpath [0.08983 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD macpath: [0.05540 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#   2] AOD macpath: [0.05654 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#   3] AOD macpath: [0.05746 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#   4] AOR macpath: [0.05719 s] survived
+   - [#   5] AOR macpath: [0.29672 s] timeout
+   - [#   6] AOR macpath: [0.05661 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#   7] AOR macpath: [0.29672 s] timeout
+   - [#   8] AOR macpath: [0.29947 s] timeout
+   - [#   9] AOR macpath: [0.05525 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  10] AOR macpath: [0.05329 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  11] AOR macpath: [0.05426 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [#  12] AOR macpath: [0.29645 s] timeout
+   - [#  13] AOR macpath: [0.29654 s] timeout
+   - [#  14] AOR macpath: [0.05549 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [#  15] AOR macpath: [0.05501 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  16] AOR macpath: [0.29606 s] timeout
+   - [#  17] AOR macpath: [0.29587 s] timeout
+   - [#  18] AOR macpath: [0.05575 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  19] AOR macpath: [0.05784 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  20] AOR macpath: [0.05638 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  21] AOR macpath: [0.29665 s] timeout
+   - [#  22] AOR macpath: [0.29961 s] timeout
+   - [#  23] AOR macpath: [0.29870 s] timeout
+   - [#  24] AOR macpath: [0.05920 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  25] AOR macpath: [0.05699 s] survived
+   - [#  26] BCR macpath: [0.05612 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#  27] COD macpath: [0.05652 s] survived
+   - [#  28] COD macpath: [0.05691 s] survived
+   - [#  29] COD macpath: [0.05810 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#  30] COD macpath: [0.05673 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#  31] COD macpath: [0.05612 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  32] COD macpath: [0.05544 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [#  33] COD macpath: [0.05362 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  34] COD macpath: [0.05478 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  35] COD macpath: [0.05444 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [#  36] COD macpath: [0.05512 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  37] COD macpath: [0.05351 s] survived
+   - [#  38] COD macpath: [0.05340 s] survived
+   - [#  39] COI macpath: [0.29654 s] timeout
+   - [#  40] COI macpath: [0.05680 s] survived
+   - [#  41] COI macpath: [0.05452 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [#  42] COI macpath: [0.05634 s] survived
+   - [#  43] COI macpath: [0.05505 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#  44] COI macpath: [0.05693 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#  45] COI macpath: [0.05372 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#  46] COI macpath: [0.05233 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [#  47] COI macpath: [0.05276 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  48] COI macpath: [0.05359 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  49] COI macpath: [0.05309 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [#  50] COI macpath: [0.05277 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [#  51] COI macpath: [0.29731 s] timeout
+   - [#  52] COI macpath: [0.08156 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [#  53] COI macpath: [0.05370 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [#  54] COI macpath: [0.05275 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [#  55] COI macpath: [0.05274 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  56] COI macpath: [0.05607 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [#  57] COI macpath: [0.05332 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [#  58] COI macpath: [0.05220 s] survived
+   - [#  59] COI macpath: [0.05228 s] survived
+   - [#  60] COI macpath: [0.05173 s] survived
+   - [#  61] CRP macpath: [0.05299 s] survived
+   - [#  62] CRP macpath: [0.05233 s] survived
+   - [#  63] CRP macpath: [0.05434 s] survived
+   - [#  64] CRP macpath: [0.05352 s] survived
+   - [#  65] CRP macpath: [0.05497 s] killed by test_splitext (test_macpath.MacPathTestCase)
+   - [#  66] CRP macpath: [0.05289 s] killed by test_splitext (test_macpath.MacPathTestCase)
+   - [#  67] CRP macpath: [0.05284 s] killed by test_splitext (test_macpath.MacPathTestCase)
+   - [#  68] CRP macpath: [0.05293 s] killed by test_splitext (test_macpath.MacPathTestCase)
+   - [#  69] CRP macpath: [0.05370 s] survived
+   - [#  70] CRP macpath: [0.05324 s] survived
+   - [#  71] CRP macpath: [0.05215 s] survived
+   - [#  72] CRP macpath: [0.05406 s] survived
+   - [#  73] CRP macpath: [0.05474 s] survived
+   - [#  74] CRP macpath: [0.05679 s] survived
+   - [#  75] CRP macpath: [0.05501 s] survived
+   - [#  76] CRP macpath: [0.05414 s] survived
+   - [#  77] CRP macpath: [0.05249 s] survived
+   - [#  78] CRP macpath: [0.05257 s] survived
+   - [#  79] CRP macpath: [0.05238 s] survived
+   - [#  80] CRP macpath: [0.05191 s] survived
+   - [#  81] CRP macpath: [0.05260 s] survived
+   - [#  82] CRP macpath: [0.05327 s] survived
+   - [#  83] CRP macpath: [0.05246 s] survived
+   - [#  84] CRP macpath: [0.05344 s] survived
+   - [#  85] CRP macpath: [0.05588 s] survived
+   - [#  86] CRP macpath: [0.05643 s] survived
+   - [#  87] CRP macpath: [0.05480 s] survived
+   - [#  88] CRP macpath: [0.05420 s] survived
+   - [#  89] CRP macpath: [0.05453 s] survived
+   - [#  90] CRP macpath: [0.05592 s] survived
+   - [#  91] CRP macpath: [0.05479 s] survived
+   - [#  92] CRP macpath: [0.05731 s] survived
+   - [#  93] CRP macpath: [0.05506 s] survived
+   - [#  94] CRP macpath: [0.05240 s] survived
+   - [#  95] CRP macpath: [0.05362 s] survived
+   - [#  96] CRP macpath: [0.05496 s] survived
+   - [#  97] CRP macpath: [0.05701 s] survived
+   - [#  98] CRP macpath: [0.05573 s] survived
+   - [#  99] CRP macpath: [0.05588 s] survived
+   - [# 100] CRP macpath: [0.05645 s] survived
+   - [# 101] CRP macpath: [0.05716 s] survived
+   - [# 102] CRP macpath: [0.05587 s] survived
+   - [# 103] CRP macpath: [0.05407 s] survived
+   - [# 104] CRP macpath: [0.05417 s] survived
+   - [# 105] CRP macpath: [0.05420 s] survived
+   - [# 106] CRP macpath: [0.05533 s] survived
+   - [# 107] CRP macpath: [0.05614 s] survived
+   - [# 108] CRP macpath: [0.05585 s] survived
+   - [# 109] CRP macpath: [0.05593 s] survived
+   - [# 110] CRP macpath: [0.05433 s] survived
+   - [# 111] CRP macpath: [0.05413 s] survived
+   - [# 112] CRP macpath: [0.05484 s] survived
+   - [# 113] CRP macpath: [0.05267 s] survived
+   - [# 114] CRP macpath: [0.05530 s] survived
+   - [# 115] CRP macpath: [0.05614 s] survived
+   - [# 116] CRP macpath: [0.05457 s] survived
+   - [# 117] CRP macpath: [0.05406 s] survived
+   - [# 118] CRP macpath: [0.05421 s] survived
+   - [# 119] CRP macpath: [0.05435 s] survived
+   - [# 120] CRP macpath: [0.05436 s] survived
+   - [# 121] CRP macpath: [0.05464 s] survived
+   - [# 122] CRP macpath: [0.05340 s] survived
+   - [# 123] CRP macpath: [0.05464 s] survived
+   - [# 124] CRP macpath: [0.05603 s] survived
+   - [# 125] CRP macpath: [0.05602 s] survived
+   - [# 126] CRP macpath: [0.05643 s] survived
+   - [# 127] CRP macpath: [0.05669 s] survived
+   - [# 128] CRP macpath: [0.05858 s] survived
+   - [# 129] CRP macpath: [0.05643 s] survived
+   - [# 130] CRP macpath: [0.05413 s] survived
+   - [# 131] CRP macpath: [0.05304 s] survived
+   - [# 132] CRP macpath: [0.05355 s] survived
+   - [# 133] CRP macpath: [0.05649 s] survived
+   - [# 134] CRP macpath: [0.05747 s] survived
+   - [# 135] CRP macpath: [0.05651 s] survived
+   - [# 136] CRP macpath: [0.05645 s] survived
+   - [# 137] CRP macpath: [0.05625 s] survived
+   - [# 138] CRP macpath: [0.05697 s] survived
+   - [# 139] CRP macpath: [0.05574 s] survived
+   - [# 140] CRP macpath: [0.05575 s] survived
+   - [# 141] CRP macpath: [0.05424 s] survived
+   - [# 142] CRP macpath: [0.05833 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [# 143] CRP macpath: [0.05832 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [# 144] CRP macpath: [0.05665 s] survived
+   - [# 145] CRP macpath: [0.05689 s] survived
+   - [# 146] CRP macpath: [0.05632 s] killed by test_isabs (test_macpath.MacPathTestCase)
+   - [# 147] CRP macpath: [0.05618 s] survived
+   - [# 148] CRP macpath: [0.05802 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 149] CRP macpath: [0.05741 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 150] CRP macpath: [0.05467 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 151] CRP macpath: [0.05669 s] survived
+   - [# 152] CRP macpath: [0.05581 s] survived
+   - [# 153] CRP macpath: [0.05547 s] survived
+   - [# 154] CRP macpath: [0.05660 s] survived
+   - [# 155] CRP macpath: [0.05702 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [# 156] CRP macpath: [0.05648 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 157] CRP macpath: [0.05693 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [# 158] CRP macpath: [0.05744 s] survived
+   - [# 159] CRP macpath: [0.05672 s] survived
+   - [# 160] CRP macpath: [0.05597 s] survived
+   - [# 161] CRP macpath: [0.05571 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 162] CRP macpath: [0.05599 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 163] CRP macpath: [0.05350 s] survived
+   - [# 164] CRP macpath: [0.05379 s] survived
+   - [# 165] CRP macpath: [0.05457 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 166] CRP macpath: [0.05523 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 167] CRP macpath: [0.05412 s] survived
+   - [# 168] CRP macpath: [0.05651 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 169] CRP macpath: [0.05529 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 170] CRP macpath: [0.05493 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 171] CRP macpath: [0.05398 s] survived
+   - [# 172] CRP macpath: [0.05491 s] survived
+   - [# 173] CRP macpath: [0.05340 s] survived
+   - [# 174] CRP macpath: [0.05459 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 175] CRP macpath: [0.05418 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 176] CRP macpath: [0.05558 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 177] CRP macpath: [0.05643 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 178] CRP macpath: [0.05549 s] survived
+   - [# 179] CRP macpath: [0.05262 s] survived
+   - [# 180] CRP macpath: [0.05505 s] survived
+   - [# 181] CRP macpath: [0.05539 s] survived
+   - [# 182] EHD macpath: [0.05513 s] survived
+   - [# 183] EHD macpath: [0.05561 s] survived
+   - [# 184] EHD macpath: [0.05392 s] survived
+   - [# 185] EHD macpath: [0.05473 s] survived
+   - [# 186] EHD macpath: [0.05360 s] survived
+   - [# 187] EXS macpath: [0.05245 s] survived
+   - [# 188] EXS macpath: [0.05152 s] survived
+   - [# 189] EXS macpath: [0.05247 s] survived
+   - [# 190] EXS macpath: [0.05138 s] survived
+   - [# 191] LCR macpath: [0.05294 s] killed by test_isabs (test_macpath.MacPathTestCase)
+   - [# 192] LCR macpath: [0.05243 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 193] LCR macpath: [0.05384 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [# 194] LCR macpath: [0.05255 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 195] LCR macpath: [0.05361 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 196] LCR macpath: [0.05292 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [# 197] ROR macpath: [0.05262 s] killed by test_abspath (test_macpath.MacPathTestCase)
+   - [# 198] ROR macpath: [0.05446 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 199] ROR macpath: [0.05513 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 200] ROR macpath: [0.05444 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 201] ROR macpath: [0.05436 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 202] ROR macpath: [0.05278 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 203] ROR macpath: [0.05214 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 204] ROR macpath: [0.05263 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 205] ROR macpath: [0.05229 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 206] ROR macpath: [0.05315 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 207] ROR macpath: [0.05334 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 208] ROR macpath: [0.05300 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 209] ROR macpath: [0.05423 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 210] SIR macpath: [0.05488 s] killed by test_isabs (test_macpath.MacPathTestCase)
+   - [# 211] SIR macpath: [0.05471 s] survived
+   - [# 212] SIR macpath: [0.05336 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 213] SIR macpath: [0.05207 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 214] SIR macpath: [0.05427 s] killed by test_join (test_macpath.MacPathTestCase)
+   - [# 215] SIR macpath: [0.05314 s] survived
+   - [# 216] SIR macpath: [0.05320 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 217] SIR macpath: [0.05377 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [# 218] SIR macpath: [0.05296 s] killed by test_split (test_macpath.MacPathTestCase)
+   - [# 219] SIR macpath: [0.05258 s] killed by test_ismount (test_macpath.MacPathTestCase)
+   - [# 220] SIR macpath: [0.05295 s] survived
+   - [# 221] SIR macpath: [0.05241 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 222] SIR macpath: [0.05272 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 223] SIR macpath: [0.05192 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 224] SIR macpath: [0.05338 s] killed by test_normpath (test_macpath.MacPathTestCase)
+   - [# 225] SIR macpath: [0.05378 s] survived
+[*] Mutation score [16.38518 s]: 46.2%
+   - all: 225
+   - killed: 92 (40.9%)
+   - survived: 121 (53.8%)
+   - incompetent: 0 (0.0%)
+   - timeout: 12 (5.3%)

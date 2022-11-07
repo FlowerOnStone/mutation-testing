@@ -1,0 +1,6 @@
+[*] Start mutation process:
+   - targets: pkgutil.py
+   - tests: test_pkgutil.py
+[*] 23 tests passed:
+   - test_pkgutil [0.01777 s]
+[*] Start mutants generation and execution:

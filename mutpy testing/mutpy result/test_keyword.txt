@@ -1,0 +1,143 @@
+[*] Start mutation process:
+   - targets: keyword.py
+   - tests: test_keyword.py
+[*] 9 tests passed:
+   - test_keyword [0.24227 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR keyword: [0.25299 s] survived
+   - [#   2] AOR keyword: [0.26558 s] survived
+   - [#   3] AOR keyword: [0.24861 s] survived
+   - [#   4] AOR keyword: [0.24399 s] survived
+   - [#   5] AOR keyword: [0.24399 s] survived
+   - [#   6] AOR keyword: [0.23860 s] survived
+   - [#   7] COI keyword: [0.23554 s] survived
+   - [#   8] COI keyword: [0.23894 s] survived
+   - [#   9] COI keyword: [0.23608 s] survived
+   - [#  10] COI keyword: [0.25428 s] survived
+   - [#  11] COI keyword: [0.00000 s] incompetent
+   - [#  12] CRP keyword: [0.24664 s] survived
+   - [#  13] CRP keyword: [0.24036 s] survived
+   - [#  14] CRP keyword: [0.23181 s] survived
+   - [#  15] CRP keyword: [0.24151 s] survived
+   - [#  16] CRP keyword: [0.24137 s] survived
+   - [#  17] CRP keyword: [0.23989 s] survived
+   - [#  18] CRP keyword: [0.24829 s] survived
+   - [#  19] CRP keyword: [0.25249 s] survived
+   - [#  20] CRP keyword: [0.24823 s] killed by test_true_is_a_keyword (test_keyword.Test_iskeyword)
+   - [#  21] CRP keyword: [0.24053 s] killed by test_true_is_a_keyword (test_keyword.Test_iskeyword)
+   - [#  22] CRP keyword: [0.24023 s] survived
+   - [#  23] CRP keyword: [0.23510 s] survived
+   - [#  24] CRP keyword: [0.24078 s] survived
+   - [#  25] CRP keyword: [0.24128 s] survived
+   - [#  26] CRP keyword: [0.24129 s] survived
+   - [#  27] CRP keyword: [0.25190 s] survived
+   - [#  28] CRP keyword: [0.24557 s] survived
+   - [#  29] CRP keyword: [0.24977 s] survived
+   - [#  30] CRP keyword: [0.24747 s] survived
+   - [#  31] CRP keyword: [0.25424 s] survived
+   - [#  32] CRP keyword: [0.25324 s] survived
+   - [#  33] CRP keyword: [0.23939 s] survived
+   - [#  34] CRP keyword: [0.23598 s] survived
+   - [#  35] CRP keyword: [0.23571 s] survived
+   - [#  36] CRP keyword: [0.24301 s] survived
+   - [#  37] CRP keyword: [0.25221 s] survived
+   - [#  38] CRP keyword: [0.25110 s] survived
+   - [#  39] CRP keyword: [0.23119 s] survived
+   - [#  40] CRP keyword: [0.23803 s] survived
+   - [#  41] CRP keyword: [0.23054 s] survived
+   - [#  42] CRP keyword: [0.22935 s] survived
+   - [#  43] CRP keyword: [0.22813 s] survived
+   - [#  44] CRP keyword: [0.22864 s] survived
+   - [#  45] CRP keyword: [0.23706 s] survived
+   - [#  46] CRP keyword: [0.23160 s] survived
+   - [#  47] CRP keyword: [0.22691 s] survived
+   - [#  48] CRP keyword: [0.23332 s] survived
+   - [#  49] CRP keyword: [0.22968 s] survived
+   - [#  50] CRP keyword: [0.25358 s] survived
+   - [#  51] CRP keyword: [0.22837 s] survived
+   - [#  52] CRP keyword: [0.23054 s] survived
+   - [#  53] CRP keyword: [0.23392 s] survived
+   - [#  54] CRP keyword: [0.23449 s] survived
+   - [#  55] CRP keyword: [0.22841 s] survived
+   - [#  56] CRP keyword: [0.22934 s] survived
+   - [#  57] CRP keyword: [0.22448 s] survived
+   - [#  58] CRP keyword: [0.22423 s] survived
+   - [#  59] CRP keyword: [0.22688 s] survived
+   - [#  60] CRP keyword: [0.22540 s] survived
+   - [#  61] CRP keyword: [0.22603 s] survived
+   - [#  62] CRP keyword: [0.23143 s] survived
+   - [#  63] CRP keyword: [0.23260 s] survived
+   - [#  64] CRP keyword: [0.22566 s] survived
+   - [#  65] CRP keyword: [0.22600 s] survived
+   - [#  66] CRP keyword: [0.22537 s] survived
+   - [#  67] CRP keyword: [0.22935 s] survived
+   - [#  68] CRP keyword: [0.22518 s] survived
+   - [#  69] CRP keyword: [0.23049 s] survived
+   - [#  70] CRP keyword: [0.22511 s] survived
+   - [#  71] CRP keyword: [0.22509 s] survived
+   - [#  72] CRP keyword: [0.22431 s] survived
+   - [#  73] CRP keyword: [0.22719 s] survived
+   - [#  74] CRP keyword: [0.22433 s] survived
+   - [#  75] CRP keyword: [0.22520 s] survived
+   - [#  76] CRP keyword: [0.22449 s] survived
+   - [#  77] CRP keyword: [0.23178 s] survived
+   - [#  78] CRP keyword: [0.22516 s] survived
+   - [#  79] CRP keyword: [0.22518 s] survived
+   - [#  80] CRP keyword: [0.22722 s] survived
+   - [#  81] CRP keyword: [0.22656 s] survived
+   - [#  82] CRP keyword: [0.22850 s] survived
+   - [#  83] CRP keyword: [0.23116 s] survived
+   - [#  84] CRP keyword: [0.22442 s] survived
+   - [#  85] CRP keyword: [0.22422 s] survived
+   - [#  86] CRP keyword: [0.22933 s] survived
+   - [#  87] CRP keyword: [0.22469 s] survived
+   - [#  88] CRP keyword: [0.23113 s] survived
+   - [#  89] CRP keyword: [0.22479 s] survived
+   - [#  90] CRP keyword: [0.22736 s] survived
+   - [#  91] CRP keyword: [0.22669 s] survived
+   - [#  92] CRP keyword: [0.22508 s] survived
+   - [#  93] CRP keyword: [0.22931 s] survived
+   - [#  94] CRP keyword: [0.23317 s] survived
+   - [#  95] CRP keyword: [0.22426 s] survived
+   - [#  96] CRP keyword: [0.23014 s] survived
+   - [#  97] CRP keyword: [0.22443 s] survived
+   - [#  98] CRP keyword: [0.23436 s] survived
+   - [#  99] CRP keyword: [0.23273 s] survived
+   - [# 100] CRP keyword: [0.23267 s] survived
+   - [# 101] CRP keyword: [0.22911 s] survived
+   - [# 102] CRP keyword: [0.23101 s] survived
+   - [# 103] CRP keyword: [0.23461 s] survived
+   - [# 104] CRP keyword: [0.22785 s] survived
+   - [# 105] CRP keyword: [0.22684 s] survived
+   - [# 106] CRP keyword: [0.23360 s] survived
+   - [# 107] CRP keyword: [0.22763 s] survived
+   - [# 108] CRP keyword: [0.22689 s] survived
+   - [# 109] CRP keyword: [0.23362 s] survived
+   - [# 110] CRP keyword: [0.22746 s] survived
+   - [# 111] CRP keyword: [0.22874 s] survived
+   - [# 112] CRP keyword: [0.22854 s] survived
+   - [# 113] CRP keyword: [0.22817 s] survived
+   - [# 114] CRP keyword: [0.22791 s] survived
+   - [# 115] CRP keyword: [0.23059 s] survived
+   - [# 116] CRP keyword: [0.22866 s] survived
+   - [# 117] CRP keyword: [0.27202 s] survived
+   - [# 118] CRP keyword: [0.24901 s] survived
+   - [# 119] CRP keyword: [0.23114 s] survived
+   - [# 120] CRP keyword: [0.22490 s] survived
+   - [# 121] EHD keyword: [0.22523 s] survived
+   - [# 122] EXS keyword: [0.22377 s] survived
+   - [# 123] LCR keyword: [0.22403 s] survived
+   - [# 124] LCR keyword: [0.23312 s] survived
+   - [# 125] ROR keyword: [0.23197 s] survived
+   - [# 126] ROR keyword: [0.23065 s] survived
+   - [# 127] ROR keyword: [0.00000 s] incompetent
+   - [# 128] SIR keyword: [0.23236 s] survived
+   - [# 129] SIR keyword: [0.22648 s] survived
+   - [# 130] SIR keyword: [0.23021 s] survived
+   - [# 131] SIR keyword: [0.22937 s] survived
+[*] Mutation score [30.81340 s]: 1.6%
+   - all: 131
+   - killed: 2 (1.5%)
+   - survived: 127 (96.9%)
+   - incompetent: 2 (1.5%)
+   - timeout: 0 (0.0%)

@@ -1,0 +1,168 @@
+[*] Start mutation process:
+   - targets: __future__.py
+   - tests: test___future__.py
+[*] 2 tests passed:
+   - test___future__ [0.00039 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR __future__: [0.00000 s] incompetent
+   - [#   2] AOR __future__: [0.00689 s] survived
+   - [#   3] CRP __future__: [0.00615 s] survived
+   - [#   4] CRP __future__: [0.00552 s] survived
+   - [#   5] CRP __future__: [0.00561 s] survived
+   - [#   6] CRP __future__: [0.00615 s] survived
+   - [#   7] CRP __future__: [0.00604 s] survived
+   - [#   8] CRP __future__: [0.00593 s] survived
+   - [#   9] CRP __future__: [0.00648 s] survived
+   - [#  10] CRP __future__: [0.00617 s] survived
+   - [#  11] CRP __future__: [0.00588 s] survived
+   - [#  12] CRP __future__: [0.00626 s] survived
+   - [#  13] CRP __future__: [0.00599 s] survived
+   - [#  14] CRP __future__: [0.00567 s] survived
+   - [#  15] CRP __future__: [0.00557 s] survived
+   - [#  16] CRP __future__: [0.00601 s] survived
+   - [#  17] CRP __future__: [0.00575 s] survived
+   - [#  18] CRP __future__: [0.00565 s] survived
+   - [#  19] CRP __future__: [0.00632 s] survived
+   - [#  20] CRP __future__: [0.00582 s] survived
+   - [#  21] CRP __future__: [0.00576 s] survived
+   - [#  22] CRP __future__: [0.00623 s] survived
+   - [#  23] CRP __future__: [0.00571 s] survived
+   - [#  24] CRP __future__: [0.00590 s] survived
+   - [#  25] CRP __future__: [0.00641 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  26] CRP __future__: [0.00599 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  27] CRP __future__: [0.00651 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  28] CRP __future__: [0.00625 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  29] CRP __future__: [0.00609 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  30] CRP __future__: [0.00617 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  31] CRP __future__: [0.00670 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  32] CRP __future__: [0.00595 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  33] CRP __future__: [0.00609 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  34] CRP __future__: [0.00679 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  35] CRP __future__: [0.00566 s] survived
+   - [#  36] CRP __future__: [0.00635 s] survived
+   - [#  37] CRP __future__: [0.00626 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  38] CRP __future__: [0.00606 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  39] CRP __future__: [0.00619 s] survived
+   - [#  40] CRP __future__: [0.00652 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  41] CRP __future__: [0.00597 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  42] CRP __future__: [0.00621 s] survived
+   - [#  43] CRP __future__: [0.00623 s] survived
+   - [#  44] CRP __future__: [0.00556 s] survived
+   - [#  45] CRP __future__: [0.00620 s] survived
+   - [#  46] CRP __future__: [0.00610 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  47] CRP __future__: [0.00593 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  48] CRP __future__: [0.00625 s] survived
+   - [#  49] CRP __future__: [0.00623 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  50] CRP __future__: [0.00574 s] survived
+   - [#  51] CRP __future__: [0.00595 s] survived
+   - [#  52] CRP __future__: [0.00659 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  53] CRP __future__: [0.00595 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  54] CRP __future__: [0.00629 s] survived
+   - [#  55] CRP __future__: [0.00594 s] survived
+   - [#  56] CRP __future__: [0.00555 s] survived
+   - [#  57] CRP __future__: [0.00612 s] survived
+   - [#  58] CRP __future__: [0.00625 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  59] CRP __future__: [0.00634 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  60] CRP __future__: [0.00612 s] survived
+   - [#  61] CRP __future__: [0.00631 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  62] CRP __future__: [0.00587 s] survived
+   - [#  63] CRP __future__: [0.00619 s] survived
+   - [#  64] CRP __future__: [0.00632 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  65] CRP __future__: [0.00603 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  66] CRP __future__: [0.00636 s] survived
+   - [#  67] CRP __future__: [0.00622 s] survived
+   - [#  68] CRP __future__: [0.00558 s] survived
+   - [#  69] CRP __future__: [0.00618 s] survived
+   - [#  70] CRP __future__: [0.00628 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  71] CRP __future__: [0.00615 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  72] CRP __future__: [0.00620 s] survived
+   - [#  73] CRP __future__: [0.00664 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  74] CRP __future__: [0.00587 s] survived
+   - [#  75] CRP __future__: [0.00605 s] survived
+   - [#  76] CRP __future__: [0.00649 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  77] CRP __future__: [0.00623 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  78] CRP __future__: [0.00671 s] survived
+   - [#  79] CRP __future__: [0.00611 s] survived
+   - [#  80] CRP __future__: [0.00562 s] survived
+   - [#  81] CRP __future__: [0.00609 s] survived
+   - [#  82] CRP __future__: [0.00645 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  83] CRP __future__: [0.00611 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  84] CRP __future__: [0.00566 s] survived
+   - [#  85] CRP __future__: [0.00674 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  86] CRP __future__: [0.00618 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  87] CRP __future__: [0.00601 s] survived
+   - [#  88] CRP __future__: [0.00639 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  89] CRP __future__: [0.00587 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  90] CRP __future__: [0.00593 s] survived
+   - [#  91] CRP __future__: [0.00615 s] survived
+   - [#  92] CRP __future__: [0.00566 s] survived
+   - [#  93] CRP __future__: [0.00563 s] survived
+   - [#  94] CRP __future__: [0.00666 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  95] CRP __future__: [0.00616 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  96] CRP __future__: [0.00583 s] survived
+   - [#  97] CRP __future__: [0.00726 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  98] CRP __future__: [0.00662 s] survived
+   - [#  99] CRP __future__: [0.00623 s] survived
+   - [# 100] CRP __future__: [0.00682 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 101] CRP __future__: [0.00625 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 102] CRP __future__: [0.00572 s] survived
+   - [# 103] CRP __future__: [0.00635 s] survived
+   - [# 104] CRP __future__: [0.00577 s] survived
+   - [# 105] CRP __future__: [0.00609 s] survived
+   - [# 106] CRP __future__: [0.00652 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 107] CRP __future__: [0.00626 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 108] CRP __future__: [0.00565 s] survived
+   - [# 109] CRP __future__: [0.00655 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 110] CRP __future__: [0.00569 s] survived
+   - [# 111] CRP __future__: [0.00555 s] survived
+   - [# 112] CRP __future__: [0.00686 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 113] CRP __future__: [0.00641 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 114] CRP __future__: [0.00572 s] survived
+   - [# 115] CRP __future__: [0.00669 s] survived
+   - [# 116] CRP __future__: [0.00571 s] survived
+   - [# 117] CRP __future__: [0.00561 s] survived
+   - [# 118] CRP __future__: [0.00686 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 119] CRP __future__: [0.00665 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 120] CRP __future__: [0.00562 s] survived
+   - [# 121] CRP __future__: [0.00659 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 122] CRP __future__: [0.00626 s] survived
+   - [# 123] CRP __future__: [0.00588 s] survived
+   - [# 124] CRP __future__: [0.00654 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 125] CRP __future__: [0.00631 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 126] CRP __future__: [0.00572 s] survived
+   - [# 127] CRP __future__: [0.00655 s] survived
+   - [# 128] CRP __future__: [0.00557 s] survived
+   - [# 129] CRP __future__: [0.00590 s] survived
+   - [# 130] CRP __future__: [0.00644 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 131] CRP __future__: [0.00976 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 132] CRP __future__: [0.00711 s] survived
+   - [# 133] CRP __future__: [0.00750 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 134] CRP __future__: [0.00770 s] survived
+   - [# 135] CRP __future__: [0.00705 s] survived
+   - [# 136] CRP __future__: [0.00744 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 137] CRP __future__: [0.00832 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 138] CRP __future__: [0.00699 s] survived
+   - [# 139] CRP __future__: [0.00788 s] survived
+   - [# 140] CRP __future__: [0.00722 s] survived
+   - [# 141] CRP __future__: [0.00690 s] survived
+   - [# 142] CRP __future__: [0.00772 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 143] CRP __future__: [0.01148 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 144] CRP __future__: [0.01315 s] survived
+   - [# 145] CRP __future__: [0.01685 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 146] CRP __future__: [0.01065 s] survived
+   - [# 147] CRP __future__: [0.00839 s] survived
+   - [# 148] CRP __future__: [0.00738 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 149] CRP __future__: [0.00760 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 150] CRP __future__: [0.00684 s] survived
+   - [# 151] CRP __future__: [0.00680 s] survived
+   - [# 152] CRP __future__: [0.00717 s] survived
+   - [# 153] CRP __future__: [0.00670 s] survived
+   - [# 154] CRP __future__: [0.00727 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 155] CRP __future__: [0.00730 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 156] CRP __future__: [0.00684 s] survived
+[*] Mutation score [1.39776 s]: 40.0%
+   - all: 156
+   - killed: 62 (39.7%)
+   - survived: 93 (59.6%)
+   - incompetent: 1 (0.6%)
+   - timeout: 0 (0.0%)

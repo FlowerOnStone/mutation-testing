@@ -1,0 +1,602 @@
+[*] Start mutation process:
+   - targets: pstats.py
+   - tests: test_pstats.py
+[*] 7 tests passed:
+   - test_pstats [0.03979 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD pstats: [0.04698 s] survived
+   - [#   2] AOD pstats: [0.04652 s] survived
+   - [#   3] AOD pstats: [0.04636 s] survived
+   - [#   4] AOD pstats: [0.04643 s] survived
+   - [#   5] AOD pstats: [0.04628 s] survived
+   - [#   6] AOD pstats: [0.04596 s] survived
+   - [#   7] AOD pstats: [0.04663 s] survived
+   - [#   8] AOD pstats: [0.04630 s] survived
+   - [#   9] AOD pstats: [0.03118 s] killed by test_sort_stats_partial (test_pstats.StatsTestCase)
+   - [#  10] AOD pstats: [0.02638 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [#  11] AOD pstats: [0.04605 s] survived
+   - [#  12] AOD pstats: [0.03763 s] survived
+   - [#  13] AOD pstats: [0.04599 s] survived
+   - [#  14] AOD pstats: [0.04658 s] survived
+   - [#  15] AOR pstats: [0.04751 s] survived
+   - [#  16] AOR pstats: [0.04634 s] survived
+   - [#  17] AOR pstats: [0.04660 s] survived
+   - [#  18] AOR pstats: [0.04643 s] survived
+   - [#  19] AOR pstats: [0.04679 s] survived
+   - [#  20] AOR pstats: [0.04645 s] survived
+   - [#  21] AOR pstats: [0.04675 s] survived
+   - [#  22] AOR pstats: [0.04683 s] survived
+   - [#  23] AOR pstats: [0.04656 s] survived
+   - [#  24] AOR pstats: [0.04635 s] survived
+   - [#  25] AOR pstats: [0.04615 s] survived
+   - [#  26] AOR pstats: [0.04644 s] survived
+   - [#  27] AOR pstats: [0.03210 s] killed by test_sort_stats_partial (test_pstats.StatsTestCase)
+   - [#  28] AOR pstats: [0.02699 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [#  29] AOR pstats: [0.24520 s] timeout
+   - [#  30] AOR pstats: [0.24842 s] timeout
+   - [#  31] AOR pstats: [0.24573 s] timeout
+   - [#  32] AOR pstats: [0.24561 s] timeout
+   - [#  33] AOR pstats: [0.04939 s] survived
+   - [#  34] AOR pstats: [0.04958 s] survived
+   - [#  35] AOR pstats: [0.04857 s] survived
+   - [#  36] AOR pstats: [0.04843 s] survived
+   - [#  37] AOR pstats: [0.04731 s] survived
+   - [#  38] AOR pstats: [0.04802 s] survived
+   - [#  39] AOR pstats: [0.04729 s] survived
+   - [#  40] AOR pstats: [0.04764 s] survived
+   - [#  41] AOR pstats: [0.04771 s] survived
+   - [#  42] AOR pstats: [0.04756 s] survived
+   - [#  43] AOR pstats: [0.04776 s] survived
+   - [#  44] AOR pstats: [0.04771 s] survived
+   - [#  45] AOR pstats: [0.04770 s] survived
+   - [#  46] AOR pstats: [0.04822 s] survived
+   - [#  47] AOR pstats: [0.04939 s] survived
+   - [#  48] AOR pstats: [0.04837 s] survived
+   - [#  49] AOR pstats: [0.04779 s] survived
+   - [#  50] AOR pstats: [0.04806 s] survived
+   - [#  51] AOR pstats: [0.04716 s] survived
+   - [#  52] AOR pstats: [0.04834 s] survived
+   - [#  53] AOR pstats: [0.04856 s] survived
+   - [#  54] AOR pstats: [0.04748 s] survived
+   - [#  55] AOR pstats: [0.04766 s] survived
+   - [#  56] AOR pstats: [0.04786 s] survived
+   - [#  57] AOR pstats: [0.04991 s] survived
+   - [#  58] AOR pstats: [0.04980 s] survived
+   - [#  59] AOR pstats: [0.04979 s] survived
+   - [#  60] AOR pstats: [0.04914 s] survived
+   - [#  61] AOR pstats: [0.04885 s] survived
+   - [#  62] AOR pstats: [0.04736 s] survived
+   - [#  63] AOR pstats: [0.04828 s] survived
+   - [#  64] AOR pstats: [0.04828 s] survived
+   - [#  65] AOR pstats: [0.04796 s] survived
+   - [#  66] AOR pstats: [0.04746 s] survived
+   - [#  67] AOR pstats: [0.04761 s] survived
+   - [#  68] AOR pstats: [0.04857 s] survived
+   - [#  69] AOR pstats: [0.04877 s] survived
+   - [#  70] AOR pstats: [0.05017 s] survived
+   - [#  71] AOR pstats: [0.05080 s] survived
+   - [#  72] AOR pstats: [0.04932 s] survived
+   - [#  73] AOR pstats: [0.05032 s] survived
+   - [#  74] AOR pstats: [0.05012 s] survived
+   - [#  75] AOR pstats: [0.05013 s] survived
+   - [#  76] AOR pstats: [0.04869 s] survived
+   - [#  77] AOR pstats: [0.04989 s] survived
+   - [#  78] AOR pstats: [0.04956 s] survived
+   - [#  79] AOR pstats: [0.04940 s] survived
+   - [#  80] AOR pstats: [0.04041 s] survived
+   - [#  81] AOR pstats: [0.24590 s] timeout
+   - [#  82] AOR pstats: [0.04881 s] survived
+   - [#  83] AOR pstats: [0.24541 s] timeout
+   - [#  84] AOR pstats: [0.04942 s] survived
+   - [#  85] AOR pstats: [0.04927 s] survived
+   - [#  86] AOR pstats: [0.04965 s] survived
+   - [#  87] AOR pstats: [0.04899 s] survived
+   - [#  88] AOR pstats: [0.00907 s] killed by test_combine_results (test_pstats.AddCallersTestCase)
+   - [#  89] AOR pstats: [0.04837 s] survived
+   - [#  90] AOR pstats: [0.04894 s] survived
+   - [#  91] AOR pstats: [0.04912 s] survived
+   - [#  92] AOR pstats: [0.04875 s] survived
+   - [#  93] AOR pstats: [0.04768 s] survived
+   - [#  94] AOR pstats: [0.04740 s] survived
+   - [#  95] ASR pstats: [0.04760 s] survived
+   - [#  96] ASR pstats: [0.04737 s] survived
+   - [#  97] ASR pstats: [0.04753 s] survived
+   - [#  98] ASR pstats: [0.24559 s] timeout
+   - [#  99] ASR pstats: [0.04891 s] survived
+   - [# 100] ASR pstats: [0.04697 s] survived
+   - [# 101] ASR pstats: [0.04760 s] survived
+   - [# 102] ASR pstats: [0.24564 s] timeout
+   - [# 103] ASR pstats: [0.04753 s] survived
+   - [# 104] ASR pstats: [0.04781 s] survived
+   - [# 105] ASR pstats: [0.00787 s] killed by test_combine_results (test_pstats.AddCallersTestCase)
+   - [# 106] ASR pstats: [0.04797 s] survived
+   - [# 107] BCR pstats: [0.04790 s] survived
+   - [# 108] BCR pstats: [0.24536 s] timeout
+   - [# 109] BCR pstats: [0.04902 s] survived
+   - [# 110] BCR pstats: [0.04909 s] survived
+   - [# 111] BCR pstats: [0.04922 s] survived
+   - [# 112] BCR pstats: [0.04866 s] survived
+   - [# 113] COD pstats: [0.03119 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 114] COD pstats: [0.24585 s] timeout
+   - [# 115] COD pstats: [0.04691 s] survived
+   - [# 116] COD pstats: [0.01892 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 117] COD pstats: [0.01926 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 118] COD pstats: [0.01534 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 119] COD pstats: [0.04730 s] survived
+   - [# 120] COD pstats: [0.04702 s] survived
+   - [# 121] COD pstats: [0.04727 s] survived
+   - [# 122] COD pstats: [0.04741 s] survived
+   - [# 123] COD pstats: [0.04846 s] survived
+   - [# 124] COI pstats: [0.03274 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 125] COI pstats: [0.24589 s] timeout
+   - [# 126] COI pstats: [0.24636 s] timeout
+   - [# 127] COI pstats: [0.05193 s] survived
+   - [# 128] COI pstats: [0.24580 s] timeout
+   - [# 129] COI pstats: [0.04827 s] survived
+   - [# 130] COI pstats: [0.04804 s] survived
+   - [# 131] COI pstats: [0.04676 s] survived
+   - [# 132] COI pstats: [0.04561 s] survived
+   - [# 133] COI pstats: [0.24592 s] timeout
+   - [# 134] COI pstats: [0.04945 s] survived
+   - [# 135] COI pstats: [0.01231 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 136] COI pstats: [0.01155 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 137] COI pstats: [0.01944 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 138] COI pstats: [0.01940 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 139] COI pstats: [0.01936 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 140] COI pstats: [0.01952 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 141] COI pstats: [0.01946 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 142] COI pstats: [0.01669 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 143] COI pstats: [0.01678 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 144] COI pstats: [0.01726 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 145] COI pstats: [0.01720 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 146] COI pstats: [0.02021 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 147] COI pstats: [0.05949 s] survived
+   - [# 148] COI pstats: [0.05924 s] survived
+   - [# 149] COI pstats: [0.05919 s] survived
+   - [# 150] COI pstats: [0.05928 s] survived
+   - [# 151] COI pstats: [0.05875 s] survived
+   - [# 152] COI pstats: [0.05925 s] survived
+   - [# 153] COI pstats: [0.04897 s] survived
+   - [# 154] COI pstats: [0.04775 s] survived
+   - [# 155] COI pstats: [0.04902 s] survived
+   - [# 156] COI pstats: [0.04906 s] survived
+   - [# 157] COI pstats: [0.04885 s] survived
+   - [# 158] COI pstats: [0.04880 s] survived
+   - [# 159] COI pstats: [0.04913 s] survived
+   - [# 160] COI pstats: [0.04933 s] survived
+   - [# 161] COI pstats: [0.04902 s] survived
+   - [# 162] COI pstats: [0.04945 s] survived
+   - [# 163] COI pstats: [0.04846 s] survived
+   - [# 164] COI pstats: [0.04752 s] survived
+   - [# 165] COI pstats: [0.04756 s] survived
+   - [# 166] COI pstats: [0.04716 s] survived
+   - [# 167] COI pstats: [0.04777 s] survived
+   - [# 168] COI pstats: [0.04765 s] survived
+   - [# 169] COI pstats: [0.04702 s] survived
+   - [# 170] COI pstats: [0.04780 s] survived
+   - [# 171] COI pstats: [0.04813 s] survived
+   - [# 172] COI pstats: [0.04817 s] survived
+   - [# 173] COI pstats: [0.04892 s] survived
+   - [# 174] COI pstats: [0.04799 s] survived
+   - [# 175] COI pstats: [0.04855 s] survived
+   - [# 176] COI pstats: [0.04834 s] survived
+   - [# 177] COI pstats: [0.05043 s] survived
+   - [# 178] COI pstats: [0.04846 s] survived
+   - [# 179] COI pstats: [0.04932 s] survived
+   - [# 180] COI pstats: [0.04498 s] survived
+   - [# 181] COI pstats: [0.04480 s] survived
+   - [# 182] COI pstats: [0.04622 s] survived
+   - [# 183] COI pstats: [0.04604 s] survived
+   - [# 184] COI pstats: [0.00744 s] killed by test_combine_results (test_pstats.AddCallersTestCase)
+   - [# 185] COI pstats: [0.00709 s] killed by test_combine_results (test_pstats.AddCallersTestCase)
+   - [# 186] COI pstats: [0.00766 s] killed by test_combine_results (test_pstats.AddCallersTestCase)
+   - [# 187] COI pstats: [0.08004 s] survived
+   - [# 188] COI pstats: [0.04790 s] survived
+   - [# 189] COI pstats: [0.04750 s] survived
+   - [# 190] COI pstats: [0.04670 s] survived
+   - [# 191] COI pstats: [0.04720 s] survived
+   - [# 192] COI pstats: [0.04864 s] survived
+   - [# 193] COI pstats: [0.04912 s] survived
+   - [# 194] COI pstats: [0.04814 s] survived
+   - [# 195] COI pstats: [0.04831 s] survived
+   - [# 196] COI pstats: [0.04836 s] survived
+   - [# 197] COI pstats: [0.04843 s] survived
+   - [# 198] COI pstats: [0.04781 s] survived
+   - [# 199] COI pstats: [0.04824 s] survived
+   - [# 200] COI pstats: [0.04861 s] survived
+   - [# 201] CRP pstats: [0.04922 s] survived
+   - [# 202] CRP pstats: [0.04988 s] survived
+   - [# 203] CRP pstats: [0.04837 s] survived
+   - [# 204] CRP pstats: [0.04809 s] survived
+   - [# 205] CRP pstats: [0.01975 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 206] CRP pstats: [0.01988 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 207] CRP pstats: [0.04798 s] survived
+   - [# 208] CRP pstats: [0.04814 s] survived
+   - [# 209] CRP pstats: [0.02018 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 210] CRP pstats: [0.02017 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 211] CRP pstats: [0.04631 s] survived
+   - [# 212] CRP pstats: [0.04643 s] survived
+   - [# 213] CRP pstats: [0.02038 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 214] CRP pstats: [0.01974 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 215] CRP pstats: [0.04725 s] survived
+   - [# 216] CRP pstats: [0.04679 s] survived
+   - [# 217] CRP pstats: [0.02026 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 218] CRP pstats: [0.02028 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 219] CRP pstats: [0.02059 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 220] CRP pstats: [0.02035 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 221] CRP pstats: [0.02134 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 222] CRP pstats: [0.02151 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 223] CRP pstats: [0.02208 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 224] CRP pstats: [0.02186 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 225] CRP pstats: [0.02281 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 226] CRP pstats: [0.02285 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 227] CRP pstats: [0.02325 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 228] CRP pstats: [0.02329 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 229] CRP pstats: [0.04711 s] survived
+   - [# 230] CRP pstats: [0.04691 s] survived
+   - [# 231] CRP pstats: [0.00000 s] incompetent
+   - [# 232] CRP pstats: [0.04687 s] survived
+   - [# 233] CRP pstats: [0.00724 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 234] CRP pstats: [0.04695 s] survived
+   - [# 235] CRP pstats: [0.04741 s] survived
+   - [# 236] CRP pstats: [0.04693 s] survived
+   - [# 237] CRP pstats: [0.04669 s] survived
+   - [# 238] CRP pstats: [0.04695 s] survived
+   - [# 239] CRP pstats: [0.04682 s] survived
+   - [# 240] CRP pstats: [0.04696 s] survived
+   - [# 241] CRP pstats: [0.04708 s] survived
+   - [# 242] CRP pstats: [0.04678 s] survived
+   - [# 243] CRP pstats: [0.00739 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 244] CRP pstats: [0.00757 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 245] CRP pstats: [0.04681 s] survived
+   - [# 246] CRP pstats: [0.04703 s] survived
+   - [# 247] CRP pstats: [0.04688 s] survived
+   - [# 248] CRP pstats: [0.04710 s] survived
+   - [# 249] CRP pstats: [0.04692 s] survived
+   - [# 250] CRP pstats: [0.04731 s] survived
+   - [# 251] CRP pstats: [0.04709 s] survived
+   - [# 252] CRP pstats: [0.04706 s] survived
+   - [# 253] CRP pstats: [0.04733 s] survived
+   - [# 254] CRP pstats: [0.04713 s] survived
+   - [# 255] CRP pstats: [0.04680 s] survived
+   - [# 256] CRP pstats: [0.04662 s] survived
+   - [# 257] CRP pstats: [0.04682 s] survived
+   - [# 258] CRP pstats: [0.04729 s] survived
+   - [# 259] CRP pstats: [0.04690 s] survived
+   - [# 260] CRP pstats: [0.04663 s] survived
+   - [# 261] CRP pstats: [0.04672 s] survived
+   - [# 262] CRP pstats: [0.01853 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 263] CRP pstats: [0.01839 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 264] CRP pstats: [0.04009 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 265] CRP pstats: [0.04018 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 266] CRP pstats: [0.04071 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 267] CRP pstats: [0.04097 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 268] CRP pstats: [0.01895 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 269] CRP pstats: [0.01874 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 270] CRP pstats: [0.01964 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 271] CRP pstats: [0.01973 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 272] CRP pstats: [0.01987 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 273] CRP pstats: [0.02006 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 274] CRP pstats: [0.04324 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 275] CRP pstats: [0.04297 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 276] CRP pstats: [0.02065 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 277] CRP pstats: [0.02070 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 278] CRP pstats: [0.02157 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 279] CRP pstats: [0.02161 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 280] CRP pstats: [0.02190 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 281] CRP pstats: [0.02202 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 282] CRP pstats: [0.02253 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 283] CRP pstats: [0.02290 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 284] CRP pstats: [0.02328 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 285] CRP pstats: [0.02307 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 286] CRP pstats: [0.04710 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 287] CRP pstats: [0.04735 s] killed by test_sort_stats_string (test_pstats.StatsTestCase)
+   - [# 288] CRP pstats: [0.04713 s] survived
+   - [# 289] CRP pstats: [0.04724 s] survived
+   - [# 290] CRP pstats: [0.04705 s] survived
+   - [# 291] CRP pstats: [0.04770 s] survived
+   - [# 292] CRP pstats: [0.04781 s] survived
+   - [# 293] CRP pstats: [0.04725 s] survived
+   - [# 294] CRP pstats: [0.04695 s] survived
+   - [# 295] CRP pstats: [0.04716 s] survived
+   - [# 296] CRP pstats: [0.04727 s] survived
+   - [# 297] CRP pstats: [0.04742 s] survived
+   - [# 298] CRP pstats: [0.04727 s] survived
+   - [# 299] CRP pstats: [0.04709 s] survived
+   - [# 300] CRP pstats: [0.04799 s] survived
+   - [# 301] CRP pstats: [0.04745 s] survived
+   - [# 302] CRP pstats: [0.04778 s] survived
+   - [# 303] CRP pstats: [0.04789 s] survived
+   - [# 304] CRP pstats: [0.04660 s] survived
+   - [# 305] CRP pstats: [0.04749 s] survived
+   - [# 306] CRP pstats: [0.04767 s] survived
+   - [# 307] CRP pstats: [0.04805 s] survived
+   - [# 308] CRP pstats: [0.04644 s] survived
+   - [# 309] CRP pstats: [0.04683 s] survived
+   - [# 310] CRP pstats: [0.04728 s] survived
+   - [# 311] CRP pstats: [0.04694 s] survived
+   - [# 312] CRP pstats: [0.04702 s] survived
+   - [# 313] CRP pstats: [0.04737 s] survived
+   - [# 314] CRP pstats: [0.04672 s] survived
+   - [# 315] CRP pstats: [0.04694 s] survived
+   - [# 316] CRP pstats: [0.04758 s] survived
+   - [# 317] CRP pstats: [0.04660 s] survived
+   - [# 318] CRP pstats: [0.04656 s] survived
+   - [# 319] CRP pstats: [0.04683 s] survived
+   - [# 320] CRP pstats: [0.04665 s] survived
+   - [# 321] CRP pstats: [0.04698 s] survived
+   - [# 322] CRP pstats: [0.04662 s] survived
+   - [# 323] CRP pstats: [0.04698 s] survived
+   - [# 324] CRP pstats: [0.04669 s] survived
+   - [# 325] CRP pstats: [0.04699 s] survived
+   - [# 326] CRP pstats: [0.04699 s] survived
+   - [# 327] CRP pstats: [0.04695 s] survived
+   - [# 328] CRP pstats: [0.04680 s] survived
+   - [# 329] CRP pstats: [0.04671 s] survived
+   - [# 330] CRP pstats: [0.04711 s] survived
+   - [# 331] CRP pstats: [0.04725 s] survived
+   - [# 332] CRP pstats: [0.04726 s] survived
+   - [# 333] CRP pstats: [0.04705 s] survived
+   - [# 334] CRP pstats: [0.04688 s] survived
+   - [# 335] CRP pstats: [0.04665 s] survived
+   - [# 336] CRP pstats: [0.04657 s] survived
+   - [# 337] CRP pstats: [0.04676 s] survived
+   - [# 338] CRP pstats: [0.04718 s] survived
+   - [# 339] CRP pstats: [0.04700 s] survived
+   - [# 340] CRP pstats: [0.04679 s] survived
+   - [# 341] CRP pstats: [0.04684 s] survived
+   - [# 342] CRP pstats: [0.04724 s] survived
+   - [# 343] CRP pstats: [0.04727 s] survived
+   - [# 344] CRP pstats: [0.04738 s] survived
+   - [# 345] CRP pstats: [0.03186 s] killed by test_sort_stats_partial (test_pstats.StatsTestCase)
+   - [# 346] CRP pstats: [0.04728 s] survived
+   - [# 347] CRP pstats: [0.02733 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 348] CRP pstats: [0.01883 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 349] CRP pstats: [0.02699 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 350] CRP pstats: [0.02747 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 351] CRP pstats: [0.02889 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 352] CRP pstats: [0.02898 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 353] CRP pstats: [0.02704 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 354] CRP pstats: [0.02687 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 355] CRP pstats: [0.02824 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 356] CRP pstats: [0.02838 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 357] CRP pstats: [0.02887 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 358] CRP pstats: [0.02858 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 359] CRP pstats: [0.02889 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 360] CRP pstats: [0.02934 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 361] CRP pstats: [0.02750 s] killed by test_sort_stats_int (test_pstats.StatsTestCase)
+   - [# 362] CRP pstats: [0.01700 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 363] CRP pstats: [0.01692 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 364] CRP pstats: [0.01638 s] killed by test_sort_starts_mix (test_pstats.StatsTestCase)
+   - [# 365] CRP pstats: [0.04720 s] survived
+   - [# 366] CRP pstats: [0.04724 s] survived
+   - [# 367] CRP pstats: [0.01936 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 368] CRP pstats: [0.01928 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 369] CRP pstats: [0.24584 s] timeout
+   - [# 370] CRP pstats: [0.03456 s] killed by test_sort_stats_enum (test_pstats.StatsTestCase)
+   - [# 371] CRP pstats: [0.05226 s] survived
+   - [# 372] CRP pstats: [0.04707 s] survived
+   - [# 373] CRP pstats: [0.04752 s] survived
+   - [# 374] CRP pstats: [0.04724 s] survived
+   - [# 375] CRP pstats: [0.04760 s] survived
+   - [# 376] CRP pstats: [0.04732 s] survived
+   - [# 377] CRP pstats: [0.04720 s] survived
+   - [# 378] CRP pstats: [0.04742 s] survived
+   - [# 379] CRP pstats: [0.04798 s] survived
+   - [# 380] CRP pstats: [0.04687 s] survived
+   - [# 381] CRP pstats: [0.04700 s] survived
+   - [# 382] CRP pstats: [0.04709 s] survived
+   - [# 383] CRP pstats: [0.04746 s] survived
+   - [# 384] CRP pstats: [0.04703 s] survived
+   - [# 385] CRP pstats: [0.04722 s] survived
+   - [# 386] CRP pstats: [0.04710 s] survived
+   - [# 387] CRP pstats: [0.04741 s] survived
+   - [# 388] CRP pstats: [0.04760 s] survived
+   - [# 389] CRP pstats: [0.04753 s] survived
+   - [# 390] CRP pstats: [0.04751 s] survived
+   - [# 391] CRP pstats: [0.04730 s] survived
+   - [# 392] CRP pstats: [0.04754 s] survived
+   - [# 393] CRP pstats: [0.04748 s] survived
+   - [# 394] CRP pstats: [0.04750 s] survived
+   - [# 395] CRP pstats: [0.04741 s] survived
+   - [# 396] CRP pstats: [0.04741 s] survived
+   - [# 397] CRP pstats: [0.04753 s] survived
+   - [# 398] CRP pstats: [0.04750 s] survived
+   - [# 399] CRP pstats: [0.04722 s] survived
+   - [# 400] CRP pstats: [0.04701 s] survived
+   - [# 401] CRP pstats: [0.04722 s] survived
+   - [# 402] CRP pstats: [0.04724 s] survived
+   - [# 403] CRP pstats: [0.04731 s] survived
+   - [# 404] CRP pstats: [0.04834 s] survived
+   - [# 405] CRP pstats: [0.04760 s] survived
+   - [# 406] CRP pstats: [0.04731 s] survived
+   - [# 407] CRP pstats: [0.04712 s] survived
+   - [# 408] CRP pstats: [0.04722 s] survived
+   - [# 409] CRP pstats: [0.04756 s] survived
+   - [# 410] CRP pstats: [0.04731 s] survived
+   - [# 411] CRP pstats: [0.04743 s] survived
+   - [# 412] CRP pstats: [0.04692 s] survived
+   - [# 413] CRP pstats: [0.04691 s] survived
+   - [# 414] CRP pstats: [0.04667 s] survived
+   - [# 415] CRP pstats: [0.04670 s] survived
+   - [# 416] CRP pstats: [0.04660 s] survived
+   - [# 417] CRP pstats: [0.04669 s] survived
+   - [# 418] CRP pstats: [0.04702 s] survived
+   - [# 419] CRP pstats: [0.04704 s] survived
+   - [# 420] CRP pstats: [0.04704 s] survived
+   - [# 421] CRP pstats: [0.04692 s] survived
+   - [# 422] CRP pstats: [0.04642 s] survived
+   - [# 423] CRP pstats: [0.04648 s] survived
+   - [# 424] CRP pstats: [0.04652 s] survived
+   - [# 425] CRP pstats: [0.04705 s] survived
+   - [# 426] CRP pstats: [0.04687 s] survived
+   - [# 427] CRP pstats: [0.04683 s] survived
+   - [# 428] CRP pstats: [0.04677 s] survived
+   - [# 429] CRP pstats: [0.04716 s] survived
+   - [# 430] CRP pstats: [0.04707 s] survived
+   - [# 431] CRP pstats: [0.04641 s] survived
+   - [# 432] CRP pstats: [0.04661 s] survived
+   - [# 433] CRP pstats: [0.04687 s] survived
+   - [# 434] CRP pstats: [0.04684 s] survived
+   - [# 435] CRP pstats: [0.04676 s] survived
+   - [# 436] CRP pstats: [0.04699 s] survived
+   - [# 437] CRP pstats: [0.04721 s] survived
+   - [# 438] CRP pstats: [0.04720 s] survived
+   - [# 439] CRP pstats: [0.04749 s] survived
+   - [# 440] CRP pstats: [0.04728 s] survived
+   - [# 441] CRP pstats: [0.04729 s] survived
+   - [# 442] CRP pstats: [0.04721 s] survived
+   - [# 443] CRP pstats: [0.04695 s] survived
+   - [# 444] CRP pstats: [0.04698 s] survived
+   - [# 445] CRP pstats: [0.04727 s] survived
+   - [# 446] CRP pstats: [0.04726 s] survived
+   - [# 447] CRP pstats: [0.04762 s] survived
+   - [# 448] CRP pstats: [0.04726 s] survived
+   - [# 449] CRP pstats: [0.04742 s] survived
+   - [# 450] CRP pstats: [0.04681 s] survived
+   - [# 451] CRP pstats: [0.04776 s] survived
+   - [# 452] CRP pstats: [0.04752 s] survived
+   - [# 453] CRP pstats: [0.04721 s] survived
+   - [# 454] CRP pstats: [0.04680 s] survived
+   - [# 455] CRP pstats: [0.04724 s] survived
+   - [# 456] CRP pstats: [0.04710 s] survived
+   - [# 457] CRP pstats: [0.04722 s] survived
+   - [# 458] CRP pstats: [0.04699 s] survived
+   - [# 459] CRP pstats: [0.04678 s] survived
+   - [# 460] CRP pstats: [0.04705 s] survived
+   - [# 461] CRP pstats: [0.04894 s] survived
+   - [# 462] CRP pstats: [0.04717 s] survived
+   - [# 463] CRP pstats: [0.04727 s] survived
+   - [# 464] CRP pstats: [0.04724 s] survived
+   - [# 465] CRP pstats: [0.04773 s] survived
+   - [# 466] CRP pstats: [0.04711 s] survived
+   - [# 467] CRP pstats: [0.04771 s] survived
+   - [# 468] CRP pstats: [0.04686 s] survived
+   - [# 469] CRP pstats: [0.04759 s] survived
+   - [# 470] CRP pstats: [0.04602 s] survived
+   - [# 471] CRP pstats: [0.04621 s] survived
+   - [# 472] CRP pstats: [0.04632 s] survived
+   - [# 473] CRP pstats: [0.04640 s] survived
+   - [# 474] CRP pstats: [0.01181 s] killed by test_add (test_pstats.StatsTestCase)
+   - [# 475] CRP pstats: [0.04627 s] survived
+   - [# 476] CRP pstats: [0.04766 s] survived
+   - [# 477] CRP pstats: [0.04684 s] survived
+   - [# 478] CRP pstats: [0.04744 s] survived
+   - [# 479] CRP pstats: [0.24578 s] timeout
+   - [# 480] CRP pstats: [0.24969 s] timeout
+   - [# 481] CRP pstats: [0.07438 s] survived
+   - [# 482] CRP pstats: [0.04722 s] survived
+   - [# 483] CRP pstats: [0.24679 s] timeout
+   - [# 484] CRP pstats: [0.25152 s] timeout
+   - [# 485] CRP pstats: [0.07035 s] survived
+   - [# 486] CRP pstats: [0.04711 s] survived
+   - [# 487] CRP pstats: [0.04672 s] survived
+   - [# 488] CRP pstats: [0.04675 s] survived
+   - [# 489] CRP pstats: [0.04698 s] survived
+   - [# 490] CRP pstats: [0.04726 s] survived
+   - [# 491] CRP pstats: [0.04737 s] survived
+   - [# 492] CRP pstats: [0.04691 s] survived
+   - [# 493] CRP pstats: [0.04715 s] survived
+   - [# 494] CRP pstats: [0.04824 s] survived
+   - [# 495] CRP pstats: [0.04749 s] survived
+   - [# 496] CRP pstats: [0.04722 s] survived
+   - [# 497] CRP pstats: [0.04750 s] survived
+   - [# 498] CRP pstats: [0.04732 s] survived
+   - [# 499] CRP pstats: [0.04754 s] survived
+   - [# 500] CRP pstats: [0.04759 s] survived
+   - [# 501] CRP pstats: [0.04729 s] survived
+   - [# 502] CRP pstats: [0.04740 s] survived
+   - [# 503] CRP pstats: [0.04751 s] survived
+   - [# 504] CRP pstats: [0.04787 s] survived
+   - [# 505] CRP pstats: [0.04711 s] survived
+   - [# 506] CRP pstats: [0.04738 s] survived
+   - [# 507] CRP pstats: [0.04701 s] survived
+   - [# 508] CRP pstats: [0.04723 s] survived
+   - [# 509] CRP pstats: [0.04736 s] survived
+   - [# 510] CRP pstats: [0.04749 s] survived
+   - [# 511] CRP pstats: [0.04751 s] survived
+   - [# 512] CRP pstats: [0.04701 s] survived
+   - [# 513] CRP pstats: [0.04715 s] survived
+   - [# 514] CRP pstats: [0.04765 s] survived
+   - [# 515] CRP pstats: [0.04724 s] survived
+   - [# 516] CRP pstats: [0.04725 s] survived
+   - [# 517] CRP pstats: [0.04730 s] survived
+   - [# 518] CRP pstats: [0.04719 s] survived
+   - [# 519] CRP pstats: [0.04768 s] survived
+   - [# 520] CRP pstats: [0.04658 s] survived
+   - [# 521] CRP pstats: [0.04677 s] survived
+   - [# 522] CRP pstats: [0.04658 s] survived
+   - [# 523] CRP pstats: [0.04705 s] survived
+   - [# 524] CRP pstats: [0.04700 s] survived
+   - [# 525] CRP pstats: [0.04689 s] survived
+   - [# 526] CRP pstats: [0.04706 s] survived
+   - [# 527] CRP pstats: [0.04698 s] survived
+   - [# 528] CRP pstats: [0.04703 s] survived
+   - [# 529] CRP pstats: [0.04714 s] survived
+   - [# 530] CRP pstats: [0.04669 s] survived
+   - [# 531] CRP pstats: [0.04678 s] survived
+   - [# 532] CRP pstats: [0.04689 s] survived
+   - [# 533] CRP pstats: [0.04679 s] survived
+   - [# 534] CRP pstats: [0.04702 s] survived
+   - [# 535] CRP pstats: [0.04707 s] survived
+   - [# 536] CRP pstats: [0.04702 s] survived
+   - [# 537] CRP pstats: [0.04712 s] survived
+   - [# 538] CRP pstats: [0.04693 s] survived
+   - [# 539] CRP pstats: [0.04648 s] survived
+   - [# 540] CRP pstats: [0.04666 s] survived
+   - [# 541] CRP pstats: [0.04668 s] survived
+   - [# 542] CRP pstats: [0.04690 s] survived
+   - [# 543] CRP pstats: [0.04692 s] survived
+   - [# 544] CRP pstats: [0.04723 s] survived
+   - [# 545] CRP pstats: [0.04692 s] survived
+   - [# 546] CRP pstats: [0.04708 s] survived
+   - [# 547] CRP pstats: [0.04644 s] survived
+   - [# 548] CRP pstats: [0.04656 s] survived
+   - [# 549] CRP pstats: [0.04715 s] survived
+   - [# 550] CRP pstats: [0.04683 s] survived
+   - [# 551] CRP pstats: [0.04663 s] survived
+   - [# 552] CRP pstats: [0.04706 s] survived
+   - [# 553] CRP pstats: [0.04719 s] survived
+   - [# 554] CRP pstats: [0.04702 s] survived
+   - [# 555] CRP pstats: [0.04718 s] survived
+   - [# 556] CRP pstats: [0.04640 s] survived
+   - [# 557] CRP pstats: [0.04651 s] survived
+   - [# 558] CRP pstats: [0.04684 s] survived
+   - [# 559] CRP pstats: [0.04701 s] survived
+   - [# 560] CRP pstats: [0.04701 s] survived
+   - [# 561] CRP pstats: [0.04709 s] survived
+   - [# 562] CRP pstats: [0.04714 s] survived
+   - [# 563] CRP pstats: [0.04699 s] survived
+   - [# 564] CRP pstats: [0.04703 s] survived
+   - [# 565] CRP pstats: [0.04726 s] survived
+   - [# 566] CRP pstats: [0.04701 s] survived
+   - [# 567] CRP pstats: [0.04658 s] survived
+   - [# 568] CRP pstats: [0.04671 s] survived
+   - [# 569] CRP pstats: [0.04702 s] survived
+   - [# 570] CRP pstats: [0.04722 s] survived
+   - [# 571] CRP pstats: [0.04730 s] survived
+   - [# 572] CRP pstats: [0.04673 s] survived
+   - [# 573] CRP pstats: [0.04699 s] survived
+   - [# 574] CRP pstats: [0.04698 s] survived
+   - [# 575] CRP pstats: [0.04637 s] survived
+   - [# 576] CRP pstats: [0.04709 s] survived
+   - [# 577] CRP pstats: [0.04688 s] survived
+   - [# 578] CRP pstats: [0.04701 s] survived
+   - [# 579] CRP pstats: [0.04677 s] survived
+   - [# 580] CRP pstats: [0.04676 s] survived
+   - [# 581] EHD pstats: [0.04768 s] survived
+   - [# 582] EHD pstats: [0.04649 s] survived
+   - [# 583] EHD pstats: [0.04685 s] survived
+   - [# 584] EHD pstats: [0.04741 s] survived
+   - [# 585] EHD pstats: [0.04723 s] survived
+   - [# 586] EHD pstats: [0.04733 s] survived
+   - [# 587] EHD pstats: [0.04756 s] survived
+   - [# 588] EHD pstats: [0.04784 s] survived
+   - [# 589] EHD pstats: [0.04922 s] survived
+   - [# 590] EHD pstats: [0.04813 s] survived
+   - [# 591] EXS pstats: [0.04795 s] survived
+   - [# 592] EXS pstats: [0.04719 s] survived
+   - [# 593] EXS pstats: [0.04709 s] survived
+   - [# 594] EXS pstats: [0.04736 s] survived
+   - [# 595] EXS pstats: [0.04711 s] survived
+   - [# 596] IOD pstats: [0.00000 s] incompetent

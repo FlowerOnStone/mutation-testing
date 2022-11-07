@@ -1,0 +1,172 @@
+[*] Start mutation process:
+   - targets: zipapp.py
+   - tests: test_zipapp.py
+[*] 31 tests passed:
+   - test_zipapp [0.02338 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR zipapp: [0.23246 s] timeout
+   - [#   2] AOR zipapp: [0.23604 s] timeout
+   - [#   3] AOR zipapp: [0.23562 s] timeout
+   - [#   4] AOR zipapp: [0.23683 s] timeout
+   - [#   5] AOR zipapp: [0.05450 s] survived
+   - [#   6] COD zipapp: [0.00786 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#   7] COD zipapp: [0.00743 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#   8] COD zipapp: [0.02441 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#   9] COD zipapp: [0.23135 s] timeout
+   - [#  10] COD zipapp: [0.03180 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [#  11] COD zipapp: [0.01697 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [#  12] COI zipapp: [0.03278 s] survived
+   - [#  13] COI zipapp: [0.00841 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  14] COI zipapp: [0.00728 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  15] COI zipapp: [0.03142 s] killed by test_remove_shebang (test_zipapp.ZipAppTest)
+   - [#  16] COI zipapp: [0.23083 s] timeout
+   - [#  17] COI zipapp: [0.02016 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  18] COI zipapp: [0.01289 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  19] COI zipapp: [0.01037 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  20] COI zipapp: [0.00814 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  21] COI zipapp: [0.00777 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  22] COI zipapp: [0.00698 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  23] COI zipapp: [0.00753 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  24] COI zipapp: [0.02292 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  25] COI zipapp: [0.23005 s] timeout
+   - [#  26] COI zipapp: [0.23675 s] timeout
+   - [#  27] COI zipapp: [0.03253 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [#  28] COI zipapp: [0.01230 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  29] COI zipapp: [0.01592 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [#  30] COI zipapp: [0.01296 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [#  31] COI zipapp: [0.00886 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  32] COI zipapp: [0.01328 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [#  33] COI zipapp: [0.01094 s] killed by test_cmdline_copy_change_main (test_zipapp.ZipAppCmdlineTest)
+   - [#  34] COI zipapp: [0.00844 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  35] COI zipapp: [0.00869 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  36] COI zipapp: [0.00000 s] incompetent
+   - [#  37] CRP zipapp: [0.03208 s] survived
+   - [#  38] CRP zipapp: [0.03172 s] survived
+   - [#  39] CRP zipapp: [0.03249 s] survived
+   - [#  40] CRP zipapp: [0.03089 s] survived
+   - [#  41] CRP zipapp: [0.03330 s] survived
+   - [#  42] CRP zipapp: [0.03045 s] survived
+   - [#  43] CRP zipapp: [0.02587 s] killed by test_main_written (test_zipapp.ZipAppTest)
+   - [#  44] CRP zipapp: [0.02247 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  45] CRP zipapp: [0.03119 s] survived
+   - [#  46] CRP zipapp: [0.03213 s] survived
+   - [#  47] CRP zipapp: [0.03208 s] survived
+   - [#  48] CRP zipapp: [0.03073 s] survived
+   - [#  49] CRP zipapp: [0.00847 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  50] CRP zipapp: [0.00866 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  51] CRP zipapp: [0.03239 s] killed by test_remove_shebang (test_zipapp.ZipAppTest)
+   - [#  52] CRP zipapp: [0.00891 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  53] CRP zipapp: [0.00881 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  54] CRP zipapp: [0.23022 s] timeout
+   - [#  55] CRP zipapp: [0.23580 s] timeout
+   - [#  56] CRP zipapp: [0.23815 s] timeout
+   - [#  57] CRP zipapp: [0.23622 s] timeout
+   - [#  58] CRP zipapp: [0.07063 s] survived
+   - [#  59] CRP zipapp: [0.03448 s] survived
+   - [#  60] CRP zipapp: [0.00715 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  61] CRP zipapp: [0.00752 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  62] CRP zipapp: [0.03236 s] survived
+   - [#  63] CRP zipapp: [0.03375 s] survived
+   - [#  64] CRP zipapp: [0.03295 s] survived
+   - [#  65] CRP zipapp: [0.03187 s] survived
+   - [#  66] CRP zipapp: [0.02374 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  67] CRP zipapp: [0.02200 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  68] CRP zipapp: [0.02371 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  69] CRP zipapp: [0.02272 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  70] CRP zipapp: [0.03155 s] survived
+   - [#  71] CRP zipapp: [0.02174 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  72] CRP zipapp: [0.02385 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  73] CRP zipapp: [0.02307 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  74] CRP zipapp: [0.03173 s] survived
+   - [#  75] CRP zipapp: [0.03170 s] survived
+   - [#  76] CRP zipapp: [0.01189 s] killed by test_cmdline_create (test_zipapp.ZipAppCmdlineTest)
+   - [#  77] CRP zipapp: [0.01111 s] killed by test_cmdline_create (test_zipapp.ZipAppCmdlineTest)
+   - [#  78] CRP zipapp: [0.23057 s] timeout
+   - [#  79] CRP zipapp: [0.23571 s] timeout
+   - [#  80] CRP zipapp: [0.02167 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  81] CRP zipapp: [0.01540 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  82] CRP zipapp: [0.01218 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  83] CRP zipapp: [0.01084 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  84] CRP zipapp: [0.01482 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [#  85] CRP zipapp: [0.01331 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [#  86] CRP zipapp: [0.02288 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  87] CRP zipapp: [0.02273 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  88] CRP zipapp: [0.02513 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  89] CRP zipapp: [0.02263 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [#  90] CRP zipapp: [0.01342 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [#  91] CRP zipapp: [0.01374 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [#  92] CRP zipapp: [0.01294 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [#  93] CRP zipapp: [0.01250 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [#  94] CRP zipapp: [0.02760 s] killed by test_modify_shebang (test_zipapp.ZipAppTest)
+   - [#  95] CRP zipapp: [0.00902 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  96] CRP zipapp: [0.00852 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  97] CRP zipapp: [0.00854 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  98] CRP zipapp: [0.00838 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [#  99] CRP zipapp: [0.03069 s] survived
+   - [# 100] CRP zipapp: [0.03353 s] survived
+   - [# 101] CRP zipapp: [0.00899 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 102] CRP zipapp: [0.00838 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 103] CRP zipapp: [0.00893 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 104] CRP zipapp: [0.00865 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 105] CRP zipapp: [0.03458 s] survived
+   - [# 106] CRP zipapp: [0.03092 s] survived
+   - [# 107] CRP zipapp: [0.00882 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 108] CRP zipapp: [0.00848 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 109] CRP zipapp: [0.00883 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 110] CRP zipapp: [0.00869 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 111] CRP zipapp: [0.03379 s] survived
+   - [# 112] CRP zipapp: [0.03082 s] survived
+   - [# 113] CRP zipapp: [0.00893 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 114] CRP zipapp: [0.00909 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 115] CRP zipapp: [0.00901 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 116] CRP zipapp: [0.00840 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 117] CRP zipapp: [0.00917 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 118] CRP zipapp: [0.00863 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 119] CRP zipapp: [0.03345 s] survived
+   - [# 120] CRP zipapp: [0.03023 s] survived
+   - [# 121] CRP zipapp: [0.00904 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 122] CRP zipapp: [0.00852 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 123] CRP zipapp: [0.00901 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 124] CRP zipapp: [0.00860 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 125] CRP zipapp: [0.03321 s] survived
+   - [# 126] CRP zipapp: [0.03422 s] survived
+   - [# 127] CRP zipapp: [0.00928 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 128] CRP zipapp: [0.00901 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 129] CRP zipapp: [0.03097 s] survived
+   - [# 130] CRP zipapp: [0.03374 s] survived
+   - [# 131] CRP zipapp: [0.03222 s] survived
+   - [# 132] CRP zipapp: [0.01403 s] killed by test_info_error (test_zipapp.ZipAppCmdlineTest)
+   - [# 133] CRP zipapp: [0.01443 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [# 134] CRP zipapp: [0.01419 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [# 135] CRP zipapp: [0.01389 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [# 136] CRP zipapp: [0.01337 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [# 137] CRP zipapp: [0.01285 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [# 138] CRP zipapp: [0.03242 s] survived
+   - [# 139] CRP zipapp: [0.01093 s] killed by test_cmdline_copy_inplace (test_zipapp.ZipAppCmdlineTest)
+   - [# 140] CRP zipapp: [0.03362 s] survived
+   - [# 141] CRP zipapp: [0.01037 s] killed by test_cmdline_copy_change_main (test_zipapp.ZipAppCmdlineTest)
+   - [# 142] CRP zipapp: [0.03374 s] survived
+   - [# 143] CRP zipapp: [0.03141 s] survived
+   - [# 144] DDL zipapp: [0.00811 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 145] LCR zipapp: [0.23028 s] timeout
+   - [# 146] LCR zipapp: [0.03544 s] survived
+   - [# 147] LCR zipapp: [0.00852 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 148] LCR zipapp: [0.00771 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 149] LCR zipapp: [0.02721 s] survived
+   - [# 150] LCR zipapp: [0.23022 s] timeout
+   - [# 151] LCR zipapp: [0.02499 s] killed by test_content_of_copied_archive (test_zipapp.ZipAppTest)
+   - [# 152] LCR zipapp: [0.01748 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [# 153] LCR zipapp: [0.01535 s] killed by test_cmdline_copy_inplace (test_zipapp.ZipAppCmdlineTest)
+   - [# 154] LCR zipapp: [0.00987 s] killed by test_cmdline_copy (test_zipapp.ZipAppCmdlineTest)
+   - [# 155] LOR zipapp: [0.02647 s] killed by test_modify_shebang (test_zipapp.ZipAppTest)
+   - [# 156] LOR zipapp: [0.02306 s] killed by test_custom_interpreter (test_zipapp.ZipAppTest)
+   - [# 157] ROR zipapp: [0.03458 s] killed by test_remove_shebang (test_zipapp.ZipAppTest)
+   - [# 158] ROR zipapp: [0.02446 s] killed by test_main_only_written_once (test_zipapp.ZipAppTest)
+   - [# 159] ROR zipapp: [0.01463 s] killed by test_info_command (test_zipapp.ZipAppCmdlineTest)
+   - [# 160] ROR zipapp: [0.00000 s] incompetent
+[*] Mutation score [7.53101 s]: 74.7%
+   - all: 160
+   - killed: 102 (63.8%)
+   - survived: 40 (25.0%)
+   - incompetent: 2 (1.2%)
+   - timeout: 16 (10.0%)

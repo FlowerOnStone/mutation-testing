@@ -1,0 +1,296 @@
+[*] Start mutation process:
+   - targets: statistics.py
+   - tests: test_statistics.py
+[*] 296 tests passed:
+   - test_statistics [0.29610 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR statistics: [0.02832 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#   2] AOR statistics: [0.29479 s] survived
+   - [#   3] AOR statistics: [0.01406 s] killed by test_decimal (test_statistics.ConvertTest)
+   - [#   4] AOR statistics: [0.01418 s] killed by test_decimal (test_statistics.ConvertTest)
+   - [#   5] AOR statistics: [0.02362 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#   6] AOR statistics: [0.02429 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#   7] AOR statistics: [0.02266 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#   8] AOR statistics: [0.02261 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#   9] AOR statistics: [0.02249 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  10] AOR statistics: [0.02487 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  11] AOR statistics: [0.02263 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  12] AOR statistics: [0.02284 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  13] AOR statistics: [0.02253 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  14] AOR statistics: [0.02233 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  15] AOR statistics: [0.02330 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  16] AOR statistics: [0.02304 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  17] AOR statistics: [0.02331 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  18] AOR statistics: [0.02352 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  19] AOR statistics: [0.02256 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  20] AOR statistics: [0.02257 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  21] AOR statistics: [0.02260 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  22] AOR statistics: [0.02262 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  23] AOR statistics: [0.02255 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  24] AOR statistics: [0.02299 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  25] AOR statistics: [0.02333 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  26] AOR statistics: [0.02337 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  27] AOR statistics: [0.02304 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  28] AOR statistics: [0.02252 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  29] AOR statistics: [0.02332 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  30] AOR statistics: [0.02313 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  31] AOR statistics: [0.02392 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  32] AOR statistics: [0.02397 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  33] AOR statistics: [0.29404 s] survived
+   - [#  34] AOR statistics: [0.02252 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  35] AOR statistics: [0.02218 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  36] AOR statistics: [0.02275 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  37] AOR statistics: [0.14251 s] killed by test_even_decimals (test_statistics.TestMedianGrouped)
+   - [#  38] AOR statistics: [0.14197 s] killed by test_even_decimals (test_statistics.TestMedianGrouped)
+   - [#  39] AOR statistics: [0.14248 s] killed by test_even_decimals (test_statistics.TestMedianGrouped)
+   - [#  40] AOR statistics: [0.02258 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  41] AOR statistics: [0.02352 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  42] AOR statistics: [0.02245 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  43] AOR statistics: [0.02358 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  44] AOR statistics: [0.02356 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  45] AOR statistics: [0.02269 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  46] AOR statistics: [0.02299 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  47] AOR statistics: [0.02356 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  48] AOR statistics: [0.02286 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  49] AOR statistics: [0.02354 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  50] AOR statistics: [0.02362 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  51] AOR statistics: [0.29928 s] survived
+   - [#  52] AOR statistics: [0.02483 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  53] AOR statistics: [0.02528 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  54] AOR statistics: [0.02852 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  55] AOR statistics: [0.18702 s] killed by test_shift_data_exact (test_statistics.TestPStdev)
+   - [#  56] AOR statistics: [0.29836 s] survived
+   - [#  57] AOR statistics: [0.18586 s] killed by test_shift_data_exact (test_statistics.TestPStdev)
+   - [#  58] AOR statistics: [0.30096 s] survived
+   - [#  59] AOR statistics: [0.02419 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  60] AOR statistics: [0.02355 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  61] AOR statistics: [0.02344 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  62] AOR statistics: [0.02397 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  63] AOR statistics: [0.02314 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  64] ASR statistics: [0.02945 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  65] ASR statistics: [0.30674 s] survived
+   - [#  66] BCR statistics: [0.02466 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  67] COD statistics: [0.02423 s] killed by test_decimal_extendedcontext_mismatched_infs_to_nan (test_statistics.SumSpecialValues)
+   - [#  68] COD statistics: [0.01542 s] killed by test_infinity (test_statistics.DecimalToRatioTest)
+   - [#  69] COD statistics: [0.02531 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  70] COD statistics: [0.02838 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  71] COI statistics: [0.03239 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  72] COI statistics: [0.03244 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  73] COI statistics: [0.01433 s] killed by test_decimal (test_statistics.CoerceTest)
+   - [#  74] COI statistics: [0.01369 s] killed by test_bool (test_statistics.CoerceTest)
+   - [#  75] COI statistics: [0.01408 s] killed by test_decimal (test_statistics.CoerceTest)
+   - [#  76] COI statistics: [0.51809 s] timeout
+   - [#  77] COI statistics: [0.51852 s] timeout
+   - [#  78] COI statistics: [0.01427 s] killed by test_fraction (test_statistics.CoerceTest)
+   - [#  79] COI statistics: [0.01418 s] killed by test_fraction (test_statistics.CoerceTest)
+   - [#  80] COI statistics: [0.51813 s] timeout
+   - [#  81] COI statistics: [0.51798 s] timeout
+   - [#  82] COI statistics: [0.03000 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  83] COI statistics: [0.01441 s] killed by test_decimal (test_statistics.ConvertTest)
+   - [#  84] COI statistics: [0.01537 s] killed by test_decimal (test_statistics.ConvertTest)
+   - [#  85] COI statistics: [0.51846 s] timeout
+   - [#  86] COI statistics: [0.02422 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  87] COI statistics: [0.02442 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  88] COI statistics: [0.02624 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  89] COI statistics: [0.02607 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  90] COI statistics: [0.02433 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  91] COI statistics: [0.51822 s] timeout
+   - [#  92] COI statistics: [0.02869 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  93] COI statistics: [0.51788 s] timeout
+   - [#  94] COI statistics: [0.02393 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  95] COI statistics: [0.02299 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  96] COI statistics: [0.13819 s] survived
+   - [#  97] COI statistics: [0.13884 s] survived
+   - [#  98] COI statistics: [0.02616 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [#  99] COI statistics: [0.02479 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 100] COI statistics: [0.02461 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 101] COI statistics: [0.02415 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 102] COI statistics: [0.02554 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 103] COI statistics: [0.02623 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 104] COI statistics: [0.02488 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 105] COI statistics: [0.02569 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 106] COI statistics: [0.02501 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 107] COI statistics: [0.30962 s] survived
+   - [# 108] COI statistics: [0.02925 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 109] COI statistics: [0.51818 s] timeout
+   - [# 110] COI statistics: [0.02555 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 111] COI statistics: [0.51818 s] timeout
+   - [# 112] COI statistics: [0.02969 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 113] CRP statistics: [0.29713 s] survived
+   - [# 114] CRP statistics: [0.29570 s] survived
+   - [# 115] CRP statistics: [0.29598 s] survived
+   - [# 116] CRP statistics: [0.30256 s] survived
+   - [# 117] CRP statistics: [0.30614 s] survived
+   - [# 118] CRP statistics: [0.30477 s] survived
+   - [# 119] CRP statistics: [0.30231 s] survived
+   - [# 120] CRP statistics: [0.30219 s] survived
+   - [# 121] CRP statistics: [0.30081 s] survived
+   - [# 122] CRP statistics: [0.30208 s] survived
+   - [# 123] CRP statistics: [0.30715 s] survived
+   - [# 124] CRP statistics: [0.30996 s] survived
+   - [# 125] CRP statistics: [0.30762 s] survived
+   - [# 126] CRP statistics: [0.31017 s] survived
+   - [# 127] CRP statistics: [0.31032 s] survived
+   - [# 128] CRP statistics: [0.29950 s] survived
+   - [# 129] CRP statistics: [0.30078 s] survived
+   - [# 130] CRP statistics: [0.30154 s] survived
+   - [# 131] CRP statistics: [0.30011 s] survived
+   - [# 132] CRP statistics: [0.29526 s] survived
+   - [# 133] CRP statistics: [0.29522 s] survived
+   - [# 134] CRP statistics: [0.29523 s] survived
+   - [# 135] CRP statistics: [0.29536 s] survived
+   - [# 136] CRP statistics: [0.29740 s] survived
+   - [# 137] CRP statistics: [0.02445 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 138] CRP statistics: [0.03745 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 139] CRP statistics: [0.02887 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 140] CRP statistics: [0.02360 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 141] CRP statistics: [0.29781 s] survived
+   - [# 142] CRP statistics: [0.29595 s] survived
+   - [# 143] CRP statistics: [0.29460 s] survived
+   - [# 144] CRP statistics: [0.29522 s] survived
+   - [# 145] CRP statistics: [0.29490 s] survived
+   - [# 146] CRP statistics: [0.29741 s] survived
+   - [# 147] CRP statistics: [0.01428 s] killed by test_int (test_statistics.ConvertTest)
+   - [# 148] CRP statistics: [0.02369 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 149] CRP statistics: [0.02380 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 150] CRP statistics: [0.02365 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 151] CRP statistics: [0.02386 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 152] CRP statistics: [0.29651 s] survived
+   - [# 153] CRP statistics: [0.02342 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 154] CRP statistics: [0.02363 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 155] CRP statistics: [0.29509 s] survived
+   - [# 156] CRP statistics: [0.29441 s] survived
+   - [# 157] CRP statistics: [0.12833 s] killed by test_decimals_exact (test_statistics.TestHarmonicMean)
+   - [# 158] CRP statistics: [0.14034 s] killed by test_regression_20561 (test_statistics.TestMean)
+   - [# 159] CRP statistics: [0.29536 s] survived
+   - [# 160] CRP statistics: [0.29545 s] survived
+   - [# 161] CRP statistics: [0.29499 s] survived
+   - [# 162] CRP statistics: [0.29494 s] survived
+   - [# 163] CRP statistics: [0.13400 s] killed by test_single_value (test_statistics.TestHarmonicMean)
+   - [# 164] CRP statistics: [0.29442 s] survived
+   - [# 165] CRP statistics: [0.29428 s] survived
+   - [# 166] CRP statistics: [0.13467 s] killed by test_singleton_lists (test_statistics.TestHarmonicMean)
+   - [# 167] CRP statistics: [0.13170 s] survived
+   - [# 168] CRP statistics: [0.13425 s] killed by test_single_value (test_statistics.TestHarmonicMean)
+   - [# 169] CRP statistics: [0.29473 s] survived
+   - [# 170] CRP statistics: [0.29494 s] survived
+   - [# 171] CRP statistics: [0.02248 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 172] CRP statistics: [0.13529 s] killed by test_zero (test_statistics.TestHarmonicMean)
+   - [# 173] CRP statistics: [0.14076 s] killed by test_empty_data (test_statistics.TestMedian)
+   - [# 174] CRP statistics: [0.29583 s] survived
+   - [# 175] CRP statistics: [0.29571 s] survived
+   - [# 176] CRP statistics: [0.02287 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 177] CRP statistics: [0.02244 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 178] CRP statistics: [0.14122 s] killed by test_odd_decimals (test_statistics.TestMedian)
+   - [# 179] CRP statistics: [0.02254 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 180] CRP statistics: [0.02254 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 181] CRP statistics: [0.02264 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 182] CRP statistics: [0.14511 s] killed by test_empty_data (test_statistics.TestMedianLow)
+   - [# 183] CRP statistics: [0.29476 s] survived
+   - [# 184] CRP statistics: [0.29480 s] survived
+   - [# 185] CRP statistics: [0.02243 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 186] CRP statistics: [0.02271 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 187] CRP statistics: [0.14521 s] killed by test_odd_decimals (test_statistics.TestMedianLow)
+   - [# 188] CRP statistics: [0.02285 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 189] CRP statistics: [0.02268 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 190] CRP statistics: [0.14341 s] killed by test_empty_data (test_statistics.TestMedianHigh)
+   - [# 191] CRP statistics: [0.29530 s] survived
+   - [# 192] CRP statistics: [0.29465 s] survived
+   - [# 193] CRP statistics: [0.02273 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 194] CRP statistics: [0.02284 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 195] CRP statistics: [0.14324 s] killed by test_empty_data (test_statistics.TestMedianGrouped)
+   - [# 196] CRP statistics: [0.29486 s] survived
+   - [# 197] CRP statistics: [0.29489 s] survived
+   - [# 198] CRP statistics: [0.14329 s] killed by test_repeated_single_value (test_statistics.TestMedianGrouped)
+   - [# 199] CRP statistics: [0.14348 s] killed by test_single_value (test_statistics.TestMedianGrouped)
+   - [# 200] CRP statistics: [0.02254 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 201] CRP statistics: [0.29399 s] survived
+   - [# 202] CRP statistics: [0.29605 s] survived
+   - [# 203] CRP statistics: [0.02299 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 204] CRP statistics: [0.14280 s] killed by test_even_decimals (test_statistics.TestMedianGrouped)
+   - [# 205] CRP statistics: [0.02322 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 206] CRP statistics: [0.02301 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 207] CRP statistics: [0.02349 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 208] CRP statistics: [0.02379 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 209] CRP statistics: [0.02283 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 210] CRP statistics: [0.51856 s] timeout
+   - [# 211] CRP statistics: [0.52065 s] timeout
+   - [# 212] CRP statistics: [0.30010 s] survived
+   - [# 213] CRP statistics: [0.29653 s] survived
+   - [# 214] CRP statistics: [0.02415 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 215] CRP statistics: [0.29650 s] survived
+   - [# 216] CRP statistics: [0.02323 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 217] CRP statistics: [0.29727 s] survived
+   - [# 218] CRP statistics: [0.29637 s] survived
+   - [# 219] CRP statistics: [0.26288 s] killed by test_repeated_single_value (test_statistics.TestStdev)
+   - [# 220] CRP statistics: [0.29551 s] survived
+   - [# 221] CRP statistics: [0.29632 s] survived
+   - [# 222] CRP statistics: [0.02300 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 223] CRP statistics: [0.18016 s] killed by test_single_value (test_statistics.TestPStdev)
+   - [# 224] CRP statistics: [0.29531 s] survived
+   - [# 225] CRP statistics: [0.29665 s] survived
+   - [# 226] EHD statistics: [0.02312 s] killed by test_float_nan (test_statistics.ExactRatioTest)
+   - [# 227] EHD statistics: [0.02253 s] killed by test_decimal_nan (test_statistics.ExactRatioTest)
+   - [# 228] EHD statistics: [0.26618 s] killed by test_bytes_fail (test_statistics.TestSum)
+   - [# 229] EHD statistics: [0.01464 s] killed by test_infinity (test_statistics.DecimalToRatioTest)
+   - [# 230] EHD statistics: [0.51931 s] timeout
+   - [# 231] EHD statistics: [0.13688 s] killed by test_zero (test_statistics.TestHarmonicMean)
+   - [# 232] EHD statistics: [0.51991 s] timeout
+   - [# 233] EHD statistics: [0.02551 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 234] EHD statistics: [0.02345 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 235] EXS statistics: [0.02320 s] killed by test_finite (test_statistics.IsFiniteTest)
+   - [# 236] EXS statistics: [0.51960 s] timeout
+   - [# 237] EXS statistics: [0.52050 s] timeout
+   - [# 238] EXS statistics: [0.01699 s] killed by test_decimal (test_statistics.ConvertTest)
+   - [# 239] EXS statistics: [0.13585 s] killed by test_zero (test_statistics.TestHarmonicMean)
+   - [# 240] EXS statistics: [0.14288 s] killed by test_even_decimals (test_statistics.TestMedianGrouped)
+   - [# 241] EXS statistics: [0.02283 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 242] EXS statistics: [0.02256 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 243] LCR statistics: [0.01344 s] killed by test_bool (test_statistics.CoerceTest)
+   - [# 244] LCR statistics: [0.26599 s] killed by test_mixed_sum (test_statistics.TestSum)
+   - [# 245] LCR statistics: [0.26573 s] killed by test_mixed_sum (test_statistics.TestSum)
+   - [# 246] LCR statistics: [0.42934 s] survived
+   - [# 247] LCR statistics: [0.01434 s] killed by test_decimal (test_statistics.ConvertTest)
+   - [# 248] LCR statistics: [0.29470 s] survived
+   - [# 249] LCR statistics: [0.29618 s] survived
+   - [# 250] LCR statistics: [0.29557 s] survived
+   - [# 251] ROR statistics: [0.01467 s] killed by test_int (test_statistics.ConvertTest)
+   - [# 252] ROR statistics: [0.02367 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 253] ROR statistics: [0.02484 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 254] ROR statistics: [0.02466 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 255] ROR statistics: [0.02471 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 256] ROR statistics: [0.02486 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 257] ROR statistics: [0.02397 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 258] ROR statistics: [0.13627 s] killed by test_zero (test_statistics.TestHarmonicMean)
+   - [# 259] ROR statistics: [0.02762 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 260] ROR statistics: [0.13983 s] killed by test_regression_20561 (test_statistics.TestMean)
+   - [# 261] ROR statistics: [0.02783 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 262] ROR statistics: [0.02351 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 263] ROR statistics: [0.13422 s] killed by test_single_value (test_statistics.TestHarmonicMean)
+   - [# 264] ROR statistics: [0.02288 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 265] ROR statistics: [0.13334 s] survived
+   - [# 266] ROR statistics: [0.29548 s] survived
+   - [# 267] ROR statistics: [0.02319 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 268] ROR statistics: [0.02423 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 269] ROR statistics: [0.02315 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 270] ROR statistics: [0.02355 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 271] ROR statistics: [0.02288 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 272] ROR statistics: [0.02377 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 273] ROR statistics: [0.02444 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 274] ROR statistics: [0.02296 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 275] ROR statistics: [0.02359 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 276] ROR statistics: [0.02678 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 277] ROR statistics: [0.02665 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 278] ROR statistics: [0.02689 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 279] ROR statistics: [0.17162 s] killed by test_domain_error_regression (test_statistics.TestPStdev)
+   - [# 280] ROR statistics: [0.02422 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 281] ROR statistics: [0.26231 s] killed by test_repeated_single_value (test_statistics.TestStdev)
+   - [# 282] ROR statistics: [0.02477 s] killed by test_doc_tests (test_statistics.DocTests)
+   - [# 283] ROR statistics: [0.18116 s] killed by test_single_value (test_statistics.TestPStdev)
+   - [# 284] SIR statistics: [0.02380 s] killed by test_doc_tests (test_statistics.DocTests)
+[*] Mutation score [51.47158 s]: 73.2%
+   - all: 284
+   - killed: 193 (68.0%)
+   - survived: 76 (26.8%)
+   - incompetent: 0 (0.0%)
+   - timeout: 15 (5.3%)

@@ -1,0 +1,150 @@
+[*] Start mutation process:
+   - targets: socketserver.py
+   - tests: test_socketserver.py
+[*] 25 tests passed:
+   - test_socketserver [0.59076 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD socketserver: [0.63229 s] survived
+   - [#   2] AOD socketserver: [0.60351 s] survived
+   - [#   3] AOR socketserver: [0.67284 s] survived
+   - [#   4] AOR socketserver: [0.65835 s] survived
+   - [#   5] AOR socketserver: [0.66291 s] survived
+   - [#   6] AOR socketserver: [0.65393 s] survived
+   - [#   7] AOR socketserver: [0.63941 s] survived
+   - [#   8] AOR socketserver: [0.64140 s] survived
+   - [#   9] AOR socketserver: [0.62713 s] survived
+   - [#  10] AOR socketserver: [0.63415 s] survived
+   - [#  11] AOR socketserver: [0.67184 s] survived
+   - [#  12] AOR socketserver: [0.61560 s] survived
+   - [#  13] BCR socketserver: [0.64628 s] survived
+   - [#  14] BCR socketserver: [0.64648 s] survived
+   - [#  15] COD socketserver: [0.85047 s] timeout
+   - [#  16] COD socketserver: [0.61842 s] survived
+   - [#  17] COD socketserver: [0.63875 s] survived
+   - [#  18] COI socketserver: [0.02622 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  19] COI socketserver: [0.02693 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  20] COI socketserver: [0.67114 s] survived
+   - [#  21] COI socketserver: [0.85085 s] timeout
+   - [#  22] COI socketserver: [0.85966 s] timeout
+   - [#  23] COI socketserver: [0.85587 s] timeout
+   - [#  24] COI socketserver: [0.63408 s] survived
+   - [#  25] COI socketserver: [0.64854 s] survived
+   - [#  26] COI socketserver: [0.85130 s] timeout
+   - [#  27] COI socketserver: [0.03128 s] killed by test_shutdown_request_called_if_verify_request_false (test_socketserver.MiscTestCase)
+   - [#  28] COI socketserver: [0.85029 s] timeout
+   - [#  29] COI socketserver: [0.61067 s] survived
+   - [#  30] COI socketserver: [0.64529 s] survived
+   - [#  31] COI socketserver: [0.85146 s] timeout
+   - [#  32] COI socketserver: [0.02892 s] killed by test_shutdown_request_called_if_verify_request_false (test_socketserver.MiscTestCase)
+   - [#  33] COI socketserver: [0.67473 s] survived
+   - [#  34] COI socketserver: [0.00000 s] incompetent
+   - [#  35] COI socketserver: [0.85081 s] timeout
+   - [#  36] COI socketserver: [0.85116 s] timeout
+   - [#  37] COI socketserver: [0.85060 s] timeout
+   - [#  38] COI socketserver: [0.85965 s] timeout
+   - [#  39] COI socketserver: [0.69272 s] survived
+   - [#  40] COI socketserver: [0.85048 s] timeout
+   - [#  41] COI socketserver: [0.64154 s] survived
+   - [#  42] COI socketserver: [0.62766 s] survived
+   - [#  43] COI socketserver: [0.02258 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  44] COI socketserver: [0.02316 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  45] COI socketserver: [0.65133 s] survived
+   - [#  46] COI socketserver: [0.85019 s] timeout
+   - [#  47] COI socketserver: [0.62625 s] killed by test_basics (test_socketserver.SocketWriterTest)
+   - [#  48] COI socketserver: [0.65054 s] survived
+   - [#  49] CRP socketserver: [0.65483 s] survived
+   - [#  50] CRP socketserver: [0.66655 s] survived
+   - [#  51] CRP socketserver: [0.02313 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  52] CRP socketserver: [0.02432 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  53] CRP socketserver: [0.02187 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  54] CRP socketserver: [0.02213 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  55] CRP socketserver: [0.02313 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  56] CRP socketserver: [0.02276 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  57] CRP socketserver: [0.02346 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  58] CRP socketserver: [0.02352 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  59] CRP socketserver: [0.02346 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  60] CRP socketserver: [0.02359 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  61] CRP socketserver: [0.02459 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  62] CRP socketserver: [0.02356 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  63] CRP socketserver: [0.02278 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  64] CRP socketserver: [0.02490 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  65] CRP socketserver: [0.02568 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  66] CRP socketserver: [0.02358 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  67] CRP socketserver: [0.02346 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  68] CRP socketserver: [0.02365 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  69] CRP socketserver: [0.02418 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  70] CRP socketserver: [0.02331 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  71] CRP socketserver: [0.02604 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  72] CRP socketserver: [0.02393 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  73] CRP socketserver: [0.02292 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  74] CRP socketserver: [0.02446 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  75] CRP socketserver: [0.02653 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  76] CRP socketserver: [0.02327 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  77] CRP socketserver: [0.02329 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  78] CRP socketserver: [0.02406 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  79] CRP socketserver: [0.02361 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  80] CRP socketserver: [0.02375 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  81] CRP socketserver: [0.02784 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  82] CRP socketserver: [0.02254 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  83] CRP socketserver: [0.02316 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  84] CRP socketserver: [0.02514 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  85] CRP socketserver: [0.02882 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  86] CRP socketserver: [0.02396 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [#  87] CRP socketserver: [0.67480 s] survived
+   - [#  88] CRP socketserver: [0.68695 s] survived
+   - [#  89] CRP socketserver: [0.65706 s] survived
+   - [#  90] CRP socketserver: [0.64636 s] survived
+   - [#  91] CRP socketserver: [0.66965 s] survived
+   - [#  92] CRP socketserver: [0.68489 s] survived
+   - [#  93] CRP socketserver: [0.63358 s] survived
+   - [#  94] CRP socketserver: [0.65297 s] survived
+   - [#  95] CRP socketserver: [0.64823 s] survived
+   - [#  96] CRP socketserver: [0.65787 s] survived
+   - [#  97] CRP socketserver: [0.68977 s] survived
+   - [#  98] CRP socketserver: [0.66028 s] survived
+   - [#  99] CRP socketserver: [0.66692 s] survived
+   - [# 100] CRP socketserver: [0.63830 s] survived
+   - [# 101] CRP socketserver: [0.67363 s] survived
+   - [# 102] CRP socketserver: [0.00000 s] incompetent
+   - [# 103] CRP socketserver: [0.00000 s] incompetent
+   - [# 104] CRP socketserver: [0.66105 s] survived
+   - [# 105] CRP socketserver: [0.65446 s] survived
+   - [# 106] CRP socketserver: [0.68023 s] survived
+   - [# 107] CRP socketserver: [0.67606 s] survived
+   - [# 108] CRP socketserver: [0.67222 s] survived
+   - [# 109] CRP socketserver: [0.69369 s] survived
+   - [# 110] CRP socketserver: [0.65694 s] survived
+   - [# 111] CRP socketserver: [0.02510 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [# 112] CRP socketserver: [0.02495 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [# 113] CRP socketserver: [0.02381 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [# 114] CRP socketserver: [0.02480 s] killed by test_all (test_socketserver.MiscTestCase)
+   - [# 115] CRP socketserver: [0.62814 s] survived
+   - [# 116] CRP socketserver: [0.65482 s] survived
+   - [# 117] CRP socketserver: [0.85043 s] timeout
+   - [# 118] CRP socketserver: [0.85071 s] timeout
+   - [# 119] CRP socketserver: [0.65658 s] killed by test_basics (test_socketserver.SocketWriterTest)
+   - [# 120] CRP socketserver: [0.65764 s] survived
+   - [# 121] CRP socketserver: [0.64379 s] survived
+   - [# 122] EHD socketserver: [0.65044 s] survived
+   - [# 123] EHD socketserver: [0.64142 s] survived
+   - [# 124] EHD socketserver: [0.65068 s] survived
+   - [# 125] EHD socketserver: [0.66750 s] survived
+   - [# 126] EHD socketserver: [0.65895 s] survived
+   - [# 127] EHD socketserver: [0.66183 s] survived
+   - [# 128] EHD socketserver: [0.66541 s] survived
+   - [# 129] EHD socketserver: [0.66139 s] survived
+   - [# 130] EHD socketserver: [0.66181 s] survived
+   - [# 131] EHD socketserver: [0.66650 s] survived
+   - [# 132] EHD socketserver: [0.67642 s] survived
+   - [# 133] EHD socketserver: [0.66293 s] survived
+   - [# 134] EXS socketserver: [0.66112 s] survived
+   - [# 135] EXS socketserver: [0.66689 s] survived
+   - [# 136] EXS socketserver: [0.66228 s] survived
+   - [# 137] EXS socketserver: [0.46874 s] killed by test_tcpserver_bind_leak (test_socketserver.SocketServerTest)
+   - [# 138] EXS socketserver: [0.70164 s] survived
+   - [# 139] EXS socketserver: [0.66194 s] survived
+   - [# 140] EXS socketserver: [0.64028 s] survived
+   - [# 141] EXS socketserver: [0.65317 s] survived
+   - [# 142] EXS socketserver: [0.66138 s] survived
+   - [# 143] IHD socketserver: [0.66193 s] survived
+   - [# 144] IHD socketserver: [0.85107 s] timeout

@@ -1,0 +1,365 @@
+[*] Start mutation process:
+   - targets: csv.py
+   - tests: test_csv.py
+[*] 102 tests passed:
+   - test_csv [0.05487 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD csv: [0.06041 s] survived
+   - [#   2] AOR csv: [0.26127 s] timeout
+   - [#   3] AOR csv: [0.26361 s] timeout
+   - [#   4] AOR csv: [0.26514 s] timeout
+   - [#   5] AOR csv: [0.05334 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#   6] AOR csv: [0.05589 s] survived
+   - [#   7] AOR csv: [0.04323 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#   8] AOR csv: [0.04157 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#   9] AOR csv: [0.03596 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  10] AOR csv: [0.26241 s] timeout
+   - [#  11] AOR csv: [0.05992 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  12] AOR csv: [0.04112 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  13] AOR csv: [0.05288 s] survived
+   - [#  14] AOR csv: [0.05061 s] survived
+   - [#  15] AOR csv: [0.05086 s] survived
+   - [#  16] AOR csv: [0.05306 s] survived
+   - [#  17] AOR csv: [0.05182 s] survived
+   - [#  18] AOR csv: [0.26192 s] timeout
+   - [#  19] AOR csv: [0.26515 s] timeout
+   - [#  20] AOR csv: [0.07443 s] survived
+   - [#  21] AOR csv: [0.26096 s] timeout
+   - [#  22] ASR csv: [0.05845 s] survived
+   - [#  23] ASR csv: [0.04027 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  24] ASR csv: [0.05177 s] survived
+   - [#  25] ASR csv: [0.05330 s] survived
+   - [#  26] ASR csv: [0.05097 s] survived
+   - [#  27] ASR csv: [0.03928 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  28] ASR csv: [0.03863 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  29] ASR csv: [0.04971 s] survived
+   - [#  30] ASR csv: [0.05153 s] survived
+   - [#  31] BCR csv: [0.04110 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  32] BCR csv: [0.05202 s] survived
+   - [#  33] BCR csv: [0.04973 s] survived
+   - [#  34] BCR csv: [0.03621 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  35] BCR csv: [0.04852 s] survived
+   - [#  36] BCR csv: [0.04861 s] survived
+   - [#  37] BCR csv: [0.05267 s] survived
+   - [#  38] COD csv: [0.00814 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [#  39] COD csv: [0.03732 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  40] COD csv: [0.03672 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  41] COD csv: [0.03567 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  42] COD csv: [0.03547 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  43] COI csv: [0.05037 s] survived
+   - [#  44] COI csv: [0.26191 s] timeout
+   - [#  45] COI csv: [0.02505 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [#  46] COI csv: [0.01376 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [#  47] COI csv: [0.01101 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [#  48] COI csv: [0.00839 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [#  49] COI csv: [0.00856 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [#  50] COI csv: [0.03922 s] killed by test_write_field_not_in_field_names_ignore (test_csv.TestDictFields)
+   - [#  51] COI csv: [0.00828 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [#  52] COI csv: [0.04046 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  53] COI csv: [0.03606 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  54] COI csv: [0.03524 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  55] COI csv: [0.03641 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  56] COI csv: [0.03799 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  57] COI csv: [0.03695 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [#  58] COI csv: [0.04843 s] survived
+   - [#  59] COI csv: [0.03798 s] survived
+   - [#  60] COI csv: [0.03873 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [#  61] COI csv: [0.03827 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [#  62] COI csv: [0.03605 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [#  63] COI csv: [0.03616 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  64] COI csv: [0.03748 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  65] COI csv: [0.04899 s] survived
+   - [#  66] COI csv: [0.03433 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  67] COI csv: [0.03675 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  68] COI csv: [0.03772 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  69] COI csv: [0.03784 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  70] COI csv: [0.03670 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  71] COI csv: [0.03797 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  72] COI csv: [0.03901 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  73] COI csv: [0.03683 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  74] COI csv: [0.03588 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [#  75] COI csv: [0.04146 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  76] COI csv: [0.04314 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  77] COI csv: [0.03962 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  78] COI csv: [0.03869 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  79] COI csv: [0.04267 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  80] COI csv: [0.03960 s] killed by test_has_header (test_csv.TestSniffer)
+   - [#  81] CRP csv: [0.02545 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  82] CRP csv: [0.02762 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  83] CRP csv: [0.02616 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  84] CRP csv: [0.02808 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  85] CRP csv: [0.02568 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  86] CRP csv: [0.02931 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  87] CRP csv: [0.02767 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  88] CRP csv: [0.02995 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  89] CRP csv: [0.02763 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  90] CRP csv: [0.02951 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  91] CRP csv: [0.02716 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  92] CRP csv: [0.02958 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  93] CRP csv: [0.02790 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  94] CRP csv: [0.02746 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  95] CRP csv: [0.02914 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  96] CRP csv: [0.02718 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  97] CRP csv: [0.02706 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  98] CRP csv: [0.02511 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [#  99] CRP csv: [0.02798 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 100] CRP csv: [0.02575 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 101] CRP csv: [0.02712 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 102] CRP csv: [0.02570 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 103] CRP csv: [0.02767 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 104] CRP csv: [0.02611 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 105] CRP csv: [0.02780 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 106] CRP csv: [0.02596 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 107] CRP csv: [0.02785 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 108] CRP csv: [0.02549 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 109] CRP csv: [0.02801 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 110] CRP csv: [0.02548 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 111] CRP csv: [0.02887 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 112] CRP csv: [0.02599 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 113] CRP csv: [0.02821 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 114] CRP csv: [0.02547 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 115] CRP csv: [0.02753 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 116] CRP csv: [0.02468 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 117] CRP csv: [0.02859 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 118] CRP csv: [0.02623 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 119] CRP csv: [0.02821 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 120] CRP csv: [0.02747 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 121] CRP csv: [0.02969 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 122] CRP csv: [0.02671 s] killed by test__all__ (test_csv.MiscTestCase)
+   - [# 123] CRP csv: [0.05255 s] survived
+   - [# 124] CRP csv: [0.00000 s] incompetent
+   - [# 125] CRP csv: [0.00000 s] incompetent
+   - [# 126] CRP csv: [0.00000 s] incompetent
+   - [# 127] CRP csv: [0.00000 s] incompetent
+   - [# 128] CRP csv: [0.00896 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [# 129] CRP csv: [0.02956 s] killed by test_char_write (test_csv.TestArrayWrites)
+   - [# 130] CRP csv: [0.02721 s] killed by test_char_write (test_csv.TestArrayWrites)
+   - [# 131] CRP csv: [0.02859 s] killed by test_char_write (test_csv.TestArrayWrites)
+   - [# 132] CRP csv: [0.00000 s] incompetent
+   - [# 133] CRP csv: [0.00000 s] incompetent
+   - [# 134] CRP csv: [0.05208 s] survived
+   - [# 135] CRP csv: [0.05119 s] survived
+   - [# 136] CRP csv: [0.00000 s] incompetent
+   - [# 137] CRP csv: [0.00000 s] incompetent
+   - [# 138] CRP csv: [0.00000 s] incompetent
+   - [# 139] CRP csv: [0.00000 s] incompetent
+   - [# 140] CRP csv: [0.03169 s] killed by test_simple_writer (test_csv.TestDialectUnix)
+   - [# 141] CRP csv: [0.03441 s] killed by test_simple_writer (test_csv.TestDialectUnix)
+   - [# 142] CRP csv: [0.03455 s] killed by test_simple_writer (test_csv.TestDialectUnix)
+   - [# 143] CRP csv: [0.03376 s] killed by test_simple_writer (test_csv.TestDialectUnix)
+   - [# 144] CRP csv: [0.05334 s] survived
+   - [# 145] CRP csv: [0.05244 s] survived
+   - [# 146] CRP csv: [0.01014 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 147] CRP csv: [0.01035 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 148] CRP csv: [0.03828 s] killed by test_write_simple_dict (test_csv.TestDictFields)
+   - [# 149] CRP csv: [0.00878 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [# 150] CRP csv: [0.00937 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [# 151] CRP csv: [0.03787 s] killed by test_write_field_not_in_field_names_ignore (test_csv.TestDictFields)
+   - [# 152] CRP csv: [0.03574 s] killed by test_write_field_not_in_field_names_ignore (test_csv.TestDictFields)
+   - [# 153] CRP csv: [0.00979 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [# 154] CRP csv: [0.00871 s] killed by test_ordering_for_the_dict_reader_and_writer (test_csv.KeyOrderingTest)
+   - [# 155] CRP csv: [0.03838 s] killed by test_write_field_not_in_field_names_ignore (test_csv.TestDictFields)
+   - [# 156] CRP csv: [0.03678 s] killed by test_write_field_not_in_field_names_ignore (test_csv.TestDictFields)
+   - [# 157] CRP csv: [0.26175 s] timeout
+   - [# 158] CRP csv: [0.26137 s] timeout
+   - [# 159] CRP csv: [0.04459 s] killed by test_write_field_not_in_field_names_raise (test_csv.TestDictFields)
+   - [# 160] CRP csv: [0.04045 s] killed by test_write_field_not_in_field_names_raise (test_csv.TestDictFields)
+   - [# 161] CRP csv: [0.03998 s] killed by test_write_fields_not_in_fieldnames (test_csv.TestDictFields)
+   - [# 162] CRP csv: [0.03746 s] killed by test_write_fields_not_in_fieldnames (test_csv.TestDictFields)
+   - [# 163] CRP csv: [0.05217 s] survived
+   - [# 164] CRP csv: [0.05459 s] survived
+   - [# 165] CRP csv: [0.05348 s] survived
+   - [# 166] CRP csv: [0.05335 s] survived
+   - [# 167] CRP csv: [0.04264 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 168] CRP csv: [0.03936 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 169] CRP csv: [0.05150 s] survived
+   - [# 170] CRP csv: [0.05298 s] survived
+   - [# 171] CRP csv: [0.05387 s] survived
+   - [# 172] CRP csv: [0.05449 s] survived
+   - [# 173] CRP csv: [0.05517 s] survived
+   - [# 174] CRP csv: [0.05453 s] survived
+   - [# 175] CRP csv: [0.05431 s] survived
+   - [# 176] CRP csv: [0.05224 s] survived
+   - [# 177] CRP csv: [0.05314 s] survived
+   - [# 178] CRP csv: [0.05143 s] survived
+   - [# 179] CRP csv: [0.05188 s] survived
+   - [# 180] CRP csv: [0.05415 s] survived
+   - [# 181] CRP csv: [0.26098 s] timeout
+   - [# 182] CRP csv: [0.26509 s] timeout
+   - [# 183] CRP csv: [0.04799 s] survived
+   - [# 184] CRP csv: [0.04003 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 185] CRP csv: [0.04126 s] survived
+   - [# 186] CRP csv: [0.03713 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 187] CRP csv: [0.03828 s] survived
+   - [# 188] CRP csv: [0.03722 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 189] CRP csv: [0.04087 s] survived
+   - [# 190] CRP csv: [0.03749 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 191] CRP csv: [0.26109 s] timeout
+   - [# 192] CRP csv: [0.06260 s] survived
+   - [# 193] CRP csv: [0.04471 s] survived
+   - [# 194] CRP csv: [0.04350 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 195] CRP csv: [0.03938 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 196] CRP csv: [0.03646 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 197] CRP csv: [0.05001 s] survived
+   - [# 198] CRP csv: [0.05088 s] survived
+   - [# 199] CRP csv: [0.04317 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [# 200] CRP csv: [0.04034 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [# 201] CRP csv: [0.03596 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 202] CRP csv: [0.05101 s] survived
+   - [# 203] CRP csv: [0.05046 s] survived
+   - [# 204] CRP csv: [0.05031 s] survived
+   - [# 205] CRP csv: [0.05054 s] survived
+   - [# 206] CRP csv: [0.03760 s] survived
+   - [# 207] CRP csv: [0.04874 s] survived
+   - [# 208] CRP csv: [0.04814 s] survived
+   - [# 209] CRP csv: [0.04959 s] survived
+   - [# 210] CRP csv: [0.05008 s] survived
+   - [# 211] CRP csv: [0.04012 s] survived
+   - [# 212] CRP csv: [0.05016 s] survived
+   - [# 213] CRP csv: [0.03848 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [# 214] CRP csv: [0.03631 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [# 215] CRP csv: [0.03976 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 216] CRP csv: [0.03884 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 217] CRP csv: [0.03745 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 218] CRP csv: [0.03643 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 219] CRP csv: [0.03940 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 220] CRP csv: [0.03812 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 221] CRP csv: [0.05197 s] survived
+   - [# 222] CRP csv: [0.04955 s] survived
+   - [# 223] CRP csv: [0.05020 s] survived
+   - [# 224] CRP csv: [0.03745 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 225] CRP csv: [0.05106 s] survived
+   - [# 226] CRP csv: [0.05107 s] survived
+   - [# 227] CRP csv: [0.05195 s] survived
+   - [# 228] CRP csv: [0.05304 s] survived
+   - [# 229] CRP csv: [0.03785 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 230] CRP csv: [0.05392 s] survived
+   - [# 231] CRP csv: [0.03926 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 232] CRP csv: [0.05150 s] survived
+   - [# 233] CRP csv: [0.03856 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 234] CRP csv: [0.04964 s] survived
+   - [# 235] CRP csv: [0.03548 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 236] CRP csv: [0.03728 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 237] CRP csv: [0.03599 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 238] CRP csv: [0.05158 s] survived
+   - [# 239] CRP csv: [0.03631 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 240] CRP csv: [0.03722 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 241] CRP csv: [0.05015 s] survived
+   - [# 242] CRP csv: [0.03779 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 243] CRP csv: [0.03665 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 244] CRP csv: [0.03856 s] survived
+   - [# 245] CRP csv: [0.03851 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 246] CRP csv: [0.05263 s] survived
+   - [# 247] CRP csv: [0.04800 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 248] CRP csv: [0.03524 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 249] CRP csv: [0.03854 s] survived
+   - [# 250] CRP csv: [0.04118 s] survived
+   - [# 251] CRP csv: [0.26252 s] timeout
+   - [# 252] CRP csv: [0.27046 s] timeout
+   - [# 253] CRP csv: [0.08394 s] survived
+   - [# 254] CRP csv: [0.05269 s] survived
+   - [# 255] CRP csv: [0.03904 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 256] CRP csv: [0.05518 s] survived
+   - [# 257] CRP csv: [0.05053 s] survived
+   - [# 258] CRP csv: [0.26171 s] timeout
+   - [# 259] CRP csv: [0.27177 s] timeout
+   - [# 260] CRP csv: [0.04975 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 261] CRP csv: [0.04158 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 262] CRP csv: [0.05219 s] survived
+   - [# 263] CRP csv: [0.05321 s] survived
+   - [# 264] CRP csv: [0.26232 s] timeout
+   - [# 265] CRP csv: [0.26414 s] timeout
+   - [# 266] CRP csv: [0.08461 s] survived
+   - [# 267] CRP csv: [0.05510 s] survived
+   - [# 268] CRP csv: [0.05527 s] survived
+   - [# 269] CRP csv: [0.04145 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 270] CRP csv: [0.04978 s] survived
+   - [# 271] CRP csv: [0.03901 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 272] CRP csv: [0.04975 s] survived
+   - [# 273] CRP csv: [0.05019 s] survived
+   - [# 274] CRP csv: [0.04992 s] survived
+   - [# 275] CRP csv: [0.03996 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 276] DDL csv: [0.00000 s] incompetent
+   - [# 277] DDL csv: [0.26180 s] timeout
+   - [# 278] EHD csv: [0.05530 s] survived
+   - [# 279] EHD csv: [0.05496 s] survived
+   - [# 280] EHD csv: [0.04235 s] survived
+   - [# 281] EHD csv: [0.05051 s] survived
+   - [# 282] EHD csv: [0.04003 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 283] EHD csv: [0.05135 s] survived
+   - [# 284] EXS csv: [0.03395 s] killed by test_incomplete_dialect (test_csv.TestDialectRegistry)
+   - [# 285] EXS csv: [0.04871 s] survived
+   - [# 286] EXS csv: [0.04888 s] survived
+   - [# 287] EXS csv: [0.04843 s] survived
+   - [# 288] EXS csv: [0.05082 s] survived
+   - [# 289] IHD csv: [0.00000 s] incompetent
+   - [# 290] IHD csv: [0.00000 s] incompetent
+   - [# 291] IHD csv: [0.02952 s] killed by test_quoted_nl (test_csv.TestDialectExcel)
+   - [# 292] IHD csv: [0.05077 s] survived
+   - [# 293] IHD csv: [0.00000 s] incompetent
+   - [# 294] IHD csv: [0.00000 s] incompetent
+   - [# 295] IHD csv: [0.04946 s] survived
+   - [# 296] IHD csv: [0.00000 s] incompetent
+   - [# 297] IHD csv: [0.00000 s] incompetent
+   - [# 298] IHD csv: [0.05036 s] survived
+   - [# 299] IHD csv: [0.04875 s] survived
+   - [# 300] IHD csv: [0.00000 s] incompetent
+   - [# 301] IHD csv: [0.00000 s] incompetent
+   - [# 302] LCR csv: [0.04033 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 303] LCR csv: [0.05412 s] survived
+   - [# 304] LCR csv: [0.26155 s] timeout
+   - [# 305] LCR csv: [0.05561 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 306] LCR csv: [0.05104 s] survived
+   - [# 307] LCR csv: [0.05079 s] survived
+   - [# 308] LCR csv: [0.03662 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 309] LCR csv: [0.26197 s] timeout
+   - [# 310] LOR csv: [0.05594 s] survived
+   - [# 311] ROR csv: [0.05527 s] survived
+   - [# 312] ROR csv: [0.00992 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 313] ROR csv: [0.00855 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 314] ROR csv: [0.00884 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 315] ROR csv: [0.00930 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 316] ROR csv: [0.00841 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 317] ROR csv: [0.05497 s] survived
+   - [# 318] ROR csv: [0.03783 s] killed by test_write_field_not_in_field_names_ignore (test_csv.TestDictFields)
+   - [# 319] ROR csv: [0.04085 s] survived
+   - [# 320] ROR csv: [0.03975 s] killed by test_doublequote (test_csv.TestSniffer)
+   - [# 321] ROR csv: [0.03750 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 322] ROR csv: [0.04956 s] survived
+   - [# 323] ROR csv: [0.05705 s] survived
+   - [# 324] ROR csv: [0.04007 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 325] ROR csv: [0.05011 s] survived
+   - [# 326] ROR csv: [0.05061 s] survived
+   - [# 327] ROR csv: [0.03738 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 328] ROR csv: [0.03562 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 329] ROR csv: [0.05030 s] survived
+   - [# 330] ROR csv: [0.03602 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 331] ROR csv: [0.04974 s] survived
+   - [# 332] ROR csv: [0.03702 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 333] ROR csv: [0.05059 s] survived
+   - [# 334] ROR csv: [0.04878 s] survived
+   - [# 335] ROR csv: [0.04905 s] survived
+   - [# 336] ROR csv: [0.03705 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 337] ROR csv: [0.03911 s] survived
+   - [# 338] ROR csv: [0.03776 s] killed by test_delimiters (test_csv.TestSniffer)
+   - [# 339] ROR csv: [0.05021 s] survived
+   - [# 340] ROR csv: [0.03840 s] killed by test_sniff (test_csv.TestSniffer)
+   - [# 341] ROR csv: [0.05016 s] survived
+   - [# 342] ROR csv: [0.04049 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 343] ROR csv: [0.04971 s] survived
+   - [# 344] ROR csv: [0.03922 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 345] ROR csv: [0.03746 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 346] ROR csv: [0.03958 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 347] ROR csv: [0.03977 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 348] ROR csv: [0.03833 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 349] ROR csv: [0.03744 s] killed by test_has_header (test_csv.TestSniffer)
+   - [# 350] SIR csv: [0.00876 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 351] SIR csv: [0.00878 s] killed by test_ordered_dict_reader (test_csv.KeyOrderingTest)
+   - [# 352] SIR csv: [0.05349 s] survived
+   - [# 353] SIR csv: [0.05067 s] survived
+[*] Mutation score [21.23897 s]: 62.0%
+   - all: 353
+   - killed: 185 (52.4%)
+   - survived: 127 (36.0%)
+   - incompetent: 19 (5.4%)
+   - timeout: 22 (6.2%)

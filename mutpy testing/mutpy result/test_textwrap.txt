@@ -1,0 +1,266 @@
+[*] Start mutation process:
+   - targets: textwrap.py
+   - tests: test_textwrap.py
+[*] 62 tests passed:
+   - test_textwrap [0.00653 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD textwrap: [0.01117 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#   2] AOD textwrap: [0.21295 s] timeout
+   - [#   3] AOD textwrap: [0.00988 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#   4] AOD textwrap: [0.00945 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#   5] AOD textwrap: [0.01014 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [#   6] AOD textwrap: [0.00975 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#   7] AOD textwrap: [0.00982 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [#   8] AOD textwrap: [0.00982 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#   9] AOD textwrap: [0.01161 s] killed by test_drop_whitespace_whitespace_only (test_textwrap.WrapTestCase)
+   - [#  10] AOD textwrap: [0.01004 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  11] AOD textwrap: [0.01024 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  12] AOD textwrap: [0.01002 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  13] AOD textwrap: [0.01011 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  14] AOD textwrap: [0.01045 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [#  15] AOD textwrap: [0.01317 s] survived
+   - [#  16] AOR textwrap: [0.00000 s] incompetent
+   - [#  17] AOR textwrap: [0.00000 s] incompetent
+   - [#  18] AOR textwrap: [0.00000 s] incompetent
+   - [#  19] AOR textwrap: [0.00000 s] incompetent
+   - [#  20] AOR textwrap: [0.01228 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [#  21] AOR textwrap: [0.01286 s] survived
+   - [#  22] AOR textwrap: [0.01219 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [#  23] AOR textwrap: [0.01060 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#  24] AOR textwrap: [0.00990 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#  25] AOR textwrap: [0.21335 s] timeout
+   - [#  26] AOR textwrap: [0.00995 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#  27] AOR textwrap: [0.01301 s] survived
+   - [#  28] AOR textwrap: [0.01002 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [#  29] AOR textwrap: [0.01030 s] killed by test_initial_indent (test_textwrap.IndentTestCases)
+   - [#  30] AOR textwrap: [0.00981 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  31] AOR textwrap: [0.00998 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [#  32] AOR textwrap: [0.00991 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  33] AOR textwrap: [0.01033 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  34] AOR textwrap: [0.00970 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [#  35] AOR textwrap: [0.01013 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  36] AOR textwrap: [0.01072 s] killed by test_drop_whitespace_whitespace_only (test_textwrap.WrapTestCase)
+   - [#  37] AOR textwrap: [0.00931 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  38] AOR textwrap: [0.00925 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  39] AOR textwrap: [0.21321 s] timeout
+   - [#  40] AOR textwrap: [0.00997 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  41] AOR textwrap: [0.01035 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  42] AOR textwrap: [0.21326 s] timeout
+   - [#  43] AOR textwrap: [0.01017 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  44] AOR textwrap: [0.00950 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  45] AOR textwrap: [0.01002 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [#  46] AOR textwrap: [0.01029 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  47] AOR textwrap: [0.01292 s] survived
+   - [#  48] AOR textwrap: [0.21352 s] timeout
+   - [#  49] AOR textwrap: [0.21369 s] timeout
+   - [#  50] AOR textwrap: [0.01315 s] survived
+   - [#  51] AOR textwrap: [0.21577 s] timeout
+   - [#  52] AOR textwrap: [0.21457 s] timeout
+   - [#  53] ASR textwrap: [0.01328 s] survived
+   - [#  54] ASR textwrap: [0.01217 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [#  55] ASR textwrap: [0.00985 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  56] ASR textwrap: [0.01035 s] killed by test_simple (test_textwrap.MaxLinesTestCase)
+   - [#  57] ASR textwrap: [0.01034 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [#  58] BCR textwrap: [0.21325 s] timeout
+   - [#  59] BCR textwrap: [0.21314 s] timeout
+   - [#  60] BCR textwrap: [0.01138 s] killed by test_placeholder_backtrack (test_textwrap.MaxLinesTestCase)
+   - [#  61] BCR textwrap: [0.01022 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  62] BCR textwrap: [0.01351 s] survived
+   - [#  63] COD textwrap: [0.01064 s] killed by test_nobreak_long (test_textwrap.LongWordTestCase)
+   - [#  64] COD textwrap: [0.01017 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  65] COD textwrap: [0.01088 s] killed by test_spaces (test_textwrap.MaxLinesTestCase)
+   - [#  66] COD textwrap: [0.01367 s] survived
+   - [#  67] COI textwrap: [0.01420 s] killed by test_whitespace (test_textwrap.WrapTestCase)
+   - [#  68] COI textwrap: [0.00934 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  69] COI textwrap: [0.01133 s] killed by test_break_on_hyphens (test_textwrap.WrapTestCase)
+   - [#  70] COI textwrap: [0.01225 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [#  71] COI textwrap: [0.01225 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [#  72] COI textwrap: [0.01047 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#  73] COI textwrap: [0.01052 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#  74] COI textwrap: [0.01012 s] killed by test_nobreak_long (test_textwrap.LongWordTestCase)
+   - [#  75] COI textwrap: [0.00917 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  76] COI textwrap: [0.21302 s] timeout
+   - [#  77] COI textwrap: [0.01029 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [#  78] COI textwrap: [0.01049 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  79] COI textwrap: [0.01013 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  80] COI textwrap: [0.01079 s] killed by test_initial_indent (test_textwrap.IndentTestCases)
+   - [#  81] COI textwrap: [0.01021 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  82] COI textwrap: [0.21387 s] timeout
+   - [#  83] COI textwrap: [0.21283 s] timeout
+   - [#  84] COI textwrap: [0.01047 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  85] COI textwrap: [0.01007 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  86] COI textwrap: [0.00966 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  87] COI textwrap: [0.01009 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [#  88] COI textwrap: [0.01079 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [#  89] COI textwrap: [0.01036 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  90] COI textwrap: [0.01084 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [#  91] COI textwrap: [0.01064 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [#  92] COI textwrap: [0.01044 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [#  93] COI textwrap: [0.21379 s] timeout
+   - [#  94] COI textwrap: [0.00948 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [#  95] COI textwrap: [0.00913 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [#  96] COI textwrap: [0.00935 s] killed by test_dedent_preserve_margin_tabs (test_textwrap.DedentTestCase)
+   - [#  97] COI textwrap: [0.01330 s] survived
+   - [#  98] COI textwrap: [0.00914 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [#  99] COI textwrap: [0.00983 s] killed by test_indent_all_lines (test_textwrap.IndentTestCase)
+   - [# 100] COI textwrap: [0.01376 s] survived
+   - [# 101] CRP textwrap: [0.01329 s] survived
+   - [# 102] CRP textwrap: [0.01365 s] survived
+   - [# 103] CRP textwrap: [0.01384 s] survived
+   - [# 104] CRP textwrap: [0.01344 s] survived
+   - [# 105] CRP textwrap: [0.01329 s] survived
+   - [# 106] CRP textwrap: [0.01375 s] survived
+   - [# 107] CRP textwrap: [0.01376 s] survived
+   - [# 108] CRP textwrap: [0.01314 s] survived
+   - [# 109] CRP textwrap: [0.01330 s] survived
+   - [# 110] CRP textwrap: [0.01374 s] survived
+   - [# 111] CRP textwrap: [0.01361 s] survived
+   - [# 112] CRP textwrap: [0.01321 s] survived
+   - [# 113] CRP textwrap: [0.01035 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 114] CRP textwrap: [0.00000 s] incompetent
+   - [# 115] CRP textwrap: [0.00000 s] incompetent
+   - [# 116] CRP textwrap: [0.00000 s] incompetent
+   - [# 117] CRP textwrap: [0.01276 s] killed by test_em_dash (test_textwrap.WrapTestCase)
+   - [# 118] CRP textwrap: [0.01294 s] killed by test_funky_hyphens (test_textwrap.WrapTestCase)
+   - [# 119] CRP textwrap: [0.01173 s] killed by test_break_on_hyphens (test_textwrap.WrapTestCase)
+   - [# 120] CRP textwrap: [0.00000 s] incompetent
+   - [# 121] CRP textwrap: [0.00000 s] incompetent
+   - [# 122] CRP textwrap: [0.00000 s] incompetent
+   - [# 123] CRP textwrap: [0.01180 s] killed by test_break_on_hyphens (test_textwrap.WrapTestCase)
+   - [# 124] CRP textwrap: [0.01200 s] killed by test_break_on_hyphens (test_textwrap.WrapTestCase)
+   - [# 125] CRP textwrap: [0.01375 s] survived
+   - [# 126] CRP textwrap: [0.01034 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 127] CRP textwrap: [0.01082 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 128] CRP textwrap: [0.00000 s] incompetent
+   - [# 129] CRP textwrap: [0.00000 s] incompetent
+   - [# 130] CRP textwrap: [0.00000 s] incompetent
+   - [# 131] CRP textwrap: [0.00000 s] incompetent
+   - [# 132] CRP textwrap: [0.00000 s] incompetent
+   - [# 133] CRP textwrap: [0.00000 s] incompetent
+   - [# 134] CRP textwrap: [0.00000 s] incompetent
+   - [# 135] CRP textwrap: [0.00000 s] incompetent
+   - [# 136] CRP textwrap: [0.00000 s] incompetent
+   - [# 137] CRP textwrap: [0.00000 s] incompetent
+   - [# 138] CRP textwrap: [0.01273 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 139] CRP textwrap: [0.01302 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 140] CRP textwrap: [0.01111 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 141] CRP textwrap: [0.01044 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 142] CRP textwrap: [0.01348 s] survived
+   - [# 143] CRP textwrap: [0.01035 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 144] CRP textwrap: [0.00979 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 145] CRP textwrap: [0.01427 s] killed by test_whitespace (test_textwrap.WrapTestCase)
+   - [# 146] CRP textwrap: [0.01457 s] survived
+   - [# 147] CRP textwrap: [0.01568 s] survived
+   - [# 148] CRP textwrap: [0.01366 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 149] CRP textwrap: [0.01423 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 150] CRP textwrap: [0.01403 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 151] CRP textwrap: [0.01522 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 152] CRP textwrap: [0.01484 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 153] CRP textwrap: [0.02257 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 154] CRP textwrap: [0.02993 s] survived
+   - [# 155] CRP textwrap: [0.01467 s] survived
+   - [# 156] CRP textwrap: [0.01507 s] survived
+   - [# 157] CRP textwrap: [0.01151 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [# 158] CRP textwrap: [0.01099 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [# 159] CRP textwrap: [0.21473 s] timeout
+   - [# 160] CRP textwrap: [0.01032 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [# 161] CRP textwrap: [0.01238 s] killed by test_hyphenated (test_textwrap.WrapTestCase)
+   - [# 162] CRP textwrap: [0.21363 s] timeout
+   - [# 163] CRP textwrap: [0.21506 s] timeout
+   - [# 164] CRP textwrap: [0.01043 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [# 165] CRP textwrap: [0.01328 s] survived
+   - [# 166] CRP textwrap: [0.01329 s] survived
+   - [# 167] CRP textwrap: [0.00992 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [# 168] CRP textwrap: [0.00992 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 169] CRP textwrap: [0.00947 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [# 170] CRP textwrap: [0.01017 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [# 171] CRP textwrap: [0.00949 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 172] CRP textwrap: [0.01013 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [# 173] CRP textwrap: [0.01033 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 174] CRP textwrap: [0.00963 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 175] CRP textwrap: [0.01052 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [# 176] CRP textwrap: [0.00956 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 177] CRP textwrap: [0.01013 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 178] CRP textwrap: [0.01142 s] killed by test_spaces (test_textwrap.MaxLinesTestCase)
+   - [# 179] CRP textwrap: [0.01043 s] killed by test_spaces (test_textwrap.MaxLinesTestCase)
+   - [# 180] CRP textwrap: [0.00951 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 181] CRP textwrap: [0.01033 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 182] CRP textwrap: [0.01091 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [# 183] CRP textwrap: [0.01029 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 184] CRP textwrap: [0.01049 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 185] CRP textwrap: [0.01072 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [# 186] CRP textwrap: [0.01074 s] killed by test_placeholder_backtrack (test_textwrap.MaxLinesTestCase)
+   - [# 187] CRP textwrap: [0.00990 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 188] CRP textwrap: [0.01028 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 189] CRP textwrap: [0.01297 s] survived
+   - [# 190] CRP textwrap: [0.01285 s] survived
+   - [# 191] CRP textwrap: [0.01119 s] killed by test_first_word_too_long_but_placeholder_fits (test_textwrap.ShortenTestCase)
+   - [# 192] CRP textwrap: [0.01065 s] killed by test_placeholder (test_textwrap.ShortenTestCase)
+   - [# 193] CRP textwrap: [0.01062 s] killed by test_placeholder (test_textwrap.ShortenTestCase)
+   - [# 194] CRP textwrap: [0.00939 s] killed by test_dedent_uneven (test_textwrap.DedentTestCase)
+   - [# 195] CRP textwrap: [0.00884 s] killed by test_dedent_uneven (test_textwrap.DedentTestCase)
+   - [# 196] CRP textwrap: [0.00977 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [# 197] CRP textwrap: [0.00852 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [# 198] CRP textwrap: [0.00913 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [# 199] CRP textwrap: [0.01338 s] survived
+   - [# 200] CRP textwrap: [0.01340 s] survived
+   - [# 201] CRP textwrap: [0.01333 s] survived
+   - [# 202] CRP textwrap: [0.01319 s] survived
+   - [# 203] CRP textwrap: [0.01286 s] survived
+   - [# 204] CRP textwrap: [0.00933 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [# 205] CRP textwrap: [0.00909 s] killed by test_dedent_preserve_margin_tabs (test_textwrap.DedentTestCase)
+   - [# 206] CRP textwrap: [0.00902 s] killed by test_dedent_declining (test_textwrap.DedentTestCase)
+   - [# 207] CRP textwrap: [0.00860 s] killed by test_indent_all_lines (test_textwrap.IndentTestCase)
+   - [# 208] CRP textwrap: [0.01278 s] survived
+   - [# 209] CRP textwrap: [0.01283 s] survived
+   - [# 210] CRP textwrap: [0.01364 s] survived
+   - [# 211] CRP textwrap: [0.01308 s] survived
+   - [# 212] LCR textwrap: [0.01261 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 213] LCR textwrap: [0.01048 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 214] LCR textwrap: [0.01021 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 215] LCR textwrap: [0.01030 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 216] LCR textwrap: [0.21414 s] timeout
+   - [# 217] LCR textwrap: [0.01938 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 218] LCR textwrap: [0.01459 s] killed by test_simple (test_textwrap.MaxLinesTestCase)
+   - [# 219] LCR textwrap: [0.01252 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 220] LCR textwrap: [0.01103 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 221] LCR textwrap: [0.01386 s] survived
+   - [# 222] LCR textwrap: [0.01354 s] survived
+   - [# 223] ROR textwrap: [0.01209 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 224] ROR textwrap: [0.01214 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 225] ROR textwrap: [0.01190 s] killed by test_fix_sentence_endings (test_textwrap.WrapTestCase)
+   - [# 226] ROR textwrap: [0.01041 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [# 227] ROR textwrap: [0.01294 s] survived
+   - [# 228] ROR textwrap: [0.01003 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 229] ROR textwrap: [0.01133 s] killed by test_bad_width (test_textwrap.WrapTestCase)
+   - [# 230] ROR textwrap: [0.01039 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [# 231] ROR textwrap: [0.01028 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [# 232] ROR textwrap: [0.01099 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 233] ROR textwrap: [0.01197 s] killed by test_placeholder (test_textwrap.MaxLinesTestCase)
+   - [# 234] ROR textwrap: [0.00985 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 235] ROR textwrap: [0.21337 s] timeout
+   - [# 236] ROR textwrap: [0.00968 s] killed by test_subsequent_indent (test_textwrap.IndentTestCases)
+   - [# 237] ROR textwrap: [0.00989 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 238] ROR textwrap: [0.01049 s] killed by test_spaces (test_textwrap.MaxLinesTestCase)
+   - [# 239] ROR textwrap: [0.01011 s] killed by test_fill (test_textwrap.IndentTestCases)
+   - [# 240] ROR textwrap: [0.00974 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 241] ROR textwrap: [0.01025 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 242] ROR textwrap: [0.01020 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 243] ROR textwrap: [0.01102 s] killed by test_simple (test_textwrap.MaxLinesTestCase)
+   - [# 244] ROR textwrap: [0.01146 s] killed by test_placeholder (test_textwrap.ShortenTestCase)
+   - [# 245] ROR textwrap: [0.01029 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 246] ROR textwrap: [0.01121 s] killed by test_simple (test_textwrap.MaxLinesTestCase)
+   - [# 247] ROR textwrap: [0.01064 s] killed by test_max_lines_long (test_textwrap.LongWordTestCase)
+   - [# 248] ROR textwrap: [0.01301 s] survived
+   - [# 249] ROR textwrap: [0.00901 s] killed by test_dedent_preserve_margin_tabs (test_textwrap.DedentTestCase)
+   - [# 250] ROR textwrap: [0.01347 s] survived
+   - [# 251] SIR textwrap: [0.01373 s] killed by test_punct_hyphens (test_textwrap.WrapTestCase)
+   - [# 252] SIR textwrap: [0.01012 s] killed by test_break_long (test_textwrap.LongWordTestCase)
+   - [# 253] SIR textwrap: [0.21353 s] timeout
+   - [# 254] SIR textwrap: [0.00948 s] killed by test_dedent_preserve_margin_tabs (test_textwrap.DedentTestCase)
+[*] Mutation score [8.27176 s]: 79.9%
+   - all: 254
+   - killed: 167 (65.7%)
+   - survived: 47 (18.5%)
+   - incompetent: 20 (7.9%)
+   - timeout: 20 (7.9%)

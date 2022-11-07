@@ -1,0 +1,6 @@
+[*] Start mutation process:
+   - targets: fileinput.py
+   - tests: test_fileinput.py
+[*] 54 tests passed:
+   - test_fileinput [0.01343 s]
+[*] Start mutants generation and execution:

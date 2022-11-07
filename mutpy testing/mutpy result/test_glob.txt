@@ -1,0 +1,76 @@
+[*] Start mutation process:
+   - targets: glob.py
+   - tests: test_glob.py
+[*] 11 tests passed:
+   - test_glob [0.05743 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR glob: [0.26852 s] timeout
+   - [#   2] COD glob: [0.04617 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#   3] COD glob: [0.01149 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#   4] COD glob: [0.01321 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#   5] COD glob: [0.01154 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#   6] COD glob: [0.02557 s] killed by test_glob_one_directory (test_glob.GlobTests)
+   - [#   7] COD glob: [0.01126 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#   8] COD glob: [0.01442 s] killed by test_glob_directory_names (test_glob.GlobTests)
+   - [#   9] COD glob: [0.01248 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  10] COD glob: [0.01071 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  11] COD glob: [0.03100 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  12] COI glob: [0.01128 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  13] COI glob: [0.01054 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  14] COI glob: [0.02036 s] killed by test_glob_literal (test_glob.GlobTests)
+   - [#  15] COI glob: [0.01081 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  16] COI glob: [0.01284 s] killed by test_glob_bytes_directory_with_trailing_slash (test_glob.GlobTests)
+   - [#  17] COI glob: [0.01163 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  18] COI glob: [0.02206 s] killed by test_glob_literal (test_glob.GlobTests)
+   - [#  19] COI glob: [0.01077 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  20] COI glob: [0.01151 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  21] COI glob: [0.01122 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  22] COI glob: [0.02517 s] killed by test_glob_one_directory (test_glob.GlobTests)
+   - [#  23] COI glob: [0.01601 s] killed by test_glob_directory_names (test_glob.GlobTests)
+   - [#  24] COI glob: [0.01213 s] killed by test_glob_bytes_directory_with_trailing_slash (test_glob.GlobTests)
+   - [#  25] COI glob: [0.01519 s] killed by test_glob_directory_names (test_glob.GlobTests)
+   - [#  26] COI glob: [0.01227 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  27] COI glob: [0.26750 s] timeout
+   - [#  28] COI glob: [0.02417 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  29] COI glob: [0.04383 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  30] COI glob: [0.26912 s] timeout
+   - [#  31] COI glob: [0.05753 s] killed by test_glob_one_directory (test_glob.GlobTests)
+   - [#  32] COI glob: [0.03558 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  33] COI glob: [0.26815 s] timeout
+   - [#  34] CRP glob: [0.09302 s] survived
+   - [#  35] CRP glob: [0.07133 s] survived
+   - [#  36] CRP glob: [0.07740 s] survived
+   - [#  37] CRP glob: [0.07411 s] survived
+   - [#  38] CRP glob: [0.07414 s] survived
+   - [#  39] CRP glob: [0.07245 s] survived
+   - [#  40] CRP glob: [0.03335 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  41] CRP glob: [0.02958 s] killed by test_glob_literal (test_glob.GlobTests)
+   - [#  42] CRP glob: [0.02771 s] killed by test_glob_literal (test_glob.GlobTests)
+   - [#  43] CRP glob: [0.01246 s] killed by test_escape (test_glob.GlobTests)
+   - [#  44] CRP glob: [0.01112 s] killed by test_escape (test_glob.GlobTests)
+   - [#  45] CRP glob: [0.01232 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  46] CRP glob: [0.02668 s] killed by test_glob_one_directory (test_glob.GlobTests)
+   - [#  47] CRP glob: [0.02721 s] killed by test_glob_one_directory (test_glob.GlobTests)
+   - [#  48] CRP glob: [0.01090 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  49] CRP glob: [0.03415 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  50] CRP glob: [0.03432 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  51] CRP glob: [0.00951 s] killed by test_escape (test_glob.GlobTests)
+   - [#  52] CRP glob: [0.01144 s] killed by test_escape (test_glob.GlobTests)
+   - [#  53] EHD glob: [0.07099 s] survived
+   - [#  54] EHD glob: [0.03188 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  55] EXS glob: [0.06643 s] survived
+   - [#  56] LCR glob: [0.03017 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  57] LCR glob: [0.04370 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  58] LCR glob: [0.01030 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  59] LCR glob: [0.03518 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  60] LCR glob: [0.01066 s] killed by test_glob_broken_symlinks (test_glob.GlobTests)
+   - [#  61] ROR glob: [0.01238 s] killed by test_glob_bytes_directory_with_trailing_slash (test_glob.GlobTests)
+   - [#  62] ROR glob: [0.03210 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  63] ROR glob: [0.03013 s] killed by test_recursive_glob (test_glob.GlobTests)
+   - [#  64] SIR glob: [0.03163 s] killed by test_recursive_glob (test_glob.GlobTests)
+[*] Mutation score [3.39599 s]: 87.5%
+   - all: 64
+   - killed: 52 (81.2%)
+   - survived: 8 (12.5%)
+   - incompetent: 0 (0.0%)
+   - timeout: 4 (6.2%)

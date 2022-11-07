@@ -1,0 +1,370 @@
+[*] Start mutation process:
+   - targets: binhex.py
+   - tests: test_binhex.py
+[*] 2 tests passed:
+   - test_binhex [0.00113 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOD binhex: [0.00819 s] survived
+   - [#   2] AOD binhex: [0.00861 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#   3] AOD binhex: [0.00725 s] survived
+   - [#   4] AOD binhex: [0.00808 s] survived
+   - [#   5] AOD binhex: [0.00759 s] survived
+   - [#   6] AOR binhex: [0.00763 s] survived
+   - [#   7] AOR binhex: [0.20731 s] timeout
+   - [#   8] AOR binhex: [0.21151 s] timeout
+   - [#   9] AOR binhex: [0.01317 s] survived
+   - [#  10] AOR binhex: [0.20803 s] timeout
+   - [#  11] AOR binhex: [0.01298 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  12] AOR binhex: [0.01285 s] survived
+   - [#  13] AOR binhex: [0.20891 s] timeout
+   - [#  14] AOR binhex: [0.01726 s] survived
+   - [#  15] AOR binhex: [0.20848 s] timeout
+   - [#  16] AOR binhex: [0.20685 s] timeout
+   - [#  17] AOR binhex: [0.20718 s] timeout
+   - [#  18] AOR binhex: [0.21138 s] timeout
+   - [#  19] AOR binhex: [0.20682 s] timeout
+   - [#  20] AOR binhex: [0.20730 s] timeout
+   - [#  21] AOR binhex: [0.20660 s] timeout
+   - [#  22] AOR binhex: [0.20652 s] timeout
+   - [#  23] AOR binhex: [0.20662 s] timeout
+   - [#  24] AOR binhex: [0.20662 s] timeout
+   - [#  25] AOR binhex: [0.20701 s] timeout
+   - [#  26] AOR binhex: [0.00860 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  27] AOR binhex: [0.00802 s] survived
+   - [#  28] AOR binhex: [0.00872 s] survived
+   - [#  29] AOR binhex: [0.00808 s] survived
+   - [#  30] AOR binhex: [0.20614 s] timeout
+   - [#  31] AOR binhex: [0.20659 s] timeout
+   - [#  32] AOR binhex: [0.00784 s] survived
+   - [#  33] AOR binhex: [0.20674 s] timeout
+   - [#  34] AOR binhex: [0.00931 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  35] AOR binhex: [0.00803 s] survived
+   - [#  36] AOR binhex: [0.20672 s] timeout
+   - [#  37] AOR binhex: [0.20664 s] timeout
+   - [#  38] AOR binhex: [0.00823 s] survived
+   - [#  39] AOR binhex: [0.00824 s] survived
+   - [#  40] AOR binhex: [0.20681 s] timeout
+   - [#  41] AOR binhex: [0.20676 s] timeout
+   - [#  42] AOR binhex: [0.20648 s] timeout
+   - [#  43] AOR binhex: [0.00848 s] survived
+   - [#  44] AOR binhex: [0.20664 s] timeout
+   - [#  45] AOR binhex: [0.20734 s] timeout
+   - [#  46] AOR binhex: [0.00817 s] survived
+   - [#  47] AOR binhex: [0.00873 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  48] AOR binhex: [0.00885 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  49] AOR binhex: [0.00834 s] survived
+   - [#  50] AOR binhex: [0.20647 s] timeout
+   - [#  51] AOR binhex: [0.00797 s] survived
+   - [#  52] AOR binhex: [0.00843 s] survived
+   - [#  53] AOR binhex: [0.00762 s] survived
+   - [#  54] AOR binhex: [0.00795 s] survived
+   - [#  55] AOR binhex: [0.20625 s] timeout
+   - [#  56] AOR binhex: [0.00862 s] survived
+   - [#  57] AOR binhex: [0.00842 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  58] AOR binhex: [0.00800 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  59] AOR binhex: [0.00837 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  60] AOR binhex: [0.00797 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  61] AOR binhex: [0.00845 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  62] AOR binhex: [0.20689 s] timeout
+   - [#  63] AOR binhex: [0.01899 s] survived
+   - [#  64] AOR binhex: [0.20866 s] timeout
+   - [#  65] AOR binhex: [0.00790 s] survived
+   - [#  66] BCR binhex: [0.20586 s] timeout
+   - [#  67] BCR binhex: [0.20579 s] timeout
+   - [#  68] BCR binhex: [0.20598 s] timeout
+   - [#  69] BCR binhex: [0.20706 s] timeout
+   - [#  70] BCR binhex: [0.01453 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  71] BCR binhex: [0.20675 s] timeout
+   - [#  72] BCR binhex: [0.00830 s] survived
+   - [#  73] COD binhex: [0.00728 s] survived
+   - [#  74] COD binhex: [0.00793 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  75] COD binhex: [0.00779 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  76] COD binhex: [0.20605 s] timeout
+   - [#  77] COD binhex: [0.00884 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  78] COD binhex: [0.00806 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  79] COD binhex: [0.00865 s] survived
+   - [#  80] COD binhex: [0.00786 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  81] COD binhex: [0.00823 s] survived
+   - [#  82] COD binhex: [0.00805 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  83] COD binhex: [0.00812 s] survived
+   - [#  84] COI binhex: [0.00754 s] survived
+   - [#  85] COI binhex: [0.00818 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  86] COI binhex: [0.00733 s] survived
+   - [#  87] COI binhex: [0.00816 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  88] COI binhex: [0.00830 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  89] COI binhex: [0.00780 s] survived
+   - [#  90] COI binhex: [0.20768 s] timeout
+   - [#  91] COI binhex: [0.01613 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  92] COI binhex: [0.01226 s] survived
+   - [#  93] COI binhex: [0.00961 s] survived
+   - [#  94] COI binhex: [0.00855 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  95] COI binhex: [0.20786 s] timeout
+   - [#  96] COI binhex: [0.21256 s] timeout
+   - [#  97] COI binhex: [0.01585 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  98] COI binhex: [0.01200 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [#  99] COI binhex: [0.01011 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 100] COI binhex: [0.00838 s] survived
+   - [# 101] COI binhex: [0.00777 s] survived
+   - [# 102] COI binhex: [0.00816 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 103] COI binhex: [0.00742 s] survived
+   - [# 104] COI binhex: [0.00730 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 105] COI binhex: [0.00775 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 106] COI binhex: [0.00762 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 107] COI binhex: [0.00796 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 108] COI binhex: [0.00752 s] survived
+   - [# 109] COI binhex: [0.20599 s] timeout
+   - [# 110] COI binhex: [0.20732 s] timeout
+   - [# 111] COI binhex: [0.21259 s] timeout
+   - [# 112] COI binhex: [0.01803 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 113] COI binhex: [0.01268 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 114] COI binhex: [0.01015 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 115] COI binhex: [0.20761 s] timeout
+   - [# 116] COI binhex: [0.01771 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 117] COI binhex: [0.01172 s] survived
+   - [# 118] COI binhex: [0.00996 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 119] COI binhex: [0.00859 s] survived
+   - [# 120] COI binhex: [0.00733 s] survived
+   - [# 121] COI binhex: [0.00756 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 122] COI binhex: [0.00777 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 123] COI binhex: [0.00787 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 124] COI binhex: [0.00735 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 125] COI binhex: [0.00816 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 126] COI binhex: [0.00757 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 127] COI binhex: [0.00794 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 128] COI binhex: [0.00787 s] survived
+   - [# 129] COI binhex: [0.00821 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 130] COI binhex: [0.00834 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 131] COI binhex: [0.00766 s] survived
+   - [# 132] COI binhex: [0.00908 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 133] COI binhex: [0.00775 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 134] COI binhex: [0.00805 s] survived
+   - [# 135] COI binhex: [0.00744 s] survived
+   - [# 136] COI binhex: [0.00827 s] survived
+   - [# 137] COI binhex: [0.00745 s] survived
+   - [# 138] COI binhex: [0.00790 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 139] COI binhex: [0.00729 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 140] COI binhex: [0.00790 s] survived
+   - [# 141] COI binhex: [0.00733 s] survived
+   - [# 142] COI binhex: [0.00816 s] survived
+   - [# 143] CRP binhex: [0.00782 s] survived
+   - [# 144] CRP binhex: [0.00793 s] survived
+   - [# 145] CRP binhex: [0.00729 s] survived
+   - [# 146] CRP binhex: [0.00793 s] survived
+   - [# 147] CRP binhex: [0.00748 s] survived
+   - [# 148] CRP binhex: [0.00818 s] survived
+   - [# 149] CRP binhex: [0.00852 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 150] CRP binhex: [0.00862 s] survived
+   - [# 151] CRP binhex: [0.00752 s] survived
+   - [# 152] CRP binhex: [0.00814 s] survived
+   - [# 153] CRP binhex: [0.00769 s] survived
+   - [# 154] CRP binhex: [0.00789 s] survived
+   - [# 155] CRP binhex: [0.00800 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 156] CRP binhex: [0.00833 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 157] CRP binhex: [0.00801 s] survived
+   - [# 158] CRP binhex: [0.00791 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 159] CRP binhex: [0.00728 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 160] CRP binhex: [0.00781 s] survived
+   - [# 161] CRP binhex: [0.00761 s] survived
+   - [# 162] CRP binhex: [0.00824 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 163] CRP binhex: [0.00776 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 164] CRP binhex: [0.00808 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 165] CRP binhex: [0.00721 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 166] CRP binhex: [0.00841 s] survived
+   - [# 167] CRP binhex: [0.00745 s] survived
+   - [# 168] CRP binhex: [0.00777 s] survived
+   - [# 169] CRP binhex: [0.00746 s] survived
+   - [# 170] CRP binhex: [0.00804 s] survived
+   - [# 171] CRP binhex: [0.00752 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 172] CRP binhex: [0.00791 s] survived
+   - [# 173] CRP binhex: [0.00797 s] survived
+   - [# 174] CRP binhex: [0.00844 s] survived
+   - [# 175] CRP binhex: [0.00792 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 176] CRP binhex: [0.00843 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 177] CRP binhex: [0.00730 s] survived
+   - [# 178] CRP binhex: [0.00762 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 179] CRP binhex: [0.00716 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 180] CRP binhex: [0.00818 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 181] CRP binhex: [0.00817 s] survived
+   - [# 182] CRP binhex: [0.00762 s] survived
+   - [# 183] CRP binhex: [0.00724 s] survived
+   - [# 184] CRP binhex: [0.00804 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 185] CRP binhex: [0.00745 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 186] CRP binhex: [0.00808 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 187] CRP binhex: [0.00782 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 188] CRP binhex: [0.00810 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 189] CRP binhex: [0.00754 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 190] CRP binhex: [0.00787 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 191] CRP binhex: [0.00751 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 192] CRP binhex: [0.00777 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 193] CRP binhex: [0.00747 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 194] CRP binhex: [0.00815 s] survived
+   - [# 195] CRP binhex: [0.00864 s] survived
+   - [# 196] CRP binhex: [0.00771 s] survived
+   - [# 197] CRP binhex: [0.00725 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 198] CRP binhex: [0.00792 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 199] CRP binhex: [0.00787 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 200] CRP binhex: [0.00802 s] survived
+   - [# 201] CRP binhex: [0.00740 s] survived
+   - [# 202] CRP binhex: [0.00800 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 203] CRP binhex: [0.00825 s] survived
+   - [# 204] CRP binhex: [0.00742 s] survived
+   - [# 205] CRP binhex: [0.00734 s] survived
+   - [# 206] CRP binhex: [0.00764 s] survived
+   - [# 207] CRP binhex: [0.00724 s] survived
+   - [# 208] CRP binhex: [0.00769 s] survived
+   - [# 209] CRP binhex: [0.00738 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 210] CRP binhex: [0.00784 s] survived
+   - [# 211] CRP binhex: [0.00715 s] survived
+   - [# 212] CRP binhex: [0.00788 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 213] CRP binhex: [0.00788 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 214] CRP binhex: [0.00766 s] survived
+   - [# 215] CRP binhex: [0.00756 s] survived
+   - [# 216] CRP binhex: [0.00788 s] survived
+   - [# 217] CRP binhex: [0.00736 s] survived
+   - [# 218] CRP binhex: [0.20748 s] timeout
+   - [# 219] CRP binhex: [0.01727 s] survived
+   - [# 220] CRP binhex: [0.01277 s] survived
+   - [# 221] CRP binhex: [0.20770 s] timeout
+   - [# 222] CRP binhex: [0.00774 s] survived
+   - [# 223] CRP binhex: [0.00734 s] survived
+   - [# 224] CRP binhex: [0.00790 s] survived
+   - [# 225] CRP binhex: [0.00722 s] survived
+   - [# 226] CRP binhex: [0.00780 s] survived
+   - [# 227] CRP binhex: [0.00730 s] survived
+   - [# 228] CRP binhex: [0.00806 s] survived
+   - [# 229] CRP binhex: [0.00748 s] survived
+   - [# 230] CRP binhex: [0.00776 s] survived
+   - [# 231] CRP binhex: [0.00749 s] survived
+   - [# 232] CRP binhex: [0.00816 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 233] CRP binhex: [0.00742 s] survived
+   - [# 234] CRP binhex: [0.00787 s] survived
+   - [# 235] CRP binhex: [0.00781 s] survived
+   - [# 236] CRP binhex: [0.00770 s] survived
+   - [# 237] CRP binhex: [0.00757 s] survived
+   - [# 238] CRP binhex: [0.00793 s] survived
+   - [# 239] CRP binhex: [0.00739 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 240] CRP binhex: [0.00797 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 241] CRP binhex: [0.00761 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 242] CRP binhex: [0.00778 s] survived
+   - [# 243] CRP binhex: [0.00762 s] survived
+   - [# 244] CRP binhex: [0.00839 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 245] CRP binhex: [0.00813 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 246] CRP binhex: [0.00952 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 247] CRP binhex: [0.00819 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 248] CRP binhex: [0.00832 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 249] CRP binhex: [0.00788 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 250] CRP binhex: [0.00793 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 251] CRP binhex: [0.00741 s] survived
+   - [# 252] CRP binhex: [0.00866 s] survived
+   - [# 253] CRP binhex: [0.00788 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 254] CRP binhex: [0.20723 s] timeout
+   - [# 255] CRP binhex: [0.01800 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 256] CRP binhex: [0.01328 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 257] CRP binhex: [0.01082 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 258] CRP binhex: [0.01004 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 259] CRP binhex: [0.00845 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 260] CRP binhex: [0.00829 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 261] CRP binhex: [0.00748 s] survived
+   - [# 262] CRP binhex: [0.00796 s] survived
+   - [# 263] CRP binhex: [0.00758 s] survived
+   - [# 264] CRP binhex: [0.00783 s] survived
+   - [# 265] CRP binhex: [0.00891 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 266] CRP binhex: [0.00853 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 267] CRP binhex: [0.00836 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 268] CRP binhex: [0.00841 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 269] CRP binhex: [0.00954 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 270] CRP binhex: [0.00847 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 271] CRP binhex: [0.00883 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 272] CRP binhex: [0.00881 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 273] CRP binhex: [0.00828 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 274] CRP binhex: [0.00822 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 275] CRP binhex: [0.00823 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 276] CRP binhex: [0.00777 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 277] CRP binhex: [0.00805 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 278] CRP binhex: [0.00777 s] survived
+   - [# 279] CRP binhex: [0.00836 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 280] CRP binhex: [0.00804 s] survived
+   - [# 281] CRP binhex: [0.00803 s] survived
+   - [# 282] CRP binhex: [0.00762 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 283] CRP binhex: [0.00745 s] survived
+   - [# 284] CRP binhex: [0.00773 s] survived
+   - [# 285] CRP binhex: [0.00791 s] survived
+   - [# 286] CRP binhex: [0.00767 s] survived
+   - [# 287] CRP binhex: [0.00776 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 288] CRP binhex: [0.00829 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 289] CRP binhex: [0.00782 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 290] CRP binhex: [0.00788 s] survived
+   - [# 291] CRP binhex: [0.00765 s] survived
+   - [# 292] CRP binhex: [0.00730 s] survived
+   - [# 293] CRP binhex: [0.00715 s] survived
+   - [# 294] CRP binhex: [0.00779 s] survived
+   - [# 295] EHD binhex: [0.00827 s] survived
+   - [# 296] EHD binhex: [0.00850 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 297] EXS binhex: [0.00855 s] killed by test_binhex_error_on_long_filename (test_binhex.BinHexTestCase)
+   - [# 298] LCR binhex: [0.00820 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 299] LOR binhex: [0.00800 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 300] LOR binhex: [0.00850 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 301] ROR binhex: [0.00805 s] survived
+   - [# 302] ROR binhex: [0.00785 s] survived
+   - [# 303] ROR binhex: [0.00754 s] survived
+   - [# 304] ROR binhex: [0.00791 s] survived
+   - [# 305] ROR binhex: [0.00742 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 306] ROR binhex: [0.00796 s] survived
+   - [# 307] ROR binhex: [0.00768 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 308] ROR binhex: [0.00755 s] survived
+   - [# 309] ROR binhex: [0.00771 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 310] ROR binhex: [0.00797 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 311] ROR binhex: [0.00734 s] survived
+   - [# 312] ROR binhex: [0.00780 s] survived
+   - [# 313] ROR binhex: [0.00782 s] survived
+   - [# 314] ROR binhex: [0.00791 s] survived
+   - [# 315] ROR binhex: [0.00749 s] survived
+   - [# 316] ROR binhex: [0.00839 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 317] ROR binhex: [0.00754 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 318] ROR binhex: [0.20661 s] timeout
+   - [# 319] ROR binhex: [0.21001 s] timeout
+   - [# 320] ROR binhex: [0.20720 s] timeout
+   - [# 321] ROR binhex: [0.01664 s] survived
+   - [# 322] ROR binhex: [0.01094 s] survived
+   - [# 323] ROR binhex: [0.01035 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 324] ROR binhex: [0.00910 s] survived
+   - [# 325] ROR binhex: [0.00789 s] survived
+   - [# 326] ROR binhex: [0.00848 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 327] ROR binhex: [0.00793 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 328] ROR binhex: [0.00834 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 329] ROR binhex: [0.00772 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 330] ROR binhex: [0.00801 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 331] ROR binhex: [0.20575 s] timeout
+   - [# 332] ROR binhex: [0.00983 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 333] ROR binhex: [0.00841 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 334] ROR binhex: [0.00884 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 335] SIR binhex: [0.00871 s] survived
+   - [# 336] SIR binhex: [0.00777 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 337] SIR binhex: [0.00832 s] survived
+   - [# 338] SIR binhex: [0.00804 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 339] SIR binhex: [0.00866 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 340] SIR binhex: [0.20720 s] timeout
+   - [# 341] SIR binhex: [0.01850 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 342] SIR binhex: [0.01254 s] survived
+   - [# 343] SIR binhex: [0.01042 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 344] SIR binhex: [0.00857 s] survived
+   - [# 345] SIR binhex: [0.00883 s] survived
+   - [# 346] SIR binhex: [0.00777 s] survived
+   - [# 347] SIR binhex: [0.00841 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 348] SIR binhex: [0.00765 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 349] SIR binhex: [0.00787 s] survived
+   - [# 350] SIR binhex: [0.00731 s] survived
+   - [# 351] SIR binhex: [0.00816 s] survived
+   - [# 352] SIR binhex: [0.00747 s] survived
+   - [# 353] SIR binhex: [0.00870 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 354] SIR binhex: [0.00783 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 355] SIR binhex: [0.00835 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 356] SIR binhex: [0.00746 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 357] SIR binhex: [0.00863 s] killed by test_binhex (test_binhex.BinHexTestCase)
+   - [# 358] SIR binhex: [0.00774 s] survived
+[*] Mutation score [15.62345 s]: 55.6%
+   - all: 358
+   - killed: 149 (41.6%)
+   - survived: 159 (44.4%)
+   - incompetent: 0 (0.0%)
+   - timeout: 50 (14.0%)

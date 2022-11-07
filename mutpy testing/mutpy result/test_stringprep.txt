@@ -1,0 +1,2107 @@
+[*] Start mutation process:
+   - targets: stringprep.py
+   - tests: test_stringprep.py
+[*] 1 tests passed:
+   - test_stringprep [0.00022 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR stringprep: [0.00000 s] incompetent
+   - [#   2] AOR stringprep: [0.00000 s] incompetent
+   - [#   3] AOR stringprep: [0.00000 s] incompetent
+   - [#   4] AOR stringprep: [0.00000 s] incompetent
+   - [#   5] AOR stringprep: [0.00000 s] incompetent
+   - [#   6] AOR stringprep: [0.00000 s] incompetent
+   - [#   7] AOR stringprep: [0.00000 s] incompetent
+   - [#   8] AOR stringprep: [0.00000 s] incompetent
+   - [#   9] COD stringprep: [0.00698 s] killed by test (test_stringprep.StringprepTests)
+   - [#  10] COI stringprep: [0.00646 s] killed by test (test_stringprep.StringprepTests)
+   - [#  11] COI stringprep: [0.00660 s] killed by test (test_stringprep.StringprepTests)
+   - [#  12] COI stringprep: [0.00621 s] killed by test (test_stringprep.StringprepTests)
+   - [#  13] COI stringprep: [0.20548 s] timeout
+   - [#  14] COI stringprep: [0.01433 s] survived
+   - [#  15] COI stringprep: [0.01085 s] killed by test (test_stringprep.StringprepTests)
+   - [#  16] COI stringprep: [0.00839 s] killed by test (test_stringprep.StringprepTests)
+   - [#  17] COI stringprep: [0.00771 s] killed by test (test_stringprep.StringprepTests)
+   - [#  18] COI stringprep: [0.00696 s] killed by test (test_stringprep.StringprepTests)
+   - [#  19] COI stringprep: [0.00677 s] killed by test (test_stringprep.StringprepTests)
+   - [#  20] COI stringprep: [0.00567 s] survived
+   - [#  21] COI stringprep: [0.00637 s] killed by test (test_stringprep.StringprepTests)
+   - [#  22] COI stringprep: [0.00610 s] killed by test (test_stringprep.StringprepTests)
+   - [#  23] COI stringprep: [0.00620 s] killed by test (test_stringprep.StringprepTests)
+   - [#  24] COI stringprep: [0.00674 s] killed by test (test_stringprep.StringprepTests)
+   - [#  25] COI stringprep: [0.00578 s] survived
+   - [#  26] COI stringprep: [0.00645 s] killed by test (test_stringprep.StringprepTests)
+   - [#  27] CRP stringprep: [0.00000 s] incompetent
+   - [#  28] CRP stringprep: [0.00000 s] incompetent
+   - [#  29] CRP stringprep: [0.00606 s] killed by test (test_stringprep.StringprepTests)
+   - [#  30] CRP stringprep: [0.00642 s] killed by test (test_stringprep.StringprepTests)
+   - [#  31] CRP stringprep: [0.00591 s] survived
+   - [#  32] CRP stringprep: [0.00555 s] survived
+   - [#  33] CRP stringprep: [0.00614 s] survived
+   - [#  34] CRP stringprep: [0.00568 s] survived
+   - [#  35] CRP stringprep: [0.00547 s] survived
+   - [#  36] CRP stringprep: [0.00639 s] killed by test (test_stringprep.StringprepTests)
+   - [#  37] CRP stringprep: [0.00546 s] survived
+   - [#  38] CRP stringprep: [0.00586 s] survived
+   - [#  39] CRP stringprep: [0.00642 s] survived
+   - [#  40] CRP stringprep: [0.00571 s] survived
+   - [#  41] CRP stringprep: [0.00613 s] survived
+   - [#  42] CRP stringprep: [0.00591 s] survived
+   - [#  43] CRP stringprep: [0.00546 s] survived
+   - [#  44] CRP stringprep: [0.00579 s] survived
+   - [#  45] CRP stringprep: [0.00563 s] survived
+   - [#  46] CRP stringprep: [0.00594 s] survived
+   - [#  47] CRP stringprep: [0.00591 s] survived
+   - [#  48] CRP stringprep: [0.00561 s] survived
+   - [#  49] CRP stringprep: [0.00597 s] survived
+   - [#  50] CRP stringprep: [0.00590 s] survived
+   - [#  51] CRP stringprep: [0.00579 s] survived
+   - [#  52] CRP stringprep: [0.00580 s] survived
+   - [#  53] CRP stringprep: [0.00571 s] survived
+   - [#  54] CRP stringprep: [0.00543 s] survived
+   - [#  55] CRP stringprep: [0.00658 s] survived
+   - [#  56] CRP stringprep: [0.00584 s] survived
+   - [#  57] CRP stringprep: [0.00610 s] survived
+   - [#  58] CRP stringprep: [0.00556 s] survived
+   - [#  59] CRP stringprep: [0.00615 s] survived
+   - [#  60] CRP stringprep: [0.00571 s] survived
+   - [#  61] CRP stringprep: [0.00584 s] survived
+   - [#  62] CRP stringprep: [0.00601 s] survived
+   - [#  63] CRP stringprep: [0.00585 s] survived
+   - [#  64] CRP stringprep: [0.00560 s] survived
+   - [#  65] CRP stringprep: [0.00622 s] survived
+   - [#  66] CRP stringprep: [0.00555 s] survived
+   - [#  67] CRP stringprep: [0.00615 s] survived
+   - [#  68] CRP stringprep: [0.00585 s] survived
+   - [#  69] CRP stringprep: [0.00554 s] survived
+   - [#  70] CRP stringprep: [0.00604 s] survived
+   - [#  71] CRP stringprep: [0.00582 s] survived
+   - [#  72] CRP stringprep: [0.00564 s] survived
+   - [#  73] CRP stringprep: [0.00695 s] survived
+   - [#  74] CRP stringprep: [0.00559 s] survived
+   - [#  75] CRP stringprep: [0.00547 s] survived
+   - [#  76] CRP stringprep: [0.00611 s] survived
+   - [#  77] CRP stringprep: [0.00550 s] survived
+   - [#  78] CRP stringprep: [0.00573 s] survived
+   - [#  79] CRP stringprep: [0.00596 s] survived
+   - [#  80] CRP stringprep: [0.00567 s] survived
+   - [#  81] CRP stringprep: [0.00602 s] survived
+   - [#  82] CRP stringprep: [0.00579 s] survived
+   - [#  83] CRP stringprep: [0.00552 s] survived
+   - [#  84] CRP stringprep: [0.00603 s] survived
+   - [#  85] CRP stringprep: [0.00577 s] survived
+   - [#  86] CRP stringprep: [0.00568 s] survived
+   - [#  87] CRP stringprep: [0.00618 s] survived
+   - [#  88] CRP stringprep: [0.00556 s] survived
+   - [#  89] CRP stringprep: [0.00562 s] survived
+   - [#  90] CRP stringprep: [0.00601 s] survived
+   - [#  91] CRP stringprep: [0.00558 s] survived
+   - [#  92] CRP stringprep: [0.00691 s] survived
+   - [#  93] CRP stringprep: [0.00618 s] survived
+   - [#  94] CRP stringprep: [0.00557 s] survived
+   - [#  95] CRP stringprep: [0.00607 s] survived
+   - [#  96] CRP stringprep: [0.00592 s] survived
+   - [#  97] CRP stringprep: [0.00558 s] survived
+   - [#  98] CRP stringprep: [0.00626 s] survived
+   - [#  99] CRP stringprep: [0.00564 s] survived
+   - [# 100] CRP stringprep: [0.00554 s] survived
+   - [# 101] CRP stringprep: [0.00619 s] survived
+   - [# 102] CRP stringprep: [0.00568 s] survived
+   - [# 103] CRP stringprep: [0.00557 s] survived
+   - [# 104] CRP stringprep: [0.00604 s] survived
+   - [# 105] CRP stringprep: [0.00555 s] survived
+   - [# 106] CRP stringprep: [0.00595 s] survived
+   - [# 107] CRP stringprep: [0.00585 s] survived
+   - [# 108] CRP stringprep: [0.00577 s] survived
+   - [# 109] CRP stringprep: [0.00611 s] survived
+   - [# 110] CRP stringprep: [0.00585 s] survived
+   - [# 111] CRP stringprep: [0.00558 s] survived
+   - [# 112] CRP stringprep: [0.00659 s] survived
+   - [# 113] CRP stringprep: [0.00574 s] survived
+   - [# 114] CRP stringprep: [0.00602 s] survived
+   - [# 115] CRP stringprep: [0.00613 s] survived
+   - [# 116] CRP stringprep: [0.00917 s] survived
+   - [# 117] CRP stringprep: [0.00618 s] survived
+   - [# 118] CRP stringprep: [0.00592 s] survived
+   - [# 119] CRP stringprep: [0.00571 s] survived
+   - [# 120] CRP stringprep: [0.00611 s] survived
+   - [# 121] CRP stringprep: [0.00568 s] survived
+   - [# 122] CRP stringprep: [0.00608 s] survived
+   - [# 123] CRP stringprep: [0.00580 s] survived
+   - [# 124] CRP stringprep: [0.00583 s] survived
+   - [# 125] CRP stringprep: [0.00589 s] survived
+   - [# 126] CRP stringprep: [0.00598 s] survived
+   - [# 127] CRP stringprep: [0.00586 s] survived
+   - [# 128] CRP stringprep: [0.00599 s] survived
+   - [# 129] CRP stringprep: [0.00577 s] survived
+   - [# 130] CRP stringprep: [0.00584 s] survived
+   - [# 131] CRP stringprep: [0.00712 s] survived
+   - [# 132] CRP stringprep: [0.00574 s] survived
+   - [# 133] CRP stringprep: [0.00609 s] survived
+   - [# 134] CRP stringprep: [0.00581 s] survived
+   - [# 135] CRP stringprep: [0.00579 s] survived
+   - [# 136] CRP stringprep: [0.00620 s] survived
+   - [# 137] CRP stringprep: [0.00595 s] survived
+   - [# 138] CRP stringprep: [0.00585 s] survived
+   - [# 139] CRP stringprep: [0.00614 s] survived
+   - [# 140] CRP stringprep: [0.00564 s] survived
+   - [# 141] CRP stringprep: [0.00603 s] survived
+   - [# 142] CRP stringprep: [0.00593 s] survived
+   - [# 143] CRP stringprep: [0.00571 s] survived
+   - [# 144] CRP stringprep: [0.00620 s] survived
+   - [# 145] CRP stringprep: [0.00605 s] survived
+   - [# 146] CRP stringprep: [0.00571 s] survived
+   - [# 147] CRP stringprep: [0.00602 s] survived
+   - [# 148] CRP stringprep: [0.00576 s] survived
+   - [# 149] CRP stringprep: [0.00613 s] survived
+   - [# 150] CRP stringprep: [0.00606 s] survived
+   - [# 151] CRP stringprep: [0.00716 s] survived
+   - [# 152] CRP stringprep: [0.00626 s] survived
+   - [# 153] CRP stringprep: [0.00573 s] survived
+   - [# 154] CRP stringprep: [0.00588 s] survived
+   - [# 155] CRP stringprep: [0.00580 s] survived
+   - [# 156] CRP stringprep: [0.00580 s] survived
+   - [# 157] CRP stringprep: [0.00603 s] survived
+   - [# 158] CRP stringprep: [0.00585 s] survived
+   - [# 159] CRP stringprep: [0.00584 s] survived
+   - [# 160] CRP stringprep: [0.00628 s] survived
+   - [# 161] CRP stringprep: [0.00580 s] survived
+   - [# 162] CRP stringprep: [0.00582 s] survived
+   - [# 163] CRP stringprep: [0.00614 s] survived
+   - [# 164] CRP stringprep: [0.00559 s] survived
+   - [# 165] CRP stringprep: [0.00627 s] survived
+   - [# 166] CRP stringprep: [0.00623 s] survived
+   - [# 167] CRP stringprep: [0.00571 s] survived
+   - [# 168] CRP stringprep: [0.00626 s] survived
+   - [# 169] CRP stringprep: [0.00585 s] survived
+   - [# 170] CRP stringprep: [0.00572 s] survived
+   - [# 171] CRP stringprep: [0.00618 s] survived
+   - [# 172] CRP stringprep: [0.00584 s] survived
+   - [# 173] CRP stringprep: [0.00713 s] survived
+   - [# 174] CRP stringprep: [0.00693 s] survived
+   - [# 175] CRP stringprep: [0.00708 s] survived
+   - [# 176] CRP stringprep: [0.00600 s] survived
+   - [# 177] CRP stringprep: [0.00579 s] survived
+   - [# 178] CRP stringprep: [0.00594 s] survived
+   - [# 179] CRP stringprep: [0.00560 s] survived
+   - [# 180] CRP stringprep: [0.00594 s] survived
+   - [# 181] CRP stringprep: [0.00631 s] survived
+   - [# 182] CRP stringprep: [0.00572 s] survived
+   - [# 183] CRP stringprep: [0.00609 s] survived
+   - [# 184] CRP stringprep: [0.00589 s] survived
+   - [# 185] CRP stringprep: [0.00581 s] survived
+   - [# 186] CRP stringprep: [0.00611 s] survived
+   - [# 187] CRP stringprep: [0.00579 s] survived
+   - [# 188] CRP stringprep: [0.00626 s] survived
+   - [# 189] CRP stringprep: [0.00608 s] survived
+   - [# 190] CRP stringprep: [0.00567 s] survived
+   - [# 191] CRP stringprep: [0.00616 s] survived
+   - [# 192] CRP stringprep: [0.00579 s] survived
+   - [# 193] CRP stringprep: [0.00595 s] survived
+   - [# 194] CRP stringprep: [0.00590 s] survived
+   - [# 195] CRP stringprep: [0.00575 s] survived
+   - [# 196] CRP stringprep: [0.00622 s] survived
+   - [# 197] CRP stringprep: [0.00684 s] survived
+   - [# 198] CRP stringprep: [0.00670 s] survived
+   - [# 199] CRP stringprep: [0.00700 s] survived
+   - [# 200] CRP stringprep: [0.00581 s] survived
+   - [# 201] CRP stringprep: [0.00616 s] survived
+   - [# 202] CRP stringprep: [0.00617 s] survived
+   - [# 203] CRP stringprep: [0.00569 s] survived
+   - [# 204] CRP stringprep: [0.00619 s] survived
+   - [# 205] CRP stringprep: [0.00587 s] survived
+   - [# 206] CRP stringprep: [0.00567 s] survived
+   - [# 207] CRP stringprep: [0.00611 s] survived
+   - [# 208] CRP stringprep: [0.00568 s] survived
+   - [# 209] CRP stringprep: [0.00613 s] survived
+   - [# 210] CRP stringprep: [0.00600 s] survived
+   - [# 211] CRP stringprep: [0.00575 s] survived
+   - [# 212] CRP stringprep: [0.00608 s] survived
+   - [# 213] CRP stringprep: [0.00602 s] survived
+   - [# 214] CRP stringprep: [0.00569 s] survived
+   - [# 215] CRP stringprep: [0.00602 s] survived
+   - [# 216] CRP stringprep: [0.00569 s] survived
+   - [# 217] CRP stringprep: [0.00628 s] survived
+   - [# 218] CRP stringprep: [0.00594 s] survived
+   - [# 219] CRP stringprep: [0.00576 s] survived
+   - [# 220] CRP stringprep: [0.00589 s] survived
+   - [# 221] CRP stringprep: [0.00658 s] survived
+   - [# 222] CRP stringprep: [0.00718 s] survived
+   - [# 223] CRP stringprep: [0.00668 s] survived
+   - [# 224] CRP stringprep: [0.00588 s] survived
+   - [# 225] CRP stringprep: [0.00594 s] survived
+   - [# 226] CRP stringprep: [0.00580 s] survived
+   - [# 227] CRP stringprep: [0.00618 s] survived
+   - [# 228] CRP stringprep: [0.00595 s] survived
+   - [# 229] CRP stringprep: [0.00579 s] survived
+   - [# 230] CRP stringprep: [0.00597 s] survived
+   - [# 231] CRP stringprep: [0.00585 s] survived
+   - [# 232] CRP stringprep: [0.00602 s] survived
+   - [# 233] CRP stringprep: [0.00570 s] survived
+   - [# 234] CRP stringprep: [0.00564 s] survived
+   - [# 235] CRP stringprep: [0.00611 s] survived
+   - [# 236] CRP stringprep: [0.00577 s] survived
+   - [# 237] CRP stringprep: [0.00588 s] survived
+   - [# 238] CRP stringprep: [0.00613 s] survived
+   - [# 239] CRP stringprep: [0.00585 s] survived
+   - [# 240] CRP stringprep: [0.00621 s] survived
+   - [# 241] CRP stringprep: [0.00579 s] survived
+   - [# 242] CRP stringprep: [0.00582 s] survived
+   - [# 243] CRP stringprep: [0.00606 s] survived
+   - [# 244] CRP stringprep: [0.00569 s] survived
+   - [# 245] CRP stringprep: [0.00696 s] survived
+   - [# 246] CRP stringprep: [0.00703 s] survived
+   - [# 247] CRP stringprep: [0.00632 s] survived
+   - [# 248] CRP stringprep: [0.00611 s] survived
+   - [# 249] CRP stringprep: [0.00571 s] survived
+   - [# 250] CRP stringprep: [0.00612 s] survived
+   - [# 251] CRP stringprep: [0.00584 s] survived
+   - [# 252] CRP stringprep: [0.00557 s] survived
+   - [# 253] CRP stringprep: [0.00606 s] survived
+   - [# 254] CRP stringprep: [0.00607 s] survived
+   - [# 255] CRP stringprep: [0.00606 s] survived
+   - [# 256] CRP stringprep: [0.00573 s] survived
+   - [# 257] CRP stringprep: [0.00558 s] survived
+   - [# 258] CRP stringprep: [0.00621 s] survived
+   - [# 259] CRP stringprep: [0.00582 s] survived
+   - [# 260] CRP stringprep: [0.00583 s] survived
+   - [# 261] CRP stringprep: [0.00602 s] survived
+   - [# 262] CRP stringprep: [0.00596 s] survived
+   - [# 263] CRP stringprep: [0.00579 s] survived
+   - [# 264] CRP stringprep: [0.00589 s] survived
+   - [# 265] CRP stringprep: [0.00568 s] survived
+   - [# 266] CRP stringprep: [0.00600 s] survived
+   - [# 267] CRP stringprep: [0.00595 s] survived
+   - [# 268] CRP stringprep: [0.00662 s] survived
+   - [# 269] CRP stringprep: [0.00697 s] survived
+   - [# 270] CRP stringprep: [0.00592 s] survived
+   - [# 271] CRP stringprep: [0.00613 s] survived
+   - [# 272] CRP stringprep: [0.00586 s] survived
+   - [# 273] CRP stringprep: [0.00553 s] survived
+   - [# 274] CRP stringprep: [0.00604 s] survived
+   - [# 275] CRP stringprep: [0.00596 s] survived
+   - [# 276] CRP stringprep: [0.00600 s] survived
+   - [# 277] CRP stringprep: [0.00590 s] survived
+   - [# 278] CRP stringprep: [0.00582 s] survived
+   - [# 279] CRP stringprep: [0.00606 s] survived
+   - [# 280] CRP stringprep: [0.00582 s] survived
+   - [# 281] CRP stringprep: [0.00632 s] survived
+   - [# 282] CRP stringprep: [0.00587 s] survived
+   - [# 283] CRP stringprep: [0.00585 s] survived
+   - [# 284] CRP stringprep: [0.00604 s] survived
+   - [# 285] CRP stringprep: [0.00563 s] survived
+   - [# 286] CRP stringprep: [0.00623 s] survived
+   - [# 287] CRP stringprep: [0.00572 s] survived
+   - [# 288] CRP stringprep: [0.00582 s] survived
+   - [# 289] CRP stringprep: [0.00624 s] survived
+   - [# 290] CRP stringprep: [0.00602 s] survived
+   - [# 291] CRP stringprep: [0.00696 s] survived
+   - [# 292] CRP stringprep: [0.00600 s] survived
+   - [# 293] CRP stringprep: [0.00585 s] survived
+   - [# 294] CRP stringprep: [0.00593 s] survived
+   - [# 295] CRP stringprep: [0.00580 s] survived
+   - [# 296] CRP stringprep: [0.00619 s] survived
+   - [# 297] CRP stringprep: [0.00603 s] survived
+   - [# 298] CRP stringprep: [0.00568 s] survived
+   - [# 299] CRP stringprep: [0.00613 s] survived
+   - [# 300] CRP stringprep: [0.00569 s] survived
+   - [# 301] CRP stringprep: [0.00615 s] survived
+   - [# 302] CRP stringprep: [0.00612 s] survived
+   - [# 303] CRP stringprep: [0.00586 s] survived
+   - [# 304] CRP stringprep: [0.00652 s] survived
+   - [# 305] CRP stringprep: [0.00600 s] survived
+   - [# 306] CRP stringprep: [0.00637 s] survived
+   - [# 307] CRP stringprep: [0.00597 s] survived
+   - [# 308] CRP stringprep: [0.00578 s] survived
+   - [# 309] CRP stringprep: [0.00651 s] survived
+   - [# 310] CRP stringprep: [0.00681 s] survived
+   - [# 311] CRP stringprep: [0.00690 s] survived
+   - [# 312] CRP stringprep: [0.00626 s] survived
+   - [# 313] CRP stringprep: [0.00739 s] survived
+   - [# 314] CRP stringprep: [0.00661 s] survived
+   - [# 315] CRP stringprep: [0.00645 s] survived
+   - [# 316] CRP stringprep: [0.00683 s] survived
+   - [# 317] CRP stringprep: [0.00624 s] survived
+   - [# 318] CRP stringprep: [0.00619 s] survived
+   - [# 319] CRP stringprep: [0.00621 s] survived
+   - [# 320] CRP stringprep: [0.00620 s] survived
+   - [# 321] CRP stringprep: [0.00652 s] survived
+   - [# 322] CRP stringprep: [0.00615 s] survived
+   - [# 323] CRP stringprep: [0.00610 s] survived
+   - [# 324] CRP stringprep: [0.00663 s] survived
+   - [# 325] CRP stringprep: [0.00657 s] survived
+   - [# 326] CRP stringprep: [0.00661 s] survived
+   - [# 327] CRP stringprep: [0.00629 s] survived
+   - [# 328] CRP stringprep: [0.00611 s] survived
+   - [# 329] CRP stringprep: [0.00865 s] survived
+   - [# 330] CRP stringprep: [0.00611 s] survived
+   - [# 331] CRP stringprep: [0.00605 s] survived
+   - [# 332] CRP stringprep: [0.00645 s] survived
+   - [# 333] CRP stringprep: [0.00603 s] survived
+   - [# 334] CRP stringprep: [0.00639 s] survived
+   - [# 335] CRP stringprep: [0.00686 s] survived
+   - [# 336] CRP stringprep: [0.00596 s] survived
+   - [# 337] CRP stringprep: [0.00663 s] survived
+   - [# 338] CRP stringprep: [0.00626 s] survived
+   - [# 339] CRP stringprep: [0.00660 s] survived
+   - [# 340] CRP stringprep: [0.00610 s] survived
+   - [# 341] CRP stringprep: [0.00608 s] survived
+   - [# 342] CRP stringprep: [0.00617 s] survived
+   - [# 343] CRP stringprep: [0.00614 s] survived
+   - [# 344] CRP stringprep: [0.00670 s] survived
+   - [# 345] CRP stringprep: [0.00638 s] survived
+   - [# 346] CRP stringprep: [0.00614 s] survived
+   - [# 347] CRP stringprep: [0.00632 s] survived
+   - [# 348] CRP stringprep: [0.00622 s] survived
+   - [# 349] CRP stringprep: [0.00643 s] survived
+   - [# 350] CRP stringprep: [0.00616 s] survived
+   - [# 351] CRP stringprep: [0.00614 s] survived
+   - [# 352] CRP stringprep: [0.00641 s] survived
+   - [# 353] CRP stringprep: [0.00610 s] survived
+   - [# 354] CRP stringprep: [0.00625 s] survived
+   - [# 355] CRP stringprep: [0.00624 s] survived
+   - [# 356] CRP stringprep: [0.00680 s] survived
+   - [# 357] CRP stringprep: [0.00647 s] survived
+   - [# 358] CRP stringprep: [0.00636 s] survived
+   - [# 359] CRP stringprep: [0.00590 s] survived
+   - [# 360] CRP stringprep: [0.00644 s] survived
+   - [# 361] CRP stringprep: [0.00589 s] survived
+   - [# 362] CRP stringprep: [0.00636 s] survived
+   - [# 363] CRP stringprep: [0.00604 s] survived
+   - [# 364] CRP stringprep: [0.00588 s] survived
+   - [# 365] CRP stringprep: [0.00611 s] survived
+   - [# 366] CRP stringprep: [0.00577 s] survived
+   - [# 367] CRP stringprep: [0.00612 s] survived
+   - [# 368] CRP stringprep: [0.00608 s] survived
+   - [# 369] CRP stringprep: [0.00608 s] survived
+   - [# 370] CRP stringprep: [0.00647 s] survived
+   - [# 371] CRP stringprep: [0.00594 s] survived
+   - [# 372] CRP stringprep: [0.00658 s] survived
+   - [# 373] CRP stringprep: [0.00630 s] survived
+   - [# 374] CRP stringprep: [0.00595 s] survived
+   - [# 375] CRP stringprep: [0.00656 s] survived
+   - [# 376] CRP stringprep: [0.00606 s] survived
+   - [# 377] CRP stringprep: [0.00744 s] survived
+   - [# 378] CRP stringprep: [0.00621 s] survived
+   - [# 379] CRP stringprep: [0.00661 s] survived
+   - [# 380] CRP stringprep: [0.00617 s] survived
+   - [# 381] CRP stringprep: [0.00599 s] survived
+   - [# 382] CRP stringprep: [0.00648 s] survived
+   - [# 383] CRP stringprep: [0.00645 s] survived
+   - [# 384] CRP stringprep: [0.00670 s] survived
+   - [# 385] CRP stringprep: [0.00626 s] survived
+   - [# 386] CRP stringprep: [0.00625 s] survived
+   - [# 387] CRP stringprep: [0.00668 s] survived
+   - [# 388] CRP stringprep: [0.00613 s] survived
+   - [# 389] CRP stringprep: [0.00645 s] survived
+   - [# 390] CRP stringprep: [0.00645 s] survived
+   - [# 391] CRP stringprep: [0.00618 s] survived
+   - [# 392] CRP stringprep: [0.00663 s] survived
+   - [# 393] CRP stringprep: [0.00648 s] survived
+   - [# 394] CRP stringprep: [0.00647 s] survived
+   - [# 395] CRP stringprep: [0.00624 s] survived
+   - [# 396] CRP stringprep: [0.00665 s] survived
+   - [# 397] CRP stringprep: [0.00622 s] survived
+   - [# 398] CRP stringprep: [0.00759 s] survived
+   - [# 399] CRP stringprep: [0.00632 s] survived
+   - [# 400] CRP stringprep: [0.00643 s] survived
+   - [# 401] CRP stringprep: [0.00658 s] survived
+   - [# 402] CRP stringprep: [0.00616 s] survived
+   - [# 403] CRP stringprep: [0.00658 s] survived
+   - [# 404] CRP stringprep: [0.00631 s] survived
+   - [# 405] CRP stringprep: [0.00622 s] survived
+   - [# 406] CRP stringprep: [0.00646 s] survived
+   - [# 407] CRP stringprep: [0.00623 s] survived
+   - [# 408] CRP stringprep: [0.00665 s] survived
+   - [# 409] CRP stringprep: [0.00641 s] survived
+   - [# 410] CRP stringprep: [0.00637 s] survived
+   - [# 411] CRP stringprep: [0.00631 s] survived
+   - [# 412] CRP stringprep: [0.00623 s] survived
+   - [# 413] CRP stringprep: [0.00648 s] survived
+   - [# 414] CRP stringprep: [0.00641 s] survived
+   - [# 415] CRP stringprep: [0.00625 s] survived
+   - [# 416] CRP stringprep: [0.00653 s] survived
+   - [# 417] CRP stringprep: [0.00614 s] survived
+   - [# 418] CRP stringprep: [0.00654 s] survived
+   - [# 419] CRP stringprep: [0.00760 s] survived
+   - [# 420] CRP stringprep: [0.00670 s] survived
+   - [# 421] CRP stringprep: [0.00602 s] survived
+   - [# 422] CRP stringprep: [0.00566 s] survived
+   - [# 423] CRP stringprep: [0.00630 s] survived
+   - [# 424] CRP stringprep: [0.00587 s] survived
+   - [# 425] CRP stringprep: [0.00635 s] survived
+   - [# 426] CRP stringprep: [0.00592 s] survived
+   - [# 427] CRP stringprep: [0.00569 s] survived
+   - [# 428] CRP stringprep: [0.00632 s] survived
+   - [# 429] CRP stringprep: [0.00628 s] survived
+   - [# 430] CRP stringprep: [0.00634 s] survived
+   - [# 431] CRP stringprep: [0.00610 s] survived
+   - [# 432] CRP stringprep: [0.00609 s] survived
+   - [# 433] CRP stringprep: [0.00639 s] survived
+   - [# 434] CRP stringprep: [0.00626 s] survived
+   - [# 435] CRP stringprep: [0.00600 s] survived
+   - [# 436] CRP stringprep: [0.00666 s] survived
+   - [# 437] CRP stringprep: [0.00601 s] survived
+   - [# 438] CRP stringprep: [0.00647 s] survived
+   - [# 439] CRP stringprep: [0.00606 s] survived
+   - [# 440] CRP stringprep: [0.00600 s] survived
+   - [# 441] CRP stringprep: [0.00736 s] survived
+   - [# 442] CRP stringprep: [0.00704 s] survived
+   - [# 443] CRP stringprep: [0.00741 s] survived
+   - [# 444] CRP stringprep: [0.00627 s] survived
+   - [# 445] CRP stringprep: [0.00648 s] survived
+   - [# 446] CRP stringprep: [0.00624 s] survived
+   - [# 447] CRP stringprep: [0.00629 s] survived
+   - [# 448] CRP stringprep: [0.00659 s] survived
+   - [# 449] CRP stringprep: [0.00612 s] survived
+   - [# 450] CRP stringprep: [0.00593 s] survived
+   - [# 451] CRP stringprep: [0.00610 s] survived
+   - [# 452] CRP stringprep: [0.00597 s] survived
+   - [# 453] CRP stringprep: [0.00640 s] survived
+   - [# 454] CRP stringprep: [0.00589 s] survived
+   - [# 455] CRP stringprep: [0.00628 s] survived
+   - [# 456] CRP stringprep: [0.00621 s] survived
+   - [# 457] CRP stringprep: [0.00596 s] survived
+   - [# 458] CRP stringprep: [0.00611 s] survived
+   - [# 459] CRP stringprep: [0.00623 s] survived
+   - [# 460] CRP stringprep: [0.00654 s] survived
+   - [# 461] CRP stringprep: [0.00628 s] survived
+   - [# 462] CRP stringprep: [0.00624 s] survived
+   - [# 463] CRP stringprep: [0.00640 s] survived
+   - [# 464] CRP stringprep: [0.00649 s] survived
+   - [# 465] CRP stringprep: [0.00780 s] survived
+   - [# 466] CRP stringprep: [0.00724 s] survived
+   - [# 467] CRP stringprep: [0.00693 s] survived
+   - [# 468] CRP stringprep: [0.00634 s] survived
+   - [# 469] CRP stringprep: [0.00598 s] survived
+   - [# 470] CRP stringprep: [0.00659 s] survived
+   - [# 471] CRP stringprep: [0.00611 s] survived
+   - [# 472] CRP stringprep: [0.00597 s] survived
+   - [# 473] CRP stringprep: [0.00630 s] survived
+   - [# 474] CRP stringprep: [0.00595 s] survived
+   - [# 475] CRP stringprep: [0.00650 s] survived
+   - [# 476] CRP stringprep: [0.00612 s] survived
+   - [# 477] CRP stringprep: [0.00595 s] survived
+   - [# 478] CRP stringprep: [0.00640 s] survived
+   - [# 479] CRP stringprep: [0.00612 s] survived
+   - [# 480] CRP stringprep: [0.00647 s] survived
+   - [# 481] CRP stringprep: [0.00627 s] survived
+   - [# 482] CRP stringprep: [0.00608 s] survived
+   - [# 483] CRP stringprep: [0.00640 s] survived
+   - [# 484] CRP stringprep: [0.00589 s] survived
+   - [# 485] CRP stringprep: [0.00564 s] survived
+   - [# 486] CRP stringprep: [0.00619 s] survived
+   - [# 487] CRP stringprep: [0.00584 s] survived
+   - [# 488] CRP stringprep: [0.00596 s] survived
+   - [# 489] CRP stringprep: [0.00695 s] survived
+   - [# 490] CRP stringprep: [0.00714 s] survived
+   - [# 491] CRP stringprep: [0.00742 s] survived
+   - [# 492] CRP stringprep: [0.00629 s] survived
+   - [# 493] CRP stringprep: [0.00577 s] survived
+   - [# 494] CRP stringprep: [0.00617 s] survived
+   - [# 495] CRP stringprep: [0.00652 s] survived
+   - [# 496] CRP stringprep: [0.00660 s] survived
+   - [# 497] CRP stringprep: [0.00628 s] survived
+   - [# 498] CRP stringprep: [0.00679 s] survived
+   - [# 499] CRP stringprep: [0.00637 s] survived
+   - [# 500] CRP stringprep: [0.00617 s] survived
+   - [# 501] CRP stringprep: [0.00640 s] survived
+   - [# 502] CRP stringprep: [0.00628 s] survived
+   - [# 503] CRP stringprep: [0.00642 s] survived
+   - [# 504] CRP stringprep: [0.00605 s] survived
+   - [# 505] CRP stringprep: [0.00617 s] survived
+   - [# 506] CRP stringprep: [0.00655 s] survived
+   - [# 507] CRP stringprep: [0.00619 s] survived
+   - [# 508] CRP stringprep: [0.00621 s] survived
+   - [# 509] CRP stringprep: [0.00623 s] survived
+   - [# 510] CRP stringprep: [0.00612 s] survived
+   - [# 511] CRP stringprep: [0.00661 s] survived
+   - [# 512] CRP stringprep: [0.00600 s] survived
+   - [# 513] CRP stringprep: [0.00718 s] survived
+   - [# 514] CRP stringprep: [0.00735 s] survived
+   - [# 515] CRP stringprep: [0.00709 s] survived
+   - [# 516] CRP stringprep: [0.00674 s] survived
+   - [# 517] CRP stringprep: [0.00612 s] survived
+   - [# 518] CRP stringprep: [0.00641 s] survived
+   - [# 519] CRP stringprep: [0.00616 s] survived
+   - [# 520] CRP stringprep: [0.00592 s] survived
+   - [# 521] CRP stringprep: [0.00668 s] survived
+   - [# 522] CRP stringprep: [0.00613 s] survived
+   - [# 523] CRP stringprep: [0.00642 s] survived
+   - [# 524] CRP stringprep: [0.00630 s] survived
+   - [# 525] CRP stringprep: [0.00621 s] survived
+   - [# 526] CRP stringprep: [0.00635 s] survived
+   - [# 527] CRP stringprep: [0.00614 s] survived
+   - [# 528] CRP stringprep: [0.00645 s] survived
+   - [# 529] CRP stringprep: [0.00627 s] survived
+   - [# 530] CRP stringprep: [0.00615 s] survived
+   - [# 531] CRP stringprep: [0.00646 s] survived
+   - [# 532] CRP stringprep: [0.00593 s] survived
+   - [# 533] CRP stringprep: [0.00651 s] survived
+   - [# 534] CRP stringprep: [0.00613 s] survived
+   - [# 535] CRP stringprep: [0.00598 s] survived
+   - [# 536] CRP stringprep: [0.00640 s] survived
+   - [# 537] CRP stringprep: [0.00724 s] survived
+   - [# 538] CRP stringprep: [0.00746 s] survived
+   - [# 539] CRP stringprep: [0.00762 s] survived
+   - [# 540] CRP stringprep: [0.00670 s] survived
+   - [# 541] CRP stringprep: [0.00611 s] survived
+   - [# 542] CRP stringprep: [0.00594 s] survived
+   - [# 543] CRP stringprep: [0.00621 s] survived
+   - [# 544] CRP stringprep: [0.00607 s] survived
+   - [# 545] CRP stringprep: [0.00662 s] survived
+   - [# 546] CRP stringprep: [0.00606 s] survived
+   - [# 547] CRP stringprep: [0.00586 s] survived
+   - [# 548] CRP stringprep: [0.00635 s] survived
+   - [# 549] CRP stringprep: [0.00606 s] survived
+   - [# 550] CRP stringprep: [0.00600 s] survived
+   - [# 551] CRP stringprep: [0.00635 s] survived
+   - [# 552] CRP stringprep: [0.00606 s] survived
+   - [# 553] CRP stringprep: [0.00661 s] survived
+   - [# 554] CRP stringprep: [0.00615 s] survived
+   - [# 555] CRP stringprep: [0.00594 s] survived
+   - [# 556] CRP stringprep: [0.00665 s] survived
+   - [# 557] CRP stringprep: [0.00605 s] survived
+   - [# 558] CRP stringprep: [0.00607 s] survived
+   - [# 559] CRP stringprep: [0.00669 s] survived
+   - [# 560] CRP stringprep: [0.00647 s] survived
+   - [# 561] CRP stringprep: [0.00785 s] survived
+   - [# 562] CRP stringprep: [0.00727 s] survived
+   - [# 563] CRP stringprep: [0.00779 s] survived
+   - [# 564] CRP stringprep: [0.00651 s] survived
+   - [# 565] CRP stringprep: [0.00672 s] survived
+   - [# 566] CRP stringprep: [0.00654 s] survived
+   - [# 567] CRP stringprep: [0.00622 s] survived
+   - [# 568] CRP stringprep: [0.00657 s] survived
+   - [# 569] CRP stringprep: [0.00626 s] survived
+   - [# 570] CRP stringprep: [0.00683 s] survived
+   - [# 571] CRP stringprep: [0.00640 s] survived
+   - [# 572] CRP stringprep: [0.00636 s] survived
+   - [# 573] CRP stringprep: [0.00674 s] survived
+   - [# 574] CRP stringprep: [0.00659 s] survived
+   - [# 575] CRP stringprep: [0.00679 s] survived
+   - [# 576] CRP stringprep: [0.00670 s] survived
+   - [# 577] CRP stringprep: [0.00655 s] survived
+   - [# 578] CRP stringprep: [0.00654 s] survived
+   - [# 579] CRP stringprep: [0.00646 s] survived
+   - [# 580] CRP stringprep: [0.00654 s] survived
+   - [# 581] CRP stringprep: [0.00628 s] survived
+   - [# 582] CRP stringprep: [0.00670 s] survived
+   - [# 583] CRP stringprep: [0.00666 s] survived
+   - [# 584] CRP stringprep: [0.00650 s] survived
+   - [# 585] CRP stringprep: [0.00735 s] survived
+   - [# 586] CRP stringprep: [0.00736 s] survived
+   - [# 587] CRP stringprep: [0.00798 s] survived
+   - [# 588] CRP stringprep: [0.00630 s] survived
+   - [# 589] CRP stringprep: [0.00637 s] survived
+   - [# 590] CRP stringprep: [0.00628 s] survived
+   - [# 591] CRP stringprep: [0.00651 s] survived
+   - [# 592] CRP stringprep: [0.00630 s] survived
+   - [# 593] CRP stringprep: [0.00604 s] survived
+   - [# 594] CRP stringprep: [0.00637 s] survived
+   - [# 595] CRP stringprep: [0.00597 s] survived
+   - [# 596] CRP stringprep: [0.00634 s] survived
+   - [# 597] CRP stringprep: [0.00606 s] survived
+   - [# 598] CRP stringprep: [0.00581 s] survived
+   - [# 599] CRP stringprep: [0.00617 s] survived
+   - [# 600] CRP stringprep: [0.00628 s] survived
+   - [# 601] CRP stringprep: [0.00571 s] survived
+   - [# 602] CRP stringprep: [0.00619 s] survived
+   - [# 603] CRP stringprep: [0.00635 s] survived
+   - [# 604] CRP stringprep: [0.00666 s] survived
+   - [# 605] CRP stringprep: [0.00630 s] survived
+   - [# 606] CRP stringprep: [0.00631 s] survived
+   - [# 607] CRP stringprep: [0.00670 s] survived
+   - [# 608] CRP stringprep: [0.00634 s] survived
+   - [# 609] CRP stringprep: [0.00782 s] survived
+   - [# 610] CRP stringprep: [0.00735 s] survived
+   - [# 611] CRP stringprep: [0.00696 s] survived
+   - [# 612] CRP stringprep: [0.00632 s] survived
+   - [# 613] CRP stringprep: [0.00641 s] survived
+   - [# 614] CRP stringprep: [0.00651 s] survived
+   - [# 615] CRP stringprep: [0.00664 s] survived
+   - [# 616] CRP stringprep: [0.00683 s] survived
+   - [# 617] CRP stringprep: [0.00637 s] survived
+   - [# 618] CRP stringprep: [0.00634 s] survived
+   - [# 619] CRP stringprep: [0.00654 s] survived
+   - [# 620] CRP stringprep: [0.00621 s] survived
+   - [# 621] CRP stringprep: [0.00645 s] survived
+   - [# 622] CRP stringprep: [0.00672 s] survived
+   - [# 623] CRP stringprep: [0.00647 s] survived
+   - [# 624] CRP stringprep: [0.00649 s] survived
+   - [# 625] CRP stringprep: [0.00642 s] survived
+   - [# 626] CRP stringprep: [0.00667 s] survived
+   - [# 627] CRP stringprep: [0.00630 s] survived
+   - [# 628] CRP stringprep: [0.00629 s] survived
+   - [# 629] CRP stringprep: [0.00706 s] survived
+   - [# 630] CRP stringprep: [0.00645 s] survived
+   - [# 631] CRP stringprep: [0.00676 s] survived
+   - [# 632] CRP stringprep: [0.00773 s] survived
+   - [# 633] CRP stringprep: [0.00704 s] survived
+   - [# 634] CRP stringprep: [0.00657 s] survived
+   - [# 635] CRP stringprep: [0.00675 s] survived
+   - [# 636] CRP stringprep: [0.00660 s] survived
+   - [# 637] CRP stringprep: [0.00664 s] survived
+   - [# 638] CRP stringprep: [0.00640 s] survived
+   - [# 639] CRP stringprep: [0.00629 s] survived
+   - [# 640] CRP stringprep: [0.00676 s] survived
+   - [# 641] CRP stringprep: [0.00655 s] survived
+   - [# 642] CRP stringprep: [0.00682 s] survived
+   - [# 643] CRP stringprep: [0.00631 s] survived
+   - [# 644] CRP stringprep: [0.00621 s] survived
+   - [# 645] CRP stringprep: [0.00672 s] survived
+   - [# 646] CRP stringprep: [0.00640 s] survived
+   - [# 647] CRP stringprep: [0.00630 s] survived
+   - [# 648] CRP stringprep: [0.00660 s] survived
+   - [# 649] CRP stringprep: [0.00645 s] survived
+   - [# 650] CRP stringprep: [0.00655 s] survived
+   - [# 651] CRP stringprep: [0.00640 s] survived
+   - [# 652] CRP stringprep: [0.00678 s] survived
+   - [# 653] CRP stringprep: [0.00635 s] survived
+   - [# 654] CRP stringprep: [0.00719 s] survived
+   - [# 655] CRP stringprep: [0.00674 s] survived
+   - [# 656] CRP stringprep: [0.00639 s] survived
+   - [# 657] CRP stringprep: [0.00646 s] survived
+   - [# 658] CRP stringprep: [0.00626 s] survived
+   - [# 659] CRP stringprep: [0.00607 s] survived
+   - [# 660] CRP stringprep: [0.00651 s] survived
+   - [# 661] CRP stringprep: [0.00709 s] survived
+   - [# 662] CRP stringprep: [0.00715 s] survived
+   - [# 663] CRP stringprep: [0.00652 s] survived
+   - [# 664] CRP stringprep: [0.00718 s] survived
+   - [# 665] CRP stringprep: [0.00667 s] survived
+   - [# 666] CRP stringprep: [0.00642 s] survived
+   - [# 667] CRP stringprep: [0.00663 s] survived
+   - [# 668] CRP stringprep: [0.00677 s] survived
+   - [# 669] CRP stringprep: [0.00687 s] survived
+   - [# 670] CRP stringprep: [0.00658 s] survived
+   - [# 671] CRP stringprep: [0.00691 s] survived
+   - [# 672] CRP stringprep: [0.00653 s] survived
+   - [# 673] CRP stringprep: [0.00642 s] survived
+   - [# 674] CRP stringprep: [0.00670 s] survived
+   - [# 675] CRP stringprep: [0.00679 s] survived
+   - [# 676] CRP stringprep: [0.00780 s] survived
+   - [# 677] CRP stringprep: [0.00681 s] survived
+   - [# 678] CRP stringprep: [0.00697 s] survived
+   - [# 679] CRP stringprep: [0.00645 s] survived
+   - [# 680] CRP stringprep: [0.00634 s] survived
+   - [# 681] CRP stringprep: [0.00656 s] survived
+   - [# 682] CRP stringprep: [0.00655 s] survived
+   - [# 683] CRP stringprep: [0.00700 s] survived
+   - [# 684] CRP stringprep: [0.00661 s] survived
+   - [# 685] CRP stringprep: [0.00696 s] survived
+   - [# 686] CRP stringprep: [0.00639 s] survived
+   - [# 687] CRP stringprep: [0.00681 s] survived
+   - [# 688] CRP stringprep: [0.00658 s] survived
+   - [# 689] CRP stringprep: [0.00646 s] survived
+   - [# 690] CRP stringprep: [0.00643 s] survived
+   - [# 691] CRP stringprep: [0.00644 s] survived
+   - [# 692] CRP stringprep: [0.00677 s] survived
+   - [# 693] CRP stringprep: [0.00649 s] survived
+   - [# 694] CRP stringprep: [0.00638 s] survived
+   - [# 695] CRP stringprep: [0.00688 s] survived
+   - [# 696] CRP stringprep: [0.00658 s] survived
+   - [# 697] CRP stringprep: [0.00664 s] survived
+   - [# 698] CRP stringprep: [0.00765 s] survived
+   - [# 699] CRP stringprep: [0.00663 s] survived
+   - [# 700] CRP stringprep: [0.00636 s] survived
+   - [# 701] CRP stringprep: [0.00640 s] survived
+   - [# 702] CRP stringprep: [0.00691 s] survived
+   - [# 703] CRP stringprep: [0.00642 s] survived
+   - [# 704] CRP stringprep: [0.00674 s] survived
+   - [# 705] CRP stringprep: [0.00654 s] survived
+   - [# 706] CRP stringprep: [0.00687 s] survived
+   - [# 707] CRP stringprep: [0.00648 s] survived
+   - [# 708] CRP stringprep: [0.00652 s] survived
+   - [# 709] CRP stringprep: [0.00657 s] survived
+   - [# 710] CRP stringprep: [0.00637 s] survived
+   - [# 711] CRP stringprep: [0.00647 s] survived
+   - [# 712] CRP stringprep: [0.00611 s] survived
+   - [# 713] CRP stringprep: [0.00667 s] survived
+   - [# 714] CRP stringprep: [0.00628 s] survived
+   - [# 715] CRP stringprep: [0.00639 s] survived
+   - [# 716] CRP stringprep: [0.00657 s] survived
+   - [# 717] CRP stringprep: [0.00645 s] survived
+   - [# 718] CRP stringprep: [0.00682 s] survived
+   - [# 719] CRP stringprep: [0.00651 s] survived
+   - [# 720] CRP stringprep: [0.00731 s] survived
+   - [# 721] CRP stringprep: [0.00800 s] survived
+   - [# 722] CRP stringprep: [0.00661 s] survived
+   - [# 723] CRP stringprep: [0.00654 s] survived
+   - [# 724] CRP stringprep: [0.00651 s] survived
+   - [# 725] CRP stringprep: [0.00629 s] survived
+   - [# 726] CRP stringprep: [0.00638 s] survived
+   - [# 727] CRP stringprep: [0.00637 s] survived
+   - [# 728] CRP stringprep: [0.00702 s] survived
+   - [# 729] CRP stringprep: [0.00631 s] survived
+   - [# 730] CRP stringprep: [0.00685 s] survived
+   - [# 731] CRP stringprep: [0.00669 s] survived
+   - [# 732] CRP stringprep: [0.00632 s] survived
+   - [# 733] CRP stringprep: [0.00656 s] survived
+   - [# 734] CRP stringprep: [0.00632 s] survived
+   - [# 735] CRP stringprep: [0.00698 s] survived
+   - [# 736] CRP stringprep: [0.00640 s] survived
+   - [# 737] CRP stringprep: [0.00671 s] survived
+   - [# 738] CRP stringprep: [0.00679 s] survived
+   - [# 739] CRP stringprep: [0.00643 s] survived
+   - [# 740] CRP stringprep: [0.00673 s] survived
+   - [# 741] CRP stringprep: [0.00639 s] survived
+   - [# 742] CRP stringprep: [0.00696 s] survived
+   - [# 743] CRP stringprep: [0.00642 s] survived
+   - [# 744] CRP stringprep: [0.00766 s] survived
+   - [# 745] CRP stringprep: [0.00768 s] survived
+   - [# 746] CRP stringprep: [0.00673 s] survived
+   - [# 747] CRP stringprep: [0.00643 s] survived
+   - [# 748] CRP stringprep: [0.00629 s] survived
+   - [# 749] CRP stringprep: [0.00659 s] survived
+   - [# 750] CRP stringprep: [0.00649 s] survived
+   - [# 751] CRP stringprep: [0.00632 s] survived
+   - [# 752] CRP stringprep: [0.00651 s] survived
+   - [# 753] CRP stringprep: [0.00635 s] survived
+   - [# 754] CRP stringprep: [0.00659 s] survived
+   - [# 755] CRP stringprep: [0.00635 s] survived
+   - [# 756] CRP stringprep: [0.00641 s] survived
+   - [# 757] CRP stringprep: [0.00649 s] survived
+   - [# 758] CRP stringprep: [0.00627 s] survived
+   - [# 759] CRP stringprep: [0.00680 s] survived
+   - [# 760] CRP stringprep: [0.00650 s] survived
+   - [# 761] CRP stringprep: [0.00628 s] survived
+   - [# 762] CRP stringprep: [0.00641 s] survived
+   - [# 763] CRP stringprep: [0.00633 s] survived
+   - [# 764] CRP stringprep: [0.00716 s] survived
+   - [# 765] CRP stringprep: [0.00631 s] survived
+   - [# 766] CRP stringprep: [0.00700 s] survived
+   - [# 767] CRP stringprep: [0.00643 s] survived
+   - [# 768] CRP stringprep: [0.00710 s] survived
+   - [# 769] CRP stringprep: [0.00759 s] survived
+   - [# 770] CRP stringprep: [0.00646 s] survived
+   - [# 771] CRP stringprep: [0.00673 s] survived
+   - [# 772] CRP stringprep: [0.00644 s] survived
+   - [# 773] CRP stringprep: [0.00663 s] survived
+   - [# 774] CRP stringprep: [0.00630 s] survived
+   - [# 775] CRP stringprep: [0.00618 s] survived
+   - [# 776] CRP stringprep: [0.00658 s] survived
+   - [# 777] CRP stringprep: [0.00655 s] survived
+   - [# 778] CRP stringprep: [0.00684 s] survived
+   - [# 779] CRP stringprep: [0.00666 s] survived
+   - [# 780] CRP stringprep: [0.00672 s] survived
+   - [# 781] CRP stringprep: [0.00642 s] survived
+   - [# 782] CRP stringprep: [0.00606 s] survived
+   - [# 783] CRP stringprep: [0.00662 s] survived
+   - [# 784] CRP stringprep: [0.00621 s] survived
+   - [# 785] CRP stringprep: [0.00696 s] survived
+   - [# 786] CRP stringprep: [0.00608 s] survived
+   - [# 787] CRP stringprep: [0.00606 s] survived
+   - [# 788] CRP stringprep: [0.00641 s] survived
+   - [# 789] CRP stringprep: [0.00609 s] survived
+   - [# 790] CRP stringprep: [0.00644 s] survived
+   - [# 791] CRP stringprep: [0.00626 s] survived
+   - [# 792] CRP stringprep: [0.00738 s] survived
+   - [# 793] CRP stringprep: [0.00728 s] survived
+   - [# 794] CRP stringprep: [0.00633 s] survived
+   - [# 795] CRP stringprep: [0.00660 s] survived
+   - [# 796] CRP stringprep: [0.00634 s] survived
+   - [# 797] CRP stringprep: [0.00644 s] survived
+   - [# 798] CRP stringprep: [0.00611 s] survived
+   - [# 799] CRP stringprep: [0.00598 s] survived
+   - [# 800] CRP stringprep: [0.00646 s] survived
+   - [# 801] CRP stringprep: [0.00633 s] survived
+   - [# 802] CRP stringprep: [0.00658 s] survived
+   - [# 803] CRP stringprep: [0.00613 s] survived
+   - [# 804] CRP stringprep: [0.00619 s] survived
+   - [# 805] CRP stringprep: [0.00614 s] survived
+   - [# 806] CRP stringprep: [0.00608 s] survived
+   - [# 807] CRP stringprep: [0.00657 s] survived
+   - [# 808] CRP stringprep: [0.00636 s] survived
+   - [# 809] CRP stringprep: [0.00610 s] survived
+   - [# 810] CRP stringprep: [0.00652 s] survived
+   - [# 811] CRP stringprep: [0.00618 s] survived
+   - [# 812] CRP stringprep: [0.00648 s] survived
+   - [# 813] CRP stringprep: [0.00620 s] survived
+   - [# 814] CRP stringprep: [0.00592 s] survived
+   - [# 815] CRP stringprep: [0.00640 s] survived
+   - [# 816] CRP stringprep: [0.00717 s] survived
+   - [# 817] CRP stringprep: [0.00787 s] survived
+   - [# 818] CRP stringprep: [0.00669 s] survived
+   - [# 819] CRP stringprep: [0.00610 s] survived
+   - [# 820] CRP stringprep: [0.00619 s] survived
+   - [# 821] CRP stringprep: [0.00611 s] survived
+   - [# 822] CRP stringprep: [0.00655 s] survived
+   - [# 823] CRP stringprep: [0.00633 s] survived
+   - [# 824] CRP stringprep: [0.00618 s] survived
+   - [# 825] CRP stringprep: [0.00622 s] survived
+   - [# 826] CRP stringprep: [0.00623 s] survived
+   - [# 827] CRP stringprep: [0.00656 s] survived
+   - [# 828] CRP stringprep: [0.00631 s] survived
+   - [# 829] CRP stringprep: [0.00583 s] survived
+   - [# 830] CRP stringprep: [0.00607 s] survived
+   - [# 831] CRP stringprep: [0.00576 s] survived
+   - [# 832] CRP stringprep: [0.00667 s] survived
+   - [# 833] CRP stringprep: [0.00624 s] survived
+   - [# 834] CRP stringprep: [0.00618 s] survived
+   - [# 835] CRP stringprep: [0.00614 s] survived
+   - [# 836] CRP stringprep: [0.00621 s] survived
+   - [# 837] CRP stringprep: [0.00655 s] survived
+   - [# 838] CRP stringprep: [0.00613 s] survived
+   - [# 839] CRP stringprep: [0.00610 s] survived
+   - [# 840] CRP stringprep: [0.00729 s] survived
+   - [# 841] CRP stringprep: [0.00715 s] survived
+   - [# 842] CRP stringprep: [0.00679 s] survived
+   - [# 843] CRP stringprep: [0.00615 s] survived
+   - [# 844] CRP stringprep: [0.00653 s] survived
+   - [# 845] CRP stringprep: [0.00608 s] survived
+   - [# 846] CRP stringprep: [0.00627 s] survived
+   - [# 847] CRP stringprep: [0.00653 s] survived
+   - [# 848] CRP stringprep: [0.00608 s] survived
+   - [# 849] CRP stringprep: [0.00644 s] survived
+   - [# 850] CRP stringprep: [0.00635 s] survived
+   - [# 851] CRP stringprep: [0.00593 s] survived
+   - [# 852] CRP stringprep: [0.00624 s] survived
+   - [# 853] CRP stringprep: [0.00601 s] survived
+   - [# 854] CRP stringprep: [0.00652 s] survived
+   - [# 855] CRP stringprep: [0.00623 s] survived
+   - [# 856] CRP stringprep: [0.00600 s] survived
+   - [# 857] CRP stringprep: [0.00662 s] survived
+   - [# 858] CRP stringprep: [0.00613 s] survived
+   - [# 859] CRP stringprep: [0.00662 s] survived
+   - [# 860] CRP stringprep: [0.00612 s] survived
+   - [# 861] CRP stringprep: [0.00588 s] survived
+   - [# 862] CRP stringprep: [0.00662 s] survived
+   - [# 863] CRP stringprep: [0.00627 s] survived
+   - [# 864] CRP stringprep: [0.00714 s] survived
+   - [# 865] CRP stringprep: [0.00724 s] survived
+   - [# 866] CRP stringprep: [0.00676 s] survived
+   - [# 867] CRP stringprep: [0.00655 s] survived
+   - [# 868] CRP stringprep: [0.00603 s] survived
+   - [# 869] CRP stringprep: [0.00657 s] survived
+   - [# 870] CRP stringprep: [0.00622 s] survived
+   - [# 871] CRP stringprep: [0.00598 s] survived
+   - [# 872] CRP stringprep: [0.00661 s] survived
+   - [# 873] CRP stringprep: [0.00652 s] survived
+   - [# 874] CRP stringprep: [0.00705 s] survived
+   - [# 875] CRP stringprep: [0.00641 s] survived
+   - [# 876] CRP stringprep: [0.00637 s] survived
+   - [# 877] CRP stringprep: [0.00695 s] survived
+   - [# 878] CRP stringprep: [0.00694 s] survived
+   - [# 879] CRP stringprep: [0.00684 s] survived
+   - [# 880] CRP stringprep: [0.00636 s] survived
+   - [# 881] CRP stringprep: [0.00621 s] survived
+   - [# 882] CRP stringprep: [0.00639 s] survived
+   - [# 883] CRP stringprep: [0.00617 s] survived
+   - [# 884] CRP stringprep: [0.00647 s] survived
+   - [# 885] CRP stringprep: [0.00616 s] survived
+   - [# 886] CRP stringprep: [0.00622 s] survived
+   - [# 887] CRP stringprep: [0.00675 s] survived
+   - [# 888] CRP stringprep: [0.00728 s] survived
+   - [# 889] CRP stringprep: [0.00753 s] survived
+   - [# 890] CRP stringprep: [0.00720 s] survived
+   - [# 891] CRP stringprep: [0.00699 s] survived
+   - [# 892] CRP stringprep: [0.00674 s] survived
+   - [# 893] CRP stringprep: [0.00640 s] survived
+   - [# 894] CRP stringprep: [0.00676 s] survived
+   - [# 895] CRP stringprep: [0.00644 s] survived
+   - [# 896] CRP stringprep: [0.00628 s] survived
+   - [# 897] CRP stringprep: [0.00595 s] survived
+   - [# 898] CRP stringprep: [0.00610 s] survived
+   - [# 899] CRP stringprep: [0.00641 s] survived
+   - [# 900] CRP stringprep: [0.00596 s] survived
+   - [# 901] CRP stringprep: [0.00595 s] survived
+   - [# 902] CRP stringprep: [0.00662 s] survived
+   - [# 903] CRP stringprep: [0.00612 s] survived
+   - [# 904] CRP stringprep: [0.00670 s] survived
+   - [# 905] CRP stringprep: [0.00615 s] survived
+   - [# 906] CRP stringprep: [0.00618 s] survived
+   - [# 907] CRP stringprep: [0.00650 s] survived
+   - [# 908] CRP stringprep: [0.00598 s] survived
+   - [# 909] CRP stringprep: [0.00620 s] survived
+   - [# 910] CRP stringprep: [0.00699 s] survived
+   - [# 911] CRP stringprep: [0.00648 s] survived
+   - [# 912] CRP stringprep: [0.00791 s] survived
+   - [# 913] CRP stringprep: [0.00744 s] survived
+   - [# 914] CRP stringprep: [0.00715 s] survived
+   - [# 915] CRP stringprep: [0.00685 s] survived
+   - [# 916] CRP stringprep: [0.00638 s] survived
+   - [# 917] CRP stringprep: [0.00650 s] survived
+   - [# 918] CRP stringprep: [0.00635 s] survived
+   - [# 919] CRP stringprep: [0.00669 s] survived
+   - [# 920] CRP stringprep: [0.00620 s] survived
+   - [# 921] CRP stringprep: [0.00603 s] survived
+   - [# 922] CRP stringprep: [0.00672 s] survived
+   - [# 923] CRP stringprep: [0.00624 s] survived
+   - [# 924] CRP stringprep: [0.00651 s] survived
+   - [# 925] CRP stringprep: [0.00627 s] survived
+   - [# 926] CRP stringprep: [0.00625 s] survived
+   - [# 927] CRP stringprep: [0.00646 s] survived
+   - [# 928] CRP stringprep: [0.00595 s] survived
+   - [# 929] CRP stringprep: [0.00634 s] survived
+   - [# 930] CRP stringprep: [0.00635 s] survived
+   - [# 931] CRP stringprep: [0.00615 s] survived
+   - [# 932] CRP stringprep: [0.00648 s] survived
+   - [# 933] CRP stringprep: [0.00588 s] survived
+   - [# 934] CRP stringprep: [0.00668 s] survived
+   - [# 935] CRP stringprep: [0.00626 s] survived
+   - [# 936] CRP stringprep: [0.00714 s] survived
+   - [# 937] CRP stringprep: [0.00650 s] survived
+   - [# 938] CRP stringprep: [0.00647 s] survived
+   - [# 939] CRP stringprep: [0.00694 s] survived
+   - [# 940] CRP stringprep: [0.00636 s] survived
+   - [# 941] CRP stringprep: [0.00679 s] survived
+   - [# 942] CRP stringprep: [0.00658 s] survived
+   - [# 943] CRP stringprep: [0.00621 s] survived
+   - [# 944] CRP stringprep: [0.00654 s] survived
+   - [# 945] CRP stringprep: [0.00621 s] survived
+   - [# 946] CRP stringprep: [0.00678 s] survived
+   - [# 947] CRP stringprep: [0.00640 s] survived
+   - [# 948] CRP stringprep: [0.00606 s] survived
+   - [# 949] CRP stringprep: [0.00671 s] survived
+   - [# 950] CRP stringprep: [0.00637 s] survived
+   - [# 951] CRP stringprep: [0.00661 s] survived
+   - [# 952] CRP stringprep: [0.00628 s] survived
+   - [# 953] CRP stringprep: [0.00618 s] survived
+   - [# 954] CRP stringprep: [0.00646 s] survived
+   - [# 955] CRP stringprep: [0.00631 s] survived
+   - [# 956] CRP stringprep: [0.00650 s] survived
+   - [# 957] CRP stringprep: [0.00613 s] survived
+   - [# 958] CRP stringprep: [0.00704 s] survived
+   - [# 959] CRP stringprep: [0.00640 s] survived
+   - [# 960] CRP stringprep: [0.00604 s] survived
+   - [# 961] CRP stringprep: [0.00637 s] survived
+   - [# 962] CRP stringprep: [0.00634 s] survived
+   - [# 963] CRP stringprep: [0.00648 s] survived
+   - [# 964] CRP stringprep: [0.00603 s] survived
+   - [# 965] CRP stringprep: [0.00569 s] survived
+   - [# 966] CRP stringprep: [0.00631 s] survived
+   - [# 967] CRP stringprep: [0.00603 s] survived
+   - [# 968] CRP stringprep: [0.00631 s] survived
+   - [# 969] CRP stringprep: [0.00589 s] survived
+   - [# 970] CRP stringprep: [0.00602 s] survived
+   - [# 971] CRP stringprep: [0.00677 s] survived
+   - [# 972] CRP stringprep: [0.00619 s] survived
+   - [# 973] CRP stringprep: [0.00665 s] survived
+   - [# 974] CRP stringprep: [0.00677 s] survived
+   - [# 975] CRP stringprep: [0.00641 s] survived
+   - [# 976] CRP stringprep: [0.00655 s] survived
+   - [# 977] CRP stringprep: [0.00595 s] survived
+   - [# 978] CRP stringprep: [0.00598 s] survived
+   - [# 979] CRP stringprep: [0.00654 s] survived
+   - [# 980] CRP stringprep: [0.00791 s] survived
+   - [# 981] CRP stringprep: [0.00674 s] survived
+   - [# 982] CRP stringprep: [0.00630 s] survived
+   - [# 983] CRP stringprep: [0.00667 s] survived
+   - [# 984] CRP stringprep: [0.00649 s] survived
+   - [# 985] CRP stringprep: [0.00625 s] survived
+   - [# 986] CRP stringprep: [0.00659 s] survived
+   - [# 987] CRP stringprep: [0.00623 s] survived
+   - [# 988] CRP stringprep: [0.00689 s] survived
+   - [# 989] CRP stringprep: [0.00637 s] survived
+   - [# 990] CRP stringprep: [0.00618 s] survived
+   - [# 991] CRP stringprep: [0.00667 s] survived
+   - [# 992] CRP stringprep: [0.00637 s] survived
+   - [# 993] CRP stringprep: [0.00663 s] survived
+   - [# 994] CRP stringprep: [0.00656 s] survived
+   - [# 995] CRP stringprep: [0.00678 s] survived
+   - [# 996] CRP stringprep: [0.00632 s] survived
+   - [# 997] CRP stringprep: [0.00644 s] survived
+   - [# 998] CRP stringprep: [0.00652 s] survived
+   - [# 999] CRP stringprep: [0.00629 s] survived
+   - [#1000] CRP stringprep: [0.00669 s] survived
+   - [#1001] CRP stringprep: [0.00634 s] survived
+   - [#1002] CRP stringprep: [0.01545 s] survived
+   - [#1003] CRP stringprep: [0.01572 s] survived
+   - [#1004] CRP stringprep: [0.01313 s] survived
+   - [#1005] CRP stringprep: [0.00685 s] survived
+   - [#1006] CRP stringprep: [0.00626 s] survived
+   - [#1007] CRP stringprep: [0.00699 s] survived
+   - [#1008] CRP stringprep: [0.00646 s] survived
+   - [#1009] CRP stringprep: [0.00627 s] survived
+   - [#1010] CRP stringprep: [0.00657 s] survived
+   - [#1011] CRP stringprep: [0.00646 s] survived
+   - [#1012] CRP stringprep: [0.00665 s] survived
+   - [#1013] CRP stringprep: [0.00611 s] survived
+   - [#1014] CRP stringprep: [0.00615 s] survived
+   - [#1015] CRP stringprep: [0.00655 s] survived
+   - [#1016] CRP stringprep: [0.00666 s] survived
+   - [#1017] CRP stringprep: [0.00623 s] survived
+   - [#1018] CRP stringprep: [0.00631 s] survived
+   - [#1019] CRP stringprep: [0.00618 s] survived
+   - [#1020] CRP stringprep: [0.00649 s] survived
+   - [#1021] CRP stringprep: [0.00606 s] survived
+   - [#1022] CRP stringprep: [0.00593 s] survived
+   - [#1023] CRP stringprep: [0.00637 s] survived
+   - [#1024] CRP stringprep: [0.00579 s] survived
+   - [#1025] CRP stringprep: [0.00570 s] survived
+   - [#1026] CRP stringprep: [0.00636 s] survived
+   - [#1027] CRP stringprep: [0.00621 s] survived
+   - [#1028] CRP stringprep: [0.00655 s] survived
+   - [#1029] CRP stringprep: [0.00672 s] survived
+   - [#1030] CRP stringprep: [0.00675 s] survived
+   - [#1031] CRP stringprep: [0.00631 s] survived
+   - [#1032] CRP stringprep: [0.00599 s] survived
+   - [#1033] CRP stringprep: [0.00651 s] survived
+   - [#1034] CRP stringprep: [0.00618 s] survived
+   - [#1035] CRP stringprep: [0.00651 s] survived
+   - [#1036] CRP stringprep: [0.00608 s] survived
+   - [#1037] CRP stringprep: [0.00631 s] survived
+   - [#1038] CRP stringprep: [0.00686 s] survived
+   - [#1039] CRP stringprep: [0.00632 s] survived
+   - [#1040] CRP stringprep: [0.00657 s] survived
+   - [#1041] CRP stringprep: [0.00630 s] survived
+   - [#1042] CRP stringprep: [0.00612 s] survived
+   - [#1043] CRP stringprep: [0.00618 s] survived
+   - [#1044] CRP stringprep: [0.00683 s] survived
+   - [#1045] CRP stringprep: [0.00674 s] survived
+   - [#1046] CRP stringprep: [0.00617 s] survived
+   - [#1047] CRP stringprep: [0.00608 s] survived
+   - [#1048] CRP stringprep: [0.00617 s] survived
+   - [#1049] CRP stringprep: [0.00611 s] survived
+   - [#1050] CRP stringprep: [0.00650 s] survived
+   - [#1051] CRP stringprep: [0.00609 s] survived
+   - [#1052] CRP stringprep: [0.00653 s] survived
+   - [#1053] CRP stringprep: [0.00621 s] survived
+   - [#1054] CRP stringprep: [0.00623 s] survived
+   - [#1055] CRP stringprep: [0.00633 s] survived
+   - [#1056] CRP stringprep: [0.00622 s] survived
+   - [#1057] CRP stringprep: [0.00643 s] survived
+   - [#1058] CRP stringprep: [0.00604 s] survived
+   - [#1059] CRP stringprep: [0.00615 s] survived
+   - [#1060] CRP stringprep: [0.00650 s] survived
+   - [#1061] CRP stringprep: [0.00617 s] survived
+   - [#1062] CRP stringprep: [0.00708 s] survived
+   - [#1063] CRP stringprep: [0.00647 s] survived
+   - [#1064] CRP stringprep: [0.00604 s] survived
+   - [#1065] CRP stringprep: [0.00655 s] survived
+   - [#1066] CRP stringprep: [0.00622 s] survived
+   - [#1067] CRP stringprep: [0.00609 s] survived
+   - [#1068] CRP stringprep: [0.00652 s] survived
+   - [#1069] CRP stringprep: [0.00605 s] survived
+   - [#1070] CRP stringprep: [0.00651 s] survived
+   - [#1071] CRP stringprep: [0.00618 s] survived
+   - [#1072] CRP stringprep: [0.00612 s] survived
+   - [#1073] CRP stringprep: [0.00670 s] survived
+   - [#1074] CRP stringprep: [0.00603 s] survived
+   - [#1075] CRP stringprep: [0.00615 s] survived
+   - [#1076] CRP stringprep: [0.00636 s] survived
+   - [#1077] CRP stringprep: [0.00613 s] survived
+   - [#1078] CRP stringprep: [0.00656 s] survived
+   - [#1079] CRP stringprep: [0.00634 s] survived
+   - [#1080] CRP stringprep: [0.00678 s] survived
+   - [#1081] CRP stringprep: [0.00651 s] survived
+   - [#1082] CRP stringprep: [0.00597 s] survived
+   - [#1083] CRP stringprep: [0.00568 s] survived
+   - [#1084] CRP stringprep: [0.00597 s] survived
+   - [#1085] CRP stringprep: [0.00685 s] survived
+   - [#1086] CRP stringprep: [0.00697 s] survived
+   - [#1087] CRP stringprep: [0.00659 s] survived
+   - [#1088] CRP stringprep: [0.00722 s] survived
+   - [#1089] CRP stringprep: [0.00675 s] survived
+   - [#1090] CRP stringprep: [0.00695 s] survived
+   - [#1091] CRP stringprep: [0.00636 s] survived
+   - [#1092] CRP stringprep: [0.00694 s] survived
+   - [#1093] CRP stringprep: [0.00670 s] survived
+   - [#1094] CRP stringprep: [0.00675 s] survived
+   - [#1095] CRP stringprep: [0.00649 s] survived
+   - [#1096] CRP stringprep: [0.00637 s] survived
+   - [#1097] CRP stringprep: [0.00688 s] survived
+   - [#1098] CRP stringprep: [0.00639 s] survived
+   - [#1099] CRP stringprep: [0.00788 s] survived
+   - [#1100] CRP stringprep: [0.00706 s] survived
+   - [#1101] CRP stringprep: [0.00712 s] survived
+   - [#1102] CRP stringprep: [0.00655 s] survived
+   - [#1103] CRP stringprep: [0.00678 s] survived
+   - [#1104] CRP stringprep: [0.00658 s] survived
+   - [#1105] CRP stringprep: [0.00640 s] survived
+   - [#1106] CRP stringprep: [0.00663 s] survived
+   - [#1107] CRP stringprep: [0.00607 s] survived
+   - [#1108] CRP stringprep: [0.00647 s] survived
+   - [#1109] CRP stringprep: [0.00620 s] survived
+   - [#1110] CRP stringprep: [0.00655 s] survived
+   - [#1111] CRP stringprep: [0.00633 s] survived
+   - [#1112] CRP stringprep: [0.00596 s] survived
+   - [#1113] CRP stringprep: [0.00648 s] survived
+   - [#1114] CRP stringprep: [0.00629 s] survived
+   - [#1115] CRP stringprep: [0.00612 s] survived
+   - [#1116] CRP stringprep: [0.00637 s] survived
+   - [#1117] CRP stringprep: [0.00612 s] survived
+   - [#1118] CRP stringprep: [0.00659 s] survived
+   - [#1119] CRP stringprep: [0.00723 s] survived
+   - [#1120] CRP stringprep: [0.00633 s] survived
+   - [#1121] CRP stringprep: [0.00668 s] survived
+   - [#1122] CRP stringprep: [0.00646 s] survived
+   - [#1123] CRP stringprep: [0.00685 s] survived
+   - [#1124] CRP stringprep: [0.00663 s] survived
+   - [#1125] CRP stringprep: [0.00673 s] survived
+   - [#1126] CRP stringprep: [0.00634 s] survived
+   - [#1127] CRP stringprep: [0.00623 s] survived
+   - [#1128] CRP stringprep: [0.00667 s] survived
+   - [#1129] CRP stringprep: [0.00612 s] survived
+   - [#1130] CRP stringprep: [0.00709 s] survived
+   - [#1131] CRP stringprep: [0.00618 s] survived
+   - [#1132] CRP stringprep: [0.00591 s] survived
+   - [#1133] CRP stringprep: [0.00635 s] survived
+   - [#1134] CRP stringprep: [0.00630 s] survived
+   - [#1135] CRP stringprep: [0.00610 s] survived
+   - [#1136] CRP stringprep: [0.00649 s] survived
+   - [#1137] CRP stringprep: [0.00608 s] survived
+   - [#1138] CRP stringprep: [0.00612 s] survived
+   - [#1139] CRP stringprep: [0.00685 s] survived
+   - [#1140] CRP stringprep: [0.00607 s] survived
+   - [#1141] CRP stringprep: [0.00661 s] survived
+   - [#1142] CRP stringprep: [0.00636 s] survived
+   - [#1143] CRP stringprep: [0.00651 s] survived
+   - [#1144] CRP stringprep: [0.00624 s] survived
+   - [#1145] CRP stringprep: [0.00612 s] survived
+   - [#1146] CRP stringprep: [0.00637 s] survived
+   - [#1147] CRP stringprep: [0.00647 s] survived
+   - [#1148] CRP stringprep: [0.00653 s] survived
+   - [#1149] CRP stringprep: [0.00610 s] survived
+   - [#1150] CRP stringprep: [0.00624 s] survived
+   - [#1151] CRP stringprep: [0.00672 s] survived
+   - [#1152] CRP stringprep: [0.00603 s] survived
+   - [#1153] CRP stringprep: [0.00651 s] survived
+   - [#1154] CRP stringprep: [0.00621 s] survived
+   - [#1155] CRP stringprep: [0.00644 s] survived
+   - [#1156] CRP stringprep: [0.00632 s] survived
+   - [#1157] CRP stringprep: [0.00615 s] survived
+   - [#1158] CRP stringprep: [0.00643 s] survived
+   - [#1159] CRP stringprep: [0.00695 s] survived
+   - [#1160] CRP stringprep: [0.00684 s] survived
+   - [#1161] CRP stringprep: [0.00618 s] survived
+   - [#1162] CRP stringprep: [0.00654 s] survived
+   - [#1163] CRP stringprep: [0.00628 s] survived
+   - [#1164] CRP stringprep: [0.00634 s] survived
+   - [#1165] CRP stringprep: [0.00636 s] survived
+   - [#1166] CRP stringprep: [0.00644 s] survived
+   - [#1167] CRP stringprep: [0.00684 s] survived
+   - [#1168] CRP stringprep: [0.00644 s] survived
+   - [#1169] CRP stringprep: [0.00638 s] survived
+   - [#1170] CRP stringprep: [0.00670 s] survived
+   - [#1171] CRP stringprep: [0.00644 s] survived
+   - [#1172] CRP stringprep: [0.00699 s] survived
+   - [#1173] CRP stringprep: [0.00651 s] survived
+   - [#1174] CRP stringprep: [0.00639 s] survived
+   - [#1175] CRP stringprep: [0.00662 s] survived
+   - [#1176] CRP stringprep: [0.00631 s] survived
+   - [#1177] CRP stringprep: [0.00694 s] survived
+   - [#1178] CRP stringprep: [0.00655 s] survived
+   - [#1179] CRP stringprep: [0.00821 s] survived
+   - [#1180] CRP stringprep: [0.00661 s] survived
+   - [#1181] CRP stringprep: [0.00682 s] survived
+   - [#1182] CRP stringprep: [0.00650 s] survived
+   - [#1183] CRP stringprep: [0.00634 s] survived
+   - [#1184] CRP stringprep: [0.00683 s] survived
+   - [#1185] CRP stringprep: [0.00646 s] survived
+   - [#1186] CRP stringprep: [0.00674 s] survived
+   - [#1187] CRP stringprep: [0.00660 s] survived
+   - [#1188] CRP stringprep: [0.00677 s] survived
+   - [#1189] CRP stringprep: [0.00656 s] survived
+   - [#1190] CRP stringprep: [0.00662 s] survived
+   - [#1191] CRP stringprep: [0.00680 s] survived
+   - [#1192] CRP stringprep: [0.00628 s] survived
+   - [#1193] CRP stringprep: [0.00666 s] survived
+   - [#1194] CRP stringprep: [0.00614 s] survived
+   - [#1195] CRP stringprep: [0.00582 s] survived
+   - [#1196] CRP stringprep: [0.00638 s] survived
+   - [#1197] CRP stringprep: [0.00620 s] survived
+   - [#1198] CRP stringprep: [0.00648 s] survived
+   - [#1199] CRP stringprep: [0.00666 s] survived
+   - [#1200] CRP stringprep: [0.00627 s] survived
+   - [#1201] CRP stringprep: [0.00680 s] survived
+   - [#1202] CRP stringprep: [0.00739 s] survived
+   - [#1203] CRP stringprep: [0.00773 s] survived
+   - [#1204] CRP stringprep: [0.00688 s] survived
+   - [#1205] CRP stringprep: [0.00641 s] survived
+   - [#1206] CRP stringprep: [0.00647 s] survived
+   - [#1207] CRP stringprep: [0.00644 s] survived
+   - [#1208] CRP stringprep: [0.00687 s] survived
+   - [#1209] CRP stringprep: [0.00630 s] survived
+   - [#1210] CRP stringprep: [0.00633 s] survived
+   - [#1211] CRP stringprep: [0.00696 s] survived
+   - [#1212] CRP stringprep: [0.00651 s] survived
+   - [#1213] CRP stringprep: [0.00681 s] survived
+   - [#1214] CRP stringprep: [0.00651 s] survived
+   - [#1215] CRP stringprep: [0.00634 s] survived
+   - [#1216] CRP stringprep: [0.00662 s] survived
+   - [#1217] CRP stringprep: [0.00641 s] survived
+   - [#1218] CRP stringprep: [0.00695 s] survived
+   - [#1219] CRP stringprep: [0.00629 s] survived
+   - [#1220] CRP stringprep: [0.00654 s] survived
+   - [#1221] CRP stringprep: [0.00669 s] survived
+   - [#1222] CRP stringprep: [0.00620 s] survived
+   - [#1223] CRP stringprep: [0.00716 s] survived
+   - [#1224] CRP stringprep: [0.00656 s] survived
+   - [#1225] CRP stringprep: [0.00642 s] survived
+   - [#1226] CRP stringprep: [0.00773 s] survived
+   - [#1227] CRP stringprep: [0.00741 s] survived
+   - [#1228] CRP stringprep: [0.00702 s] survived
+   - [#1229] CRP stringprep: [0.00643 s] survived
+   - [#1230] CRP stringprep: [0.00716 s] survived
+   - [#1231] CRP stringprep: [0.00641 s] survived
+   - [#1232] CRP stringprep: [0.00684 s] survived
+   - [#1233] CRP stringprep: [0.00644 s] survived
+   - [#1234] CRP stringprep: [0.00672 s] survived
+   - [#1235] CRP stringprep: [0.00645 s] survived
+   - [#1236] CRP stringprep: [0.00655 s] survived
+   - [#1237] CRP stringprep: [0.00703 s] survived
+   - [#1238] CRP stringprep: [0.00642 s] survived
+   - [#1239] CRP stringprep: [0.00682 s] survived
+   - [#1240] CRP stringprep: [0.00669 s] survived
+   - [#1241] CRP stringprep: [0.00671 s] survived
+   - [#1242] CRP stringprep: [0.00652 s] survived
+   - [#1243] CRP stringprep: [0.00668 s] survived
+   - [#1244] CRP stringprep: [0.00678 s] survived
+   - [#1245] CRP stringprep: [0.00651 s] survived
+   - [#1246] CRP stringprep: [0.00681 s] survived
+   - [#1247] CRP stringprep: [0.00685 s] survived
+   - [#1248] CRP stringprep: [0.00656 s] survived
+   - [#1249] CRP stringprep: [0.00667 s] survived
+   - [#1250] CRP stringprep: [0.00776 s] survived
+   - [#1251] CRP stringprep: [0.00770 s] survived
+   - [#1252] CRP stringprep: [0.00677 s] survived
+   - [#1253] CRP stringprep: [0.00706 s] survived
+   - [#1254] CRP stringprep: [0.00654 s] survived
+   - [#1255] CRP stringprep: [0.00698 s] survived
+   - [#1256] CRP stringprep: [0.00673 s] survived
+   - [#1257] CRP stringprep: [0.00649 s] survived
+   - [#1258] CRP stringprep: [0.00661 s] survived
+   - [#1259] CRP stringprep: [0.00655 s] survived
+   - [#1260] CRP stringprep: [0.00658 s] survived
+   - [#1261] CRP stringprep: [0.00631 s] survived
+   - [#1262] CRP stringprep: [0.00695 s] survived
+   - [#1263] CRP stringprep: [0.00680 s] survived
+   - [#1264] CRP stringprep: [0.00640 s] survived
+   - [#1265] CRP stringprep: [0.00663 s] survived
+   - [#1266] CRP stringprep: [0.00664 s] survived
+   - [#1267] CRP stringprep: [0.00664 s] survived
+   - [#1268] CRP stringprep: [0.00631 s] survived
+   - [#1269] CRP stringprep: [0.00696 s] survived
+   - [#1270] CRP stringprep: [0.00671 s] survived
+   - [#1271] CRP stringprep: [0.00702 s] survived
+   - [#1272] CRP stringprep: [0.00646 s] survived
+   - [#1273] CRP stringprep: [0.00648 s] survived
+   - [#1274] CRP stringprep: [0.00766 s] survived
+   - [#1275] CRP stringprep: [0.00752 s] survived
+   - [#1276] CRP stringprep: [0.00757 s] survived
+   - [#1277] CRP stringprep: [0.00674 s] survived
+   - [#1278] CRP stringprep: [0.00697 s] survived
+   - [#1279] CRP stringprep: [0.00634 s] survived
+   - [#1280] CRP stringprep: [0.00640 s] survived
+   - [#1281] CRP stringprep: [0.00686 s] survived
+   - [#1282] CRP stringprep: [0.00650 s] survived
+   - [#1283] CRP stringprep: [0.00717 s] survived
+   - [#1284] CRP stringprep: [0.00666 s] survived
+   - [#1285] CRP stringprep: [0.00646 s] survived
+   - [#1286] CRP stringprep: [0.00659 s] survived
+   - [#1287] CRP stringprep: [0.00644 s] survived
+   - [#1288] CRP stringprep: [0.00712 s] survived
+   - [#1289] CRP stringprep: [0.00673 s] survived
+   - [#1290] CRP stringprep: [0.00679 s] survived
+   - [#1291] CRP stringprep: [0.00643 s] survived
+   - [#1292] CRP stringprep: [0.00648 s] survived
+   - [#1293] CRP stringprep: [0.00680 s] survived
+   - [#1294] CRP stringprep: [0.00644 s] survived
+   - [#1295] CRP stringprep: [0.00711 s] survived
+   - [#1296] CRP stringprep: [0.00693 s] survived
+   - [#1297] CRP stringprep: [0.00687 s] survived
+   - [#1298] CRP stringprep: [0.00757 s] survived
+   - [#1299] CRP stringprep: [0.00791 s] survived
+   - [#1300] CRP stringprep: [0.00663 s] survived
+   - [#1301] CRP stringprep: [0.00695 s] survived
+   - [#1302] CRP stringprep: [0.00627 s] survived
+   - [#1303] CRP stringprep: [0.00686 s] survived
+   - [#1304] CRP stringprep: [0.00647 s] survived
+   - [#1305] CRP stringprep: [0.00616 s] survived
+   - [#1306] CRP stringprep: [0.00683 s] survived
+   - [#1307] CRP stringprep: [0.00652 s] survived
+   - [#1308] CRP stringprep: [0.00664 s] survived
+   - [#1309] CRP stringprep: [0.00647 s] survived
+   - [#1310] CRP stringprep: [0.00644 s] survived
+   - [#1311] CRP stringprep: [0.00700 s] survived
+   - [#1312] CRP stringprep: [0.00644 s] survived
+   - [#1313] CRP stringprep: [0.00699 s] survived
+   - [#1314] CRP stringprep: [0.00666 s] survived
+   - [#1315] CRP stringprep: [0.00641 s] survived
+   - [#1316] CRP stringprep: [0.00647 s] survived
+   - [#1317] CRP stringprep: [0.00638 s] survived
+   - [#1318] CRP stringprep: [0.00672 s] survived
+   - [#1319] CRP stringprep: [0.00674 s] survived
+   - [#1320] CRP stringprep: [0.00683 s] survived
+   - [#1321] CRP stringprep: [0.00640 s] survived
+   - [#1322] CRP stringprep: [0.00725 s] survived
+   - [#1323] CRP stringprep: [0.00734 s] survived
+   - [#1324] CRP stringprep: [0.00671 s] survived
+   - [#1325] CRP stringprep: [0.00639 s] survived
+   - [#1326] CRP stringprep: [0.00667 s] survived
+   - [#1327] CRP stringprep: [0.00704 s] survived
+   - [#1328] CRP stringprep: [0.00630 s] survived
+   - [#1329] CRP stringprep: [0.00650 s] survived
+   - [#1330] CRP stringprep: [0.00642 s] survived
+   - [#1331] CRP stringprep: [0.00630 s] survived
+   - [#1332] CRP stringprep: [0.00678 s] survived
+   - [#1333] CRP stringprep: [0.00663 s] survived
+   - [#1334] CRP stringprep: [0.00690 s] survived
+   - [#1335] CRP stringprep: [0.00653 s] survived
+   - [#1336] CRP stringprep: [0.00666 s] survived
+   - [#1337] CRP stringprep: [0.00667 s] survived
+   - [#1338] CRP stringprep: [0.00621 s] survived
+   - [#1339] CRP stringprep: [0.00689 s] survived
+   - [#1340] CRP stringprep: [0.00643 s] survived
+   - [#1341] CRP stringprep: [0.00625 s] survived
+   - [#1342] CRP stringprep: [0.00655 s] survived
+   - [#1343] CRP stringprep: [0.00640 s] survived
+   - [#1344] CRP stringprep: [0.00678 s] survived
+   - [#1345] CRP stringprep: [0.00625 s] survived
+   - [#1346] CRP stringprep: [0.00735 s] survived
+   - [#1347] CRP stringprep: [0.00746 s] survived
+   - [#1348] CRP stringprep: [0.00661 s] survived
+   - [#1349] CRP stringprep: [0.00697 s] survived
+   - [#1350] CRP stringprep: [0.00644 s] survived
+   - [#1351] CRP stringprep: [0.00671 s] survived
+   - [#1352] CRP stringprep: [0.00630 s] survived
+   - [#1353] CRP stringprep: [0.00637 s] survived
+   - [#1354] CRP stringprep: [0.00669 s] survived
+   - [#1355] CRP stringprep: [0.00654 s] survived
+   - [#1356] CRP stringprep: [0.00679 s] survived
+   - [#1357] CRP stringprep: [0.00642 s] survived
+   - [#1358] CRP stringprep: [0.00643 s] survived
+   - [#1359] CRP stringprep: [0.00634 s] survived
+   - [#1360] CRP stringprep: [0.00614 s] survived
+   - [#1361] CRP stringprep: [0.00685 s] survived
+   - [#1362] CRP stringprep: [0.00662 s] survived
+   - [#1363] CRP stringprep: [0.00688 s] survived
+   - [#1364] CRP stringprep: [0.00625 s] survived
+   - [#1365] CRP stringprep: [0.00687 s] survived
+   - [#1366] CRP stringprep: [0.00632 s] survived
+   - [#1367] CRP stringprep: [0.00639 s] survived
+   - [#1368] CRP stringprep: [0.00680 s] survived
+   - [#1369] CRP stringprep: [0.00776 s] survived
+   - [#1370] CRP stringprep: [0.00770 s] survived
+   - [#1371] CRP stringprep: [0.00644 s] survived
+   - [#1372] CRP stringprep: [0.00627 s] survived
+   - [#1373] CRP stringprep: [0.00666 s] survived
+   - [#1374] CRP stringprep: [0.00637 s] survived
+   - [#1375] CRP stringprep: [0.00666 s] survived
+   - [#1376] CRP stringprep: [0.00636 s] survived
+   - [#1377] CRP stringprep: [0.00606 s] survived
+   - [#1378] CRP stringprep: [0.00614 s] survived
+   - [#1379] CRP stringprep: [0.00601 s] survived
+   - [#1380] CRP stringprep: [0.00651 s] survived
+   - [#1381] CRP stringprep: [0.00616 s] survived
+   - [#1382] CRP stringprep: [0.00601 s] survived
+   - [#1383] CRP stringprep: [0.00659 s] survived
+   - [#1384] CRP stringprep: [0.00604 s] survived
+   - [#1385] CRP stringprep: [0.00626 s] survived
+   - [#1386] CRP stringprep: [0.00607 s] survived
+   - [#1387] CRP stringprep: [0.00597 s] survived
+   - [#1388] CRP stringprep: [0.00665 s] survived
+   - [#1389] CRP stringprep: [0.00620 s] survived
+   - [#1390] CRP stringprep: [0.00591 s] survived
+   - [#1391] CRP stringprep: [0.00652 s] survived
+   - [#1392] CRP stringprep: [0.00758 s] survived
+   - [#1393] CRP stringprep: [0.00676 s] survived
+   - [#1394] CRP stringprep: [0.00607 s] survived
+   - [#1395] CRP stringprep: [0.00604 s] survived
+   - [#1396] CRP stringprep: [0.00630 s] survived
+   - [#1397] CRP stringprep: [0.00606 s] survived
+   - [#1398] CRP stringprep: [0.00649 s] survived
+   - [#1399] CRP stringprep: [0.00648 s] survived
+   - [#1400] CRP stringprep: [0.00609 s] survived
+   - [#1401] CRP stringprep: [0.00621 s] survived
+   - [#1402] CRP stringprep: [0.00615 s] survived
+   - [#1403] CRP stringprep: [0.00655 s] survived
+   - [#1404] CRP stringprep: [0.00632 s] survived
+   - [#1405] CRP stringprep: [0.00600 s] survived
+   - [#1406] CRP stringprep: [0.00647 s] survived
+   - [#1407] CRP stringprep: [0.00621 s] survived
+   - [#1408] CRP stringprep: [0.00656 s] survived
+   - [#1409] CRP stringprep: [0.00610 s] survived
+   - [#1410] CRP stringprep: [0.00602 s] survived
+   - [#1411] CRP stringprep: [0.00660 s] survived
+   - [#1412] CRP stringprep: [0.00617 s] survived
+   - [#1413] CRP stringprep: [0.00657 s] survived
+   - [#1414] CRP stringprep: [0.00716 s] survived
+   - [#1415] CRP stringprep: [0.00662 s] survived
+   - [#1416] CRP stringprep: [0.00585 s] survived
+   - [#1417] CRP stringprep: [0.00571 s] survived
+   - [#1418] CRP stringprep: [0.00613 s] survived
+   - [#1419] CRP stringprep: [0.00581 s] survived
+   - [#1420] CRP stringprep: [0.00579 s] survived
+   - [#1421] CRP stringprep: [0.00642 s] survived
+   - [#1422] CRP stringprep: [0.00610 s] survived
+   - [#1423] CRP stringprep: [0.00642 s] survived
+   - [#1424] CRP stringprep: [0.00621 s] survived
+   - [#1425] CRP stringprep: [0.00604 s] survived
+   - [#1426] CRP stringprep: [0.00639 s] survived
+   - [#1427] CRP stringprep: [0.00608 s] survived
+   - [#1428] CRP stringprep: [0.00643 s] survived
+   - [#1429] CRP stringprep: [0.00617 s] survived
+   - [#1430] CRP stringprep: [0.00615 s] survived
+   - [#1431] CRP stringprep: [0.00625 s] survived
+   - [#1432] CRP stringprep: [0.00599 s] survived
+   - [#1433] CRP stringprep: [0.00644 s] survived
+   - [#1434] CRP stringprep: [0.00625 s] survived
+   - [#1435] CRP stringprep: [0.00599 s] survived
+   - [#1436] CRP stringprep: [0.00763 s] survived
+   - [#1437] CRP stringprep: [0.00636 s] survived
+   - [#1438] CRP stringprep: [0.00634 s] survived
+   - [#1439] CRP stringprep: [0.00615 s] survived
+   - [#1440] CRP stringprep: [0.00652 s] survived
+   - [#1441] CRP stringprep: [0.00605 s] survived
+   - [#1442] CRP stringprep: [0.00613 s] survived
+   - [#1443] CRP stringprep: [0.00628 s] survived
+   - [#1444] CRP stringprep: [0.00631 s] survived
+   - [#1445] CRP stringprep: [0.00678 s] survived
+   - [#1446] CRP stringprep: [0.00656 s] survived
+   - [#1447] CRP stringprep: [0.00777 s] survived
+   - [#1448] CRP stringprep: [0.00790 s] survived
+   - [#1449] CRP stringprep: [0.00850 s] survived
+   - [#1450] CRP stringprep: [0.00899 s] survived
+   - [#1451] CRP stringprep: [0.00836 s] survived
+   - [#1452] CRP stringprep: [0.00729 s] survived
+   - [#1453] CRP stringprep: [0.00760 s] survived
+   - [#1454] CRP stringprep: [0.00640 s] survived
+   - [#1455] CRP stringprep: [0.00655 s] survived
+   - [#1456] CRP stringprep: [0.00647 s] survived
+   - [#1457] CRP stringprep: [0.00765 s] survived
+   - [#1458] CRP stringprep: [0.00655 s] survived
+   - [#1459] CRP stringprep: [0.00615 s] survived
+   - [#1460] CRP stringprep: [0.00660 s] survived
+   - [#1461] CRP stringprep: [0.00610 s] survived
+   - [#1462] CRP stringprep: [0.00706 s] survived
+   - [#1463] CRP stringprep: [0.00661 s] survived
+   - [#1464] CRP stringprep: [0.00753 s] survived
+   - [#1465] CRP stringprep: [0.00700 s] survived
+   - [#1466] CRP stringprep: [0.00657 s] survived
+   - [#1467] CRP stringprep: [0.00669 s] survived
+   - [#1468] CRP stringprep: [0.00639 s] survived
+   - [#1469] CRP stringprep: [0.00644 s] survived
+   - [#1470] CRP stringprep: [0.00606 s] survived
+   - [#1471] CRP stringprep: [0.00652 s] survived
+   - [#1472] CRP stringprep: [0.00665 s] survived
+   - [#1473] CRP stringprep: [0.00595 s] survived
+   - [#1474] CRP stringprep: [0.00591 s] survived
+   - [#1475] CRP stringprep: [0.00635 s] survived
+   - [#1476] CRP stringprep: [0.00561 s] survived
+   - [#1477] CRP stringprep: [0.00616 s] survived
+   - [#1478] CRP stringprep: [0.00594 s] survived
+   - [#1479] CRP stringprep: [0.00570 s] survived
+   - [#1480] CRP stringprep: [0.00735 s] survived
+   - [#1481] CRP stringprep: [0.00743 s] survived
+   - [#1482] CRP stringprep: [0.00703 s] survived
+   - [#1483] CRP stringprep: [0.00636 s] survived
+   - [#1484] CRP stringprep: [0.00616 s] survived
+   - [#1485] CRP stringprep: [0.00674 s] survived
+   - [#1486] CRP stringprep: [0.00674 s] survived
+   - [#1487] CRP stringprep: [0.00683 s] survived
+   - [#1488] CRP stringprep: [0.00653 s] survived
+   - [#1489] CRP stringprep: [0.00685 s] survived
+   - [#1490] CRP stringprep: [0.00631 s] survived
+   - [#1491] CRP stringprep: [0.00672 s] survived
+   - [#1492] CRP stringprep: [0.00633 s] survived
+   - [#1493] CRP stringprep: [0.00566 s] survived
+   - [#1494] CRP stringprep: [0.00615 s] survived
+   - [#1495] CRP stringprep: [0.00598 s] survived
+   - [#1496] CRP stringprep: [0.00574 s] survived
+   - [#1497] CRP stringprep: [0.00618 s] survived
+   - [#1498] CRP stringprep: [0.00567 s] survived
+   - [#1499] CRP stringprep: [0.00575 s] survived
+   - [#1500] CRP stringprep: [0.00638 s] survived
+   - [#1501] CRP stringprep: [0.00574 s] survived
+   - [#1502] CRP stringprep: [0.00615 s] survived
+   - [#1503] CRP stringprep: [0.00606 s] survived
+   - [#1504] CRP stringprep: [0.00665 s] survived
+   - [#1505] CRP stringprep: [0.00725 s] survived
+   - [#1506] CRP stringprep: [0.00636 s] survived
+   - [#1507] CRP stringprep: [0.00568 s] survived
+   - [#1508] CRP stringprep: [0.00619 s] survived
+   - [#1509] CRP stringprep: [0.00577 s] survived
+   - [#1510] CRP stringprep: [0.00613 s] survived
+   - [#1511] CRP stringprep: [0.00598 s] survived
+   - [#1512] CRP stringprep: [0.00564 s] survived
+   - [#1513] CRP stringprep: [0.00607 s] survived
+   - [#1514] CRP stringprep: [0.00573 s] survived
+   - [#1515] CRP stringprep: [0.00575 s] survived
+   - [#1516] CRP stringprep: [0.00614 s] survived
+   - [#1517] CRP stringprep: [0.00563 s] survived
+   - [#1518] CRP stringprep: [0.00619 s] survived
+   - [#1519] CRP stringprep: [0.00588 s] survived
+   - [#1520] CRP stringprep: [0.00570 s] survived
+   - [#1521] CRP stringprep: [0.00643 s] survived
+   - [#1522] CRP stringprep: [0.00582 s] survived
+   - [#1523] CRP stringprep: [0.00574 s] survived
+   - [#1524] CRP stringprep: [0.00624 s] survived
+   - [#1525] CRP stringprep: [0.00571 s] survived
+   - [#1526] CRP stringprep: [0.00640 s] survived
+   - [#1527] CRP stringprep: [0.00607 s] survived
+   - [#1528] CRP stringprep: [0.00656 s] survived
+   - [#1529] CRP stringprep: [0.00710 s] survived
+   - [#1530] CRP stringprep: [0.00617 s] survived
+   - [#1531] CRP stringprep: [0.00597 s] survived
+   - [#1532] CRP stringprep: [0.00588 s] survived
+   - [#1533] CRP stringprep: [0.00586 s] survived
+   - [#1534] CRP stringprep: [0.00612 s] survived
+   - [#1535] CRP stringprep: [0.00570 s] survived
+   - [#1536] CRP stringprep: [0.00575 s] survived
+   - [#1537] CRP stringprep: [0.00603 s] survived
+   - [#1538] CRP stringprep: [0.00576 s] survived
+   - [#1539] CRP stringprep: [0.00623 s] survived
+   - [#1540] CRP stringprep: [0.00605 s] survived
+   - [#1541] CRP stringprep: [0.00581 s] survived
+   - [#1542] CRP stringprep: [0.00610 s] survived
+   - [#1543] CRP stringprep: [0.00566 s] survived
+   - [#1544] CRP stringprep: [0.00597 s] survived
+   - [#1545] CRP stringprep: [0.00593 s] survived
+   - [#1546] CRP stringprep: [0.00566 s] survived
+   - [#1547] CRP stringprep: [0.00625 s] survived
+   - [#1548] CRP stringprep: [0.00574 s] survived
+   - [#1549] CRP stringprep: [0.00617 s] survived
+   - [#1550] CRP stringprep: [0.00605 s] survived
+   - [#1551] CRP stringprep: [0.00562 s] survived
+   - [#1552] CRP stringprep: [0.00698 s] survived
+   - [#1553] CRP stringprep: [0.00710 s] survived
+   - [#1554] CRP stringprep: [0.00606 s] survived
+   - [#1555] CRP stringprep: [0.00615 s] survived
+   - [#1556] CRP stringprep: [0.00608 s] survived
+   - [#1557] CRP stringprep: [0.00645 s] survived
+   - [#1558] CRP stringprep: [0.00662 s] survived
+   - [#1559] CRP stringprep: [0.00603 s] survived
+   - [#1560] CRP stringprep: [0.00629 s] survived
+   - [#1561] CRP stringprep: [0.00578 s] survived
+   - [#1562] CRP stringprep: [0.00629 s] survived
+   - [#1563] CRP stringprep: [0.00595 s] survived
+   - [#1564] CRP stringprep: [0.00557 s] survived
+   - [#1565] CRP stringprep: [0.00624 s] survived
+   - [#1566] CRP stringprep: [0.00662 s] survived
+   - [#1567] CRP stringprep: [0.00580 s] survived
+   - [#1568] CRP stringprep: [0.00632 s] survived
+   - [#1569] CRP stringprep: [0.00599 s] survived
+   - [#1570] CRP stringprep: [0.00628 s] survived
+   - [#1571] CRP stringprep: [0.00607 s] survived
+   - [#1572] CRP stringprep: [0.00576 s] survived
+   - [#1573] CRP stringprep: [0.00621 s] survived
+   - [#1574] CRP stringprep: [0.00599 s] survived
+   - [#1575] CRP stringprep: [0.00580 s] survived
+   - [#1576] CRP stringprep: [0.00711 s] survived
+   - [#1577] CRP stringprep: [0.00699 s] survived
+   - [#1578] CRP stringprep: [0.00657 s] survived
+   - [#1579] CRP stringprep: [0.00589 s] survived
+   - [#1580] CRP stringprep: [0.00581 s] survived
+   - [#1581] CRP stringprep: [0.00634 s] survived
+   - [#1582] CRP stringprep: [0.00599 s] survived
+   - [#1583] CRP stringprep: [0.00624 s] survived
+   - [#1584] CRP stringprep: [0.00619 s] survived
+   - [#1585] CRP stringprep: [0.00575 s] survived
+   - [#1586] CRP stringprep: [0.00687 s] survived
+   - [#1587] CRP stringprep: [0.00662 s] survived
+   - [#1588] CRP stringprep: [0.00657 s] survived
+   - [#1589] CRP stringprep: [0.00693 s] survived
+   - [#1590] CRP stringprep: [0.00681 s] survived
+   - [#1591] CRP stringprep: [0.00689 s] survived
+   - [#1592] CRP stringprep: [0.00623 s] survived
+   - [#1593] CRP stringprep: [0.00644 s] survived
+   - [#1594] CRP stringprep: [0.00624 s] survived
+   - [#1595] CRP stringprep: [0.00605 s] survived
+   - [#1596] CRP stringprep: [0.00655 s] survived
+   - [#1597] CRP stringprep: [0.00637 s] survived
+   - [#1598] CRP stringprep: [0.00674 s] survived
+   - [#1599] CRP stringprep: [0.00606 s] survived
+   - [#1600] CRP stringprep: [0.00700 s] survived
+   - [#1601] CRP stringprep: [0.00749 s] survived
+   - [#1602] CRP stringprep: [0.00622 s] survived
+   - [#1603] CRP stringprep: [0.00638 s] survived
+   - [#1604] CRP stringprep: [0.00621 s] survived
+   - [#1605] CRP stringprep: [0.00629 s] survived
+   - [#1606] CRP stringprep: [0.00620 s] survived
+   - [#1607] CRP stringprep: [0.00585 s] survived
+   - [#1608] CRP stringprep: [0.00657 s] survived
+   - [#1609] CRP stringprep: [0.00614 s] survived
+   - [#1610] CRP stringprep: [0.00630 s] survived
+   - [#1611] CRP stringprep: [0.00656 s] survived
+   - [#1612] CRP stringprep: [0.00611 s] survived
+   - [#1613] CRP stringprep: [0.00661 s] survived
+   - [#1614] CRP stringprep: [0.00642 s] survived
+   - [#1615] CRP stringprep: [0.00626 s] survived
+   - [#1616] CRP stringprep: [0.00659 s] survived
+   - [#1617] CRP stringprep: [0.00660 s] survived
+   - [#1618] CRP stringprep: [0.00653 s] survived
+   - [#1619] CRP stringprep: [0.00629 s] survived
+   - [#1620] CRP stringprep: [0.00635 s] survived
+   - [#1621] CRP stringprep: [0.00684 s] survived
+   - [#1622] CRP stringprep: [0.00613 s] survived
+   - [#1623] CRP stringprep: [0.00602 s] survived
+   - [#1624] CRP stringprep: [0.00746 s] survived
+   - [#1625] CRP stringprep: [0.00736 s] survived
+   - [#1626] CRP stringprep: [0.00693 s] survived
+   - [#1627] CRP stringprep: [0.00613 s] survived
+   - [#1628] CRP stringprep: [0.00663 s] survived
+   - [#1629] CRP stringprep: [0.00622 s] survived
+   - [#1630] CRP stringprep: [0.00609 s] survived
+   - [#1631] CRP stringprep: [0.00649 s] survived
+   - [#1632] CRP stringprep: [0.00609 s] survived
+   - [#1633] CRP stringprep: [0.00609 s] survived
+   - [#1634] CRP stringprep: [0.00645 s] survived
+   - [#1635] CRP stringprep: [0.00618 s] survived
+   - [#1636] CRP stringprep: [0.00650 s] survived
+   - [#1637] CRP stringprep: [0.00591 s] survived
+   - [#1638] CRP stringprep: [0.00589 s] survived
+   - [#1639] CRP stringprep: [0.00626 s] survived
+   - [#1640] CRP stringprep: [0.00604 s] survived
+   - [#1641] CRP stringprep: [0.00628 s] survived
+   - [#1642] CRP stringprep: [0.00626 s] survived
+   - [#1643] CRP stringprep: [0.00669 s] survived
+   - [#1644] CRP stringprep: [0.00689 s] survived
+   - [#1645] CRP stringprep: [0.00675 s] survived
+   - [#1646] CRP stringprep: [0.00683 s] survived
+   - [#1647] CRP stringprep: [0.00652 s] survived
+   - [#1648] CRP stringprep: [0.00755 s] survived
+   - [#1649] CRP stringprep: [0.00724 s] survived
+   - [#1650] CRP stringprep: [0.00664 s] survived
+   - [#1651] CRP stringprep: [0.00631 s] survived
+   - [#1652] CRP stringprep: [0.00597 s] survived
+   - [#1653] CRP stringprep: [0.00640 s] survived
+   - [#1654] CRP stringprep: [0.00625 s] survived
+   - [#1655] CRP stringprep: [0.00680 s] survived
+   - [#1656] CRP stringprep: [0.00666 s] survived
+   - [#1657] CRP stringprep: [0.00638 s] survived
+   - [#1658] CRP stringprep: [0.00670 s] survived
+   - [#1659] CRP stringprep: [0.00641 s] survived
+   - [#1660] CRP stringprep: [0.00642 s] survived
+   - [#1661] CRP stringprep: [0.00667 s] survived
+   - [#1662] CRP stringprep: [0.00633 s] survived
+   - [#1663] CRP stringprep: [0.00676 s] survived
+   - [#1664] CRP stringprep: [0.00671 s] survived
+   - [#1665] CRP stringprep: [0.00685 s] survived
+   - [#1666] CRP stringprep: [0.00625 s] survived
+   - [#1667] CRP stringprep: [0.00625 s] survived
+   - [#1668] CRP stringprep: [0.00642 s] survived
+   - [#1669] CRP stringprep: [0.00652 s] survived
+   - [#1670] CRP stringprep: [0.00727 s] survived
+   - [#1671] CRP stringprep: [0.00682 s] survived
+   - [#1672] CRP stringprep: [0.00843 s] survived
+   - [#1673] CRP stringprep: [0.00807 s] survived
+   - [#1674] CRP stringprep: [0.00706 s] survived
+   - [#1675] CRP stringprep: [0.00638 s] survived
+   - [#1676] CRP stringprep: [0.00686 s] survived
+   - [#1677] CRP stringprep: [0.00642 s] survived
+   - [#1678] CRP stringprep: [0.00673 s] survived
+   - [#1679] CRP stringprep: [0.00705 s] survived
+   - [#1680] CRP stringprep: [0.00694 s] survived
+   - [#1681] CRP stringprep: [0.00694 s] survived
+   - [#1682] CRP stringprep: [0.00645 s] survived
+   - [#1683] CRP stringprep: [0.00704 s] survived
+   - [#1684] CRP stringprep: [0.00701 s] survived
+   - [#1685] CRP stringprep: [0.00657 s] survived
+   - [#1686] CRP stringprep: [0.00661 s] survived
+   - [#1687] CRP stringprep: [0.00651 s] survived
+   - [#1688] CRP stringprep: [0.00691 s] survived
+   - [#1689] CRP stringprep: [0.00665 s] survived
+   - [#1690] CRP stringprep: [0.00682 s] survived
+   - [#1691] CRP stringprep: [0.00646 s] survived
+   - [#1692] CRP stringprep: [0.00643 s] survived
+   - [#1693] CRP stringprep: [0.00685 s] survived
+   - [#1694] CRP stringprep: [0.00649 s] survived
+   - [#1695] CRP stringprep: [0.00754 s] survived
+   - [#1696] CRP stringprep: [0.00761 s] survived
+   - [#1697] CRP stringprep: [0.00688 s] survived
+   - [#1698] CRP stringprep: [0.00619 s] survived
+   - [#1699] CRP stringprep: [0.00612 s] survived
+   - [#1700] CRP stringprep: [0.00644 s] survived
+   - [#1701] CRP stringprep: [0.00590 s] survived
+   - [#1702] CRP stringprep: [0.00671 s] survived
+   - [#1703] CRP stringprep: [0.00628 s] survived
+   - [#1704] CRP stringprep: [0.00617 s] survived
+   - [#1705] CRP stringprep: [0.00653 s] survived
+   - [#1706] CRP stringprep: [0.00625 s] survived
+   - [#1707] CRP stringprep: [0.00650 s] survived
+   - [#1708] CRP stringprep: [0.00614 s] survived
+   - [#1709] CRP stringprep: [0.00616 s] survived
+   - [#1710] CRP stringprep: [0.00644 s] survived
+   - [#1711] CRP stringprep: [0.00609 s] survived
+   - [#1712] CRP stringprep: [0.00634 s] survived
+   - [#1713] CRP stringprep: [0.00651 s] survived
+   - [#1714] CRP stringprep: [0.00642 s] survived
+   - [#1715] CRP stringprep: [0.00673 s] survived
+   - [#1716] CRP stringprep: [0.00658 s] survived
+   - [#1717] CRP stringprep: [0.00648 s] survived
+   - [#1718] CRP stringprep: [0.00736 s] survived
+   - [#1719] CRP stringprep: [0.00645 s] survived
+   - [#1720] CRP stringprep: [0.00638 s] survived
+   - [#1721] CRP stringprep: [0.00598 s] survived
+   - [#1722] CRP stringprep: [0.00650 s] survived
+   - [#1723] CRP stringprep: [0.00628 s] survived
+   - [#1724] CRP stringprep: [0.00606 s] survived
+   - [#1725] CRP stringprep: [0.00642 s] survived
+   - [#1726] CRP stringprep: [0.00624 s] survived
+   - [#1727] CRP stringprep: [0.00652 s] survived
+   - [#1728] CRP stringprep: [0.00614 s] survived
+   - [#1729] CRP stringprep: [0.00606 s] survived
+   - [#1730] CRP stringprep: [0.00681 s] survived
+   - [#1731] CRP stringprep: [0.00613 s] survived
+   - [#1732] CRP stringprep: [0.00643 s] survived
+   - [#1733] CRP stringprep: [0.00623 s] survived
+   - [#1734] CRP stringprep: [0.00608 s] survived
+   - [#1735] CRP stringprep: [0.00650 s] survived
+   - [#1736] CRP stringprep: [0.00618 s] survived
+   - [#1737] CRP stringprep: [0.00658 s] survived
+   - [#1738] CRP stringprep: [0.00612 s] survived
+   - [#1739] CRP stringprep: [0.00621 s] survived
+   - [#1740] CRP stringprep: [0.00785 s] survived
+   - [#1741] CRP stringprep: [0.00630 s] survived
+   - [#1742] CRP stringprep: [0.00638 s] survived
+   - [#1743] CRP stringprep: [0.00650 s] survived
+   - [#1744] CRP stringprep: [0.00672 s] survived
+   - [#1745] CRP stringprep: [0.00632 s] survived
+   - [#1746] CRP stringprep: [0.00646 s] survived
+   - [#1747] CRP stringprep: [0.00615 s] survived
+   - [#1748] CRP stringprep: [0.00601 s] survived
+   - [#1749] CRP stringprep: [0.00643 s] survived
+   - [#1750] CRP stringprep: [0.00594 s] survived
+   - [#1751] CRP stringprep: [0.00566 s] survived
+   - [#1752] CRP stringprep: [0.00660 s] survived
+   - [#1753] CRP stringprep: [0.00592 s] survived
+   - [#1754] CRP stringprep: [0.00604 s] survived
+   - [#1755] CRP stringprep: [0.00606 s] survived
+   - [#1756] CRP stringprep: [0.00563 s] survived
+   - [#1757] CRP stringprep: [0.00642 s] survived
+   - [#1758] CRP stringprep: [0.00642 s] survived
+   - [#1759] CRP stringprep: [0.00620 s] survived
+   - [#1760] CRP stringprep: [0.00622 s] survived
+   - [#1761] CRP stringprep: [0.00623 s] survived
+   - [#1762] CRP stringprep: [0.00648 s] survived
+   - [#1763] CRP stringprep: [0.00708 s] survived
+   - [#1764] CRP stringprep: [0.00735 s] survived
+   - [#1765] CRP stringprep: [0.00681 s] survived
+   - [#1766] CRP stringprep: [0.00638 s] survived
+   - [#1767] CRP stringprep: [0.00674 s] survived
+   - [#1768] CRP stringprep: [0.00640 s] survived
+   - [#1769] CRP stringprep: [0.00699 s] survived
+   - [#1770] CRP stringprep: [0.00639 s] survived
+   - [#1771] CRP stringprep: [0.00626 s] survived
+   - [#1772] CRP stringprep: [0.00647 s] survived
+   - [#1773] CRP stringprep: [0.00619 s] survived
+   - [#1774] CRP stringprep: [0.00648 s] survived
+   - [#1775] CRP stringprep: [0.00635 s] survived
+   - [#1776] CRP stringprep: [0.00627 s] survived
+   - [#1777] CRP stringprep: [0.00661 s] survived
+   - [#1778] CRP stringprep: [0.00608 s] survived
+   - [#1779] CRP stringprep: [0.00662 s] survived
+   - [#1780] CRP stringprep: [0.00608 s] survived
+   - [#1781] CRP stringprep: [0.00623 s] survived
+   - [#1782] CRP stringprep: [0.00666 s] survived
+   - [#1783] CRP stringprep: [0.00619 s] survived
+   - [#1784] CRP stringprep: [0.00652 s] survived
+   - [#1785] CRP stringprep: [0.00640 s] survived
+   - [#1786] CRP stringprep: [0.00603 s] survived
+   - [#1787] CRP stringprep: [0.00736 s] survived
+   - [#1788] CRP stringprep: [0.00753 s] survived
+   - [#1789] CRP stringprep: [0.00698 s] survived
+   - [#1790] CRP stringprep: [0.00610 s] survived
+   - [#1791] CRP stringprep: [0.00639 s] survived
+   - [#1792] CRP stringprep: [0.00646 s] survived
+   - [#1793] CRP stringprep: [0.00610 s] survived
+   - [#1794] CRP stringprep: [0.00661 s] survived
+   - [#1795] CRP stringprep: [0.00635 s] survived
+   - [#1796] CRP stringprep: [0.00675 s] survived
+   - [#1797] CRP stringprep: [0.00617 s] survived
+   - [#1798] CRP stringprep: [0.00600 s] survived
+   - [#1799] CRP stringprep: [0.00645 s] survived
+   - [#1800] CRP stringprep: [0.00631 s] survived
+   - [#1801] CRP stringprep: [0.00616 s] survived
+   - [#1802] CRP stringprep: [0.00649 s] survived
+   - [#1803] CRP stringprep: [0.00601 s] survived
+   - [#1804] CRP stringprep: [0.00653 s] survived
+   - [#1805] CRP stringprep: [0.00614 s] survived
+   - [#1806] CRP stringprep: [0.00655 s] survived
+   - [#1807] CRP stringprep: [0.00624 s] survived
+   - [#1808] CRP stringprep: [0.00591 s] survived
+   - [#1809] CRP stringprep: [0.00669 s] survived
+   - [#1810] CRP stringprep: [0.00611 s] survived
+   - [#1811] CRP stringprep: [0.00733 s] survived
+   - [#1812] CRP stringprep: [0.00694 s] survived
+   - [#1813] CRP stringprep: [0.00651 s] survived
+   - [#1814] CRP stringprep: [0.00603 s] survived
+   - [#1815] CRP stringprep: [0.00602 s] survived
+   - [#1816] CRP stringprep: [0.00619 s] survived
+   - [#1817] CRP stringprep: [0.00615 s] survived
+   - [#1818] CRP stringprep: [0.00655 s] survived
+   - [#1819] CRP stringprep: [0.00611 s] survived
+   - [#1820] CRP stringprep: [0.00651 s] survived
+   - [#1821] CRP stringprep: [0.00640 s] survived
+   - [#1822] CRP stringprep: [0.00591 s] survived
+   - [#1823] CRP stringprep: [0.00643 s] survived
+   - [#1824] CRP stringprep: [0.00622 s] survived
+   - [#1825] CRP stringprep: [0.00705 s] survived
+   - [#1826] CRP stringprep: [0.00661 s] survived
+   - [#1827] CRP stringprep: [0.00671 s] survived
+   - [#1828] CRP stringprep: [0.00653 s] survived
+   - [#1829] CRP stringprep: [0.00628 s] survived
+   - [#1830] CRP stringprep: [0.00686 s] survived
+   - [#1831] CRP stringprep: [0.00662 s] survived
+   - [#1832] CRP stringprep: [0.00649 s] survived
+   - [#1833] CRP stringprep: [0.00627 s] survived
+   - [#1834] CRP stringprep: [0.00649 s] survived
+   - [#1835] CRP stringprep: [0.00772 s] survived
+   - [#1836] CRP stringprep: [0.00742 s] survived
+   - [#1837] CRP stringprep: [0.00723 s] survived
+   - [#1838] CRP stringprep: [0.00644 s] survived
+   - [#1839] CRP stringprep: [0.00627 s] survived
+   - [#1840] CRP stringprep: [0.00638 s] survived
+   - [#1841] CRP stringprep: [0.00672 s] survived
+   - [#1842] CRP stringprep: [0.00679 s] survived
+   - [#1843] CRP stringprep: [0.00659 s] survived
+   - [#1844] CRP stringprep: [0.00674 s] survived
+   - [#1845] CRP stringprep: [0.00634 s] survived
+   - [#1846] CRP stringprep: [0.00650 s] survived
+   - [#1847] CRP stringprep: [0.00657 s] survived
+   - [#1848] CRP stringprep: [0.00650 s] survived
+   - [#1849] CRP stringprep: [0.00675 s] survived
+   - [#1850] CRP stringprep: [0.00632 s] survived
+   - [#1851] CRP stringprep: [0.00688 s] survived
+   - [#1852] CRP stringprep: [0.00631 s] survived
+   - [#1853] CRP stringprep: [0.00632 s] survived
+   - [#1854] CRP stringprep: [0.00673 s] survived
+   - [#1855] CRP stringprep: [0.00656 s] survived
+   - [#1856] CRP stringprep: [0.00663 s] survived
+   - [#1857] CRP stringprep: [0.00669 s] survived
+   - [#1858] CRP stringprep: [0.00632 s] survived
+   - [#1859] CRP stringprep: [0.00764 s] survived
+   - [#1860] CRP stringprep: [0.00737 s] survived
+   - [#1861] CRP stringprep: [0.00704 s] survived
+   - [#1862] CRP stringprep: [0.00659 s] survived
+   - [#1863] CRP stringprep: [0.00613 s] survived
+   - [#1864] CRP stringprep: [0.00634 s] survived
+   - [#1865] CRP stringprep: [0.00617 s] survived
+   - [#1866] CRP stringprep: [0.00640 s] survived
+   - [#1867] CRP stringprep: [0.00627 s] survived
+   - [#1868] CRP stringprep: [0.00591 s] survived
+   - [#1869] CRP stringprep: [0.00616 s] survived
+   - [#1870] CRP stringprep: [0.00575 s] survived
+   - [#1871] CRP stringprep: [0.00622 s] survived
+   - [#1872] CRP stringprep: [0.00586 s] survived
+   - [#1873] CRP stringprep: [0.00584 s] survived
+   - [#1874] CRP stringprep: [0.00667 s] survived
+   - [#1875] CRP stringprep: [0.00637 s] survived
+   - [#1876] CRP stringprep: [0.00684 s] survived
+   - [#1877] CRP stringprep: [0.00644 s] survived
+   - [#1878] CRP stringprep: [0.00628 s] survived
+   - [#1879] CRP stringprep: [0.00653 s] survived
+   - [#1880] CRP stringprep: [0.00647 s] survived
+   - [#1881] CRP stringprep: [0.00660 s] survived
+   - [#1882] CRP stringprep: [0.00645 s] survived
+   - [#1883] CRP stringprep: [0.00807 s] survived
+   - [#1884] CRP stringprep: [0.00747 s] survived
+   - [#1885] CRP stringprep: [0.00706 s] survived
+   - [#1886] CRP stringprep: [0.00628 s] survived
+   - [#1887] CRP stringprep: [0.00665 s] survived
+   - [#1888] CRP stringprep: [0.00645 s] survived
+   - [#1889] CRP stringprep: [0.00653 s] survived
+   - [#1890] CRP stringprep: [0.00679 s] survived
+   - [#1891] CRP stringprep: [0.00632 s] survived
+   - [#1892] CRP stringprep: [0.00639 s] survived
+   - [#1893] CRP stringprep: [0.00637 s] survived
+   - [#1894] CRP stringprep: [0.00646 s] survived
+   - [#1895] CRP stringprep: [0.00714 s] survived
+   - [#1896] CRP stringprep: [0.00665 s] survived
+   - [#1897] CRP stringprep: [0.00681 s] survived
+   - [#1898] CRP stringprep: [0.00648 s] survived
+   - [#1899] CRP stringprep: [0.00639 s] survived
+   - [#1900] CRP stringprep: [0.00657 s] survived
+   - [#1901] CRP stringprep: [0.00635 s] survived
+   - [#1902] CRP stringprep: [0.00695 s] survived
+   - [#1903] CRP stringprep: [0.00645 s] survived
+   - [#1904] CRP stringprep: [0.00630 s] survived
+   - [#1905] CRP stringprep: [0.00664 s] survived
+   - [#1906] CRP stringprep: [0.00634 s] survived
+   - [#1907] CRP stringprep: [0.00770 s] survived
+   - [#1908] CRP stringprep: [0.00757 s] survived
+   - [#1909] CRP stringprep: [0.00724 s] survived
+   - [#1910] CRP stringprep: [0.00659 s] survived
+   - [#1911] CRP stringprep: [0.00694 s] survived
+   - [#1912] CRP stringprep: [0.00657 s] survived
+   - [#1913] CRP stringprep: [0.00655 s] survived
+   - [#1914] CRP stringprep: [0.00657 s] survived
+   - [#1915] CRP stringprep: [0.00634 s] survived
+   - [#1916] CRP stringprep: [0.00650 s] survived
+   - [#1917] CRP stringprep: [0.00644 s] survived
+   - [#1918] CRP stringprep: [0.00685 s] survived
+   - [#1919] CRP stringprep: [0.00644 s] survived
+   - [#1920] CRP stringprep: [0.00634 s] survived
+   - [#1921] CRP stringprep: [0.00704 s] survived
+   - [#1922] CRP stringprep: [0.00638 s] survived
+   - [#1923] CRP stringprep: [0.00681 s] survived
+   - [#1924] CRP stringprep: [0.00650 s] survived
+   - [#1925] CRP stringprep: [0.00670 s] survived
+   - [#1926] CRP stringprep: [0.00668 s] survived
+   - [#1927] CRP stringprep: [0.00652 s] survived
+   - [#1928] CRP stringprep: [0.00665 s] survived
+   - [#1929] CRP stringprep: [0.00630 s] survived
+   - [#1930] CRP stringprep: [0.00644 s] survived
+   - [#1931] CRP stringprep: [0.00769 s] survived
+   - [#1932] CRP stringprep: [0.00778 s] survived
+   - [#1933] CRP stringprep: [0.00728 s] survived
+   - [#1934] CRP stringprep: [0.00649 s] survived
+   - [#1935] CRP stringprep: [0.00690 s] survived
+   - [#1936] CRP stringprep: [0.00662 s] survived
+   - [#1937] CRP stringprep: [0.00636 s] survived
+   - [#1938] CRP stringprep: [0.00659 s] survived
+   - [#1939] CRP stringprep: [0.00685 s] survived
+   - [#1940] CRP stringprep: [0.00687 s] survived
+   - [#1941] CRP stringprep: [0.00640 s] survived
+   - [#1942] CRP stringprep: [0.00641 s] survived
+   - [#1943] CRP stringprep: [0.00669 s] survived
+   - [#1944] CRP stringprep: [0.00651 s] survived
+   - [#1945] CRP stringprep: [0.00673 s] survived
+   - [#1946] CRP stringprep: [0.00699 s] survived
+   - [#1947] CRP stringprep: [0.00668 s] survived
+   - [#1948] CRP stringprep: [0.00628 s] survived
+   - [#1949] CRP stringprep: [0.00644 s] survived
+   - [#1950] CRP stringprep: [0.00681 s] survived
+   - [#1951] CRP stringprep: [0.00643 s] survived
+   - [#1952] CRP stringprep: [0.00692 s] survived
+   - [#1953] CRP stringprep: [0.00682 s] survived
+   - [#1954] CRP stringprep: [0.00634 s] survived
+   - [#1955] CRP stringprep: [0.00765 s] survived
+   - [#1956] CRP stringprep: [0.00768 s] survived
+   - [#1957] CRP stringprep: [0.00671 s] survived
+   - [#1958] CRP stringprep: [0.00632 s] survived
+   - [#1959] CRP stringprep: [0.00675 s] survived
+   - [#1960] CRP stringprep: [0.00651 s] survived
+   - [#1961] CRP stringprep: [0.00681 s] survived
+   - [#1962] CRP stringprep: [0.00639 s] survived
+   - [#1963] CRP stringprep: [0.00625 s] survived
+   - [#1964] CRP stringprep: [0.00660 s] survived
+   - [#1965] CRP stringprep: [0.00675 s] survived
+   - [#1966] CRP stringprep: [0.00707 s] survived
+   - [#1967] CRP stringprep: [0.00653 s] survived
+   - [#1968] CRP stringprep: [0.00643 s] survived
+   - [#1969] CRP stringprep: [0.00656 s] survived
+   - [#1970] CRP stringprep: [0.00642 s] survived
+   - [#1971] CRP stringprep: [0.00691 s] survived
+   - [#1972] CRP stringprep: [0.00672 s] survived
+   - [#1973] CRP stringprep: [0.00662 s] survived
+   - [#1974] CRP stringprep: [0.00649 s] survived
+   - [#1975] CRP stringprep: [0.00648 s] survived
+   - [#1976] CRP stringprep: [0.00697 s] survived
+   - [#1977] CRP stringprep: [0.00651 s] survived
+   - [#1978] CRP stringprep: [0.00674 s] survived
+   - [#1979] CRP stringprep: [0.00796 s] survived
+   - [#1980] CRP stringprep: [0.00705 s] survived
+   - [#1981] CRP stringprep: [0.00630 s] survived
+   - [#1982] CRP stringprep: [0.00631 s] survived
+   - [#1983] CRP stringprep: [0.00654 s] survived
+   - [#1984] CRP stringprep: [0.00627 s] survived
+   - [#1985] CRP stringprep: [0.00663 s] survived
+   - [#1986] CRP stringprep: [0.00647 s] survived
+   - [#1987] CRP stringprep: [0.00668 s] survived
+   - [#1988] CRP stringprep: [0.00643 s] survived
+   - [#1989] CRP stringprep: [0.00628 s] survived
+   - [#1990] CRP stringprep: [0.00707 s] survived
+   - [#1991] CRP stringprep: [0.00665 s] survived
+   - [#1992] CRP stringprep: [0.00687 s] survived
+   - [#1993] CRP stringprep: [0.00641 s] survived
+   - [#1994] CRP stringprep: [0.00634 s] survived
+   - [#1995] CRP stringprep: [0.00666 s] survived
+   - [#1996] CRP stringprep: [0.00633 s] survived
+   - [#1997] CRP stringprep: [0.00692 s] survived
+   - [#1998] CRP stringprep: [0.00684 s] survived
+   - [#1999] CRP stringprep: [0.00817 s] killed by test (test_stringprep.StringprepTests)
+   - [#2000] CRP stringprep: [0.00807 s] killed by test (test_stringprep.StringprepTests)
+   - [#2001] CRP stringprep: [0.00780 s] survived
+   - [#2002] CRP stringprep: [0.00716 s] killed by test (test_stringprep.StringprepTests)
+   - [#2003] CRP stringprep: [0.00722 s] killed by test (test_stringprep.StringprepTests)
+   - [#2004] CRP stringprep: [0.00701 s] killed by test (test_stringprep.StringprepTests)
+   - [#2005] CRP stringprep: [0.00781 s] killed by test (test_stringprep.StringprepTests)
+   - [#2006] CRP stringprep: [0.00722 s] killed by test (test_stringprep.StringprepTests)
+   - [#2007] CRP stringprep: [0.00755 s] killed by test (test_stringprep.StringprepTests)
+   - [#2008] CRP stringprep: [0.00661 s] survived
+   - [#2009] CRP stringprep: [0.00650 s] survived
+   - [#2010] CRP stringprep: [0.00703 s] killed by test (test_stringprep.StringprepTests)
+   - [#2011] CRP stringprep: [0.00727 s] killed by test (test_stringprep.StringprepTests)
+   - [#2012] CRP stringprep: [0.00694 s] survived
+   - [#2013] CRP stringprep: [0.00716 s] killed by test (test_stringprep.StringprepTests)
+   - [#2014] CRP stringprep: [0.00752 s] killed by test (test_stringprep.StringprepTests)
+   - [#2015] CRP stringprep: [0.00651 s] survived
+   - [#2016] CRP stringprep: [0.00694 s] survived
+   - [#2017] CRP stringprep: [0.00655 s] survived
+   - [#2018] CRP stringprep: [0.00658 s] survived
+   - [#2019] CRP stringprep: [0.00701 s] survived
+   - [#2020] CRP stringprep: [0.00651 s] survived
+   - [#2021] CRP stringprep: [0.00697 s] survived
+   - [#2022] CRP stringprep: [0.00798 s] survived
+   - [#2023] CRP stringprep: [0.00692 s] survived
+   - [#2024] CRP stringprep: [0.00659 s] survived
+   - [#2025] CRP stringprep: [0.00714 s] survived
+   - [#2026] CRP stringprep: [0.00640 s] survived
+   - [#2027] CRP stringprep: [0.00656 s] survived
+   - [#2028] CRP stringprep: [0.00664 s] survived
+   - [#2029] CRP stringprep: [0.00629 s] survived
+   - [#2030] CRP stringprep: [0.00686 s] survived
+   - [#2031] CRP stringprep: [0.00656 s] survived
+   - [#2032] CRP stringprep: [0.00766 s] killed by test (test_stringprep.StringprepTests)
+   - [#2033] CRP stringprep: [0.00699 s] killed by test (test_stringprep.StringprepTests)
+   - [#2034] CRP stringprep: [0.00735 s] killed by test (test_stringprep.StringprepTests)
+   - [#2035] CRP stringprep: [0.00685 s] killed by test (test_stringprep.StringprepTests)
+   - [#2036] CRP stringprep: [0.00749 s] killed by test (test_stringprep.StringprepTests)
+   - [#2037] CRP stringprep: [0.00711 s] killed by test (test_stringprep.StringprepTests)
+   - [#2038] CRP stringprep: [0.00683 s] survived
+   - [#2039] CRP stringprep: [0.00648 s] survived
+   - [#2040] CRP stringprep: [0.00697 s] killed by test (test_stringprep.StringprepTests)
+   - [#2041] CRP stringprep: [0.00646 s] survived
+   - [#2042] CRP stringprep: [0.00701 s] killed by test (test_stringprep.StringprepTests)
+   - [#2043] CRP stringprep: [0.00764 s] killed by test (test_stringprep.StringprepTests)
+   - [#2044] CRP stringprep: [0.00706 s] killed by test (test_stringprep.StringprepTests)
+   - [#2045] CRP stringprep: [0.00899 s] killed by test (test_stringprep.StringprepTests)
+   - [#2046] CRP stringprep: [0.00820 s] killed by test (test_stringprep.StringprepTests)
+   - [#2047] CRP stringprep: [0.00885 s] killed by test (test_stringprep.StringprepTests)
+   - [#2048] CRP stringprep: [0.00719 s] killed by test (test_stringprep.StringprepTests)
+   - [#2049] CRP stringprep: [0.00723 s] killed by test (test_stringprep.StringprepTests)
+   - [#2050] CRP stringprep: [0.00719 s] killed by test (test_stringprep.StringprepTests)
+   - [#2051] CRP stringprep: [0.00639 s] survived
+   - [#2052] CRP stringprep: [0.00634 s] survived
+   - [#2053] CRP stringprep: [0.00603 s] survived
+   - [#2054] CRP stringprep: [0.00634 s] survived
+   - [#2055] CRP stringprep: [0.00628 s] survived
+   - [#2056] CRP stringprep: [0.00596 s] survived
+   - [#2057] CRP stringprep: [0.00659 s] survived
+   - [#2058] CRP stringprep: [0.00619 s] survived
+   - [#2059] CRP stringprep: [0.00651 s] survived
+   - [#2060] CRP stringprep: [0.00680 s] killed by test (test_stringprep.StringprepTests)
+   - [#2061] CRP stringprep: [0.00647 s] killed by test (test_stringprep.StringprepTests)
+   - [#2062] CRP stringprep: [0.00639 s] survived
+   - [#2063] CRP stringprep: [0.00600 s] survived
+   - [#2064] CRP stringprep: [0.00751 s] killed by test (test_stringprep.StringprepTests)
+   - [#2065] CRP stringprep: [0.00693 s] killed by test (test_stringprep.StringprepTests)
+   - [#2066] LCR stringprep: [0.00715 s] killed by test (test_stringprep.StringprepTests)
+   - [#2067] LCR stringprep: [0.00722 s] killed by test (test_stringprep.StringprepTests)
+   - [#2068] LCR stringprep: [0.00702 s] killed by test (test_stringprep.StringprepTests)
+   - [#2069] LOR stringprep: [0.00699 s] killed by test (test_stringprep.StringprepTests)
+   - [#2070] LOR stringprep: [0.00637 s] survived
+   - [#2071] ROR stringprep: [0.00000 s] incompetent
+   - [#2072] ROR stringprep: [0.00672 s] killed by test (test_stringprep.StringprepTests)
+   - [#2073] ROR stringprep: [0.00662 s] killed by test (test_stringprep.StringprepTests)
+   - [#2074] ROR stringprep: [0.00635 s] survived
+   - [#2075] ROR stringprep: [0.00664 s] survived
+   - [#2076] ROR stringprep: [0.00622 s] survived
+   - [#2077] ROR stringprep: [0.00644 s] survived
+   - [#2078] ROR stringprep: [0.00653 s] killed by test (test_stringprep.StringprepTests)
+   - [#2079] ROR stringprep: [0.00709 s] killed by test (test_stringprep.StringprepTests)
+   - [#2080] ROR stringprep: [0.00668 s] killed by test (test_stringprep.StringprepTests)
+   - [#2081] ROR stringprep: [0.00731 s] killed by test (test_stringprep.StringprepTests)
+   - [#2082] ROR stringprep: [0.00690 s] killed by test (test_stringprep.StringprepTests)
+   - [#2083] ROR stringprep: [0.00604 s] survived
+   - [#2084] ROR stringprep: [0.00691 s] killed by test (test_stringprep.StringprepTests)
+   - [#2085] ROR stringprep: [0.00673 s] killed by test (test_stringprep.StringprepTests)
+   - [#2086] ROR stringprep: [0.00665 s] survived
+   - [#2087] ROR stringprep: [0.00669 s] killed by test (test_stringprep.StringprepTests)
+   - [#2088] ROR stringprep: [0.00703 s] killed by test (test_stringprep.StringprepTests)
+   - [#2089] ROR stringprep: [0.00778 s] killed by test (test_stringprep.StringprepTests)
+   - [#2090] ROR stringprep: [0.00825 s] killed by test (test_stringprep.StringprepTests)
+   - [#2091] ROR stringprep: [0.00735 s] survived
+   - [#2092] ROR stringprep: [0.00624 s] survived
+   - [#2093] ROR stringprep: [0.00635 s] survived
+   - [#2094] ROR stringprep: [0.00674 s] killed by test (test_stringprep.StringprepTests)
+   - [#2095] ROR stringprep: [0.00707 s] killed by test (test_stringprep.StringprepTests)
+[*] Mutation score [20.47127 s]: 3.3%
+   - all: 2095
+   - killed: 68 (3.2%)
+   - survived: 2015 (96.2%)
+   - incompetent: 11 (0.5%)
+   - timeout: 1 (0.0%)
