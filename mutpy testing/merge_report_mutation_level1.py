@@ -23,7 +23,6 @@ rows = [{} for index in range(0, 5)]
 
 for list_report in dirs:
     with open(path_report + "/" + list_report) as csv_file:
-        # print(path_report + "/" + list_report)
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = -2
         for row in csv_reader:

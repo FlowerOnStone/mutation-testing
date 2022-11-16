@@ -1,0 +1,3740 @@
+coverage:
+  all_nodes: 0
+  covered_nodes: 0
+mutation_score: 63.51351351351351
+mutations:
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello ' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: &id001 !!python/module:quopri ''
+  mutations:
+  - lineno: 62
+    operator: AOD
+  number: 1
+  status: killed
+  tests_run: 6
+  time: 0.009453058242797852
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'h=20' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: AOD
+  number: 2
+  status: killed
+  tests_run: 6
+  time: 0.009419918060302734
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 156, in test_encode\n    quopri.encode(infp,\
+    \ outfp, quotetabs=False)\n  File \"quopri\", line 104, in encode\n  File \"quopri\"\
+    , line 63, in write\n  File \"quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: AOD
+  number: 3
+  status: killed
+  tests_run: 6
+  time: 0.008318901062011719
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello=0A\\n        there=0A\\n        world' != b'hello\\\
+    n        there\\n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: AOD
+  number: 4
+  status: killed
+  tests_run: 6
+  time: 0.007620811462402344
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'h\\n=20\\n        world' != b'hello\\n        there\\\
+    n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: AOD
+  number: 5
+  status: killed
+  tests_run: 6
+  time: 0.007002115249633789
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: AOR
+  number: 6
+  status: timeout
+  tests_run: null
+  time: 1.0062692165374756
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: AOR
+  number: 7
+  status: timeout
+  tests_run: null
+  time: 1.0113410949707031
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\n  File \"quopri\", line 112, in encodestring\n  File \"\
+    quopri\", line 84, in encode\n  File \"quopri\", line 40, in quote\nIndexError:\
+    \ index out of range\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: AOR
+  number: 8
+  status: killed
+  tests_run: 5
+  time: 0.019762039184570312
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\n  File \"quopri\", line 112, in encodestring\n  File \"\
+    quopri\", line 84, in encode\n  File \"quopri\", line 40, in quote\nIndexError:\
+    \ index out of range\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: AOR
+  number: 9
+  status: killed
+  tests_run: 5
+  time: 0.01429295539855957
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello ' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: AOR
+  number: 10
+  status: killed
+  tests_run: 6
+  time: 0.010991096496582031
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'h=20' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: AOR
+  number: 11
+  status: killed
+  tests_run: 6
+  time: 0.009252071380615234
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: AOR
+  number: 12
+  status: timeout
+  tests_run: null
+  time: 1.0045979022979736
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 156, in test_encode\n    quopri.encode(infp,\
+    \ outfp, quotetabs=False)\n  File \"quopri\", line 104, in encode\n  File \"quopri\"\
+    , line 63, in write\n  File \"quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: AOR
+  number: 13
+  status: killed
+  tests_run: 6
+  time: 0.009185075759887695
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: AOR
+  number: 14
+  status: timeout
+  tests_run: null
+  time: 1.0069770812988281
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 65
+    operator: AOR
+  number: 15
+  status: survived
+  tests_run: 11
+  time: 0.12981724739074707
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 67
+    operator: AOR
+  number: 16
+  status: timeout
+  tests_run: null
+  time: 1.00632905960083
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello=0A\\n        there=0A\\n        world' != b'hello\\\
+    n        there\\n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: AOR
+  number: 17
+  status: killed
+  tests_run: 6
+  time: 0.01771378517150879
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'h\\n=20\\n        world' != b'hello\\n        there\\\
+    n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: AOR
+  number: 18
+  status: killed
+  tests_run: 6
+  time: 0.012868881225585938
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'xxx[64 chars]D=DE=DFxxx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[64 chars]D=DE=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 98
+    operator: AOR
+  number: 19
+  status: killed
+  tests_run: 6
+  time: 0.010787010192871094
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'xxx[62 chars]=DD=DE=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[62 chars]=DD=DE=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 99
+    operator: AOR
+  number: 20
+  status: killed
+  tests_run: 6
+  time: 0.0091400146484375
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[70 chars]d\\xde\\xdfx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[70 chars]d\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: AOR
+  number: 21
+  status: killed
+  tests_run: 1
+  time: 0.007842063903808594
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hello\\n\\n        there\\n\\n        world' != b'hello\\\
+    n        there\\n        world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 134
+    operator: AOR
+  number: 22
+  status: killed
+  tests_run: 1
+  time: 0.006443977355957031
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\n\\n        world' != b'hello\\n        there\\n   \
+    \     world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: AOR
+  number: 23
+  status: killed
+  tests_run: 1
+  time: 0.006114006042480469
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 137
+    operator: AOR
+  number: 24
+  status: survived
+  tests_run: 11
+  time: 0.09348011016845703
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hell' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 141
+    operator: AOR
+  number: 25
+  status: killed
+  tests_run: 1
+  time: 0.006516933441162109
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 143
+    operator: AOR
+  number: 26
+  status: timeout
+  tests_run: null
+  time: 1.0033390522003174
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 143
+    operator: AOR
+  number: 27
+  status: timeout
+  tests_run: null
+  time: 1.0079741477966309
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 145
+    operator: AOR
+  number: 28
+  status: timeout
+  tests_run: null
+  time: 1.0050418376922607
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 145
+    operator: AOR
+  number: 29
+  status: timeout
+  tests_run: null
+  time: 1.0078179836273193
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[70 chars]d\\xde\\xdfx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[70 chars]d\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 146
+    operator: AOR
+  number: 30
+  status: killed
+  tests_run: 1
+  time: 0.0065538883209228516
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: AOR
+  number: 31
+  status: survived
+  tests_run: 11
+  time: 0.1003119945526123
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123==four' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: AOR
+  number: 32
+  status: killed
+  tests_run: 4
+  time: 0.008837223052978516
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123==four' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: AOR
+  number: 33
+  status: killed
+  tests_run: 4
+  time: 0.0076830387115478516
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 149
+    operator: AOR
+  number: 34
+  status: timeout
+  tests_run: null
+  time: 1.0059919357299805
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 149
+    operator: AOR
+  number: 35
+  status: timeout
+  tests_run: null
+  time: 1.009615182876587
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: AOR
+  number: 36
+  status: survived
+  tests_run: 11
+  time: 0.09556293487548828
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81\\x82\\x83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: AOR
+  number: 37
+  status: killed
+  tests_run: 1
+  time: 0.006428956985473633
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\x81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: AOR
+  number: 38
+  status: killed
+  tests_run: 1
+  time: 0.005694866180419922
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81\\x82\\x83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: AOR
+  number: 39
+  status: killed
+  tests_run: 1
+  time: 0.0055501461029052734
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\x81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: AOR
+  number: 40
+  status: killed
+  tests_run: 1
+  time: 0.007105112075805664
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: AOR
+  number: 41
+  status: timeout
+  tests_run: null
+  time: 1.005918025970459
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'='\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: AOR
+  number: 42
+  status: killed
+  tests_run: 1
+  time: 0.016127824783325195
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'='\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: AOR
+  number: 43
+  status: killed
+  tests_run: 1
+  time: 0.011501073837280273
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: AOR
+  number: 44
+  status: timeout
+  tests_run: null
+  time: 1.0060818195343018
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 153
+    operator: AOR
+  number: 45
+  status: survived
+  tests_run: 11
+  time: 0.0957188606262207
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 153
+    operator: AOR
+  number: 46
+  status: survived
+  tests_run: 11
+  time: 0.09522891044616699
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 155
+    operator: AOR
+  number: 47
+  status: timeout
+  tests_run: null
+  time: 1.006824016571045
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 185
+    operator: AOR
+  number: 48
+  status: survived
+  tests_run: 11
+  time: 0.12355422973632812
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\nValueError: bytes must be in\
+    \ range(0, 256)\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 187
+    operator: AOR
+  number: 49
+  status: killed
+  tests_run: 1
+  time: 0.0068340301513671875
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 189
+    operator: AOR
+  number: 50
+  status: survived
+  tests_run: 11
+  time: 0.0961160659790039
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: AOR
+  number: 51
+  status: timeout
+  tests_run: null
+  time: 1.0070278644561768
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\x01\\x02\\x03' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: AOR
+  number: 52
+  status: killed
+  tests_run: 1
+  time: 0.015375852584838867
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\nValueError: bytes must be in\
+    \ range(0, 256)\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: AOR
+  number: 53
+  status: killed
+  tests_run: 1
+  time: 0.011847972869873047
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\nValueError: bytes must be in\
+    \ range(0, 256)\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: AOR
+  number: 54
+  status: killed
+  tests_run: 1
+  time: 0.010342121124267578
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\nValueError: bytes must be in\
+    \ range(0, 256)\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: AOR
+  number: 55
+  status: killed
+  tests_run: 1
+  time: 0.009119987487792969
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 225
+    operator: AOR
+  number: 56
+  status: survived
+  tests_run: 11
+  time: 0.09847211837768555
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 73
+    operator: BCR
+  number: 57
+  status: timeout
+  tests_run: null
+  time: 1.0045599937438965
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 131
+    operator: BCR
+  number: 58
+  status: timeout
+  tests_run: null
+  time: 1.0046169757843018
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[68 chars]xdd\\xde\\xdfx=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[68 chars]xdd\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 147
+    operator: BCR
+  number: 59
+  status: killed
+  tests_run: 1
+  time: 0.006662130355834961
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: BCR
+  number: 60
+  status: survived
+  tests_run: 11
+  time: 0.09390997886657715
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'=68=65=6C=6C=6F=20=77=6F=72=6C=64' !=\
+    \ b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: COD
+  number: 61
+  status: killed
+  tests_run: 5
+  time: 0.007616996765136719
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 72
+    operator: COD
+  number: 62
+  status: killed
+  tests_run: 5
+  time: 0.008486747741699219
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 131
+    operator: COD
+  number: 63
+  status: killed
+  tests_run: 1
+  time: 0.006772041320800781
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[70 chars]d\\xde\\xdfx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[70 chars]d\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 146
+    operator: COD
+  number: 64
+  status: killed
+  tests_run: 1
+  time: 0.007158041000366211
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hello\\n' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 154
+    operator: COD
+  number: 65
+  status: killed
+  tests_run: 1
+  time: 0.006433963775634766
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 216
+    operator: COD
+  number: 66
+  status: survived
+  tests_run: 11
+  time: 0.09491086006164551
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'=68=65=6C=6C=6F =77=6F=72=6C=64' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 29
+    operator: COI
+  number: 67
+  status: killed
+  tests_run: 5
+  time: 0.007706165313720703
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'=68=65=6C=6C=6F =77=6F=72=6C=64' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 29
+    operator: COI
+  number: 68
+  status: killed
+  tests_run: 5
+  time: 0.007080793380737305
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'\\x81\\x82\\x83' != b'=81=82=83'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 32
+    operator: COI
+  number: 69
+  status: killed
+  tests_run: 6
+  time: 0.007953882217407227
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 53
+    operator: COI
+  number: 70
+  status: timeout
+  tests_run: null
+  time: 1.0061519145965576
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'hello=20worl=64' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: COI
+  number: 71
+  status: killed
+  tests_run: 5
+  time: 0.016991138458251953
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'hello=20worl=64' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: COI
+  number: 72
+  status: killed
+  tests_run: 5
+  time: 0.013112783432006836
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\n  File \"quopri\", line 112, in encodestring\n  File \"\
+    quopri\", line 104, in encode\n  File \"quopri\", line 65, in write\n  File \"\
+    quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 64
+    operator: COI
+  number: 73
+  status: killed
+  tests_run: 5
+  time: 0.011057853698730469
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 70
+    operator: COI
+  number: 74
+  status: killed
+  tests_run: 5
+  time: 0.008628129959106445
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 72
+    operator: COI
+  number: 75
+  status: killed
+  tests_run: 5
+  time: 0.008626937866210938
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'hello=20worl\\n' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: COI
+  number: 76
+  status: killed
+  tests_run: 5
+  time: 0.007729768753051758
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'=68=65=6C=6C=6F =77=6F=72=6C=64' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 83
+    operator: COI
+  number: 77
+  status: killed
+  tests_run: 5
+  time: 0.007790803909301758
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'___________' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 85
+    operator: COI
+  number: 78
+  status: killed
+  tests_run: 5
+  time: 0.00735020637512207
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 90
+    operator: COI
+  number: 79
+  status: timeout
+  tests_run: null
+  time: 1.004218339920044
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 95
+    operator: COI
+  number: 80
+  status: timeout
+  tests_run: null
+  time: 1.0053141117095947
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 103
+    operator: COI
+  number: 81
+  status: killed
+  tests_run: 5
+  time: 0.007667064666748047
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 107
+    operator: COI
+  number: 82
+  status: timeout
+  tests_run: null
+  time: 1.005115270614624
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 122
+    operator: COI
+  number: 83
+  status: timeout
+  tests_run: null
+  time: 1.009659767150879
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 129
+    operator: COI
+  number: 84
+  status: killed
+  tests_run: 1
+  time: 0.013179779052734375
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 131
+    operator: COI
+  number: 85
+  status: killed
+  tests_run: 1
+  time: 0.010238885879516602
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hell\\n' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: COI
+  number: 86
+  status: killed
+  tests_run: 1
+  time: 0.009078025817871094
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: COI
+  number: 87
+  status: timeout
+  tests_run: null
+  time: 1.0047938823699951
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\n        \\n        world' != b'hello\\n        there\\\
+    n        world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: COI
+  number: 88
+  status: killed
+  tests_run: 1
+  time: 0.00661921501159668
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 140
+    operator: COI
+  number: 89
+  status: killed
+  tests_run: 1
+  time: 0.006571054458618164
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'     ' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 142
+    operator: COI
+  number: 90
+  status: killed
+  tests_run: 1
+  time: 0.006293058395385742
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hell        ther        world' != b'hello\\n        there\\\
+    n        world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 144
+    operator: COI
+  number: 91
+  status: killed
+  tests_run: 1
+  time: 0.006517171859741211
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 146
+    operator: COI
+  number: 92
+  status: killed
+  tests_run: 1
+  time: 0.0062007904052734375
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=1=2=3' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: COI
+  number: 93
+  status: killed
+  tests_run: 1
+  time: 0.006915092468261719
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: COI
+  number: 94
+  status: killed
+  tests_run: 1
+  time: 0.006187915802001953
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hello\\n' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 154
+    operator: COI
+  number: 95
+  status: killed
+  tests_run: 1
+  time: 0.006963014602661133
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 157
+    operator: COI
+  number: 96
+  status: killed
+  tests_run: 1
+  time: 0.006295919418334961
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 161
+    operator: COI
+  number: 97
+  status: timeout
+  tests_run: null
+  time: 1.004345178604126
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'8'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: COI
+  number: 98
+  status: killed
+  tests_run: 1
+  time: 0.013993978500366211
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\nValueError: bytes must be in\
+    \ range(0, 256)\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 184
+    operator: COI
+  number: 99
+  status: killed
+  tests_run: 1
+  time: 0.010688066482543945
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'D'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: COI
+  number: 100
+  status: killed
+  tests_run: 1
+  time: 0.008382081985473633
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: COI
+  number: 101
+  status: survived
+  tests_run: 11
+  time: 0.10003876686096191
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 211
+    operator: COI
+  number: 102
+  status: survived
+  tests_run: 11
+  time: 0.09556198120117188
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 212
+    operator: COI
+  number: 103
+  status: survived
+  tests_run: 11
+  time: 0.09644412994384766
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 216
+    operator: COI
+  number: 104
+  status: survived
+  tests_run: 11
+  time: 0.09575200080871582
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 219
+    operator: COI
+  number: 105
+  status: survived
+  tests_run: 11
+  time: 0.09476709365844727
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 229
+    operator: COI
+  number: 106
+  status: survived
+  tests_run: 11
+  time: 0.09391474723815918
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 234
+    operator: COI
+  number: 107
+  status: survived
+  tests_run: 11
+  time: 0.09471702575683594
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 236
+    operator: COI
+  number: 108
+  status: survived
+  tests_run: 11
+  time: 0.09319114685058594
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 241
+    operator: COI
+  number: 109
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 110
+  status: survived
+  tests_run: 11
+  time: 0.0936429500579834
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 111
+  status: survived
+  tests_run: 11
+  time: 0.09398412704467773
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 112
+  status: survived
+  tests_run: 11
+  time: 0.09381818771362305
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 113
+  status: survived
+  tests_run: 11
+  time: 0.09437990188598633
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 114
+  status: survived
+  tests_run: 11
+  time: 0.09444189071655273
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 115
+  status: survived
+  tests_run: 11
+  time: 0.0951228141784668
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 116
+  status: survived
+  tests_run: 11
+  time: 0.09435915946960449
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 7
+    operator: CRP
+  number: 117
+  status: survived
+  tests_run: 11
+  time: 0.09463810920715332
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'xxx[62 chars]=DD=DE=DFxx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[62 chars]=DD=DE=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: CRP
+  number: 118
+  status: killed
+  tests_run: 6
+  time: 0.008579015731811523
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\n  File \"quopri\", line 112, in encodestring\n  File \"\
+    quopri\", line 84, in encode\n  File \"quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 38
+    operator: CRP
+  number: 119
+  status: killed
+  tests_run: 5
+  time: 0.008064031600952148
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'hello=10world' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: CRP
+  number: 120
+  status: killed
+  tests_run: 5
+  time: 0.008341073989868164
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'hello=2Fworld' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: CRP
+  number: 121
+  status: killed
+  tests_run: 5
+  time: 0.008381128311157227
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello ' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: CRP
+  number: 122
+  status: killed
+  tests_run: 6
+  time: 0.00854182243347168
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hell=20' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: CRP
+  number: 123
+  status: killed
+  tests_run: 6
+  time: 0.008186817169189453
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 156, in test_encode\n    quopri.encode(infp,\
+    \ outfp, quotetabs=False)\n  File \"quopri\", line 104, in encode\n  File \"quopri\"\
+    , line 63, in write\n  File \"quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: CRP
+  number: 124
+  status: killed
+  tests_run: 6
+  time: 0.008646965026855469
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 70
+    operator: CRP
+  number: 125
+  status: survived
+  tests_run: 11
+  time: 0.09554290771484375
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello=0A\\n        there=0A\\n        world' != b'hello\\\
+    n        there\\n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: CRP
+  number: 126
+  status: killed
+  tests_run: 6
+  time: 0.007834672927856445
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hell\\n        ther\\n        world' != b'hello\\n   \
+    \     there\\n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: CRP
+  number: 127
+  status: killed
+  tests_run: 6
+  time: 0.007899045944213867
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'xxx[62 chars]=DD=DE=DF=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[62 chars]=DD=DE=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 98
+    operator: CRP
+  number: 128
+  status: killed
+  tests_run: 6
+  time: 0.008636236190795898
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'xxx[63 chars]DD=DE=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[63 chars]DD=DE=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 99
+    operator: CRP
+  number: 129
+  status: killed
+  tests_run: 6
+  time: 0.00868678092956543
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 129
+    operator: CRP
+  number: 130
+  status: survived
+  tests_run: 11
+  time: 0.09408688545227051
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'ello' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 132
+    operator: CRP
+  number: 131
+  status: killed
+  tests_run: 1
+  time: 0.006697893142700195
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: CRP
+  number: 132
+  status: survived
+  tests_run: 11
+  time: 0.09283924102783203
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[70 chars]d\\xde\\xdfx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[70 chars]d\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: CRP
+  number: 133
+  status: killed
+  tests_run: 1
+  time: 0.0068111419677734375
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hello        there        world' != b'hello\\n       \
+    \ there\\n        world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 134
+    operator: CRP
+  number: 134
+  status: killed
+  tests_run: 1
+  time: 0.006311893463134766
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hell\\n        ther\\n        world' != b'hello\\n   \
+    \     there\\n        world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 134
+    operator: CRP
+  number: 135
+  status: killed
+  tests_run: 1
+  time: 0.007185935974121094
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: CRP
+  number: 136
+  status: survived
+  tests_run: 11
+  time: 0.09402585029602051
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: CRP
+  number: 137
+  status: survived
+  tests_run: 11
+  time: 0.0929269790649414
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 137
+    operator: CRP
+  number: 138
+  status: survived
+  tests_run: 11
+  time: 0.0933539867401123
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 139
+    operator: CRP
+  number: 139
+  status: survived
+  tests_run: 11
+  time: 0.09270715713500977
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'heelllloo' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 141
+    operator: CRP
+  number: 140
+  status: killed
+  tests_run: 1
+  time: 0.006665945053100586
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 181, in test_decode_header\n    self.assertEqual(quopri.decodestring(e,\
+    \ header=True), p)\nAssertionError: b'hello orld' != b'hello world'\n"
+  killer: test_decode_header (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 143
+    operator: CRP
+  number: 141
+  status: killed
+  tests_run: 2
+  time: 0.006854057312011719
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hlo' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 145
+    operator: CRP
+  number: 142
+  status: killed
+  tests_run: 1
+  time: 0.0070497989654541016
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[70 chars]d\\xde\\xdfx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[70 chars]d\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 146
+    operator: CRP
+  number: 143
+  status: killed
+  tests_run: 1
+  time: 0.006765127182006836
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 147
+    operator: CRP
+  number: 144
+  status: survived
+  tests_run: 11
+  time: 0.09397411346435547
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: CRP
+  number: 145
+  status: survived
+  tests_run: 11
+  time: 0.0936288833618164
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123==four' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: CRP
+  number: 146
+  status: killed
+  tests_run: 4
+  time: 0.007738828659057617
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123==four' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: CRP
+  number: 147
+  status: killed
+  tests_run: 4
+  time: 0.008018732070922852
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123=our' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 149
+    operator: CRP
+  number: 148
+  status: killed
+  tests_run: 4
+  time: 0.007735252380371094
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\x81\\x82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: CRP
+  number: 149
+  status: killed
+  tests_run: 1
+  time: 0.006189107894897461
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: CRP
+  number: 150
+  status: killed
+  tests_run: 1
+  time: 0.0072231292724609375
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b\"Her[356 chars]xef\\n=F0=F1=F2=F3=F4=F5=F6=F7\\n=F8=F9=FA=FB=FC[34\
+    \ chars]n!\\n\" != b\"Her[356 chars]xef\\n\\xf0\\xf1\\xf2\\xf3\\xf4\\xf5\\xf6\\\
+    xf7\\n\\xf8\\xf[50 chars]n!\\n\"\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: CRP
+  number: 151
+  status: killed
+  tests_run: 1
+  time: 0.007088899612426758
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: CRP
+  number: 152
+  status: killed
+  tests_run: 1
+  time: 0.006325960159301758
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[46 chars]x\\xd8=D9\\xda\\xdb\\xdc\\xdd\\xde=DFxxxxxxxxxxxxxxx[31\
+    \ chars]xxxx' != b'xxx[46 chars]x\\xd8\\xd9\\xda\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxxxxxx[33\
+    \ chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: CRP
+  number: 153
+  status: killed
+  tests_run: 1
+  time: 0.0066070556640625
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\x01\\x02\\x03' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: CRP
+  number: 154
+  status: killed
+  tests_run: 1
+  time: 0.006929874420166016
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'='\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: CRP
+  number: 155
+  status: killed
+  tests_run: 1
+  time: 0.00756072998046875
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\x8182\\x83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: CRP
+  number: 156
+  status: killed
+  tests_run: 1
+  time: 0.006720066070556641
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 153
+    operator: CRP
+  number: 157
+  status: survived
+  tests_run: 11
+  time: 0.09526801109313965
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\nValueError: bytes must be in\
+    \ range(0, 256)\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 179
+    operator: CRP
+  number: 158
+  status: killed
+  tests_run: 1
+  time: 0.0070018768310546875
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 183
+    operator: CRP
+  number: 159
+  status: timeout
+  tests_run: null
+  time: 1.0067651271820068
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 183
+    operator: CRP
+  number: 160
+  status: timeout
+  tests_run: null
+  time: 1.0115611553192139
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 185
+    operator: CRP
+  number: 161
+  status: survived
+  tests_run: 11
+  time: 0.13259005546569824
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 185
+    operator: CRP
+  number: 162
+  status: survived
+  tests_run: 11
+  time: 0.09753084182739258
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 185
+    operator: CRP
+  number: 163
+  status: survived
+  tests_run: 11
+  time: 0.09754490852355957
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[44 chars]xxx\\xe8\\xe9\\xeb\\xec\\xed\\xee\\xef\\\
+    xf0xxxxxxxxxxx[35 chars]xxxx' != b'xxx[44 chars]xxx\\xd8\\xd9\\xda\\xdb\\xdc\\\
+    xdd\\xde\\xdfxxxxxxxxxxx[35 chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 187
+    operator: CRP
+  number: 164
+  status: killed
+  tests_run: 1
+  time: 0.006652116775512695
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 189
+    operator: CRP
+  number: 165
+  status: survived
+  tests_run: 11
+  time: 0.09550094604492188
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 189
+    operator: CRP
+  number: 166
+  status: survived
+  tests_run: 11
+  time: 0.09505486488342285
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\x89\\x8a\\x8b' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: CRP
+  number: 167
+  status: killed
+  tests_run: 1
+  time: 0.006606101989746094
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: CRP
+  number: 168
+  status: survived
+  tests_run: 11
+  time: 0.09579277038574219
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: CRP
+  number: 169
+  status: survived
+  tests_run: 11
+  time: 0.09631991386413574
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: CRP
+  number: 170
+  status: survived
+  tests_run: 11
+  time: 0.09635281562805176
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 203
+    operator: CRP
+  number: 171
+  status: survived
+  tests_run: 11
+  time: 0.09357285499572754
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 203
+    operator: CRP
+  number: 172
+  status: survived
+  tests_run: 11
+  time: 0.09613800048828125
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 204
+    operator: CRP
+  number: 173
+  status: survived
+  tests_run: 11
+  time: 0.09481191635131836
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 204
+    operator: CRP
+  number: 174
+  status: survived
+  tests_run: 11
+  time: 0.09573125839233398
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 205
+    operator: CRP
+  number: 175
+  status: survived
+  tests_run: 11
+  time: 0.09750509262084961
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 205
+    operator: CRP
+  number: 176
+  status: survived
+  tests_run: 11
+  time: 0.09457588195800781
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 206
+    operator: CRP
+  number: 177
+  status: survived
+  tests_run: 11
+  time: 0.09781002998352051
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 207
+    operator: CRP
+  number: 178
+  status: survived
+  tests_run: 11
+  time: 0.09546804428100586
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 208
+    operator: CRP
+  number: 179
+  status: survived
+  tests_run: 11
+  time: 0.09487581253051758
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: CRP
+  number: 180
+  status: survived
+  tests_run: 11
+  time: 0.09266400337219238
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: CRP
+  number: 181
+  status: survived
+  tests_run: 11
+  time: 0.09546399116516113
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: CRP
+  number: 182
+  status: survived
+  tests_run: 11
+  time: 0.09570097923278809
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 211
+    operator: CRP
+  number: 183
+  status: survived
+  tests_run: 11
+  time: 0.09390473365783691
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 211
+    operator: CRP
+  number: 184
+  status: survived
+  tests_run: 11
+  time: 0.09542417526245117
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 211
+    operator: CRP
+  number: 185
+  status: survived
+  tests_run: 11
+  time: 0.09796881675720215
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 214
+    operator: CRP
+  number: 186
+  status: survived
+  tests_run: 11
+  time: 0.0970158576965332
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 214
+    operator: CRP
+  number: 187
+  status: survived
+  tests_run: 11
+  time: 0.09791016578674316
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 215
+    operator: CRP
+  number: 188
+  status: survived
+  tests_run: 11
+  time: 0.09662842750549316
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 216
+    operator: CRP
+  number: 189
+  status: survived
+  tests_run: 11
+  time: 0.09468317031860352
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 216
+    operator: CRP
+  number: 190
+  status: survived
+  tests_run: 11
+  time: 0.09575080871582031
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 217
+    operator: CRP
+  number: 191
+  status: survived
+  tests_run: 11
+  time: 0.0941917896270752
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 219
+    operator: CRP
+  number: 192
+  status: survived
+  tests_run: 11
+  time: 0.09513401985168457
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 219
+    operator: CRP
+  number: 193
+  status: survived
+  tests_run: 11
+  time: 0.09435915946960449
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 223
+    operator: CRP
+  number: 194
+  status: survived
+  tests_run: 11
+  time: 0.09527778625488281
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 223
+    operator: CRP
+  number: 195
+  status: survived
+  tests_run: 11
+  time: 0.09831404685974121
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 225
+    operator: CRP
+  number: 196
+  status: survived
+  tests_run: 11
+  time: 0.09453511238098145
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 225
+    operator: CRP
+  number: 197
+  status: survived
+  tests_run: 11
+  time: 0.09368395805358887
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 226
+    operator: CRP
+  number: 198
+  status: survived
+  tests_run: 11
+  time: 0.09607601165771484
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 234
+    operator: CRP
+  number: 199
+  status: survived
+  tests_run: 11
+  time: 0.09363412857055664
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 234
+    operator: CRP
+  number: 200
+  status: survived
+  tests_run: 11
+  time: 0.09577298164367676
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 241
+    operator: CRP
+  number: 201
+  status: survived
+  tests_run: 11
+  time: 0.09653687477111816
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 241
+    operator: CRP
+  number: 202
+  status: survived
+  tests_run: 11
+  time: 0.09434294700622559
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 16
+    operator: EHD
+  number: 203
+  status: survived
+  tests_run: 11
+  time: 0.09464430809020996
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 200
+    operator: EHD
+  number: 204
+  status: survived
+  tests_run: 11
+  time: 0.09372186660766602
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 224
+    operator: EHD
+  number: 205
+  status: survived
+  tests_run: 11
+  time: 0.09422898292541504
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 16
+    operator: EXS
+  number: 206
+  status: survived
+  tests_run: 11
+  time: 0.0947730541229248
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 200
+    operator: EXS
+  number: 207
+  status: survived
+  tests_run: 11
+  time: 0.09592390060424805
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 224
+    operator: EXS
+  number: 208
+  status: survived
+  tests_run: 11
+  time: 0.09450411796569824
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'\\x81\\x82\\x83' != b'=81=82=83'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: LCR
+  number: 209
+  status: killed
+  tests_run: 6
+  time: 0.00854182243347168
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 38
+    operator: LCR
+  number: 210
+  status: survived
+  tests_run: 11
+  time: 0.0964057445526123
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'hello=20worl=64' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: LCR
+  number: 211
+  status: killed
+  tests_run: 5
+  time: 0.007645845413208008
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello\\n________there\\n________world' != b'hello\\n \
+    \       there\\n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 85
+    operator: LCR
+  number: 212
+  status: killed
+  tests_run: 6
+  time: 0.008098125457763672
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hell\\n' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: LCR
+  number: 213
+  status: killed
+  tests_run: 1
+  time: 0.0064830780029296875
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'\\n\\n        world' != b'hello\\n        there\\n   \
+    \     world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: LCR
+  number: 214
+  status: killed
+  tests_run: 1
+  time: 0.0071430206298828125
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 181, in test_decode_header\n    self.assertEqual(quopri.decodestring(e,\
+    \ header=True), p)\nAssertionError: b'           ' != b'hello world'\n"
+  killer: test_decode_header (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 142
+    operator: LCR
+  number: 215
+  status: killed
+  tests_run: 2
+  time: 0.0070378780364990234
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[42 chars]xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[42 chars]xxxxx\\xd8\\xd9\\xda\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxx[37\
+    \ chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 146
+    operator: LCR
+  number: 216
+  status: killed
+  tests_run: 1
+  time: 0.0062372684478759766
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=1=2=3' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: LCR
+  number: 217
+  status: killed
+  tests_run: 1
+  time: 0.007175922393798828
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: LCR
+  number: 218
+  status: survived
+  tests_run: 11
+  time: 0.09436297416687012
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: LCR
+  number: 219
+  status: killed
+  tests_run: 1
+  time: 0.006581783294677734
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 212
+    operator: LCR
+  number: 220
+  status: survived
+  tests_run: 11
+  time: 0.09594297409057617
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'\\x81\\x82\\x83' != b'=81=82=83'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 32
+    operator: ROR
+  number: 221
+  status: killed
+  tests_run: 6
+  time: 0.007931232452392578
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'=68=65=6C=6C=6F=20=77=6F=72=6C=64' !=\
+    \ b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: ROR
+  number: 222
+  status: killed
+  tests_run: 5
+  time: 0.007158756256103516
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'=68=65=6C=6C=6F=20=77=6F=72=6C=64' !=\
+    \ b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: ROR
+  number: 223
+  status: killed
+  tests_run: 5
+  time: 0.00814509391784668
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: ROR
+  number: 224
+  status: survived
+  tests_run: 11
+  time: 0.09680795669555664
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'=68=65=6C=6C=6F=20=77=6F=72=6C=64' !=\
+    \ b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: ROR
+  number: 225
+  status: killed
+  tests_run: 5
+  time: 0.0077478885650634766
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: ROR
+  number: 226
+  status: survived
+  tests_run: 11
+  time: 0.09540104866027832
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\n  File \"quopri\", line 112, in encodestring\n  File \"\
+    quopri\", line 84, in encode\n  File \"quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 38
+    operator: ROR
+  number: 227
+  status: killed
+  tests_run: 5
+  time: 0.00787973403930664
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\n  File \"quopri\", line 112, in encodestring\n  File \"\
+    quopri\", line 104, in encode\n  File \"quopri\", line 65, in write\n  File \"\
+    quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 64
+    operator: ROR
+  number: 228
+  status: killed
+  tests_run: 5
+  time: 0.007814884185791016
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 170, in test_embedded_ws\n    self.assertEqual(quopri.encodestring(p,\
+    \ quotetabs=True), e)\nAssertionError: b'hello=20worl\\n' != b'hello=20world'\n"
+  killer: test_embedded_ws (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: ROR
+  number: 229
+  status: killed
+  tests_run: 5
+  time: 0.0074040889739990234
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 176, in test_encode_header\n    self.assertEqual(quopri.encodestring(p,\
+    \ header=True), e)\nAssertionError: b'_____ _____' != b'hello_world'\n"
+  killer: test_encode_header (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 85
+    operator: ROR
+  number: 230
+  status: killed
+  tests_run: 7
+  time: 0.008685827255249023
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 95
+    operator: ROR
+  number: 231
+  status: timeout
+  tests_run: null
+  time: 1.0042588710784912
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'yyy[14 chars]yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy=\\\
+    ny' != b'yyy[14 chars]yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 95
+    operator: ROR
+  number: 232
+  status: killed
+  tests_run: 6
+  time: 0.009033918380737305
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[70 chars]d\\xde\\xdfx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[70 chars]d\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: ROR
+  number: 233
+  status: killed
+  tests_run: 1
+  time: 0.006660938262939453
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: ROR
+  number: 234
+  status: survived
+  tests_run: 11
+  time: 0.09433770179748535
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hell\\n' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: ROR
+  number: 235
+  status: killed
+  tests_run: 1
+  time: 0.006613254547119141
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: ROR
+  number: 236
+  status: survived
+  tests_run: 11
+  time: 0.09624099731445312
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: ROR
+  number: 237
+  status: survived
+  tests_run: 11
+  time: 0.09687614440917969
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 140
+    operator: ROR
+  number: 238
+  status: killed
+  tests_run: 1
+  time: 0.0070950984954833984
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hello\\n\\n        there\\n\\n        world' != b'hello\\\
+    n        there\\n        world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 140
+    operator: ROR
+  number: 239
+  status: killed
+  tests_run: 1
+  time: 0.006479740142822266
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 181, in test_decode_header\n    self.assertEqual(quopri.decodestring(e,\
+    \ header=True), p)\nAssertionError: b'     _     ' != b'hello world'\n"
+  killer: test_decode_header (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 142
+    operator: ROR
+  number: 240
+  status: killed
+  tests_run: 2
+  time: 0.007359981536865234
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hell        ther        world' != b'hello\\n        there\\\
+    n        world'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 144
+    operator: ROR
+  number: 241
+  status: killed
+  tests_run: 1
+  time: 0.007086992263793945
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[42 chars]xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[42 chars]xxxxx\\xd8\\xd9\\xda\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxx[37\
+    \ chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 146
+    operator: ROR
+  number: 242
+  status: killed
+  tests_run: 1
+  time: 0.006372213363647461
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123==four' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: ROR
+  number: 243
+  status: killed
+  tests_run: 4
+  time: 0.008156061172485352
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: ROR
+  number: 244
+  status: survived
+  tests_run: 11
+  time: 0.09433698654174805
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=1=2=3' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: ROR
+  number: 245
+  status: killed
+  tests_run: 1
+  time: 0.006665945053100586
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: ROR
+  number: 246
+  status: killed
+  tests_run: 1
+  time: 0.006270170211791992
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: ROR
+  number: 247
+  status: survived
+  tests_run: 11
+  time: 0.09626603126525879
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 248
+  status: killed
+  tests_run: 1
+  time: 0.00692296028137207
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hello=20' != b'hello '\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 249
+  status: killed
+  tests_run: 1
+  time: 0.006142854690551758
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 250
+  status: killed
+  tests_run: 1
+  time: 0.006931781768798828
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hello=09' != b'hello\\t'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 251
+  status: killed
+  tests_run: 1
+  time: 0.006807088851928711
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 252
+  status: survived
+  tests_run: 11
+  time: 0.09369397163391113
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 253
+  status: survived
+  tests_run: 11
+  time: 0.09504103660583496
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 254
+  status: survived
+  tests_run: 11
+  time: 0.09360074996948242
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 255
+  status: survived
+  tests_run: 11
+  time: 0.09658479690551758
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[42 chars]xxxxx=D8=D9=DA=DB=DC=DD=DE=DFxxxxxxxxxxxxxxxxx[29\
+    \ chars]xxxx' != b'xxx[42 chars]xxxxx\\xd8\\xd9\\xda\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxx[37\
+    \ chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 256
+  status: killed
+  tests_run: 1
+  time: 0.006775856018066406
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[50 chars]8\\xd9=DA\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxxxxxxxxxxx[28\
+    \ chars]xxxx' != b'xxx[50 chars]8\\xd9\\xda\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxxxxxxxxxx[29\
+    \ chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 257
+  status: killed
+  tests_run: 1
+  time: 0.006437778472900391
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[42 chars]xxxxx=D8=D9=DA=DB=DC=DD=DE=DFxxxxxxxxxxxxxxxxx[29\
+    \ chars]xxxx' != b'xxx[42 chars]xxxxx\\xd8\\xd9\\xda\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxx[37\
+    \ chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 258
+  status: killed
+  tests_run: 1
+  time: 0.006903886795043945
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[67 chars]\\xdd\\xde=DFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[67 chars]\\xdd\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: ROR
+  number: 259
+  status: killed
+  tests_run: 1
+  time: 0.0061380863189697266
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'8'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: ROR
+  number: 260
+  status: killed
+  tests_run: 1
+  time: 0.006978034973144531
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'0'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: ROR
+  number: 261
+  status: killed
+  tests_run: 1
+  time: 0.006791353225708008
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'8'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: ROR
+  number: 262
+  status: killed
+  tests_run: 1
+  time: 0.006155967712402344
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'9'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: ROR
+  number: 263
+  status: killed
+  tests_run: 1
+  time: 0.007021188735961914
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\nValueError: bytes must be in\
+    \ range(0, 256)\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 184
+    operator: ROR
+  number: 264
+  status: killed
+  tests_run: 1
+  time: 0.0067179203033447266
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 184
+    operator: ROR
+  number: 265
+  status: survived
+  tests_run: 11
+  time: 0.09601616859436035
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 184
+    operator: ROR
+  number: 266
+  status: survived
+  tests_run: 11
+  time: 0.09434080123901367
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 184
+    operator: ROR
+  number: 267
+  status: survived
+  tests_run: 11
+  time: 0.09445595741271973
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'D'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: ROR
+  number: 268
+  status: killed
+  tests_run: 1
+  time: 0.006652116775512695
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'A'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: ROR
+  number: 269
+  status: killed
+  tests_run: 1
+  time: 0.006273031234741211
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'D'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: ROR
+  number: 270
+  status: killed
+  tests_run: 1
+  time: 0.006936073303222656
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'F'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: ROR
+  number: 271
+  status: killed
+  tests_run: 1
+  time: 0.0062329769134521484
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: ROR
+  number: 272
+  status: survived
+  tests_run: 11
+  time: 0.09617900848388672
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 211
+    operator: ROR
+  number: 273
+  status: survived
+  tests_run: 11
+  time: 0.09535884857177734
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 219
+    operator: ROR
+  number: 274
+  status: survived
+  tests_run: 11
+  time: 0.09539914131164551
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 234
+    operator: ROR
+  number: 275
+  status: survived
+  tests_run: 11
+  time: 0.09755778312683105
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 241
+    operator: ROR
+  number: 276
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello ' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: SIR
+  number: 277
+  status: killed
+  tests_run: 6
+  time: 0.008368968963623047
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello =20' != b'hello=20'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: SIR
+  number: 278
+  status: killed
+  tests_run: 6
+  time: 0.007692098617553711
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 156, in test_encode\n    quopri.encode(infp,\
+    \ outfp, quotetabs=False)\n  File \"quopri\", line 104, in encode\n  File \"quopri\"\
+    , line 63, in write\n  File \"quopri\", line 38, in quote\nAssertionError\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 63
+    operator: SIR
+  number: 279
+  status: killed
+  tests_run: 6
+  time: 0.0077669620513916016
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello=0A\\n        there=0A\\n        world' != b'hello\\\
+    n        there\\n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 77
+    operator: SIR
+  number: 280
+  status: killed
+  tests_run: 6
+  time: 0.007920980453491211
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'hello=0A\\n        there=0A\\n        world' != b'hello\\\
+    n        there\\n        world'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: SIR
+  number: 281
+  status: killed
+  tests_run: 6
+  time: 0.00737309455871582
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 157, in test_encode\n    self.assertEqual(outfp.getvalue(),\
+    \ e)\nAssertionError: b'xxx[67 chars]E=DFxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx[56\
+    \ chars]xxxx' != b'xxx[67 chars]E=DFx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_encode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 98
+    operator: SIR
+  number: 282
+  status: killed
+  tests_run: 6
+  time: 0.008417844772338867
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 99
+    operator: SIR
+  number: 283
+  status: timeout
+  tests_run: null
+  time: 1.0041320323944092
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[70 chars]d\\xde\\xdfx=\\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\
+    \ != b'xxx[70 chars]d\\xde\\xdfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: SIR
+  number: 284
+  status: killed
+  tests_run: 1
+  time: 0.007148027420043945
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: SIR
+  number: 285
+  status: survived
+  tests_run: 11
+  time: 0.09591317176818848
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: SIR
+  number: 286
+  status: survived
+  tests_run: 11
+  time: 0.09628987312316895
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: SIR
+  number: 287
+  status: survived
+  tests_run: 11
+  time: 0.09458088874816895
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'hhehelhellhello' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 141
+    operator: SIR
+  number: 288
+  status: killed
+  tests_run: 1
+  time: 0.01075291633605957
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'helloellolloloo' != b'hello'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 141
+    operator: SIR
+  number: 289
+  status: killed
+  tests_run: 1
+  time: 0.007243156433105469
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123==four' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: SIR
+  number: 290
+  status: killed
+  tests_run: 4
+  time: 0.007313728332519531
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 144, in test_decodestring_double_equals\n   \
+    \ self.assertEqual(quopri.decodestring(encoded_value), decoded_value)\nAssertionError:\
+    \ b'123==four' != b'123=four'\n"
+  killer: test_decodestring_double_equals (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 148
+    operator: SIR
+  number: 291
+  status: killed
+  tests_run: 4
+  time: 0.007848978042602539
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: SIR
+  number: 292
+  status: killed
+  tests_run: 1
+  time: 0.006649971008300781
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b\"Her[356 chars]xef\\n=F0=F1=F2=F3=F4=F5=F6=F7\\n=F8=F9=FA=FB=FC[34\
+    \ chars]n!\\n\" != b\"Her[356 chars]xef\\n\\xf0\\xf1\\xf2\\xf3\\xf4\\xf5\\xf6\\\
+    xf7\\n\\xf8\\xf[50 chars]n!\\n\"\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: SIR
+  number: 293
+  status: killed
+  tests_run: 1
+  time: 0.0067141056060791016
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'=81=82=83' != b'\\x81\\x82\\x83'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: SIR
+  number: 294
+  status: killed
+  tests_run: 1
+  time: 0.007195949554443359
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 165, in test_decode\n    self.assertEqual(outfp.getvalue(),\
+    \ p)\nAssertionError: b'xxx[46 chars]x\\xd8=D9\\xda\\xdb\\xdc\\xdd\\xde=DFxxxxxxxxxxxxxxx[31\
+    \ chars]xxxx' != b'xxx[46 chars]x\\xd8\\xd9\\xda\\xdb\\xdc\\xdd\\xde\\xdfxxxxxxxxxxxxx[33\
+    \ chars]xxxx'\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 150
+    operator: SIR
+  number: 295
+  status: killed
+  tests_run: 1
+  time: 0.006333112716674805
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'='\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: SIR
+  number: 296
+  status: killed
+  tests_run: 1
+  time: 0.0063838958740234375
+- exception_traceback: "Traceback (most recent call last):\n  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation\
+    \ testing/mutpy testing/test_quopri.py\", line 57, in newtest\n    testfunc(self)\n\
+    \  File \"/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy\
+    \ testing/test_quopri.py\", line 164, in test_decode\n    quopri.decode(infp,\
+    \ outfp)\n  File \"quopri\", line 151, in decode\n  File \"quopri\", line 189,\
+    \ in unhex\nAssertionError: non-hex digit b'='\n"
+  killer: test_decode (test_quopri.QuopriTestCase)
+  module: *id001
+  mutations:
+  - lineno: 151
+    operator: SIR
+  number: 297
+  status: killed
+  tests_run: 1
+  time: 0.006865024566650391
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: SIR
+  number: 298
+  status: survived
+  tests_run: 11
+  time: 0.09501314163208008
+number_of_tests: 11
+targets:
+- quopri.py
+tests:
+- name: test_quopri
+  target: null
+  time: 0.08793091773986816
+time_stats:
+  create_mutant_module: 0.3660597801208496
+  create_target_ast: 0.0075910091400146484
+  mutate_module: 41.34395503997803
+  run_tests_with_mutant: 40.00592827796936
+total_time: 41.43375110626221

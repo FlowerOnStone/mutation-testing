@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy testing/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy testing/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/__main__.py", line 18, in <module>
+    main(module=None)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/main.py", line 100, in __init__
+    self.parseArgs(argv)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/main.py", line 147, in parseArgs
+    self.createTests()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/main.py", line 159, in createTests
+    self.module)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 220, in loadTestsFromNames
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 220, in <listcomp>
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py", line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File "/Users/admin/Library/CloudStorage/OneDrive-Personal/Code/Mutation testing/mutpy testing/test_zlib.py", line 27
+    self.assertEqual(zlib.ZLIB_RUNTIME_VERSION[0], zlib.ZLIB_VERSION[0])
+    ^
+IndentationError: unexpected indent

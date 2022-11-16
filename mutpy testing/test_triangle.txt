@@ -1,0 +1,2932 @@
+[*] Start mutation process:
+   - targets: __future__.py
+   - tests: test___future__.py
+[*] 2 tests passed:
+   - test___future__ [0.00041 s]
+[*] Start mutants generation and execution:
+   - [#   1] AOR __future__: 
+--------------------------------------------------------------------------------
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+   62: 
+-  63: __all__ = ['all_feature_names'] + all_feature_names
++  63: __all__ = ['all_feature_names'] - all_feature_names
+   64: 
+   65: 
+   66: 
+   67: 
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [#   2] AOR __future__: 
+--------------------------------------------------------------------------------
+  100:         
+  101:         return self.mandatory
+  102:     
+  103:     def __repr__(self):
+- 104:         return '_Feature' + repr((self.optional, \
++ 104:         return '_Feature' - repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00981 s] survived
+   - [#   3] CDI __future__: 
+--------------------------------------------------------------------------------
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+-  81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+-  82:         self.optional = optionalRelease
+-  83:         self.mandatory = mandatoryRelease
+-  84:         self.compiler_flag = compiler_flag
+-  85:     
++  81:     @classmethod
++  82:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
++  83:         self.optional = optionalRelease
++  84:         self.mandatory = mandatoryRelease
++  85:         self.compiler_flag = compiler_flag
+   86:     def getOptionalRelease(self):
+   87:         '''Return first release in which this feature was recognized.
+   88: 
+   89:         This is a 5-tuple, of the same form as sys.version_info.
+--------------------------------------------------------------------------------
+[0.00850 s] survived
+   - [#   4] CDI __future__: 
+--------------------------------------------------------------------------------
+   82:         self.optional = optionalRelease
+   83:         self.mandatory = mandatoryRelease
+   84:         self.compiler_flag = compiler_flag
+   85:     
+-  86:     def getOptionalRelease(self):
+-  87:         '''Return first release in which this feature was recognized.
+-  88: 
+-  89:         This is a 5-tuple, of the same form as sys.version_info.
+-  90:         '''
+-  91:         
+-  92:         return self.optional
+-  93:     
++  86:     @classmethod
++  87:     def getOptionalRelease(self):
++  88:         '''Return first release in which this feature was recognized.
++  89: 
++  90:         This is a 5-tuple, of the same form as sys.version_info.
++  91:         '''
++  92:         
++  93:         return self.optional
+   94:     def getMandatoryRelease(self):
+   95:         '''Return release in which this feature will become mandatory.
+   96: 
+   97:         This is a 5-tuple, of the same form as sys.version_info, or, if
+--------------------------------------------------------------------------------
+[0.00837 s] killed by test_attributes (test___future__.FutureTest)
+   - [#   5] CDI __future__: 
+--------------------------------------------------------------------------------
+   90:         '''
+   91:         
+   92:         return self.optional
+   93:     
+-  94:     def getMandatoryRelease(self):
+-  95:         '''Return release in which this feature will become mandatory.
+-  96: 
+-  97:         This is a 5-tuple, of the same form as sys.version_info, or, if
+-  98:         the feature was dropped, is None.
+-  99:         '''
+- 100:         
+- 101:         return self.mandatory
+- 102:     
++  94:     @classmethod
++  95:     def getMandatoryRelease(self):
++  96:         '''Return release in which this feature will become mandatory.
++  97: 
++  98:         This is a 5-tuple, of the same form as sys.version_info, or, if
++  99:         the feature was dropped, is None.
++ 100:         '''
++ 101:         
++ 102:         return self.mandatory
+  103:     def __repr__(self):
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+--------------------------------------------------------------------------------
+[0.00835 s] killed by test_attributes (test___future__.FutureTest)
+   - [#   6] CDI __future__: 
+--------------------------------------------------------------------------------
+   99:         '''
+  100:         
+  101:         return self.mandatory
+  102:     
+- 103:     def __repr__(self):
+- 104:         return '_Feature' + repr((self.optional, \
+- 105:             self.mandatory, \
+- 106:             self.compiler_flag))
+- 107: 
++ 103:     @classmethod
++ 104:     def __repr__(self):
++ 105:         return '_Feature' + repr((self.optional, \
++ 106:             self.mandatory, \
++ 107:             self.compiler_flag))
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+--------------------------------------------------------------------------------
+[0.00794 s] survived
+   - [#   7] CRP __future__: 
+--------------------------------------------------------------------------------
+   47: No feature line is ever to be deleted from this file.
+   48: '''
+   49: 
+   50: all_feature_names = [\
+-  51:     'nested_scopes', \
++  51:     'mutpy', \
+   52:     'generators', \
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+--------------------------------------------------------------------------------
+[0.00839 s] survived
+   - [#   8] CRP __future__: 
+--------------------------------------------------------------------------------
+   47: No feature line is ever to be deleted from this file.
+   48: '''
+   49: 
+   50: all_feature_names = [\
+-  51:     'nested_scopes', \
++  51:     '', \
+   52:     'generators', \
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+--------------------------------------------------------------------------------
+[0.00831 s] survived
+   - [#   9] CRP __future__: 
+--------------------------------------------------------------------------------
+   48: '''
+   49: 
+   50: all_feature_names = [\
+   51:     'nested_scopes', \
+-  52:     'generators', \
++  52:     'mutpy', \
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+--------------------------------------------------------------------------------
+[0.00837 s] survived
+   - [#  10] CRP __future__: 
+--------------------------------------------------------------------------------
+   48: '''
+   49: 
+   50: all_feature_names = [\
+   51:     'nested_scopes', \
+-  52:     'generators', \
++  52:     '', \
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+--------------------------------------------------------------------------------
+[0.00857 s] survived
+   - [#  11] CRP __future__: 
+--------------------------------------------------------------------------------
+   49: 
+   50: all_feature_names = [\
+   51:     'nested_scopes', \
+   52:     'generators', \
+-  53:     'division', \
++  53:     'mutpy', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+--------------------------------------------------------------------------------
+[0.00874 s] survived
+   - [#  12] CRP __future__: 
+--------------------------------------------------------------------------------
+   49: 
+   50: all_feature_names = [\
+   51:     'nested_scopes', \
+   52:     'generators', \
+-  53:     'division', \
++  53:     '', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+--------------------------------------------------------------------------------
+[0.00797 s] survived
+   - [#  13] CRP __future__: 
+--------------------------------------------------------------------------------
+   50: all_feature_names = [\
+   51:     'nested_scopes', \
+   52:     'generators', \
+   53:     'division', \
+-  54:     'absolute_import', \
++  54:     'mutpy', \
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+--------------------------------------------------------------------------------
+[0.00787 s] survived
+   - [#  14] CRP __future__: 
+--------------------------------------------------------------------------------
+   50: all_feature_names = [\
+   51:     'nested_scopes', \
+   52:     'generators', \
+   53:     'division', \
+-  54:     'absolute_import', \
++  54:     '', \
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+--------------------------------------------------------------------------------
+[0.00865 s] survived
+   - [#  15] CRP __future__: 
+--------------------------------------------------------------------------------
+   51:     'nested_scopes', \
+   52:     'generators', \
+   53:     'division', \
+   54:     'absolute_import', \
+-  55:     'with_statement', \
++  55:     'mutpy', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+--------------------------------------------------------------------------------
+[0.00819 s] survived
+   - [#  16] CRP __future__: 
+--------------------------------------------------------------------------------
+   51:     'nested_scopes', \
+   52:     'generators', \
+   53:     'division', \
+   54:     'absolute_import', \
+-  55:     'with_statement', \
++  55:     '', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+--------------------------------------------------------------------------------
+[0.00877 s] survived
+   - [#  17] CRP __future__: 
+--------------------------------------------------------------------------------
+   52:     'generators', \
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+-  56:     'print_function', \
++  56:     'mutpy', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+   60:     'annotations']
+--------------------------------------------------------------------------------
+[0.00846 s] survived
+   - [#  18] CRP __future__: 
+--------------------------------------------------------------------------------
+   52:     'generators', \
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+-  56:     'print_function', \
++  56:     '', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+   60:     'annotations']
+--------------------------------------------------------------------------------
+[0.00837 s] survived
+   - [#  19] CRP __future__: 
+--------------------------------------------------------------------------------
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+-  57:     'unicode_literals', \
++  57:     'mutpy', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+--------------------------------------------------------------------------------
+[0.00829 s] survived
+   - [#  20] CRP __future__: 
+--------------------------------------------------------------------------------
+   53:     'division', \
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+-  57:     'unicode_literals', \
++  57:     '', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+--------------------------------------------------------------------------------
+[0.00825 s] survived
+   - [#  21] CRP __future__: 
+--------------------------------------------------------------------------------
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+-  58:     'barry_as_FLUFL', \
++  58:     'mutpy', \
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+   62: 
+--------------------------------------------------------------------------------
+[0.00856 s] survived
+   - [#  22] CRP __future__: 
+--------------------------------------------------------------------------------
+   54:     'absolute_import', \
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+-  58:     'barry_as_FLUFL', \
++  58:     '', \
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+   62: 
+--------------------------------------------------------------------------------
+[0.00798 s] survived
+   - [#  23] CRP __future__: 
+--------------------------------------------------------------------------------
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+-  59:     'generator_stop', \
++  59:     'mutpy', \
+   60:     'annotations']
+   61: 
+   62: 
+   63: __all__ = ['all_feature_names'] + all_feature_names
+--------------------------------------------------------------------------------
+[0.00870 s] survived
+   - [#  24] CRP __future__: 
+--------------------------------------------------------------------------------
+   55:     'with_statement', \
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+-  59:     'generator_stop', \
++  59:     '', \
+   60:     'annotations']
+   61: 
+   62: 
+   63: __all__ = ['all_feature_names'] + all_feature_names
+--------------------------------------------------------------------------------
+[0.00850 s] survived
+   - [#  25] CRP __future__: 
+--------------------------------------------------------------------------------
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+-  60:     'annotations']
++  60:     'mutpy']
+   61: 
+   62: 
+   63: __all__ = ['all_feature_names'] + all_feature_names
+   64: 
+--------------------------------------------------------------------------------
+[0.00836 s] survived
+   - [#  26] CRP __future__: 
+--------------------------------------------------------------------------------
+   56:     'print_function', \
+   57:     'unicode_literals', \
+   58:     'barry_as_FLUFL', \
+   59:     'generator_stop', \
+-  60:     'annotations']
++  60:     '']
+   61: 
+   62: 
+   63: __all__ = ['all_feature_names'] + all_feature_names
+   64: 
+--------------------------------------------------------------------------------
+[0.00868 s] survived
+   - [#  27] CRP __future__: 
+--------------------------------------------------------------------------------
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+   62: 
+-  63: __all__ = ['all_feature_names'] + all_feature_names
++  63: __all__ = ['mutpy'] + all_feature_names
+   64: 
+   65: 
+   66: 
+   67: 
+--------------------------------------------------------------------------------
+[0.00866 s] survived
+   - [#  28] CRP __future__: 
+--------------------------------------------------------------------------------
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+   62: 
+-  63: __all__ = ['all_feature_names'] + all_feature_names
++  63: __all__ = [''] + all_feature_names
+   64: 
+   65: 
+   66: 
+   67: 
+--------------------------------------------------------------------------------
+[0.00825 s] survived
+   - [#  29] CRP __future__: 
+--------------------------------------------------------------------------------
+   65: 
+   66: 
+   67: 
+   68: 
+-  69: CO_NESTED = 16
++  69: CO_NESTED = 17
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+--------------------------------------------------------------------------------
+[0.00906 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  30] CRP __future__: 
+--------------------------------------------------------------------------------
+   66: 
+   67: 
+   68: 
+   69: CO_NESTED = 16
+-  70: CO_GENERATOR_ALLOWED = 0
++  70: CO_GENERATOR_ALLOWED = 1
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+--------------------------------------------------------------------------------
+[0.00931 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  31] CRP __future__: 
+--------------------------------------------------------------------------------
+   67: 
+   68: 
+   69: CO_NESTED = 16
+   70: CO_GENERATOR_ALLOWED = 0
+-  71: CO_FUTURE_DIVISION = 8192
++  71: CO_FUTURE_DIVISION = 8193
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+--------------------------------------------------------------------------------
+[0.00932 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  32] CRP __future__: 
+--------------------------------------------------------------------------------
+   68: 
+   69: CO_NESTED = 16
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+-  72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
++  72: CO_FUTURE_ABSOLUTE_IMPORT = 16385
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+--------------------------------------------------------------------------------
+[0.00869 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  33] CRP __future__: 
+--------------------------------------------------------------------------------
+   69: CO_NESTED = 16
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+-  73: CO_FUTURE_WITH_STATEMENT = 32768
++  73: CO_FUTURE_WITH_STATEMENT = 32769
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+--------------------------------------------------------------------------------
+[0.00914 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  34] CRP __future__: 
+--------------------------------------------------------------------------------
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+-  74: CO_FUTURE_PRINT_FUNCTION = 65536
++  74: CO_FUTURE_PRINT_FUNCTION = 65537
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+--------------------------------------------------------------------------------
+[0.00890 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  35] CRP __future__: 
+--------------------------------------------------------------------------------
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+-  75: CO_FUTURE_UNICODE_LITERALS = 131072
++  75: CO_FUTURE_UNICODE_LITERALS = 131073
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+--------------------------------------------------------------------------------
+[0.00884 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  36] CRP __future__: 
+--------------------------------------------------------------------------------
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+-  76: CO_FUTURE_BARRY_AS_BDFL = 262144
++  76: CO_FUTURE_BARRY_AS_BDFL = 262145
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+--------------------------------------------------------------------------------
+[0.00900 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  37] CRP __future__: 
+--------------------------------------------------------------------------------
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+-  77: CO_FUTURE_GENERATOR_STOP = 524288
++  77: CO_FUTURE_GENERATOR_STOP = 524289
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+--------------------------------------------------------------------------------
+[0.00929 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  38] CRP __future__: 
+--------------------------------------------------------------------------------
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+-  78: CO_FUTURE_ANNOTATIONS = 1048576
++  78: CO_FUTURE_ANNOTATIONS = 1048577
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+   82:         self.optional = optionalRelease
+--------------------------------------------------------------------------------
+[0.00872 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  39] CRP __future__: 
+--------------------------------------------------------------------------------
+  100:         
+  101:         return self.mandatory
+  102:     
+  103:     def __repr__(self):
+- 104:         return '_Feature' + repr((self.optional, \
++ 104:         return 'mutpy' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00823 s] survived
+   - [#  40] CRP __future__: 
+--------------------------------------------------------------------------------
+  100:         
+  101:         return self.mandatory
+  102:     
+  103:     def __repr__(self):
+- 104:         return '_Feature' + repr((self.optional, \
++ 104:         return '' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00899 s] survived
+   - [#  41] CRP __future__: 
+--------------------------------------------------------------------------------
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+- 108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
++ 108: nested_scopes = _Feature((3, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00875 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  42] CRP __future__: 
+--------------------------------------------------------------------------------
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+- 108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
++ 108: nested_scopes = _Feature((2, 2, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00986 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  43] CRP __future__: 
+--------------------------------------------------------------------------------
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+- 108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
++ 108: nested_scopes = _Feature((2, 1, 1, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00857 s] survived
+   - [#  44] CRP __future__: 
+--------------------------------------------------------------------------------
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+- 108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
++ 108: nested_scopes = _Feature((2, 1, 0, 'mutpy', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00881 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  45] CRP __future__: 
+--------------------------------------------------------------------------------
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+- 108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
++ 108: nested_scopes = _Feature((2, 1, 0, '', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00882 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  46] CRP __future__: 
+--------------------------------------------------------------------------------
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+- 108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
++ 108: nested_scopes = _Feature((2, 1, 0, 'beta', 2), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00869 s] survived
+   - [#  47] CRP __future__: 
+--------------------------------------------------------------------------------
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+- 109:     (2, 2, 0, 'alpha', 0), 
++ 109:     (3, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+--------------------------------------------------------------------------------
+[0.00817 s] survived
+   - [#  48] CRP __future__: 
+--------------------------------------------------------------------------------
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+- 109:     (2, 2, 0, 'alpha', 0), 
++ 109:     (2, 3, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+--------------------------------------------------------------------------------
+[0.00851 s] survived
+   - [#  49] CRP __future__: 
+--------------------------------------------------------------------------------
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+- 109:     (2, 2, 0, 'alpha', 0), 
++ 109:     (2, 2, 1, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+--------------------------------------------------------------------------------
+[0.00814 s] survived
+   - [#  50] CRP __future__: 
+--------------------------------------------------------------------------------
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+- 109:     (2, 2, 0, 'alpha', 0), 
++ 109:     (2, 2, 0, 'mutpy', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+--------------------------------------------------------------------------------
+[0.00821 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  51] CRP __future__: 
+--------------------------------------------------------------------------------
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+- 109:     (2, 2, 0, 'alpha', 0), 
++ 109:     (2, 2, 0, '', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+--------------------------------------------------------------------------------
+[0.00877 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  52] CRP __future__: 
+--------------------------------------------------------------------------------
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+- 109:     (2, 2, 0, 'alpha', 0), 
++ 109:     (2, 2, 0, 'alpha', 1), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+--------------------------------------------------------------------------------
+[0.00813 s] survived
+   - [#  53] CRP __future__: 
+--------------------------------------------------------------------------------
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+- 112: generators = _Feature((2, 2, 0, 'alpha', 1), 
++ 112: generators = _Feature((3, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00836 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  54] CRP __future__: 
+--------------------------------------------------------------------------------
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+- 112: generators = _Feature((2, 2, 0, 'alpha', 1), 
++ 112: generators = _Feature((2, 3, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00832 s] survived
+   - [#  55] CRP __future__: 
+--------------------------------------------------------------------------------
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+- 112: generators = _Feature((2, 2, 0, 'alpha', 1), 
++ 112: generators = _Feature((2, 2, 1, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00802 s] survived
+   - [#  56] CRP __future__: 
+--------------------------------------------------------------------------------
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+- 112: generators = _Feature((2, 2, 0, 'alpha', 1), 
++ 112: generators = _Feature((2, 2, 0, 'mutpy', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00913 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  57] CRP __future__: 
+--------------------------------------------------------------------------------
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+- 112: generators = _Feature((2, 2, 0, 'alpha', 1), 
++ 112: generators = _Feature((2, 2, 0, '', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00861 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  58] CRP __future__: 
+--------------------------------------------------------------------------------
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+- 112: generators = _Feature((2, 2, 0, 'alpha', 1), 
++ 112: generators = _Feature((2, 2, 0, 'alpha', 2), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00866 s] survived
+   - [#  59] CRP __future__: 
+--------------------------------------------------------------------------------
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+- 113:     (2, 3, 0, 'final', 0), 
++ 113:     (3, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00852 s] survived
+   - [#  60] CRP __future__: 
+--------------------------------------------------------------------------------
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+- 113:     (2, 3, 0, 'final', 0), 
++ 113:     (2, 4, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00822 s] survived
+   - [#  61] CRP __future__: 
+--------------------------------------------------------------------------------
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+- 113:     (2, 3, 0, 'final', 0), 
++ 113:     (2, 3, 1, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00857 s] survived
+   - [#  62] CRP __future__: 
+--------------------------------------------------------------------------------
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+- 113:     (2, 3, 0, 'final', 0), 
++ 113:     (2, 3, 0, 'mutpy', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00862 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  63] CRP __future__: 
+--------------------------------------------------------------------------------
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+- 113:     (2, 3, 0, 'final', 0), 
++ 113:     (2, 3, 0, '', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00894 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  64] CRP __future__: 
+--------------------------------------------------------------------------------
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+- 113:     (2, 3, 0, 'final', 0), 
++ 113:     (2, 3, 0, 'final', 1), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00822 s] survived
+   - [#  65] CRP __future__: 
+--------------------------------------------------------------------------------
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+- 116: division = _Feature((2, 2, 0, 'alpha', 2), 
++ 116: division = _Feature((3, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00864 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  66] CRP __future__: 
+--------------------------------------------------------------------------------
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+- 116: division = _Feature((2, 2, 0, 'alpha', 2), 
++ 116: division = _Feature((2, 3, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00841 s] survived
+   - [#  67] CRP __future__: 
+--------------------------------------------------------------------------------
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+- 116: division = _Feature((2, 2, 0, 'alpha', 2), 
++ 116: division = _Feature((2, 2, 1, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00875 s] survived
+   - [#  68] CRP __future__: 
+--------------------------------------------------------------------------------
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+- 116: division = _Feature((2, 2, 0, 'alpha', 2), 
++ 116: division = _Feature((2, 2, 0, 'mutpy', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00842 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  69] CRP __future__: 
+--------------------------------------------------------------------------------
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+- 116: division = _Feature((2, 2, 0, 'alpha', 2), 
++ 116: division = _Feature((2, 2, 0, '', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00888 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  70] CRP __future__: 
+--------------------------------------------------------------------------------
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+- 116: division = _Feature((2, 2, 0, 'alpha', 2), 
++ 116: division = _Feature((2, 2, 0, 'alpha', 3), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00832 s] survived
+   - [#  71] CRP __future__: 
+--------------------------------------------------------------------------------
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+- 117:     (3, 0, 0, 'alpha', 0), 
++ 117:     (4, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00795 s] survived
+   - [#  72] CRP __future__: 
+--------------------------------------------------------------------------------
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+- 117:     (3, 0, 0, 'alpha', 0), 
++ 117:     (3, 1, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00794 s] survived
+   - [#  73] CRP __future__: 
+--------------------------------------------------------------------------------
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+- 117:     (3, 0, 0, 'alpha', 0), 
++ 117:     (3, 0, 1, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00805 s] survived
+   - [#  74] CRP __future__: 
+--------------------------------------------------------------------------------
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+- 117:     (3, 0, 0, 'alpha', 0), 
++ 117:     (3, 0, 0, 'mutpy', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00844 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  75] CRP __future__: 
+--------------------------------------------------------------------------------
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+- 117:     (3, 0, 0, 'alpha', 0), 
++ 117:     (3, 0, 0, '', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00887 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  76] CRP __future__: 
+--------------------------------------------------------------------------------
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+- 117:     (3, 0, 0, 'alpha', 0), 
++ 117:     (3, 0, 0, 'alpha', 1), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00813 s] survived
+   - [#  77] CRP __future__: 
+--------------------------------------------------------------------------------
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+- 120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
++ 120: absolute_import = _Feature((3, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00847 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  78] CRP __future__: 
+--------------------------------------------------------------------------------
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+- 120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
++ 120: absolute_import = _Feature((2, 6, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00868 s] survived
+   - [#  79] CRP __future__: 
+--------------------------------------------------------------------------------
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+- 120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
++ 120: absolute_import = _Feature((2, 5, 1, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00854 s] survived
+   - [#  80] CRP __future__: 
+--------------------------------------------------------------------------------
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+- 120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
++ 120: absolute_import = _Feature((2, 5, 0, 'mutpy', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00863 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  81] CRP __future__: 
+--------------------------------------------------------------------------------
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+- 120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
++ 120: absolute_import = _Feature((2, 5, 0, '', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00907 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  82] CRP __future__: 
+--------------------------------------------------------------------------------
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+- 120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
++ 120: absolute_import = _Feature((2, 5, 0, 'alpha', 2), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+--------------------------------------------------------------------------------
+[0.00839 s] survived
+   - [#  83] CRP __future__: 
+--------------------------------------------------------------------------------
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+- 121:     (3, 0, 0, 'alpha', 0), 
++ 121:     (4, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00889 s] survived
+   - [#  84] CRP __future__: 
+--------------------------------------------------------------------------------
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+- 121:     (3, 0, 0, 'alpha', 0), 
++ 121:     (3, 1, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00858 s] survived
+   - [#  85] CRP __future__: 
+--------------------------------------------------------------------------------
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+- 121:     (3, 0, 0, 'alpha', 0), 
++ 121:     (3, 0, 1, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00843 s] survived
+   - [#  86] CRP __future__: 
+--------------------------------------------------------------------------------
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+- 121:     (3, 0, 0, 'alpha', 0), 
++ 121:     (3, 0, 0, 'mutpy', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00878 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  87] CRP __future__: 
+--------------------------------------------------------------------------------
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+- 121:     (3, 0, 0, 'alpha', 0), 
++ 121:     (3, 0, 0, '', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00926 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  88] CRP __future__: 
+--------------------------------------------------------------------------------
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+- 121:     (3, 0, 0, 'alpha', 0), 
++ 121:     (3, 0, 0, 'alpha', 1), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00894 s] survived
+   - [#  89] CRP __future__: 
+--------------------------------------------------------------------------------
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+- 124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
++ 124: with_statement = _Feature((3, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00936 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  90] CRP __future__: 
+--------------------------------------------------------------------------------
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+- 124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
++ 124: with_statement = _Feature((2, 6, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00912 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  91] CRP __future__: 
+--------------------------------------------------------------------------------
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+- 124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
++ 124: with_statement = _Feature((2, 5, 1, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00976 s] survived
+   - [#  92] CRP __future__: 
+--------------------------------------------------------------------------------
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+- 124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
++ 124: with_statement = _Feature((2, 5, 0, 'mutpy', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00949 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  93] CRP __future__: 
+--------------------------------------------------------------------------------
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+- 124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
++ 124: with_statement = _Feature((2, 5, 0, '', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00928 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  94] CRP __future__: 
+--------------------------------------------------------------------------------
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+- 124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
++ 124: with_statement = _Feature((2, 5, 0, 'alpha', 2), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00870 s] survived
+   - [#  95] CRP __future__: 
+--------------------------------------------------------------------------------
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+- 125:     (2, 6, 0, 'alpha', 0), 
++ 125:     (3, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00891 s] survived
+   - [#  96] CRP __future__: 
+--------------------------------------------------------------------------------
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+- 125:     (2, 6, 0, 'alpha', 0), 
++ 125:     (2, 7, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00880 s] survived
+   - [#  97] CRP __future__: 
+--------------------------------------------------------------------------------
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+- 125:     (2, 6, 0, 'alpha', 0), 
++ 125:     (2, 6, 1, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00900 s] survived
+   - [#  98] CRP __future__: 
+--------------------------------------------------------------------------------
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+- 125:     (2, 6, 0, 'alpha', 0), 
++ 125:     (2, 6, 0, 'mutpy', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00899 s] killed by test_attributes (test___future__.FutureTest)
+   - [#  99] CRP __future__: 
+--------------------------------------------------------------------------------
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+- 125:     (2, 6, 0, 'alpha', 0), 
++ 125:     (2, 6, 0, '', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00967 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 100] CRP __future__: 
+--------------------------------------------------------------------------------
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+- 125:     (2, 6, 0, 'alpha', 0), 
++ 125:     (2, 6, 0, 'alpha', 1), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00878 s] survived
+   - [# 101] CRP __future__: 
+--------------------------------------------------------------------------------
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+- 128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
++ 128: print_function = _Feature((3, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.01197 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 102] CRP __future__: 
+--------------------------------------------------------------------------------
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+- 128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
++ 128: print_function = _Feature((2, 7, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00943 s] survived
+   - [# 103] CRP __future__: 
+--------------------------------------------------------------------------------
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+- 128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
++ 128: print_function = _Feature((2, 6, 1, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00890 s] survived
+   - [# 104] CRP __future__: 
+--------------------------------------------------------------------------------
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+- 128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
++ 128: print_function = _Feature((2, 6, 0, 'mutpy', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00987 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 105] CRP __future__: 
+--------------------------------------------------------------------------------
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+- 128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
++ 128: print_function = _Feature((2, 6, 0, '', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00947 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 106] CRP __future__: 
+--------------------------------------------------------------------------------
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+- 128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
++ 128: print_function = _Feature((2, 6, 0, 'alpha', 3), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00922 s] survived
+   - [# 107] CRP __future__: 
+--------------------------------------------------------------------------------
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+- 129:     (3, 0, 0, 'alpha', 0), 
++ 129:     (4, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00866 s] survived
+   - [# 108] CRP __future__: 
+--------------------------------------------------------------------------------
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+- 129:     (3, 0, 0, 'alpha', 0), 
++ 129:     (3, 1, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00836 s] survived
+   - [# 109] CRP __future__: 
+--------------------------------------------------------------------------------
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+- 129:     (3, 0, 0, 'alpha', 0), 
++ 129:     (3, 0, 1, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00943 s] survived
+   - [# 110] CRP __future__: 
+--------------------------------------------------------------------------------
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+- 129:     (3, 0, 0, 'alpha', 0), 
++ 129:     (3, 0, 0, 'mutpy', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00910 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 111] CRP __future__: 
+--------------------------------------------------------------------------------
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+- 129:     (3, 0, 0, 'alpha', 0), 
++ 129:     (3, 0, 0, '', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00902 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 112] CRP __future__: 
+--------------------------------------------------------------------------------
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+- 129:     (3, 0, 0, 'alpha', 0), 
++ 129:     (3, 0, 0, 'alpha', 1), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00821 s] survived
+   - [# 113] CRP __future__: 
+--------------------------------------------------------------------------------
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+- 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
++ 132: unicode_literals = _Feature((3, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.00880 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 114] CRP __future__: 
+--------------------------------------------------------------------------------
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+- 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
++ 132: unicode_literals = _Feature((2, 7, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.01500 s] survived
+   - [# 115] CRP __future__: 
+--------------------------------------------------------------------------------
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+- 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
++ 132: unicode_literals = _Feature((2, 6, 1, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.01130 s] survived
+   - [# 116] CRP __future__: 
+--------------------------------------------------------------------------------
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+- 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
++ 132: unicode_literals = _Feature((2, 6, 0, 'mutpy', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.01079 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 117] CRP __future__: 
+--------------------------------------------------------------------------------
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+- 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
++ 132: unicode_literals = _Feature((2, 6, 0, '', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.02228 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 118] CRP __future__: 
+--------------------------------------------------------------------------------
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+- 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
++ 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 3), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+--------------------------------------------------------------------------------
+[0.01174 s] survived
+   - [# 119] CRP __future__: 
+--------------------------------------------------------------------------------
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+- 133:     (3, 0, 0, 'alpha', 0), 
++ 133:     (4, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00932 s] survived
+   - [# 120] CRP __future__: 
+--------------------------------------------------------------------------------
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+- 133:     (3, 0, 0, 'alpha', 0), 
++ 133:     (3, 1, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.01029 s] survived
+   - [# 121] CRP __future__: 
+--------------------------------------------------------------------------------
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+- 133:     (3, 0, 0, 'alpha', 0), 
++ 133:     (3, 0, 1, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00872 s] survived
+   - [# 122] CRP __future__: 
+--------------------------------------------------------------------------------
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+- 133:     (3, 0, 0, 'alpha', 0), 
++ 133:     (3, 0, 0, 'mutpy', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00981 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 123] CRP __future__: 
+--------------------------------------------------------------------------------
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+- 133:     (3, 0, 0, 'alpha', 0), 
++ 133:     (3, 0, 0, '', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.01413 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 124] CRP __future__: 
+--------------------------------------------------------------------------------
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+- 133:     (3, 0, 0, 'alpha', 0), 
++ 133:     (3, 0, 0, 'alpha', 1), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.01139 s] survived
+   - [# 125] CRP __future__: 
+--------------------------------------------------------------------------------
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+- 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
++ 136: barry_as_FLUFL = _Feature((4, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.01575 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 126] CRP __future__: 
+--------------------------------------------------------------------------------
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+- 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
++ 136: barry_as_FLUFL = _Feature((3, 2, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.01158 s] survived
+   - [# 127] CRP __future__: 
+--------------------------------------------------------------------------------
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+- 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
++ 136: barry_as_FLUFL = _Feature((3, 1, 1, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00878 s] survived
+   - [# 128] CRP __future__: 
+--------------------------------------------------------------------------------
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+- 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
++ 136: barry_as_FLUFL = _Feature((3, 1, 0, 'mutpy', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00949 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 129] CRP __future__: 
+--------------------------------------------------------------------------------
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+- 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
++ 136: barry_as_FLUFL = _Feature((3, 1, 0, '', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00971 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 130] CRP __future__: 
+--------------------------------------------------------------------------------
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+- 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
++ 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 3), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00878 s] survived
+   - [# 131] CRP __future__: 
+--------------------------------------------------------------------------------
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+- 137:     (3, 9, 0, 'alpha', 0), 
++ 137:     (4, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00900 s] survived
+   - [# 132] CRP __future__: 
+--------------------------------------------------------------------------------
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+- 137:     (3, 9, 0, 'alpha', 0), 
++ 137:     (3, 10, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00850 s] survived
+   - [# 133] CRP __future__: 
+--------------------------------------------------------------------------------
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+- 137:     (3, 9, 0, 'alpha', 0), 
++ 137:     (3, 9, 1, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00937 s] survived
+   - [# 134] CRP __future__: 
+--------------------------------------------------------------------------------
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+- 137:     (3, 9, 0, 'alpha', 0), 
++ 137:     (3, 9, 0, 'mutpy', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00922 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 135] CRP __future__: 
+--------------------------------------------------------------------------------
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+- 137:     (3, 9, 0, 'alpha', 0), 
++ 137:     (3, 9, 0, '', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00933 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 136] CRP __future__: 
+--------------------------------------------------------------------------------
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+- 137:     (3, 9, 0, 'alpha', 0), 
++ 137:     (3, 9, 0, 'alpha', 1), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00936 s] survived
+   - [# 137] CRP __future__: 
+--------------------------------------------------------------------------------
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+- 140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
++ 140: generator_stop = _Feature((4, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00977 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 138] CRP __future__: 
+--------------------------------------------------------------------------------
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+- 140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
++ 140: generator_stop = _Feature((3, 6, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00885 s] survived
+   - [# 139] CRP __future__: 
+--------------------------------------------------------------------------------
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+- 140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
++ 140: generator_stop = _Feature((3, 5, 1, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00894 s] survived
+   - [# 140] CRP __future__: 
+--------------------------------------------------------------------------------
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+- 140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
++ 140: generator_stop = _Feature((3, 5, 0, 'mutpy', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00947 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 141] CRP __future__: 
+--------------------------------------------------------------------------------
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+- 140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
++ 140: generator_stop = _Feature((3, 5, 0, '', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00969 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 142] CRP __future__: 
+--------------------------------------------------------------------------------
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+- 140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
++ 140: generator_stop = _Feature((3, 5, 0, 'beta', 2), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00868 s] survived
+   - [# 143] CRP __future__: 
+--------------------------------------------------------------------------------
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+- 141:     (3, 7, 0, 'alpha', 0), 
++ 141:     (4, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00872 s] survived
+   - [# 144] CRP __future__: 
+--------------------------------------------------------------------------------
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+- 141:     (3, 7, 0, 'alpha', 0), 
++ 141:     (3, 8, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00873 s] survived
+   - [# 145] CRP __future__: 
+--------------------------------------------------------------------------------
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+- 141:     (3, 7, 0, 'alpha', 0), 
++ 141:     (3, 7, 1, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00891 s] survived
+   - [# 146] CRP __future__: 
+--------------------------------------------------------------------------------
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+- 141:     (3, 7, 0, 'alpha', 0), 
++ 141:     (3, 7, 0, 'mutpy', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00942 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 147] CRP __future__: 
+--------------------------------------------------------------------------------
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+- 141:     (3, 7, 0, 'alpha', 0), 
++ 141:     (3, 7, 0, '', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00951 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 148] CRP __future__: 
+--------------------------------------------------------------------------------
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+- 141:     (3, 7, 0, 'alpha', 0), 
++ 141:     (3, 7, 0, 'alpha', 1), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00861 s] survived
+   - [# 149] CRP __future__: 
+--------------------------------------------------------------------------------
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+- 144: annotations = _Feature((3, 7, 0, 'beta', 1), 
++ 144: annotations = _Feature((4, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00948 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 150] CRP __future__: 
+--------------------------------------------------------------------------------
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+- 144: annotations = _Feature((3, 7, 0, 'beta', 1), 
++ 144: annotations = _Feature((3, 8, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00863 s] survived
+   - [# 151] CRP __future__: 
+--------------------------------------------------------------------------------
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+- 144: annotations = _Feature((3, 7, 0, 'beta', 1), 
++ 144: annotations = _Feature((3, 7, 1, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.01450 s] survived
+   - [# 152] CRP __future__: 
+--------------------------------------------------------------------------------
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+- 144: annotations = _Feature((3, 7, 0, 'beta', 1), 
++ 144: annotations = _Feature((3, 7, 0, 'mutpy', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00943 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 153] CRP __future__: 
+--------------------------------------------------------------------------------
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+- 144: annotations = _Feature((3, 7, 0, 'beta', 1), 
++ 144: annotations = _Feature((3, 7, 0, '', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.01099 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 154] CRP __future__: 
+--------------------------------------------------------------------------------
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+- 144: annotations = _Feature((3, 7, 0, 'beta', 1), 
++ 144: annotations = _Feature((3, 7, 0, 'beta', 2), 
+  145:     (4, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00881 s] survived
+   - [# 155] CRP __future__: 
+--------------------------------------------------------------------------------
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+- 145:     (4, 0, 0, 'alpha', 0), 
++ 145:     (5, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00871 s] survived
+   - [# 156] CRP __future__: 
+--------------------------------------------------------------------------------
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+- 145:     (4, 0, 0, 'alpha', 0), 
++ 145:     (4, 1, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00914 s] survived
+   - [# 157] CRP __future__: 
+--------------------------------------------------------------------------------
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+- 145:     (4, 0, 0, 'alpha', 0), 
++ 145:     (4, 0, 1, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00865 s] survived
+   - [# 158] CRP __future__: 
+--------------------------------------------------------------------------------
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+- 145:     (4, 0, 0, 'alpha', 0), 
++ 145:     (4, 0, 0, 'mutpy', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.01015 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 159] CRP __future__: 
+--------------------------------------------------------------------------------
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+- 145:     (4, 0, 0, 'alpha', 0), 
++ 145:     (4, 0, 0, '', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00922 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 160] CRP __future__: 
+--------------------------------------------------------------------------------
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+- 145:     (4, 0, 0, 'alpha', 0), 
++ 145:     (4, 0, 0, 'alpha', 1), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00853 s] survived
+   - [# 161] SDI __future__: 
+--------------------------------------------------------------------------------
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+-  81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+-  82:         self.optional = optionalRelease
+-  83:         self.mandatory = mandatoryRelease
+-  84:         self.compiler_flag = compiler_flag
+-  85:     
++  81:     @staticmethod
++  82:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
++  83:         self.optional = optionalRelease
++  84:         self.mandatory = mandatoryRelease
++  85:         self.compiler_flag = compiler_flag
+   86:     def getOptionalRelease(self):
+   87:         '''Return first release in which this feature was recognized.
+   88: 
+   89:         This is a 5-tuple, of the same form as sys.version_info.
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 162] SDI __future__: 
+--------------------------------------------------------------------------------
+   82:         self.optional = optionalRelease
+   83:         self.mandatory = mandatoryRelease
+   84:         self.compiler_flag = compiler_flag
+   85:     
+-  86:     def getOptionalRelease(self):
+-  87:         '''Return first release in which this feature was recognized.
+-  88: 
+-  89:         This is a 5-tuple, of the same form as sys.version_info.
+-  90:         '''
+-  91:         
+-  92:         return self.optional
+-  93:     
++  86:     @staticmethod
++  87:     def getOptionalRelease(self):
++  88:         '''Return first release in which this feature was recognized.
++  89: 
++  90:         This is a 5-tuple, of the same form as sys.version_info.
++  91:         '''
++  92:         
++  93:         return self.optional
+   94:     def getMandatoryRelease(self):
+   95:         '''Return release in which this feature will become mandatory.
+   96: 
+   97:         This is a 5-tuple, of the same form as sys.version_info, or, if
+--------------------------------------------------------------------------------
+[1.00728 s] timeout
+   - [# 163] SDI __future__: 
+--------------------------------------------------------------------------------
+   90:         '''
+   91:         
+   92:         return self.optional
+   93:     
+-  94:     def getMandatoryRelease(self):
+-  95:         '''Return release in which this feature will become mandatory.
+-  96: 
+-  97:         This is a 5-tuple, of the same form as sys.version_info, or, if
+-  98:         the feature was dropped, is None.
+-  99:         '''
+- 100:         
+- 101:         return self.mandatory
+- 102:     
++  94:     @staticmethod
++  95:     def getMandatoryRelease(self):
++  96:         '''Return release in which this feature will become mandatory.
++  97: 
++  98:         This is a 5-tuple, of the same form as sys.version_info, or, if
++  99:         the feature was dropped, is None.
++ 100:         '''
++ 101:         
++ 102:         return self.mandatory
+  103:     def __repr__(self):
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+--------------------------------------------------------------------------------
+[1.00725 s] timeout
+   - [# 164] SDI __future__: 
+--------------------------------------------------------------------------------
+   99:         '''
+  100:         
+  101:         return self.mandatory
+  102:     
+- 103:     def __repr__(self):
+- 104:         return '_Feature' + repr((self.optional, \
+- 105:             self.mandatory, \
+- 106:             self.compiler_flag))
+- 107: 
++ 103:     @staticmethod
++ 104:     def __repr__(self):
++ 105:         return '_Feature' + repr((self.optional, \
++ 106:             self.mandatory, \
++ 107:             self.compiler_flag))
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+--------------------------------------------------------------------------------
+[0.01396 s] survived
+   - [# 165] SDL __future__: 
+--------------------------------------------------------------------------------
+   46: 
+   47: No feature line is ever to be deleted from this file.
+   48: '''
+   49: 
+-  50: all_feature_names = [\
+-  51:     'nested_scopes', \
+-  52:     'generators', \
+-  53:     'division', \
+-  54:     'absolute_import', \
+-  55:     'with_statement', \
+-  56:     'print_function', \
+-  57:     'unicode_literals', \
+-  58:     'barry_as_FLUFL', \
+-  59:     'generator_stop', \
+-  60:     'annotations']
++  50: pass
++  51: 
++  52: 
++  53: 
++  54: 
++  55: 
++  56: 
++  57: 
++  58: 
++  59: 
++  60: 
+   61: 
+   62: 
+   63: __all__ = ['all_feature_names'] + all_feature_names
+   64: 
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 166] SDL __future__: 
+--------------------------------------------------------------------------------
+   59:     'generator_stop', \
+   60:     'annotations']
+   61: 
+   62: 
+-  63: __all__ = ['all_feature_names'] + all_feature_names
++  63: pass
+   64: 
+   65: 
+   66: 
+   67: 
+--------------------------------------------------------------------------------
+[0.02497 s] survived
+   - [# 167] SDL __future__: 
+--------------------------------------------------------------------------------
+   65: 
+   66: 
+   67: 
+   68: 
+-  69: CO_NESTED = 16
++  69: pass
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 168] SDL __future__: 
+--------------------------------------------------------------------------------
+   66: 
+   67: 
+   68: 
+   69: CO_NESTED = 16
+-  70: CO_GENERATOR_ALLOWED = 0
++  70: pass
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 169] SDL __future__: 
+--------------------------------------------------------------------------------
+   67: 
+   68: 
+   69: CO_NESTED = 16
+   70: CO_GENERATOR_ALLOWED = 0
+-  71: CO_FUTURE_DIVISION = 8192
++  71: pass
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 170] SDL __future__: 
+--------------------------------------------------------------------------------
+   68: 
+   69: CO_NESTED = 16
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+-  72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
++  72: pass
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 171] SDL __future__: 
+--------------------------------------------------------------------------------
+   69: CO_NESTED = 16
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+-  73: CO_FUTURE_WITH_STATEMENT = 32768
++  73: pass
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 172] SDL __future__: 
+--------------------------------------------------------------------------------
+   70: CO_GENERATOR_ALLOWED = 0
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+-  74: CO_FUTURE_PRINT_FUNCTION = 65536
++  74: pass
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 173] SDL __future__: 
+--------------------------------------------------------------------------------
+   71: CO_FUTURE_DIVISION = 8192
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+-  75: CO_FUTURE_UNICODE_LITERALS = 131072
++  75: pass
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 174] SDL __future__: 
+--------------------------------------------------------------------------------
+   72: CO_FUTURE_ABSOLUTE_IMPORT = 16384
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+-  76: CO_FUTURE_BARRY_AS_BDFL = 262144
++  76: pass
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 175] SDL __future__: 
+--------------------------------------------------------------------------------
+   73: CO_FUTURE_WITH_STATEMENT = 32768
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+-  77: CO_FUTURE_GENERATOR_STOP = 524288
++  77: pass
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 176] SDL __future__: 
+--------------------------------------------------------------------------------
+   74: CO_FUTURE_PRINT_FUNCTION = 65536
+   75: CO_FUTURE_UNICODE_LITERALS = 131072
+   76: CO_FUTURE_BARRY_AS_BDFL = 262144
+   77: CO_FUTURE_GENERATOR_STOP = 524288
+-  78: CO_FUTURE_ANNOTATIONS = 1048576
++  78: pass
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+   82:         self.optional = optionalRelease
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 177] SDL __future__: 
+--------------------------------------------------------------------------------
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+-  82:         self.optional = optionalRelease
++  82:         pass
+   83:         self.mandatory = mandatoryRelease
+   84:         self.compiler_flag = compiler_flag
+   85:     
+   86:     def getOptionalRelease(self):
+--------------------------------------------------------------------------------
+[0.01019 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 178] SDL __future__: 
+--------------------------------------------------------------------------------
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+   82:         self.optional = optionalRelease
+-  83:         self.mandatory = mandatoryRelease
++  83:         pass
+   84:         self.compiler_flag = compiler_flag
+   85:     
+   86:     def getOptionalRelease(self):
+   87:         '''Return first release in which this feature was recognized.
+--------------------------------------------------------------------------------
+[0.00891 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 179] SDL __future__: 
+--------------------------------------------------------------------------------
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+   82:         self.optional = optionalRelease
+   83:         self.mandatory = mandatoryRelease
+-  84:         self.compiler_flag = compiler_flag
++  84:         pass
+   85:     
+   86:     def getOptionalRelease(self):
+   87:         '''Return first release in which this feature was recognized.
+   88: 
+--------------------------------------------------------------------------------
+[0.00876 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 180] SDL __future__: 
+--------------------------------------------------------------------------------
+   88: 
+   89:         This is a 5-tuple, of the same form as sys.version_info.
+   90:         '''
+   91:         
+-  92:         return self.optional
++  92:         pass
+   93:     
+   94:     def getMandatoryRelease(self):
+   95:         '''Return release in which this feature will become mandatory.
+   96: 
+--------------------------------------------------------------------------------
+[0.00849 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 181] SDL __future__: 
+--------------------------------------------------------------------------------
+   97:         This is a 5-tuple, of the same form as sys.version_info, or, if
+   98:         the feature was dropped, is None.
+   99:         '''
+  100:         
+- 101:         return self.mandatory
++ 101:         pass
+  102:     
+  103:     def __repr__(self):
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+--------------------------------------------------------------------------------
+[0.00853 s] survived
+   - [# 182] SDL __future__: 
+--------------------------------------------------------------------------------
+  100:         
+  101:         return self.mandatory
+  102:     
+  103:     def __repr__(self):
+- 104:         return '_Feature' + repr((self.optional, \
+- 105:             self.mandatory, \
+- 106:             self.compiler_flag))
++ 104:         pass
++ 105: 
++ 106: 
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+--------------------------------------------------------------------------------
+[0.00818 s] survived
+   - [# 183] SDL __future__: 
+--------------------------------------------------------------------------------
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+- 108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+- 109:     (2, 2, 0, 'alpha', 0), 
+- 110:     CO_NESTED)
++ 108: pass
++ 109: 
++ 110: 
+  111: 
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+--------------------------------------------------------------------------------
+[0.00837 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 184] SDL __future__: 
+--------------------------------------------------------------------------------
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+  111: 
+- 112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+- 113:     (2, 3, 0, 'final', 0), 
+- 114:     CO_GENERATOR_ALLOWED)
++ 112: pass
++ 113: 
++ 114: 
+  115: 
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+--------------------------------------------------------------------------------
+[0.00855 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 185] SDL __future__: 
+--------------------------------------------------------------------------------
+  112: generators = _Feature((2, 2, 0, 'alpha', 1), 
+  113:     (2, 3, 0, 'final', 0), 
+  114:     CO_GENERATOR_ALLOWED)
+  115: 
+- 116: division = _Feature((2, 2, 0, 'alpha', 2), 
+- 117:     (3, 0, 0, 'alpha', 0), 
+- 118:     CO_FUTURE_DIVISION)
++ 116: pass
++ 117: 
++ 118: 
+  119: 
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+--------------------------------------------------------------------------------
+[0.00891 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 186] SDL __future__: 
+--------------------------------------------------------------------------------
+  116: division = _Feature((2, 2, 0, 'alpha', 2), 
+  117:     (3, 0, 0, 'alpha', 0), 
+  118:     CO_FUTURE_DIVISION)
+  119: 
+- 120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+- 121:     (3, 0, 0, 'alpha', 0), 
+- 122:     CO_FUTURE_ABSOLUTE_IMPORT)
++ 120: pass
++ 121: 
++ 122: 
+  123: 
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+--------------------------------------------------------------------------------
+[0.00885 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 187] SDL __future__: 
+--------------------------------------------------------------------------------
+  120: absolute_import = _Feature((2, 5, 0, 'alpha', 1), 
+  121:     (3, 0, 0, 'alpha', 0), 
+  122:     CO_FUTURE_ABSOLUTE_IMPORT)
+  123: 
+- 124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+- 125:     (2, 6, 0, 'alpha', 0), 
+- 126:     CO_FUTURE_WITH_STATEMENT)
++ 124: pass
++ 125: 
++ 126: 
+  127: 
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+--------------------------------------------------------------------------------
+[0.00840 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 188] SDL __future__: 
+--------------------------------------------------------------------------------
+  124: with_statement = _Feature((2, 5, 0, 'alpha', 1), 
+  125:     (2, 6, 0, 'alpha', 0), 
+  126:     CO_FUTURE_WITH_STATEMENT)
+  127: 
+- 128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+- 129:     (3, 0, 0, 'alpha', 0), 
+- 130:     CO_FUTURE_PRINT_FUNCTION)
++ 128: pass
++ 129: 
++ 130: 
+  131: 
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+--------------------------------------------------------------------------------
+[0.00845 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 189] SDL __future__: 
+--------------------------------------------------------------------------------
+  128: print_function = _Feature((2, 6, 0, 'alpha', 2), 
+  129:     (3, 0, 0, 'alpha', 0), 
+  130:     CO_FUTURE_PRINT_FUNCTION)
+  131: 
+- 132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+- 133:     (3, 0, 0, 'alpha', 0), 
+- 134:     CO_FUTURE_UNICODE_LITERALS)
++ 132: pass
++ 133: 
++ 134: 
+  135: 
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+--------------------------------------------------------------------------------
+[0.00888 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 190] SDL __future__: 
+--------------------------------------------------------------------------------
+  132: unicode_literals = _Feature((2, 6, 0, 'alpha', 2), 
+  133:     (3, 0, 0, 'alpha', 0), 
+  134:     CO_FUTURE_UNICODE_LITERALS)
+  135: 
+- 136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+- 137:     (3, 9, 0, 'alpha', 0), 
+- 138:     CO_FUTURE_BARRY_AS_BDFL)
++ 136: pass
++ 137: 
++ 138: 
+  139: 
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+--------------------------------------------------------------------------------
+[0.00852 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 191] SDL __future__: 
+--------------------------------------------------------------------------------
+  136: barry_as_FLUFL = _Feature((3, 1, 0, 'alpha', 2), 
+  137:     (3, 9, 0, 'alpha', 0), 
+  138:     CO_FUTURE_BARRY_AS_BDFL)
+  139: 
+- 140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+- 141:     (3, 7, 0, 'alpha', 0), 
+- 142:     CO_FUTURE_GENERATOR_STOP)
++ 140: pass
++ 141: 
++ 142: 
+  143: 
+  144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+  145:     (4, 0, 0, 'alpha', 0), 
+  146:     CO_FUTURE_ANNOTATIONS)
+--------------------------------------------------------------------------------
+[0.00842 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 192] SDL __future__: 
+--------------------------------------------------------------------------------
+  140: generator_stop = _Feature((3, 5, 0, 'beta', 1), 
+  141:     (3, 7, 0, 'alpha', 0), 
+  142:     CO_FUTURE_GENERATOR_STOP)
+  143: 
+- 144: annotations = _Feature((3, 7, 0, 'beta', 1), 
+- 145:     (4, 0, 0, 'alpha', 0), 
+- 146:     CO_FUTURE_ANNOTATIONS)
++ 144: pass
+--------------------------------------------------------------------------------
+[0.00867 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 193] SVD __future__: 
+--------------------------------------------------------------------------------
+   78: CO_FUTURE_ANNOTATIONS = 1048576
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+-  82:         self.optional = optionalRelease
++  82:         optional = optionalRelease
+   83:         self.mandatory = mandatoryRelease
+   84:         self.compiler_flag = compiler_flag
+   85:     
+   86:     def getOptionalRelease(self):
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 194] SVD __future__: 
+--------------------------------------------------------------------------------
+   79: 
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+   82:         self.optional = optionalRelease
+-  83:         self.mandatory = mandatoryRelease
++  83:         mandatory = mandatoryRelease
+   84:         self.compiler_flag = compiler_flag
+   85:     
+   86:     def getOptionalRelease(self):
+   87:         '''Return first release in which this feature was recognized.
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 195] SVD __future__: 
+--------------------------------------------------------------------------------
+   80: class _Feature:
+   81:     def __init__(self, optionalRelease, mandatoryRelease, compiler_flag):
+   82:         self.optional = optionalRelease
+   83:         self.mandatory = mandatoryRelease
+-  84:         self.compiler_flag = compiler_flag
++  84:         compiler_flag = compiler_flag
+   85:     
+   86:     def getOptionalRelease(self):
+   87:         '''Return first release in which this feature was recognized.
+   88: 
+--------------------------------------------------------------------------------
+[0.00000 s] incompetent
+   - [# 196] SVD __future__: 
+--------------------------------------------------------------------------------
+   88: 
+   89:         This is a 5-tuple, of the same form as sys.version_info.
+   90:         '''
+   91:         
+-  92:         return self.optional
++  92:         return optional
+   93:     
+   94:     def getMandatoryRelease(self):
+   95:         '''Return release in which this feature will become mandatory.
+   96: 
+--------------------------------------------------------------------------------
+[0.00836 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 197] SVD __future__: 
+--------------------------------------------------------------------------------
+   97:         This is a 5-tuple, of the same form as sys.version_info, or, if
+   98:         the feature was dropped, is None.
+   99:         '''
+  100:         
+- 101:         return self.mandatory
++ 101:         return mandatory
+  102:     
+  103:     def __repr__(self):
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+--------------------------------------------------------------------------------
+[0.00898 s] killed by test_attributes (test___future__.FutureTest)
+   - [# 198] SVD __future__: 
+--------------------------------------------------------------------------------
+  100:         
+  101:         return self.mandatory
+  102:     
+  103:     def __repr__(self):
+- 104:         return '_Feature' + repr((self.optional, \
++ 104:         return '_Feature' + repr((optional, \
+  105:             self.mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+--------------------------------------------------------------------------------
+[0.00786 s] survived
+   - [# 199] SVD __future__: 
+--------------------------------------------------------------------------------
+  101:         return self.mandatory
+  102:     
+  103:     def __repr__(self):
+  104:         return '_Feature' + repr((self.optional, \
+- 105:             self.mandatory, \
++ 105:             mandatory, \
+  106:             self.compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+--------------------------------------------------------------------------------
+[0.00812 s] survived
+   - [# 200] SVD __future__: 
+--------------------------------------------------------------------------------
+  102:     
+  103:     def __repr__(self):
+  104:         return '_Feature' + repr((self.optional, \
+  105:             self.mandatory, \
+- 106:             self.compiler_flag))
++ 106:             compiler_flag))
+  107: 
+  108: nested_scopes = _Feature((2, 1, 0, 'beta', 1), 
+  109:     (2, 2, 0, 'alpha', 0), 
+  110:     CO_NESTED)
+--------------------------------------------------------------------------------
+[0.00803 s] survived
+[*] Mutation score [9.47343 s]: 44.6%
+   - all: 200
+   - killed: 80 (40.0%)
+   - survived: 102 (51.0%)
+   - incompetent: 16 (8.0%)
+   - timeout: 2 (1.0%)
