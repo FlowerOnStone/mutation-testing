@@ -6,14 +6,17 @@ def check_correct(file_path):
     file = open(file_path, "r")
     lines = file.readlines()
     file.close()
-    return "passed" in lines[3]
+    for line in lines:
+        if "[*] Mutation score" in line:
+            return True
+    return False
 
 def get_summary(file_path):
     file = open(file_path, "r")
     lines = file.readlines()
     file.close()
     result = {}
-    for index in range(len(lines) - 5, len(lines) - 1):
+    for index in range(len(lines) - 5, len(lines)):
         tokens = lines[index].split()
         tokens[1] = tokens[1].replace(":", "")
         result[tokens[1]] = int(tokens[2])
@@ -107,7 +110,7 @@ def report_mutation_level_one(report_file, summary_file):
         writer.writerows(rows)
 
 
-def merge_report(path_report, path_result):
+def merge_summary(path_report, path_result):
     dirs = os.listdir(path_report)
     # print(type(dirs))
     # print(dirs[0].split(".")[0] + ".csv")
