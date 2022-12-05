@@ -7,8 +7,8 @@ from sklearn.metrics import accuracy_score, f1_score
 import os
 
 
-mutationOperatorDictionary = ["AOD", "AOR", "ASR", "BCR", "COD", "COI", "CRP", "DDL", "EHD", "EXS", "IHD", "IOD", "IOP",
-                              "LCR", "LOD", "LOR", "ROR", "SCD", "SCI", "SIR"]
+mutationOperatorDictionary = ['AOD', 'AOR', 'ASR', 'BCR', 'COD', 'COI', 'CRP', 'DDL', 'EHD', 'EXS', 'IHD', 'IOD', 'IOP', 'LCR',
+                  'LOD', 'LOR', 'ROR', 'SCD', 'SCI', 'SIR', 'CDI', 'OIL', 'RIL', 'SDI', 'SDL', 'SVD', "ZIL", ]
 typeStatementDictionary = ["conditional", "assignment", "return", "loop", "method", "unknow"]
 typeReturnDictionary = ["float", "matrix", "int", "bool", "Unknown"]
 resultDictionary = ["killed", "survived"]
